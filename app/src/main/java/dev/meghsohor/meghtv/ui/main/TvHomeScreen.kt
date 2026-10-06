@@ -7,13 +7,19 @@ import androidx.activity.compose.BackHandler
 import androidx.activity.compose.LocalActivity
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -87,9 +93,12 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.InputMode
@@ -131,12 +140,17 @@ import dev.meghsohor.meghtv.data.db.CategoryEntity
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.data.db.CountryEntity
 import dev.meghsohor.meghtv.theme.MeghBackground
+import dev.meghsohor.meghtv.theme.MeghCyan
 import dev.meghsohor.meghtv.theme.MeghLive
 import dev.meghsohor.meghtv.theme.MeghSurface
 import dev.meghsohor.meghtv.theme.MeghSurfaceVariant
+import dev.meghsohor.meghtv.ui.DialogBand
+import dev.meghsohor.meghtv.ui.DialogButton
+import dev.meghsohor.meghtv.ui.DialogCard
 import dev.meghsohor.meghtv.ui.MeghIcons
 import dev.meghsohor.meghtv.ui.player.LiveState
 import dev.meghsohor.meghtv.ui.player.PlayerCommand
+import dev.meghsohor.meghtv.ui.player.TrackControlsState
 import dev.meghsohor.meghtv.ui.player.VideoPlayer
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
@@ -151,6 +165,8 @@ import kotlinx.coroutines.withTimeoutOrNull
 private val PanelWidth = 360.dp
 private val PanelHandleWidth = 44.dp
 private const val PanelAnimMs = 220
+private const val SplashMs = 3_000L
+private const val SplashFadeMs = 400
 private const val PanelAutoHideDelayMs = 7000L
 private const val SameBackPressWindowMs = 200L
 private val PanelNavigationKeys =
@@ -167,7 +183,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
 
   // Auto-hide: arrow keys and touches inside the panel restart the count. Touches only stamp
   // lastActivityAt, not state, so a drag doesn't recompose the screen on every move.
-  var panelOpen by remember { mutableStateOf(true) }
+  // A short loading screen at cold start; the panel slides in once it fades. Saved, so recreation doesn't replay it.
+  var splashDone by rememberSaveable { mutableStateOf(false) }
+  var panelOpen by remember { mutableStateOf(splashDone) }
   var activityTick by remember { mutableIntStateOf(0) }
   val lastActivityAt = remember { longArrayOf(SystemClock.uptimeMillis()) }
   var confirmRefresh by remember { mutableStateOf(false) }
@@ -180,6 +198,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
   var liveState by remember { mutableStateOf(LiveState()) }
+  var trackControls by remember { mutableStateOf(TrackControlsState()) }
   val rootFocusRequester = remember { FocusRequester() }
   val panelEntryFocusRequester = remember { FocusRequester() }
   // Hoisted per view, so a list is where it was left after the panel closes or a level goes back.
@@ -208,6 +227,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     if (now - lastBackAt[0] < SameBackPressWindowMs) return@BackHandler
     lastBackAt[0] = now
     when {
+      !splashDone -> Unit
       !panelOpen && playerControlsVisible -> playerCommands.tryEmit(PlayerCommand.HideControls)
       panelOpen -> panelOpen = false
       // finish(): the system default only moves the task back, and reopening would resume the last channel.
@@ -222,8 +242,14 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   // Nothing to watch: on touch unless something plays; on TV only before the first pick, since there
   // only the timer can move the panel off a paused picture or the error screen.
   val nothingToWatch = if (touchMode) !(hasPlayer && playbackActive) else !hasPlayer
-  val suppressAutoHide = refreshInProgress || confirmRefresh || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
-  LaunchedEffect(refreshInProgress) { if (refreshInProgress) panelOpen = true }
+  val suppressAutoHide = !splashDone || refreshInProgress || confirmRefresh || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
+  LaunchedEffect(Unit) {
+    if (splashDone) return@LaunchedEffect
+    delay(SplashMs)
+    splashDone = true
+    panelOpen = true
+  }
+  LaunchedEffect(refreshInProgress, splashDone) { if (refreshInProgress && splashDone) panelOpen = true }
 
   // Once a day at most, checked on every return to the app: TV apps often stay in memory overnight. On a new install
   // the first refresh comes first: the prompt waits until its result is closed, and skips an install left empty.
@@ -235,8 +261,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     onPauseOrDispose {}
   }
   val hasChannels = state.categories.isNotEmpty()
-  LaunchedEffect(resumeCount, state.startupPanelChosen, refreshInProgress, hasChannels, showInfo) {
-    if (state.startupPanelChosen && !refreshInProgress && hasChannels && !showInfo && supportPrompt.dueToday()) {
+  LaunchedEffect(resumeCount, splashDone, state.startupPanelChosen, refreshInProgress, hasChannels, showInfo) {
+    if (splashDone && state.startupPanelChosen && !refreshInProgress && hasChannels && !showInfo && supportPrompt.dueToday()) {
       supportPrompt.markShown()
       showSupport = true
     }
@@ -286,9 +312,25 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           if (event.type == KeyEventType.KeyUp) backDispatcher.onBackPressed()
           return@onPreviewKeyEvent true
         }
+        if (!splashDone) return@onPreviewKeyEvent true
         if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
         // A held key repeats KeyDown; toggles act on the first only.
         val repeated = event.nativeKeyEvent.repeatCount > 0
+        // In the player's Quality/Subtitles/Audio buttons: Left/Right move between them, Up leaves, Down stays.
+        if (!panelOpen && trackControls.focused) {
+          when (event.key) {
+            Key.DirectionUp -> {
+              runCatching { rootFocusRequester.requestFocus() }
+              return@onPreviewKeyEvent true
+            }
+            Key.DirectionDown -> return@onPreviewKeyEvent true
+            else -> Unit
+          }
+        }
+        // With the controls up and those buttons showing, Down moves into them instead of opening the panel.
+        if (!panelOpen && rootSelfFocused && playerControlsVisible && trackControls.available && event.key == Key.DirectionDown) {
+          return@onPreviewKeyEvent playerCommands.tryEmit(PlayerCommand.FocusTrackControls)
+        }
         // Focus parked on the root with the panel up: directional search doesn't look inside it, so move it in directly.
         if (panelOpen && rootSelfFocused && !touchMode && event.key in PanelNavigationKeys) {
           openPanel()
@@ -356,6 +398,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         },
         onControlsVisibilityChange = { playerControlsVisible = it },
         onLiveStateChange = { liveState = it },
+        onTrackControlsChange = { trackControls = it },
         onPlaybackActiveChange = { playbackActive = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
@@ -473,10 +516,52 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       )
     }
 
-    state.refresh?.let { status -> RefreshDialog(status = status, touchMode = touchMode, onDismiss = viewModel::onDismissRefreshResult) }
+    if (splashDone) state.refresh?.let { status -> RefreshDialog(status = status, touchMode = touchMode, onDismiss = viewModel::onDismissRefreshResult) }
 
     if (showSupport) SupportDialog(touchMode = touchMode, onDismiss = { showSupport = false })
     if (showInfo) InfoDialog(touchMode = touchMode, onDismiss = { showInfo = false })
+
+    AnimatedVisibility(visible = !splashDone, enter = EnterTransition.None, exit = fadeOut(tween(SplashFadeMs))) { LoadingScreen() }
+  }
+}
+
+/** The banner under a near-opaque overlay, the logo in the middle with a ring spinning around it. Swallows touches. */
+@Composable
+private fun LoadingScreen() {
+  val spin = rememberInfiniteTransition(label = "splash")
+  val angle by spin.animateFloat(0f, 360f, infiniteRepeatable(tween(1000, easing = LinearEasing)), label = "angle")
+  val track = MaterialTheme.colorScheme.surfaceVariant
+  Box(
+    Modifier.fillMaxSize().pointerInput(Unit) {
+      awaitPointerEventScope {
+        while (true) awaitPointerEvent(PointerEventPass.Initial).changes.forEach { it.consume() }
+      }
+    },
+    contentAlignment = Alignment.Center,
+  ) {
+    Image(painterResource(R.drawable.tv_banner), contentDescription = null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
+    Box(Modifier.fillMaxSize().background(MeghBackground.copy(alpha = 0.9f)))
+    Box(contentAlignment = Alignment.Center) {
+      Canvas(Modifier.size(176.dp)) {
+        val stroke = 4.dp.toPx()
+        val inset = stroke / 2
+        val arcSize = Size(size.width - stroke, size.height - stroke)
+        drawCircle(track, radius = size.minDimension / 2 - inset, style = Stroke(stroke))
+        // A cyan arc fading out at its tail, turning once a second.
+        rotate(angle) {
+          drawArc(
+            Brush.sweepGradient(listOf(Color.Transparent, MeghCyan.copy(alpha = 0.4f), MeghCyan)),
+            startAngle = 0f,
+            sweepAngle = 300f,
+            useCenter = false,
+            topLeft = Offset(inset, inset),
+            size = arcSize,
+            style = Stroke(stroke, cap = StrokeCap.Round),
+          )
+        }
+      }
+      Image(painterResource(R.drawable.splash_logo), contentDescription = "MeghTV", modifier = Modifier.size(112.dp))
+    }
   }
 }
 
@@ -1284,12 +1369,6 @@ private val MenuPadding = PaddingValues(top = 10.dp, bottom = 12.dp)
 private const val RefreshResultAutoCloseMs = 4000L
 
 @Composable
-private fun DialogCard(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
-  val shape = RoundedCornerShape(16.dp)
-  Box(modifier.widthIn(min = 300.dp, max = 420.dp).clip(shape).background(MaterialTheme.colorScheme.surface).border(1.dp, LineColor, shape)) { content() }
-}
-
-@Composable
 private fun ConfirmDialog(
   title: String,
   message: String?,
@@ -1609,6 +1688,7 @@ private val AppFeatures =
     "Channel Up/Down on a remote switches channels",
     "A paused channel resumes where it was paused; Go live jumps back to the live picture",
     "Remembers mute and volume between channels",
+    "Pick the picture quality, subtitles or audio track when a stream offers them",
     "Tries a channel's backup streams when one fails, and marks channels that didn't play",
     "Delete channels you don't want; a refresh brings them back",
     "Refresh to get the latest channel list",
@@ -1651,26 +1731,4 @@ private const val SupportText = "MeghTV is free to use and has no ads. If you li
 private const val KofiUrl = "https://ko-fi.com/Z5Z8281UOM"
 private const val KofiDisplayUrl = "ko-fi.com/Z5Z8281UOM"
 private val RefreshDialogWidth = 400.dp
-private val DialogBand = lerp(MeghSurface, MeghBackground, 0.5f)
 
-/** [secondary] is the way out (Cancel, Not now): muted, with a fainter outline. */
-@Composable
-private fun DialogButton(label: String, onClick: () -> Unit, modifier: Modifier = Modifier, secondary: Boolean = false) {
-  val interaction = remember { MutableInteractionSource() }
-  val focused by interaction.collectIsFocusedAsState()
-  val color = if (secondary) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.primary
-  val outline = if (focused) color else color.copy(alpha = if (secondary) 0.2f else 0.45f)
-  Text(
-    label,
-    color = color,
-    style = MaterialTheme.typography.titleSmall,
-    modifier =
-      modifier
-        .clip(RoundedCornerShape(8.dp))
-        .background(if (focused) color.copy(alpha = 0.15f) else Color.Transparent)
-        .border(1.dp, outline, RoundedCornerShape(8.dp))
-        .clickable(interactionSource = interaction, indication = null, onClick = onClick)
-        .focusable(interactionSource = interaction)
-        .padding(horizontal = 16.dp, vertical = 8.dp),
-  )
-}
