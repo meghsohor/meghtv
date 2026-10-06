@@ -9,17 +9,12 @@ import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.animateContentSize
-import androidx.compose.animation.core.LinearEasing
-import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.animation.core.infiniteRepeatable
-import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -93,12 +88,9 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
-import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.InputMode
@@ -140,7 +132,6 @@ import dev.meghsohor.meghtv.data.db.CategoryEntity
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.data.db.CountryEntity
 import dev.meghsohor.meghtv.theme.MeghBackground
-import dev.meghsohor.meghtv.theme.MeghCyan
 import dev.meghsohor.meghtv.theme.MeghLive
 import dev.meghsohor.meghtv.theme.MeghSurface
 import dev.meghsohor.meghtv.theme.MeghSurfaceVariant
@@ -525,46 +516,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     if (showInfo) InfoDialog(touchMode = touchMode, onDismiss = { showInfo = false })
 
     AnimatedVisibility(visible = !splashDone, enter = EnterTransition.None, exit = fadeOut(tween(SplashFadeMs))) { LoadingScreen() }
-  }
-}
-
-/** The banner under a near-opaque overlay, the logo in the middle with a ring spinning around it. Swallows touches. */
-@Composable
-private fun LoadingScreen() {
-  val spin = rememberInfiniteTransition(label = "splash")
-  val angle by spin.animateFloat(0f, 360f, infiniteRepeatable(tween(1000, easing = LinearEasing)), label = "angle")
-  val track = MaterialTheme.colorScheme.surfaceVariant
-  Box(
-    Modifier.fillMaxSize().pointerInput(Unit) {
-      awaitPointerEventScope {
-        while (true) awaitPointerEvent(PointerEventPass.Initial).changes.forEach { it.consume() }
-      }
-    },
-    contentAlignment = Alignment.Center,
-  ) {
-    Image(painterResource(R.drawable.tv_banner), contentDescription = null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
-    Box(Modifier.fillMaxSize().background(MeghBackground.copy(alpha = 0.9f)))
-    Box(contentAlignment = Alignment.Center) {
-      Canvas(Modifier.size(176.dp)) {
-        val stroke = 4.dp.toPx()
-        val inset = stroke / 2
-        val arcSize = Size(size.width - stroke, size.height - stroke)
-        drawCircle(track, radius = size.minDimension / 2 - inset, style = Stroke(stroke))
-        // A cyan arc fading out at its tail, turning once a second.
-        rotate(angle) {
-          drawArc(
-            Brush.sweepGradient(listOf(Color.Transparent, MeghCyan.copy(alpha = 0.4f), MeghCyan)),
-            startAngle = 0f,
-            sweepAngle = 300f,
-            useCenter = false,
-            topLeft = Offset(inset, inset),
-            size = arcSize,
-            style = Stroke(stroke, cap = StrokeCap.Round),
-          )
-        }
-      }
-      Image(painterResource(R.drawable.splash_logo), contentDescription = "MeghTV", modifier = Modifier.size(112.dp))
-    }
   }
 }
 
@@ -1734,4 +1685,3 @@ private const val SupportText = "MeghTV is free to use and has no ads. If you li
 private const val KofiUrl = "https://ko-fi.com/Z5Z8281UOM"
 private const val KofiDisplayUrl = "ko-fi.com/Z5Z8281UOM"
 private val RefreshDialogWidth = 400.dp
-
