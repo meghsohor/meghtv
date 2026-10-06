@@ -226,19 +226,26 @@ fun VideoPlayer(
     val listener =
       object : Player.Listener {
         override fun onPlayerError(error: PlaybackException) {
-          // Paused past the live window: the source is fine, rejoin at the live edge.
+          val params = player.trackSelectionParameters
+          // Paused past the live window: the source is fine, rejoin at the live edge. Fallen behind with a quality pinned,
+          // the connection can't keep up with it: back to Auto too, or it stalls and rejoins forever.
           if (error.errorCode == PlaybackException.ERROR_CODE_BEHIND_LIVE_WINDOW && liveRejoins[0] < MaxLiveRejoins) {
             liveRejoins[0]++
+            if (params.overrides.values.any { it.type == C.TRACK_TYPE_VIDEO }) {
+              player.trackSelectionParameters = params.buildUpon().clearOverridesOfType(C.TRACK_TYPE_VIDEO).build()
+            }
             player.seekToDefaultPosition()
             player.prepare()
             joinedLiveEdge()
             return
           }
-          // A pinned quality takes away Media3's fallback to the other variants: drop the pin and try this source again
-          // before counting the source as broken.
-          if (player.trackSelectionParameters.overrides.values.any { it.type == C.TRACK_TYPE_VIDEO }) {
-            player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().clearOverridesOfType(C.TRACK_TYPE_VIDEO).build()
+          // A picked quality, subtitle or audio track takes away Media3's own fallback: drop the picks and try this
+          // source again at the live edge before counting it as broken. Once only: the picks are gone after this.
+          if (params.overrides.isNotEmpty()) {
+            player.trackSelectionParameters = params.buildUpon().clearOverrides().build()
+            player.seekToDefaultPosition()
             player.prepare()
+            joinedLiveEdge()
             return
           }
           onSourceFailed(error)
