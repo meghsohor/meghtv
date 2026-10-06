@@ -2,7 +2,6 @@ package dev.meghsohor.meghtv.ui.player
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.res.ColorStateList
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
@@ -15,7 +14,6 @@ import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.tween
@@ -49,6 +47,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
@@ -61,6 +60,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
@@ -71,10 +71,13 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
@@ -84,7 +87,6 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
-import androidx.media3.common.ForwardingPlayer
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MimeTypes
 import androidx.media3.common.PlaybackException
@@ -115,7 +117,10 @@ private const val VolumeKey = "volume"
 /** Behind live by less than this after a pause isn't worth a Go live button. */
 private const val GoLiveMinBehindMs = 3_000L
 
-enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive }
+enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive, FocusTrackControls }
+
+/** [available]: at least one of Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
+data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false)
 
 /** [behind]: paused, or playing on behind the live edge. [goLiveOffered]: the Go live chip is up. */
 data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = false)
@@ -139,6 +144,7 @@ fun VideoPlayer(
   onDeleteChannel: () -> Unit,
   modifier: Modifier = Modifier,
   onLiveStateChange: (LiveState) -> Unit = {},
+  onTrackControlsChange: (TrackControlsState) -> Unit = {},
   overlayEndPadding: Dp = 0.dp,
   controlsEdgeInset: Dp = 0.dp,
   playerCommands: Flow<PlayerCommand> = emptyFlow(),
@@ -151,16 +157,6 @@ fun VideoPlayer(
       .setHandleAudioBecomingNoisy(true)
       .build()
   }
-  // Playback speed means nothing on live TV: drop it from the settings menu.
-  val controllerPlayer = remember(player) {
-    object : ForwardingPlayer(player) {
-      override fun getAvailableCommands(): Player.Commands =
-        super.getAvailableCommands().buildUpon().remove(Player.COMMAND_SET_SPEED_AND_PITCH).build()
-
-      override fun isCommandAvailable(command: Int): Boolean =
-        command != Player.COMMAND_SET_SPEED_AND_PITCH && super.isCommandAvailable(command)
-    }
-  }
   // Unkeyed: the player listener closes over these once; the load effect resets them on a switch.
   var attempt by remember { mutableStateOf(SourceAttempt()) }
   var retryTick by remember(channelId, streamUrls) { mutableIntStateOf(0) }
@@ -168,6 +164,10 @@ fun VideoPlayer(
   var keepScreenOn by remember { mutableStateOf(false) }
   var buffering by remember { mutableStateOf(false) }
   var controlsVisible by remember { mutableStateOf(false) }
+  var tracks by remember { mutableStateOf(Tracks.EMPTY) }
+  var openMenu by remember { mutableStateOf<TrackKind?>(null) }
+  var trackControlsFocused by remember { mutableStateOf(false) }
+  val trackControlsFocus = remember { FocusRequester() }
   var playerView by remember { mutableStateOf<PlayerView?>(null) }
   // Kept across channel switches and app restarts.
   val audioPrefs = remember { context.getSharedPreferences(AudioPrefsName, Context.MODE_PRIVATE) }
@@ -234,6 +234,13 @@ fun VideoPlayer(
             joinedLiveEdge()
             return
           }
+          // A pinned quality takes away Media3's fallback to the other variants: drop the pin and try this source again
+          // before counting the source as broken.
+          if (player.trackSelectionParameters.overrides.values.any { it.type == C.TRACK_TYPE_VIDEO }) {
+            player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().clearOverridesOfType(C.TRACK_TYPE_VIDEO).build()
+            player.prepare()
+            return
+          }
           onSourceFailed(error)
         }
 
@@ -243,16 +250,15 @@ fun VideoPlayer(
           updateHeldBack()
           val view = playerView ?: return
           view.findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(view.resources.displayMetrics.density, dimmed = !playWhenReady)
-          view.controllerShowTimeoutMs = if (playWhenReady) ControlsAutoHideMs else 0
+          view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null) ControlsAutoHideMs else 0
           if (view.isControllerFullyVisible) view.showController() // re-arm with the new timeout
         }
 
         // Another app's audio (a call, the Assistant) holds playback back without a pause.
         override fun onPlaybackSuppressionReasonChanged(playbackSuppressionReason: Int) = updateHeldBack()
 
-        // Most streams have no captions, and Media3 would show a disabled CC button.
-        override fun onTracksChanged(tracks: Tracks) {
-          playerView?.setShowSubtitleButton(tracks.containsType(C.TRACK_TYPE_TEXT))
+        override fun onTracksChanged(newTracks: Tracks) {
+          tracks = newTracks
         }
 
         override fun onEvents(player: Player, events: Player.Events) {
@@ -347,6 +353,27 @@ fun VideoPlayer(
     if (currentControlsAllowed && playbackError == null) playerView?.showController()
   }
 
+  // Media3's hide timer doesn't see touches or keys on our Compose controls.
+  fun keepControlsAlive() {
+    playerView?.takeIf { it.isControllerFullyVisible }?.showController()
+  }
+
+  // All three buttons always show; one is enabled only while the stream offers a choice. A pick changes tracks too.
+  val enabledKinds = remember(tracks) { TrackKind.entries.filter { trackOptions(it, tracks, player.trackSelectionParameters).isNotEmpty() }.toSet() }
+  val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
+  val trackControlsShown = controlsVisible && playbackError == null
+  val trackControlsReachable = trackControlsShown && enabledKinds.isNotEmpty()
+  LaunchedEffect(trackControlsReachable, trackControlsFocused) {
+    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused))
+  }
+  DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
+  // An open picker holds the controls up, so the button it came from is still there to return to.
+  LaunchedEffect(openMenu) {
+    val view = playerView ?: return@LaunchedEffect
+    view.controllerShowTimeoutMs = if (openMenu == null && player.playWhenReady) ControlsAutoHideMs else 0
+    if (view.isControllerFullyVisible) view.showController()
+  }
+
   fun goLive() {
     player.seekToDefaultPosition()
     setPlaying(true)
@@ -362,6 +389,10 @@ fun VideoPlayer(
         PlayerCommand.Pause -> setPlaying(false)
         PlayerCommand.TogglePlayPause -> setPlaying(!player.playWhenReady)
         PlayerCommand.GoLive -> goLive()
+        PlayerCommand.FocusTrackControls -> {
+          keepControlsAlive()
+          runCatching { trackControlsFocus.requestFocus() }
+        }
       }
     }
   }
@@ -386,6 +417,9 @@ fun VideoPlayer(
     } else {
       // A fresh decoder per stream: a reused one can leave the old channel's larger frame around a smaller new one.
       player.stop()
+      // A picked quality or track belongs to the stream it was picked on.
+      player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().clearOverrides().setTrackTypeDisabled(C.TRACK_TYPE_TEXT, false).build()
+      openMenu = null
       // Every load, a backup source too, starts at the live edge, with its own offset baseline.
       behindLiveMs = 0L
       pausedSince[0] = 0L
@@ -400,11 +434,6 @@ fun VideoPlayer(
       }
       player.playWhenReady = true
     }
-  }
-
-  // Media3's hide timer doesn't see touches on our Compose controls.
-  fun keepControlsAlive() {
-    playerView?.takeIf { it.isControllerFullyVisible }?.showController()
   }
 
   Box(modifier) {
@@ -424,21 +453,16 @@ fun VideoPlayer(
           setShowFastForwardButton(false)
           setShowPreviousButton(false)
           setShowNextButton(false)
-          setShowSubtitleButton(false) // until onTracksChanged finds captions
+          setShowSubtitleButton(false)
           // Play/pause is in ControlsRow; the centre only gets PlayPausePulse.
           findViewById<View>(Media3R.id.exo_center_controls)?.visibility = View.GONE
           // No setter for the time bar.
           findViewById<View>(Media3R.id.exo_progress)?.visibility = View.GONE
           findViewById<View>(Media3R.id.exo_time)?.visibility = View.GONE
 
-          // The controller has no theme hook.
-          findViewById<ImageButton>(Media3R.id.exo_subtitle)?.imageTintList = ColorStateList.valueOf(MeghCyan.toArgb())
-          findViewById<ImageButton>(Media3R.id.exo_settings)?.imageTintList = ColorStateList.valueOf(MeghCyan.toArgb())
           findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(resources.displayMetrics.density, dimmed = false)
-          findViewById<View>(Media3R.id.exo_bottom_bar)?.apply {
-            setBackgroundColor(android.graphics.Color.TRANSPARENT)
-            setPadding(0, 0, (controlsEdgeInset.value * resources.displayMetrics.density).toInt(), 0) // the bar is always LTR
-          }
+          // Its settings and CC buttons and their popups are replaced by TrackControls and TrackPickerDialog.
+          findViewById<View>(Media3R.id.exo_bottom_bar)?.visibility = View.GONE
 
           setControllerVisibilityListener(
             PlayerView.ControllerVisibilityListener { visibility ->
@@ -459,7 +483,7 @@ fun VideoPlayer(
         }
       },
       update = { view ->
-        view.player = controllerPlayer
+        view.player = player
         // Controls left under the error screen would still take taps and Back.
         if (!controlsAllowed || playbackError != null) view.hideController()
       },
@@ -489,6 +513,35 @@ fun VideoPlayer(
         // Excluded from the edge back-swipe zone, which swallowed taps on play/pause.
         modifier = Modifier.align(Alignment.BottomStart).height(60.dp).systemGestureExclusion().padding(start = controlsEdgeInset),
       )
+    }
+
+    if (trackControlsShown) {
+      TrackControls(
+        enabledKinds = enabledKinds,
+        focusRequester = trackControlsFocus,
+        onOpen = { openMenu = it },
+        onFocusChange = { trackControlsFocused = it },
+        onActivity = ::keepControlsAlive,
+        modifier = Modifier.align(Alignment.BottomEnd).height(60.dp).systemGestureExclusion().padding(end = controlsEdgeInset),
+      )
+    }
+
+    openMenu?.let { kind ->
+      val options = trackOptions(kind, tracks, player.trackSelectionParameters, player.videoFormat?.height ?: 0)
+      if (options.isEmpty()) {
+        LaunchedEffect(Unit) { openMenu = null }
+      } else {
+        TrackPickerDialog(
+          kind,
+          options,
+          touchMode = touchControls,
+          onPick = { option ->
+            player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().apply(option.apply).build()
+            openMenu = null
+          },
+          onDismiss = { openMenu = null },
+        )
+      }
     }
 
     // Centred on the part of the video the panel doesn't cover.
@@ -636,6 +689,56 @@ private fun ControlsRow(
       },
     )
     goLiveChip()
+  }
+}
+
+/**
+ * Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the remote.
+ * The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
+ */
+@Composable
+private fun TrackControls(
+  enabledKinds: Set<TrackKind>,
+  focusRequester: FocusRequester,
+  onOpen: (TrackKind) -> Unit,
+  onFocusChange: (Boolean) -> Unit,
+  onActivity: () -> Unit,
+  modifier: Modifier = Modifier,
+) {
+  val currentOnFocusChange by rememberUpdatedState(onFocusChange)
+  DisposableEffect(Unit) { onDispose { currentOnFocusChange(false) } }
+  Row(
+    modifier.onFocusChanged { currentOnFocusChange(it.hasFocus) }.onPreviewKeyEvent {
+      onActivity()
+      false
+    },
+    verticalAlignment = Alignment.CenterVertically,
+    horizontalArrangement = Arrangement.spacedBy(4.dp),
+  ) {
+    val firstEnabled = TrackKind.entries.firstOrNull { it in enabledKinds }
+    TrackKind.entries.forEach { kind ->
+      key(kind) {
+        val enabled = kind in enabledKinds
+        val interaction = remember { MutableInteractionSource() }
+        val focused by interaction.collectIsFocusedAsState()
+        Box(
+          Modifier.size(48.dp)
+            .then(if (kind == firstEnabled) Modifier.focusRequester(focusRequester) else Modifier)
+            .clip(CircleShape)
+            .background(if (focused) MeghCyan.copy(alpha = 0.2f) else Color.Transparent)
+            .border(2.dp, if (focused) MeghCyan else Color.Transparent, CircleShape)
+            // Disabled: neither clickable nor focusable, so D-pad Left/Right skip it.
+            .clickable(enabled = enabled, interactionSource = interaction, indication = null, onClickLabel = kind.title) {
+              onActivity()
+              onOpen(kind)
+            }
+            .semantics { contentDescription = if (enabled) kind.title else "${kind.title} (not available)" },
+          contentAlignment = Alignment.Center,
+        ) {
+          Icon(kind.icon, contentDescription = null, tint = if (enabled) MeghCyan else Color.White.copy(alpha = 0.3f), modifier = Modifier.size(24.dp))
+        }
+      }
+    }
   }
 }
 
