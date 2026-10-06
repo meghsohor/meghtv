@@ -166,6 +166,7 @@ private val PanelWidth = 360.dp
 private val PanelHandleWidth = 44.dp
 private const val PanelAnimMs = 220
 private const val SplashMs = 3_000L
+private const val HeldKeyWindowMs = 1_000L
 private const val SplashFadeMs = 400
 private const val PanelAutoHideDelayMs = 7000L
 private const val SameBackPressWindowMs = 200L
@@ -199,6 +200,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var playerControlsVisible by remember { mutableStateOf(false) }
   var liveState by remember { mutableStateOf(LiveState()) }
   var trackControls by remember { mutableStateOf(TrackControlsState()) }
+  val leftTrackControlsAt = remember { longArrayOf(0L) }
   val rootFocusRequester = remember { FocusRequester() }
   val panelEntryFocusRequester = remember { FocusRequester() }
   // Hoisted per view, so a list is where it was left after the panel closes or a level goes back.
@@ -320,12 +322,17 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         if (!panelOpen && trackControls.focused) {
           when (event.key) {
             Key.DirectionUp -> {
+              leftTrackControlsAt[0] = SystemClock.uptimeMillis()
               runCatching { rootFocusRequester.requestFocus() }
               return@onPreviewKeyEvent true
             }
             Key.DirectionDown -> return@onPreviewKeyEvent true
             else -> Unit
           }
+        }
+        // A held Up that just left those buttons: its repeats would open the panel.
+        if (!panelOpen && repeated && event.key == Key.DirectionUp && SystemClock.uptimeMillis() - leftTrackControlsAt[0] < HeldKeyWindowMs) {
+          return@onPreviewKeyEvent true
         }
         // With the controls up and those buttons showing, Down moves into them instead of opening the panel.
         if (!panelOpen && rootSelfFocused && playerControlsVisible && trackControls.available && event.key == Key.DirectionDown) {
