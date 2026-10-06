@@ -268,16 +268,7 @@ internal fun SupportDialog(touchMode: Boolean, onDismiss: () -> Unit) {
           color = MaterialTheme.colorScheme.onSurfaceVariant,
           style = MaterialTheme.typography.bodyMedium,
         )
-        if (isTv) {
-          Row(Modifier.padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            Image(
-              painterResource(R.drawable.kofi_qr),
-              contentDescription = "QR code for $KofiDisplayUrl",
-              modifier = Modifier.size(128.dp).clip(RoundedCornerShape(8.dp)),
-            )
-            Text("Scan with your phone, or visit $KofiDisplayUrl", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
-          }
-        }
+        if (isTv) KofiQrCode(Modifier.padding(top = 4.dp))
         Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
           if (isTv) {
             DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus))
@@ -294,6 +285,18 @@ internal fun SupportDialog(touchMode: Boolean, onDismiss: () -> Unit) {
         }
       }
     }
+  }
+}
+
+@Composable
+private fun KofiQrCode(modifier: Modifier = Modifier) {
+  Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+    Image(
+      painterResource(R.drawable.kofi_qr),
+      contentDescription = "QR code for $KofiDisplayUrl",
+      modifier = Modifier.size(128.dp).clip(RoundedCornerShape(8.dp)),
+    )
+    Text("Scan with your phone, or visit $KofiDisplayUrl", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
   }
 }
 
@@ -325,18 +328,19 @@ internal fun InfoDialog(touchMode: Boolean, onDismiss: () -> Unit) {
           Modifier.weight(1f, fill = false).verticalScroll(scroll).padding(horizontal = 24.dp, vertical = 16.dp),
           verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-          Text(
-            if (isTv) "$SupportText Visit $KofiDisplayUrl." else SupportText,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            style = MaterialTheme.typography.bodyMedium,
-            modifier = Modifier.padding(bottom = 8.dp),
-          )
           for (feature in AppFeatures) {
             Row {
               Text("•", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.width(16.dp))
               Text(feature, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
             }
           }
+          Text(
+            SupportText,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.padding(top = 8.dp),
+          )
+          if (isTv) KofiQrCode()
           Text(
             "Channels are publicly available streams listed by the iptv-org project. MeghTV doesn't host any of them.",
             color = MaterialTheme.colorScheme.onSurfaceVariant,
