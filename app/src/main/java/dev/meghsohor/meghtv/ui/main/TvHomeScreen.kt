@@ -151,7 +151,6 @@ import kotlinx.coroutines.withTimeoutOrNull
 private val PanelWidth = 360.dp
 private val PanelHandleWidth = 44.dp
 private const val PanelAnimMs = 220
-private const val GoLiveRepeatWindowMs = 1_000L
 private const val PanelAutoHideDelayMs = 7000L
 private const val SameBackPressWindowMs = 200L
 private val PanelNavigationKeys =
@@ -190,13 +189,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   val openedFrom = remember { mutableMapOf<PanelState, Int>() }
   val backDispatcher = LocalOnBackPressedDispatcherOwner.current?.onBackPressedDispatcher
   val playerCommands = remember { MutableSharedFlow<PlayerCommand>(extraBufferCapacity = 1) }
-  // A held Right or fast-forward repeats after the flag clears: those repeats are swallowed, not passed on to open the panel.
-  val wentLiveAt = remember { longArrayOf(0L) }
-  fun goLive(): Boolean {
-    wentLiveAt[0] = SystemClock.uptimeMillis()
-    return playerCommands.tryEmit(PlayerCommand.GoLive)
-  }
-  fun goLiveRepeat(repeated: Boolean) = repeated && SystemClock.uptimeMillis() - wentLiveAt[0] < GoLiveRepeatWindowMs
   val activity = LocalActivity.current
   var rootHasFocus by remember { mutableStateOf(false) }
   var rootSelfFocused by remember { mutableStateOf(false) }
@@ -317,11 +309,13 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           Key.MediaPlayPause -> repeated || playerCommands.tryEmit(PlayerCommand.TogglePlayPause)
           Key.MediaPlay -> playerCommands.tryEmit(PlayerCommand.Play)
           Key.MediaPause -> playerCommands.tryEmit(PlayerCommand.Pause)
-          Key.MediaFastForward if goLiveRepeat(repeated) -> true
-          Key.MediaFastForward -> liveState.behind && goLive()
-          // With the chip up (controls showing, behind live), Right goes live; else it opens the panel.
-          Key.DirectionRight if !panelOpen && goLiveRepeat(repeated) -> true
-          Key.DirectionRight if !panelOpen && rootSelfFocused && playerControlsVisible && liveState.goLiveOffered && !repeated -> goLive()
+          // A held key acts once: its repeats would rejoin live again, or open the panel once the flag clears.
+          Key.MediaFastForward -> repeated || (liveState.behind && playerCommands.tryEmit(PlayerCommand.GoLive))
+          // With the chip up (controls showing, behind live), Right goes live; else it opens the panel. A fresh press
+          // with the panel closed opens it at once, so repeats arriving while it's still closed only follow a go-live.
+          Key.DirectionRight if !panelOpen && repeated -> true
+          Key.DirectionRight if !panelOpen && rootSelfFocused && playerControlsVisible && liveState.goLiveOffered ->
+            playerCommands.tryEmit(PlayerCommand.GoLive)
           // Panel closed: OK shows the controls, then plays/pauses, for remotes without media keys.
           Key.DirectionCenter, Key.Enter, Key.NumPadEnter ->
             when {
@@ -1404,12 +1398,13 @@ private fun RefreshDialog(status: RefreshStatus, touchMode: Boolean, onDismiss: 
       Column(Modifier.padding(start = 24.dp, top = 24.dp, end = 24.dp, bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(texts.title, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
         RefreshBar(status)
-        Text(texts.line, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
+        // Fixed line counts, so the card keeps its size whatever the step or message.
+        Text(texts.line, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(
           texts.detail,
           color = MaterialTheme.colorScheme.onSurfaceVariant,
           style = MaterialTheme.typography.labelMedium,
-          minLines = 1,
+          minLines = 2,
           maxLines = 2,
           overflow = TextOverflow.Ellipsis,
         )
@@ -1465,7 +1460,8 @@ private fun refreshTexts(status: RefreshStatus): RefreshTexts {
         )
       RefreshTexts("Channels updated", "${number.format(result.total)} channels", changes.joinToString(" · "))
     }
-    is RefreshStatus.Failed -> RefreshTexts("Refresh failed", "Couldn't download the channel list. Check the connection and try again.", status.reason.orEmpty())
+    is RefreshStatus.Failed ->
+      RefreshTexts("Refresh failed", "Couldn't download the channel list.", listOfNotNull("Check the connection and try again.", status.reason).joinToString("\n"))
   }
 }
 
