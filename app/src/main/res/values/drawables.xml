@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- The app's line icons in place of Media3's. -->
-    <drawable name="exo_styled_controls_settings">@drawable/ic_player_settings</drawable>
-    <drawable name="exo_styled_controls_subtitle_on">@drawable/ic_player_captions_on</drawable>
-    <drawable name="exo_styled_controls_subtitle_off">@drawable/ic_player_captions_off</drawable>
-</resources>
