@@ -2,7 +2,7 @@
 
 Operational notes for any AI agent working in this repo — the stuff that isn't in the README because it's about environment/tooling quirks and hard-won gotchas, not the app itself. The README only lists the main features; the detailed navigation and playback behaviour is documented in comments in the code:
 - `ui/main/TvHomeScreen.kt`: the root screen (remote-key routing, Back, panel auto-hide, loading screen and support-prompt timing).
-- `SidePanel.kt` (pinned tabs, shared row style and tokens), `ChannelLists.kt` (menus and channel lists), `MenuDialogs.kt` (the menu's popups), `LoadingScreen.kt`.
+- `SidePanel.kt` (pinned tabs, shared row style and tokens), `ChannelLists.kt` (menus and channel lists), `MenuDialogs.kt` (the menu's popups, and `SupportPrompt`'s once-a-day store), `LoadingScreen.kt`.
 - `ui/player/VideoPlayer.kt`: playback, source fallback, Go live. `PlayerControls.kt` holds its on-screen controls, `TrackMenus.kt` the Quality/Subtitles/Audio options and picker.
 - `TvHomeViewModel.kt`: startup, channel zapping, refresh.
 
