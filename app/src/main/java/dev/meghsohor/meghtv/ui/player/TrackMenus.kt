@@ -68,6 +68,10 @@ private class TrackRef(val group: Tracks.Group, val index: Int) {
     get() = group.isTrackSelected(index)
 
   fun override() = TrackSelectionOverride(group.mediaTrackGroup, index)
+
+  /** Stable for this source: the track group's id and the track's place in it. */
+  val key
+    get() = "${group.mediaTrackGroup.id}/$index"
 }
 
 private fun Tracks.supported(type: Int): List<TrackRef> =
@@ -77,10 +81,16 @@ private fun Tracks.supported(type: Int): List<TrackRef> =
  * What [kind] offers right now; empty when there is nothing to choose between, so its button stays hidden.
  * [playingHeight] is the picture height being rendered, for the Auto label.
  */
-internal fun trackOptions(kind: TrackKind, tracks: Tracks, params: TrackSelectionParameters, playingHeight: Int = 0): List<TrackOption> =
+internal fun trackOptions(
+  kind: TrackKind,
+  tracks: Tracks,
+  params: TrackSelectionParameters,
+  playingHeight: Int = 0,
+  keptCaptions: Set<String> = emptySet(),
+): List<TrackOption> =
   when (kind) {
     TrackKind.Quality -> qualityOptions(tracks, params, playingHeight)
-    TrackKind.Subtitles -> subtitleOptions(tracks, params)
+    TrackKind.Subtitles -> subtitleOptions(tracks, params, keptCaptions)
     TrackKind.Audio -> audioOptions(tracks)
   }
 
@@ -103,15 +113,21 @@ private fun qualityOptions(tracks: Tracks, params: TrackSelectionParameters, pla
 }
 
 // Media3 exposes a CEA-608 track on any TS stream that doesn't declare its captions, whether or not it carries any.
-// A declared one can look the same (no language, and its label is lost), so one that is on or flagged default stays.
-private fun TrackRef.isUndeclaredCaption(): Boolean {
+// A declared one can look the same (no language, and its label is lost), so one that is on or flagged default stays,
+// and so does one already offered on this source ([keptCaptions]), or turning it off would hide it for good.
+private fun TrackRef.isUndeclaredCaption(keptCaptions: Set<String>): Boolean {
   val f = format
   val cea = f.sampleMimeType == MimeTypes.APPLICATION_CEA608 || f.sampleMimeType == MimeTypes.APPLICATION_CEA708
-  return cea && !selected && f.selectionFlags == 0 && f.label.isNullOrBlank() && (f.language.isNullOrBlank() || f.language == C.LANGUAGE_UNDETERMINED)
+  return cea && !selected && key !in keptCaptions && f.selectionFlags == 0 && f.label.isNullOrBlank() &&
+    (f.language.isNullOrBlank() || f.language == C.LANGUAGE_UNDETERMINED)
 }
 
-private fun subtitleOptions(tracks: Tracks, params: TrackSelectionParameters): List<TrackOption> {
-  val tracksAvailable = tracks.supported(C.TRACK_TYPE_TEXT).filterNot { it.isUndeclaredCaption() }
+/** The caption tracks of [tracks] to keep offering for the rest of this source: those on now or flagged default. */
+internal fun captionsToKeep(tracks: Tracks): Set<String> =
+  tracks.supported(C.TRACK_TYPE_TEXT).filter { it.selected || it.format.selectionFlags != 0 }.mapTo(HashSet()) { it.key }
+
+private fun subtitleOptions(tracks: Tracks, params: TrackSelectionParameters, keptCaptions: Set<String>): List<TrackOption> {
+  val tracksAvailable = tracks.supported(C.TRACK_TYPE_TEXT).filterNot { it.isUndeclaredCaption(keptCaptions) }
   if (tracksAvailable.isEmpty()) return emptyList()
   val off = C.TRACK_TYPE_TEXT in params.disabledTrackTypes || tracksAvailable.none { it.selected }
   val labels = labelsFor(tracksAvailable, fallback = "Subtitles")

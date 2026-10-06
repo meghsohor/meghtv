@@ -168,6 +168,8 @@ fun VideoPlayer(
   var buffering by remember { mutableStateOf(false) }
   var controlsVisible by remember { mutableStateOf(false) }
   var tracks by remember { mutableStateOf(Tracks.EMPTY) }
+  // Caption tracks offered on this source; reset on each load.
+  var keptCaptions by remember { mutableStateOf(emptySet<String>()) }
   // The rendered picture height, shown on the Quality button.
   var videoHeight by remember { mutableIntStateOf(0) }
   var openMenu by remember { mutableStateOf<TrackKind?>(null) }
@@ -270,6 +272,7 @@ fun VideoPlayer(
         override fun onPlaybackSuppressionReasonChanged(playbackSuppressionReason: Int) = updateHeldBack()
 
         override fun onTracksChanged(newTracks: Tracks) {
+          keptCaptions = keptCaptions + captionsToKeep(newTracks)
           tracks = newTracks
         }
 
@@ -375,7 +378,10 @@ fun VideoPlayer(
   }
 
   // All three buttons always show; one is enabled only while the stream offers a choice. A pick changes tracks too.
-  val enabledKinds = remember(tracks) { TrackKind.entries.filter { trackOptions(it, tracks, player.trackSelectionParameters).isNotEmpty() }.toSet() }
+  val enabledKinds =
+    remember(tracks, keptCaptions) {
+      TrackKind.entries.filter { trackOptions(it, tracks, player.trackSelectionParameters, keptCaptions = keptCaptions).isNotEmpty() }.toSet()
+    }
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null
   val trackControlsReachable = trackControlsShown && enabledKinds.isNotEmpty()
@@ -433,6 +439,7 @@ fun VideoPlayer(
     } else {
       // A fresh decoder per stream: a reused one can leave the old channel's larger frame around a smaller new one.
       player.stop()
+      keptCaptions = emptySet()
       // A picked quality or track belongs to the stream it was picked on.
       player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().clearOverrides().setTrackTypeDisabled(C.TRACK_TYPE_TEXT, false).build()
       openMenu = null
@@ -544,7 +551,7 @@ fun VideoPlayer(
     }
 
     openMenu?.let { kind ->
-      val options = trackOptions(kind, tracks, player.trackSelectionParameters, player.videoFormat?.height ?: 0)
+      val options = trackOptions(kind, tracks, player.trackSelectionParameters, player.videoFormat?.height ?: 0, keptCaptions)
       if (options.isEmpty()) {
         LaunchedEffect(Unit) { openMenu = null }
       } else {
