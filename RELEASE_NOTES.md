@@ -3,6 +3,8 @@
 - **Pause without missing your place.** A paused channel now resumes where you paused it. While you're behind, a **Go live** button jumps back to the live picture. On a TV remote, press Right or fast-forward.
 - **Mute is remembered.** Mute and volume stay as you left them when you switch channels or reopen the app.
 - **Refresh shows its progress.** While the channel list updates you can see how many playlists have downloaded and how many channels were found, then how many were added or removed.
+- **Quality, subtitles and audio.** Buttons in the player let you pick the picture quality (or leave it on Auto), turn subtitles on, or switch the audio track; a button is greyed out when the stream has nothing to choose. On a TV remote, press Down with the controls showing.
+- **A new start screen** while the app gets ready.
 - **Info & Support.** A new info screen lists what MeghTV can do and shows the app version. Open it from **Info & Support** at the top of the menu on a TV, or the **i** button on a phone. A short support message also appears at most once a day.
 
 ## Install

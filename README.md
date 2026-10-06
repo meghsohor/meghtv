@@ -22,6 +22,7 @@ MeghTV is free to use and has no ads. If you find it useful, you can support its
 - Channels browsed by category or country, with search and favourites stored on the device.
 - Channels that failed to play are marked. Any channel can be deleted; a refresh brings deleted channels back.
 - Plays HLS, DASH, SmoothStreaming and RTSP streams, and tries a channel's other stream URLs when one fails.
+- Picture quality, subtitles and audio track can be picked when a stream offers more than one.
 - A paused channel resumes where it was paused; "Go live" (or Right / fast-forward on a TV remote) jumps back to the live picture.
 - "Refresh Channels" updates the channel list from iptv-org.
 
