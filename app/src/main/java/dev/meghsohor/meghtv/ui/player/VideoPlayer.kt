@@ -78,8 +78,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.edit
 import androidx.lifecycle.Lifecycle
@@ -92,6 +94,7 @@ import androidx.media3.common.MimeTypes
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.common.Tracks
+import androidx.media3.common.VideoSize
 import androidx.media3.exoplayer.DefaultRenderersFactory
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.ui.PlayerView
@@ -165,6 +168,8 @@ fun VideoPlayer(
   var buffering by remember { mutableStateOf(false) }
   var controlsVisible by remember { mutableStateOf(false) }
   var tracks by remember { mutableStateOf(Tracks.EMPTY) }
+  // The rendered picture height, shown on the Quality button.
+  var videoHeight by remember { mutableIntStateOf(0) }
   var openMenu by remember { mutableStateOf<TrackKind?>(null) }
   var trackControlsFocused by remember { mutableStateOf(false) }
   val trackControlsFocus = remember { FocusRequester() }
@@ -266,6 +271,10 @@ fun VideoPlayer(
 
         override fun onTracksChanged(newTracks: Tracks) {
           tracks = newTracks
+        }
+
+        override fun onVideoSizeChanged(videoSize: VideoSize) {
+          videoHeight = videoSize.height
         }
 
         override fun onEvents(player: Player, events: Player.Events) {
@@ -525,6 +534,7 @@ fun VideoPlayer(
     if (trackControlsShown) {
       TrackControls(
         enabledKinds = enabledKinds,
+        qualityBadge = qualityBadge(videoHeight),
         focusRequester = trackControlsFocus,
         onOpen = { openMenu = it },
         onFocusChange = { trackControlsFocused = it },
@@ -706,6 +716,7 @@ private fun ControlsRow(
 @Composable
 private fun TrackControls(
   enabledKinds: Set<TrackKind>,
+  qualityBadge: String?,
   focusRequester: FocusRequester,
   onOpen: (TrackKind) -> Unit,
   onFocusChange: (Boolean) -> Unit,
@@ -742,11 +753,37 @@ private fun TrackControls(
             .semantics { contentDescription = if (enabled) kind.title else "${kind.title} (not available)" },
           contentAlignment = Alignment.Center,
         ) {
-          Icon(kind.icon, contentDescription = null, tint = if (enabled) MeghCyan else Color.White.copy(alpha = 0.3f), modifier = Modifier.size(24.dp))
+          val tint = if (enabled) MeghCyan else Color.White.copy(alpha = 0.3f)
+          if (kind == TrackKind.Quality && qualityBadge != null) QualityBadge(qualityBadge, tint)
+          else Icon(kind.icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
         }
       }
     }
   }
+}
+
+/** SD/HD/FHD/4K for the picture being played; null before its size is known. */
+private fun qualityBadge(height: Int): String? =
+  when {
+    height >= 2160 -> "4K"
+    height >= 1080 -> "FHD"
+    height >= 720 -> "HD"
+    height > 0 -> "SD"
+    else -> null
+  }
+
+/** The quality as an icon: short text in an outlined box, the stroke matching the other icons. */
+@Composable
+private fun QualityBadge(text: String, tint: Color) {
+  Text(
+    text,
+    color = tint,
+    fontSize = 11.sp,
+    fontWeight = FontWeight.Bold,
+    lineHeight = 11.sp,
+    maxLines = 1,
+    modifier = Modifier.border(2.dp, tint, RoundedCornerShape(4.dp)).padding(horizontal = 4.dp, vertical = 2.dp),
+  )
 }
 
 @Composable
