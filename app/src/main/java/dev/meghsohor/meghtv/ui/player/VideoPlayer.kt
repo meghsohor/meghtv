@@ -386,9 +386,10 @@ fun VideoPlayer(
     } else {
       // A fresh decoder per stream: a reused one can leave the old channel's larger frame around a smaller new one.
       player.stop()
-      // Every load, a backup source too, starts at the live edge.
+      // Every load, a backup source too, starts at the live edge, with its own offset baseline.
       behindLiveMs = 0L
       pausedSince[0] = 0L
+      edgeOffsetMs[0] = C.TIME_UNSET
       // A format with no Media3 module throws here instead of reporting a playback error.
       try {
         player.setMediaItem(MediaItem.Builder().setUri(url).apply { if (attempt.asHls) setMimeType(MimeTypes.APPLICATION_M3U8) }.build())
