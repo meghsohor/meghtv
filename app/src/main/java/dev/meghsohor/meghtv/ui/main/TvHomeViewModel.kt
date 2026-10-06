@@ -3,6 +3,8 @@ package dev.meghsohor.meghtv.ui.main
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dev.meghsohor.meghtv.data.MeghTVRepository
+import dev.meghsohor.meghtv.data.RefreshProgress
+import dev.meghsohor.meghtv.data.RefreshResult
 import dev.meghsohor.meghtv.data.db.CategoryEntity
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.data.db.CountryEntity
@@ -16,7 +18,16 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.runningReduce
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+
+sealed interface RefreshStatus {
+  data class Running(val progress: RefreshProgress) : RefreshStatus
+
+  data class Done(val result: RefreshResult) : RefreshStatus
+
+  data class Failed(val reason: String?) : RefreshStatus
+}
 
 data class TvHomeUiState(
   val panel: PanelState = PanelState.CategoriesMenu,
@@ -31,8 +42,8 @@ data class TvHomeUiState(
   val currentChannel: ChannelEntity? = null,
   val currentStreamUrls: List<String> = emptyList(),
   val searchQuery: String = "",
-  val refreshing: Boolean = false,
-  val refreshMessage: String? = null,
+  /** Null when no refresh dialog is up. */
+  val refresh: RefreshStatus? = null,
 )
 
 class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
@@ -43,8 +54,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
   /** The list [currentChannelId] was picked from, for Channel Up/Down. */
   private val currentPlaybackList = MutableStateFlow<List<String>>(emptyList())
   private val searchQuery = MutableStateFlow("")
-  private val refreshing = MutableStateFlow(false)
-  private val refreshMessage = MutableStateFlow<String?>(null)
+  private val refreshStatus = MutableStateFlow<RefreshStatus?>(null)
   private var startedInitialSelection = false
 
   private data class LoadedList(val panel: PanelState, val channels: List<ChannelEntity>)
@@ -112,7 +122,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
       .stateIn(viewModelScope, SharingStarted.Eagerly, PlayerState(null, null, emptyList()))
 
   val uiState =
-    combine(browseState, playerState, searchQuery, refreshing, refreshMessage) { browse, player, query, isRefreshing, message ->
+    combine(browseState, playerState, searchQuery, refreshStatus) { browse, player, query, refresh ->
         TvHomeUiState(
           panel = browse.panel,
           startupPanelChosen = browse.startupPanelChosen,
@@ -124,8 +134,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
           currentChannel = player.currentChannel,
           currentStreamUrls = player.currentStreamUrls,
           searchQuery = query,
-          refreshing = isRefreshing,
-          refreshMessage = message,
+          refresh = refresh,
         )
       }
       .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), TvHomeUiState())
@@ -135,8 +144,11 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
       if (startedInitialSelection) return@launch
       startedInitialSelection = true
       if (repository.bookmarkedChannels.first().isNotEmpty()) panel.value = PanelState.ChannelList(ChannelListSource.Favourites)
+      // The first refresh starts before startup is reported done, so nothing waiting on startup sees a gap between them.
+      val empty = !repository.hasChannels()
+      if (empty) onRefresh()
       startupPanelChosen.value = true
-      if (!repository.hasChannels()) onRefresh() else repository.pruneEmptyMenus()
+      if (!empty) repository.pruneEmptyMenus()
     }
   }
 
@@ -236,16 +248,11 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
   }
 
   fun onRefresh() {
-    if (refreshing.value) return
+    if (refreshStatus.value is RefreshStatus.Running) return
+    refreshStatus.value = RefreshStatus.Running(RefreshProgress.ChannelInfo)
     viewModelScope.launch {
-      refreshing.value = true
-      refreshMessage.value = null
-      val result = runCatching { repository.refresh() }
-      refreshMessage.value =
-        result.fold(
-          onSuccess = { r -> "${r.added} added, ${r.removed} removed" + if (r.bookmarksRemoved > 0) ", ${r.bookmarksRemoved} bookmarks removed" else "" },
-          onFailure = { e -> "Refresh failed: ${e.message}" },
-        )
+      val result = runCatching { repository.refresh(::onRefreshProgress) }
+      refreshStatus.value = result.fold(onSuccess = { RefreshStatus.Done(it) }, onFailure = { RefreshStatus.Failed(it.message) })
       if (result.isSuccess) {
         deletedIds.clear()
         // Drop removed channels from the zap list, except the playing one: Up/Down step from it.
@@ -253,12 +260,21 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
         val playing = currentChannelId.value
         currentPlaybackList.value = currentPlaybackList.value.filter { it in validIds || it == playing }
       }
-      refreshing.value = false
     }
   }
 
-  fun onDismissRefreshMessage() {
-    refreshMessage.value = null
+  // Playlist callbacks arrive from several threads, so out of order: never step the count back.
+  private fun onRefreshProgress(progress: RefreshProgress) {
+    refreshStatus.update { current ->
+      val shown = (current as? RefreshStatus.Running)?.progress
+      if (current !is RefreshStatus.Running) current
+      else if (shown is RefreshProgress.Playlists && progress is RefreshProgress.Playlists && shown.done > progress.done) current
+      else RefreshStatus.Running(progress)
+    }
+  }
+
+  fun onDismissRefreshResult() {
+    if (refreshStatus.value !is RefreshStatus.Running) refreshStatus.value = null
   }
 }
 

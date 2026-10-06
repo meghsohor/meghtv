@@ -13,11 +13,26 @@ import dev.meghsohor.meghtv.data.remote.IptvOrgClient
 import dev.meghsohor.meghtv.data.remote.M3uEntry
 import dev.meghsohor.meghtv.data.remote.parseCsv
 import dev.meghsohor.meghtv.data.remote.parseM3u
+import java.util.Collections
+import java.util.concurrent.atomic.AtomicInteger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
 
-data class RefreshResult(val added: Int, val removed: Int, val bookmarksRemoved: Int)
+data class RefreshResult(val total: Int, val added: Int, val removed: Int, val bookmarksRemoved: Int)
+
+sealed interface RefreshProgress {
+  data object ChannelInfo : RefreshProgress
+
+  data class Playlists(val done: Int, val total: Int, val channelsFound: Int) : RefreshProgress
+
+  /** The single-file fallback: no per-playlist steps to count. */
+  data object CombinedPlaylist : RefreshProgress
+
+  data class Saving(val channels: Int) : RefreshProgress
+}
+
+private val TvgIdAttribute = Regex("""tvg-id="([^"]+)"""")
 
 // Under SQLite's default limit of 999 bound parameters per statement.
 private const val SqliteMaxBindVariables = 900
@@ -74,16 +89,39 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
   )
 
   // Everything is fetched before the database is touched, so a failed fetch leaves the old data intact.
-  suspend fun refresh(): RefreshResult {
+  suspend fun refresh(onProgress: (RefreshProgress) -> Unit = {}): RefreshResult {
+    onProgress(RefreshProgress.ChannelInfo)
     val categoryCsv = client.fetchCategoriesCsv()
     val countryCsv = client.fetchCountriesCsv()
     val channelCsv = client.fetchChannelsCsv()
+    // Parsed up front so progress can count only playlist entries that will become channels.
+    val channelRows = withContext(Dispatchers.Default) { parseCsv(channelCsv).associateBy { it.getValue("id") } }
 
     // Per-country files keep each channel's mirror URLs, but need the GitHub API to list them, which is
     // rate-limited per IP (403 on shared mobile networks). Fall back to the combined playlist, which needs no API.
     val playlists =
-      runCatching { client.fetchAllPlaylists(client.fetchPlaylistCountryCodes()).ifEmpty { error("no playlists") } }
-        .getOrElse { listOf("combined" to client.fetchCombinedPlaylist()) }
+      runCatching {
+          val codes = client.fetchPlaylistCountryCodes()
+          // On Default, so the per-playlist scan runs off the main thread, on several threads at once.
+          withContext(Dispatchers.Default) {
+            val done = AtomicInteger()
+            val found = Collections.synchronizedSet(HashSet<String>()) // ConcurrentHashMap.newKeySet() needs API 24
+            onProgress(RefreshProgress.Playlists(0, codes.size, 0))
+            client
+              .fetchAllPlaylists(codes) { text ->
+                for (match in TvgIdAttribute.findAll(text)) {
+                  val tvgId = match.groupValues[1]
+                  if (tvgId.substringBefore('@') in channelRows) found += tvgId
+                }
+                onProgress(RefreshProgress.Playlists(done.incrementAndGet(), codes.size, found.size))
+              }
+              .ifEmpty { error("no playlists") }
+          }
+        }
+        .getOrElse {
+          onProgress(RefreshProgress.CombinedPlaylist)
+          listOf("combined" to client.fetchCombinedPlaylist())
+        }
         .filter { it.second.isNotBlank() }
     check(playlists.isNotEmpty()) { "could not reach iptv-org (no playlists fetched)" }
 
@@ -94,7 +132,6 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
       withContext(Dispatchers.Default) {
         val categoryRows = parseCsv(categoryCsv)
         val countryRows = parseCsv(countryCsv)
-        val channelRows = parseCsv(channelCsv).associateBy { it.getValue("id") }
 
         val entriesByKey = LinkedHashMap<String, MutableList<M3uEntry>>()
         for ((_, text) in playlists) {
@@ -142,6 +179,7 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
     // A 200 with a non-playlist body (captive portal, error page) parses to nothing; writing that would delete
     // every channel and, by cascade, every favourite. Keep the old catalogue instead.
     check(built.channels.isNotEmpty()) { "iptv-org returned no usable channels" }
+    onProgress(RefreshProgress.Saving(built.channels.size))
 
     val existingIds = existingSelections.keys
     val newIds = built.channels.map { it.id }.toSet()
@@ -161,6 +199,6 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
       db.failedChannelDao().deleteOrphans()
     }
 
-    return RefreshResult(added = addedCount, removed = removedIds.size, bookmarksRemoved = bookmarksRemovedCount)
+    return RefreshResult(total = built.channels.size, added = addedCount, removed = removedIds.size, bookmarksRemoved = bookmarksRemovedCount)
   }
 }

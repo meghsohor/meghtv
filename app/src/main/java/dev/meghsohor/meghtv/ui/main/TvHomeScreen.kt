@@ -1,22 +1,32 @@
 package dev.meghsohor.meghtv.ui.main
 
+import android.content.Context
+import android.content.res.Configuration
 import android.os.SystemClock
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.LocalActivity
+import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
-import androidx.activity.compose.LocalActivity
-import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.focusable
+import androidx.compose.foundation.gestures.animateScrollBy
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.interaction.collectIsPressedAsState
@@ -45,13 +55,15 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -61,15 +73,17 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.focus.FocusDirection
 import androidx.compose.ui.focus.FocusRequester
@@ -79,9 +93,12 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.InputMode
@@ -94,9 +111,12 @@ import androidx.compose.ui.input.key.type
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalInputModeManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -109,28 +129,44 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import androidx.core.content.edit
+import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.meghsohor.meghtv.R
 import dev.meghsohor.meghtv.data.MeghTVRepository
+import dev.meghsohor.meghtv.data.RefreshProgress
 import dev.meghsohor.meghtv.data.db.CategoryEntity
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.data.db.CountryEntity
 import dev.meghsohor.meghtv.theme.MeghBackground
+import dev.meghsohor.meghtv.theme.MeghCyan
 import dev.meghsohor.meghtv.theme.MeghLive
 import dev.meghsohor.meghtv.theme.MeghSurface
 import dev.meghsohor.meghtv.theme.MeghSurfaceVariant
+import dev.meghsohor.meghtv.ui.DialogBand
+import dev.meghsohor.meghtv.ui.DialogButton
+import dev.meghsohor.meghtv.ui.DialogCard
 import dev.meghsohor.meghtv.ui.MeghIcons
+import dev.meghsohor.meghtv.ui.player.LiveState
 import dev.meghsohor.meghtv.ui.player.PlayerCommand
+import dev.meghsohor.meghtv.ui.player.TrackControlsState
 import dev.meghsohor.meghtv.ui.player.VideoPlayer
+import java.text.NumberFormat
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeoutOrNull
 
 private val PanelWidth = 360.dp
 private val PanelHandleWidth = 44.dp
 private const val PanelAnimMs = 220
+private const val SplashMs = 3_000L
+private const val SplashFadeMs = 400
 private const val PanelAutoHideDelayMs = 7000L
 private const val SameBackPressWindowMs = 200L
 private val PanelNavigationKeys =
@@ -147,16 +183,22 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
 
   // Auto-hide: arrow keys and touches inside the panel restart the count. Touches only stamp
   // lastActivityAt, not state, so a drag doesn't recompose the screen on every move.
-  var panelOpen by remember { mutableStateOf(true) }
+  // A short loading screen at cold start; the panel slides in once it fades. Saved, so recreation doesn't replay it.
+  var splashDone by rememberSaveable { mutableStateOf(false) }
+  var panelOpen by remember { mutableStateOf(splashDone) }
   var activityTick by remember { mutableIntStateOf(0) }
   val lastActivityAt = remember { longArrayOf(SystemClock.uptimeMillis()) }
   var confirmRefresh by remember { mutableStateOf(false) }
   var confirmExit by remember { mutableStateOf(false) }
+  var showSupport by rememberSaveable { mutableStateOf(false) }
+  var showInfo by remember { mutableStateOf(false) }
   var searchFieldFocused by remember { mutableStateOf(false) }
   var playbackActive by remember { mutableStateOf(false) }
   var menuChannel by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
+  var liveState by remember { mutableStateOf(LiveState()) }
+  var trackControls by remember { mutableStateOf(TrackControlsState()) }
   val rootFocusRequester = remember { FocusRequester() }
   val panelEntryFocusRequester = remember { FocusRequester() }
   // Hoisted per view, so a list is where it was left after the panel closes or a level goes back.
@@ -185,6 +227,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     if (now - lastBackAt[0] < SameBackPressWindowMs) return@BackHandler
     lastBackAt[0] = now
     when {
+      !splashDone -> Unit
       !panelOpen && playerControlsVisible -> playerCommands.tryEmit(PlayerCommand.HideControls)
       panelOpen -> panelOpen = false
       // finish(): the system default only moves the task back, and reopening would resume the last channel.
@@ -194,13 +237,36 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
 
   // Search freezes it for the whole Search view on touch, but only while typing on TV, where nothing but the timer closes
   // the panel. On touch a focused in-list search box also freezes it, so the field can't auto-hide out from under typing.
-  val refreshInProgress = state.refreshing || state.refreshMessage != null
+  val refreshInProgress = state.refresh != null
   val searching = if (touchMode) isSearch(state.panel) || searchFieldFocused else searchFieldFocused
   // Nothing to watch: on touch unless something plays; on TV only before the first pick, since there
   // only the timer can move the panel off a paused picture or the error screen.
   val nothingToWatch = if (touchMode) !(hasPlayer && playbackActive) else !hasPlayer
-  val suppressAutoHide = refreshInProgress || confirmRefresh || menuChannel != null || confirmExit || searching || nothingToWatch
-  LaunchedEffect(refreshInProgress) { if (refreshInProgress) panelOpen = true }
+  val suppressAutoHide = !splashDone || refreshInProgress || confirmRefresh || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
+  LaunchedEffect(Unit) {
+    if (splashDone) return@LaunchedEffect
+    delay(SplashMs)
+    splashDone = true
+    panelOpen = true
+  }
+  LaunchedEffect(refreshInProgress, splashDone) { if (refreshInProgress && splashDone) panelOpen = true }
+
+  // Once a day at most, checked on every return to the app: TV apps often stay in memory overnight. On a new install
+  // the first refresh comes first: the prompt waits until its result is closed, and skips an install left empty.
+  val context = LocalContext.current
+  val supportPrompt = remember { SupportPrompt(context) }
+  var resumeCount by remember { mutableIntStateOf(0) }
+  LifecycleResumeEffect(Unit) {
+    resumeCount++
+    onPauseOrDispose {}
+  }
+  val hasChannels = state.categories.isNotEmpty()
+  LaunchedEffect(resumeCount, splashDone, state.startupPanelChosen, refreshInProgress, hasChannels, showInfo) {
+    if (splashDone && state.startupPanelChosen && !refreshInProgress && hasChannels && !showInfo && supportPrompt.dueToday()) {
+      supportPrompt.markShown()
+      showSupport = true
+    }
+  }
 
   LaunchedEffect(activityTick, suppressAutoHide, panelOpen) {
     if (suppressAutoHide || !panelOpen) return@LaunchedEffect
@@ -246,9 +312,28 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           if (event.type == KeyEventType.KeyUp) backDispatcher.onBackPressed()
           return@onPreviewKeyEvent true
         }
+        if (!splashDone) return@onPreviewKeyEvent true
         if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
         // A held key repeats KeyDown; toggles act on the first only.
         val repeated = event.nativeKeyEvent.repeatCount > 0
+        // In the player's Quality/Subtitles/Audio buttons: Left/Right move between them, Up leaves, Down stays.
+        if (!panelOpen && trackControls.focused) {
+          when (event.key) {
+            Key.DirectionUp -> {
+              runCatching { rootFocusRequester.requestFocus() }
+              return@onPreviewKeyEvent true
+            }
+            Key.DirectionDown -> return@onPreviewKeyEvent true
+            else -> Unit
+          }
+        }
+        // A held Up: a fresh press with the panel closed opens it at once, so repeats arriving while it's still closed
+        // only follow leaving those buttons, and would open the panel mid-press.
+        if (!panelOpen && repeated && event.key == Key.DirectionUp) return@onPreviewKeyEvent true
+        // With the controls up and those buttons showing, Down moves into them instead of opening the panel.
+        if (!panelOpen && rootSelfFocused && playerControlsVisible && trackControls.available && event.key == Key.DirectionDown) {
+          return@onPreviewKeyEvent playerCommands.tryEmit(PlayerCommand.FocusTrackControls)
+        }
         // Focus parked on the root with the panel up: directional search doesn't look inside it, so move it in directly.
         if (panelOpen && rootSelfFocused && !touchMode && event.key in PanelNavigationKeys) {
           openPanel()
@@ -269,6 +354,13 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           Key.MediaPlayPause -> repeated || playerCommands.tryEmit(PlayerCommand.TogglePlayPause)
           Key.MediaPlay -> playerCommands.tryEmit(PlayerCommand.Play)
           Key.MediaPause -> playerCommands.tryEmit(PlayerCommand.Pause)
+          // A held key acts once: its repeats would rejoin live again, or open the panel once the flag clears.
+          Key.MediaFastForward -> repeated || (liveState.behind && playerCommands.tryEmit(PlayerCommand.GoLive))
+          // With the chip up (controls showing, behind live), Right goes live; else it opens the panel. A fresh press
+          // with the panel closed opens it at once, so repeats arriving while it's still closed only follow a go-live.
+          Key.DirectionRight if !panelOpen && repeated -> true
+          Key.DirectionRight if !panelOpen && rootSelfFocused && playerControlsVisible && liveState.goLiveOffered ->
+            playerCommands.tryEmit(PlayerCommand.GoLive)
           // Panel closed: OK shows the controls, then plays/pauses, for remotes without media keys.
           Key.DirectionCenter, Key.Enter, Key.NumPadEnter ->
             when {
@@ -308,6 +400,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           }
         },
         onControlsVisibilityChange = { playerControlsVisible = it },
+        onLiveStateChange = { liveState = it },
+        onTrackControlsChange = { trackControls = it },
         onPlaybackActiveChange = { playbackActive = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
@@ -322,7 +416,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize(),
       )
       if (panelOpen || playerControlsVisible) {
-        NowPlayingBadge(channel = currentChannel, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
+        NowPlayingBadge(channel = currentChannel, live = !liveState.behind, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
       Image(
@@ -343,6 +437,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       )
     }
 
+    // Touch only: a remote can't reach it, since with the menu closed its keys open the menu. The menu covers it when open.
+    if (touchMode) CornerInfoButton(onClick = { showInfo = true }, modifier = Modifier.align(Alignment.TopEnd).padding(16.dp))
+
     // Slides in from the edge it lives on. One placement offset, so a low-end TV keeps up.
     AnimatedVisibility(
       visible = panelOpen,
@@ -360,6 +457,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         // The in-list search's own Back handler stamps the shared de-dupe, so a doubled press can't also close the panel.
         onBackHandled = { lastBackAt[0] = SystemClock.uptimeMillis() },
         onRefresh = { confirmRefresh = true },
+        onInfo = { showInfo = true },
         onChannelMenu = { index, channel -> menuChannel = IndexedValue(index, channel) },
         refocusAfterDelete = refocusAfterDelete,
         onRefocused = { refocusAfterDelete = null },
@@ -421,26 +519,71 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       )
     }
 
-    if (refreshInProgress) {
-      RefreshDialog(refreshing = state.refreshing, message = state.refreshMessage, onDismiss = viewModel::onDismissRefreshMessage)
+    if (splashDone) state.refresh?.let { status -> RefreshDialog(status = status, touchMode = touchMode, onDismiss = viewModel::onDismissRefreshResult) }
+
+    if (showSupport) SupportDialog(touchMode = touchMode, onDismiss = { showSupport = false })
+    if (showInfo) InfoDialog(touchMode = touchMode, onDismiss = { showInfo = false })
+
+    AnimatedVisibility(visible = !splashDone, enter = EnterTransition.None, exit = fadeOut(tween(SplashFadeMs))) { LoadingScreen() }
+  }
+}
+
+/** The banner under a near-opaque overlay, the logo in the middle with a ring spinning around it. Swallows touches. */
+@Composable
+private fun LoadingScreen() {
+  val spin = rememberInfiniteTransition(label = "splash")
+  val angle by spin.animateFloat(0f, 360f, infiniteRepeatable(tween(1000, easing = LinearEasing)), label = "angle")
+  val track = MaterialTheme.colorScheme.surfaceVariant
+  Box(
+    Modifier.fillMaxSize().pointerInput(Unit) {
+      awaitPointerEventScope {
+        while (true) awaitPointerEvent(PointerEventPass.Initial).changes.forEach { it.consume() }
+      }
+    },
+    contentAlignment = Alignment.Center,
+  ) {
+    Image(painterResource(R.drawable.tv_banner), contentDescription = null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
+    Box(Modifier.fillMaxSize().background(MeghBackground.copy(alpha = 0.9f)))
+    Box(contentAlignment = Alignment.Center) {
+      Canvas(Modifier.size(176.dp)) {
+        val stroke = 4.dp.toPx()
+        val inset = stroke / 2
+        val arcSize = Size(size.width - stroke, size.height - stroke)
+        drawCircle(track, radius = size.minDimension / 2 - inset, style = Stroke(stroke))
+        // A cyan arc fading out at its tail, turning once a second.
+        rotate(angle) {
+          drawArc(
+            Brush.sweepGradient(listOf(Color.Transparent, MeghCyan.copy(alpha = 0.4f), MeghCyan)),
+            startAngle = 0f,
+            sweepAngle = 300f,
+            useCenter = false,
+            topLeft = Offset(inset, inset),
+            size = arcSize,
+            style = Stroke(stroke, cap = StrokeCap.Round),
+          )
+        }
+      }
+      Image(painterResource(R.drawable.splash_logo), contentDescription = "MeghTV", modifier = Modifier.size(112.dp))
     }
   }
 }
 
+/** [live] false (paused, or playing on behind the live edge) greys the LIVE tag. */
 @Composable
-private fun NowPlayingBadge(channel: ChannelEntity, modifier: Modifier = Modifier) {
+private fun NowPlayingBadge(channel: ChannelEntity, live: Boolean, modifier: Modifier = Modifier) {
+  val tagColor = if (live) MeghLive else MaterialTheme.colorScheme.onSurfaceVariant
   Row(
     modifier.widthIn(max = 420.dp).clip(RoundedCornerShape(8.dp)).background(MeghBackground.copy(alpha = 0.8f)).padding(horizontal = 12.dp, vertical = 8.dp),
     verticalAlignment = Alignment.CenterVertically,
     horizontalArrangement = Arrangement.spacedBy(10.dp),
   ) {
     Row(
-      Modifier.clip(RoundedCornerShape(4.dp)).background(MeghLive.copy(alpha = 0.18f)).padding(horizontal = 8.dp, vertical = 3.dp),
+      Modifier.clip(RoundedCornerShape(4.dp)).background(tagColor.copy(alpha = 0.18f)).padding(horizontal = 8.dp, vertical = 3.dp),
       verticalAlignment = Alignment.CenterVertically,
       horizontalArrangement = Arrangement.spacedBy(5.dp),
     ) {
-      Box(Modifier.size(7.dp).clip(RoundedCornerShape(50)).background(MeghLive))
-      Text("LIVE", color = MeghLive, style = MaterialTheme.typography.labelLarge)
+      Box(Modifier.size(7.dp).clip(RoundedCornerShape(50)).background(tagColor))
+      Text("LIVE", color = tagColor, style = MaterialTheme.typography.labelLarge)
     }
     Text(
       channel.displayName,
@@ -486,6 +629,7 @@ private fun SidePanel(
   onSearchFieldFocusChanged: (Boolean) -> Unit,
   onBackHandled: () -> Unit,
   onRefresh: () -> Unit,
+  onInfo: () -> Unit,
   onChannelMenu: (index: Int, ChannelEntity) -> Unit,
   refocusAfterDelete: IndexedValue<String>?,
   onRefocused: () -> Unit,
@@ -568,9 +712,13 @@ private fun SidePanel(
           PinnedRow("Favourites", MeghIcons.Star, viewModel::onPinnedFavourites, selected = isFavourites(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isFavourites(state.panel))))
           PinnedDivider(vertical = true)
           PinnedRow("Categories", MeghIcons.Grid, viewModel::onPinnedCategories, selected = isCategories(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isCategories(state.panel))))
+          PinnedDivider(vertical = true)
+          InfoButton(onInfo, Modifier.fillMaxHeight().width(48.dp))
         }
       } else {
         Column(band) {
+          PinnedRow("Info & Support", MeghIcons.Info, onInfo, modifier = Modifier.fillMaxWidth())
+          PinnedDivider(vertical = false)
           PinnedRow("Refresh Channels", MeghIcons.Refresh, onRefresh, modifier = Modifier.fillMaxWidth())
           PinnedDivider(vertical = false)
           PinnedRow("Search", MeghIcons.Search, viewModel::onPinnedSearch, selected = isSearch(state.panel), modifier = Modifier.fillMaxWidth().then(entry(isSearch(state.panel))))
@@ -1224,12 +1372,6 @@ private val MenuPadding = PaddingValues(top = 10.dp, bottom = 12.dp)
 private const val RefreshResultAutoCloseMs = 4000L
 
 @Composable
-private fun DialogCard(content: @Composable () -> Unit) {
-  val shape = RoundedCornerShape(16.dp)
-  Box(Modifier.widthIn(min = 300.dp, max = 420.dp).background(MaterialTheme.colorScheme.surface, shape).border(1.dp, LineColor, shape)) { content() }
-}
-
-@Composable
 private fun ConfirmDialog(
   title: String,
   message: String?,
@@ -1248,7 +1390,7 @@ private fun ConfirmDialog(
         Text(title, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
         if (message != null) Text(message, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
         Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
-          DialogButton("Cancel", onClick = onDismiss, modifier = Modifier.focusRequester(cancelFocus))
+          DialogButton("Cancel", onClick = onDismiss, modifier = Modifier.focusRequester(cancelFocus), secondary = true)
           DialogButton(confirmLabel, onClick = onConfirm)
         }
       }
@@ -1317,31 +1459,40 @@ private fun MenuOption(label: String, icon: ImageVector, onClick: () -> Unit, mo
   }
 }
 
+// One card for progress and result, the same size throughout: only the texts and the bar change.
 @Composable
-private fun RefreshDialog(refreshing: Boolean, message: String?, onDismiss: () -> Unit) {
-  LaunchedEffect(refreshing, message) {
-    if (!refreshing && message != null) {
+private fun RefreshDialog(status: RefreshStatus, touchMode: Boolean, onDismiss: () -> Unit) {
+  val running = status is RefreshStatus.Running
+  LaunchedEffect(status is RefreshStatus.Done) {
+    if (status is RefreshStatus.Done) {
       delay(RefreshResultAutoCloseMs)
       onDismiss()
     }
   }
-
+  val closeFocus = remember { FocusRequester() }
   Dialog(
-    onDismissRequest = { if (!refreshing) onDismiss() },
-    properties = DialogProperties(dismissOnBackPress = !refreshing, dismissOnClickOutside = false),
+    onDismissRequest = { if (!running) onDismiss() },
+    properties = DialogProperties(dismissOnBackPress = !running, dismissOnClickOutside = false),
   ) {
-    DialogCard {
-      Column(
-        Modifier.padding(28.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(18.dp),
-      ) {
-        if (refreshing) {
-          CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
-          Text("Refreshing channels…", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleSmall)
-        } else if (message != null) {
-          Text(message, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleSmall)
-          Box(Modifier.fillMaxWidth()) { DialogButton("Close", onClick = onDismiss, modifier = Modifier.align(Alignment.CenterEnd)) }
+    LaunchedEffect(running) { if (!running && !touchMode) runCatching { closeFocus.requestFocus() } }
+    val texts = refreshTexts(status)
+    DialogCard(Modifier.width(RefreshDialogWidth)) {
+      Column(Modifier.padding(start = 24.dp, top = 24.dp, end = 24.dp, bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text(texts.title, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
+        RefreshBar(status)
+        // Fixed line counts, so the card keeps its size whatever the step or message.
+        Text(texts.line, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(
+          texts.detail,
+          color = MaterialTheme.colorScheme.onSurfaceVariant,
+          style = MaterialTheme.typography.labelMedium,
+          minLines = 2,
+          maxLines = 2,
+          overflow = TextOverflow.Ellipsis,
+        )
+        // Held empty while running, so the card doesn't grow when Close appears.
+        Box(Modifier.fillMaxWidth().height(40.dp)) {
+          if (!running) DialogButton("Close", onClick = onDismiss, modifier = Modifier.align(Alignment.CenterEnd).focusRequester(closeFocus))
         }
       }
     }
@@ -1349,19 +1500,238 @@ private fun RefreshDialog(refreshing: Boolean, message: String?, onDismiss: () -
 }
 
 @Composable
-private fun DialogButton(label: String, onClick: () -> Unit, modifier: Modifier = Modifier) {
-  val interaction = remember { MutableInteractionSource() }
-  val focused by interaction.collectIsFocusedAsState()
-  Text(
-    label,
-    color = MaterialTheme.colorScheme.primary,
-    style = MaterialTheme.typography.titleSmall,
-    modifier =
-      modifier
-        .clip(RoundedCornerShape(8.dp))
-        .background(if (focused) MaterialTheme.colorScheme.primary.copy(alpha = 0.15f) else Color.Transparent)
-        .clickable(interactionSource = interaction, indication = null, onClick = onClick)
-        .focusable(interactionSource = interaction)
-        .padding(horizontal = 16.dp, vertical = 8.dp),
-  )
+private fun RefreshBar(status: RefreshStatus) {
+  val modifier = Modifier.fillMaxWidth().height(4.dp)
+  val track = MaterialTheme.colorScheme.surfaceVariant
+  val progress = (status as? RefreshStatus.Running)?.progress
+  when {
+    progress is RefreshProgress.Playlists && progress.total > 0 -> {
+      val fraction by animateFloatAsState(progress.done.toFloat() / progress.total, label = "refresh")
+      LinearProgressIndicator(progress = { fraction }, modifier = modifier, trackColor = track)
+    }
+    status is RefreshStatus.Running -> LinearProgressIndicator(modifier = modifier, trackColor = track)
+    status is RefreshStatus.Done -> LinearProgressIndicator(progress = { 1f }, modifier = modifier, trackColor = track)
+    else -> LinearProgressIndicator(progress = { 1f }, modifier = modifier, color = MeghLive, trackColor = track)
+  }
 }
+
+private class RefreshTexts(val title: String, val line: String, val detail: String)
+
+private fun refreshTexts(status: RefreshStatus): RefreshTexts {
+  val number = NumberFormat.getIntegerInstance()
+  return when (status) {
+    is RefreshStatus.Running ->
+      when (val progress = status.progress) {
+        RefreshProgress.ChannelInfo -> RefreshTexts("Refreshing channels", "Downloading channel info…", "")
+        is RefreshProgress.Playlists ->
+          RefreshTexts(
+            "Refreshing channels",
+            "Downloading playlists: ${progress.done} of ${progress.total}",
+            "${number.format(progress.channelsFound)} channels found",
+          )
+        RefreshProgress.CombinedPlaylist -> RefreshTexts("Refreshing channels", "Downloading the channel list…", "")
+        is RefreshProgress.Saving -> RefreshTexts("Refreshing channels", "Saving ${number.format(progress.channels)} channels…", "")
+      }
+    is RefreshStatus.Done -> {
+      val result = status.result
+      val changes =
+        listOfNotNull(
+          "${number.format(result.added)} new",
+          "${number.format(result.removed)} removed",
+          if (result.bookmarksRemoved > 0) "${result.bookmarksRemoved} ${if (result.bookmarksRemoved == 1) "favourite" else "favourites"} removed" else null,
+        )
+      RefreshTexts("Channels updated", "${number.format(result.total)} channels", changes.joinToString(" · "))
+    }
+    is RefreshStatus.Failed ->
+      RefreshTexts("Refresh failed", "Couldn't download the channel list.", listOfNotNull("Check the connection and try again.", status.reason).joinToString("\n"))
+  }
+}
+
+@Composable
+private fun InfoButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
+  val interaction = remember { MutableInteractionSource() }
+  Box(modifier.panelRow(interaction, block = false, onClick = onClick).semantics { contentDescription = "About MeghTV" }, contentAlignment = Alignment.Center) {
+    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+  }
+}
+
+// A TV usually has no browser, and paying with a remote is no fun: there it shows a code to scan with a phone instead.
+@Composable
+private fun SupportDialog(touchMode: Boolean, onDismiss: () -> Unit) {
+  val isTv = isTelevision() || !touchMode
+  val uriHandler = LocalUriHandler.current
+  val firstFocus = remember { FocusRequester() }
+  Dialog(onDismissRequest = onDismiss) {
+    LaunchedEffect(Unit) { if (!touchMode) firstFocus.requestFocus() }
+    DialogCard {
+      Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+          Icon(MeghIcons.Coffee, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+          Spacer(Modifier.width(12.dp))
+          Text("Support MeghTV", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
+        }
+        Text(
+          SupportText,
+          color = MaterialTheme.colorScheme.onSurfaceVariant,
+          style = MaterialTheme.typography.bodyMedium,
+        )
+        if (isTv) {
+          Row(Modifier.padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            Image(
+              painterResource(R.drawable.kofi_qr),
+              contentDescription = "QR code for $KofiDisplayUrl",
+              modifier = Modifier.size(128.dp).clip(RoundedCornerShape(8.dp)),
+            )
+            Text("Scan with your phone, or visit $KofiDisplayUrl", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
+          }
+        }
+        Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+          if (isTv) {
+            DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus))
+          } else {
+            DialogButton("Not now", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus), secondary = true)
+            DialogButton(
+              "Buy me a coffee",
+              onClick = {
+                runCatching { uriHandler.openUri(KofiUrl) }
+                onDismiss()
+              },
+            )
+          }
+        }
+      }
+    }
+  }
+}
+
+// A darker header and footer frame the scrolling feature list between them.
+@Composable
+private fun InfoDialog(touchMode: Boolean, onDismiss: () -> Unit) {
+  val isTv = isTelevision() || !touchMode
+  val scroll = rememberScrollState()
+  val scope = rememberCoroutineScope()
+  val uriHandler = LocalUriHandler.current
+  val context = LocalContext.current
+  val version = remember { runCatching { context.packageManager.getPackageInfo(context.packageName, 0).versionName }.getOrNull() }
+  val closeFocus = remember { FocusRequester() }
+  Dialog(onDismissRequest = onDismiss) {
+    LaunchedEffect(Unit) { if (!touchMode) closeFocus.requestFocus() }
+    DialogCard {
+      Column {
+        Column(
+          Modifier.fillMaxWidth()
+            .background(DialogBand)
+            .drawBehind { drawRect(LineColor, topLeft = Offset(0f, size.height - 1.dp.toPx()), size = size.copy(height = 1.dp.toPx())) }
+            .padding(horizontal = 24.dp, vertical = 16.dp)
+        ) {
+          Text("MeghTV", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
+          if (version != null) Text("Version $version", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
+        }
+        // A remote can't scroll by itself: with a larger TV font the body may not fit, so Up/Down scroll it from Close.
+        Column(
+          Modifier.weight(1f, fill = false).verticalScroll(scroll).padding(horizontal = 24.dp, vertical = 16.dp),
+          verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+          Text(
+            if (isTv) "$SupportText Visit $KofiDisplayUrl." else SupportText,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.padding(bottom = 8.dp),
+          )
+          for (feature in AppFeatures) {
+            Row {
+              Text("•", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.width(16.dp))
+              Text(feature, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
+            }
+          }
+          Text(
+            "Channels are publicly available streams listed by the iptv-org project. MeghTV doesn't host any of them.",
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            style = MaterialTheme.typography.labelMedium,
+            modifier = Modifier.padding(top = 8.dp),
+          )
+        }
+        Box(
+          Modifier.fillMaxWidth()
+            .background(DialogBand)
+            .drawBehind { drawRect(LineColor, size = size.copy(height = 1.dp.toPx())) }
+            .padding(horizontal = 24.dp, vertical = 12.dp)
+        ) {
+          Row(Modifier.align(Alignment.CenterEnd), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            if (!isTv) DialogButton("Buy me a coffee", onClick = { runCatching { uriHandler.openUri(KofiUrl) } })
+            DialogButton(
+              "Close",
+              onClick = onDismiss,
+              modifier =
+                Modifier.focusRequester(closeFocus).onPreviewKeyEvent { event ->
+                  val step = when (event.key) {
+                    Key.DirectionUp -> -InfoScrollStepPx
+                    Key.DirectionDown -> InfoScrollStepPx
+                    else -> return@onPreviewKeyEvent false
+                  }
+                  if (event.type == KeyEventType.KeyDown && scroll.maxValue > 0) scope.launch { scroll.animateScrollBy(step) }
+                  scroll.maxValue > 0
+                },
+            )
+          }
+        }
+      }
+    }
+  }
+}
+
+private const val InfoScrollStepPx = 240f
+
+private val AppFeatures =
+  listOf(
+    "Thousands of live TV channels, by category or country",
+    "Search all channels, or within a category or country",
+    "Favourites, newest first",
+    "Works with a TV remote or by touch",
+    "Channel Up/Down on a remote switches channels",
+    "A paused channel resumes where it was paused; Go live jumps back to the live picture",
+    "Remembers mute and volume between channels",
+    "Pick the picture quality, subtitles or audio track when a stream offers them",
+    "Tries a channel's backup streams when one fails, and marks channels that didn't play",
+    "Delete channels you don't want; a refresh brings them back",
+    "Refresh to get the latest channel list",
+  )
+
+@Composable
+private fun isTelevision(): Boolean = (LocalConfiguration.current.uiMode and Configuration.UI_MODE_TYPE_MASK) == Configuration.UI_MODE_TYPE_TELEVISION
+
+@Composable
+private fun CornerInfoButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
+  Box(
+    modifier
+      .size(44.dp)
+      .clip(RoundedCornerShape(50))
+      .background(MeghBackground.copy(alpha = 0.8f))
+      .clickable(onClickLabel = "About MeghTV", onClick = onClick)
+      .semantics { contentDescription = "About MeghTV" },
+    contentAlignment = Alignment.Center,
+  ) {
+    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+  }
+}
+
+/** Remembers the day the support prompt last showed, so it shows at most once a day. */
+private class SupportPrompt(context: Context) {
+  private val prefs = context.getSharedPreferences("support_prompt", Context.MODE_PRIVATE)
+
+  private fun today() = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
+
+  fun dueToday() = prefs.getString(LastShownKey, null) != today()
+
+  fun markShown() = prefs.edit { putString(LastShownKey, today()) }
+
+  private companion object {
+    const val LastShownKey = "last_shown_day"
+  }
+}
+
+private const val SupportText = "MeghTV is free to use and has no ads. If you like it, you can support its development to help keep it that way."
+private const val KofiUrl = "https://ko-fi.com/Z5Z8281UOM"
+private const val KofiDisplayUrl = "ko-fi.com/Z5Z8281UOM"
+private val RefreshDialogWidth = 400.dp
+

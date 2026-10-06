@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Media3's settings and CC popups sit this far in from the bottom-right corner: above the 60dp control row, not over it. -->
-    <dimen name="exo_settings_offset">68dp</dimen>
-</resources>

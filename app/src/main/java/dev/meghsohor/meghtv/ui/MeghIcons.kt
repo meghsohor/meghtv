@@ -12,6 +12,7 @@ import androidx.compose.ui.unit.dp
 // The solid ones are filled and stroked in one colour, which rounds their corners.
 object MeghIcons {
   val ChevronLeft = line("ChevronLeft", "M15,18l-6,-6 6,-6")
+  val ChevronRight = line("ChevronRight", "M9,18l6,-6 -6,-6")
   val ArrowBack = line("ArrowBack", "M12,19l-7,-7 7,-7", "M19,12H5")
   val Refresh =
     line(
@@ -31,6 +32,21 @@ object MeghIcons {
   val Pause = solid("Pause", roundRect(6f, 4f, 3f, 16f, 0.5f), roundRect(15f, 4f, 3f, 16f, 0.5f))
   val VolumeUp = line("VolumeUp", SpeakerPath, "M16,9a5,5 0,0 1,0,6", "M19.364,18.364a9,9 0,0 0,0,-12.728")
   val VolumeOff = line("VolumeOff", SpeakerPath, "M22,9l-6,6", "M16,9l6,6")
+  val Coffee =
+    line(
+      "Coffee",
+      "M10,2v2",
+      "M14,2v2",
+      "M6,2v2",
+      "M16,8a1,1 0,0 1,1,1v8a4,4 0,0 1,-4,4H7a4,4 0,0 1,-4,-4V9a1,1 0,0 1,1,-1h14a4,4 0,1 1,0,8h-1",
+    )
+  val Info = line("Info", "M12,2a10,10 0,1 0,0,20a10,10 0,1 0,0,-20z", "M12,16v-4", "M12,8h0.01")
+  val Check = line("Check", "M20,6L9,17l-5,-5")
+  val Captions = line("Captions", roundRect(3f, 5f, 18f, 14f, 2f), "M7,15h4", "M15,15h2", "M7,11h2", "M13,11h4")
+  val Headphones =
+    line("Headphones", "M3,14h3a2,2 0,0 1,2,2v3a2,2 0,0 1,-2,2H5a2,2 0,0 1,-2,-2v-7a9,9 0,0 1,18,0v7a2,2 0,0 1,-2,2h-1a2,2 0,0 1,-2,-2v-3a2,2 0,0 1,2,-2h3")
+  // Lucide "settings-2": stands for picture quality.
+  val Quality = line("Quality", "M20,7h-9", "M14,17H5", "M17,14a3,3 0,1 0,0,6a3,3 0,1 0,0,-6z", "M7,4a3,3 0,1 0,0,6a3,3 0,1 0,0,-6z")
   val Delete =
     line(
       "Delete",

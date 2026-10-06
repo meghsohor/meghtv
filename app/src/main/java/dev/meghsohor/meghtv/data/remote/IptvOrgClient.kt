@@ -55,11 +55,20 @@ class IptvOrgClient(private val http: OkHttpClient = OkHttpClient()) {
   }
 
   // A few at a time, not 300+ requests at GitHub's CDN at once.
-  suspend fun fetchAllPlaylists(countryCodes: List<String>, maxConcurrent: Int = 8): List<Pair<String, String>> =
+  // [onFetched] runs once per playlist, failed ones included (as ""), concurrently on the caller's dispatcher.
+  suspend fun fetchAllPlaylists(countryCodes: List<String>, maxConcurrent: Int = 8, onFetched: (String) -> Unit = {}): List<Pair<String, String>> =
     coroutineScope {
       val semaphore = Semaphore(maxConcurrent)
       countryCodes
-        .map { cc -> async { semaphore.withPermit { cc to runCatching { getText("$IPTV_RAW/$cc.m3u") }.getOrDefault("") } } }
+        .map { cc ->
+          async {
+            semaphore.withPermit {
+              val text = runCatching { getText("$IPTV_RAW/$cc.m3u") }.getOrDefault("")
+              onFetched(text)
+              cc to text
+            }
+          }
+        }
         .awaitAll()
         .filter { it.second.isNotBlank() }
     }

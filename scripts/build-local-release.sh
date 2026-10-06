@@ -4,6 +4,9 @@
 set -euo pipefail
 
 ANDROID_HOME="${ANDROID_HOME:-$HOME/Library/Android/sdk}"
+# A shell profile can point ANDROID_HOME at Homebrew's command-line tools, which have no build-tools.
+[[ -d "$ANDROID_HOME/build-tools" ]] || ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_HOME
 JAVA_BIN="/opt/homebrew/opt/openjdk@17/bin"
 KEYSTORE="${MEGHTV_KEYSTORE:-$HOME/Shuvo/Documents/meghtv-signing/release.keystore}"
 CREDS_FILE="${MEGHTV_KEYSTORE_CREDS:-$HOME/Shuvo/Documents/meghtv-signing/passwords.txt}"
