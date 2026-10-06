@@ -103,10 +103,11 @@ private fun qualityOptions(tracks: Tracks, params: TrackSelectionParameters, pla
 }
 
 // Media3 exposes a CEA-608 track on any TS stream that doesn't declare its captions, whether or not it carries any.
+// A declared one can look the same (no language, and its label is lost), so one that is on or flagged default stays.
 private fun TrackRef.isUndeclaredCaption(): Boolean {
   val f = format
   val cea = f.sampleMimeType == MimeTypes.APPLICATION_CEA608 || f.sampleMimeType == MimeTypes.APPLICATION_CEA708
-  return cea && f.label.isNullOrBlank() && (f.language.isNullOrBlank() || f.language == C.LANGUAGE_UNDETERMINED)
+  return cea && !selected && f.selectionFlags == 0 && f.label.isNullOrBlank() && (f.language.isNullOrBlank() || f.language == C.LANGUAGE_UNDETERMINED)
 }
 
 private fun subtitleOptions(tracks: Tracks, params: TrackSelectionParameters): List<TrackOption> {
@@ -123,11 +124,11 @@ private fun subtitleOptions(tracks: Tracks, params: TrackSelectionParameters): L
 }
 
 private fun audioOptions(tracks: Tracks): List<TrackOption> {
-  // Tracks of one group that share language, label and channels are bitrate tiers of one choice: picking it keeps them
-  // all, so Media3 still adapts between them.
+  // Tracks of one group that share language, label, channels and codec are bitrate tiers of one choice: picking it
+  // keeps them all, so Media3 still adapts between them. Never across codecs, which Media3 itself won't switch between.
   val choices =
     tracks.supported(C.TRACK_TYPE_AUDIO)
-      .groupBy { Triple(it.group, it.format.language to it.format.label, it.format.channelCount) }
+      .groupBy { listOf(it.group, it.format.language, it.format.label, it.format.channelCount, it.format.sampleMimeType) }
       .values
       .map { refs -> TrackChoice(refs.first().group, refs.map { it.index }) }
   if (choices.size < 2) return emptyList()
