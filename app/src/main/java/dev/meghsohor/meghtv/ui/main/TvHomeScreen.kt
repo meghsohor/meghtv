@@ -233,7 +233,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         if (event.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
         // A held key repeats KeyDown; toggles act on the first only.
         val repeated = event.nativeKeyEvent.repeatCount > 0
-        // In the player's Quality/Subtitles/Audio buttons: Left/Right move between them, Up leaves, Down stays.
+        // In the player's Source/Quality/Subtitles/Audio buttons: Left/Right move between them, Up leaves, Down stays.
         if (!panelOpen && trackControls.focused) {
           when (event.key) {
             Key.DirectionUp -> {
@@ -306,6 +306,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       VideoPlayer(
         channelId = currentChannel.id,
         streamUrls = state.currentStreamUrls,
+        sources = state.currentSources,
+        onSourcePicked = { viewModel.onSourcePicked(currentChannel.id, it) },
         controlsAllowed = !panelOpen,
         touchControls = touchMode,
         onTap = {

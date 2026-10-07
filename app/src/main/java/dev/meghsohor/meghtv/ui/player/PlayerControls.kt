@@ -141,14 +141,17 @@ internal fun ControlsRow(
 }
 
 /**
- * Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the remote.
- * The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
+ * Source, Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the
+ * remote. The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
+ * [sourceBadge] is the playing source as "2/5", null with a single source.
  */
 @Composable
 internal fun TrackControls(
+  sourceBadge: String?,
   enabledKinds: Set<TrackKind>,
   qualityBadge: String?,
   focusRequester: FocusRequester,
+  onOpenSources: () -> Unit,
   onOpen: (TrackKind) -> Unit,
   onFocusChange: (Boolean) -> Unit,
   onActivity: () -> Unit,
@@ -164,32 +167,49 @@ internal fun TrackControls(
     verticalAlignment = Alignment.CenterVertically,
     horizontalArrangement = Arrangement.spacedBy(4.dp),
   ) {
-    val firstEnabled = TrackKind.entries.firstOrNull { it in enabledKinds }
+    // The remote lands on the first enabled button.
+    val sourcesEnabled = sourceBadge != null
+    val firstEnabledKind = TrackKind.entries.firstOrNull { it in enabledKinds }.takeUnless { sourcesEnabled }
+    ControlButton("Source", sourcesEnabled, focusRequester.takeIf { sourcesEnabled }, onActivity, onOpenSources) { tint ->
+      if (sourceBadge != null) TextBadge(sourceBadge, tint) else Icon(MeghIcons.Sources, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
+    }
     TrackKind.entries.forEach { kind ->
       key(kind) {
-        val enabled = kind in enabledKinds
-        val interaction = remember { MutableInteractionSource() }
-        val focused by interaction.collectIsFocusedAsState()
-        Box(
-          Modifier.size(48.dp)
-            .then(if (kind == firstEnabled) Modifier.focusRequester(focusRequester) else Modifier)
-            .clip(CircleShape)
-            .background(if (focused) MeghCyan.copy(alpha = 0.2f) else Color.Transparent)
-            .border(2.dp, if (focused) MeghCyan else Color.Transparent, CircleShape)
-            // Disabled: neither clickable nor focusable, so D-pad Left/Right skip it.
-            .clickable(enabled = enabled, interactionSource = interaction, indication = null, onClickLabel = kind.title) {
-              onActivity()
-              onOpen(kind)
-            }
-            .semantics { contentDescription = if (enabled) kind.title else "${kind.title} (not available)" },
-          contentAlignment = Alignment.Center,
-        ) {
-          val tint = if (enabled) MeghCyan else Color.White.copy(alpha = 0.3f)
-          if (kind == TrackKind.Quality && qualityBadge != null) QualityBadge(qualityBadge, tint)
+        ControlButton(kind.title, kind in enabledKinds, focusRequester.takeIf { kind == firstEnabledKind }, onActivity, { onOpen(kind) }) { tint ->
+          if (kind == TrackKind.Quality && qualityBadge != null) TextBadge(qualityBadge, tint)
           else Icon(kind.icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
         }
       }
     }
+  }
+}
+
+@Composable
+private fun ControlButton(
+  title: String,
+  enabled: Boolean,
+  focusRequester: FocusRequester?,
+  onActivity: () -> Unit,
+  onClick: () -> Unit,
+  content: @Composable (tint: Color) -> Unit,
+) {
+  val interaction = remember { MutableInteractionSource() }
+  val focused by interaction.collectIsFocusedAsState()
+  Box(
+    Modifier.size(48.dp)
+      .then(if (focusRequester != null) Modifier.focusRequester(focusRequester) else Modifier)
+      .clip(CircleShape)
+      .background(if (focused) MeghCyan.copy(alpha = 0.2f) else Color.Transparent)
+      .border(2.dp, if (focused) MeghCyan else Color.Transparent, CircleShape)
+      // Disabled: neither clickable nor focusable, so D-pad Left/Right skip it.
+      .clickable(enabled = enabled, interactionSource = interaction, indication = null, onClickLabel = title) {
+        onActivity()
+        onClick()
+      }
+      .semantics { contentDescription = if (enabled) title else "$title (not available)" },
+    contentAlignment = Alignment.Center,
+  ) {
+    content(if (enabled) MeghCyan else Color.White.copy(alpha = 0.3f))
   }
 }
 
@@ -203,9 +223,9 @@ internal fun qualityBadge(height: Int): String? =
     else -> null
   }
 
-/** The quality as an icon: short text in an outlined box, the stroke matching the other icons. */
+/** Short text in an outlined box, as an icon (the quality, the source number); the stroke matches the other icons. */
 @Composable
-private fun QualityBadge(text: String, tint: Color) {
+private fun TextBadge(text: String, tint: Color) {
   Text(
     text,
     color = tint,

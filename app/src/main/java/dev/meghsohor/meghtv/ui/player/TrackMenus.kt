@@ -1,5 +1,6 @@
 package dev.meghsohor.meghtv.ui.player
 
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -181,9 +182,16 @@ private fun labelsFor(formats: List<Format>, fallback: String): List<String> {
   }
 }
 
+/** "Source 2 · host", numbered in listed order; [failed] ones are marked so the viewer can skip them. */
+internal fun sourceLabels(sources: List<String>, failed: Set<String>): List<String> =
+  sources.mapIndexed { i, url ->
+    val host = runCatching { Uri.parse(url).host }.getOrNull()?.takeIf { it.isNotBlank() } ?: url
+    "Source ${i + 1} · $host" + if (url in failed) " · didn't load" else ""
+  }
+
 /** A choice list in the app's dialog style: picking applies and closes it; Back closes it. */
 @Composable
-internal fun TrackPickerDialog(kind: TrackKind, options: List<TrackOption>, touchMode: Boolean, onPick: (TrackOption) -> Unit, onDismiss: () -> Unit) {
+internal fun TrackPickerDialog(title: String, labels: List<String>, selectedIndex: Int, touchMode: Boolean, onPick: (Int) -> Unit, onDismiss: () -> Unit) {
   val selectedFocus = remember { FocusRequester() }
   Dialog(onDismissRequest = onDismiss) {
     // A remote starts on the current choice; touch needs no focus ring.
@@ -191,7 +199,7 @@ internal fun TrackPickerDialog(kind: TrackKind, options: List<TrackOption>, touc
     DialogCard {
       Column {
         Text(
-          kind.title,
+          title,
           color = MaterialTheme.colorScheme.onSurface,
           style = MaterialTheme.typography.titleMedium,
           modifier =
@@ -204,12 +212,12 @@ internal fun TrackPickerDialog(kind: TrackKind, options: List<TrackOption>, touc
           Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState()).padding(8.dp),
           verticalArrangement = Arrangement.spacedBy(4.dp),
         ) {
-          val focusIndex = options.indexOfFirst { it.selected }.coerceAtLeast(0)
-          options.forEachIndexed { i, option ->
+          val focusIndex = selectedIndex.coerceAtLeast(0)
+          labels.forEachIndexed { i, label ->
             ChoiceRow(
-              option.label,
-              selected = option.selected,
-              onClick = { onPick(option) },
+              label,
+              selected = i == selectedIndex,
+              onClick = { onPick(i) },
               modifier = if (i == focusIndex) Modifier.focusRequester(selectedFocus) else Modifier,
             )
           }

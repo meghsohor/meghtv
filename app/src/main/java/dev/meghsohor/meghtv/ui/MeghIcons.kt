@@ -46,6 +46,15 @@ object MeghIcons {
   val Headphones =
     line("Headphones", "M3,14h3a2,2 0,0 1,2,2v3a2,2 0,0 1,-2,2H5a2,2 0,0 1,-2,-2v-7a9,9 0,0 1,18,0v7a2,2 0,0 1,-2,2h-1a2,2 0,0 1,-2,-2v-3a2,2 0,0 1,2,-2h3")
   // Lucide "settings-2": stands for picture quality.
+  val Sources =
+    line(
+      "Sources",
+      "M12,10a2,2 0,1 0,0,4a2,2 0,1 0,0,-4z",
+      "M8.5,8.5a5,5 0,0 0,0,7",
+      "M15.5,8.5a5,5 0,0 1,0,7",
+      "M5.6,5.6a9,9 0,0 0,0,12.8",
+      "M18.4,5.6a9,9 0,0 1,0,12.8",
+    )
   val Quality = line("Quality", "M20,7h-9", "M14,17H5", "M17,14a3,3 0,1 0,0,6a3,3 0,1 0,0,-6z", "M7,4a3,3 0,1 0,0,6a3,3 0,1 0,0,-6z")
   val Delete =
     line(

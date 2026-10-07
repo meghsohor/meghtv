@@ -78,7 +78,7 @@ private const val GoLiveMinBehindMs = 3_000L
 
 enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive, FocusTrackControls }
 
-/** [available]: at least one of Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
+/** [available]: at least one of Source, Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
 data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false)
 
 /** [behind]: paused, or playing on behind the live edge. [goLiveOffered]: the Go live chip is up. */
@@ -86,6 +86,8 @@ data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = f
 
 /**
  * Plays [streamUrls] in order, moving on when one fails; the error screen shows once all have failed.
+ * [sources] are the same URLs in listed order, for the Source picker; a pick goes to [onSourcePicked], which should
+ * put it first in [streamUrls].
  * [channelId] restarts playback on a switch even when two channels share the same URL list.
  * [onTap] returns true when it used the tap. [onAllSourcesFailed] isn't called while offline.
  */
@@ -93,6 +95,8 @@ data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = f
 fun VideoPlayer(
   channelId: String,
   streamUrls: List<String>,
+  sources: List<String>,
+  onSourcePicked: (String) -> Unit,
   controlsAllowed: Boolean,
   touchControls: Boolean,
   onTap: () -> Boolean,
@@ -129,6 +133,9 @@ fun VideoPlayer(
   // The rendered picture height, shown on the Quality button.
   var videoHeight by remember { mutableIntStateOf(0) }
   var openMenu by remember { mutableStateOf<TrackKind?>(null) }
+  var sourcesOpen by remember { mutableStateOf(false) }
+  // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
+  var failedSources by remember { mutableStateOf(emptySet<String>()) }
   var trackControlsFocused by remember { mutableStateOf(false) }
   val trackControlsFocus = remember { FocusRequester() }
   var playerView by remember { mutableStateOf<PlayerView?>(null) }
@@ -172,13 +179,17 @@ fun VideoPlayer(
   // Each new attempt relaunches the load effect; the final failure doesn't, so nothing reloads behind the error screen.
   fun onSourceFailed(error: PlaybackException) {
     val url = currentStreamUrls.getOrNull(attempt.index)
+    val retryAsHls = error.errorCode == PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED && !attempt.asHls && url != null && !url.looksLikeHls()
+    if (!retryAsHls && url != null) failedSources = failedSources + url
     attempt =
       when {
-        error.errorCode == PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED && !attempt.asHls && url != null && !url.looksLikeHls() ->
-          attempt.copy(asHls = true)
+        retryAsHls -> attempt.copy(asHls = true)
         attempt.index + 1 < currentStreamUrls.size -> SourceAttempt(attempt.index + 1)
         else -> {
           playbackError = error
+          // A picker left open would sit over the error screen, and a pick from it would play behind that screen.
+          openMenu = null
+          sourcesOpen = false
           if (!context.isOffline(error)) currentOnAllSourcesFailed()
           return
         }
@@ -220,7 +231,7 @@ fun VideoPlayer(
           updateHeldBack()
           val view = playerView ?: return
           view.findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(view.resources.displayMetrics.density, dimmed = !playWhenReady)
-          view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null) ControlsAutoHideMs else 0
+          view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null && !sourcesOpen) ControlsAutoHideMs else 0
           if (view.isControllerFullyVisible) view.showController() // re-arm with the new timeout
         }
 
@@ -243,7 +254,10 @@ fun VideoPlayer(
           isLive = player.isCurrentMediaItemLive
           // The first reading at the live edge, for streams that report their offset.
           if (state == Player.STATE_READY && behindLiveMs == 0L && edgeOffsetMs[0] == C.TIME_UNSET) edgeOffsetMs[0] = player.currentLiveOffset
-          if (state == Player.STATE_READY) liveRejoins[0] = 0
+          if (state == Player.STATE_READY) {
+            liveRejoins[0] = 0
+            currentStreamUrls.getOrNull(attempt.index)?.let { if (it in failedSources) failedSources = failedSources - it }
+          }
         }
 
         // Not STATE_READY: that is also reached paused, before anything has played.
@@ -333,23 +347,37 @@ fun VideoPlayer(
     playerView?.takeIf { it.isControllerFullyVisible }?.showController()
   }
 
-  // All three buttons always show; one is enabled only while the stream offers a choice. A pick changes tracks too.
+  // The track buttons always show; one is enabled only while the stream offers a choice. A pick changes tracks too.
   val enabledKinds =
     remember(tracks, keptCaptions) {
       TrackKind.entries.filter { trackOptions(it, tracks, player.trackSelectionParameters, keptCaptions = keptCaptions).isNotEmpty() }.toSet()
     }
+  val playingSource = streamUrls.getOrNull(attempt.index)
+  val sourceNumber = sources.indexOf(playingSource) + 1
+  val sourceBadge = if (sources.size > 1 && sourceNumber > 0) "$sourceNumber/${sources.size}" else null
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null
-  val trackControlsReachable = trackControlsShown && enabledKinds.isNotEmpty()
+  val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null)
   LaunchedEffect(trackControlsReachable, trackControlsFocused) {
     currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
   // An open picker holds the controls up, so the button it came from is still there to return to.
-  LaunchedEffect(openMenu) {
+  LaunchedEffect(openMenu, sourcesOpen) {
     val view = playerView ?: return@LaunchedEffect
-    view.controllerShowTimeoutMs = if (openMenu == null && player.playWhenReady) ControlsAutoHideMs else 0
+    view.controllerShowTimeoutMs = if (openMenu == null && !sourcesOpen && player.playWhenReady) ControlsAutoHideMs else 0
     if (view.isControllerFullyVisible) view.showController()
+  }
+
+  // Plays the pick here and now; the saved pick only reorders streamUrls, which the load effect plays on through.
+  fun pickSource(url: String) {
+    sourcesOpen = false
+    onSourcePicked(url) // the playing one too: that's how to keep a fallback that worked
+    val index = streamUrls.indexOf(url)
+    if (index < 0 || (url == playingSource && playbackError == null)) return
+    playbackError = null
+    attempt = SourceAttempt(index)
+    retryTick++ // reloads even when the index doesn't change
   }
 
   fun goLive() {
@@ -377,10 +405,27 @@ fun VideoPlayer(
 
   // The channel attempt and playbackError belong to; a switch resets them here, so it loads once, at the first mirror.
   val loadedFor = remember { arrayOfNulls<Pair<String, List<String>>>(1) }
+  // The URL handed to the player, and whether the next run of the load effect should leave it playing.
+  val loadedUrl = remember { arrayOfNulls<String>(1) }
+  val keepLoaded = remember { booleanArrayOf(false) }
   LaunchedEffect(channelId, streamUrls, attempt, retryTick) {
     val key = channelId to streamUrls
     if (loadedFor[0] != key) {
+      val sameChannel = loadedFor[0]?.first == channelId
       loadedFor[0] = key
+      if (!sameChannel) {
+        failedSources = emptySet()
+        sourcesOpen = false
+      }
+      // Same channel, its list only reordered or edited (a saved pick, a refresh): play on, at the source's new place.
+      val kept = if (sameChannel && playbackError == null) streamUrls.indexOf(loadedUrl[0]) else -1
+      if (kept >= 0) {
+        if (attempt.index != kept) {
+          keepLoaded[0] = true
+          attempt = attempt.copy(index = kept) // relaunches this effect, which then leaves the player alone
+        }
+        return@LaunchedEffect
+      }
       playbackError = null
       liveRejoins[0] = 0
       if (attempt != SourceAttempt()) {
@@ -388,7 +433,12 @@ fun VideoPlayer(
         return@LaunchedEffect
       }
     }
+    if (keepLoaded[0]) {
+      keepLoaded[0] = false
+      return@LaunchedEffect
+    }
     val url = streamUrls.getOrNull(attempt.index)
+    loadedUrl[0] = url
     if (url == null) {
       player.stop()
       player.clearMediaItems()
@@ -496,9 +546,11 @@ fun VideoPlayer(
 
     if (trackControlsShown) {
       TrackControls(
+        sourceBadge = sourceBadge,
         enabledKinds = enabledKinds,
         qualityBadge = qualityBadge(videoHeight),
         focusRequester = trackControlsFocus,
+        onOpenSources = { sourcesOpen = true },
         onOpen = { openMenu = it },
         onFocusChange = { trackControlsFocused = it },
         onActivity = ::keepControlsAlive,
@@ -512,16 +564,28 @@ fun VideoPlayer(
         LaunchedEffect(Unit) { openMenu = null }
       } else {
         TrackPickerDialog(
-          kind,
-          options,
+          kind.title,
+          options.map { it.label },
+          selectedIndex = options.indexOfFirst { it.selected },
           touchMode = touchControls,
-          onPick = { option ->
-            player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().apply(option.apply).build()
+          onPick = { i ->
+            player.trackSelectionParameters = player.trackSelectionParameters.buildUpon().apply(options[i].apply).build()
             openMenu = null
           },
           onDismiss = { openMenu = null },
         )
       }
+    }
+
+    if (sourcesOpen && playbackError == null) {
+      TrackPickerDialog(
+        "Source",
+        sourceLabels(sources, failedSources),
+        selectedIndex = sources.indexOf(playingSource),
+        touchMode = touchControls,
+        onPick = { pickSource(sources[it]) },
+        onDismiss = { sourcesOpen = false },
+      )
     }
 
     // Centred on the part of the video the panel doesn't cover.
@@ -542,6 +606,7 @@ fun VideoPlayer(
         onRetry = {
           attempt = SourceAttempt()
           playbackError = null
+          failedSources = emptySet()
           retryTick++ // re-runs the load effect even at the first mirror
         },
         endPadding = overlayEndPadding,

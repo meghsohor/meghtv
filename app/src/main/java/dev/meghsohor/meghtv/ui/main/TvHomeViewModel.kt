@@ -40,7 +40,10 @@ data class TvHomeUiState(
   val bookmarkedIds: Set<String> = emptySet(),
   val failedIds: Set<String> = emptySet(),
   val currentChannel: ChannelEntity? = null,
+  /** In play order: the saved source first. */
   val currentStreamUrls: List<String> = emptyList(),
+  /** The same sources in their listed order, which numbers them in the Source picker. */
+  val currentSources: List<String> = emptyList(),
   val searchQuery: String = "",
   /** Null when no refresh dialog is up. */
   val refresh: RefreshStatus? = null,
@@ -88,7 +91,12 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
   )
 
   /** [requestedId] tells "nothing picked" (null) apart from "picked, but its row is gone for now". */
-  private data class PlayerState(val requestedId: String?, val currentChannel: ChannelEntity?, val currentStreamUrls: List<String>)
+  private data class PlayerState(
+    val requestedId: String?,
+    val currentChannel: ChannelEntity?,
+    val currentStreamUrls: List<String>,
+    val currentSources: List<String> = currentStreamUrls,
+  )
 
   private val startupPanelChosen = MutableStateFlow(false)
 
@@ -112,7 +120,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
         } else {
           combine(repository.channelById(id), repository.streamUrls(id)) { channel, urls ->
             if (channel == null) PlayerState(id, null, emptyList())
-            else PlayerState(id, channel, orderedByPreference(urls.map { it.url }, channel.selectedSourceUrl))
+            else urls.map { it.url }.let { sources -> PlayerState(id, channel, orderedByPreference(sources, channel.selectedSourceUrl), sources) }
           }
         }
       }
@@ -133,6 +141,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
           failedIds = browse.failedIds,
           currentChannel = player.currentChannel,
           currentStreamUrls = player.currentStreamUrls,
+          currentSources = player.currentSources,
           searchQuery = query,
           refresh = refresh,
         )
@@ -226,6 +235,11 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
     viewModelScope.launch {
       if (channel.id in bookmarkedIds.first()) repository.removeBookmark(channel.id) else repository.addBookmark(channel.id)
     }
+  }
+
+  /** Played first from now on, here and after a refresh while the channel still lists it. */
+  fun onSourcePicked(channelId: String, url: String) {
+    viewModelScope.launch { repository.setSelectedSource(channelId, url) }
   }
 
   fun onPlaybackFailed(channelId: String) {
