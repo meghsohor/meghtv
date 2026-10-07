@@ -1,0 +1,14 @@
+[
+  {
+    "id": "CBCTV8.bb@SD",
+    "name": "CBC TV8 (1080p) [Not 24/7]",
+    "country": "BB",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1740288887.rsc.cdn77.org/1740288887/index.m3u8"
+    ]
+  }
+]

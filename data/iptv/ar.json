@@ -1,0 +1,2196 @@
+[
+  {
+    "id": "5tv.ar@SD",
+    "name": "5tv",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8",
+      "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "A24.ar@SD",
+    "name": "A24 (720p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true",
+      "http://138.59.227.20:8000/play/a05u/index.m3u8",
+      "https://g1.proy-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ABTVBariloche.ar@SD",
+    "name": "ABTV Bariloche",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8"
+    ]
+  },
+  {
+    "id": "AiredeSantaFe.ar@SD",
+    "name": "Aire de Santa Fe (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8",
+      "https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8"
+    ]
+  },
+  {
+    "id": "AlternaTV.ar@SD",
+    "name": "Alterna TV (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "music",
+      "culture",
+      "entertainment",
+      "documentary",
+      "movies",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.alterna.ar/stream/hls/live.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaTV.ar@SD",
+    "name": "America TV (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8"
+    ]
+  },
+  {
+    "id": "ArgentinisimaSatelital.ar@SD",
+    "name": "Argentinísima Satelital (540p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.sersat.com/hls/argentinisima.m3u8"
+    ]
+  },
+  {
+    "id": "AzaharesRadiovisualMultimedia.ar@SD",
+    "name": "Azahares Radio Multimedia (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BayresTV.ar@SD",
+    "name": "Bayres TV (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BeatsRadio.ar@SD",
+    "name": "Beats Radio (480p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8"
+    ]
+  },
+  {
+    "id": "BragadoTV.ar@SD",
+    "name": "Bragado TV",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mp.panelchs.com:1936/8028/ngrp:8028_all/playlist.m3u8",
+      "https://vivo.solumedia.com:19360/bragadato/bragadato.m3u8"
+    ]
+  },
+  {
+    "id": "BravoTV.ar@SD",
+    "name": "Bravo TV (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8",
+      "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef"
+    ]
+  },
+  {
+    "id": "BVC.ar@SD",
+    "name": "BVC",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8"
+    ]
+  },
+  {
+    "id": "CableImagenArmstrong.ar@SD",
+    "name": "Cable Imagen Armstrong (540p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/casse/casse/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Cadena103TV.ar@SD",
+    "name": "Cadena 103 (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
+      "https://streamlov.alsolnet.com/cadena103/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal2deUshuaia.ar@SD",
+    "name": "Canal 2 de Ushuaia (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal2Gualeguay.ar@SD",
+    "name": "Canal 2 Gualeguay",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.net:4443/gualeguay/gualeguay/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal2Misiones.ar@SD",
+    "name": "Canal 2 Misiones (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal2NexTVRafaela.ar@SD",
+    "name": "Canal 2 NexTV Rafaela (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge.enhdtv.com/nexthd/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3Formosa.ar@SD",
+    "name": "Canal 3 Formosa",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3LaPampa.ar@SD",
+    "name": "Canal 3 La Pampa (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3LasHeras.ar@SD",
+    "name": "Canal 3 Las Heras (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3Pinamar.ar@SD",
+    "name": "Canal 3 Pinamar",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://intelincloud01.com.ar/hls/cn3/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3Tacural.ar@SD",
+    "name": "Canal 3 Tacural",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://vivo.canal3tacural.com.ar:8081/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Esquel.ar@SD",
+    "name": "Canal 4 Esquel",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Jujuy.ar@SD",
+    "name": "Canal 4 Jujuy",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Posadas.ar@SD",
+    "name": "Canal 4 Posadas (576p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
+      "http://190.128.214.97:64333/play/a06l/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4SanJuan.ar@SD",
+    "name": "Canal 4 San Juan (576p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Teleaire.ar@SD",
+    "name": "Canal 4 Teleaire",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmvideo6.livecastv.com/canal4/canal4/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4VillaDolores.ar@SD",
+    "name": "Canal 4 Villa Dolores",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmvideo3.livecastv.com/canal4vd/canal4vd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal5DelPueblo.ar@SD",
+    "name": "Canal 5 Del Pueblo [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal5SantaFe.ar@SD",
+    "name": "Canal 5 Santa Fe (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal5TVChepes.ar@SD",
+    "name": "Canal 5 TV Chepes",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar:19360/canal5alfatvchepes/canal5alfatvchepes.m3u8"
+    ]
+  },
+  {
+    "id": "Canal6Posadas.ar@SD",
+    "name": "Canal 6 Posadas (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal6VientoRecio.ar@SD",
+    "name": "Canal 6 Viento Recio",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmvideo6.livecastv.com/vientorecio/vientorecio/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7Jujuy.ar@SD",
+    "name": "Canal 7 Jujuy",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7Neuquen.ar@SD",
+    "name": "Canal 7 Neuquén (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7Salta.ar@SD",
+    "name": "Canal 7 Salta (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8",
+      "https://vivo.solumedia.com:19360/canal7salta/canal7salta.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7TV.ar@SD",
+    "name": "Canal 7 Santiago del Estero (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/envivo/castv/playlist.m3u8",
+      "https://k-fra32.x10.network/Clrs/test/hls/1158394/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal9Link.ar@SD",
+    "name": "Canal 9 Link",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal9Litoral.ar@SD",
+    "name": "Canal 9 Litoral (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.live/ahora/ahora/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal9Resistencia.ar@SD",
+    "name": "Canal 9 Resistencia (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal10Cordoba.ar@SD",
+    "name": "Canal 10 Cordoba",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal10MardelPlata.ar@SD",
+    "name": "Canal 10 Mar del Plata",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true"
+    ]
+  },
+  {
+    "id": "Canal12Web.ar@SD",
+    "name": "Canal 12 Puerto Madryn (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8",
+      "https://nd106.republicaservers.com:4433/c7827.mp4"
+    ]
+  },
+  {
+    "id": "Canal13Jujuy.ar@SD",
+    "name": "Canal 13 Jujuy TV (720p)",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8"
+    ]
+  },
+  {
+    "id": "Canal13LaRioja.ar@SD",
+    "name": "Canal 13 La Rioja (480p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://arcast.net:1935/mp/mp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal13SanLuis.ar@SD",
+    "name": "Canal 13 San Luis",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8"
+    ]
+  },
+  {
+    "id": "Canal21TV.ar@SD",
+    "name": "Canal 21 TV (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal22.ar@SD",
+    "name": "Canal 22 (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal26.ar@SD",
+    "name": "Canal 26 (1080p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
+      "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal50Morteros.ar@SD",
+    "name": "Canal 50 Morteros",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://online.coopmorteros.coop/canal50/vivo.m3u8"
+    ]
+  },
+  {
+    "id": "Canal79LaCosta.ar@SD",
+    "name": "Canal 79 La Costa (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamconex.com:19360/lacosta/lacosta.m3u8"
+    ]
+  },
+  {
+    "id": "Canal79MardelPlata.ar@SD",
+    "name": "Canal 79 Mar del Plata",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamconex.com:19360/mardelplata/mardelplata.m3u8"
+    ]
+  },
+  {
+    "id": "Canal79Puan.ar@SD",
+    "name": "Canal 79 Puan (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamconex.com:19360/puan/puan.m3u8"
+    ]
+  },
+  {
+    "id": "Canal79SantaClaradelMar.ar@SD",
+    "name": "Canal 79 Santa Clara del Mar (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8"
+    ]
+  },
+  {
+    "id": "Canal79VillaMaza.ar@SD",
+    "name": "Canal 79 Villa Maza",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamconex.com:19360/villamaza/villamaza.m3u8"
+    ]
+  },
+  {
+    "id": "Canal99Miramar.ar@SD",
+    "name": "Canal 99 Miramar",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8"
+    ]
+  },
+  {
+    "id": "CanalE.ar@SD",
+    "name": "Canal E (720p)",
+    "country": "AR",
+    "categories": [
+      "business",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalLuz.ar@SD",
+    "name": "Canal Luz",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://g4.vxral-hor.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalOrbe21.ar@SD",
+    "name": "Canal Orbe 21",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalProvincial.ar@SD",
+    "name": "Canal Provincial (360p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8"
+    ]
+  },
+  {
+    "id": "CanalPulpoTV.ar@SD",
+    "name": "Canal Pulpo TV",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSantaMaria.ar@SD",
+    "name": "Canal Santa María (360p)",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8"
+    ]
+  },
+  {
+    "id": "CanalShowsport.ar@SD",
+    "name": "Canal Showsport (720p)",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livestream.lumpentv.com.ar/hls/lumpen.m3u8"
+    ]
+  },
+  {
+    "id": "CanalTDC.ar@SD",
+    "name": "Canal TDC",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8"
+    ]
+  },
+  {
+    "id": "CanalUniversidad.ar@SD",
+    "name": "Canal Universidad",
+    "country": "AR",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8"
+    ]
+  },
+  {
+    "id": "CarasTV.ar@SD",
+    "name": "Caras TV (1080p)",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8",
+      "http://190.61.90.17:40000/play/a043/index.m3u8"
+    ]
+  },
+  {
+    "id": "CatamarcaTV.ar@SD",
+    "name": "Catamarca TV (720p)",
+    "country": "AR",
+    "categories": [
+      "culture",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "CeltaTV.ar@SD",
+    "name": "Celta TV (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/celta/celta.m3u8"
+    ]
+  },
+  {
+    "id": "ChacoTV.ar@SD",
+    "name": "Chaco TV (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ChacraTV.ar@SD",
+    "name": "Chacra TV",
+    "country": "AR",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/chacratv/chacratv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ChamameTV.ar@SD",
+    "name": "Chamame TV",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CiudadMagica.ar@SD",
+    "name": "Ciudad Magica (720p)",
+    "country": "AR",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CorreaRadiovision.ar@SD",
+    "name": "Correa Radiovision",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.net:4443/correadigital/canal12/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CorrientesTV.ar@SD",
+    "name": "Corrientes TV",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CosmosTv.ar@SD",
+    "name": "Cosmos Tv",
+    "country": "AR",
+    "categories": [
+      "movies",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+    ]
+  },
+  {
+    "id": "CosmosTv.ar@HD",
+    "name": "Cosmos Tv",
+    "country": "AR",
+    "categories": [
+      "movies",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+    ]
+  },
+  {
+    "id": "CumbiaMix.ar@HD",
+    "name": "Cumbia Mix (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@Panregional",
+    "name": "Disney Channel Latin America (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/DisneyHD/index.m3u8",
+      "http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8",
+      "http://45.185.163.75:8000/play/a02j/index.m3u8",
+      "http://45.70.201.81:8000/play/a00i/index.m3u8",
+      "http://190.14.10.19:16000/play/a06z/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@Center",
+    "name": "Disney Channel Latin America Center (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.78.8.199:8000/play/a0dn/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@Mexico",
+    "name": "Disney Channel Latin America Mexico (720p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.166.93.156:9999/play/a0f3/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@North",
+    "name": "Disney Channel Latin America North (576p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@PanregionalHD",
+    "name": "Disney Channel Latin America Panregional HD (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8",
+      "http://190.11.225.124:5000/live/disney_hd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJrLatinAmerica.ar@Panregional",
+    "name": "Disney Jr. Latin America (576p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/DISNEY-JR/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJrLatinAmerica.ar@NorthHD",
+    "name": "Disney Jr. Latin America North HD (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.78.14.26:4000/play/a073/index.m3u8",
+      "http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJrLatinAmerica.ar@South",
+    "name": "Disney Jr. Latin America South (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.185.163.75:8000/play/a016/index.m3u8",
+      "http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD",
+      "http://45.70.201.81:8000/play/a00g/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJrLatinAmerica.ar@SouthHD",
+    "name": "Disney Jr. Latin America South HD (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EcoTV.ar@SD",
+    "name": "Eco TV",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ElGourmet.ar@Panregional",
+    "name": "El Gourmet (1080p)",
+    "country": "AR",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/ElGourmetHD/index.m3u8",
+      "http://190.61.101.11:7050/play/a09s/index.m3u8?hls",
+      "http://138.121.15.230:9002/EL-GOURMET/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElNueve.ar@SD",
+    "name": "El Nueve (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/elnueveHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElSiete.ar@SD",
+    "name": "El Siete (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edgectc.com/CANAL7_MZA/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElTrece.ar@SD",
+    "name": "El Trece (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/eltreceHD/index.m3u8",
+      "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
+      "http://190.108.83.69:8000/play/a01d/index.m3u8"
+    ]
+  },
+  {
+    "id": "FilmArts.ar@Panregional",
+    "name": "Film & Arts (1080p)",
+    "country": "AR",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/FilmArtsHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "FolcloreandoTV.ar@SD",
+    "name": "Folcloreando TV",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GarageTVLatinAmerica.ar@SD",
+    "name": "Garage TV Latin America",
+    "country": "AR",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.sersat.com/hls/garagetv.m3u8"
+    ]
+  },
+  {
+    "id": "IPNoticias.ar@SD",
+    "name": "IP Noticias (720p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://twitch-m3u8.bastypro112.workers.dev/argentina_12tw/index.m3u8"
+    ]
+  },
+  {
+    "id": "ItelTVCanal2.ar@SD",
+    "name": "Itel TV Canal 2",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KpopMix.ar@SD",
+    "name": "Kpop Mix (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/KPOPMIX/index.m3u8"
+    ]
+  },
+  {
+    "id": "La100.ar@SD",
+    "name": "La 100 (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8"
+    ]
+  },
+  {
+    "id": "MasFM.ar@SD",
+    "name": "Más FM 95.9 (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/masfm/masfm.m3u8"
+    ]
+  },
+  {
+    "id": "MercurioNoticias.ar@SD",
+    "name": "Mercurio Noticias",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8"
+    ]
+  },
+  {
+    "id": "MetroTV.ar@SD",
+    "name": "Metro TV (720p)",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h211/index.m3u8"
+    ]
+  },
+  {
+    "id": "MisionesCuatro.ar@SD",
+    "name": "Misiones Cuatro",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MusicTop.ar@SD",
+    "name": "MusicTop (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8",
+      "http://190.128.214.97:64333/play/a06o/index.m3u8"
+    ]
+  },
+  {
+    "id": "NeoTV.ar@SD",
+    "name": "Neo TV",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8"
+    ]
+  },
+  {
+    "id": "NETTV.ar@SD",
+    "name": "NET TV (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8",
+      "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
+      "https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NGFederal.ar@SD",
+    "name": "NG Federal (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
+      "https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PancTV.ar@SD",
+    "name": "Panc TV (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://panel.host-live.com:19360/20004/20004.m3u8"
+    ]
+  },
+  {
+    "id": "PowerMaxRadioTV.ar@SD",
+    "name": "Power Max Radio TV (720p)",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8"
+    ]
+  },
+  {
+    "id": "PowerHD.ar@SD",
+    "name": "PowerHD",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "QuanticaTV.ar@SD",
+    "name": "Quantica TV",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8"
+    ]
+  },
+  {
+    "id": "RadioConexionWebTV.ar@SD",
+    "name": "Radio Conexion Web TV (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8"
+    ]
+  },
+  {
+    "id": "RadioMariaTV.ar@SD",
+    "name": "Radio Maria TV (1080p)",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://radiomaria.inovanex.stream/stream.m3u8"
+    ]
+  },
+  {
+    "id": "RadioRealpolitik.ar@SD",
+    "name": "Radio Realpolitik (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8"
+    ]
+  },
+  {
+    "id": "RadioSublimeGraciaTV.ar@SD",
+    "name": "Radio Sublime Gracia TV (720p)",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTVNeuquen.ar@SD",
+    "name": "Radio TV Neuquén (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioUP.ar@SD",
+    "name": "Radio UP (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioYguazuTV.ar@SD",
+    "name": "Radio Yguazú TV (480p)",
+    "country": "AR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.enhdtv.com:8081/radioiguazutv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Radiocanal.ar@SD",
+    "name": "Radiocanal San Francisco (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://204.199.3.2/.m3u8"
+    ]
+  },
+  {
+    "id": "Retroclub.ar@HD",
+    "name": "Retroclub (720p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video03.logicahost.com.br/retroclub02/retroclub02/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTN.ar@SD",
+    "name": "RTN (Neuquén) (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://media.neuquen.gov.ar/rtn/television/media.m3u8"
+    ]
+  },
+  {
+    "id": "SanLuisPlus.ar@SD",
+    "name": "San Luis +",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8"
+    ]
+  },
+  {
+    "id": "SanPedroTV.ar@SD",
+    "name": "San Pedro TV (1080p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SenalU.ar@SD",
+    "name": "Senal U",
+    "country": "AR",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "SenillosaTV.ar@SD",
+    "name": "Senillosa TV",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://player.videohost.click/senillosatv/senillosatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SicardiTV.ar@SD",
+    "name": "Sicardi TV (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8"
+    ]
+  },
+  {
+    "id": "SoliveTV.ar@SD",
+    "name": "Solive TV",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SonyChannel.ar@SD",
+    "name": "Sony Channel (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://138.121.15.230:9002/SONY/index.m3u8"
+    ]
+  },
+  {
+    "id": "T5Satelital.ar@SD",
+    "name": "T5 Satelital",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8"
+    ]
+  },
+  {
+    "id": "Telecinco.ar@SD",
+    "name": "TeleCinco Trelew (240p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://videohd.live:19360/8016/8016.m3u8"
+    ]
+  },
+  {
+    "id": "TelefeBuenosAires.ar@SD",
+    "name": "Telefe Buenos Aires (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelefeInterior.ar@SD",
+    "name": "Telefe Interior (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://200.91.32.158:8080/telefehdvalle/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelefeInternacional.ar@SD",
+    "name": "Telefe Internacional (576p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://190.108.83.69:8000/play/a08l/index.m3u8",
+      "http://200.115.120.1:8000/play/ca016/index.m3u8",
+      "http://190.60.55.141:9083/play/a0pb/index.m3u8"
+    ]
+  },
+  {
+    "id": "Telemax.ar@SD",
+    "name": "Telemax",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8"
+    ]
+  },
+  {
+    "id": "Telenord.ar@SD",
+    "name": "Telenord (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8",
+      "http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TIVTelevision.ar@SD",
+    "name": "TIV Television (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://videohd.live:19360/8008/8008.m3u8"
+    ]
+  },
+  {
+    "id": "TN.ar@SD",
+    "name": "TN (1080p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/TNHD/index.m3u8",
+      "http://playcom.trapemn.tv:1935/transcoderip/tn.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVCanal72.ar@SD",
+    "name": "TV Canal 72",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaArgentina.ar@SD",
+    "name": "TV Maná Argentina (576p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVPublicaFueguina.ar@SD",
+    "name": "TV Publica Fueguina (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://nd106.republicaservers.com/hls/c8094/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVSolidaria.ar@SD",
+    "name": "TV Solidaria (576p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8"
+    ]
+  },
+  {
+    "id": "TVUniversidad.ar@SD",
+    "name": "TV Universidad",
+    "country": "AR",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8"
+    ]
+  },
+  {
+    "id": "TyCSports.ar@SD",
+    "name": "TyC Sports (1080p) [Geo-blocked]",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8",
+      "http://45.181.87.106/TYCSPORTSHD/index.m3u8",
+      "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8",
+      "http://38.44.109.41:8003/play/a02l/index.m3u8",
+      "http://168.228.44.241:9999/play/a02e/index.m3u8"
+    ]
+  },
+  {
+    "id": "TyCSportsUSA.ar@SD",
+    "name": "TyC Sports USA",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.170.130.224:8000/play/a020/index.m3u8"
+    ]
+  },
+  {
+    "id": "UnifeTV.ar@SD",
+    "name": "Unife TV",
+    "country": "AR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8"
+    ]
+  },
+  {
+    "id": "Uniteve.ar@SD",
+    "name": "Uniteve (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8"
+    ]
+  },
+  {
+    "id": "UrbanMix.ar@SD",
+    "name": "Urban Mix (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/URBANMIX/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV.ar@SD",
+    "name": "VerTV (VTV) (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VillaManteroTV.ar@SD",
+    "name": "Villa Mantero TV",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://micanal.ovh/livestreams/515.AUTOOAAZ721F.m3u8"
+    ]
+  },
+  {
+    "id": "XLevelMedia.ar@SD",
+    "name": "X Level Media (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8"
+    ]
+  },
+  {
+    "id": "XamaTV.ar@SD",
+    "name": "Xama TV",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srs.unsj.edu.ar/live/xama/xama.flv"
+    ]
+  },
+  {
+    "id": "XtremaAccion.ar@SD",
+    "name": "Xtrema Accion",
+    "country": "AR",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "XtremaCartoons.ar@SD",
+    "name": "Xtrema Cartoons",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "XtremaCineClasico.ar@SD",
+    "name": "Xtrema Cine Clasico",
+    "country": "AR",
+    "categories": [
+      "movies",
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "XtremaTerror.ar@SD",
+    "name": "Xtrema Terror",
+    "country": "AR",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal8SanJuan.ar@SD",
+    "name": "Canal 8 San Juan (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ElGourmet.ar@South",
+    "name": "El Gourmet South (1080p)",
+    "country": "AR",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "EuropaEuropa.ar@SD",
+    "name": "Europa Europa (1080p)",
+    "country": "AR",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8",
+      "http://138.121.15.230:9002/EUROPA-EUROPA/index.m3u8",
+      "http://38.252.238.18:8000/play/a01d/index.m3u8"
+    ]
+  },
+  {
+    "id": "Telesol.ar@SD",
+    "name": "Telesol (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn1.tvlin.net/open/telesol/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TheCabbinFM.ar@SD",
+    "name": "The Cabbin FM",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SomosEntreRios.ar@SD",
+    "name": "Somos Entre Rios (360p)",
+    "country": "AR",
+    "categories": [
+      "general",
+      "family",
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "247CanaldeNoticias.ar@SD",
+    "name": "24/7 Canal de Noticias",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8"
+    ]
+  },
+  {
+    "id": "TelePosadas.ar@HD",
+    "name": "Tele Posadas HD (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Volver.ar@SD",
+    "name": "Volver (576p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://138.121.113.175:8000/play/a04r/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelefeRosario.ar@SD",
+    "name": "Telefe Rosario (720p) [Geo-blocked]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelefeTucuman.ar@SD",
+    "name": "Telefe Tucuman (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true"
+    ]
+  },
+  {
+    "id": "Canal2MardelPlata.ar@SD",
+    "name": "Canal 2 Mar del Plata (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8"
+    ]
+  },
+  {
+    "id": "CiudadTVResistencia.ar@SD",
+    "name": "Ciudad TV Resistencia (720p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://617c5175c970b.streamlock.net:4444/chacodxdtv/livenew/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SantaFeCanal.ar@SD",
+    "name": "Santa Fe Canal (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://canalsantaferts.argtelemax.workers.dev/"
+    ]
+  },
+  {
+    "id": "LitusTV.ar@SD",
+    "name": "Litus TV (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge.enhdtv.com/litustv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal8MardelPlata.ar@SD",
+    "name": "Canal 8 Mar del Plata (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://canal8mdq.unpocodeawita.workers.dev/"
+    ]
+  },
+  {
+    "id": "TelefeSalta.ar@SD",
+    "name": "Telefe Salta",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://canal11saltatv.unpocodeawita.workers.dev/"
+    ]
+  },
+  {
+    "id": "NeoxTV.ar@SD",
+    "name": "Neox TV [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8"
+    ]
+  },
+  {
+    "id": "NorteTV.ar@SD",
+    "name": "Norte TV (720p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ntvcanal7.com.ar:81/dash/stream.mpd"
+    ]
+  },
+  {
+    "id": "PlimPlim.ar@SD",
+    "name": "Plim Plim (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://200.115.120.1:8000/play/ca091/index.m3u8",
+      "http://45.70.168.162:1503/play/a02a/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElTreceInternacionalLatinAmerica.ar@SD",
+    "name": "El Trece Internacional Latin America (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://200.7.99.59:8000/play/a0gm/index.m3u8"
+    ]
+  },
+  {
+    "id": "Encuentro.ar@SD",
+    "name": "Encuentro (720p)",
+    "country": "AR",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://138.59.227.20:8000/play/a05s/index.m3u8",
+      "http://190.128.214.97:64333/play/a014/index.m3u8"
+    ]
+  },
+  {
+    "id": "Telefe.ar@SD",
+    "name": "Telefe (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.173.231.22:8000/play/a053/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal12VenadoTuerto.ar@SD",
+    "name": "Canal 12 Venado Tuerto (1080i)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nd106.republicaservers.com:4433/hls/diegologonitv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Pakapaka.ar@SD",
+    "name": "Pakapaka (1080p)",
+    "country": "AR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.128.214.97:64333/play/a02r/index.m3u8"
+    ]
+  },
+  {
+    "id": "CronicaTV.ar@SD",
+    "name": "Cronica TV (1080p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.128.214.97:64333/play/a010/index.m3u8"
+    ]
+  },
+  {
+    "id": "RockPop.ar@SD",
+    "name": "Rock & Pop (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.128.214.97:64333/play/a032/index.m3u8"
+    ]
+  },
+  {
+    "id": "LAMIL35TV.ar@SD",
+    "name": "LAMIL35 TV (720p)",
+    "country": "AR",
+    "categories": [
+      "classic",
+      "entertainment",
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Aunar.ar@SD",
+    "name": "Aunar (1080p)",
+    "country": "AR",
+    "categories": [
+      "culture",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.128.214.97:64333/play/a057/index.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTV.ar@SD",
+    "name": "Dance TV [Geo-blocked]",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h250/index.m3u8",
+      "https://op-group1-swiftservesd-1.dens.tv/s/s21/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJrLatinAmerica.ar@North",
+    "name": "Disney Jr. Latin America (1080p)",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.14.10.19:16000/play/a02d/index.m3u8"
+    ]
+  }
+]

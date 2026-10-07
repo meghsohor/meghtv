@@ -1,0 +1,75 @@
+[
+  {
+    "id": "FUSIONTV.mq@SD",
+    "name": "FUSION TV (1080p)",
+    "country": "MQ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "IdentiteTeleCaraibes.mq@SD",
+    "name": "Identité Télé Caraïbes (548p)",
+    "country": "MQ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vdo2.pro-fhi.net:3769/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "TeleZoukla.mq@SD",
+    "name": "Tele Zoukla",
+    "country": "MQ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vdo.pro-fhi.net:3228/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "TVFamille.mq@SD",
+    "name": "TV Famille (720p)",
+    "country": "MQ",
+    "categories": [
+      "family",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ViaATV.mq@SD",
+    "name": "ViàATV (1080p) [Geo-blocked]",
+    "country": "MQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer01.myvideoplace.tv/streamer02/hls/ATV_DIRECT_EV_111018.m3u8"
+    ]
+  },
+  {
+    "id": "ZitataTV.mq@SD",
+    "name": "Zitata TV",
+    "country": "MQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.zitata.tv/direct-hls/playlist.m3u8"
+    ]
+  }
+]

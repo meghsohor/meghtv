@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ERiTV1.er@SD",
+    "name": "ERi-TV 1 (576p)",
+    "country": "ER",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8"
+    ]
+  }
+]

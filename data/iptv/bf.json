@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Canal3.bf@SD",
+    "name": "Canal 3",
+    "country": "BF",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cs2.push2stream.com/CANAL3BENIN/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FilinfoTV.bf@SD",
+    "name": "Filinfo TV (1080p)",
+    "country": "BF",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d2iqjnqfr8pv3b.cloudfront.net/out/v1/d09d2fc718404cd8bccd3eba2444dd70/index.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactTV.bf@SD",
+    "name": "Impact TV",
+    "country": "BF",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge11.vedge.infomaniak.com/livecast/ik:impacttv-2/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "RTB.bf@SD",
+    "name": "RTB (360p) [Not 24/7]",
+    "country": "BF",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://edge12.vedge.infomaniak.com/livecast/ik:rtblive1_8/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "RTB3.bf@SD",
+    "name": "RTB 3",
+    "country": "BF",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge13.vedge.infomaniak.com/livecast/ik:rtb3-1/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "SavaneTV.bf@SD",
+    "name": "Savane TV",
+    "country": "BF",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://savane24.tv:5443/LiveApp/streams/Y4fyif69Q0ll6MeH2190896734859843.m3u8"
+    ]
+  }
+]

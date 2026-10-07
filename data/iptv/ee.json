@@ -1,0 +1,258 @@
+[
+  {
+    "id": "BestofDanceTV.ee@SD",
+    "name": "Best of Dance TV (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVAlgorhythm.ee@SD",
+    "name": "DanceTV Algorhythm (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m2b2.worldcast.tv:7443/dancetelevisionfour/dancetelevisionfour.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVDeepHouseDistrict.ee@SD",
+    "name": "DanceTV Deep House District (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVEDMMainstage.ee@SD",
+    "name": "DanceTV EDM Mainstage (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVHouseFloor.ee@SD",
+    "name": "DanceTV House Floor (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVMinimalTech.ee@SD",
+    "name": "DanceTV Minimal Tech (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8"
+    ]
+  },
+  {
+    "id": "DanceTVTechnoWarehouse.ee@SD",
+    "name": "DanceTV Techno Warehouse (1080p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8"
+    ]
+  },
+  {
+    "id": "ETV.ee@SD",
+    "name": "ETV (720p)",
+    "country": "EE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sb.err.ee/live/etv.m3u8"
+    ]
+  },
+  {
+    "id": "ETV2.ee@SD",
+    "name": "ETV2 (720p)",
+    "country": "EE",
+    "categories": [
+      "kids",
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sb.err.ee/live/etv2.m3u8"
+    ]
+  },
+  {
+    "id": "ETVPlus.ee@SD",
+    "name": "ETV+ (720p)",
+    "country": "EE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sb.err.ee/live/etvpluss.m3u8"
+    ]
+  },
+  {
+    "id": "Go3Sport1.ee@SD",
+    "name": "Go3 Sport 1 (1080p)",
+    "country": "EE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/416/index.m3u8"
+    ]
+  },
+  {
+    "id": "KidZoneMax.ee@SD",
+    "name": "KidZone Max (1080p) [Geo-blocked]",
+    "country": "EE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd"
+    ]
+  },
+  {
+    "id": "LifeTV.ee@SD",
+    "name": "Life TV (432p) [Not 24/7]",
+    "country": "EE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
+      "https://lifetv.bitflip.ee/live/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "Riigikogu.ee@SD",
+    "name": "Riigikogu (720p)",
+    "country": "EE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://router.euddn.net/862366dd346d6b6392d5231546f3d179/smil:rk_live_1.smil/playlist.m3u8?c=8005"
+    ]
+  },
+  {
+    "id": "TBNBaltia.ee@SD",
+    "name": "TBN Baltia (1080p)",
+    "country": "EE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8"
+    ]
+  },
+  {
+    "id": "VantageClassic.ee@HD",
+    "name": "Vantage Classic (720p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8",
+      "https://hls.vantagetv.ee/vclassic_stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "VantageDance.ee@HD",
+    "name": "Vantage Dance (720p)",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-backup.lulzy.eu/vdance_stream/index.m3u8",
+      "https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8"
+    ]
+  },
+  {
+    "id": "VantageMusic.ee@HD",
+    "name": "Vantage Music (720p) [Geo-blocked]",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-backup.lulzy.eu/vmusic_stream/index.m3u8",
+      "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
+      "https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8"
+    ]
+  },
+  {
+    "id": "VantageMusic.ee@UK",
+    "name": "Vantage Music UK (1080p) [Geo-blocked]",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "VantageRock.ee@HD",
+    "name": "Vantage Rock (720p) [Geo-blocked]",
+    "country": "EE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.vantagetv.ee/vrock_stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "OTV.ee@SD",
+    "name": "OTV",
+    "country": "EE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/otv/playlist.m3u8"
+    ]
+  }
+]

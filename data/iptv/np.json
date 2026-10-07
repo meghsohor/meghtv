@@ -1,0 +1,163 @@
+[
+  {
+    "id": "CapitalTVHD.np@SD",
+    "name": "Capital TV (1080p)",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8"
+    ]
+  },
+  {
+    "id": "DivyaDarshanTV.np@SD",
+    "name": "Divya Darshan TV (720p)",
+    "country": "NP",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.divyadarshantv.com/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "DivyaDarshanTV.np@HD",
+    "name": "Divya Darshan TV HD (1080p)",
+    "country": "NP",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.divyadarshantv.com/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "IndigenousTelevision.np@SD",
+    "name": "Indigenous Television (720p)",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KantipurMax.np@SD",
+    "name": "Kantipur Max [Geo-blocked]",
+    "country": "NP",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KantipurTV.np@SD",
+    "name": "Kantipur TV (1080p)",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8",
+      "http://103.213.31.109:90/KantipurPiracyHD/playlist.m3u8",
+      "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_720/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "KantipurTV.np@HD",
+    "name": "Kantipur TV",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "MithilaNepalTV.np@SD",
+    "name": "Mithila Nepal TV (1080p)",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "Public4KTV.np@HD",
+    "name": "Public 4K TV",
+    "country": "NP",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.180.240.141:8080/hls/main1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVTodayJanakpur.np@SD",
+    "name": "TV Today Janakpur",
+    "country": "NP",
+    "categories": [
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8"
+    ]
+  },
+  {
+    "id": "CapitalTVHD.np@HD",
+    "name": "Capital TV HD HD",
+    "country": "NP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.tvnepal.com:19360/capitaltv/720p.m3u8"
+    ]
+  },
+  {
+    "id": "RayTVHD.np@SD",
+    "name": "Ray TV HD (576p)",
+    "country": "NP",
+    "categories": [
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8"
+    ]
+  },
+  {
+    "id": "RayTVHD.np@HD",
+    "name": "Ray TV HD",
+    "country": "NP",
+    "categories": [
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.tvnepal.com:19360/raynewsdaily/720p.m3u8"
+    ]
+  }
+]

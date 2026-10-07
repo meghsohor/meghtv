@@ -1,0 +1,482 @@
+[
+  {
+    "id": "DreamTV.mn@SD",
+    "name": "DreamTV (1080p)",
+    "country": "MN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xykt-fix.github.io/play/a02j/index.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/Dreambox/DASH-FTA/Dreambox.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8"
+    ]
+  },
+  {
+    "id": "MNPlus.mn@SD",
+    "name": "MN+",
+    "country": "MN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8"
+    ]
+  },
+  {
+    "id": "MNB.mn@SD",
+    "name": "MNB (576p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mnb.mn/hls/mnb.stream.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/MNB/DASH-FTA/MNB.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MNB/HLSv3-FTA/MNB.m3u8"
+    ]
+  },
+  {
+    "id": "MNBSport.mn@SD",
+    "name": "MNB Sport (1080p)",
+    "country": "MN",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mnb.mn/hls/mnb_sport.stream.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MNBSport/HLSv3-FTA/MNBSport.m3u8"
+    ]
+  },
+  {
+    "id": "MNBWorld.mn@SD",
+    "name": "MNB World (576p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mnb.mn/hls/mnb_world.stream.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8"
+    ]
+  },
+  {
+    "id": "MNBMongoliinMedee.mn@SD",
+    "name": "MNB Монголын Мэдээ (576p)",
+    "country": "MN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mnb.mn/hls/mn2.stream.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MNB2/HLSv3-FTA/MNB2.m3u8"
+    ]
+  },
+  {
+    "id": "SevenChannel.mn@SD",
+    "name": "Seven Channel (720p) [Not 24/7]",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xykt-fix.github.io/liveh42-syhtv-mn/7Channel_HD/03.m3u8"
+    ]
+  },
+  {
+    "id": "AsianBox.mn@SD",
+    "name": "AsianBox (1080p)",
+    "country": "MN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/AsianBOX/DASH-FTA/AsianBOX.mpd",
+      "https://cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8"
+    ]
+  },
+  {
+    "id": "BloombergTVMongolia.mn@SD",
+    "name": "Bloomberg TV Mongolia HD (1080p)",
+    "country": "MN",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/BloombergMon/DASH-FTA/BloombergMon.mpd",
+      "https://cdn4.skygo.mn/live/disk1/BloombergMon/HLSv3-FTA/BloombergMon.m3u8"
+    ]
+  },
+  {
+    "id": "C1.mn@SD",
+    "name": "C1 (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/C1/DASH-FTA/C1.mpd",
+      "https://cdn4.skygo.mn/live/disk1/C1/HLSv3-FTA/C1.m3u8"
+    ]
+  },
+  {
+    "id": "CentralTV.mn@SD",
+    "name": "Central TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Ekh_Oron/DASH-FTA/Ekh_Oron.mpd",
+      "https://cdn1.skygo.mn/live/disk1/Ekh_Oron/HLS-FTA/Ekh_Oron.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/Ekh_Oron/HLSv3-FTA/Ekh_Oron.m3u8"
+    ]
+  },
+  {
+    "id": "Channel11.mn@SD",
+    "name": "Channel 11 (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Channel11/DASH-FTA/Channel11.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Channel11/HLSv3-FTA/Channel11.m3u8"
+    ]
+  },
+  {
+    "id": "Cinema.mn@SD",
+    "name": "Cinema (1080p)",
+    "country": "MN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd",
+      "https://cdn1.skygo.mn/live/disk1/CinemaTV/HLS-FTA/CinemaTV.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8"
+    ]
+  },
+  {
+    "id": "CNBCMongolia.mn@SD",
+    "name": "CNBC Mongolia (720p)",
+    "country": "MN",
+    "categories": [
+      "news",
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8"
+    ]
+  },
+  {
+    "id": "EagleNews.mn@SD",
+    "name": "Eagle News HD (1080p)",
+    "country": "MN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8"
+    ]
+  },
+  {
+    "id": "EdutainmentTV.mn@SD",
+    "name": "Education (1080p)",
+    "country": "MN",
+    "categories": [
+      "education",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Education/HLSv3-FTA/Education.m3u8"
+    ]
+  },
+  {
+    "id": "ETV.mn@SD",
+    "name": "ETV (1080p)",
+    "country": "MN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/ETV/HLSv3-FTA/ETV.m3u8"
+    ]
+  },
+  {
+    "id": "GTV.mn@SD",
+    "name": "Gandan TV (1080p)",
+    "country": "MN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/GTV/DASH-FTA/GTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/GTV/HLSv3-FTA/GTV.m3u8"
+    ]
+  },
+  {
+    "id": "GlobalTV.mn@SD",
+    "name": "Global TV (1080p)",
+    "country": "MN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/GlobalTV/DASH-FTA/GlobalTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/GlobalTV/HLSv3-FTA/GlobalTV.m3u8"
+    ]
+  },
+  {
+    "id": "MalchinTV.mn@SD",
+    "name": "Malchin TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Malchin/DASH-FTA/Malchin.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Malchin/HLSv3-FTA/Malchin.m3u8"
+    ]
+  },
+  {
+    "id": "TV25.mn@SD",
+    "name": "MN25 (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/MN25/DASH-FTA/MN25.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MN25/HLSv3-FTA/MN25.m3u8"
+    ]
+  },
+  {
+    "id": "MongolianNewsChannel.mn@SD",
+    "name": "MNC (1080p)",
+    "country": "MN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/MNCTV/HLSv3-FTA/MNCTV.m3u8"
+    ]
+  },
+  {
+    "id": "MovieBox.mn@SD",
+    "name": "MovieBox (1080p)",
+    "country": "MN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8"
+    ]
+  },
+  {
+    "id": "NTV.mn@SD",
+    "name": "NTV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
+      "https://cdn4.skygo.mn/live/disk1/NTVHD/HLSv3-FTA/NTVHD.m3u8"
+    ]
+  },
+  {
+    "id": "ONTV.mn@SD",
+    "name": "ONTV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/ONTV/HLSv3-FTA/ONTV.m3u8"
+    ]
+  },
+  {
+    "id": "ParliamentTV.mn@SD",
+    "name": "Parliament TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Parlament/DASH-FTA/Parlament.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8"
+    ]
+  },
+  {
+    "id": "SBN.mn@SD",
+    "name": "SBN (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/SBN/DASH-FTA/SBN.mpd",
+      "https://cdn4.skygo.mn/live/disk1/SBN/HLSv3-FTA/SBN.m3u8"
+    ]
+  },
+  {
+    "id": "StarTV.mn@SD",
+    "name": "Star TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd",
+      "https://cdn4.skygo.mn/live/disk1/Star/HLSv3-FTA/Star.m3u8"
+    ]
+  },
+  {
+    "id": "SuldTV.mn@SD",
+    "name": "Suld TV (1080p)",
+    "country": "MN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/SuldTV/DASH-FTA/SuldTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/SuldTV/HLSv3-FTA/SuldTV.m3u8"
+    ]
+  },
+  {
+    "id": "TenGerTV.mn@SD",
+    "name": "TenGer TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/VTV/DASH-FTA/VTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/VTV/HLSv3-FTA/VTV.m3u8"
+    ]
+  },
+  {
+    "id": "TMTV.mn@SD",
+    "name": "TM TV (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/TM/DASH-FTA/TM.mpd",
+      "https://cdn4.skygo.mn/live/disk1/TM/HLSv3-FTA/TM.m3u8"
+    ]
+  },
+  {
+    "id": "TV5.mn@SD",
+    "name": "TV5 (720p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/TV5HD/HLSv3-FTA/TV5HD.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/TV5HD/DASH-FTA/TV5HD.mpd"
+    ]
+  },
+  {
+    "id": "TV8.mn@SD",
+    "name": "TV8 (720p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/TV8HD/HLSv3-FTA/TV8HD.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/TV8HD/DASH-FTA/TV8HD.mpd",
+      "https://cdn1.skygo.mn/live/disk1/TV8HD/HLS-FTA/TV8HD.m3u8"
+    ]
+  },
+  {
+    "id": "TV9.mn@SD",
+    "name": "TV9 (720p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/TV9HD/HLSv3-FTA/TV9HD.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/TV9HD/DASH-FTA/TV9HD.mpd"
+    ]
+  },
+  {
+    "id": "UBS.mn@SD",
+    "name": "UBS (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd",
+      "https://cdn4.skygo.mn/live/disk1/UBSHD/HLSv3-FTA/UBSHD.m3u8"
+    ]
+  },
+  {
+    "id": "UlziiTV.mn@SD",
+    "name": "Өлзий ТВ (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/UlziiTV/DASH-FTA/UlziiTV.mpd",
+      "https://cdn4.skygo.mn/live/disk1/UlziiTV/HLSv3-FTA/UlziiTV.m3u8"
+    ]
+  },
+  {
+    "id": "SoyonGegeeruulegchTV.mn@SD",
+    "name": "Соён Гэгээрүүлэгч (1080p)",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/DASH-FTA/SoyonGegeeruulegch.mpd",
+      "https://cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/HLSv3-FTA/SoyonGegeeruulegch.m3u8"
+    ]
+  }
+]

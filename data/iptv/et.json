@@ -1,0 +1,39 @@
+[
+  {
+    "id": "AddisTV.et@SD",
+    "name": "Addis TV (720p)",
+    "country": "ET",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rrsatrtmp.tulix.tv/addis1/addis1multi.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MerejaTV.et@SD",
+    "name": "Mereja TV (1080p) [Not 24/7]",
+    "country": "ET",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rumble.com/live-hls-dvr/4c14o3/playlist.m3u8",
+      "https://g4wlkqp8l23a-hls-live.5centscdn.com/MerejaTV/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NesihaTV.et@SD",
+    "name": "Nesiha TV (720p)",
+    "country": "ET",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.cisk.tech/nasihatv/index.m3u8"
+    ]
+  }
+]

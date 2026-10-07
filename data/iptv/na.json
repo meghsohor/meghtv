@@ -1,0 +1,26 @@
+[
+  {
+    "id": "NBC1.na@SD",
+    "name": "NBC 1 [Not 24/7]",
+    "country": "NA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls2.nbcplus.na/hls/high_nbc1.m3u8"
+    ]
+  },
+  {
+    "id": "TjilTV.na@SD",
+    "name": "Tjil TV (720p)",
+    "country": "NA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls-1zdhtxpm-livepush.akamaized.net/live_cdn/nsM12Xw0C1xXdJ/em0Wx71z-ec6EWJb/rewind-3600.m3u8"
+    ]
+  }
+]

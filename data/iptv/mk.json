@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Alsat.mk@SD",
+    "name": "Alsat [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alsat_M)/index.m3u8"
+    ]
+  },
+  {
+    "id": "CoolTV.mk@SD",
+    "name": "Cool TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8"
+    ]
+  },
+  {
+    "id": "FolkTV.mk@SD",
+    "name": "Folk TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8"
+    ]
+  },
+  {
+    "id": "JazzTV.mk@SD",
+    "name": "Jazz TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8"
+    ]
+  },
+  {
+    "id": "Kanal5.mk@SD",
+    "name": "Kanal 5 (360p)",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.teve.mk/tvstanici/2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveTV.mk@SD",
+    "name": "Love TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8"
+    ]
+  },
+  {
+    "id": "MNetHD.mk@SD",
+    "name": "M-Net HD (720p)",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ares.mnet.mk/hls/mnet.m3u8",
+      "https://live.mnet.mk/hls/mnet.m3u8"
+    ]
+  },
+  {
+    "id": "MNetInfo.mk@SD",
+    "name": "M-Net Info",
+    "country": "MK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mnet.mk/hls/mnet-info.m3u8"
+    ]
+  },
+  {
+    "id": "MNetKids.mk@SD",
+    "name": "M-Net Kids (720p)",
+    "country": "MK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ares.mnet.mk/hls/mnet-kids.m3u8"
+    ]
+  },
+  {
+    "id": "MNetSport.mk@SD",
+    "name": "M-Net Sport (720p)",
+    "country": "MK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ares.mnet.mk/hls/mnet-sport.m3u8",
+      "https://live.mnet.mk/hls/mnet-sport.m3u8"
+    ]
+  },
+  {
+    "id": "MRT2.mk@SD",
+    "name": "MRT 2 [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MRT_2)/index.m3u8"
+    ]
+  },
+  {
+    "id": "MRTSobraniskikanal.mk@SD",
+    "name": "MRT Sobraniski kanal [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Sobraniski_Kanal)/index.m3u8"
+    ]
+  },
+  {
+    "id": "MTM.mk@SD",
+    "name": "MTM 1 [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MTM)/index.m3u8"
+    ]
+  },
+  {
+    "id": "NasaTV.mk@SD",
+    "name": "Naša TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/hls/nasatv_live.m3u8"
+    ]
+  },
+  {
+    "id": "RockTV.mk@SD",
+    "name": "Rock TV (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8"
+    ]
+  },
+  {
+    "id": "Sitel.mk@SD",
+    "name": "Sitel (480p)",
+    "country": "MK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://51.178.133.43:8081/tvstanici/s1/playlist.m3u8",
+      "https://teve.mk/tvstanici/s1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SkyFolkTV.mk@SD",
+    "name": "Sky Folk TV (720p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu.live.skyfolk.mk/live.m3u8",
+      "https://skyfolk.mk/live.m3u8"
+    ]
+  },
+  {
+    "id": "StarPlusTelevizija.mk@SD",
+    "name": "Star Plus Music (1080p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.muzickatv.mk/live/StarMusic2.m3u8"
+    ]
+  },
+  {
+    "id": "SutelTV.mk@SD",
+    "name": "Sutel TV [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Shutel)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TopEstradaTV.mk@SD",
+    "name": "TopEstrada TV (720p)",
+    "country": "MK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.topestrada.com/live/topestrada/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV21.mk@SD",
+    "name": "TV21 [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV21)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVERA.mk@SD",
+    "name": "TV ERA [Geo-blocked]",
+    "country": "MK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(ERA)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVNOVA12.mk@SD",
+    "name": "TV NOVA 12 (576p) [Not 24/7]",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://151.236.247.171:8080/nova/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVShenja.mk@SD",
+    "name": "TV Shenja [Geo-blocked]",
+    "country": "MK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV_Shenja)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVZdravkin.mk@SD",
+    "name": "TV Zdravkin (400p)",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8"
+    ]
+  }
+]

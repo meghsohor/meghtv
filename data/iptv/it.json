@@ -1,0 +1,3036 @@
+[
+  {
+    "id": "SenatoTV.it@SD",
+    "name": "Senato TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SophiaTV.it@SD",
+    "name": "Sophia TV Italy (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "7RadioVisione.it@HD",
+    "name": "7 RadioVisione (720p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "12TVParma.it@SD",
+    "name": "12 TV Parma (540p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "20.it@SD",
+    "name": "20 Mediaset [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8"
+    ]
+  },
+  {
+    "id": "50Canale.it@SD",
+    "name": "50 Canale",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "51RadioTV.it@SD",
+    "name": "51 Radio TV (480p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8",
+      "https://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "7080TV.it@SD",
+    "name": "70-80 TV (1080P)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "111TV.it@SD",
+    "name": "111 TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "A2iTV.it@SD",
+    "name": "A2i TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ACISportTV.it@SD",
+    "name": "ACI Sport TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8",
+      "http://145.239.5.177/564a/index.m3u8"
+    ]
+  },
+  {
+    "id": "Adnkronos.it@SD",
+    "name": "Adnkronos (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlmaTV.it@SD",
+    "name": "Alma TV (576p)",
+    "country": "IT",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://151.0.207.99:1935/AlmaTv/AlmaTv/playlist.m3u8",
+      "http://80.79.6.221:25461/smash/public/27"
+    ]
+  },
+  {
+    "id": "AltoAdigeTV.it@SD",
+    "name": "Alto Adige TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Antenna2TV.it@SD",
+    "name": "Antenna 2 TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AntennaSud.it@SD",
+    "name": "Antenna Sud (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.antennasudwebtv.it:9443/hls/vod.m3u8"
+    ]
+  },
+  {
+    "id": "AntennaSudExtra.it@SD",
+    "name": "Antenna Sud Extra (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.antennasudwebtv.it:9443/hls/vod92.m3u8"
+    ]
+  },
+  {
+    "id": "AntennaTre.it@SD",
+    "name": "Antenna Tre Veneto (480p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d8c0cee6f3d.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AuroraArte.it@SD",
+    "name": "Aurora Arte (480p)",
+    "country": "IT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AzzurraTV.it@SD",
+    "name": "Azzurra TV (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ed05.top-ix.org/avtvlive/azzurra/streaming/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BeJoykids.it@HD",
+    "name": "BeJoy.kids (1080p)",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.paroledivita.org/bejoy.m3u8"
+    ]
+  },
+  {
+    "id": "BergamoTV.it@SD",
+    "name": "Bergamo TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "BomChannel.it@SD",
+    "name": "Bom Channel (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CafeTV24.it@SD",
+    "name": "CafeTV24 (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srvx1.selftv.video/cafe/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CalabriaTV.it@SD",
+    "name": "Calabria TV",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CameradeiDeputati.it@SD",
+    "name": "Camera dei Deputati (via RR) (240p)",
+    "country": "IT",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canale2Altamura.it@SD",
+    "name": "Canale 2 Altamura (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canale5.it@SD",
+    "name": "Canale 5 [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canale7.it@SD",
+    "name": "Canale 7 (480p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/canale7/canale7/playlist.m3u8",
+      "http://wms.shared.streamshow.it/canale7/mp4:canale7/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canale8.it@SD",
+    "name": "Canale 8 (480p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8",
+      "http://wms.shared.streamshow.it/canale8/mp4:canale8/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanaleDieci.it@SD",
+    "name": "Canale 10 (540p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.187.142.147:1935/ch10live/high.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CasaItalia53.it@SD",
+    "name": "Casa Italia 53 (720p)",
+    "country": "IT",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Cine34.it@SD",
+    "name": "Cine 34 [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8"
+    ]
+  },
+  {
+    "id": "ClassCNBC.it@SD",
+    "name": "Class CNBC (1080p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8",
+      "https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg"
+    ]
+  },
+  {
+    "id": "CompanyTV.it@SD",
+    "name": "Company TV (720p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8"
+    ]
+  },
+  {
+    "id": "CusanoItaliaTV.it@SD",
+    "name": "Cusano Italia TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DeejayTV.it@SD",
+    "name": "Deejay TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DellaTV.it@HD",
+    "name": "DellaTV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/giatvplayout7/giatv-211474/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Deluxe139.it@SD",
+    "name": "Deluxe 139 (480p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DITV80.it@SD",
+    "name": "DI.TV 80 (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DonnaTV.it@SD",
+    "name": "Donna TV (480p)",
+    "country": "IT",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EliveTVBrescia.it@SD",
+    "name": "Elive TV Brescia (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EntellaTV.it@SD",
+    "name": "Entella TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EsperiaTV.it@SD",
+    "name": "Esperia TV (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8",
+      "http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EtnaEspressoChannel.it@SD",
+    "name": "Etna Espresso Channel (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "eTvMarche.it@SD",
+    "name": "èTv Marche (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "eTvRete7.it@SD",
+    "name": "èTv Rete 7 (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EuroIndieMusicChartTV.it@SD",
+    "name": "Euro Indie Music Chart TV (360p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EuroTV.it@SD",
+    "name": "Euro TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FanoTV.it@SD",
+    "name": "Fano TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cbd3bc28341f.streamlock.net:444/fanotv_live/_definst_/43DA-3923-9C72-4E9F/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FMITALIA.it@SD",
+    "name": "FM ITALIA (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GiornaleRadioTV.it@SD",
+    "name": "Giornale Radio TV (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GiovanniPaoloTV.it@SD",
+    "name": "Giovanni Paolo TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media2021.rtvweb.com/giovannipaolotv/web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GOTVCanale163.it@SD",
+    "name": "GO-TV Canale 163 (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GoldTV.it@SD",
+    "name": "Gold TV (576p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+      "https://5a1178b42cc03.streamlock.net/golditalia/golditalia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GoldTVSat.it@SD",
+    "name": "Gold TV Sat (576p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GRPVERATV.it@SD",
+    "name": "GRP VERATV (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8"
+    ]
+  },
+  {
+    "id": "IcaroTV.it@SD",
+    "name": "Icaro TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Iris.it@SD",
+    "name": "Iris [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8"
+    ]
+  },
+  {
+    "id": "Italia1.it@SD",
+    "name": "Italia 1 [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8"
+    ]
+  },
+  {
+    "id": "Italia2.it@SD",
+    "name": "Italia 2 (480p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8",
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i2)/index.m3u8"
+    ]
+  },
+  {
+    "id": "Italia2TV.it@SD",
+    "name": "Italia 2 TV (480p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Italia7.it@SD",
+    "name": "Italia 7 (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://151.0.207.99:1935/italia7/italia7/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ItalianFishingTV.it@SD",
+    "name": "Italian Fishing TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fms.premio.link/fishingtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IuniorTV.it@SD",
+    "name": "Iunior TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8",
+      "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Juwelo.it@SD",
+    "name": "Juwelo Italia (480p)",
+    "country": "IT",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7841/7841_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "KissKissNapoliTV.it@SD",
+    "name": "Kiss Kiss Napoli TV (720p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KissKissTV.it@SD",
+    "name": "Kiss Kiss TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8",
+      "https://58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8",
+      "https://59253971be783.streamlock.net/KissKissTV/KissKissTV.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaltroCorriereTV.it@SD",
+    "name": "L'altro Corriere TV",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/playlist.m3u8",
+      "https://stream.cp.ets-sistemi.it:1936/laltrocorriere-tv/laltrocorriere-tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "La5.it@SD",
+    "name": "La5 [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8"
+    ]
+  },
+  {
+    "id": "LA7d.it@SD",
+    "name": "LA7d (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8"
+    ]
+  },
+  {
+    "id": "LaCTV.it@SD",
+    "name": "La C TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaNuovaTV.it@SD",
+    "name": "La Nuova TV",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaTR3Marsala.it@SD",
+    "name": "La TR3 Marsala (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaCNews24.it@SD",
+    "name": "LaC News 24 (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LazioTV.it@SD",
+    "name": "Lazio TV (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://151.0.207.99:1935/live/LAZIOTV12/playlist.m3u8",
+      "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LeCronacheTV.it@SD",
+    "name": "Le Cronache TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://77.68.40.210:8888/hls/cronache.m3u8",
+      "http://stucazz.com:8888/hls/cronache.m3u8"
+    ]
+  },
+  {
+    "id": "LiraTV.it@SD",
+    "name": "Lira TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5d79ae45bc63b.streamlock.net/Liratv/Liratv/playlist.m3u8",
+      "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LombardiaTV.it@SD",
+    "name": "Lombardia TV",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "m2oTV.it@SD",
+    "name": "m2o TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MadeinBOTV.it@SD",
+    "name": "MadeinBO TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://srvx1.selftv.video/dmchannel/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MariaVisionItalia.it@SD",
+    "name": "Maria Vision (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:CHANNEL_2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MediasetExtra.it@SD",
+    "name": "Mediaset Extra [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8"
+    ]
+  },
+  {
+    "id": "MediasetItalia.it@SD",
+    "name": "Mediaset Italia (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/MediasetEU/Live.m3u8",
+      "https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(i2)/index.m3u8"
+    ]
+  },
+  {
+    "id": "MediasetItalia.it@Australia",
+    "name": "Mediaset Italia Australia (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/Mediaset_AU/Live.m3u8"
+    ]
+  },
+  {
+    "id": "MediasetItalia.it@USA",
+    "name": "Mediaset Italia USA (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/MediasetUSA/Live.m3u8"
+    ]
+  },
+  {
+    "id": "MediterraniaTV.it@SD",
+    "name": "MediterraniaTV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59bb40cf810aa.streamlock.net:4443/streamingvincente/streamingvincente/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MedjugorjeItaliaTV.it@SD",
+    "name": "Medjugorje Italia TV (480p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MinformoTV.it@SD",
+    "name": "Minformo TV (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NTN.it@SD",
+    "name": "NTN (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Odeon24.it@SD",
+    "name": "Odeon 24 (288p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8",
+      "https://5f11919dca3bd.streamlock.net/odeonjump/_definst_/odeonjump/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OndaNovaraTV.it@SD",
+    "name": "Onda Novara TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://585b674743bbb.streamlock.net/9006/9006/master.m3u8"
+    ]
+  },
+  {
+    "id": "OndaTV.it@SD",
+    "name": "Onda TV (568p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5926fc9c7c5b2.streamlock.net/9040/9040/chunklist_w1373908906.m3u8"
+    ]
+  },
+  {
+    "id": "OrlerTV.it@SD",
+    "name": "Orler TV (420p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OttoChannel.it@SD",
+    "name": "Otto Channel (480p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PaciContemporaryChannel.it@SD",
+    "name": "Paci Contemporary Channel (720p)",
+    "country": "IT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/pacicontemporarychannel/pacicontemporarychannel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PadrePioTV.it@SD",
+    "name": "Padre Pio TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8",
+      "http://80.79.6.221:25461/smash/public/8"
+    ]
+  },
+  {
+    "id": "ParadiseTV.it@SD",
+    "name": "Paradise TV [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ParolediVita.it@SD",
+    "name": "Parole di Vita (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.paroledivita.org/paroledivita.m3u8"
+    ]
+  },
+  {
+    "id": "PassioneLotto.it@SD",
+    "name": "Passione Lotto (300p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.63.52.103:8080/hls/passionelotto/1_2/index.m3u8"
+    ]
+  },
+  {
+    "id": "PeerTVAltoAdige.it@SD",
+    "name": "Peer TV Alto Adige (1280p)",
+    "country": "IT",
+    "categories": [
+      "outdoor",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.peer.biz/live/peertv-it.m3u8"
+    ]
+  },
+  {
+    "id": "PeerTVSouthTyrol.it@SD",
+    "name": "Peer TV South Tyrol (1280p)",
+    "country": "IT",
+    "categories": [
+      "outdoor",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.peer.biz/live/peertv-en.m3u8"
+    ]
+  },
+  {
+    "id": "PeerTVSudtirol.it@SD",
+    "name": "Peer TV Südtirol (1080p)",
+    "country": "IT",
+    "categories": [
+      "outdoor",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.peer.biz/live/peertv.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaTV.it@SD",
+    "name": "Prima TV Sicilia (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaFree.it@SD",
+    "name": "PrimaFree",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimAntennaTV.it@SD",
+    "name": "PrimAntenna TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Primocanale.it@SD",
+    "name": "Primocanale (1080p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PromovideoTV.it@SD",
+    "name": "Promovideo TV (486p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QuartoCanaleFlegreo.it@SD",
+    "name": "Quarto Canale Flegreo (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QVC.it@SD",
+    "name": "QVC Italia (540p)",
+    "country": "IT",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8"
+    ]
+  },
+  {
+    "id": "Radio51TV.it@SD",
+    "name": "Radio 51 TV (480p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://178.32.140.155/canale51/canale51/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioBirikinaTV.it@SD",
+    "name": "Radio Birikina TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioCapitalTiVu.it@HD",
+    "name": "Radio Capital TiVu (720p)",
+    "country": "IT",
+    "categories": [
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Radiofreccia.it@SD",
+    "name": "Radio Freccia TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8",
+      "https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RadioIbizaTV.it@SD",
+    "name": "Radio Ibiza TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioIglesias.it@SD",
+    "name": "Radio Iglesias (576p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioIglesiasSardegna.it@SD",
+    "name": "Radio Iglesias Sardegna (576p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioNorbaTV.it@SD",
+    "name": "Radio Norba TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream12.xdevel.com/video0s975885-2349/stream/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "RadioNumberOne.it@SD",
+    "name": "Radio Number One (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioPiterPanTV.it@SD",
+    "name": "Radio Piter Pan TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioStudioDeltaTV.it@SD",
+    "name": "Radio Studio Delta TV (1080p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTaorminaSicilia.it@SD",
+    "name": "Radio Taormina Sicilia (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioZeta.it@SD",
+    "name": "Radio Zeta TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8",
+      "https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "Rai1.it@SD",
+    "name": "Rai 1 (576p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803",
+      "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803",
+      "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Rai2.it@SD",
+    "name": "Rai 2 (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAI2/Live.m3u8"
+    ]
+  },
+  {
+    "id": "Rai3.it@HD",
+    "name": "Rai 3 (576p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
+      "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Rai4.it@SD",
+    "name": "Rai 4 (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966"
+    ]
+  },
+  {
+    "id": "RaiGulp.it@SD",
+    "name": "Rai Gulp (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953"
+    ]
+  },
+  {
+    "id": "RaiItalia.it@EuropeAfrica",
+    "name": "Rai Italia (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIEU/Live.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/19093/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiItalia.it@Australia",
+    "name": "Rai Italia Australia (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIHD/Live.m3u8"
+    ]
+  },
+  {
+    "id": "RaiItalia.it@NorthAmericas",
+    "name": "Rai Italia North Americas (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIUSA/Live.m3u8",
+      "http://138.59.177.78:9999/play/a0gf/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiItalia.it@SouthAmericas",
+    "name": "Rai Italia South Americas (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAISA/Live.m3u8"
+    ]
+  },
+  {
+    "id": "RaiNews24.it@SD",
+    "name": "Rai News 24 (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RaiScuola.it@SD",
+    "name": "Rai Scuola (1080p)",
+    "country": "IT",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8",
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011"
+    ]
+  },
+  {
+    "id": "RaiSport.it@SD",
+    "name": "Rai Sport",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiStoria.it@SD",
+    "name": "Rai Storia (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIStoria/Live.m3u8",
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990"
+    ]
+  },
+  {
+    "id": "RaiSudtirol.it@SD",
+    "name": "Rai Sudtirol",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://wzstreaming.rai.it/TVlive/smil:liveStream.smil/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiWorldPremium.it@SD",
+    "name": "Rai World Premium (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8"
+    ]
+  },
+  {
+    "id": "RDSSocialTV.it@SD",
+    "name": "RDS Social TV (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8"
+    ]
+  },
+  {
+    "id": "ReggioTV.it@SD",
+    "name": "ReggioTV (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Rete8.it@SD",
+    "name": "Rete 8",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Rete55.it@SD",
+    "name": "Rete 55 (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.internet.one/Rete55_Live/index.m3u8",
+      "https://live1.giocabet.tv/stream/6/index.m3u8"
+    ]
+  },
+  {
+    "id": "ReteBiellaTV.it@SD",
+    "name": "Rete Biella TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://sb.top-ix.org/retebiella/streaming/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ReteOro.it@SD",
+    "name": "Rete Oro (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ReteTVItalia.it@SD",
+    "name": "Rete TV Italia (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Retemia.it@SD",
+    "name": "Retemia (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/Retemia/Retemia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Reteveneta.it@SD",
+    "name": "Reteveneta (480p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RomanticaTV.it@SD",
+    "name": "Romantica TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "RossiniTV.it@SD",
+    "name": "Rossini TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cbd3bc28341f.streamlock.net:444/rossinitv_live/944A-63A6-9EB8-4492/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTCTelecalabria.it@SD",
+    "name": "RTC Telecalabria (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://fl1.mediastreaming.it:1935/calabriachannel/livestream/playlist.m3u8",
+      "https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025Best.it@SD",
+    "name": "RTL 102.5 Best (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025BroSis.it@SD",
+    "name": "RTL 102.5 Bro&Sis (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025Caliente.it@SD",
+    "name": "RTL 102.5 Caliente (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025Disco.it@SD",
+    "name": "RTL 102.5 Disco (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025Napule.it@SD",
+    "name": "RTL 102.5 Napulè (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025Traffic.it@SD",
+    "name": "RTL 102.5 Traffic (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTL1025TV.it@SD",
+    "name": "RTL 102.5 TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8"
+    ]
+  },
+  {
+    "id": "RTMTV.it@SD",
+    "name": "RTM TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTP.it@SD",
+    "name": "RTP (404p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTTRTrento.it@SD",
+    "name": "RTTR Trento (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTV38.it@SD",
+    "name": "RTV38 (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8",
+      "https://streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "Sportitalia.it@SD",
+    "name": "Sportitalia (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8",
+      "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
+      "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+      "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Sportitalia24.it@SD",
+    "name": "Sportitalia 24 (720p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SportitaliaMotori.it@SD",
+    "name": "Sportitalia Motori (720p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SportitaliaSolocalcio.it@SD",
+    "name": "Sportitalia Solocalcio (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+      "https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8",
+      "https://italiansport-solocalcio-samsung.amagi.tv/playlist.m3u8",
+      "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Stereo5TV.it@SD",
+    "name": "Stereo 5 TV (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream1.aswifi.it/stereo5/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "SuperJTVTeramo.it@SD",
+    "name": "Super J TV (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://54627d4fc5996.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8",
+      "http://uk4.streamingpulse.com:1935/SuperJtv/SuperJtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTV.it@SD",
+    "name": "Super TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
+      "https://59d7d6f47d7fc.streamlock.net/supertv/supertv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTVOristano.it@SD",
+    "name": "Super TV Oristano (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.70.81.40:1935/supertvoristano/supertvoristano/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Super.it@SD",
+    "name": "Super!",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperSix.it@SD",
+    "name": "SuperSix Lombardia (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTennis.it@SD",
+    "name": "SuperTennis (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "T9.it@SD",
+    "name": "T9 (288p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TaurianovaTV.it@HD",
+    "name": "Taurianova TV (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/taurianovatv/taurianovatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeatroTV.it@SD",
+    "name": "Teatro TV (720p)",
+    "country": "IT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://m.iostream.it/hls/teatrotv/teatrotv.m3u8"
+    ]
+  },
+  {
+    "id": "TeleAbruzzo.it@SD",
+    "name": "Tele Abruzzo (384p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleLiguriaSud.it@SD",
+    "name": "Tele Liguria Sud (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleOne16.it@SD",
+    "name": "Tele One 16",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telepavia.it@SD",
+    "name": "Tele Pavia (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/telepavia/telepavia/playlist.m3u8",
+      "http://wms.shared.streamshow.it/telepavia/mp4:telepavia/playlist.m3u8",
+      "http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8"
+    ]
+  },
+  {
+    "id": "TelePegasoCatania.it@SD",
+    "name": "Tele Pegaso Catania (404p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleQuattro.it@SD",
+    "name": "Tele Quattro (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/telequattro/telequattro/playlist.m3u8",
+      "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleRadioSciacca.it@SD",
+    "name": "Tele Radio Sciacca (240p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TSNTeleSondrioNews.it@SD",
+    "name": "Tele Sondrio News (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d8c0cee6f3d.streamlock.net/tsn/tsn_mobile/playlist.m3u8",
+      "http://wms.shared.streamshow.it/tsn/tsn_mobile/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teleacras.it@SD",
+    "name": "Teleacras (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cbd3bc28341f.streamlock.net:444/teleacras/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleArena.it@SD",
+    "name": "TeleArena (480p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleChiara.it@SD",
+    "name": "Telechiara (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://fms.tvavicenza.it:1935/telechiara/diretta/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelecolorLombardia.it@SD",
+    "name": "Telecolor Lombardia (1080p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telefoggia.it@SD",
+    "name": "Telefoggia (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8",
+      "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telefriuli.it@SD",
+    "name": "Telefriuli (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telegela647.it@SD",
+    "name": "Telegela 647",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telegranda.it@SD",
+    "name": "Telegranda (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://live.sloode.com:1935/telegranda_live/C2AD-0664-DC75-4744/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telejato.it@SD",
+    "name": "Telejato (720p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://telejato.liberotratto.com/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Teleliberta.it@SD",
+    "name": "Teleliberta (486p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://api.new.livestream.com/accounts/17114188/events/4902226/live.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMajg.it@SD",
+    "name": "TeleMajg (480p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/telemajg/telemajg/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telemantova.it@SD",
+    "name": "Telemantova (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMia.it@SD",
+    "name": "TeleMia (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMiaExtra.it@SD",
+    "name": "TeleMia Extra (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMistretta.it@SD",
+    "name": "TeleMistretta (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telemolise.it@SD",
+    "name": "Telemolise (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telemontecarlo.it@SD",
+    "name": "Telemontecarlo (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "teleMonteneve.it@SD",
+    "name": "teleMonteneve (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8"
+    ]
+  },
+  {
+    "id": "Telenord.it@SD",
+    "name": "Telenord (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5db313b643fd8.streamlock.net/Telenord/Telenord/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telenova.it@SD",
+    "name": "Telenova (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telepace1.it@SD",
+    "name": "Telepace 1 (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telepace2.it@SD",
+    "name": "Telepace 2 (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious",
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telepace3.it@SD",
+    "name": "Telepace 3 (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious",
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telepace4.it@SD",
+    "name": "Telepace 4 (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelepaceTrento.it@SD",
+    "name": "Telepace Trento (540p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleRama.it@SD",
+    "name": "TeleRama (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58d921499d3d3.streamlock.net/TeleRama/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teleromagna.it@SD",
+    "name": "Teleromagna (480p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleSanDomenico.it@SD",
+    "name": "TeleSanDomenico (1080p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telestense.it@SD",
+    "name": "Telestense (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5e73cf528f404.streamlock.net/TeleEstense/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelesudTrapani.it@SD",
+    "name": "Telesud Trapani (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://5cbd3bc28341f.streamlock.net:1935/telesud/live/playlist.m3u8",
+      "https://5cbd3bc28341f.streamlock.net:444/telesud/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teletricolore.it@SD",
+    "name": "Teletricolore (480p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleTusciaSabina2000.it@SD",
+    "name": "TeleTusciaSabina 2000 (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Televallo.it@SD",
+    "name": "Televallo (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cbd3bc28341f.streamlock.net:444/televallo/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleVenezia.it@SD",
+    "name": "TeleVenezia (576p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d8c0cee6f3d.streamlock.net/televenezia/televenezia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TGCom24.it@SD",
+    "name": "TGCom 24 [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8",
+      "https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8"
+    ]
+  },
+  {
+    "id": "TLTMolise.it@SD",
+    "name": "TLT Molise (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TopCrime.it@SD",
+    "name": "Top Crime [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(lt)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TRSport.it@SD",
+    "name": "TR Sport (480p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livetr.teleromagna.it/mia/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TrentinoTV.it@SD",
+    "name": "Trentino TV (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV7Benevento.it@SD",
+    "name": "TV7 Benevento (288p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV7Triveneta.it@SD",
+    "name": "TV7 Triveneta (562p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://www.gruppotv7.com:8090/hls/ireporter.m3u8"
+    ]
+  },
+  {
+    "id": "tv9Telemaremma.it@HD",
+    "name": "tv9 Telemaremma (576p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/2095a288-1384-ed2e-5da0-278ccbb72295.m3u8"
+    ]
+  },
+  {
+    "id": "TV2000.it@SD",
+    "name": "TV 2000 (720p)",
+    "country": "IT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8",
+      "https://videotv2000-meride-tv.akamaized.net/branded/monoscopio/monoscopio.m3u8",
+      "http://cld01ibi16.wz.tv2000.it/tv2000_alfa.m3u8",
+      "http://mi1.wz.tv2000.it/tv2000_alfa.m3u8"
+    ]
+  },
+  {
+    "id": "TVCampane1.it@SD",
+    "name": "TV Campane 1 (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8032/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPrato.it@SD",
+    "name": "TV Prato (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVQuiModena.it@SD",
+    "name": "TV Qui (Modena) (480p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVSei.it@SD",
+    "name": "TV Sei (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://185.202.128.1:1935/Tv6Stream/tv6TV.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVYesItalia.it@SD",
+    "name": "TV Yes Italia (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVAVicenza.it@SD",
+    "name": "TVA (Vicenza) (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVL.it@SD",
+    "name": "TVL (720p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRS.it@SD",
+    "name": "TVRS (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8"
+    ]
+  },
+  {
+    "id": "UmbriaTV.it@SD",
+    "name": "Umbria TV (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UniNettunoUniversityTV.it@SD",
+    "name": "UniNettuno University TV (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Value24TV.it@SD",
+    "name": "Value 24 TV",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f22d76e220e1.streamlock.net/canale1/canale1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VeraTV.it@SD",
+    "name": "Vera TV (1080p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it/veratv/mp4:veratv/playlist.m3u8",
+      "http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VideoRola.it@SD",
+    "name": "Video Rola (1080p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8"
+    ]
+  },
+  {
+    "id": "VideolinaSardegna.it@SD",
+    "name": "Videolina (Sardegna) (404p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://livestreaming.videolina.it/live/Videolina/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VisualRadio.it@SD",
+    "name": "Visual Radio (576p) [Not 24/7]",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8"
+    ]
+  },
+  {
+    "id": "WeddingTV.it@SD",
+    "name": "Wedding TV",
+    "country": "IT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.cp.ets-sistemi.it:1936/profservtv/profservtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ZonaDAZN.it@SD",
+    "name": "Zona DAZN",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/24/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiNews24.it@HD",
+    "name": "Rai News 24 HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8"
+    ]
+  },
+  {
+    "id": "InterTV.it@SD",
+    "name": "Inter TV (1080p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8"
+    ]
+  },
+  {
+    "id": "7Gold.it@SD",
+    "name": "7 Gold (1080p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamcdnr6-dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canale5.it@HD",
+    "name": "Canale 5 HD",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
+    ]
+  },
+  {
+    "id": "Cine34.it@HD",
+    "name": "Cine34 HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
+    ]
+  },
+  {
+    "id": "EspansioneTV.it@SD",
+    "name": "Espansione TV (576p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://b53136fc0d724da78cac7754d601393d.msvdn.net/live/S13070333/lgUidxJCmpO3/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Iris.it@HD",
+    "name": "Iris HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
+    ]
+  },
+  {
+    "id": "LazioStyleChannel.it@HD",
+    "name": "Lazio Style Channel HD (720p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelecityLombardia.it@SD",
+    "name": "Telecity Lombardia (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.it@SD",
+    "name": "Nick Jr. (720p)",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://102.129.186.182:81/nick/index.m3u8"
+    ]
+  },
+  {
+    "id": "HorrorChannel.it@SD",
+    "name": "Horror Channel (1080p)",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/Horror/index.m3u8"
+    ]
+  },
+  {
+    "id": "Twentyseven.it@HD",
+    "name": "Twentyseven HD (1080p) [Geo-blocked]",
+    "country": "IT",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd"
+    ]
+  },
+  {
+    "id": "RadioBrunoTV.it@SD",
+    "name": "Radio Bruno TV (720p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream7.xdevel.com/video0s975758-1051/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GamberoRossoChannel.it@SD",
+    "name": "Gambero Rosso (720p)",
+    "country": "IT",
+    "categories": [
+      "cooking",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6971fc07c945e6e4e5bc46bf.m3u8"
+    ]
+  },
+  {
+    "id": "RadioItaliaTrendTV.it@HD",
+    "name": "Radio Italia Trend (720p)",
+    "country": "IT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg00745-radioitailaspa-radioitalia-rakuten-sucsc.amagi.tv/hls/amagi_hls_data_rakutenAA-radioitalia-rakuten/CDN/master.m3u8",
+      "https://radioitalia-samsungitaly.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CGEntertainment.it@SD",
+    "name": "CG Entertainment",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HorseTV.it@SD",
+    "name": "Horse TV (720p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8",
+      "https://streams2.sofast.tv/vglive-sk-469239/index.m3u8"
+    ]
+  },
+  {
+    "id": "NauticalChannel.it@SD",
+    "name": "Nautical Channel (720p)",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8",
+      "https://streams2.sofast.tv/vglive-sk-231198/index.m3u8"
+    ]
+  }
+]

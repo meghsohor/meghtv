@@ -1,0 +1,74 @@
+[
+  {
+    "id": "Bonairetv.bq@SD",
+    "name": "Bonaire.tv (1080p) [Not 24/7]",
+    "country": "BQ",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.streambrothers.com:1936/8506/8506/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EnergiaTV.bq@SD",
+    "name": "Energia TV (720p) [Not 24/7]",
+    "country": "BQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8"
+    ]
+  },
+  {
+    "id": "Live99FM.bq@SD",
+    "name": "Live99FM (1080p)",
+    "country": "BQ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.streambrothers.com:1936/8014/8014/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NosTVBonaire.bq@SD",
+    "name": "Nos TV Bonaire (1080p)",
+    "country": "BQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://streaming.flamingotv.net/nostv/live.m3u8"
+    ]
+  },
+  {
+    "id": "NosTVBonaire2.bq@SD",
+    "name": "NosTV Bonaire 2",
+    "country": "BQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream2.nostvbonaire.com/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "VozDiBonaireTV.bq@SD",
+    "name": "Voz Di Bonaire TV (720p)",
+    "country": "BQ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.westream.cloud/VozdiBonaireTV/VozdiBonaireTV.m3u8"
+    ]
+  }
+]

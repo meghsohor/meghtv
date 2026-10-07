@@ -1,0 +1,217 @@
+[
+  {
+    "id": "AlerthAlnabawiChannel.jo@SD",
+    "name": "Alerth Alnabawi Channel (576p)",
+    "country": "JO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://82.212.74.2:8000/live/7307.m3u8"
+    ]
+  },
+  {
+    "id": "AlhaqeqaAldawlia.jo@SD",
+    "name": "Alhaqeqa Aldawlia (1080p) [Not 24/7]",
+    "country": "JO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ghaasiflu.online/alhqeqa/index.m3u8"
+    ]
+  },
+  {
+    "id": "AltaghierTV.jo@SD",
+    "name": "Altaghier TV (1080p)",
+    "country": "JO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmc-live.ercdn.net/altaghier/altaghier.m3u8"
+    ]
+  },
+  {
+    "id": "AmmanTV.jo@SD",
+    "name": "Amman TV (720p)",
+    "country": "JO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
+      "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8"
+    ]
+  },
+  {
+    "id": "JordanArchive.jo@SD",
+    "name": "Jordan Archive (1080p)",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Archive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JordanComedy.jo@SD",
+    "name": "Jordan Comedy (1080p)",
+    "country": "JO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Comedy/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JordanDrama.jo@SD",
+    "name": "Jordan Drama (1080p)",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JordanKitchen.jo@SD",
+    "name": "Jordan Kitchen (1080p)",
+    "country": "JO",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JordanTV.jo@SD",
+    "name": "Jordan Satellite Channel (1080p)",
+    "country": "JO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8"
+    ]
+  },
+  {
+    "id": "JordanSongs.jo@SD",
+    "name": "Jordan Songs (1080p)",
+    "country": "JO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JordanSport.jo@SD",
+    "name": "Jordan Sport (1080p) [Geo-blocked]",
+    "country": "JO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8"
+    ]
+  },
+  {
+    "id": "JordanTourism.jo@SD",
+    "name": "Jordan Tourism (1080p)",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Tourism/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KaifaTV.jo@SD",
+    "name": "Kaifa TV (576p)",
+    "country": "JO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://82.212.74.2:8000/live/7311.m3u8"
+    ]
+  },
+  {
+    "id": "RadioFannJordanStudio.jo@SD",
+    "name": "Radio Fann Jordan Studio (1080p) [Not 24/7]",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.63.116.205/hls2/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "RadioYaqeenJordanCityView.jo@SD",
+    "name": "Radio Yaqeen Jordan City View (1080p) [Not 24/7]",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.63.116.205/hls4/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "RotanaRadioJordanStudio.jo@SD",
+    "name": "Rotana Radio Jordan Studio (1080p) [Not 24/7]",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.63.116.205/hls/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "RotanaTarabJordanCityView.jo@SD",
+    "name": "Rotana Tarab Jordan City View (720p) [Not 24/7]",
+    "country": "JO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.63.116.205/hls3/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "RoyaTV.jo@SD",
+    "name": "Roya TV (1080p)",
+    "country": "JO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kwikmotion.com/royatvpublic/royatv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MelodyFM.jo@SD",
+    "name": "Melody FM Jordan (720p) [Not 24/7]",
+    "country": "JO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8"
+    ]
+  }
+]

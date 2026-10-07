@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TelevisionCaribbean.kn@SD",
+    "name": "Television Caribbean (1080p)",
+    "country": "KN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kingdom-tv.com:3545/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "ZIZTV.kn@SD",
+    "name": "ZIZ TV (720p)",
+    "country": "KN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.slactech.com:1936/ZIZDirect/ZIZDirect/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NevisTelevision.kn@SD",
+    "name": "Nevis Television",
+    "country": "KN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.slactech.com:1936/NTvDirect/ngrp:NTvDirect_all/playlist.m3u8"
+    ]
+  }
+]

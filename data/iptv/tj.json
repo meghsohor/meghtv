@@ -1,0 +1,169 @@
+[
+  {
+    "id": "Badakhshon.tj@SD",
+    "name": "Badakhshon (576p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/11/3m.m3u8",
+      "http://185.121.1.163:8083/Badakhshon/index.m3u8"
+    ]
+  },
+  {
+    "id": "DushanbeHD.tj@SD",
+    "name": "Dushanbe HD (1080p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/7/3m.m3u8",
+      "http://185.121.1.163:8083/DushanbeHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "Futbol.tj@SD",
+    "name": "Futbol (1080p)",
+    "country": "TJ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/8/3m.m3u8",
+      "http://185.121.1.163:8083/FootballHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "IlmvaTabiat.tj@SD",
+    "name": "Ilm va Tabiat (1080p)",
+    "country": "TJ",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/15/3m.m3u8"
+    ]
+  },
+  {
+    "id": "Jahonnamo.tj@SD",
+    "name": "Jahonnamo (1080p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/4/3m.m3u8"
+    ]
+  },
+  {
+    "id": "Khatlon.tj@SD",
+    "name": "Khatlon (576p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/10/3m.m3u8"
+    ]
+  },
+  {
+    "id": "Tojikiston.tj@SD",
+    "name": "Tajikistan (1080p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/1/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TMT.tj@SD",
+    "name": "TMT (1080p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/9/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVBahoriston.tj@SD",
+    "name": "TV Bahoriston (1080p)",
+    "country": "TJ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/3/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVKulob.tj@SD",
+    "name": "TV Kulob (576p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/12/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVSafina.tj@SD",
+    "name": "TV Safina (1080p)",
+    "country": "TJ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/2/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVSayohi.tj@SD",
+    "name": "TV Sayohi (1080p)",
+    "country": "TJ",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/16/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVSinamo.tj@SD",
+    "name": "TV Sinamo (1080p)",
+    "country": "TJ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/6/3m.m3u8"
+    ]
+  },
+  {
+    "id": "TVSugd.tj@SD",
+    "name": "TV Sugd (1080p)",
+    "country": "TJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.teleradiocom.tj/14/3m.m3u8"
+    ]
+  }
+]

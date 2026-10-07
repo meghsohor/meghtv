@@ -1,0 +1,305 @@
+[
+  {
+    "id": "ZooMoo.sg@SD",
+    "name": "Zoo Moo (Australia) (1080p)",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zoomoo-samsungau.amagi.tv/playlist.m3u8",
+      "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+      "http://168.196.127.137:6001/play/a03k/index.m3u8",
+      "https://d1bpufuvfayfg8.cloudfront.net/ZooMoo.m3u8"
+    ]
+  },
+  {
+    "id": "AnimaxAsia.sg@India",
+    "name": "Animax Asia India (1080p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AniplusAsia.sg@SD",
+    "name": "Aniplus Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Channel8.sg@SD",
+    "name": "Channel 8 (720p)",
+    "country": "SG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.qd.je/163189/ch8"
+    ]
+  },
+  {
+    "id": "ChannelU.sg@SD",
+    "name": "Channel U (720p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.qd.je/163189/chu"
+    ]
+  },
+  {
+    "id": "CNA.sg@SD",
+    "name": "CNA (1080p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNAOriginals.sg@SD",
+    "name": "CNA Originals (1080p)",
+    "country": "SG",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8",
+      "https://amg01082-cna-amg01082c1-vidaa-gb-7580.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CNBCAsia.sg@SD",
+    "name": "CNBC Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live130/index.m3u8",
+      "https://live.fptplay53.net/fnxsd1/cnbc_hls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "CrimePlusInvestigationAsia.sg@SD",
+    "name": "Crime + Investigation Asia HD (720p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8"
+    ]
+  },
+  {
+    "id": "KCM.sg@India",
+    "name": "KCM (1080p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg02159-amg02159c7-samsung-in-4001.playouts.now.amagi.tv/playlist/amg02159-kcglobal-kcm-samsungin/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "meWATCHLIVE1.sg@SD",
+    "name": "meWATCH LIVE 1 (1080p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd"
+    ]
+  },
+  {
+    "id": "NickJrAsia.sg@SD",
+    "name": "Nick Jr. Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonAsia.sg@SD",
+    "name": "Nickelodeon Asia (1080p)",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live105/index.m3u8"
+    ]
+  },
+  {
+    "id": "ROCKAction.sg@SD",
+    "name": "ROCK Action (1080p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live138/index.m3u8"
+    ]
+  },
+  {
+    "id": "Suria.sg@SD",
+    "name": "Suria [Geo-blocked]",
+    "country": "SG",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d11h6a6nhl9kj9.cloudfront.net/hls/clr4ctv_suria/master.m3u8"
+    ]
+  },
+  {
+    "id": "TechStorm.sg@SD",
+    "name": "Tech Storm (720p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/index.m3u8"
+    ]
+  },
+  {
+    "id": "ZeeTVAsiaPacific.sg@SD",
+    "name": "Zee TV Asia Pacific (720p)",
+    "country": "SG",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeTVHDAPAC.m3u8"
+    ]
+  },
+  {
+    "id": "AXNAsia.sg@Taiwan",
+    "name": "AXN Asia Taiwan (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://125.227.210.55:4050/VideoInput/play.ts"
+    ]
+  },
+  {
+    "id": "CNAInternational.sg@SD",
+    "name": "CNA International (576p)",
+    "country": "SG",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8"
+    ]
+  },
+  {
+    "id": "GlobalTrekker.sg@SD",
+    "name": "Global Trekker (720p)",
+    "country": "SG",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live112/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJrAsia.sg@HD",
+    "name": "Nick Jr. Asia HD (720p)",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10003/bysid/2330"
+    ]
+  },
+  {
+    "id": "ROCKXStream.sg@HD",
+    "name": "ROCK X Stream (720p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10007/bysid/2811"
+    ]
+  },
+  {
+    "id": "AXNAsia.sg@Thailand",
+    "name": "AXN Asia Thailand (720p)",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10007/bysid/2814"
+    ]
+  },
+  {
+    "id": "ROCKEntertainment.sg@HD",
+    "name": "ROCK Entertainment HD (720p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10006/bysid/2612"
+    ]
+  },
+  {
+    "id": "HITSMovies.sg@SD",
+    "name": "HITS Movies (576p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.151.60.162:2122/play/a01h/index.m3u8?hls"
+    ]
+  }
+]

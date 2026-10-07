@@ -1,0 +1,314 @@
+[
+  {
+    "id": "BravoKidsTV.hr@SD",
+    "name": "Bravo! Kids TV",
+    "country": "HR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.radiohub.hr/RadioHub_WEB_streaming/BHWUC27pGZ/3.m3u8"
+    ]
+  },
+  {
+    "id": "CMCTV.hr@SD",
+    "name": "CMC TV (1080p)",
+    "country": "HR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.cmctv.hr:49998/cmc/live.m3u8"
+    ]
+  },
+  {
+    "id": "DiadoraTV.hr@SD",
+    "name": "Diadora TV",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://diadoratv.stream/live/diadora/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HRT1.hr@SD",
+    "name": "HRT 1 (720p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://webtvstream.bhtelecom.ba/hrt1.m3u8"
+    ]
+  },
+  {
+    "id": "HRT1.hr@HD",
+    "name": "HRT 1 HD (1080p) [Geo-blocked]",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd"
+    ]
+  },
+  {
+    "id": "HRT2.hr@SD",
+    "name": "HRT 2 (720p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://webtvstream.bhtelecom.ba/hrt2.m3u8"
+    ]
+  },
+  {
+    "id": "HRT2.hr@HD",
+    "name": "HRT 2 HD (1080p) [Geo-blocked]",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT2/default/index.mpd"
+    ]
+  },
+  {
+    "id": "HRT3.hr@SD",
+    "name": "HRT 3 (720p)",
+    "country": "HR",
+    "categories": [
+      "culture",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://webtvstream.bhtelecom.ba/hrt3.m3u8"
+    ]
+  },
+  {
+    "id": "HRT3.hr@HD",
+    "name": "HRT 3 HD (720p) [Geo-blocked]",
+    "country": "HR",
+    "categories": [
+      "culture",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT3/default/index.mpd"
+    ]
+  },
+  {
+    "id": "HRT4.hr@HD",
+    "name": "HRT 4 HD (720p) [Geo-blocked]",
+    "country": "HR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT4/default/index.mpd"
+    ]
+  },
+  {
+    "id": "KlapeiTambureTV.hr@SD",
+    "name": "Klape i Tambure TV (1080p)",
+    "country": "HR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.cmctv.hr:49998/kit/live.m3u8"
+    ]
+  },
+  {
+    "id": "Klasik.hr@SD",
+    "name": "Klasik TV (576p) [Not 24/7]",
+    "country": "HR",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://178.253.194.105/klasiktv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LibertasTV.hr@SD",
+    "name": "Libertas TV (1080p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.luci.xyz/hls/LTV.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.hr@SD",
+    "name": "National Geographic (1080p)",
+    "country": "HR",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.61.157.250/NationalGeographic/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.hr@SD",
+    "name": "Nickelodeon (1080p)",
+    "country": "HR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.61.157.250/Nickelodeon/index.m3u8"
+    ]
+  },
+  {
+    "id": "NovaTV.hr@SD",
+    "name": "Nova TV (1080p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.61.157.250/NovaTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "OTV.hr@SD",
+    "name": "OTV (720p) [Not 24/7]",
+    "country": "HR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.agatin.hr:3559/live/otvlive.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTelevizijaBanovina.hr@SD",
+    "name": "Radio Televizija Banovina (1080p) [Not 24/7]",
+    "country": "HR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "SBTV.hr@SD",
+    "name": "SBTV (1080p) [Not 24/7]",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.leveex.hr/hls/live.m3u8"
+    ]
+  },
+  {
+    "id": "ShiftTV.hr@SD",
+    "name": "Shift TV (1080p)",
+    "country": "HR",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.shift.tv/live/shifttv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "STV.hr@SD",
+    "name": "STV (720p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.201.163.244:8080/hls/hdmi.m3u8"
+    ]
+  },
+  {
+    "id": "TrendTV.hr@SD",
+    "name": "Trend TV (480p)",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.62.75.22:1935/trend/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVJadran.hr@SD",
+    "name": "TV Jadran (720p) [Not 24/7]",
+    "country": "HR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8"
+    ]
+  },
+  {
+    "id": "TVNova.hr@SD",
+    "name": "TV Nova (720p)",
+    "country": "HR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.agatin.hr:3727/live/tvnovalive.m3u8"
+    ]
+  },
+  {
+    "id": "TVZapad.hr@SD",
+    "name": "TV Zapad (1080p) [Not 24/7]",
+    "country": "HR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.94.67.158/TVZAPAD/index.fmp4.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.hr@SD",
+    "name": "Nick Jr. (540p)",
+    "country": "HR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.61.157.250/NickJr/index.m3u8"
+    ]
+  }
+]

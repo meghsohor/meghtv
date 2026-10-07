@@ -1,0 +1,278 @@
+[
+  {
+    "id": "DreikoTV.pa@SD",
+    "name": "Dreiko TV (720p) [Not 24/7]",
+    "country": "PA",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8020/index.m3u8"
+    ]
+  },
+  {
+    "id": "ARCanal.pa@SD",
+    "name": "A&R Canal Adventista (720p)",
+    "country": "PA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://51.222.9.192:3589/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "BTVPanama.pa@SD",
+    "name": "BTV Panamá (720p) [Not 24/7]",
+    "country": "PA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.oursnetworktv.com/latin/btvpanama/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CorazonTV.pa@SD",
+    "name": "Corazon TV",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8"
+    ]
+  },
+  {
+    "id": "FabulosaEstereo1005FM.pa@SD",
+    "name": "Fabulosa Estéreo 100.5 FM (720p)",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8"
+    ]
+  },
+  {
+    "id": "HosannaVision.pa@SD",
+    "name": "Hosanna Vision (720p) [Not 24/7]",
+    "country": "PA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaXitosaPanama.pa@SD",
+    "name": "LaXitosa Panamá (360p) [Not 24/7]",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmvideo2.livecastv.com/lax953/lax953/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Mas23TV.pa@SD",
+    "name": "Mas23 TV",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://movil.ejeserver.com/live/mas23tv.m3u8"
+    ]
+  },
+  {
+    "id": "MINFAVTV.pa@SD",
+    "name": "MINFAV TV",
+    "country": "PA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mp.panelchs.com:1936/8044/8044/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NexTVCanal21.pa@SD",
+    "name": "Nex TV Canal 21",
+    "country": "PA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://movil.ejeserver.com/live/nextv.m3u8"
+    ]
+  },
+  {
+    "id": "PindinTV.pa@SD",
+    "name": "Pindin TV",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sistemastr.tropicalmoonmedia.com/live/7C452409423F57ADC960F6405635267F/7.m3u8"
+    ]
+  },
+  {
+    "id": "Planet1009FM.pa@SD",
+    "name": "Planet 100.9 FM (1080p)",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PlusTV.pa@SD",
+    "name": "Plus TV (720p) [Not 24/7]",
+    "country": "PA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vcp4.myplaytv.com:1936/plustv/plustv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioAncon.pa@SD",
+    "name": "Radio Ancón (720p)",
+    "country": "PA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.streaming507.net:19360/anconvideo/anconvideo.m3u8"
+    ]
+  },
+  {
+    "id": "RadioHogar.pa@SD",
+    "name": "Radio Hogar (720p)",
+    "country": "PA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.streaming507.net:19360/videoradiohogar/videoradiohogar.m3u8"
+    ]
+  },
+  {
+    "id": "SuperQPanama.pa@SD",
+    "name": "Súper Q Panamá (1080p)",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telemetro.pa@SD",
+    "name": "Telemetro (720p)",
+    "country": "PA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.78.121.15:8000/play/a001/index.m3u8"
+    ]
+  },
+  {
+    "id": "TropiQ997FM.pa@SD",
+    "name": "Tropi Q 99.7 FM (1080p)",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8"
+    ]
+  },
+  {
+    "id": "TropicalMoonCumbiaTV.pa@SD",
+    "name": "Tropical Moon Cumbia TV (720p)",
+    "country": "PA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TropicalMoonEventosTV.pa@SD",
+    "name": "Tropical Moon Eventos TV (720p)",
+    "country": "PA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://srv2.tropicalmoonmedia.com/eventostv/eventostv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMax.pa@SD",
+    "name": "TVMAX (720p)",
+    "country": "PA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "TVN.pa@SD",
+    "name": "TVN (720p)",
+    "country": "PA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bcovlive-a.akamaihd.net/628aecb4fccb4c52b4f9c8d5cc57fb73/us-west-2/6058004209001/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "VisionLatina.pa@SD",
+    "name": "Vision Latina (1080p)",
+    "country": "PA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/64917431-2f51-0a46-d4d0-04d111b2393f/master.m3u8"
+    ]
+  }
+]

@@ -1,0 +1,2133 @@
+[
+  {
+    "id": "PequesTV.pe@SD",
+    "name": "Peques TV (720p)",
+    "country": "PE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "36TVHuacho.pe@SD",
+    "name": "36 TV Huacho (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ABCTeleshow.pe@SD",
+    "name": "ABC Teleshow (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ABTelevision.pe@SD",
+    "name": "ABTelevision (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AgroTV.pe@SD",
+    "name": "Agro TV (720p)",
+    "country": "PE",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8",
+      "https://play.agenciastreaming.com:8081/agrotv/index.m3u8"
+    ]
+  },
+  {
+    "id": "AlturaTV.pe@SD",
+    "name": "Altura TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/urbanatv/playlist.m3u8",
+      "https://play.agenciastreaming.com:8081/tvalturalimalive/video.m3u8"
+    ]
+  },
+  {
+    "id": "AmazoniaTV.pe@SD",
+    "name": "Amazonia TV",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://servilive.com:3199/live/amazoniatvlive.m3u8"
+    ]
+  },
+  {
+    "id": "AmazonicaTV.pe@SD",
+    "name": "Amazonica TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8",
+      "https://videoserver.tmcreativos.com:19360/amazonicatv/amazonicatv.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaTelevision.pe@SD",
+    "name": "America Television (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/AMERICA/index.m3u8",
+      "http://190.93.224.42/AMERICA-TV/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/america.stream/playlist.m3u8",
+      "https://live-bd1.tv360.bitel.com.pe/manifest/america/master_clean_source.m3u8",
+      "http://187.102.210.46/AMERICA/index.m3u8"
+    ]
+  },
+  {
+    "id": "AndesTelevision.pe@SD",
+    "name": "Andes Television (720p)",
+    "country": "PE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8",
+      "https://stmv2.srvif.com/tvsicuani/tvsicuani/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AndinaRTV.pe@SD",
+    "name": "Andina RTV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AntaresTelevision.pe@SD",
+    "name": "Antares Television",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5949aa132c8fb.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8",
+      "https://5c3fb01839654.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Antena1.pe@SD",
+    "name": "Antena 1 (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/antenauno.stream/playlist.m3u8",
+      "https://live-evg8.tv360.bitel.com.pe/bitel/aunoSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaSUR.pe@SD",
+    "name": "Antena SUR (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8",
+      "https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ArpegioTV.pe@SD",
+    "name": "Arpegio TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/arpegioSRT/playlist.m3u8",
+      "https://vdo.oyotunserver.com/arpegio/video.m3u8"
+    ]
+  },
+  {
+    "id": "AsiriTV.pe@SD",
+    "name": "AsiriTV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.lhdserver.es/asiritv/live.m3u8"
+    ]
+  },
+  {
+    "id": "AtlantisRadioTV.pe@SD",
+    "name": "Atlantis Radio TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ATV.pe@SD",
+    "name": "ATV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/ATV/index.m3u8",
+      "http://187.102.210.46/ATV/index.m3u8",
+      "https://d2b5h5wyivfnfl.cloudfront.net/live/25046411-8673-4dec-8ae8-5b41984f34e1/ts:abr.m3u8",
+      "https://alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8"
+    ]
+  },
+  {
+    "id": "ATV.pe@HD",
+    "name": "ATV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d19e55ehz2il4i.cloudfront.net/ts:abr.m3u8"
+    ]
+  },
+  {
+    "id": "ATVSur.pe@SD",
+    "name": "ATV Sur (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/ATV-SUR/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/atvsur.stream/playlist.m3u8",
+      "https://alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8",
+      "https://dnhmqt6n0lkaq.cloudfront.net/ts:abr.m3u8"
+    ]
+  },
+  {
+    "id": "ATVPlus.pe@SD",
+    "name": "ATV+ (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/ATV/index.m3u8",
+      "http://190.93.224.42/ATV-PLUS/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/atvplus.stream/playlist.m3u8",
+      "https://d26l0c7cli5gzs.cloudfront.net/ts:abr.m3u8",
+      "https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8"
+    ]
+  },
+  {
+    "id": "AutenticaTelevision.pe@SD",
+    "name": "Auténtica Televisión (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/autenticatvmux/index.m3u8"
+    ]
+  },
+  {
+    "id": "BellaAbanquinaTV.pe@SD",
+    "name": "Bella Abanquina TV (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/bellaabanquinaSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BethelTV.pe@SD",
+    "name": "Bethel TV (720p)",
+    "country": "PE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alfa.betheltv.tv/srt/3_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BNBDigital.pe@SD",
+    "name": "BNB Digital (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/bnbSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CadenaTV.pe@HD",
+    "name": "Cadena TV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8"
+    ]
+  },
+  {
+    "id": "CadenaTV.pe@SD",
+    "name": "Cadena TV SD",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CajamarcaTV.pe@SD",
+    "name": "Cajamarca TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/cajamarcatvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal8Catacaos.pe@SD",
+    "name": "Canal 8 Catacaos (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/canal8/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal21Huancayo.pe@SD",
+    "name": "Canal 21 Huancayo (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/tvwanka/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal21Huancayo.pe@HD",
+    "name": "Canal 21 Huancayo (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.agenciastreaming.com:8081/tvwanka/tracks-v1/index.fmp4.m3u8"
+    ]
+  },
+  {
+    "id": "Canal25Ayacucho.pe@SD",
+    "name": "Canal 25 Ayacucho (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalIPe.pe@SD",
+    "name": "Canal IPe (720p)",
+    "country": "PE",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "http://187.102.210.46/IPE/index.m3u8",
+      "http://190.93.224.42/IPE/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/ipemovil/playlist.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/ipe.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CANALMTelevision.pe@SD",
+    "name": "CANAL M Television (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/anqaratv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalMasTV.pe@SD",
+    "name": "Canal Mas TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/mastvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CasmaTV.pe@SD",
+    "name": "Casma TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CharapaTV.pe@SD",
+    "name": "Charapa TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/charapatvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Conecta2TV.pe@SD",
+    "name": "Conecta2TV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/conecta2/index.m3u8"
+    ]
+  },
+  {
+    "id": "ControversiaTV.pe@SD",
+    "name": "Controversia TV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/controversiatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "CRTelevision.pe@SD",
+    "name": "CR Televisión Moyobamba (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/crtvmux/index.m3u8"
+    ]
+  },
+  {
+    "id": "Cultura24.pe@SD",
+    "name": "Cultura 24",
+    "country": "PE",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.opencaster.com/resources/hls_stream/cultura24.m3u8"
+    ]
+  },
+  {
+    "id": "CVNTV.pe@SD",
+    "name": "CVN TV",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7.innovatestream.pe:19360/cvntumbes/cvntumbes.m3u8"
+    ]
+  },
+  {
+    "id": "DacTV.pe@SD",
+    "name": "Dac TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DeltaTV.pe@SD",
+    "name": "DeltaTV",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8"
+    ]
+  },
+  {
+    "id": "DiasporaTV.pe@SD",
+    "name": "Diaspora TV",
+    "country": "PE",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s1.tvdatta.com:3978/live/diasporatvlive.m3u8"
+    ]
+  },
+  {
+    "id": "DobleCTelevision.pe@SD",
+    "name": "Doble C Television (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/giatv/giatv-doblec1/doblec1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DTV.pe@SD",
+    "name": "DTV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/sabormixtvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ECOTelevision.pe@SD",
+    "name": "ECO Television (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/ecotv/playlist.m3u8",
+      "https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "EvolucionTV.pe@SD",
+    "name": "Evolucion TV (576p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edgectc.com/CTC_SAN_RAFAEL/index.m3u8"
+    ]
+  },
+  {
+    "id": "ExitosaTV.pe@SD",
+    "name": "Exitosa TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/EXITOSA/index.m3u8",
+      "https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8",
+      "http://187.102.210.46/EXITOSA/index.m3u8"
+    ]
+  },
+  {
+    "id": "FolkloreTV.pe@SD",
+    "name": "Folklore TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.folkloretv.pe/StreamSD/index.m3u8"
+    ]
+  },
+  {
+    "id": "ForoTV.pe@SD",
+    "name": "Foro TV",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mc.servidor.stream:19360/8274/8274.m3u8"
+    ]
+  },
+  {
+    "id": "FrecuenciaAmazonica.pe@SD",
+    "name": "Frecuencia Amazonica",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vivatv.juanjuiserver.com:3349/live/frecuenciaamazonicalive.m3u8"
+    ]
+  },
+  {
+    "id": "FuegoTV.pe@SD",
+    "name": "FuegoTV (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/fuegotv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GalacticaTV.pe@SD",
+    "name": "Galactica TV",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8"
+    ]
+  },
+  {
+    "id": "GeniosTV.pe@SD",
+    "name": "Genios TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sc3.wasidata.com/Genios2_1902/video.m3u8"
+    ]
+  },
+  {
+    "id": "GlobalTV.pe@SD",
+    "name": "Global TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/GLOBAL/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/global.stream/playlist.m3u8",
+      "https://cablered.iptvperu.tv:1936/cablered/global.stream/playlist.m3u8",
+      "http://187.102.210.46/GLOBAL/index.m3u8",
+      "https://live-evg7.tv360.bitel.com.pe/bitel/global_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HuachoPeruTV.pe@SD",
+    "name": "Huacho Peru TV",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.huachotv.com/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactoTelevision.pe@SD",
+    "name": "Impacto Televisión (360p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/impactotv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ImperialTelevision.pe@SD",
+    "name": "Imperial Television (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/imperialSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IntuitivaTV.pe@SD",
+    "name": "Intuitiva TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.lhdserver.es/cableperu/live.m3u8"
+    ]
+  },
+  {
+    "id": "JN19.pe@SD",
+    "name": "JN19 (1080p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://servilive.com:3028/live/jntv19live.m3u8",
+      "http://187.102.210.46/JN19/index.m3u8"
+    ]
+  },
+  {
+    "id": "JNETV.pe@SD",
+    "name": "JNE TV (720p)",
+    "country": "PE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/jnetv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JuntosTV.pe@SD",
+    "name": "Juntos TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/juntos_tv.stream/playlist.m3u8",
+      "http://45.70.201.81:8000/play/a019/index.m3u8"
+    ]
+  },
+  {
+    "id": "JusticiaTV.pe@SD",
+    "name": "Justicia TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/JUSTICIA-TV/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/justicia.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Karibena.pe@SD",
+    "name": "Karibena (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://187.102.210.46/KARIBENA/index.m3u8",
+      "http://201.77.61.226:8000/play/a0qd/index.m3u8",
+      "https://iptv-pe-x-7-g3s-video.egostreaming.pe/karibenatv_685a-pe-a5676-584412/index.fmp4.m3u8"
+    ]
+  },
+  {
+    "id": "KoraTV.pe@SD",
+    "name": "Kora TV",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8"
+    ]
+  },
+  {
+    "id": "L1.pe@SD",
+    "name": "L1 (1080p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.4.1.201:8000/play/a1ai/index.m3u8"
+    ]
+  },
+  {
+    "id": "L1Max.pe@SD",
+    "name": "L1 Max (1080p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/LIGA-1-MAX/index.m3u8",
+      "https://cablered.iptvperu.tv:1936/cablered/liga1max.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaFabulosaTV.pe@SD",
+    "name": "La Fabulosa Radio y TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8004/index.m3u8"
+    ]
+  },
+  {
+    "id": "LaTele.pe@SD",
+    "name": "La Tele (1080p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/LA-TELE/index.m3u8",
+      "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Latina.pe@SD",
+    "name": "Latina (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/LATINA/index.m3u8",
+      "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8",
+      "https://cablered.iptvperu.tv:1936/cablered/latina_new/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LatinaClasicos.pe@SD",
+    "name": "Latina Clasicos (1080p)",
+    "country": "PE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/LATINA/index.m3u8",
+      "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LatinaNoticias247.pe@SD",
+    "name": "Latina Noticias 24/7 (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dai.google.com/linear/hls/event/oYQGDqEGTmGdHE_fz9oLlg/master.m3u8",
+      "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latinanoticias/latinanoticias.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LatinaPodcast.pe@SD",
+    "name": "Latina Podcast (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://redirector.rudo.video/hls-video/plus226/latina4/latina4.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LiderTV.pe@SD",
+    "name": "Lider TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://chankillo.agenciastreaming.com/lidertv/index.m3u8"
+    ]
+  },
+  {
+    "id": "LotPlusTV.pe@SD",
+    "name": "LotPlus TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ontvcable.streamottmas.workers.dev/ontvcable.m3u8"
+    ]
+  },
+  {
+    "id": "MasterTV.pe@SD",
+    "name": "Master TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8",
+      "https://live.obslivestream.com/mastertv/index.m3u8"
+    ]
+  },
+  {
+    "id": "MediaTV.pe@SD",
+    "name": "Media TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MegaTVJaen.pe@SD",
+    "name": "Mega TV Jaen (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8",
+      "https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MetropolitanadelCuzco.pe@SD",
+    "name": "Metropolitana del Cuzco",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MielTV.pe@SD",
+    "name": "Miel TV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8",
+      "https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MilenialTV.pe@SD",
+    "name": "Milenial TV",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.milenial.news/salida/milenial.m3u8"
+    ]
+  },
+  {
+    "id": "Millenium109FM.pe@SD",
+    "name": "Millenium 109 FM",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8"
+    ]
+  },
+  {
+    "id": "MonterricoTV.pe@SD",
+    "name": "Monterrico TV",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://h.jcp.live.opencaster.com/play_src/index.m3u8"
+    ]
+  },
+  {
+    "id": "MovistarDeportes.pe@SD",
+    "name": "Movistar Deportes (1080p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.4.1.201:8000/play/a13e/index.m3u8",
+      "http://195.178.110.110/movistar/index.m3u8",
+      "http://170.244.209.30:8000/play/a1i8/index.m3u8"
+    ]
+  },
+  {
+    "id": "MovistarPlus.pe@SD",
+    "name": "Movistar Plus (576p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.4.1.201:8000/play/a19y/index.m3u8",
+      "http://190.108.91.206:9050/play/a0bb/index.m3u8"
+    ]
+  },
+  {
+    "id": "NacionalTvPeru.pe@SD",
+    "name": "Nacional Tv Peru (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/nacionaltv_peru.stream/playlist.m3u8",
+      "https://play.agenciastreaming.com:8081/nacionaltv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nativa.pe@SD",
+    "name": "Nativa (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oneplay.iptvperu.tv:1936/static/nativa1.stream/chunks.m3u8",
+      "http://187.102.210.46/NATIVATV/index.m3u8"
+    ]
+  },
+  {
+    "id": "NativaTVSatipo.pe@SD",
+    "name": "Nativa TV Satipo (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8",
+      "https://live-evg7.tv360.bitel.com.pe/bitel/nativachanchamayoSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NeoTV.pe@SD",
+    "name": "Neo TV (720p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
+      "https://live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NZKTelevision.pe@SD",
+    "name": "NZK Television (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8258/index.m3u8"
+    ]
+  },
+  {
+    "id": "ONDADIGITAL.pe@SD",
+    "name": "ONDA DIGITAL (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.ondadigital.pe/ondadigital/index.m3u8"
+    ]
+  },
+  {
+    "id": "OndaTV.pe@SD",
+    "name": "Onda TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OvacionTV.pe@SD",
+    "name": "Ovacion TV (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OzonoTV.pe@SD",
+    "name": "Ozono TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8",
+      "http://vps.chasquirouter.com/salida/ozono.m3u8"
+    ]
+  },
+  {
+    "id": "PanamericanaTV.pe@SD",
+    "name": "Panamericana TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/PANAMERICANA/index.m3u8",
+      "http://190.93.224.42/PANAMERICANA/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/panamericana.stream/playlist.m3u8",
+      "http://181.224.200.5:2277/play/kkio/index.m3u8"
+    ]
+  },
+  {
+    "id": "PBO.pe@SD",
+    "name": "PBO (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/PBO/index.m3u8",
+      "https://live-evg11.tv360.bitel.com.pe/bitel/pbo_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PiuraTV.pe@SD",
+    "name": "PiuraTV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/piuratvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PlaneaTV.pe@SD",
+    "name": "Planea TV (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/planeatvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrattelTV.pe@SD",
+    "name": "Prattel TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Primavera15.pe@SD",
+    "name": "Primavera 15",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mc.servidor.stream:19360/8244/8244.m3u8"
+    ]
+  },
+  {
+    "id": "QollasuyoTV.pe@SD",
+    "name": "Qollasuyo TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/qollasuyotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QosqoTimes.pe@SD",
+    "name": "Qosqo Times (720p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8",
+      "https://stmv2.srvif.com/qtelevision/qtelevision/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioChalaca.pe@SD",
+    "name": "Radio Chalaca",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://servilive.com:3414/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "id": "RadioMaster.pe@HD",
+    "name": "Radio Master (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8"
+    ]
+  },
+  {
+    "id": "RadioOndaDigital.pe@SD",
+    "name": "Radio Onda Digital (1080p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ondadigitaltv.com/RADIOODTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioRumbaTV.pe@SD",
+    "name": "Radio Rumba TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8",
+      "https://tv.sistemasandinos.org/rumbatv/video.m3u8"
+    ]
+  },
+  {
+    "id": "RadioSanBorjaTV.pe@SD",
+    "name": "Radio San Borja TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.mediacorp.pe/srt/3/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTropical.pe@SD",
+    "name": "Radio Tropical Tarapoto (480p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8"
+    ]
+  },
+  {
+    "id": "RadioUnoTacna.pe@SD",
+    "name": "Radio Uno Tacna (720p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTVOriente.pe@SD",
+    "name": "RadioTV Oriente (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/tvoriente/index.m3u8"
+    ]
+  },
+  {
+    "id": "RealTelevision.pe@SD",
+    "name": "Real Television (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/realtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RegionTVCallao.pe@SD",
+    "name": "Region TV Callao (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/regiontvSRT/playlist.m3u8",
+      "https://servilive.com:3757/live/regiontvlive.m3u8"
+    ]
+  },
+  {
+    "id": "RikuTV.pe@SD",
+    "name": "Riku TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amixtv.com:8081/rikutv/index.m3u8",
+      "https://live-evg7.tv360.bitel.com.pe/bitel/riku/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RNTelevision.pe@SD",
+    "name": "RN Televisión (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8"
+    ]
+  },
+  {
+    "id": "RPPTV.pe@SD",
+    "name": "RPP TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/RPP/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/RPP/playlist.m3u8",
+      "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/rpptv/rpptv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RSelvaTV.pe@SD",
+    "name": "RSelvaTV (720p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8",
+      "https://live.obslivestream.com/selvatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTP.pe@SD",
+    "name": "RTP (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RumbaMixTV.pe@SD",
+    "name": "RumbaMix TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SenalPeruTV.pe@SD",
+    "name": "Señal Perú TV (404p) [Not 24/7]",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://livestream.perucast.com/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "SiscomTV.pe@SD",
+    "name": "Siscom TV",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.lhdserver.es/siscomtv/live.m3u8"
+    ]
+  },
+  {
+    "id": "SolarTelevision.pe@SD",
+    "name": "Solar Television (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8",
+      "https://7.innovatestream.pe:19360/corporacionperiodistica/corporacionperiodistica.m3u8"
+    ]
+  },
+  {
+    "id": "SqalaTV.pe@SD",
+    "name": "Sqala TV (720p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "StudioPascoTV.pe@SD",
+    "name": "Studio Pasco TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperCanal.pe@SD",
+    "name": "Super Canal (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/supercanalSRT/playlist.m3u8",
+      "https://live.obslivestream.com/supercanal/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelecolorYurimaguas.pe@SD",
+    "name": "Telecolor Yurimaguas (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/telecolormux/index.m3u8"
+    ]
+  },
+  {
+    "id": "Telelima.pe@SD",
+    "name": "Telelima (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/telelima.stream/playlist.m3u8",
+      "https://live-evg11.tv360.bitel.com.pe/bitel/telelimaSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teleselva.pe@SD",
+    "name": "Teleselva (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8",
+      "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8"
+    ]
+  },
+  {
+    "id": "TelesystemTV.pe@SD",
+    "name": "Telesystem TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisionTarapoto.pe@SD",
+    "name": "Television Tarapoto (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8",
+      "https://ott1.hdlatam.tv/live_abr/webtvTarapotoPe/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeveEmpresa.pe@SD",
+    "name": "Teve Empresa (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/tvempresaSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Tevesur.pe@SD",
+    "name": "Tevesur (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TopTV.pe@SD",
+    "name": "Top FM TV (240p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8"
+    ]
+  },
+  {
+    "id": "Trivu.pe@SD",
+    "name": "Trivu (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/TRIVU-TV/index.m3u8",
+      "https://live-evg11.tv360.bitel.com.pe/bitel/trivutv/playlist.m3u8",
+      "https://stream2.trivutv.com/memfs/1bc8358a-665e-4bc1-a580-e4fcb54b5103.m3u8"
+    ]
+  },
+  {
+    "id": "TurboMixRadioTV.pe@SD",
+    "name": "Turbo Mix Radio TV (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
+      "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8"
+    ]
+  },
+  {
+    "id": "TVBellaAsuncion.pe@SD",
+    "name": "TV Bella Asuncion",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://s2.tvdatta.com:3687/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "id": "TVCosmos.pe@SD",
+    "name": "TV Cosmos (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/tvcosmos/tvcosmos.m3u8"
+    ]
+  },
+  {
+    "id": "TVKaliente.pe@SD",
+    "name": "TV Kaliente (720p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/kalientecusco/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMAR.pe@SD",
+    "name": "TV MAR (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMAX.pe@SD",
+    "name": "TV MAX (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/nexSRT_TRA/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVNorteChiclayo.pe@SD",
+    "name": "TV Norte Chiclayo (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/tvnorte/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVPeru.pe@SD",
+    "name": "TV Peru (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/TV-PERU/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/tvperu.stream/playlist.m3u8",
+      "https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8",
+      "http://187.102.210.46/TVPERU/index.m3u8",
+      "http://190.93.224.42/VIVA-TV/index.m3u8",
+      "https://cablered.iptvperu.tv:1936/cablered/tvperu_new/playlist.m3u8",
+      "http://181.224.200.5:2277/play/a0dx/index.m3u8",
+      "http://187.102.208.209:8000/play/a0ay/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPeruNoticias.pe@SD",
+    "name": "TV Peru Noticias (1080p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/TV-PERU-NOTICIAS/index.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/tvperunoticias.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVPeruanisima.pe@SD",
+    "name": "TV Peruanisima (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://k20.usastreams.com:8081/tvperuanisima/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPlusChincha.pe@SD",
+    "name": "TV+ Chincha (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/tvchincha/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVenLinea.pe@SD",
+    "name": "TVenLinea (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://srt.tvdatta.com/tvenlinea/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVUNO.pe@SD",
+    "name": "TVUNO (720p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UcayalinadeTelevision.pe@SD",
+    "name": "Ucayalina de Television (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/utv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UchuTV.pe@SD",
+    "name": "Uchu TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/ucayalitvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UnicentroTV.pe@SD",
+    "name": "Unicentro TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/unicentroSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Unitel.pe@SD",
+    "name": "Unitel (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.agenciastreaming.com:8081/uniteltv/index.m3u8"
+    ]
+  },
+  {
+    "id": "UniversitariaTV.pe@SD",
+    "name": "Universitaria TV (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UranioTV.pe@SD",
+    "name": "Uranio TV (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/uranioyurimaguasSRT/playlist.m3u8",
+      "https://live.obslivestream.com/uraniotv/index.m3u8"
+    ]
+  },
+  {
+    "id": "USMPTV.pe@SD",
+    "name": "USMPTV (720p)",
+    "country": "PE",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://187.102.210.46/USMP/index.m3u8",
+      "https://streamusmptv.ddns.net/live/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ViaAltomayo.pe@SD",
+    "name": "Vía Altomayo (720p) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/viaaltomayomux/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViaTelevision.pe@SD",
+    "name": "Vía Televisión (720P) [Not 24/7]",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8"
+    ]
+  },
+  {
+    "id": "Vision.pe@SD",
+    "name": "Vision (480p)",
+    "country": "PE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/visiononline/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VisionSur.pe@SD",
+    "name": "Vision Sur (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg8.tv360.bitel.com.pe/bitel/visionsur/playlist.m3u8",
+      "https://ott1.hdlatam.tv/live_abr/webtvVisionSur/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VivaTVYurimaguas.pe@SD",
+    "name": "Viva TV Yurimaguas (720p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/vivatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "VivaTV.pe@SD",
+    "name": "VivaTV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/vivatv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VNP.pe@SD",
+    "name": "VNP",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8"
+    ]
+  },
+  {
+    "id": "VRCanal21Nasca.pe@SD",
+    "name": "VR Canal 21 Nasca (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/nasca/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WayraTV.pe@SD",
+    "name": "Wayra TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/wayratv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WEST.pe@SD",
+    "name": "WEST (1080p)",
+    "country": "PE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cablered.iptvperu.tv:1936/cablered/west/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WillaxTV.pe@SD",
+    "name": "Willax TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.93.224.42/WILLAX/index.m3u8",
+      "http://187.102.210.46/WILLAX/index.m3u8"
+    ]
+  },
+  {
+    "id": "Wtv.pe@SD",
+    "name": "Wtv (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/ncanalSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "YurimaguasTV.pe@SD",
+    "name": "Yurimaguas TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg7.tv360.bitel.com.pe/bitel/yurimaguastvSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Yurivision.pe@SD",
+    "name": "Yurivision (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg5.tv360.bitel.com.pe/bitel/yurivisionSRT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ZeleveTV.pe@SD",
+    "name": "Zeleve TV (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg11.tv360.bitel.com.pe/bitel/zeleve/playlist.m3u8",
+      "https://7.innovatestream.pe:19360/zelevetv/zelevetv.m3u8"
+    ]
+  },
+  {
+    "id": "Chikitoonz.pe@SD",
+    "name": "Chikitoonz (1080p)",
+    "country": "PE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.70.201.81:8000/play/a00p/index.m3u8"
+    ]
+  },
+  {
+    "id": "RumboMineroTV.pe@SD",
+    "name": "Rumbo Minero TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.70.201.81:8000/play/a018/index.m3u8"
+    ]
+  },
+  {
+    "id": "SolTV.pe@SD",
+    "name": "SolTV",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5790d294af2dc.streamlock.net:443/streamtv/streamtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalN.pe@SD",
+    "name": "Canal N (576p)",
+    "country": "PE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.108.91.206:9050/play/a0bd/index.m3u8",
+      "http://187.102.208.209:8000/play/a0az/index.m3u8"
+    ]
+  }
+]

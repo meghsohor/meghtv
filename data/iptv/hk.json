@@ -1,0 +1,254 @@
+[
+  {
+    "id": "PetClubTV.hk@SD",
+    "name": "Pet Club TV (1080p)",
+    "country": "HK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://petclub-samsungaus.amagi.tv/playlist.m3u8",
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PhoenixChineseChannel.hk@SD",
+    "name": "凤凰中文 (720p)",
+    "country": "HK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8",
+      "http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8",
+      "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8",
+      "http://125.210.152.18:9090/live/FHZW_1200.m3u8"
+    ]
+  },
+  {
+    "id": "PhoenixInfoNewsChannel.hk@SD",
+    "name": "凤凰资讯 (720p)",
+    "country": "HK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8",
+      "http://125.210.152.18:9090/live/FHZX_1200.m3u8",
+      "http://php.17186.eu.org/phtv/fhzx.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/s/s23/index.m3u8"
+    ]
+  },
+  {
+    "id": "NewsWorld.hk@FAST",
+    "name": "NewsWorld (1080p)",
+    "country": "HK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CelestialMovies.hk@SD",
+    "name": "Celestial Movies (576i)",
+    "country": "HK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HOYInfotainment.hk@HD",
+    "name": "HOY Infotainment (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hoytv-live-stream.hoy.tv/ch78/index.m3u8"
+    ]
+  },
+  {
+    "id": "HongKongInternationalBusinessChannel.hk@SD",
+    "name": "HOY International Business Channel (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8",
+      "https://hoytv-live-stream.hoy.tv/ch76/va2-index.m3u8"
+    ]
+  },
+  {
+    "id": "HOYTV.hk@SD",
+    "name": "HOY TV (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hoytv-live-stream.hoy.tv/ch77/index.m3u8"
+    ]
+  },
+  {
+    "id": "KIX.hk@SD",
+    "name": "KIX",
+    "country": "HK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveh34.vtvprime.vn/hls/KIX/04.m3u8"
+    ]
+  },
+  {
+    "id": "RTHKTV31.hk@SD",
+    "name": "RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8",
+      "https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8"
+    ]
+  },
+  {
+    "id": "RTHKTV32.hk@SD",
+    "name": "RTHK TV 32 (港台電視32) (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8"
+    ]
+  },
+  {
+    "id": "RTHKTV33.hk@SD",
+    "name": "RTHK TV 33 (港台電視33) (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8"
+    ]
+  },
+  {
+    "id": "RTHKTV34.hk@SD",
+    "name": "RTHK TV 34 (港台電視34) (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8"
+    ]
+  },
+  {
+    "id": "RTHKTV35.hk@HD",
+    "name": "RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]",
+    "country": "HK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8"
+    ]
+  },
+  {
+    "id": "Thrill.hk@SD",
+    "name": "Thrill (540p)",
+    "country": "HK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd"
+    ]
+  },
+  {
+    "id": "BSTV.hk@SD",
+    "name": "耀才財經台 (576p)",
+    "country": "HK",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AsianDrama.hk@SD",
+    "name": "Asian Drama (1080p)",
+    "country": "HK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8"
+    ]
+  },
+  {
+    "id": "MeiAhMovieChannel.hk@SD",
+    "name": "Mei Ah Movie Channel (1080p)",
+    "country": "HK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8",
+      "http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8",
+      "http://103.172.187.30:12000/stream/mytv/null-10/master.m3u8"
+    ]
+  },
+  {
+    "id": "Jade.hk@SD",
+    "name": "Jade (1080p)",
+    "country": "HK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8"
+    ]
+  },
+  {
+    "id": "GoldenJade.hk@SD",
+    "name": "Golden Jade (1080p)",
+    "country": "HK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8"
+    ]
+  },
+  {
+    "id": "tvNAsia.hk@HD",
+    "name": "tvN Asia HD (720p)",
+    "country": "HK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10005/bysid/2518"
+    ]
+  }
+]

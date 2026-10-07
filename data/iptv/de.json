@@ -1,0 +1,5355 @@
+[
+  {
+    "id": "123tv.de@SD",
+    "name": "1-2-3 TV (270p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://123tv-mx1.flex-cdn.net/index.m3u8"
+    ]
+  },
+  {
+    "id": "3sat.de@SD",
+    "name": "3sat (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8",
+      "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AdriaMusicTelevision.de@SD",
+    "name": "Adria Music Television",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://adriaapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "AdventureEarth.de@SD",
+    "name": "Adventure Earth (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8",
+      "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
+      "https://autentic-adventure-earth-1-gb.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlexBerlin.de@SD",
+    "name": "Alex Berlin (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8"
+    ]
+  },
+  {
+    "id": "AllgauTV.de@SD",
+    "name": "Allgäu TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AltenburgTV.de@SD",
+    "name": "Altenburg TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58de7a369a9c4.streamlock.net/abgtv/abgtv_1080p/playlist.m3u8",
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "ANIMALKINGDOM.de@SD",
+    "name": "ANIMAL KINGDOM (720p)",
+    "country": "DE",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn6.goprimetime.info/feed/202306140918/LC18/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnixePlus.de@SD",
+    "name": "Anixe + (360p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/anixesd/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnixeHDSerie.de@SD",
+    "name": "Anixe HD Serie (360p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/anixehd/index.m3u8"
+    ]
+  },
+  {
+    "id": "ARDalpha.de@SD",
+    "name": "ARD-alpha (720p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8",
+      "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8"
+    ]
+  },
+  {
+    "id": "AristoTV.de@SD",
+    "name": "Aristo TV (360p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/aristo/index.m3u8"
+    ]
+  },
+  {
+    "id": "arte.de@SD",
+    "name": "ARTE (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8"
+    ]
+  },
+  {
+    "id": "AugsburgTV.de@SD",
+    "name": "Augsburg TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/playlist.m3u8",
+      "https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AutenticHistory.de@SD",
+    "name": "Autentic History (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8",
+      "https://autentic-autentichistory-1-gb.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AutenticTravel.de@SD",
+    "name": "Autentic Travel (1080p)",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8",
+      "https://autentic-autentictravel-1-gb.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BadenTV.de@SD",
+    "name": "Baden TV (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8",
+      "http://badentv-stream2.siebnich.info/rtplive/btv.stream/playlist.m3u8",
+      "https://cdn.icu.de/rtplive/btv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BibelTV.de@SD",
+    "name": "Bibel TV (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BibelTVImpuls.de@SD",
+    "name": "Bibel TV Impuls (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BibelTVMusik.de@SD",
+    "name": "Bibel TV Musik (720p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BLKRegionalTV.de@SD",
+    "name": "BLK Regional TV (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8?ref=medienportal-sachsen-"
+    ]
+  },
+  {
+    "id": "BRFernsehen.de@Nord",
+    "name": "BR Fernsehen Nord (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8"
+    ]
+  },
+  {
+    "id": "BRFernsehen.de@Sud",
+    "name": "BR Fernsehen Sud (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8"
+    ]
+  },
+  {
+    "id": "SachsenFernsehenChemnitz.de@SD",
+    "name": "Chemnitz Fernsehen (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CiraTV.de@SD",
+    "name": "Cira TV (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8",
+      "https://cira-tv.akamaized.net/hls/stream_0.m3u8"
+    ]
+  },
+  {
+    "id": "DasErste.de@HD",
+    "name": "Das Erste HD (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
+    ]
+  },
+  {
+    "id": "DASDING908.de@SD",
+    "name": "DASDING 90.8 (720p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8"
+    ]
+  },
+  {
+    "id": "DeluxeDance.de@SD",
+    "name": "Deluxe Dance (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "DeluxeLounge.de@SD",
+    "name": "Deluxe Lounge (720p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/stvp-CHAJ0500413A"
+    ]
+  },
+  {
+    "id": "DeluxeMusic.de@SD",
+    "name": "Deluxe Music (720p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "DeluxeRap.de@SD",
+    "name": "Deluxe Rap (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "DMF.de@SD",
+    "name": "DMF (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Dokusat.de@SD",
+    "name": "Dokusat (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SachsenFernsehenDresden.de@SD",
+    "name": "Dresden Fernsehen (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DW.de@Arabic",
+    "name": "DW Arabic (1080p)",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8"
+    ]
+  },
+  {
+    "id": "DW.de@English",
+    "name": "DW English (1080p)",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+      "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+      "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8",
+      "http://170.83.16.50/DW/index.m3u8",
+      "https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8",
+      "http://stream.mcquack.net/440/index.m3u8",
+      "https://cdn-7.pishow.tv/live/431/master.m3u8",
+      "https://mumt05.tangotv.in/87NeALx2DWTV/index.m3u8",
+      "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8"
+    ]
+  },
+  {
+    "id": "DW.de@Espanol",
+    "name": "DW Espanol (1080p)",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=16660",
+      "http://45.162.231.38:7779/DW/index.m3u8",
+      "http://138.121.15.230:9002/DW/index.m3u8"
+    ]
+  },
+  {
+    "id": "DW.de@Russian",
+    "name": "DW Russian (1080p)",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8"
+    ]
+  },
+  {
+    "id": "EchtJetztTV.de@SD",
+    "name": "EchtJetzt TV (720p)",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ErzTVStollberg.de@SD",
+    "name": "Erz-TV Stollberg (576p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Filstalwelle.de@SD",
+    "name": "Filstalwelle (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FinestTV.de@SD",
+    "name": "Finest TV (288p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.finest.tv/hls/live.m3u8"
+    ]
+  },
+  {
+    "id": "FolxMusicTelevision.de@SD",
+    "name": "Folx Music Television",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://folxapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "FrankenFernsehen.de@SD",
+    "name": "Franken Fernsehen (Nürnberg) (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Hamburg1.de@SD",
+    "name": "Hamburg 1 (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Handystar.de@SD",
+    "name": "Handystar (404p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8"
+    ]
+  },
+  {
+    "id": "HopeChannelGerman.de@SD",
+    "name": "Hope Channel German (1080p)",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://customer-x8zydurm357k8j9p.cloudflarestream.com/5b46490d20cdd87fcac238b0027813e0/manifest/video.m3u8"
+    ]
+  },
+  {
+    "id": "hrfernsehen.de@SD",
+    "name": "hr-fernsehen (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8"
+    ]
+  },
+  {
+    "id": "HSE.de@SD",
+    "name": "HSE (1080p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HSEExtra.de@SD",
+    "name": "HSE24 Extra (1080p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HSETrend.de@SD",
+    "name": "HSE24 Trend (576p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "iSTUFF.de@SD",
+    "name": "iSTUFF (720p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8"
+    ]
+  },
+  {
+    "id": "Juwelo.de@SD",
+    "name": "Juwelo (720p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8"
+    ]
+  },
+  {
+    "id": "Kanal12SprembergTV.de@SD",
+    "name": "Kanal12 Spremberg TV (404p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58de7a369a9c4.streamlock.net/sprembergtv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KaufBeiTV.de@SD",
+    "name": "KaufBei TV (576p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://api.alpaca.t62a.com/hls/9103/index.m3u8",
+      "https://elephant.t62a.com/hls/8103/index.m3u8"
+    ]
+  },
+  {
+    "id": "KiKA.de@SD",
+    "name": "KiKA (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8",
+      "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8"
+    ]
+  },
+  {
+    "id": "KulturMD.de@SD",
+    "name": "KulturMD (1080p)",
+    "country": "DE",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "labor14.de@HD",
+    "name": "labor14 (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Lausitzwelle.de@SD",
+    "name": "Lausitzwelle (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref="
+    ]
+  },
+  {
+    "id": "SachsenFernsehenLeipzig.de@SD",
+    "name": "Leipzig Fernsehen (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LightChannel.de@SD",
+    "name": "Light Channel (576p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MagentaMusik360.de@SD",
+    "name": "Magenta Musik 360 (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8"
+    ]
+  },
+  {
+    "id": "MCTV.de@HD",
+    "name": "MC TV (720p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live"
+    ]
+  },
+  {
+    "id": "MDF1.de@SD",
+    "name": "MDF.1 (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MDRFernsehen.de@Sachsen",
+    "name": "MDR Fernsehen Sachsen (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8"
+    ]
+  },
+  {
+    "id": "MDRFernsehen.de@SachsenAnhalt",
+    "name": "MDR Fernsehen Sachsen-Anhalt (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/index.m3u8"
+    ]
+  },
+  {
+    "id": "MDRFernsehen.de@Thuringen",
+    "name": "MDR Fernsehen Thüringen (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/index.m3u8",
+      "https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MoreThanSportsTV.de@SD",
+    "name": "More Than Sports TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Motorvision.de@SD",
+    "name": "Motorvision (576p)",
+    "country": "DE",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "http://hls127.freeott.top:8080/Motorvision/video.m3u8",
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=535",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h09/index.m3u8",
+      "https://jmp2.uk/plu-60e5ea9a9bb4200008376f76.m3u8",
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8",
+      "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8"
+    ]
+  },
+  {
+    "id": "MunchenTV.de@SD",
+    "name": "München TV (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nachrichten360.de@HD",
+    "name": "Nachrichten 360 (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01821-lovetvfast-nachrichten360-samsungde/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NashKinomir.de@SD",
+    "name": "Nash Kinomir (576p)",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8"
+    ]
+  },
+  {
+    "id": "NDRFernsehenInternational.de@SD",
+    "name": "NDR Fernsehen International (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8",
+      "https://dash3.antik.sk/live/test_ndr_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NDRFernsehen.de@Hamburg",
+    "name": "NDR Hamburg (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8"
+    ]
+  },
+  {
+    "id": "NDRFernsehen.de@MecklenburgVorpommern",
+    "name": "NDR Mecklenburg-Vorpommern (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8"
+    ]
+  },
+  {
+    "id": "NDRFernsehen.de@Niedersachsen",
+    "name": "NDR Niedersachsen (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
+    ]
+  },
+  {
+    "id": "NDRFernsehen.de@SchleswigHolstein",
+    "name": "NDR Schleswig-Holstein (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.de@SD",
+    "name": "Nickelodeon",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php",
+      "https://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/master.m3u8"
+    ]
+  },
+  {
+    "id": "NiederbayernTV.de@SD",
+    "name": "Niederbayern TV (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8"
+    ]
+  },
+  {
+    "id": "NiederbayernTVDeggendorfStraubing.de@SD",
+    "name": "Niederbayern TV Deggendorf & Straubing (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8"
+    ]
+  },
+  {
+    "id": "NiederbayernTVLandshut.de@SD",
+    "name": "Niederbayern TV Landshut (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8",
+      "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8"
+    ]
+  },
+  {
+    "id": "NiederbayernTVPassau.de@SD",
+    "name": "Niederbayern TV Passau (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/index.m3u8"
+    ]
+  },
+  {
+    "id": "noa4Hamburg.de@SD",
+    "name": "Noa 4 Hamburg (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8"
+    ]
+  },
+  {
+    "id": "noa4Norderstedt.de@SD",
+    "name": "Noa 4 Norderstedt (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8"
+    ]
+  },
+  {
+    "id": "NRWision.de@SD",
+    "name": "NRWision (1080p)",
+    "country": "DE",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OberpfalzTV.de@SD",
+    "name": "Oberpfalz TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OFTVOffenbach.de@SD",
+    "name": "OF-TV Offenbach (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8",
+      "https://5864df9ceac85.streamlock.net/germanpictures-live/mp4:streamschedule/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OK4.de@SD",
+    "name": "OK4 (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/abr_ok4/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OK54.de@SD",
+    "name": "OK54 (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKDessau.de@SD",
+    "name": "OK Dessau (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:ok-dessau_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-dessau_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKFlensburg.de@SD",
+    "name": "OK Flensburg (576p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8"
+    ]
+  },
+  {
+    "id": "OKKaiserslautern.de@SD",
+    "name": "OK Kaiserslautern (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/abr_okkl/webstream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKKassel.de@SD",
+    "name": "OK Kassel (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/mok-ks/kassel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKKiel.de@SD",
+    "name": "OK Kiel (576p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8"
+    ]
+  },
+  {
+    "id": "OKMagdeburg.de@SD",
+    "name": "OK Magdeburg (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-magdeburg_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKMerseburgQuerfurt.de@SD",
+    "name": "OK Merseburg-Querfurt (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-merseburg_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKRheinMain.de@SD",
+    "name": "OK Rhein-Main (576p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKSalzwedel.de@SD",
+    "name": "OK Salzwedel (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:ok-salzwedel_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-salzwedel_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKStendal.de@SD",
+    "name": "OK Stendal (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8",
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKTrier.de@SD",
+    "name": "OK Trier (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/ott/webstream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKWeinstrasseNeustadt.de@SD",
+    "name": "OK Weinstraße (Neustadt) (432p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/okweinstrasse/okweinstrasse/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKWernigerode.de@SD",
+    "name": "OK Wernigerode (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8",
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-wernigerode_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OKTVLudwigshafen.de@SD",
+    "name": "OK-TV Ludwigshafen (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.ok54.de/oklu/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OneAdria.de@SD",
+    "name": "One Adria",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oneadriaapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "OneMusicTelevision.de@SD",
+    "name": "One Music Television",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oneapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "OstWest.de@SD",
+    "name": "Ost West (576p)",
+    "country": "DE",
+    "categories": [
+      "news",
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://hls127.freeott.top:8080/OstWest/video.m3u8"
+    ]
+  },
+  {
+    "id": "OstWest24.de@SD",
+    "name": "Ost West 24 (1080p)",
+    "country": "DE",
+    "categories": [
+      "culture",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/455/index.m3u8"
+    ]
+  },
+  {
+    "id": "Parlamentsfernsehen1.de@SD",
+    "name": "Parlamentsfernsehen 1 (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk1/_definst_/live/video/hk1_de.smil/playlist.m3u8",
+      "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8"
+    ]
+  },
+  {
+    "id": "Parlamentsfernsehen2.de@SD",
+    "name": "Parlamentsfernsehen 2 (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk2/_definst_/live/video/hk2_de.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Parlamentsfernsehen3.de@SD",
+    "name": "Parlamentsfernsehen 3 (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk3/_definst_/live/video/hk3_de.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Parlamentsfernsehen4.de@SD",
+    "name": "Parlamentsfernsehen 4 (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk4/_definst_/live/video/hk4_de.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "phoenix.de@HD",
+    "name": "Phoenix (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8"
+    ]
+  },
+  {
+    "id": "ProSieben.de@SD",
+    "name": "ProSieben (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://85.187.13.40:18000/ProSieben",
+      "https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PUNKTumFernsehen.de@SD",
+    "name": "PUNKTum Fernsehen (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/punktum_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QVCZwei.de@SD",
+    "name": "QVC 2 Germany (540p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8"
+    ]
+  },
+  {
+    "id": "QVC.de@SD",
+    "name": "QVC Germany (720p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8"
+    ]
+  },
+  {
+    "id": "QVCStyle.de@SD",
+    "name": "QVC Style Germany (540p)",
+    "country": "DE",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8"
+    ]
+  },
+  {
+    "id": "Radio21TV.de@SD",
+    "name": "Radio 21 TV (720p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioBremenFernsehen.de@SD",
+    "name": "Radio Bremen Fernsehen (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8"
+    ]
+  },
+  {
+    "id": "RadioWeserTVBremen.de@SD",
+    "name": "Radio Weser TV Bremen (576p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8",
+      "https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RAN1.de@SD",
+    "name": "RAN1 (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ran1_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "rbbFernsehen.de@Berlin",
+    "name": "RBB Berlin (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/index.m3u8"
+    ]
+  },
+  {
+    "id": "rbbFernsehen.de@Brandenburg",
+    "name": "RBB Brandenburg (1080p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8"
+    ]
+  },
+  {
+    "id": "RBW.de@SD",
+    "name": "RBW (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/rbw_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:rbw_high/playlist.m3u8",
+      "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:rbw_high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RegioTVBodensee.de@SD",
+    "name": "Regio TV Bodensee (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RegioTVStuttgart.de@SD",
+    "name": "Regio TV Stuttgart (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RFH.de@SD",
+    "name": "RFH (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8",
+      "https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8"
+    ]
+  },
+  {
+    "id": "RFO.de@SD",
+    "name": "RFO (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RiC.de@SD",
+    "name": "RiC (1080p)",
+    "country": "DE",
+    "categories": [
+      "kids",
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RockAntenne.de@SD",
+    "name": "Rock Antenne [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.rockantenne.de/rockantenne/stream/mp3"
+    ]
+  },
+  {
+    "id": "RocklandTV.de@SD",
+    "name": "Rockland TV (480p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.creacast.com/rockland-radio/smil:rockland-radio.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTDE.de@SD",
+    "name": "RT DE (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8",
+      "https://rt-ger.rttv.com/live/rtdeutsch/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SaarlandFernsehen1.de@SD",
+    "name": "Saarland Fernsehen 1 (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SaarlandFernsehen2.de@SD",
+    "name": "Saarland Fernsehen 2 (720p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SachsenEins.de@SD",
+    "name": "Sachsen Eins (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SalveTV.de@SD",
+    "name": "Salve TV (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://58de7a369a9c4.streamlock.net/salvetv/ngrp:stream_720p_web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Seenluft24.de@SD",
+    "name": "Seenluft24 (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref="
+    ]
+  },
+  {
+    "id": "SenderNeuJerusalem.de@SD",
+    "name": "Sender Neu Jerusalem (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bild-und-ton.stream/snj-de/snj-de.smil/.m3u8"
+    ]
+  },
+  {
+    "id": "SonnenklarTV.de@SD",
+    "name": "Sonnenklar TV (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8"
+    ]
+  },
+  {
+    "id": "SonusFM.de@SD",
+    "name": "Sonus FM TV (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://www.sonus.fm:1935/public/stream_source/playlist.m3u8",
+      "https://60015180a7f57.streamlock.net:444/public/stream_source/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SophiaTV.de@SD",
+    "name": "Sophia TV (720p)",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SophiaTVEspanol.de@SD",
+    "name": "Sophia TV Español (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SophiaTVFrancais.de@SD",
+    "name": "Sophia TV Français (720p)",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SportdigitalFUSSBALL.de@SD",
+    "name": "Sportdigital FUSSBALL",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8"
+    ]
+  },
+  {
+    "id": "SRFernsehen.de@SD",
+    "name": "SR Fernsehen (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8"
+    ]
+  },
+  {
+    "id": "SRF.de@SD",
+    "name": "SRF (1080p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SWR3VisualRadio.de@SD",
+    "name": "SWR 3 Visual Radio (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8"
+    ]
+  },
+  {
+    "id": "SWRFernsehenBadenWurttemberg.de@SD",
+    "name": "SWR Fernsehen Baden-Württemberg (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8"
+    ]
+  },
+  {
+    "id": "SWRFernsehenRheinlandPfalz.de@SD",
+    "name": "SWR Fernsehen Rheinland-Pfalz (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8"
+    ]
+  },
+  {
+    "id": "tagesschau24.de@SD",
+    "name": "Tagesschau 24 (720p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+    ]
+  },
+  {
+    "id": "teltOwkanal.de@SD",
+    "name": "teltOwkanal (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TerraMaterWILD.de@German",
+    "name": "Terra Mater WILD (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8",
+      "https://jmp2.uk/plu-65b923f90cb1a100088a03ab.m3u8"
+    ]
+  },
+  {
+    "id": "TerraMaterWILD.de@English",
+    "name": "Terra Mater WILD English (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8",
+      "https://amg01775-amg01775c1-amgplt0002.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0002/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TideTV.de@SD",
+    "name": "Tide TV (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8",
+      "https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV38SudostNiedersachen.de@SD",
+    "name": "TV38 Südost-Niedersachen (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8?ref="
+    ]
+  },
+  {
+    "id": "TVIngolstadt.de@SD",
+    "name": "TV Ingolstadt (1080p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMainfranken.de@SD",
+    "name": "TV Mainfranken (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVOberfranken.de@SD",
+    "name": "TV Oberfranken (TVO) (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVA.de@SD",
+    "name": "TVA (1080p) [Not 24/7]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRUS.de@SD",
+    "name": "TVRUS",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a082"
+    ]
+  },
+  {
+    "id": "TVRUSPlus.de@HD",
+    "name": "TVRUS+",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://83.228.75.166:8000/play/a0aq"
+    ]
+  },
+  {
+    "id": "Unserding.de@SD",
+    "name": "Unserding (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srde.akamaized.net/hls/live/2031842/visualradio-unserding/index.m3u8"
+    ]
+  },
+  {
+    "id": "VolksmusikTV.de@SD",
+    "name": "Volksmusik TV (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WDR1Live.de@SD",
+    "name": "WDR 1 Live (720p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8",
+      "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Koln",
+    "name": "WDR Fernsehen (720p)",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
+      "https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8",
+      "https://dash3.antik.sk/live/test_wdr_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Aachen",
+    "name": "WDR Fernsehen Aachen (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Bielefeld",
+    "name": "WDR Fernsehen Bielefeld (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Bonn",
+    "name": "WDR Fernsehen Bonn (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Dortmund",
+    "name": "WDR Fernsehen Dortmund (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Duisburg",
+    "name": "WDR Fernsehen Duisburg (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Dusseldorf",
+    "name": "WDR Fernsehen Düsseldorf (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Essen",
+    "name": "WDR Fernsehen Essen (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Munster",
+    "name": "WDR Fernsehen Münster (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Siegen",
+    "name": "WDR Fernsehen Siegen (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8"
+    ]
+  },
+  {
+    "id": "WDRFernsehen.de@Wuppertal",
+    "name": "WDR Fernsehen Wuppertal (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8"
+    ]
+  },
+  {
+    "id": "WeltderWunderTV.de@SD",
+    "name": "Welt der Wunder TV (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "YOLTV.de@SD",
+    "name": "YOL TV",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.yoltv.com/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ZDF.de@SD",
+    "name": "ZDF (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
+      "https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ZDFinfo.de@SD",
+    "name": "ZDFinfo (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8"
+    ]
+  },
+  {
+    "id": "ZDFneo.de@SD",
+    "name": "ZDFneo (720p) [Geo-blocked]",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
+      "http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass"
+    ]
+  },
+  {
+    "id": "ZweiMusicTelevision.de@SD",
+    "name": "Zwei Music Television",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zweiapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "MTV.de@SD",
+    "name": "MTV",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/mtv/playlist.php"
+    ]
+  },
+  {
+    "id": "ComedyCentral.de@SD",
+    "name": "Comedy Central",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ma.anixa.tv/clips/stream/comedy_central/playlist.php"
+    ]
+  },
+  {
+    "id": "RTL.de@SD",
+    "name": "RTL",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_rtl_ger_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SWRFernsehenHD.de@SD",
+    "name": "SWR Fernsehen HD",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_swr_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ntv.de@SD",
+    "name": "n-tv",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLSuper.de@SD",
+    "name": "RTL Super",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_super_rtl_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VOX.de@SD",
+    "name": "VOX",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLZwei.de@SD",
+    "name": "RTL Zwei",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_rtl_zwei_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WELT.de@SD",
+    "name": "WELT",
+    "country": "DE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_welt_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nitro.de@SD",
+    "name": "Nitro",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.de@SD",
+    "name": "Disney Channel",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://178.27.12.3:9981/stream/channelid/269948147?profile=pass"
+    ]
+  },
+  {
+    "id": "ProSiebenMaxx.de@SD",
+    "name": "ProSieben Maxx",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass"
+    ]
+  },
+  {
+    "id": "kabeleinsDoku.de@SD",
+    "name": "kabel eins Doku",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass"
+    ]
+  },
+  {
+    "id": "90210.de@DACH",
+    "name": "90210",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8"
+    ]
+  },
+  {
+    "id": "AllehassenChris.de@DACH",
+    "name": "Alle hassen Chris",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-622f6e1e2792150007e0b2ff.m3u8"
+    ]
+  },
+  {
+    "id": "AuctionHunters.de@DACH",
+    "name": "Auction Hunters",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5ede45d077746000072be0fe.m3u8"
+    ]
+  },
+  {
+    "id": "Awkward.de@DACH",
+    "name": "Awkward",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62bc1784120ba80007935aaa.m3u8"
+    ]
+  },
+  {
+    "id": "Becker.de@DACH",
+    "name": "Becker",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-630348a54c48ce00077eb6c7.m3u8"
+    ]
+  },
+  {
+    "id": "BIGBROTHERCLASSIC.de@DACH",
+    "name": "BIG BROTHER CLASSIC",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-663e09e4b18d700008e48dcf.m3u8"
+    ]
+  },
+  {
+    "id": "CCPlutoTV.de@DACH",
+    "name": "CC Pluto TV",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d4947590ba40f75dc29c26b.m3u8"
+    ]
+  },
+  {
+    "id": "DAZNDartsxPlutoTV.de@DACH",
+    "name": "DAZN Darts x Pluto TV",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64b67f0424ade50008a3be17.m3u8"
+    ]
+  },
+  {
+    "id": "DAZNHeldinnenxPlutoTV.de@DACH",
+    "name": "DAZN Heldinnen x Pluto TV",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64afe50c5dc16600087f3227.m3u8"
+    ]
+  },
+  {
+    "id": "DrakeJosh.de@DACH",
+    "name": "Drake & Josh",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65a67c494a10d800085cab06.m3u8"
+    ]
+  },
+  {
+    "id": "FrasierBeruhmteGaste.de@DACH",
+    "name": "Frasier: Berühmte Gäste",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6790fa9e1cfc4aa96dfadcef.m3u8"
+    ]
+  },
+  {
+    "id": "GermanyShore.de@DACH",
+    "name": "Germany Shore",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6447dea7e94c380008dba94c.m3u8"
+    ]
+  },
+  {
+    "id": "McLeodsTochter.de@DACH",
+    "name": "McLeods Töchter",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66c6fcfc6838ee00085beb1a.m3u8"
+    ]
+  },
+  {
+    "id": "N24Doku.de@SD",
+    "name": "N24 Doku",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60080e8a4bf36000076a81b1.m3u8"
+    ]
+  },
+  {
+    "id": "NickJrClub.de@DACH",
+    "name": "Nick Jr. Club (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67f3eb1c443f0671bc03ece8.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonClassics.de@DACH",
+    "name": "Nickelodeon Classics (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67f3eb800a1beb98767ca748.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAdultAnimation.de@DACH",
+    "name": "Pluto TV Adult Animation",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67f68bd2135aeda9ddf0ef54.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAnimals.de@DACH",
+    "name": "Pluto TV Animals",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d767ae7b456c8cf265ce922.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVBritischeSerien.de@DACH",
+    "name": "Pluto TV Britische Serien",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-677e5a3d7bffa6000808dbf2.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVBudTerence.de@DACH",
+    "name": "Pluto TV Bud & Terence",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64be7398e4391c0008cdedfe.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVComedyTherapie.de@DACH",
+    "name": "Pluto TV Comedy Therapie",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69b968ba255fecb01f602257.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCrime.de@DACH",
+    "name": "Pluto TV Crime",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5e7b6c60fd20c50007910bf5.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVDeutscheComedy.de@DACH",
+    "name": "Pluto TV Deutsche Comedy",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6672f49f61a39900089db68e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVExplore.de@DACH",
+    "name": "Pluto TV Explore",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5ad9b8551b95267e225e59c1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFerneGalaxien.de@DACH",
+    "name": "Pluto TV Ferne Galaxien",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68ada46d5190a45dc9c45af1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFood.de@DACH",
+    "name": "Pluto TV Food",
+    "country": "DE",
+    "categories": [
+      "cooking",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc280c9aa218c0009724b4b.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFranBesteMamaMomente.de@DACH",
+    "name": "Pluto TV Fran: Beste Mama-Momente",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69b968e011fc7b9e27c0d958.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVHaialarm.de@DACH",
+    "name": "Pluto TV Haialarm",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69b015c5d29cc97de7da4af8.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVHistorischeSerien.de@DACH",
+    "name": "Pluto TV Historische Serien",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68ada3395190a45dc9c445cf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVHorrorSerien.de@DACH",
+    "name": "Pluto TV Horror-Serien",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67ff7d9c7fc25e0e72451bc9.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKultComedies.de@DACH",
+    "name": "Pluto TV Kult Comedies",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66337de656fc840008ff7a65.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKultfilme.de@DACH",
+    "name": "Pluto TV Kultfilme",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dde47b63585b500099f74ec.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVLaughsinSpanish.de@DACH",
+    "name": "Pluto TV Laughs in Spanish",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69a554179a3f3bb488c7d2be.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVMovies.de@DACH",
+    "name": "Pluto TV Movies",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5c5c3b948002db3c3e0b262e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVMystery.de@DACH",
+    "name": "Pluto TV Mystery",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-617aad99b68ef100072608cd.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNature.de@DACH",
+    "name": "Pluto TV Nature",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5be1c3f9851dd5632e2c91b2.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNordicCrime.de@DACH",
+    "name": "Pluto TV Nordic Crime",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67d984408d8dc3d7754dccf2.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVParanormal.de@DACH",
+    "name": "Pluto TV Paranormal",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f98487036af340008da1e37.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVPolizeiserien.de@DACH",
+    "name": "Pluto TV Polizeiserien",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64be64445dc166000899ce75.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVReportagen.de@DACH",
+    "name": "Pluto TV Reportagen",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68ada3edf84960586ad31c7d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVRomance.de@DACH",
+    "name": "Pluto TV Romance",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc287ce3086a20009f5024c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSciFi.de@DACH",
+    "name": "Pluto TV Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60ed498c4248a400077c0b9d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVScience.de@DACH",
+    "name": "Pluto TV Science",
+    "country": "DE",
+    "categories": [
+      "science",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d767b4889bca2ce7b73ef2e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSerie.de@DACH",
+    "name": "Pluto TV Serie",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc190f7bfed110009d934c3.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSitcoms.de@DACH",
+    "name": "Pluto TV Sitcoms",
+    "country": "DE",
+    "categories": [
+      "series",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d767ab2b456c8cf265ce921.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSnooker900.de@DACH",
+    "name": "Pluto TV Snooker 900 (720p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68ac5543a1ac0c90f2c8943e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSpace.de@DACH",
+    "name": "Pluto TV Space",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-61409f8d6feb30000766b675.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVStarTrek.de@DACH",
+    "name": "Pluto TV Star Trek",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6152ee71bf99590007893a11.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVStarTrekAnimation.de@DACH",
+    "name": "Pluto TV Star Trek: Animation",
+    "country": "DE",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69492467ae33e24d916e56cf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTrueCrime.de@DACH",
+    "name": "Pluto TV True Crime",
+    "country": "DE",
+    "categories": [
+      "series",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-615333098185f00008715a56.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWeihnachtenimSommer.de@DACH",
+    "name": "Pluto TV Weihnachten im Sommer",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-642ad072283aa4000806148c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWestern.de@DACH",
+    "name": "Pluto TV Western",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-630dd3b2605f140007e002f5.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWesternSerien.de@DACH",
+    "name": "Pluto TV Western Serien",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-682453215c646751955e1204.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWorstofBundy.de@DACH",
+    "name": "Pluto TV Worst of Bundy",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69b968ca1c36025fd0a3d92d.m3u8"
+    ]
+  },
+  {
+    "id": "SabrinaTotalverhext.de@DACH",
+    "name": "Sabrina Total verhext!",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-622f40c901d4b70007ad7609.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkButtersCollection.de@DACH",
+    "name": "South Park: Butters Collection",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b14a0e94c3800082a8d3a.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkCartmanCollection.de@DACH",
+    "name": "South Park: Cartman Collection",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b14747cb4b1000875724d.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkKennyCollection.de@DACH",
+    "name": "South Park: Kenny Collection",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b1404ee6a2f00082b5d66.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkKyleCollection.de@DACH",
+    "name": "South Park: Kyle Collection",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b14d0e1979c0008915a09.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkOriginalVersion.de@DACH",
+    "name": "South Park: Original Version",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b150a15939400089e2702.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkStanCollection.de@DACH",
+    "name": "South Park: Stan Collection",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-646b1438e94c3800082a8cff.m3u8"
+    ]
+  },
+  {
+    "id": "CuriosityChannel.de@SD",
+    "name": "SPIEGEL TV (720p)",
+    "country": "DE",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8"
+    ]
+  },
+  {
+    "id": "SpongeBobSchwammkopf.de@DACH",
+    "name": "SpongeBob Schwammkopf (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8"
+    ]
+  },
+  {
+    "id": "StarTrekTheNextGeneration.de@DACH",
+    "name": "Star Trek: The Next Generation",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69776ce979545c21a1220bff.m3u8"
+    ]
+  },
+  {
+    "id": "StarTrekTheOriginalSeries.de@DACH",
+    "name": "Star Trek: The Original Series",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69776b58036e883f39e5ab8a.m3u8"
+    ]
+  },
+  {
+    "id": "TakeshisCastle.de@DACH",
+    "name": "Takeshi's Castle",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8"
+    ]
+  },
+  {
+    "id": "TheLWordWennFrauenlieben.de@DACH",
+    "name": "The L Word – Wenn Frauen lieben",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68d2759a59fd82da3226492d.m3u8"
+    ]
+  },
+  {
+    "id": "TotallyTurtles.de@DACH",
+    "name": "Totally Turtles (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d6792bd6be2998ad0ccce30.m3u8"
+    ]
+  },
+  {
+    "id": "WorldofFreesports.de@SD",
+    "name": "World of Freesports (1080p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GrjngoWesternMovies.de@SD",
+    "name": "Grjngo Western Movies (720p)",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8",
+      "https://amogonetworx-grjngo-3-fi.samsung.wurl.tv/playlist.m3u8",
+      "https://amogonetworx-grjngo-3-lu.samsung.wurl.tv/playlist.m3u8",
+      "https://amogonetworx-grjngo-3-no.samsung.wurl.tv/playlist.m3u8",
+      "https://amogonetworx-grjngo-3-se.samsung.wurl.tv/playlist.m3u8",
+      "https://amogonetworx-grjngo-3-gb.samsung.wurl.tv/playlist.m3u8",
+      "https://pb-rtme7tnh9wa6k.akamaized.net/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BobEsponja.de@ES",
+    "name": "Bob Esponja (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1aca0b4e448e00075e7c5e.m3u8"
+    ]
+  },
+  {
+    "id": "ComediaalobestiadePlutoTV.de@ES",
+    "name": "Comedia a lo bestia de Pluto TV",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68de3db35fc0afe85de0b843.m3u8"
+    ]
+  },
+  {
+    "id": "Medium.de@ES",
+    "name": "Medium",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6578808014fbe400086e21bc.m3u8"
+    ]
+  },
+  {
+    "id": "MTVEmbarazadaalos16.de@ES",
+    "name": "MTV Embarazada a los 16",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f98537a5a4341000733aefe.m3u8"
+    ]
+  },
+  {
+    "id": "MTVGeordies.de@ES",
+    "name": "MTV Geordies",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-627d3176d7dfa500077042f1.m3u8"
+    ]
+  },
+  {
+    "id": "MTVJerseys.de@ES",
+    "name": "MTV Jerseys",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62ac3d7dc23b400008ae5b5a.m3u8"
+    ]
+  },
+  {
+    "id": "MTVOriginals.de@ES",
+    "name": "MTV Originals",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1aadf373bed3000794d1d7.m3u8"
+    ]
+  },
+  {
+    "id": "MTVVerguenzaajena.de@ES",
+    "name": "MTV Vergüenza ajena (720p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63eb9495a8b227000841bf64.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAnimales.de@ES",
+    "name": "Pluto TV Animales",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-600ae6a78d801e0007117d21.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCatastrofes.de@ES",
+    "name": "Pluto TV Catástrofes",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-645a309c5a0cd5000873f609.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCineComedia.de@ES",
+    "name": "Pluto TV Cine Comedia",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1ac8099c49f600076579b2.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCinedeautor.de@ES",
+    "name": "Pluto TV Cine de autor",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60cc807324d60a0007708dc8.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCineRomantico.de@ES",
+    "name": "Pluto TV Cine Romántico",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1ac9a2d3611d0007a844bb.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCocina.de@ES",
+    "name": "Pluto TV Cocina",
+    "country": "DE",
+    "categories": [
+      "cooking",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1acdaa8ba90f0007d5e760.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVComediamadeinSpain.de@ES",
+    "name": "Pluto TV Comedia made in Spain",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1abce155a03d0007718834.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVComediasRomanticas.de@ES",
+    "name": "Pluto TV Comedias Románticas",
+    "country": "DE",
+    "categories": [
+      "comedy",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-655b5d865812e80008843bd1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVDiseno.de@ES",
+    "name": "Pluto TV Diseño",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64db2e0835425100080f2f5a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVGasolina.de@ES",
+    "name": "Pluto TV Gasolina",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65bd0f53dc10a40008e68b96.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVGoreSlasher.de@ES",
+    "name": "Pluto TV Gore & Slasher",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66b0dfa1d512590008bfa7fd.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVHistoria.de@ES",
+    "name": "Pluto TV Historia (720p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-61cd7b49543066000713b620.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVImpacto.de@ES",
+    "name": "Pluto TV Impacto",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68adc697116b783a33f99e6c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVInvasionAlien.de@ES",
+    "name": "Pluto TV Invasión Alien",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-654a35ce346f420008d5c36e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKDrama.de@ES",
+    "name": "Pluto TV K-Drama",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6475bfec536e0c0008858e9f.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKidsClassics.de@ES",
+    "name": "Pluto TV Kids Classics (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVMotor.de@ES",
+    "name": "Pluto TV Motor",
+    "country": "DE",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6080345ebb49b90007ce0baf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVParanormal.de@ES",
+    "name": "Pluto TV Paranormal",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-612ce5214bb5790007ad3016.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVPsycho.de@ES",
+    "name": "Pluto TV Psycho",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65ce480a78df2200131c597b.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSciFi.de@ES",
+    "name": "Pluto TV Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f6a38eaa5b68b0007a00e7a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSeries.de@ES",
+    "name": "Pluto TV Series",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1ac8f49205650007bc15f1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSeriescriminales.de@ES",
+    "name": "Pluto TV Series criminales",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65cf6ab58145cb0008129ca8.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSeriesSciFi.de@ES",
+    "name": "Pluto TV Series Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65ddec1ef7f0af0008be4b65.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSnooker900.de@ES",
+    "name": "Pluto TV Snooker 900 (720p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69148c470155f9b136b5d856.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTeen.de@ES",
+    "name": "Pluto TV Teen (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTelenovelasClasicas.de@ES",
+    "name": "Pluto TV Telenovelas Clásicas",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-662a69daa0a74e00087a1c72.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVThrillers.de@ES",
+    "name": "Pluto TV Thrillers",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f1ac8a87cd38d000745d7cf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTrueCrime.de@ES",
+    "name": "Pluto TV True Crime",
+    "country": "DE",
+    "categories": [
+      "series",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64a3f200f238ce0008d47247.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWestern.de@ES",
+    "name": "Pluto TV Western",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6385e82900ab2e000768a058.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVZombies.de@ES",
+    "name": "Pluto TV Zombies",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65786888b228b7000843ad9a.m3u8"
+    ]
+  },
+  {
+    "id": "Rugrats.de@ES",
+    "name": "Rugrats",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8"
+    ]
+  },
+  {
+    "id": "SensaCineTVxPluto.de@ES",
+    "name": "SensaCine TV x Pluto",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-676e7b4a4bd636000819c6a7.m3u8"
+    ]
+  },
+  {
+    "id": "SouthPark.de@ES",
+    "name": "South Park",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-628751bb7154a40007168843.m3u8"
+    ]
+  },
+  {
+    "id": "SouthParkVersionOriginal.de@ES",
+    "name": "South Park Versión Original",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63d7a8e5a9957100086bfc23.m3u8"
+    ]
+  },
+  {
+    "id": "StarTrekVoyager.de@ES",
+    "name": "Star Trek: Voyager",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65787f2eb228b7000843fa5c.m3u8"
+    ]
+  },
+  {
+    "id": "Cine666byPlutoTV.de@FR",
+    "name": "Ciné 666 by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6823648580b2665220d9e69a.m3u8"
+    ]
+  },
+  {
+    "id": "CineActionbyPlutoTV.de@FR",
+    "name": "Ciné Action by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed1ff5c39700007e2204a.m3u8"
+    ]
+  },
+  {
+    "id": "CinebyPlutoTV.de@FR",
+    "name": "Ciné by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed0f17564a300082b676a.m3u8"
+    ]
+  },
+  {
+    "id": "CineCatastrophebyPlutoTV.de@FR",
+    "name": "Ciné Catastrophe by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65a69ef53af63d000825e0ee.m3u8"
+    ]
+  },
+  {
+    "id": "CinedAsiebyPlutoTV.de@FR",
+    "name": "Ciné d'Asie by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8"
+    ]
+  },
+  {
+    "id": "CineHorreurbyPlutoTV.de@FR",
+    "name": "Ciné Horreur by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66e1978babec540008ce41ac.m3u8"
+    ]
+  },
+  {
+    "id": "CineRetrobyPlutoTV.de@FR",
+    "name": "Ciné Rétro by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8"
+    ]
+  },
+  {
+    "id": "CineRomancebyPlutoTV.de@FR",
+    "name": "Ciné Romance by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60812fc8539963000707d1e1.m3u8"
+    ]
+  },
+  {
+    "id": "CineSciFibyPlutoTV.de@FR",
+    "name": "Ciné Sci-Fi by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8"
+    ]
+  },
+  {
+    "id": "CineThrillersbyPlutoTV.de@FR",
+    "name": "Ciné Thrillers by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8"
+    ]
+  },
+  {
+    "id": "CineWesternbyPlutoTV.de@FR",
+    "name": "Ciné Western by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65cca3e2ec452d0008af3a65.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationbyPlutoTV.de@FR",
+    "name": "Investigation by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6683cd2fca74680008772545.m3u8"
+    ]
+  },
+  {
+    "id": "MTVCLASSICS.de@FR",
+    "name": "MTV CLASSICS",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f92b56a367e170007cd43f4.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTV90sClassics.de@FR",
+    "name": "Pluto TV 90's Classics",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAnimaux.de@FR",
+    "name": "Pluto TV Animaux",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVANIMEGO.de@FR",
+    "name": "Pluto TV ANIME GO!",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAventure.de@FR",
+    "name": "Pluto TV Aventure",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-611e7811eb9daf000764cbfd.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVBrigadeCriminelle.de@FR",
+    "name": "Pluto TV Brigade Criminelle",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-684bf01df7d8b74b625b7dd1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVComedie.de@FR",
+    "name": "Pluto TV Comédie",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8eb91bb9b9e7000817e67f.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVComediesCultes.de@FR",
+    "name": "Pluto TV Comédies Cultes",
+    "country": "DE",
+    "categories": [
+      "comedy",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67b4b2d976a934282e92d71c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCuisine.de@FR",
+    "name": "Pluto TV Cuisine",
+    "country": "DE",
+    "categories": [
+      "cooking",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVDating.de@FR",
+    "name": "Pluto TV Dating (720p)",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-682318568e6c0f2f6c6e0038.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFrenchCollection.de@FR",
+    "name": "Pluto TV French Collection",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVHistoire.de@FR",
+    "name": "Pluto TV Histoire (720p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-611e771e2f5f180007002224.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVInside.de@FR",
+    "name": "Pluto TV Inside",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed3892ed7bb000741a1d2.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKidsClassics.de@FR",
+    "name": "Pluto TV Kids Classics (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVKidsClub.de@FR",
+    "name": "Pluto TV Kids Club",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVParanormal.de@FR",
+    "name": "Pluto TV Paranormal",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed9461b35690007a0bc3a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVPolar.de@FR",
+    "name": "Pluto TV Polar",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVReality.de@FR",
+    "name": "Pluto TV Reality",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6092544e7639460007d4835e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVRetroToons.de@FR",
+    "name": "Pluto TV Retro Toons",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSeriesFantastiques.de@FR",
+    "name": "Pluto TV Séries Fantastiques",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSnooker900.de@FR",
+    "name": "Pluto TV Snooker 900 (720p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSuperKids.de@FR",
+    "name": "Pluto TV Super Kids",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTeen.de@FR",
+    "name": "Pluto TV Teen (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTelerealiteFrance.de@FR",
+    "name": "Pluto TV Téléréalité France",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVToons.de@FR",
+    "name": "Pluto TV Toons (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8"
+    ]
+  },
+  {
+    "id": "Ridiculousness.de@FR",
+    "name": "Ridiculousness (720p)",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8"
+    ]
+  },
+  {
+    "id": "SeriesbyPlutoTV.de@FR",
+    "name": "Series by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8"
+    ]
+  },
+  {
+    "id": "TeenMom.de@FR",
+    "name": "Teen Mom (720p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62f3f05505e621000783df2f.m3u8"
+    ]
+  },
+  {
+    "id": "TortuesNinjaTV.de@FR",
+    "name": "Tortues Ninja TV (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8"
+    ]
+  },
+  {
+    "id": "ToutlemondedetesteChris.de@FR",
+    "name": "Tout le monde déteste Chris",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8"
+    ]
+  },
+  {
+    "id": "TrueCrimebyPlutoTV.de@FR",
+    "name": "True Crime by Pluto TV",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8"
+    ]
+  },
+  {
+    "id": "Turbo.de@FR",
+    "name": "Turbo (720p)",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8"
+    ]
+  },
+  {
+    "id": "16AnnieIncinta.de@IT",
+    "name": "16 Anni e Incinta",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60940a07d88ba90007b9cb71.m3u8"
+    ]
+  },
+  {
+    "id": "CinCin.de@IT",
+    "name": "Cin Cin",
+    "country": "DE",
+    "categories": [
+      "series",
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65cb78b83a116800079e2e35.m3u8"
+    ]
+  },
+  {
+    "id": "GeordieShore.de@IT",
+    "name": "Geordie Shore",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-619263ee9541940007d20d60.m3u8"
+    ]
+  },
+  {
+    "id": "IlTestimone.de@IT",
+    "name": "Il Testimone",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAlbertoSordi.de@IT",
+    "name": "Pluto TV Alberto Sordi",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVChristmastuttolanno.de@IT",
+    "name": "Pluto TV Christmas tutto l'anno",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-612e05b885183d0007958101.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCinemaItaliano.de@IT",
+    "name": "Pluto TV Cinema Italiano",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa7d8359b270007861489.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCinemaOrientale.de@IT",
+    "name": "Pluto TV Cinema Orientale",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCucina.de@IT",
+    "name": "Pluto TV Cucina",
+    "country": "DE",
+    "categories": [
+      "cooking",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa718a8ec810007d87fee.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVDocumentari.de@IT",
+    "name": "Pluto TV Documentari",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilm.de@IT",
+    "name": "Pluto TV Film",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa17fb9f4490007e6419a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmAncoraPiuRomantici.de@IT",
+    "name": "Pluto TV Film Ancora Più Romantici",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-699d87093d5dba980705cca8.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmAzione.de@IT",
+    "name": "Pluto TV Film Azione",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa20a2e7f270007c4878d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmCommedia.de@IT",
+    "name": "Pluto TV Film Commedia",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmRomantici.de@IT",
+    "name": "Pluto TV Film Romantici",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa4a4cc92820007b663af.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmStorici.de@IT",
+    "name": "Pluto TV Film Storici",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68750875759366af05a151ce.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFilmThriller.de@IT",
+    "name": "Pluto TV Film Thriller",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa5e995132a00075f7005.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVLegamiLetali.de@IT",
+    "name": "Pluto TV Legami Letali",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64808a8c536e0c0008a276d1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNatura.de@IT",
+    "name": "Pluto TV Natura",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNottidiPassione.de@IT",
+    "name": "Pluto TV Notti di Passione",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6911c9704316999535eb21cf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNottidiSangue.de@IT",
+    "name": "Pluto TV Notti di Sangue",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6911c92b4316999535eb1e08.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVNottidiTerrore.de@IT",
+    "name": "Pluto TV Notti di Terrore",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6911c8dd8caba6f046c5c5d5.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVParanormal.de@IT",
+    "name": "Pluto TV Paranormal",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVRealLife.de@IT",
+    "name": "Pluto TV Real Life",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60801976f92a750007a0699c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVScherzierisate.de@IT",
+    "name": "Pluto TV Scherzi e risate",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-609404b0a8ec810007d8de9d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSciFi.de@IT",
+    "name": "Pluto TV Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSerie.de@IT",
+    "name": "Pluto TV Serie",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-60b9ff2722bfa400072676ef.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSerieCrime.de@IT",
+    "name": "Pluto TV Serie Crime",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSerieSciFi.de@IT",
+    "name": "Pluto TV Serie Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVShore.de@IT",
+    "name": "Pluto TV Shore",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67e3b0d2443f0671bc8a1297.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSnooker900.de@IT",
+    "name": "Pluto TV Snooker 900 (720p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSport.de@IT",
+    "name": "Pluto TV Sport",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVStoria.de@IT",
+    "name": "Pluto TV Storia",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTeen.de@IT",
+    "name": "Pluto TV Teen (720p)",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63eb573ba99571000897135b.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVToto.de@IT",
+    "name": "Pluto TV Totò",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVTrueCrime.de@IT",
+    "name": "Pluto TV True Crime",
+    "country": "DE",
+    "categories": [
+      "series",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVViaggi.de@IT",
+    "name": "Pluto TV Viaggi",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63c923944207be0007fd0887.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWestern.de@IT",
+    "name": "Pluto TV Western",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62e7fb67478a5b0007e6c50c.m3u8"
+    ]
+  },
+  {
+    "id": "SouthPark.de@IT",
+    "name": "South Park",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8"
+    ]
+  },
+  {
+    "id": "StarTrekVoyager.de@IT",
+    "name": "Star Trek: Voyager",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65cb73d33ba51e00084cabad.m3u8"
+    ]
+  },
+  {
+    "id": "TeenMom.de@IT",
+    "name": "Teen Mom",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62e7fc8c0d061100083946a9.m3u8"
+    ]
+  },
+  {
+    "id": "TeenageMutantNinjaTurtles.de@IT",
+    "name": "Teenage Mutant Ninja Turtles (720p)",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62619405c733e8000732d1fe.m3u8"
+    ]
+  },
+  {
+    "id": "WorldofFreesports.de@Poland",
+    "name": "World of Freesports (1080p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8"
+    ]
+  },
+  {
+    "id": "arte.de@HD",
+    "name": "arte HD",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EWTN.de@SD",
+    "name": "EWTN",
+    "country": "DE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash3.antik.sk/live/test_ewtn_tizen/playlist.m3u8",
+      "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "hrfernsehen.de@HD",
+    "name": "hr-fernsehen HD",
+    "country": "DE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "kabeleins.de@SD",
+    "name": "kabel eins",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KiKA.de@HD",
+    "name": "KiKA HD",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "rbbFernsehen.de@SD",
+    "name": "rbb Fernsehen",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash2.antik.sk/live/test_rbb_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SAT1Gold.de@SD",
+    "name": "SAT.1 Gold (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "sixx.de@SD",
+    "name": "sixx",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AuctionHunters.de@GB",
+    "name": "Auction Hunters",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62ac50e92c48f900071444c9.m3u8"
+    ]
+  },
+  {
+    "id": "Avatar.de@GB",
+    "name": "Avatar",
+    "country": "DE",
+    "categories": [
+      "kids",
+      "animation",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-656df599c0fc8800089c75ab.m3u8"
+    ]
+  },
+  {
+    "id": "CagneyLacey.de@GB",
+    "name": "Cagney & Lacey",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6960c5a906d76f50db2816dc.m3u8"
+    ]
+  },
+  {
+    "id": "CSICrimeSceneInvestigation.de@GB",
+    "name": "CSI: Crime Scene Investigation",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6304f8d5ffb61000071ab478.m3u8"
+    ]
+  },
+  {
+    "id": "GeordieShore.de@GB",
+    "name": "Geordie Shore",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65c4960d11ced7000812c433.m3u8"
+    ]
+  },
+  {
+    "id": "JudgeJudy.de@GB",
+    "name": "Judge Judy",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-622f498d119b4c000719c0b7.m3u8"
+    ]
+  },
+  {
+    "id": "MoreTVCrime.de@GB",
+    "name": "More TV Crime",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-639b558c73423d00071ce624.m3u8"
+    ]
+  },
+  {
+    "id": "MoreTVScifi.de@GB",
+    "name": "More TV Sci-fi",
+    "country": "DE",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-645e00d5d3fdde000829463a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAlienInvasion.de@GB",
+    "name": "Pluto TV Alien Invasion",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-6462190b7cb4b1000862dd60.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAmericanTrueCrime.de@GB",
+    "name": "Pluto TV American True Crime",
+    "country": "DE",
+    "categories": [
+      "series",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-692ebafce72f03e07e7df985.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAnimals.de@GB",
+    "name": "Pluto TV Animals",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5ddf8ea0d000120009bcad83.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVAnimation.de@GB",
+    "name": "Pluto TV Animation",
+    "country": "DE",
+    "categories": [
+      "comedy",
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-612f761008a9e50007984ba0.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVBritainatWar.de@GB",
+    "name": "Pluto TV Britain at War",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-625e8cb585ef320007806caf.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVClassicTV.de@GB",
+    "name": "Pluto TV Classic TV",
+    "country": "DE",
+    "categories": [
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d134a74ca91eedee1630faa.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVConspiracy.de@GB",
+    "name": "Pluto TV Conspiracy",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d4ae94ef1a1bbb350ca41bb.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCrime.de@GB",
+    "name": "Pluto TV Crime",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d767790d0438aceb41d03ae.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVCultFilms.de@GB",
+    "name": "Pluto TV Cult Films",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5c5c31f2f21b553c1f673fb0.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFamilyMovieClub.de@GB",
+    "name": "Pluto TV Family Movie Club",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc3fc6b9133f500099c7d98.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFantasyHorror.de@GB",
+    "name": "Pluto TV Fantasy & Horror",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVFood.de@GB",
+    "name": "Pluto TV Food",
+    "country": "DE",
+    "categories": [
+      "cooking",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVInvestigation.de@GB",
+    "name": "Pluto TV Investigation",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63808dc806aa4700075f319a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVMovies.de@GB",
+    "name": "Pluto TV Movies",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVParanormal.de@GB",
+    "name": "Pluto TV Paranormal",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d4af2ffa9506ab29cf38c38.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVPetrolHeads.de@GB",
+    "name": "Pluto TV PetrolHeads",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-65a7b0814a10d800085ff2df.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVReality.de@GB",
+    "name": "Pluto TV Reality",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5bd8186d53ed2c6334ea0855.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVRetroToons.de@GB",
+    "name": "Pluto TV Retro Toons",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSciFi.de@GB",
+    "name": "Pluto TV Sci-Fi",
+    "country": "DE",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc02a44a9518600094273ac.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVScifiSeries.de@GB",
+    "name": "Pluto TV Sci-fi Series",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-619247c34a270700077c8415.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVScience.de@GB",
+    "name": "Pluto TV Science",
+    "country": "DE",
+    "categories": [
+      "science",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d9492c77ea6f99188738ff1.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSherlock.de@GB",
+    "name": "Pluto TV Sherlock",
+    "country": "DE",
+    "categories": [
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dc2c00abfed110009d97243.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSitcoms.de@GB",
+    "name": "Pluto TV Sitcoms",
+    "country": "DE",
+    "categories": [
+      "series",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62f53dc6ee9a0400071dc22b.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSnooker900.de@GB",
+    "name": "Pluto TV Snooker 900 (720p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVSpace.de@GB",
+    "name": "Pluto TV Space",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dbc2f98777f2e0009934ae7.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVThrillers.de@GB",
+    "name": "Pluto TV Thrillers",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5dbfedccc563080009b60f4a.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVToughJobs.de@GB",
+    "name": "Pluto TV Tough Jobs",
+    "country": "DE",
+    "categories": [
+      "series",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-600acaff5f2d6e000745effb.m3u8"
+    ]
+  },
+  {
+    "id": "PlutoTVWesterns.de@GB",
+    "name": "Pluto TV Westerns",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5d4bdb635ce813b38639e6a3.m3u8"
+    ]
+  },
+  {
+    "id": "SabrinaTheTeenageWitch.de@GB",
+    "name": "Sabrina The Teenage Witch",
+    "country": "DE",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8"
+    ]
+  },
+  {
+    "id": "Scorpion.de@GB",
+    "name": "Scorpion",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63d000ef4e83e700086e0d6c.m3u8"
+    ]
+  },
+  {
+    "id": "SouthPark.de@GB",
+    "name": "South Park",
+    "country": "DE",
+    "categories": [
+      "animation",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8"
+    ]
+  },
+  {
+    "id": "TeenMom.de@GB",
+    "name": "Teen Mom",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-62d550d81054990007db7798.m3u8"
+    ]
+  },
+  {
+    "id": "TheNewDetectives.de@GB",
+    "name": "The New Detectives",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-5e393d5c696b3b0009775c8b.m3u8"
+    ]
+  },
+  {
+    "id": "TheYellowCouchwithJeremyLynch.de@GB",
+    "name": "The Yellow Couch with Jeremy Lynch",
+    "country": "DE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-68e8ffee9d1d49e672fe790f.m3u8"
+    ]
+  },
+  {
+    "id": "TotallyTurtles.de@GB",
+    "name": "Totally Turtles",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8"
+    ]
+  },
+  {
+    "id": "CuriosityNOW.de@EN",
+    "name": "Curiosity Now (1080p)",
+    "country": "DE",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  }
+]

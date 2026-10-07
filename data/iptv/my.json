@@ -1,0 +1,262 @@
+[
+  {
+    "id": "8TV.my@SD",
+    "name": "8TV",
+    "country": "MY",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn6.163189.xyz/163189/8tv",
+      "https://tonton-live-switch-ssar.akamaized.net/stream-8tv/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311",
+      "https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420325"
+    ]
+  },
+  {
+    "id": "AwesomeTV.my@SD",
+    "name": "Awesome TV [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://488b9e074624.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.533267421985.channel.B7bB1wHJRCnw.m3u8"
+    ]
+  },
+  {
+    "id": "BeritaRTM.my@SD",
+    "name": "Berita RTM [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5"
+    ]
+  },
+  {
+    "id": "CinemaWorld.my@SD",
+    "name": "CinemaWorld (720p)",
+    "country": "MY",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live069/index.m3u8",
+      "https://cdn.qd.je/163189/cinemaworld"
+    ]
+  },
+  {
+    "id": "MaahTV.my@SD",
+    "name": "Maah TV (720p)",
+    "country": "MY",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.maahtv.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "NTV7.my@SD",
+    "name": "NTV7",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311"
+    ]
+  },
+  {
+    "id": "Okey.my@SD",
+    "name": "Okey [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3"
+    ]
+  },
+  {
+    "id": "RTMASEAN.my@SD",
+    "name": "RTM ASEAN",
+    "country": "MY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8"
+    ]
+  },
+  {
+    "id": "RTMParlimenDewanNegara.my@SD",
+    "name": "RTM Parlimen (Dewan Negara) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8"
+    ]
+  },
+  {
+    "id": "RTMParlimenDewanRakyat.my@SD",
+    "name": "RTM Parlimen (Dewan Rakyat) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7"
+    ]
+  },
+  {
+    "id": "SelangorTV.my@SD",
+    "name": "SelangorTV (1080p)",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd"
+    ]
+  },
+  {
+    "id": "SukanRTM.my@SD",
+    "name": "Sukan RTM (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd"
+    ]
+  },
+  {
+    "id": "SukeTV.my@SD",
+    "name": "Suke TV (720p)",
+    "country": "MY",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mana2.my/SukeTv/index.m3u8?auth_key=1745177878-c9b78020e8d64aac92e7d5db06493530-0-951f497899c978ee5fbc2f1375671272&token=1745177878-c9b78020e8d64aac92e7d5db06493530-0-951f497899c978ee5fbc2f1375671272"
+    ]
+  },
+  {
+    "id": "TV1.my@SD",
+    "name": "TV1 (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd",
+      "https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047",
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1"
+    ]
+  },
+  {
+    "id": "TV2.my@SD",
+    "name": "TV2 (1080p)",
+    "country": "MY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d"
+    ]
+  },
+  {
+    "id": "TV6.my@SD",
+    "name": "TV6 [Geo-blocked]",
+    "country": "MY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6"
+    ]
+  },
+  {
+    "id": "TV9.my@SD",
+    "name": "TV9",
+    "country": "MY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311",
+      "https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420326"
+    ]
+  },
+  {
+    "id": "TVIKIM.my@SD",
+    "name": "TVIKIM (1080p)",
+    "country": "MY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mana2.my/TvIkim/index.m3u8?auth_key=1745177920-648b7df03f404bc4ac20e90e96f817eb-0-35d3be6e85a129ce175b39a9819ca942&token=1745177920-648b7df03f404bc4ac20e90e96f817eb-0-35d3be6e85a129ce175b39a9819ca942"
+    ]
+  },
+  {
+    "id": "TV3.my@SD",
+    "name": "TV3 (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420323"
+    ]
+  },
+  {
+    "id": "DidikTVKPM.my@SD",
+    "name": "DidikTV KPM (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420324"
+    ]
+  },
+  {
+    "id": "DramaSangat.my@SD",
+    "name": "Drama Sangat (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420342"
+    ]
+  },
+  {
+    "id": "TVS.my@SD",
+    "name": "TVS (1080p) [Geo-blocked]",
+    "country": "MY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://api.dani-dev.co.za/v1/stream/mytv/live/tvs"
+    ]
+  }
+]

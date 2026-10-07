@@ -1,0 +1,118 @@
+[
+  {
+    "id": "AdinkraTV.gh@SD",
+    "name": "Adinkra TV (1080p)",
+    "country": "GH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "APTV.gh@SD",
+    "name": "AP TV",
+    "country": "GH",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://59nyqg8elwap-hls-live.5centscdn.com/APTV/85c20905211659d143febd7c32592ee0.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GTV.gh@SD",
+    "name": "GTV (540p)",
+    "country": "GH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://g2qd3exjy7an-hls-live.5centscdn.com/gtvghana/ghanaweb.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HopeChannelGhana.gh@SD",
+    "name": "Hope Channel Ghana (480p)",
+    "country": "GH",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videodelivery.net/dfbdca87f2a6291aa4fdc8fe3290769b/manifest/video.m3u8"
+    ]
+  },
+  {
+    "id": "MOGPATV.gh@SD",
+    "name": "MOGPA TV",
+    "country": "GH",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bk7l2r2nyx53-hls-live.5centscdn.com/ablazetv/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "https://srt.mogpa.org:30443/mogpatvplus/website_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MOGPATVPlus.gh@SD",
+    "name": "MOGPA TV Plus",
+    "country": "GH",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bk7l2r2nyx53-hls-live.5centscdn.com/mogpatvplus/2567a5ec9705eb7ac2c984033e06189d.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OTV.gh@SD",
+    "name": "OTV (720p)",
+    "country": "GH",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5dcabf026b188.streamlock.net/OceansTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PentTV.gh@SD",
+    "name": "Pent TV",
+    "country": "GH",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playlist.dacast.com/live/a72117af-d78e-7ffe-7c12-1af6cd4a8483-live-42172a86-494b-a866-498f-dbaff4b5e3c0/master.m3u8"
+    ]
+  },
+  {
+    "id": "ResurrectionTV.gh@SD",
+    "name": "Resurrection TV (720p)",
+    "country": "GH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://1681360479.rsc.cdn77.org/1681360479/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV3.gh@SD",
+    "name": "TV3 (540p)",
+    "country": "GH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://g2qd3exjy7an-hls-live.5centscdn.com/webtv3/ghanatv.stream/playlist.m3u8",
+      "https://adesa.tv/live/tv3_AdesaAdb.m3u8"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "Canal5.uy@SD",
+    "name": "Canal 5 (720p)",
+    "country": "UY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tinyurl.com/canal5uy"
+    ]
+  },
+  {
+    "id": "UCL.uy@SD",
+    "name": "UCL (720p)",
+    "country": "UY",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
+      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741"
+    ]
+  },
+  {
+    "id": "CanalMas.uy@SD",
+    "name": "Canal Mas (720p)",
+    "country": "UY",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canalmasuruguay.com/hls/master-abr.m3u8"
+    ]
+  }
+]

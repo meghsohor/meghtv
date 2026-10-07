@@ -1,0 +1,3478 @@
+[
+  {
+    "id": "RakutenTVActionMovies.es@Austria",
+    "name": "Rakuten TV Action Movies Austria (720p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://0f846627524f4dd2995e93581379db82.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-at_RakutenActionMovies-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@Austria",
+    "name": "Rakuten TV Comedy Movies Austria (720p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7ed752b220a441b7b22bdf697c6c4df8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-at_RakutenComedyMovies-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@Austria",
+    "name": "Rakuten TV Drama Movies Austria (720p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://df1aa472ff5b4780a8d91fe319778b4d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-at_RakutenTVShows-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Austria",
+    "name": "Rakuten TV Family Movies Austria (720p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://9fa8baba055e4a52b0a8d1ae7d78bed8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-at_RakutenFamily-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RealMadridTV.es@SD",
+    "name": "Realmadrid TV (720p)",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8",
+      "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
+    ]
+  },
+  {
+    "id": "OlympicChannel.es@SD",
+    "name": "Olympic Channel [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_32.m3u8",
+      "https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_1.m3u8",
+      "https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_2.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Switzerland",
+    "name": "Rakuten TV Family Switzerland (720p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a24daf1125344b9cab66eed2fcff8821.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_RakutenFamily-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVActionMovies.es@Germany",
+    "name": "Rakuten TV Action Movies Germany (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@Germany",
+    "name": "Rakuten TV Comedy Movies Germany (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@Germany",
+    "name": "Rakuten TV Drama Movies Germany (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Germany",
+    "name": "Rakuten TV Family Movies Germany (1080p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVTopMovies.es@Germany",
+    "name": "Rakuten TV Top Movies Germany (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8"
+    ]
+  },
+  {
+    "id": "3CatCameresdeltemps.es@SD",
+    "name": "3Cat Càmeres del temps (1080p)",
+    "country": "ES",
+    "categories": [
+      "public",
+      "weather"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "3CatExclusiu1.es@SD",
+    "name": "3Cat Exclusiu 1 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/oca1-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "3CatExclusiu2.es@SD",
+    "name": "3Cat Exclusiu 2 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/oca2-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "3CatExclusiu3.es@SD",
+    "name": "3Cat Exclusiu 3 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/oca3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "3CatPlatsbruts.es@SD",
+    "name": "3Cat Plats bruts (1080p)",
+    "country": "ES",
+    "categories": [
+      "classic",
+      "comedy",
+      "public",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8"
+    ]
+  },
+  {
+    "id": "3CatInfo.es@SD",
+    "name": "3CatInfo (1080p)",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7TeleValencia.es@SD",
+    "name": "7 TeleValencia (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "8LaMarinaTV.es@SD",
+    "name": "8 La Marina TV (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming005.gestec-video.com/hls/canal24.m3u8"
+    ]
+  },
+  {
+    "id": "9laLomaTV.es@SD",
+    "name": "9 la Loma TV (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://9laloma.tv/live.m3u8"
+    ]
+  },
+  {
+    "id": "12tv.es@SD",
+    "name": "12tv",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.streamingconnect.tv/hls/12tv/12tv2.m3u8",
+      "https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8"
+    ]
+  },
+  {
+    "id": "24HorasCanarias.es@SD",
+    "name": "24 Horas Canarias (1080p)",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.47.212.25:8080/24h_HD/index.m3u8",
+      "https://ztnr.rtve.es/ztnr/5473142.m3u8"
+    ]
+  },
+  {
+    "id": "28kanala.es@SD",
+    "name": "28 kanala",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.28kanala.eus/hls/z.m3u8"
+    ]
+  },
+  {
+    "id": "101tvAntequera.es@SD",
+    "name": "101tv Antequera [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/101weblive/smil:antequera.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "101tvCadiz.es@SD",
+    "name": "101tv Cádiz (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming101tv.es:19360/cadiz/cadiz.m3u8"
+    ]
+  },
+  {
+    "id": "101tvMalaga.es@SD",
+    "name": "101tv Malaga",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/101weblive/smil:malaga.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "101tvSevilla.es@SD",
+    "name": "101tv Sevilla",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "APunt.es@SD",
+    "name": "A Punt (720p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8"
+    ]
+  },
+  {
+    "id": "ActivaTV.es@SD",
+    "name": "Activa TV (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamtv.mediasector.es/hls/activatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Actualidad360.es@SD",
+    "name": "Actualidad 360 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-lovetv-amg01821c27-lg-es-6726.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovenews-lges/playlist.m3u8",
+      "https://jmp2.uk/plu-67517fae5534bb0008187997.m3u8"
+    ]
+  },
+  {
+    "id": "AlacantiTV.es@SD",
+    "name": "Alacantí TV (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8"
+    ]
+  },
+  {
+    "id": "AlcarriaTV.es@SD",
+    "name": "Alcarria TV (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://217.182.77.27/live/alcarriatv-livestream.m3u8",
+      "https://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AnimeVision.es@SD",
+    "name": "Anime Vision (1080p)",
+    "country": "ES",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8"
+    ]
+  },
+  {
+    "id": "AnimeVisionClassics.es@SD",
+    "name": "Anime Vision Classics (1080p)",
+    "country": "ES",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8"
+    ]
+  },
+  {
+    "id": "ArabiTV.es@SD",
+    "name": "Arabí TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8"
+    ]
+  },
+  {
+    "id": "AragonTVInternacional.es@SD",
+    "name": "Aragon TV Internacional (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8"
+    ]
+  },
+  {
+    "id": "AXNCEE.es@Hungary",
+    "name": "AXN CEE",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/axn_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNCEE.es@Bulgary",
+    "name": "AXN CEE Bulgary",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.11.144.9:4222/AXN"
+    ]
+  },
+  {
+    "id": "AXNCEE.es@CzechRepublic",
+    "name": "AXN CEE Czech Republic",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_axn/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BailenTV.es@SD",
+    "name": "Bailén TV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://cpd.bailen.tv:8080/Playlist_CANAL_24H/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BarcaTV.es@SD",
+    "name": "Barca TV",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8"
+    ]
+  },
+  {
+    "id": "BCNGospelTV.es@HD",
+    "name": "BCN Gospel TV HD (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live1.ovalcast.com:3916/live/bcngospeltvlive.m3u8"
+    ]
+  },
+  {
+    "id": "BDN.es@SD",
+    "name": "BDNCOM (1080p)",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/badalonatvlive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BiosferaTV.es@SD",
+    "name": "Biosfera TV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvdatta.com:3021/live/biosferatvlive.m3u8"
+    ]
+  },
+  {
+    "id": "BonDiaTV.es@SD",
+    "name": "Bon Dia TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8",
+      "https://directes-tv-int.3catdirectes.cat/live-origin/bondia-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "CadenaElite.es@SD",
+    "name": "Cadena Elite (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8004/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal1MarMenorTorrePacheco.es@SD",
+    "name": "Canal 1 Mar Menor-Torre Pacheco (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directo.tuwebtv.es/canal1.m3u8"
+    ]
+  },
+  {
+    "id": "Canal3TVBiar.es@SD",
+    "name": "Canal 3 Biar (480p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://avantstreaming.es/hls/canal3.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Catalunya.es@SD",
+    "name": "Canal 4 Catalunya (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://limited35.todostreaming.es/live/mitjans-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4Mallorca.es@SD",
+    "name": "Canal 4 Mallorca (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8"
+    ]
+  },
+  {
+    "id": "Canal4ManchaCentro.es@SD",
+    "name": "Canal 4 Mancha Centro (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal10Emporda.es@SD",
+    "name": "Canal 10 Empordà (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ventdelnord.tv:8080/escala/directe.m3u8"
+    ]
+  },
+  {
+    "id": "24Horas.es@SD",
+    "name": "Canal 24 Horas (720p)",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ztnr.rtve.es/ztnr/1694255.m3u8"
+    ]
+  },
+  {
+    "id": "24HorasCatalunya.es@SD",
+    "name": "Canal 24 Horas Catalunya (720p)",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ztnr.rtve.es/ztnr/4952053.m3u8"
+    ]
+  },
+  {
+    "id": "Canal25TV.es@SD",
+    "name": "Canal 25 TV (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "Canal33Madrid.es@SD",
+    "name": "Canal 33 Madrid",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal45.es@SD",
+    "name": "Canal 45 (576p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8"
+    ]
+  },
+  {
+    "id": "Canal56.es@SD",
+    "name": "Canal 56 (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://videos.canal56.com/directe/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal2000.es@SD",
+    "name": "Canal 2000 La Solana (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8"
+    ]
+  },
+  {
+    "id": "CanalCoinTV.es@SD",
+    "name": "Canal Coín (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canalcoin.garjim.es/hls/directo.m3u8"
+    ]
+  },
+  {
+    "id": "CanalDiocesano.es@SD",
+    "name": "Canal Diocesano (576p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8"
+    ]
+  },
+  {
+    "id": "CanalDonana.es@SD",
+    "name": "Canal Doñana (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://secure5.todostreaming.es/live/division-alm.m3u8"
+    ]
+  },
+  {
+    "id": "CanalExtremadura.es@SD",
+    "name": "Canal Extremadura (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "CanalLuzTelevision.es@SD",
+    "name": "Canal Luz Television",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f71743aa95e4.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8",
+      "https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalMalagaRTV.es@SD",
+    "name": "Canal Málaga RTV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalParlamento.es@SD",
+    "name": "Canal Parlamento (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8"
+    ]
+  },
+  {
+    "id": "CanalReusTV.es@SD",
+    "name": "Canal Reus TV (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSanRoque.es@SD",
+    "name": "Canal San Roque (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSierradeCadiz.es@SD",
+    "name": "Canal Sierra de Cádiz (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s.emisoras.tv:8081/sierradecadiz/index.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSurAndalucia.es@SD",
+    "name": "Canal Sur Andalucia (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8",
+      "https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSur2.es@SD",
+    "name": "Canal Sur Andalucía 2 (720p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalSurNoticias.es@SD",
+    "name": "Canal Sur Noticias",
+    "country": "ES",
+    "categories": [
+      "news",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalTaronjaComarquesCentrals.es@SD",
+    "name": "Canal Taronja Comarques Centrals (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalTaronjaOsonaiMoianes.es@SD",
+    "name": "Canal Taronja Osona i Moianés (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalTerrassa.es@SD",
+    "name": "Canal Terrassa (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalCosta.es@SD",
+    "name": "CanalCosta (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CancioneroTV.es@SD",
+    "name": "Cancionero TV (360p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://89.140.229.5/hls1/cancionero.m3u8"
+    ]
+  },
+  {
+    "id": "CapTerre.es@FR",
+    "name": "Cap Terre (1080p)",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://145.239.5.177/359a/index.m3u8"
+    ]
+  },
+  {
+    "id": "CetelmonTV.es@SD",
+    "name": "Cetelmón TV (404p)",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8"
+    ]
+  },
+  {
+    "id": "CiudadesdelOcioTV.es@SD",
+    "name": "Ciudades Del Ocio TV (720p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8024/index.m3u8"
+    ]
+  },
+  {
+    "id": "Clan.es@SD",
+    "name": "Clan (720p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "kids",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8",
+      "https://ztnr.rtve.es/ztnr/5466990.m3u8",
+      "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8"
+    ]
+  },
+  {
+    "id": "ClanInternacional.es@SD",
+    "name": "Clan Internacional Americas (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "kids",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8",
+      "http://168.228.44.241:9999/play/a04j/index.m3u8"
+    ]
+  },
+  {
+    "id": "CMMTV.es@HD",
+    "name": "CMM TV HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8"
+    ]
+  },
+  {
+    "id": "Condavision.es@SD",
+    "name": "Condavisión (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CongresodelosDiputados1.es@SD",
+    "name": "Congreso de los Diputados 1 (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8"
+    ]
+  },
+  {
+    "id": "CongresodelosDiputados2.es@SD",
+    "name": "Congreso de los Diputados 2 (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2038275/canal2/master.m3u8"
+    ]
+  },
+  {
+    "id": "CongresodelosDiputados3.es@SD",
+    "name": "Congreso de los Diputados 3 (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8"
+    ]
+  },
+  {
+    "id": "CongresodelosDiputados4.es@SD",
+    "name": "Congreso de los Diputados 4 (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8"
+    ]
+  },
+  {
+    "id": "CongresodelosDiputados5.es@SD",
+    "name": "Congreso de los Diputados 5 (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8"
+    ]
+  },
+  {
+    "id": "CortsValencianes.es@SD",
+    "name": "Corts Valencianes (480p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamserver3.seneca.tv/cval_live/cdn_enc_3/master.m3u8"
+    ]
+  },
+  {
+    "id": "CostaNoroesteTV.es@SD",
+    "name": "Costa Noroeste TV (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "CugatTV.es@SD",
+    "name": "Cugat TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/cugatcatlive/smil:rtmp01.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DeportesporMovistarPlusPlus.es@SD",
+    "name": "Deportes por Movistar Plus+",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/18/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiezTVLasVillas.es@SD",
+    "name": "Diez TV Las Villas (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.cloud.innovasur.es/mmj2/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiezTVUbeda.es@SD",
+    "name": "Diez TV Úbeda (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.cloud.innovasur.es/mmj/index.m3u8"
+    ]
+  },
+  {
+    "id": "DistritoTV.es@SD",
+    "name": "Distrito TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8"
+    ]
+  },
+  {
+    "id": "DurangaldekoTelebista.es@SD",
+    "name": "Durangaldeko Telebista (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8"
+    ]
+  },
+  {
+    "id": "El9TV.es@SD",
+    "name": "El 9 TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "El33.es@SD",
+    "name": "El 33 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "culture",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/c33-super3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "El33.es@Originals",
+    "name": "El 33 Originals (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "culture",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-int.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8",
+      "https://directes-tv-int.3catdirectes.cat/live-origin/c33-super3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "ElToroTV.es@SD",
+    "name": "El Toro TV (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8"
+    ]
+  },
+  {
+    "id": "Elche7TV.es@SD",
+    "name": "Elche 7 TV (576p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://elche7tv.gestec-video.com/hls/canal2.m3u8"
+    ]
+  },
+  {
+    "id": "EmpordaTV.es@SD",
+    "name": "Empordà TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video3.lhdserver.es/empordatv2/live.m3u8"
+    ]
+  },
+  {
+    "id": "Esport3.es@SD",
+    "name": "Esport3 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "public",
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "Esport3.es@Originals",
+    "name": "Esport3 (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "public",
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+      "https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "EsteCanalTV.es@SD",
+    "name": "Este Canal TV (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8"
+    ]
+  },
+  {
+    "id": "EsteponaTelevision.es@SD",
+    "name": "Estepona Televisión (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8022/index.m3u8"
+    ]
+  },
+  {
+    "id": "EsTuTele.es@SD",
+    "name": "EsTuTele (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.streamingconnect.tv/hls/estutele/estutele.m3u8"
+    ]
+  },
+  {
+    "id": "ETB1.es@SD",
+    "name": "ETB 1 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn1.etbon.eus/etb1/index.m3u8"
+    ]
+  },
+  {
+    "id": "ETB1On.es@HD",
+    "name": "ETB1 On (1080p)",
+    "country": "ES",
+    "categories": [
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn1.etbon.eus/etb1on/index.m3u8",
+      "https://cdn1.etbon.eus/etb1on/index.mpd"
+    ]
+  },
+  {
+    "id": "ETB2.es@SD",
+    "name": "ETB 2 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn1.etbon.eus/etb2/index.m3u8"
+    ]
+  },
+  {
+    "id": "ETB2On.es@HD",
+    "name": "ETB2 On (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn1.etbon.eus/etb2on/index.m3u8",
+      "https://cdn1.etbon.eus/etb2on/index.mpd"
+    ]
+  },
+  {
+    "id": "ETBEvents1.es@SD",
+    "name": "ETB Events 1 (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn1.etbon.eus/oc1/index.m3u8"
+    ]
+  },
+  {
+    "id": "etv.es@SD",
+    "name": "ETV Terramar (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Fibwi.es@SD",
+    "name": "Fibwi (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8"
+    ]
+  },
+  {
+    "id": "FuerteventuraTV.es@SD",
+    "name": "Fuerteventura TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8"
+    ]
+  },
+  {
+    "id": "GaliciaTVEuropa.es@SD",
+    "name": "Galicia TV Europa (720p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://crtvg-europa.flumotion.cloud/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GoienaEus.es@SD",
+    "name": "Goiena Eus (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://zuzenean.goienamedia.eus/goiena-telebista.m3u8"
+    ]
+  },
+  {
+    "id": "GuadaTV.es@SD",
+    "name": "Guada TV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8"
+    ]
+  },
+  {
+    "id": "Historia.es@HD",
+    "name": "Historia HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1k3vzh2ivy22k.cloudfront.net/Historia1080.m3u8"
+    ]
+  },
+  {
+    "id": "HOLAPlay.es@SD",
+    "name": "HOLA! Play (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8"
+    ]
+  },
+  {
+    "id": "HuelvaTV.es@SD",
+    "name": "Huelva TV (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ImasTV.es@SD",
+    "name": "Imás TV (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://secure3.todostreaming.es/live/imastv-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "InteralmeriaTV.es@SD",
+    "name": "Interalmeria TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://interalmeria.tv/directo/live.m3u8"
+    ]
+  },
+  {
+    "id": "IntercomarcalTV.es@SD",
+    "name": "Intercomarcal TV (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamingtvi.gestec-video.com/hls/tvixa.m3u8"
+    ]
+  },
+  {
+    "id": "KinoKazka.es@SD",
+    "name": "KinoKazka (1080p)",
+    "country": "ES",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/167/index.m3u8"
+    ]
+  },
+  {
+    "id": "La1.es@SD",
+    "name": "La 1 (1080p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/40/index.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8",
+      "https://ztnr.rtve.es/ztnr/1688877.m3u8",
+      "https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd",
+      "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "La1Canarias.es@SD",
+    "name": "La 1 Canarias (720p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8",
+      "https://ztnr.rtve.es/ztnr/5190066.m3u8"
+    ]
+  },
+  {
+    "id": "La1Catalunya.es@SD",
+    "name": "La 1 Catalunya (720p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8",
+      "https://ztnr.rtve.es/ztnr/3293681.m3u8"
+    ]
+  },
+  {
+    "id": "La1.es@UHD",
+    "name": "La 1 UHD (2160p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.47.212.25:8080/tdp_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "La2.es@SD",
+    "name": "La 2",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8"
+    ]
+  },
+  {
+    "id": "La2Canarias.es@SD",
+    "name": "La 2 Canarias (720p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ztnr.rtve.es/ztnr/5468585.m3u8"
+    ]
+  },
+  {
+    "id": "La2Catalunya.es@SD",
+    "name": "La 2 Catalunya (720p)",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ztnr.rtve.es/ztnr/3987218.m3u8"
+    ]
+  },
+  {
+    "id": "La8Mediterraneo.es@SD",
+    "name": "La 8 Mediterraneo (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8"
+    ]
+  },
+  {
+    "id": "LaUrbanTV.es@SD",
+    "name": "La Urban TV (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://urbanrevolution.es:8443/live/TV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LancelotTV.es@SD",
+    "name": "Lancelot TV (404p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8"
+    ]
+  },
+  {
+    "id": "LigadeCampeonesporMovistarPlusPlus.es@SD",
+    "name": "Liga de Campeones por Movistar Plus+",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/36/index.m3u8"
+    ]
+  },
+  {
+    "id": "LleidaTelevisio.es@SD",
+    "name": "Lleida Televisió (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "LogosTV.es@SD",
+    "name": "Logos TV (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.streamhost.org/salive/logosH/master.m3u8"
+    ]
+  },
+  {
+    "id": "LogosTVEstudio.es@SD",
+    "name": "Logos TV Estudio (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LogosTVKids.es@SD",
+    "name": "Logos TV Kids (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "religious",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LogosTVSalud.es@SD",
+    "name": "Logos TV Salud (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveThePlanet.es@EN",
+    "name": "Love The Planet (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-lovetv-amg01821c8-xumo-us-3443.playouts.now.amagi.tv/playlist.m3u8",
+      "https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveThePlanet.es@DE",
+    "name": "Love The Planet DE (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-amg01821c12-rlaxx-gb-10461.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveThePlanet.es@ES",
+    "name": "Love The Planet ES (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-lovetv-amg01821c9-rlaxx-gb-10458.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveThePlanet.es@IT",
+    "name": "Love The Planet IT (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-amg01821c11-rlaxx-gb-10459.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "M95TelevisionMarbella.es@SD",
+    "name": "M95 Televisión Marbella (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://limited2.todostreaming.es/live/m95-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "MaestratTV.es@SD",
+    "name": "Maestrat TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.maestrat.tv/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "MataroTelevisio.es@SD",
+    "name": "Mataró Televisió (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "Mijas340TV.es@SD",
+    "name": "Mijas 3.40TV (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming004.gestec-video.com/hls/MIJAS.m3u8"
+    ]
+  },
+  {
+    "id": "MirameTV.es@SD",
+    "name": "Mírame TV (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8"
+    ]
+  },
+  {
+    "id": "MolahitsTV.es@SD",
+    "name": "Molahits TV (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ventdelnord.tv:8080/mola/directe.m3u8"
+    ]
+  },
+  {
+    "id": "MusicTVGranada.es@SD",
+    "name": "Music TV Granada (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8032/index.m3u8"
+    ]
+  },
+  {
+    "id": "NegociosTV.es@SD",
+    "name": "Negocios TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming013.gestec-video.com/hls/negociostv.m3u8"
+    ]
+  },
+  {
+    "id": "Nortevision.es@SD",
+    "name": "NORTEvisión (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://amaru.dyndns.org:8870/0.m3u8"
+    ]
+  },
+  {
+    "id": "OlotTV.es@SD",
+    "name": "Olot TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "Onda15TV.es@SD",
+    "name": "Onda 15 TV (224p)",
+    "country": "ES",
+    "categories": [
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8034/index.m3u8"
+    ]
+  },
+  {
+    "id": "OndaAlgeciras.es@SD",
+    "name": "Onda Algeciras TV (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "OndaCadiz.es@SD",
+    "name": "Onda Cádiz 24h (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ondacadiztv.es:30443/octv/24h/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OndaValenciaTV.es@SD",
+    "name": "Onda Valencia (720p)",
+    "country": "ES",
+    "categories": [
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8116/index.m3u8"
+    ]
+  },
+  {
+    "id": "ParlamentodeAndalucia.es@SD",
+    "name": "Parlamento de Andalucía (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.147.254.64:1935/realizacion1/realizacion1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ParlamentodeNavarra.es@SD",
+    "name": "Parlamento de Navarra (368p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8"
+    ]
+  },
+  {
+    "id": "PenedesTelevisio.es@SD",
+    "name": "Penedès Televisió (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "Pequeradio.es@SD",
+    "name": "Pequeradio (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8"
+    ]
+  },
+  {
+    "id": "PieraTV.es@SD",
+    "name": "Piera TV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8"
+    ]
+  },
+  {
+    "id": "PirineusTV.es@SD",
+    "name": "Pirineus TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s153.ipcamlive.com/streams/99pic5fsknh2gnvhx/stream.m3u8"
+    ]
+  },
+  {
+    "id": "PlatziTV.es@SD",
+    "name": "Platzi TV (1080p)",
+    "country": "ES",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8"
+    ]
+  },
+  {
+    "id": "POPWorldTV.es@SD",
+    "name": "POP World TV (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8"
+    ]
+  },
+  {
+    "id": "PopularTVMelilla.es@SD",
+    "name": "Popular TV Melilla (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://5940924978228.streamlock.net:1935/8009/8009/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PopularTVMurcia.es@SD",
+    "name": "Popular TV Murcia (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.fastchannel.es/mic/manifiest/populartvrm.m3u8"
+    ]
+  },
+  {
+    "id": "PTVCordoba.es@SD",
+    "name": "PTV Córdoba (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer.zapitv.com/PTV_CORDOBA/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVGranada.es@SD",
+    "name": "PTV Granada (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer.zapitv.com/PTV-granada/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVLinares.es@SD",
+    "name": "PTV Linares (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer.zapitv.com/ptv-linarez/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVMalaga.es@SD",
+    "name": "PTV Málaga (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamer.zapitv.com/PTV-malaga/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVSevilla.es@SD",
+    "name": "PTV Sevilla (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer.zapitv.com/PTV_sevilla/index.m3u8"
+    ]
+  },
+  {
+    "id": "Punt3.es@SD",
+    "name": "Punt 3 Vall Uixó (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8"
+    ]
+  },
+  {
+    "id": "Radio3.es@SD",
+    "name": "Radio 3 (720p)",
+    "country": "ES",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8"
+    ]
+  },
+  {
+    "id": "RadioBocairentTV.es@SD",
+    "name": "Ràdio Bocairent TV (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.81.77.4/BocairentTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioCarnavalTV.es@SD",
+    "name": "Radio Carnaval TV (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "music",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8116/index.m3u8"
+    ]
+  },
+  {
+    "id": "RealMadridTVEnglish.es@SD",
+    "name": "Real Madrid TV English [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
+      "http://88.212.15.19/live/real_madrid_tv/index.m3u8"
+    ]
+  },
+  {
+    "id": "RiberaTV.es@SD",
+    "name": "Ribera TV (576p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://common01.todostreaming.es/live/ribera-livestream.m3u8"
+    ]
+  },
+  {
+    "id": "TVR.es@SD",
+    "name": "Rioja Televisión (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RNEparatodos.es@SD",
+    "name": "RNE para todos (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8"
+    ]
+  },
+  {
+    "id": "RTVElVendrell.es@SD",
+    "name": "RTV El Vendrell (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTVManilva.es@SD",
+    "name": "RTV Manilva (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTelevisionMarbella.es@SD",
+    "name": "RTV Marbella (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8"
+    ]
+  },
+  {
+    "id": "RTVVida.es@SD",
+    "name": "RTV Vida (1080p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8"
+    ]
+  },
+  {
+    "id": "RTVCCardedeu.es@SD",
+    "name": "RTVC Cardedeu (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SevillaFCTV.es@SD",
+    "name": "Sevilla FC TV (360p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8"
+    ]
+  },
+  {
+    "id": "SolMusica.es@SD",
+    "name": "Sol Música (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8"
+    ]
+  },
+  {
+    "id": "SolidariaTV.es@SD",
+    "name": "Solidaria TV (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8"
+    ]
+  },
+  {
+    "id": "SpektraTV.es@SD",
+    "name": "SpektraTV (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8"
+    ]
+  },
+  {
+    "id": "SX3.es@SD",
+    "name": "SX3 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "animation",
+      "kids",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/super3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "Taroteame.es@SD",
+    "name": "Tarotéame (576p)",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5d2733224ac48.streamlock.net/taroteame/tarot_web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TBNEspana.es@SD",
+    "name": "TBN España (576p)",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8"
+    ]
+  },
+  {
+    "id": "Tele7.es@SD",
+    "name": "Tele 7 (720p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleElx.es@SD",
+    "name": "Tele Elx (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvdirecto.teleelx.es/stream/teleelx.m3u8"
+    ]
+  },
+  {
+    "id": "TeleSafor.es@SD",
+    "name": "Tele Safor (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://video.telesafor.com/hls/video.m3u8"
+    ]
+  },
+  {
+    "id": "TeleBilbao.es@SD",
+    "name": "TeleBilbao (384p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tbilbo.dyndns.org/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Teledeporte.es@SD",
+    "name": "Teledeporte (720p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8",
+      "https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8"
+    ]
+  },
+  {
+    "id": "Teleganes.es@SD",
+    "name": "Teleganés (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8"
+    ]
+  },
+  {
+    "id": "Telemadrid.es@HD",
+    "name": "Telemadrid HD (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.telemadrid.cross-media.es/6389770581112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNTgxMTEyIn0.kqriAMUkHT6m0V6wkCHJum_EUyL4PAi1zJMKlfmYHEU/playlist-hls.m3u8"
+    ]
+  },
+  {
+    "id": "Telemotril.es@SD",
+    "name": "Telemotril (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5940924978228.streamlock.net/8431/8431/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teleonuba.es@SD",
+    "name": "Teleonuba (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5d8d85cf2c308.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleRibera.es@SD",
+    "name": "TeleRibera (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://video1.lhdserver.es/teleribera/live.m3u8"
+    ]
+  },
+  {
+    "id": "TeleVigo.es@SD",
+    "name": "TeleVigo (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisionAranda.es@SD",
+    "name": "Televisión Aranda (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisionCanaria.es@SD",
+    "name": "Television Canaria (576p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8",
+      "https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisionConsciente.es@SD",
+    "name": "Televisión Consciente (1080p)",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn318.fractalmedia.es/318/live/hls/tvc/master.m3u8"
+    ]
+  },
+  {
+    "id": "TitoTV.es@HD",
+    "name": "Tito TV (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/TITOTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "Trece.es@SD",
+    "name": "Trece TV (576p)",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV3.es@SD",
+    "name": "TV3 (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8",
+      "https://directes-tv-cat.3catdirectes.cat/live-origin/tv3-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "TV3CAT.es@SD",
+    "name": "TV3CAT (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8",
+      "https://directes-tv-es.3catdirectes.cat/live-origin/tvc-hls/master.m3u8"
+    ]
+  },
+  {
+    "id": "TVA.es@SD",
+    "name": "TV Artequatre (576p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8"
+    ]
+  },
+  {
+    "id": "TVBergueda.es@SD",
+    "name": "TV Berguedà (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/berguedatvlive/smil:migracion.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "TVCostaBrava.es@SD",
+    "name": "TV Costa Brava (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVGirona.es@SD",
+    "name": "TV Girona (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://ventdelnord.tv:8080/girona/directe.m3u8"
+    ]
+  },
+  {
+    "id": "TVLHospitalet.es@SD",
+    "name": "TV L'Hospitalet (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "TVRipolles.es@SD",
+    "name": "TV Ripollès (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR="
+    ]
+  },
+  {
+    "id": "TVSabadellValles.es@SD",
+    "name": "TV Sabadell-Vallès (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisiondeSanVicente.es@SD",
+    "name": "TV San Vicente (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8"
+    ]
+  },
+  {
+    "id": "TVCentroAndalucia.es@SD",
+    "name": "TVCentro Andalucía (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVEInternacionalAmerica.es@SD",
+    "name": "TVE Internacional America (576p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8"
+    ]
+  },
+  {
+    "id": "TVEInternacionalAmerica.es@HD",
+    "name": "TVE Internacional America HD (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8"
+    ]
+  },
+  {
+    "id": "TVEInternacionalAsiaOceania.es@SD",
+    "name": "TVE Internacional Asia-Oceania (576p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8"
+    ]
+  },
+  {
+    "id": "TVEInternacionalAsiaOceania.es@HD",
+    "name": "TVE Internacional Asia-Oceania HD (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_1080.m3u8"
+    ]
+  },
+  {
+    "id": "TVEInternacionalEurope.es@SD",
+    "name": "TVE Internacional Europe (576p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8",
+      "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0"
+    ]
+  },
+  {
+    "id": "TVEInternacionalEurope.es@HD",
+    "name": "TVE Internacional Europe HD (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_1080.m3u8"
+    ]
+  },
+  {
+    "id": "TVEStar.es@SD",
+    "name": "TVE Star (576p)",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8"
+    ]
+  },
+  {
+    "id": "TVEStar.es@HD",
+    "name": "TVE Star HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8",
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8",
+      "http://38.252.238.18:8000/play/a01h/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVG2.es@SD",
+    "name": "TVG2 (720p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://crtvg-tvg2.flumotion.cloud/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMCordoba.es@SD",
+    "name": "TVM Córdoba (1080p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://teledifusion.tv/cordoba/cordobalive/playlist.m3u8",
+      "https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVOJesus.es@SD",
+    "name": "TVO Jesus (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/TVOJESUS/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVOMIX.es@HD",
+    "name": "TVOMIX (1080p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.tvomix.com/TVOMIX/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVReus.es@SD",
+    "name": "TVReus (720p) [Not 24/7]",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8166/index.m3u8"
+    ]
+  },
+  {
+    "id": "UneVinalopo.es@SD",
+    "name": "Une Vinalopó (576p) [Not 24/7]",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamingtvi.gestec-video.com/hls/unesd.m3u8"
+    ]
+  },
+  {
+    "id": "UniversTV.es@SD",
+    "name": "Univers TV (720p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UrolaTelebista.es@SD",
+    "name": "Urola Telebista (416p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VallesVisio.es@SD",
+    "name": "Vallès Visió (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VentdelnordTV.es@SD",
+    "name": "Ventdelnord TV (404p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://ventdelnord.tv:8080/hls/directe.m3u8"
+    ]
+  },
+  {
+    "id": "Vision6TV.es@SD",
+    "name": "Vision 6 TV (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming.proceso.info:8888/vision6-web/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Vivamovil.es@SD",
+    "name": "Vivamóvil (720p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VOTV.es@SD",
+    "name": "VOTV (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "XPTV1.es@SD",
+    "name": "XPTV1 (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8"
+    ]
+  },
+  {
+    "id": "XPTV2.es@SD",
+    "name": "XPTV2 (720p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8"
+    ]
+  },
+  {
+    "id": "XPTVUS.es@SD",
+    "name": "XPTV US (720p)",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8"
+    ]
+  },
+  {
+    "id": "AXNCEE.es@Romania",
+    "name": "AXN CEE Romania",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8"
+    ]
+  },
+  {
+    "id": "Tac12.es@SD",
+    "name": "Tac12",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ingest1-video.streaming-pro.com/tac12_ABR/stream/tacdotze/srtweb_1080/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "SundanceTV.es@SD",
+    "name": "Sundance TV",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/zapitv/stream/SUNDANCE_TV/sundance_hd.mpd"
+    ]
+  },
+  {
+    "id": "CanalSur.es@SD",
+    "name": "Canal Sur",
+    "country": "ES",
+    "categories": [
+      "general",
+      "public"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd"
+    ]
+  },
+  {
+    "id": "Antena3Internacional.es@SD",
+    "name": "Antena 3 Internacional (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.252.238.18:8000/play/a04a/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXN.es@SD",
+    "name": "AXN (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.254.245.162/AXN/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNMovies.es@SD",
+    "name": "AXN Movies",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd"
+    ]
+  },
+  {
+    "id": "Antena3.es@National",
+    "name": "Antena 3",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd"
+    ]
+  },
+  {
+    "id": "CrimenHistoria.es@SD",
+    "name": "Crimen & Historia (720p)",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-64ddcbb14c5ed80008fad416.m3u8"
+    ]
+  },
+  {
+    "id": "ElMueble.es@SD",
+    "name": "El Mueble (720p)",
+    "country": "ES",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-690dd10a37b131228d76d5b1.m3u8"
+    ]
+  },
+  {
+    "id": "HistoriaYVida.es@SD",
+    "name": "Historia y Vida (720p)",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-67517f923a61d40008c451f0.m3u8"
+    ]
+  },
+  {
+    "id": "MyTimeMovieNetwork.es@SD",
+    "name": "MyTime movie network Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVActionMovies.es@Spain",
+    "name": "Rakuten TV Action Movies Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@Spain",
+    "name": "Rakuten TV Comedy Movies Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@Spain",
+    "name": "Rakuten TV Drama Movies Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Spain",
+    "name": "Rakuten TV Family Movies Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVTopMovies.es@Spain",
+    "name": "Rakuten TV Top Movies Spain (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8"
+    ]
+  },
+  {
+    "id": "CineFriki.es@SD",
+    "name": "Zylo Cine Friki (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
+      "https://zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CineWestern.es@SD",
+    "name": "Zylo Cine Western (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8",
+      "https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8"
+    ]
+  },
+  {
+    "id": "TodoNovelas.es@SD",
+    "name": "Zylo Todo Novelas (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8",
+      "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVActionMovies.es@Finland",
+    "name": "Rakuten TV Action Movies Finland (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@Finland",
+    "name": "Rakuten TV Comedy Movies Finland (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@Finland",
+    "name": "Rakuten TV Drama Movies Finland (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Finland",
+    "name": "Rakuten TV Family Movies Finland (1080p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVNordicFilms.es@Finland",
+    "name": "Rakuten TV Nordic Films (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVTopMovies.es@Finland",
+    "name": "Rakuten TV Top Movies Finland (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8"
+    ]
+  },
+  {
+    "id": "VoyagesSaveurs.es@FR",
+    "name": "Voyages & Saveurs (720p)",
+    "country": "ES",
+    "categories": [
+      "travel",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8"
+    ]
+  },
+  {
+    "id": "StorieCriminali.es@IT",
+    "name": "Storie Criminali",
+    "country": "ES",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-66177d18c8311c0008d077d0.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVActionMovies.es@Italy",
+    "name": "Rakuten TV Action Movies Italy (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@Italy",
+    "name": "Rakuten TV Comedy Movies Italy (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@Italy",
+    "name": "Rakuten TV Drama Movies Italy (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@Italy",
+    "name": "Rakuten TV Family Movies Italy (1080p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVTopMovies.es@Italy",
+    "name": "Rakuten TV Top Movies Italy (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8"
+    ]
+  },
+  {
+    "id": "LiraTV.es@SD",
+    "name": "LiraTV (720p)",
+    "country": "ES",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ROTVValencia.es@SD",
+    "name": "ROTV Valencia (720p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8"
+    ]
+  },
+  {
+    "id": "TVBRICSSpanish.es@HD",
+    "name": "TV BRICS Spanish (1080p)",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Trailers.es@UK",
+    "name": "Trailers (1080p)",
+    "country": "ES",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVTopMovies.es@UK",
+    "name": "Rakuten Top Movies UK (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVActionMovies.es@UK",
+    "name": "Rakuten TV Action Movies UK (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVComedyMovies.es@UK",
+    "name": "Rakuten TV Comedy Movies UK (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVDramaMovies.es@UK",
+    "name": "Rakuten TV Drama Movies UK (1080p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8"
+    ]
+  },
+  {
+    "id": "RakutenTVFamilyMovies.es@UK",
+    "name": "Rakuten TV Family Movies UK (1080p)",
+    "country": "ES",
+    "categories": [
+      "family",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8"
+    ]
+  },
+  {
+    "id": "Historia.es@SD",
+    "name": "Historia (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8"
+    ]
+  },
+  {
+    "id": "EWTNEspana.es@SD",
+    "name": "EWTN Espana",
+    "country": "ES",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/q6xkg9py/480/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "HamaikaTelebista.es@SD",
+    "name": "Hamaika Telebista (1080p)",
+    "country": "ES",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8"
+    ]
+  }
+]

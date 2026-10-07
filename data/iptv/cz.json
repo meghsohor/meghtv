@@ -1,0 +1,833 @@
+[
+  {
+    "id": "BarrandovKrimi.cz@SD",
+    "name": "Barrandov Krimi (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CNNPrimaNews.cz@SD",
+    "name": "CNN Prima News (1080p)",
+    "country": "CZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_cnn_pirma_news/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CT1.cz@SD",
+    "name": "ČT 1",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_ct1_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CT2.cz@SD",
+    "name": "ČT 2",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_ct2_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CT24.cz@SD",
+    "name": "ČT24 (1080p)",
+    "country": "CZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8",
+      "https://dash2.antik.sk/live/ct24_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CTSport.cz@SD",
+    "name": "ČT Sport (720p)",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CTDecko.cz@SD",
+    "name": "ČT:D/ČT art (1080p)",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CurrentTimeTV.cz@SD",
+    "name": "Current Time TV (576p)",
+    "country": "CZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/384/index.m3u8",
+      "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
+      "https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.cz@SD",
+    "name": "Disney Channel",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_disney/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ElektrikaTV.cz@SD",
+    "name": "Elektrika TV (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FilmPlus.cz@SD",
+    "name": "Film+",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_film_plus_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GolfChannel.cz@SD",
+    "name": "Golf Channel",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "History.cz@SD",
+    "name": "History",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_history/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "History2.cz@SD",
+    "name": "History2",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_h2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JC1.cz@SD",
+    "name": "JČ1 (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.jc1.cz/hls/jc1.m3u8"
+    ]
+  },
+  {
+    "id": "Jihoceskatelevize.cz@SD",
+    "name": "Jihočeská televize (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vysilani.zaktv.cz/broadcast/hls/jtv/index.m3u8"
+    ]
+  },
+  {
+    "id": "KinoBarrandov.cz@SD",
+    "name": "Kino Barrandov",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_kino_barrandov_sd_hevc50/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MinimaxCEE.cz@SD",
+    "name": "Minimax (576p) (576p)",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_minimax/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MnauTV.cz@SD",
+    "name": "Mňau TV (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MusicBoxClassic.cz@SD",
+    "name": "Music Box Classic",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mb_classic/index.m3u8"
+    ]
+  },
+  {
+    "id": "MusicBoxDance.cz@SD",
+    "name": "Music Box Dance",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mb_dance/index.m3u8"
+    ]
+  },
+  {
+    "id": "MusicBoxHits.cz@SD",
+    "name": "Music Box Hits",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mb_hits/index.m3u8"
+    ]
+  },
+  {
+    "id": "MusicBoxSexy.cz@SD",
+    "name": "Music Box Sexy",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mb_sexy/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.cz@SD",
+    "name": "Nickelodeon",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nicktoons.cz@SD",
+    "name": "Nicktoons",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_nicktoons/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Ocko.cz@SD",
+    "name": "Óčko (540p)",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8",
+      "https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OckoBlack.cz@SD",
+    "name": "Ocko Black",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash2.antik.sk/live/test_ocko_black/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OckoExpres.cz@SD",
+    "name": "Óčko Expres (540p)",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OckoGold.cz@SD",
+    "name": "Óčko Gold (540p) [Geo-blocked]",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ocko-live.ssl.cdn.cra.cz/cra_live2/ocko_gold.stream.1.smil/playlist.m3u8",
+      "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OckoStar.cz@SD",
+    "name": "Ocko Star",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_ocko_star/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PlzenTV.cz@SD",
+    "name": "Plzeň TV (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolarTV.cz@SD",
+    "name": "Polar TV (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.polar.cz/polar/polarlive-1/playlist.m3u8",
+      "https://dash4.antik.sk/live/test_polar_tv_atktv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Prima.cz@SD",
+    "name": "Prima (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/prima_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaCool.cz@SD",
+    "name": "Prima Cool",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/prima_cool_cz_avc/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaLove.cz@SD",
+    "name": "Prima Love",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/prima_love_cz_avc/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaShow.cz@SD",
+    "name": "Prima Show (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_prima_show_hevc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaStar.cz@SD",
+    "name": "Prima Star (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_prima_star_hevc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaZoom.cz@SD",
+    "name": "Prima Zoom (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/prima_zoom_avc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RetroMusicTV.cz@SD",
+    "name": "Retro Music Television (360p)",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
+      "http://89.185.253.55/retrotv/retrotvHQ1/playlist.m3u8",
+      "https://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTMPlus.cz@SD",
+    "name": "RTM Plus (720p) [Not 24/7]",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://www.rtmplus.cz/live/1-playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SlagerMuzika.cz@SD",
+    "name": "Slager Muzika",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream-23.mazana.tv/slagrmuzika.m3u8s"
+    ]
+  },
+  {
+    "id": "SlagerOriginal.cz@SD",
+    "name": "Slager Original",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream-13.mazana.tv/slagroriginal.m3u8s"
+    ]
+  },
+  {
+    "id": "Spektrum.cz@SD",
+    "name": "Spektrum",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_spektrum/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SpektrumHome.cz@SD",
+    "name": "Spektrum Home",
+    "country": "CZ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_home_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Sport1.cz@SD",
+    "name": "Sport1",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_sport1_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Sport2.cz@SD",
+    "name": "Sport2",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_sport_2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SportyTV.cz@SD",
+    "name": "Sporty TV",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash2.antik.sk/live/sporty_tv/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelevizePrerov.cz@SD",
+    "name": "Televize Prerov (1080p) [Geo-blocked]",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://173.212.247.21/live/tvprerov.m3u8"
+    ]
+  },
+  {
+    "id": "TelevizeSeznam.cz@SD",
+    "name": "Televize Seznam (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_seznam_hevc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVBarrandov.cz@SD",
+    "name": "TV Barrandov",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_barrandov/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVBrno1.cz@SD",
+    "name": "TV Brno 1 (1080p)",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVNoe.cz@SD",
+    "name": "TV Noe (720p) [Geo-blocked]",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://n105.quickmedia.tv/noetv/live/noetv/Ifd4_1_4/chunks_dvr_timeshift-0-7200.m3u8"
+    ]
+  },
+  {
+    "id": "TVNoePlus.cz@SD",
+    "name": "TV Noe+ (720p) [Geo-blocked]",
+    "country": "CZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://n105.quickmedia.tv/noetvplus/live/noetvplus/Shz3_1_1/chunks_dvr_timeshift-0-7200.m3u8"
+    ]
+  },
+  {
+    "id": "UpNetwork.cz@SD",
+    "name": "Up Network",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dash.antik.sk/live/test_upnetwork/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UTV.cz@SD",
+    "name": "ÚTV (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatExplore.cz@SD",
+    "name": "Viasat Explore",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.29/live/test_viasat_explore_atk_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatHistory.cz@SD",
+    "name": "Viasat History",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.29/live/test_viasat_history_atk_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatNature.cz@SD",
+    "name": "Viasat Nature",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.29/live/test_viasat_nature_atk_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VychodoceskaTV.cz@SD",
+    "name": "Východočeská TV (1080p)",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVPaprika.cz@SD",
+    "name": "TV Paprika",
+    "country": "CZ",
+    "categories": [
+      "lifestyle",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_parpika_tv_sd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJunior.cz@SD",
+    "name": "Disney Junior",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_disney_junior/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.cz@SD",
+    "name": "National Geographic",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_ngc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographicWild.cz@SD",
+    "name": "National Geographic Wild",
+    "country": "CZ",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.29/live/test_ngw/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.cz@SD",
+    "name": "Nick Jr.",
+    "country": "CZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_nick_jr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DVTVExtra.cz@SD",
+    "name": "DVTV Extra",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://antik.streaming.tivio.studio/channels/IxLi19VRasgu94bIaXbH/index.m3u8"
+    ]
+  },
+  {
+    "id": "KVIFFTV.cz@SD",
+    "name": "KVIFF TV",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://antik.streaming.tivio.studio/channels/HC7JIqyyvQMl0mnqbbnI/index.m3u8"
+    ]
+  },
+  {
+    "id": "Ballcasterz.cz@SD",
+    "name": "Ballcasterz",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://antik.streaming.tivio.studio/channels/yXDwkH0CbFfkhU7ZnHlT/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaMax.cz@SD",
+    "name": "Prima Max",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_prima_max_cz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaKrimi.cz@SD",
+    "name": "Prima Krimi",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_prima_krimi_cz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport4KCzechia.cz@UHD",
+    "name": "Eurosport 4K Czechia",
+    "country": "CZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/esp_4k_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MusicBox80s.cz@SD",
+    "name": "Music Box 80s (1080p)",
+    "country": "CZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/229/index.m3u8"
+    ]
+  },
+  {
+    "id": "YachtingTV.cz@SD",
+    "name": "Yachting TV (1080p)",
+    "country": "CZ",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streams2.sofast.tv/vglive-sk-461164/index.m3u8"
+    ]
+  }
+]

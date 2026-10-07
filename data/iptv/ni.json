@@ -1,0 +1,232 @@
+[
+  {
+    "id": "Canal6.ni@SD",
+    "name": "Canal 6 Nicaragüense (480p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://138.117.4.70:8075/Canal06_CooTel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Canal7Boaco.ni@SD",
+    "name": "Canal 7 Boaco (1080p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.amixtv.com/c7boaco/index.m3u8"
+    ]
+  },
+  {
+    "id": "Canal10.ni@SD",
+    "name": "Canal 10 (360p) [Geo-blocked]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.canal10.com.ni/envivo"
+    ]
+  },
+  {
+    "id": "Canal15.ni@SD",
+    "name": "Canal 15 Nicaragüense (1080p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalCvision.ni@SD",
+    "name": "Canal Cvisión (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.cvision.live/cvision_stream.m3u8"
+    ]
+  },
+  {
+    "id": "CDNN23.ni@SD",
+    "name": "CDNN 23 (1080p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cootv.cootel.com.ni:8095/Canal23_CooTel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EscuchameRadioTV.ni@SD",
+    "name": "Escúchame Radio TV (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.transmissaodigital.com/pedro9800/pedro9800/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JBN.ni@SD",
+    "name": "JBN Canal 39 (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hdbox.chunklistv.com/live?stream=jbn39"
+    ]
+  },
+  {
+    "id": "MegaBox.ni@SD",
+    "name": "MegaBox (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hdbox.chunklistv.com/live?stream=megabox"
+    ]
+  },
+  {
+    "id": "MTVChontales.ni@SD",
+    "name": "MTV Chontales (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://altair.hostingnica.net/hls/mtv_stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "OlamMetroTV.ni@SD",
+    "name": "Olam Metro TV (720p)",
+    "country": "NI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://netzerstreaming.com:4433/hls/olammetro/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioVisiondeDiosStereo.ni@SD",
+    "name": "Radio Visión de Dios Stereo (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tvcontrolcp.com:1936/8286/8286/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TN8.ni@SD",
+    "name": "TN8 (1080p)",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamingcws30.com/tn8/videotn8/playlist.m3u8",
+      "http://190.61.101.11:7050/play/a07j/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV45.ni@SD",
+    "name": "TV45-3ABN Nicaragua (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hdbox.chunklistv.com/live?stream=3abn-nicaragua"
+    ]
+  },
+  {
+    "id": "TVONENicaragua.ni@SD",
+    "name": "TVONE Nicaragua (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hdbox.chunklistv.com/live?stream=tvone"
+    ]
+  },
+  {
+    "id": "VivaNicaraguaCanal13.ni@SD",
+    "name": "Viva Nicaragua Canal 13 (720p)",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.vivamediosni.com/viva_720p/index.m3u8"
+    ]
+  },
+  {
+    "id": "VivaTV.ni@SD",
+    "name": "Viva TV Canal 30 San Juan de Río Coco [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.amixtv.com/vivatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "VosTV.ni@SD",
+    "name": "Vos TV (720p) [Not 24/7]",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WTVCanal20.ni@SD",
+    "name": "WTV Canal 20 (1080p)",
+    "country": "NI",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8",
+      "https://cloudvideo.servers10.com:8081/8130/index.m3u8"
+    ]
+  }
+]

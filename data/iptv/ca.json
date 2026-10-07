@@ -1,0 +1,2006 @@
+[
+  {
+    "id": "HauntTV.ca@SD",
+    "name": "Haunt TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8",
+      "https://blueantmediacanada-haunttv-samsungca.amagi.tv/playlist.m3u8",
+      "https://amg01446-blueantmediacan-haunttvaus-samsungnz-xo5xf.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaus-samsungnz/playlist.m3u8",
+      "https://jmp2.uk/plu-6319f06067a3ee000708af95.m3u8",
+      "https://bamcahaunttvrakuten.amagi.tv/playlist.m3u8",
+      "https://d1ak5jijks54h1.cloudfront.net/Haunt_TV.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/69da419c-6bb2-473f-98c3-246153fc909b/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Homeful.ca@US",
+    "name": "Homeful (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://amg00090-blueantcanada-amg00090c4-samsung-au-819.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungau/playlist.m3u8",
+      "https://jmp2.uk/plu-67603668f433320008760af1.m3u8",
+      "https://jmp2.uk/plu-62e92967cd663f0007e604fd.m3u8",
+      "https://jmp2.uk/plu-65786abdb3801200084c593a.m3u8",
+      "https://jmp2.uk/plu-64fb1f6e6625510008c00848.m3u8",
+      "https://amg00090-blueantcanada-amg00090c4-samsung-nz-820.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungnz/playlist.m3u8",
+      "https://jmp2.uk/plu-66df8aa7abec540008ca8cb6.m3u8",
+      "https://dn8a6xbnfncub.cloudfront.net/Homeful_US.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/9f31e187-3d43-4ed0-81ba-63bd3bc560aa/playlist.m3u8",
+      "https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@AU",
+    "name": "NatureTime (1080p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8",
+      "https://amg00090-blueantllc-lovenatureau-samsungnz-r3iaz.amagi.tv/playlist/amg00090-blueantllc-lovenatureau-samsungnz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AzStarTV.ca@SD",
+    "name": "Azstar TV HD (1080p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8",
+      "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8",
+      "https://live.livestreamtv.ca/azstar/ngrp:azstar/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DeshiTV.ca@SD",
+    "name": "Deshi TV (720p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@SD",
+    "name": "NatureTime (720p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-681ba2ad93d3d19bcab47433.m3u8",
+      "https://bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8",
+      "https://amg00090-blueantmedia-naturetime-samsungse-axgcn.amagi.tv/playlist/amg00090-blueantmedia-naturetime-samsungse/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5AABTV.ca@SD",
+    "name": "5AAB TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AfghanNobelMovies.ca@SD",
+    "name": "Afghan Nobel Movies (720p)",
+    "country": "CA",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AfghanNobelTV.ca@SD",
+    "name": "Afghan Nobel TV (720p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AmazingDiscoveriesTV.ca@SD",
+    "name": "Amazing Discoveries TV (720p)",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8",
+      "https://rpn.bozztv.com/gfaith/gfaith-amazing/index.m3u8"
+    ]
+  },
+  {
+    "id": "AzanTV.ca@SD",
+    "name": "Azan TV",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8"
+    ]
+  },
+  {
+    "id": "BNNBloomberg.ca@SD",
+    "name": "BNN Bloomberg",
+    "country": "CA",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd"
+    ]
+  },
+  {
+    "id": "CMalayalamTV.ca@SD",
+    "name": "C Malayalam TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanadaOne.ca@SD",
+    "name": "Canada One (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Savoirmedia.ca@CFTUDT",
+    "name": "Canal Savoir (360p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hls.savoir.media/live/stream.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBRTDT",
+    "name": "CBC Calgary (CBRT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042763/CBCRCLINEAR_TOR_9/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBXTDT",
+    "name": "CBC Edmonton (CBXT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042765/CBCRCLINEAR_TOR_11/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBWTDT",
+    "name": "CBC Manitoba (CBWT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042767/CBCRCLINEAR_TOR_13/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBMTDT",
+    "name": "CBC Montréal (CBMT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042761/CBCRCLINEAR_TOR_7/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBATDT",
+    "name": "CBC New Brunswick (CBAT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042757/CBCRCLINEAR_TOR_3/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBNTDT",
+    "name": "CBC Newfoundland and Labrador (CBNT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042755/CBCRCLINEAR_TOR_1/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCNewsNetwork.ca@SD",
+    "name": "CBC News Network (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042769/geo_allow_ca/CBCRCLINEAR_TOR_15/master5.m3u8",
+      "https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8",
+      "https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CFYKDT",
+    "name": "CBC North (CFYK-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042766/CBCRCLINEAR_TOR_12/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBHTDT",
+    "name": "CBC Nova Scotia (CBHT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042758/CBCRCLINEAR_TOR_4/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBOTDT",
+    "name": "CBC Ottawa (CBOT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042762/CBCRCLINEAR_TOR_8/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBCTDT",
+    "name": "CBC Prince Edward Island (CBCT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042756/CBCRCLINEAR_TOR_2/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBKTDT",
+    "name": "CBC Saskatchewan (CBKT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042764/CBCRCLINEAR_TOR_10/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBLTDT",
+    "name": "CBC Toronto (CBLT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBUTDT",
+    "name": "CBC Vancouver (CBUT-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042768/CBCRCLINEAR_TOR_14/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CBCTelevision.ca@CBETDT",
+    "name": "CBC Windsor (CBET-DT) (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8"
+    ]
+  },
+  {
+    "id": "CTV.ca@CFTODT",
+    "name": "CFTO-DT (720p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://stream.cammonitorplus.net/1712/index.m3u8"
+    ]
+  },
+  {
+    "id": "CHCHDT.ca@SD",
+    "name": "CHCH-DT (720p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.246.209.113/CHCHHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "CHCOTV.ca@SD",
+    "name": "CHCO-TV (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://temp4.isilive.ca/live/CHCOTV/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "CityNewsCalgary.ca@SD",
+    "name": "CityNews Calgary (720p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8"
+    ]
+  },
+  {
+    "id": "CityNewsEdmonton.ca@SD",
+    "name": "CityNews Edmonton",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8"
+    ]
+  },
+  {
+    "id": "CityNewsToronto.ca@SD",
+    "name": "CityNews Toronto (720p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8"
+    ]
+  },
+  {
+    "id": "CityNewsVancouver.ca@SD",
+    "name": "CityNews Vancouver (720p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8"
+    ]
+  },
+  {
+    "id": "CottageLife.ca@SD",
+    "name": "Cottage Life (720p)",
+    "country": "CA",
+    "categories": [
+      "outdoor",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.246.209.113/CottageLife/index.m3u8"
+    ]
+  },
+  {
+    "id": "CP24.ca@SD",
+    "name": "CP24 (576p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvsen6.aynaott.com/cp24/index.m3u8",
+      "http://107.167.16.138/cp24/index.m3u8?token=test"
+    ]
+  },
+  {
+    "id": "CPACEnglish.ca@SD",
+    "name": "CPAC (720p)",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8"
+    ]
+  },
+  {
+    "id": "CTV2Atlantic.ca@SD",
+    "name": "CTV 2 Atlantic (720p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.cammonitorplus.net/1731/index.m3u8"
+    ]
+  },
+  {
+    "id": "CTVLifeChannel.ca@SD",
+    "name": "CTV Life Channel (720p)",
+    "country": "CA",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.246.209.113/ANIMALPLANETHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "DesheBidesheTV.ca@SD",
+    "name": "DesheBideshe TV",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8"
+    ]
+  },
+  {
+    "id": "DoyelTV.ca@SD",
+    "name": "Doyel TV",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://3d46w.doyeltv.com/memfs/aa3aa6f7-ec12-41a2-8183-a891e157bbf8.m3u8"
+    ]
+  },
+  {
+    "id": "DukhNivaran.ca@SD",
+    "name": "Dukh Nivaran (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn12.henico.net:8080/live/dncal/index.m3u8"
+    ]
+  },
+  {
+    "id": "EawazTV.ca@SD",
+    "name": "Eawaz TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EETTV.ca@SD",
+    "name": "EET TV (1080p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu.streamjo.com/eetlive/eettv.m3u8"
+    ]
+  },
+  {
+    "id": "ErfanHalghehTV.ca@SD",
+    "name": "Erfan Halgheh TV (720p)",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.erfanhalgheh.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "FightNetwork.ca@SD",
+    "name": "Fight Network (1080p)",
+    "country": "CA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8",
+      "https://amg00966-amg00966c10-amgplt0081.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0081/playlist.m3u8",
+      "https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GaundaPunjabTV.ca@SD",
+    "name": "Gaunda Punjab TV (720p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GTNCanada.ca@SD",
+    "name": "GTN Canada (1080i) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "GurSikhSabhaTV.ca@SD",
+    "name": "GurSikh Sabha TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn12.henico.net:8080/live/gsctv/index.m3u8"
+    ]
+  },
+  {
+    "id": "GustoTV.ca@SD",
+    "name": "Gusto TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8",
+      "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8",
+      "https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8",
+      "https://d31d5kw64c7b6i.cloudfront.net/v1/gustotv_samsung/samsungheadend_us/latest/main/hls/playlist.m3u8",
+      "https://gusto-xumo.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HyderTV.ca@SD",
+    "name": "Hyder TV (720p)",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.live247stream.com/hyder/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CFHDDT",
+    "name": "ICI Montreal (720p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBFTDT",
+    "name": "Ici Radio-Canada Télé (1080p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBXFTDT",
+    "name": "Ici Radio-Canada Télé Alberta (CBXFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704020/cancbxft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBUFTDT",
+    "name": "Ici Radio-Canada Télé Colombie-Britannique/Yukon (CBUFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704017/cancbuft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CJBRDT",
+    "name": "Ici Radio-Canada Télé Est du Québec (CJBR-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704024/cancjbr/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CKSHDT",
+    "name": "Ici Radio-Canada Télé Estrie (CKSH-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704016/cancksh/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBWFTDT",
+    "name": "Ici Radio-Canada Télé Manitoba (CBWFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704018/cancbwft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CKTMDT",
+    "name": "Ici Radio-Canada Télé Mauricie/Centre-du-Québec (CKTM-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBLFTDT",
+    "name": "Ici Radio-Canada Télé Ontario (CBLFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704022/cancblft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBOFTDT",
+    "name": "Ici Radio-Canada Télé Ottawa/Gatineau (CBOFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/664046/cancboft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBVTDT",
+    "name": "Ici Radio-Canada Télé Québec (CBVT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/664045/cancbvt/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CKTVDT",
+    "name": "Ici Radio-Canada Télé Saguenay/Lac-St-Jean (CKTV-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBKFTDT",
+    "name": "Ici Radio-Canada Télé Saskatchewan (CBKFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704019/cancbkft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRadioCanadaTele.ca@CBAFTDT",
+    "name": "Ici Radio-Canada Télé Terre-Neuve-et-Labrador (CBAFT-DT) [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704014/cancbaft/master.m3u8"
+    ]
+  },
+  {
+    "id": "IciRDI.ca@SD",
+    "name": "ICI RDI (720p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8"
+    ]
+  },
+  {
+    "id": "IIPCTV.ca@SD",
+    "name": "IIPC TV (720p)",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rpn.bozztv.com/dvrfl03/iipctv/index.m3u8",
+      "https://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KnowledgeNetwork.ca@SD",
+    "name": "Knowledge Network (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "education",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8"
+    ]
+  },
+  {
+    "id": "LCN.ca@SD",
+    "name": "LCN [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8"
+    ]
+  },
+  {
+    "id": "LegislativeAssemblyofOntario.ca@SD",
+    "name": "Legislative Assembly of Ontario",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8",
+      "https://temp2.isilive.ca/live/_definst_/ontla/house-en-cc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LegislativeAssemblyTVNunavut.ca@SD",
+    "name": "Legislative Assembly TV Nunavut",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8"
+    ]
+  },
+  {
+    "id": "MontrealGreekTV.ca@SD",
+    "name": "Montreal Greek TV (480p)",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.greektv.ca/hls1/greektv.m3u8"
+    ]
+  },
+  {
+    "id": "NACTV.ca@SD",
+    "name": "NACTV",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8"
+    ]
+  },
+  {
+    "id": "NTV.ca@CJONDT",
+    "name": "Newfoundland Television (480p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CKNOFM.ca@SD",
+    "name": "Now TV 102.3FM Edmonton (CKNO-FM) (616p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.jpbgdigital.com/NOWTV.m3u8"
+    ]
+  },
+  {
+    "id": "NTVPlus.ca@SD",
+    "name": "NTV+",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "OntarioParliamentaryNetwork.ca@SD",
+    "name": "Ontario Parliamentary Network (720p)",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8",
+      "https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PamirTV.ca@SD",
+    "name": "Pamir TV (1080p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "culture",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8"
+    ]
+  },
+  {
+    "id": "PardesiTV.ca@SD",
+    "name": "Pardesi TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.pardesitv.online/pardesi/index.m3u8",
+      "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimeAsiaTV.ca@SD",
+    "name": "Prime Asia TV (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://primeasia.selfip.net/Samsung/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimeCanadaTV.ca@SD",
+    "name": "Prime Canada TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ProbashiTVNews.ca@SD",
+    "name": "Probashi TV News (1080p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.69.24.53:8080/probashi_tv/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTCPunjabiCanada.ca@SD",
+    "name": "PTC Punjabi Canada (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/ptccanada/index.m3u8"
+    ]
+  },
+  {
+    "id": "QuoVadisTV.ca@SD",
+    "name": "Quo Vadis TV (720p)",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tgn.bozztv.com/qvtv/qvtv-web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTeleEvangileSansLimite.ca@SD",
+    "name": "Radio Tele Evangile Sans Limite",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "SardariTV.ca@SD",
+    "name": "Sardari TV (1080p) [Not 24/7]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SikhSpiritualCentreRexdale.ca@SD",
+    "name": "Sikh Spiritual Centre Rexdale (720p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn12.henico.net:8443/live/ssct/index.m3u8"
+    ]
+  },
+  {
+    "id": "SohailTV.ca@SD",
+    "name": "Sohail TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.sohailtv.com/sohail/playlist/index.m3u8"
+    ]
+  },
+  {
+    "id": "SooriyanTV.ca@SD",
+    "name": "Sooriyan TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayiConcerts.ca@HD",
+    "name": "Stingray iConcerts HD",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/iConcertsHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayRememberthe80s.ca@SD",
+    "name": "Stingray Remember the 80s",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8"
+    ]
+  },
+  {
+    "id": "TPlusE.ca@SD",
+    "name": "T+E (720p)",
+    "country": "CA",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.246.209.113/T+E/index.m3u8"
+    ]
+  },
+  {
+    "id": "TAGTV.ca@SD",
+    "name": "TAG TV (1080p) [Not 24/7]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://cdn11.live247stream.com/tag/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TamilVisionTV.ca@SD",
+    "name": "TamilVision-TV (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.cmr24.fm/TVI/HD/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "TSC.ca@SD",
+    "name": "Today's Shopping Choice (TSC) (720p)",
+    "country": "CA",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8",
+      "https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8"
+    ]
+  },
+  {
+    "id": "Toronto360TV.ca@SD",
+    "name": "Toronto 360 TV (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://cdn3.toronto360.tv:8081/toronto360/hd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TSNTheOcho.ca@SD",
+    "name": "TSN The Ocho (1080p)",
+    "country": "CA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8"
+    ]
+  },
+  {
+    "id": "TV5QuebecCanada.ca@SD",
+    "name": "TV5 Quebec Canada (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.133.220.149/TV5/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV5Unis.ca@HD",
+    "name": "TV5 Unis",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.133.220.149/Unis_TV/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV16Toronto.ca@SD",
+    "name": "TV 16 Toronto (720p) [Not 24/7]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rtmp.smartstream.video:1935/capco/tv29/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVA.ca@CFTMDT",
+    "name": "TVA [Geo-blocked]",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVOKids.ca@SD",
+    "name": "TVOKids (720p)",
+    "country": "CA",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8",
+      "https://bcovlive-a.akamaihd.net/rf86f817779524249abf842af6d16f55f/us-east-1/15364602001/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UvagutTV.ca@SD",
+    "name": "Uvagut TV (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hls.uvagut.tv/hls/uvagut/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveNature.ca@HD",
+    "name": "Love Nature HD (1080p)",
+    "country": "CA",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayTikTokRadio.ca@HD",
+    "name": "Stingray TikTok Radio (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594"
+    ]
+  },
+  {
+    "id": "NewChannelPop.ca@SD",
+    "name": "New Channel Pop! (480p)",
+    "country": "CA",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8"
+    ]
+  },
+  {
+    "id": "NewChannel.ca@SD",
+    "name": "New Channel (480p)",
+    "country": "CA",
+    "categories": [
+      "music",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8"
+    ]
+  },
+  {
+    "id": "HauntTV.ca@CA",
+    "name": "HauntTV CA (720p)",
+    "country": "CA",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63934c218ef524000757b122.m3u8"
+    ]
+  },
+  {
+    "id": "TheWeatherNetwork.ca@SD",
+    "name": "The Weather Network (720p)",
+    "country": "CA",
+    "categories": [
+      "weather"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-63da370e2e477400081cf8b6.m3u8"
+    ]
+  },
+  {
+    "id": "MHZ.ca@SD",
+    "name": "MHZ",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QelloConcertsbyStingray.ca@SD",
+    "name": "Qello Concerts by Stingray (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayCityscapes.ca@HD",
+    "name": "Stingray Cityscapes (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-origin/out/v1/live.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayClassicRock.ca@SD",
+    "name": "Stingray Classic Rock (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayClassica.ca@SD",
+    "name": "Stingray Classica (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h229/index2.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayCozyCafe.ca@HD",
+    "name": "Stingray Cozy Cafe (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayDJAZZ.ca@SD",
+    "name": "Stingray DJAZZ (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8",
+      "https://jmp2.uk/plu-696689d13b9ce349c9be3a18.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayEasyListening.ca@SD",
+    "name": "Stingray Easy Listening (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayFlashback70s.ca@SD",
+    "name": "Stingray Flashback 70s (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayHitList.ca@SD",
+    "name": "Stingray Hit List (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayHolidayHits.ca@SD",
+    "name": "Stingray Holiday Hits (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayHolidayscapes.ca@HD",
+    "name": "Stingray Holidayscapes (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d10cyxntpn0bwm.cloudfront.net/master.m3u8",
+      "https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8",
+      "https://plextv.ott-channels.stingray.com/holidayscapes/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayHotCountry.ca@SD",
+    "name": "Stingray Hot Country (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayJukeboxOldies.ca@SD",
+    "name": "Stingray Jukebox Oldies (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayKaraoke.ca@SD",
+    "name": "Stingray Karaoke (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "MovieMusicbyStingray.ca@HD",
+    "name": "Stingray Movie Music (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayNaturescape.ca@SD",
+    "name": "Stingray Naturescape (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8",
+      "https://jmp2.uk/plu-5812bd9f249444e05d09cc4e.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayNothinBut90s.ca@SD",
+    "name": "Stingray Nothin' But 90s (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayPopAdult.ca@SD",
+    "name": "Stingray Pop Adult (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayEverything80s.ca@SD",
+    "name": "Stingray Remember the 80s (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayRockAlternative.ca@SD",
+    "name": "Stingray Rock Alternative (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayRomanceLatino.ca@SD",
+    "name": "Stingray Romance Latino (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingraySmoothJazz.ca@SD",
+    "name": "Stingray Smooth Jazz (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingraySoulStorm.ca@SD",
+    "name": "Stingray Soul Storm (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayTheSpa.ca@SD",
+    "name": "Stingray The Spa (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayTodaysKPop.ca@SD",
+    "name": "Stingray Today's KPOP (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "StingrayTodaysLatinPop.ca@SD",
+    "name": "Stingray Today's Latin Pop (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8"
+    ]
+  },
+  {
+    "id": "ZenLIFEbyStingray.ca@HD",
+    "name": "Stingray ZenLIFE (1080p)",
+    "country": "CA",
+    "categories": [
+      "relax"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lotus.stingray.com/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8",
+      "https://jmp2.uk/plu-696998dfa2b623e8b20125a3.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@ES",
+    "name": "NatureTime (1080p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://shls-live-ak.akamaized.net/out/v1/b06a89a463764d3688cda337d40dc5bf/index.m3u8",
+      "https://jmp2.uk/plu-60dd6b1da79e4d0007309455.m3u8",
+      "https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@France",
+    "name": "Nature Time (720p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-61fc0df14159c40007250432.m3u8",
+      "https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ApnaPunjabTV.ca@SD",
+    "name": "Apna Punjab TV (720p)",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HamdardTV.ca@SD",
+    "name": "Hamdard TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.hamdardtv.com/hamdard/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPunjab.ca@SD",
+    "name": "TV Punjab (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TheCowboyChannelCanada.ca@SD",
+    "name": "Cowboy Channel (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FEVATV.ca@SD",
+    "name": "FEVA TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d21x3vavxu7p2x.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8?ads.vf=nn5CUAdOxVu",
+      "https://d3c1w351ahk83d.cloudfront.net/scheduler/scheduleMaster/416.m3u8"
+    ]
+  },
+  {
+    "id": "HardKnocks.ca@SD",
+    "name": "Hard Knocks (1080p)",
+    "country": "CA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418",
+      "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-SportsTribal/121.m3u8",
+      "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-PLEX/121.m3u8"
+    ]
+  },
+  {
+    "id": "ICnet1.ca@SD",
+    "name": "icnet 1",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://icnet1hls.wns.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ICnet2.ca@SD",
+    "name": "icnet 2",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://icnet2hls.wns.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "icnet3.ca@SD",
+    "name": "icnet 3",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ic3hls.wns.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@LATAM",
+    "name": "NatureTime (684p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/plu-681ba2729624e6275efe0044.m3u8"
+    ]
+  },
+  {
+    "id": "GustoTV.ca@Poland",
+    "name": "Gusto TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://563f72af.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0d1c3RvVFZfSExT/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QelloConcertsbyStingray.ca@Poland",
+    "name": "Qello Concerts by Stingray (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052"
+    ]
+  },
+  {
+    "id": "StingrayGreatestHits.ca@Poland",
+    "name": "Stingray Greatest Hits (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883053"
+    ]
+  },
+  {
+    "id": "StingrayHitList.ca@Poland",
+    "name": "Stingray Hitlist (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883054"
+    ]
+  },
+  {
+    "id": "StingrayNaturescape.ca@Poland",
+    "name": "Stingray Naturescape (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883056"
+    ]
+  },
+  {
+    "id": "StingrayRememberthe80s.ca@Poland",
+    "name": "Stingray Remember the 80s (1080p)",
+    "country": "CA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883071"
+    ]
+  },
+  {
+    "id": "LovePets.ca@US",
+    "name": "Love Pets (1080p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsungse/playlist.m3u8",
+      "https://rakutenaa-blueskyent-lovepetsemea-rakuten-ikc4q.amagi.tv/playlist/rakutenAA-blueskyent-lovepetsemea-rakuten/playlist.m3u8",
+      "https://amg01576-blueskyeenterta-lovepetsemea-samsunguk-32fso.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsunguk/playlist.m3u8",
+      "https://d31r8y66tn175.cloudfront.net/Love_Pets.m3u8"
+    ]
+  },
+  {
+    "id": "NatureTime.ca@UK",
+    "name": "NatureTime (1080p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01515-amg01515c43-samsung-gb-9038.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "3ABNCanada.ca@SD",
+    "name": "3ABN Canada (720p)",
+    "country": "CA",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8"
+    ]
+  },
+  {
+    "id": "GamePlus.ca@SD",
+    "name": "Game+ (720p)",
+    "country": "CA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveNature.ca@SD",
+    "name": "Love Nature (720p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bamus-klowdtv.amagi.tv/playlist.m3u8",
+      "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
+      "https://amg01515-amg01515c26-xumo-us-4765.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TLN.ca@KQSL",
+    "name": "KQSL Channel 8 (720p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://uni01rtmp.tulix.tv/kqsltv/kqsltv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KidoodleTV.ca@SD",
+    "name": "Kidoodle.TV (1080p)",
+    "country": "CA",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg07653-apmc-amg07653c9-samsung-us-8740.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoveNature.ca@4K",
+    "name": "Love Nature 4K (2160p) [Geo-blocked]",
+    "country": "CA",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8"
+    ]
+  },
+  {
+    "id": "WildTV.ca@SD",
+    "name": "Wild TV (1080p)",
+    "country": "CA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8"
+    ]
+  },
+  {
+    "id": "TotalCrime.ca@CA",
+    "name": "Total Crime (1080p)",
+    "country": "CA",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://aegis-cloudfront-1.tubi.video/b062c287-a170-47df-99e4-f5dcd441ee59/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LegislativeAssemblyofBritishColumbia.ca@SD",
+    "name": "Legislative Assembly of British Columbia",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LegislativeAssemblyofBritishColumbiaCommitteeA.ca@SD",
+    "name": "Legislative Assembly of British Columbia Committee A",
+    "country": "CA",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8"
+    ]
+  }
+]

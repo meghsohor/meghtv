@@ -1,0 +1,220 @@
+[
+  {
+    "id": "7Info.ci@SD",
+    "name": "7 Info",
+    "country": "CI",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8042/8042/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "A12TV.ci@SD",
+    "name": "A12 TV",
+    "country": "CI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "AfroMagicChannel.ci@SD",
+    "name": "Afro Magic Channel",
+    "country": "CI",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8306/8306/playlist.m3u8",
+      "https://video1.getstreamhosting.com:1936/8490/8490/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AfrocultureTV.ci@SD",
+    "name": "Afroculture TV",
+    "country": "CI",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8"
+    ]
+  },
+  {
+    "id": "BenieTV.ci@SD",
+    "name": "Benie TV (720p)",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.voozmedia.fun/benietv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ChampionTV.ci@SD",
+    "name": "Champion TV",
+    "country": "CI",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.berosat.live/hls/champion-tv/champion-tv.m3u8"
+    ]
+  },
+  {
+    "id": "EcclesiaTV.ci@SD",
+    "name": "Ecclesia TV",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8294/8294/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ExploitsTV.ci@SD",
+    "name": "Exploits TV",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.berosat.live/hls/exploits-tv/exploits-tv.m3u8"
+    ]
+  },
+  {
+    "id": "GuideLoveTV.ci@SD",
+    "name": "Guide Love TV (720p)",
+    "country": "CI",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8056/8056/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IvoireChannel.ci@SD",
+    "name": "Ivoire Channel (720p)",
+    "country": "CI",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8244/8244/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LMTVFrench.ci@SD",
+    "name": "LMTV French (720p) [Not 24/7]",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8282/8282/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MiracleTVPlus.ci@SD",
+    "name": "Miracle TV+ (720p)",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://strhlslb01.streamakaci.tv/str_mtv_mtv/str_mtv_multi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NovelaChannel.ci@SD",
+    "name": "Novela Channel (720p) [Not 24/7]",
+    "country": "CI",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8284/8284/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NTV.ci@SD",
+    "name": "Blacsktream tv (1080p) [Not 24/7]",
+    "country": "CI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RefletTV.ci@SD",
+    "name": "REFLET TV (1080p)",
+    "country": "CI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge-a3.evrideo.tv/8f37c9f0-fe22-44f4-b64a-76ad11730daf_1000026630_HLS/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "RTI1.ci@SD",
+    "name": "RTI 1 (1080p)",
+    "country": "CI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8336/8336/playlist.m3u8",
+      "http://69.64.57.208:8080/rti1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTVC.ci@SD",
+    "name": "RTVC (720p)",
+    "country": "CI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8"
+    ]
+  },
+  {
+    "id": "SerieMax.ci@SD",
+    "name": "Serie Max",
+    "country": "CI",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.getstreamhosting.com:1936/8330/8330/playlist.m3u8"
+    ]
+  }
+]

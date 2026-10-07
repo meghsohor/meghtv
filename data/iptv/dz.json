@@ -1,0 +1,87 @@
+[
+  {
+    "id": "AL24News.dz@SD",
+    "name": "AL24 News",
+    "country": "DZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "AmouYazidTV.dz@SD",
+    "name": "Amou Yazid TV (576p)",
+    "country": "DZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CNA.dz@SD",
+    "name": "CNA (360p) [Not 24/7]",
+    "country": "DZ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.creacast.com/cna/stream/playlist.m3u8",
+      "https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ElHeddafTV.dz@SD",
+    "name": "El-Heddaf TV (1080p)",
+    "country": "DZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.elheddaftv.com:8081/elheddaftv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElwataniaTV.dz@SD",
+    "name": "Elwatania TV (1080i)",
+    "country": "DZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8"
+    ]
+  },
+  {
+    "id": "TV2.dz@SD",
+    "name": "TV2 (1080p)",
+    "country": "DZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.9.2.18/chid_347/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV4.dz@SD",
+    "name": "TV4 (720p)",
+    "country": "DZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.228.35.249:8001/1:0:1:06A6:3138:13E:820000:0:0:0"
+    ]
+  }
+]

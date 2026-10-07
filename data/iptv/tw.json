@@ -1,0 +1,310 @@
+[
+  {
+    "id": "BeautifulLifeTV.tw@SD",
+    "name": "Beautiful Life TV",
+    "country": "TW",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CGNTVChinese.tw@SD",
+    "name": "CGNTV Chinese (1080p)",
+    "country": "TW",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8"
+    ]
+  },
+  {
+    "id": "CTiVariety.tw@SD",
+    "name": "CTi Variety (中天綜合台) (720p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.10.66:16372"
+    ]
+  },
+  {
+    "id": "CTS.tw@SD",
+    "name": "CTS (HUA-CHI CTS) (1080p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "rtmp://59.124.75.138:1935/sat/tv111"
+    ]
+  },
+  {
+    "id": "CTSNews.tw@SD",
+    "name": "CTS News (華視新聞資訊) [Geo-blocked]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/sc/hsxw_fhd.m3u8"
+    ]
+  },
+  {
+    "id": "DaAi1.tw@SD",
+    "name": "DaAi1 (大愛1) (720p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pulltv1.wanfudaluye.com/live/tv1.m3u8"
+    ]
+  },
+  {
+    "id": "DaAi2.tw@SD",
+    "name": "DaAi2 (大愛2) (720p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pulltv2.wanfudaluye.com/live/tv2.m3u8",
+      "http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8"
+    ]
+  },
+  {
+    "id": "DaliTV.tw@SD",
+    "name": "Dali TV (大立電視台) (720p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://www.dalitv.com.tw:4568/live/dali/index.m3u8"
+    ]
+  },
+  {
+    "id": "EBCFinancialNews.tw@SD",
+    "name": "EBC Financial News (東森財經新聞台) (1080p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/sc/dscjxw_fhd.m3u8"
+    ]
+  },
+  {
+    "id": "EBCNews.tw@SD",
+    "name": "EBC News (東森新聞台) (1080p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/sc/dsxw_fhd.m3u8"
+    ]
+  },
+  {
+    "id": "FTV.tw@SD",
+    "name": "FTV (民視) (720p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/ptv/ftv.php?id=ms"
+    ]
+  },
+  {
+    "id": "FTVOne.tw@SD",
+    "name": "FTV One (民視第一台) (720p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/ptv/ftv.php?id=dy"
+    ]
+  },
+  {
+    "id": "FTVTaiwan.tw@SD",
+    "name": "FTV Taiwan (民視台灣台) (720p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/ptv/ftv.php?id=tw"
+    ]
+  },
+  {
+    "id": "GoodTV.tw@SD",
+    "name": "GOOD TV CH1 綜合台 (720p) [Not 24/7]",
+    "country": "TW",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.streamingfast.net/osmflivech1.m3u8"
+    ]
+  },
+  {
+    "id": "Good2.tw@SD",
+    "name": "GOOD TV CH2 真理台 (720p)",
+    "country": "TW",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.streamingfast.net/osmflivech2.m3u8"
+    ]
+  },
+  {
+    "id": "IndigenousTV.tw@SD",
+    "name": "Indigenous TV (720p)",
+    "country": "TW",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SETNews.tw@SD",
+    "name": "SET News (三立新聞) (1080p) [Geo-blocked]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/sc/sllive_fhd.m3u8"
+    ]
+  },
+  {
+    "id": "TaiwanIndigenousTV.tw@SD",
+    "name": "Taiwan Indigenous TV (720p)",
+    "country": "TW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8",
+      "https://h5cul1yar48um3t.wcetv.com/hls/titv.m3u8"
+    ]
+  },
+  {
+    "id": "TaiwanPlusTV.tw@SD",
+    "name": "Taiwan Plus TV (1080p)",
+    "country": "TW",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVBSAsia.tw@SD",
+    "name": "TVBS Asia (1080p)",
+    "country": "TW",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVBSNews.tw@SD",
+    "name": "TVBS News (TVBS新聞台) [Geo-blocked]",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://seb.sason.top/sc/tvbsxw_fhd.m3u8"
+    ]
+  },
+  {
+    "id": "TTV.tw@SD",
+    "name": "台视 (720p)",
+    "country": "TW",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://162.19.247.76:22222/live/taishi/index.m3u8"
+    ]
+  },
+  {
+    "id": "WXTV.tw@SD",
+    "name": "唯心電視 (480p)",
+    "country": "TW",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8"
+    ]
+  },
+  {
+    "id": "MOMOTV.tw@SD",
+    "name": "MOMO TV (1080p)",
+    "country": "TW",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8"
+    ]
+  },
+  {
+    "id": "SupremeMasterTV.tw@SD",
+    "name": "Supreme Master TV (720p)",
+    "country": "TW",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lbs-us1.suprememastertv.com/720p.m3u8"
+    ]
+  },
+  {
+    "id": "HakkaTV.tw@SD",
+    "name": "Hakka TV",
+    "country": "TW",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8"
+    ]
+  }
+]

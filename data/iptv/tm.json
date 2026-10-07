@@ -1,0 +1,106 @@
+[
+  {
+    "id": "AltynAsyr.tm@SD",
+    "name": "Altyn Asyr (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch001.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch001.m3u8"
+    ]
+  },
+  {
+    "id": "ArkadagTV.tm@SD",
+    "name": "Arkadag TV (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch000.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch000.m3u8"
+    ]
+  },
+  {
+    "id": "Asgabat.tm@SD",
+    "name": "Aşgabat (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch006.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch006.m3u8"
+    ]
+  },
+  {
+    "id": "Miras.tm@SD",
+    "name": "Miras (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch003.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch003.m3u8"
+    ]
+  },
+  {
+    "id": "TurkmenOwazy.tm@SD",
+    "name": "Türkmen Owazy (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch005.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch005.m3u8"
+    ]
+  },
+  {
+    "id": "Turkmenistan.tm@SD",
+    "name": "Türkmenistan (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch007.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch007.m3u8"
+    ]
+  },
+  {
+    "id": "TurkmenistanSport.tm@SD",
+    "name": "Türkmenistan Sport (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch004.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch004.m3u8"
+    ]
+  },
+  {
+    "id": "Yaslyk.tm@SD",
+    "name": "Ýaşlyk (406p) [Not 24/7]",
+    "country": "TM",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alpha.tv.online.tm/hls/ch002.m3u8",
+      "https://alpha.tv.online.tm/legacyhls/ch002.m3u8"
+    ]
+  }
+]

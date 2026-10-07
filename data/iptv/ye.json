@@ -1,0 +1,48 @@
+[
+  {
+    "id": "AlMasirah.ye@SD",
+    "name": "Al Masirah (720p) [Not 24/7]",
+    "country": "YE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlMasirahMubacher.ye@SD",
+    "name": "Al Masirah Mubacher (642p) [Not 24/7]",
+    "country": "YE",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlSahatTV.ye@SD",
+    "name": "Al-Sahat TV (720p)",
+    "country": "YE",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8"
+    ]
+  },
+  {
+    "id": "YemenTodayTV.ye@SD",
+    "name": "Yemen Today TV (480p)",
+    "country": "YE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://video.yementdy.tv/hls/yementoday.m3u8"
+    ]
+  }
+]

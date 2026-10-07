@@ -1,0 +1,152 @@
+[
+  {
+    "id": "auto",
+    "name": "Auto",
+    "visible": true
+  },
+  {
+    "id": "animation",
+    "name": "Animation",
+    "visible": true
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "visible": true
+  },
+  {
+    "id": "classic",
+    "name": "Classic",
+    "visible": true
+  },
+  {
+    "id": "comedy",
+    "name": "Comedy",
+    "visible": true
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking",
+    "visible": true
+  },
+  {
+    "id": "culture",
+    "name": "Culture",
+    "visible": true
+  },
+  {
+    "id": "documentary",
+    "name": "Documentary",
+    "visible": true
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "visible": true
+  },
+  {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "visible": true
+  },
+  {
+    "id": "family",
+    "name": "Family",
+    "visible": true
+  },
+  {
+    "id": "general",
+    "name": "General",
+    "visible": true
+  },
+  {
+    "id": "interactive",
+    "name": "Interactive",
+    "visible": true
+  },
+  {
+    "id": "kids",
+    "name": "Kids",
+    "visible": true
+  },
+  {
+    "id": "legislative",
+    "name": "Legislative",
+    "visible": true
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lifestyle",
+    "visible": true
+  },
+  {
+    "id": "movies",
+    "name": "Movies",
+    "visible": true
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "visible": true
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "visible": true
+  },
+  {
+    "id": "outdoor",
+    "name": "Outdoor",
+    "visible": true
+  },
+  {
+    "id": "public",
+    "name": "Public",
+    "visible": true
+  },
+  {
+    "id": "relax",
+    "name": "Relax",
+    "visible": true
+  },
+  {
+    "id": "religious",
+    "name": "Religious",
+    "visible": true
+  },
+  {
+    "id": "series",
+    "name": "Series",
+    "visible": true
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "visible": true
+  },
+  {
+    "id": "shop",
+    "name": "Shop",
+    "visible": true
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "visible": true
+  },
+  {
+    "id": "travel",
+    "name": "Travel",
+    "visible": true
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "visible": true
+  },
+  {
+    "id": "xxx",
+    "name": "XXX",
+    "visible": true
+  }
+]

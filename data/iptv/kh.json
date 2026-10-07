@@ -1,0 +1,313 @@
+[
+  {
+    "id": "ApsaraTV11.kh@SD",
+    "name": "Apsara TV11 (720p)",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ams.com.kh/app/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ARDBTV.kh@SD",
+    "name": "ARDB TV (1080p) [Not 24/7]",
+    "country": "KH",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8"
+    ]
+  },
+  {
+    "id": "BayonTV.kh@SD",
+    "name": "Bayon TV",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8",
+      "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8"
+    ]
+  },
+  {
+    "id": "BTVNews.kh@SD",
+    "name": "BTV News (720p)",
+    "country": "KH",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8",
+      "https://server.dtvhd.com/memfs/cf0911cf-4ccc-47b1-8996-e5d705442b89.m3u8"
+    ]
+  },
+  {
+    "id": "CTN.kh@SD",
+    "name": "CTN [Not 24/7]",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.happywatch99.com/ctnhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CTV8HD.kh@SD",
+    "name": "CTV8 HD",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ip.pdtvhd.com/Khmer/streams/CTV8HD.m3u8",
+      "https://server.dtvhd.com/memfs/92d5968d-1b58-486d-a1ba-7b5a3f21c16c.m3u8"
+    ]
+  },
+  {
+    "id": "CTV9.kh@SD",
+    "name": "CTV 9 (1080p)",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://43.252.18.195:5080/live/streams/ctv9_hd_playlist.m3u8",
+      "https://stream.pdtvhd.com/live/streams/ctv9_hd_playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DMusic.kh@SD",
+    "name": "D Music (1280p) [Not 24/7]",
+    "country": "KH",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EACNewsTV.kh@SD",
+    "name": "EAC News TV",
+    "country": "KH",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.eac-news.com/LiveApp/streams/eacnews.m3u8"
+    ]
+  },
+  {
+    "id": "EBCGeneralEducation.kh@SD",
+    "name": "EBC General Education (720p) [Not 24/7]",
+    "country": "KH",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.ebc.edu.kh/iptv/channel/1.m3u8"
+    ]
+  },
+  {
+    "id": "FreshNews.kh@SD",
+    "name": "Fresh News",
+    "country": "KH",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HangMeasHDTV.kh@SD",
+    "name": "Hang Meas HDTV (720p)",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:hmhdt12356.smil/playlist.m3u8",
+      "http://clive.malisresidences.com:1935/hmcine/_definst_/smil:hmcine.smil/playlist.m3u8",
+      "http://clive.malisresidences.com:1935/hmgo/_definst_/smil:hmgo.smil/playlist.m3u8",
+      "http://clive.malisresidences.com:1935/hmnow/_definst_/smil:hmnow.smil/playlist.m3u8",
+      "http://clive.malisresidences.com:1935/hmplay/_definst_/smil:hmplay.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "iTVHD.kh@SD",
+    "name": "iTV HD",
+    "country": "KH",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ip.pdtvhd.com/Khmer/streams/ITVHD.m3u8",
+      "https://live.eac-news.com/Khmer/streams/ITVHD.m3u8"
+    ]
+  },
+  {
+    "id": "KomsanTV.kh@SD",
+    "name": "Komsan TV [Not 24/7]",
+    "country": "KH",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MSJTV.kh@SD",
+    "name": "MSJ TV (1080p)",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
+      "http://124.248.165.18:1935/live/myStream.smil/playlist.m3u8",
+      "http://119.15.85.85:5080/LiveApp/streams/MSJTV_hd_playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MyTV.kh@SD",
+    "name": "My TV (576p)",
+    "country": "KH",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.happywatch99.com/mytvhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NTV.kh@SD",
+    "name": "NTV",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
+      "https://stream.pdtvhd.com/LiveApp/streams/ntvhd.m3u8"
+    ]
+  },
+  {
+    "id": "OneTVESchoolCambodia.kh@SD",
+    "name": "One TV E-School Cambodia (1080p)",
+    "country": "KH",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RasmeyHangMeasHDTV.kh@SD",
+    "name": "Rasmey Hang Meas HDTV (720p) [Not 24/7]",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
+      "https://live.happywatch99.com/rhm/0c00b89a106bb365ec031b28fa3ae499.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SangkemTV.kh@SD",
+    "name": "Sangkem TV",
+    "country": "KH",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.sangkemtv.com/memfs/sangkem.m3u8"
+    ]
+  },
+  {
+    "id": "SEATV.kh@SD",
+    "name": "SEATV (1080p)",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://seatv.netlinkbroadcaster.com/hls/test.m3u8"
+    ]
+  },
+  {
+    "id": "TV5Cambodia.kh@SD",
+    "name": "TV5 Cambodia",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8"
+    ]
+  },
+  {
+    "id": "TVK.kh@SD",
+    "name": "TVK (720p)",
+    "country": "KH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVK2.kh@SD",
+    "name": "TVK 2 (720p)",
+    "country": "KH",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WikiTV.kh@SD",
+    "name": "WIKI TV (720p)",
+    "country": "KH",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TownTV.kh@SD",
+    "name": "Town TV",
+    "country": "KH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.pdtvhd.com/LiveApp/streams/Townfullhd.m3u8"
+    ]
+  }
+]

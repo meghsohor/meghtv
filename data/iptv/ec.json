@@ -1,0 +1,1007 @@
+[
+  {
+    "id": "AmericaEstereoGuayaquil.ec@SD",
+    "name": "América Estéreo Guayaquil (360p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaEstereoIbarra.ec@SD",
+    "name": "América Estéreo Ibarra (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaEstereoQuito.ec@SD",
+    "name": "América Estéreo Quito (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaEstereoTulcan.ec@SD",
+    "name": "América Estéreo Tulcán (614p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.makrodigital.com/americaestereotulcan/americaestereotulcan/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaUnoRadiovideo.ec@SD",
+    "name": "Antena Uno RadioVideo (360p)",
+    "country": "EC",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvdatta.com:3578/live/antenaunolive.m3u8"
+    ]
+  },
+  {
+    "id": "Asomavision.ec@SD",
+    "name": "Asomavisión (614p)",
+    "country": "EC",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://asomatv.cloud-ip.cc/livestream/stream.m3u8"
+    ]
+  },
+  {
+    "id": "AustralTV.ec@SD",
+    "name": "Austral TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BacanTeVeo.ec@SD",
+    "name": "Bacán Te Veo (360p)",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/vacantveo2/vacantveo2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CaprichoTV.ec@SD",
+    "name": "Capricho TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8"
+    ]
+  },
+  {
+    "id": "CiracuTV.ec@SD",
+    "name": "Ciracu TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "CuriquingueTV.ec@SD",
+    "name": "Curiquingue TV (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.lhdserver.es/pjtv/live.m3u8"
+    ]
+  },
+  {
+    "id": "DuendeTv.ec@SD",
+    "name": "Duende Tv (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.fansplay.tv/livestreams/21.GdPGZIRcwzZ9vgE5.m3u8"
+    ]
+  },
+  {
+    "id": "DuranTV.ec@SD",
+    "name": "Durán TV (480p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8074/index.m3u8"
+    ]
+  },
+  {
+    "id": "EcotelTV.ec@SD",
+    "name": "Ecotel TV (720p)",
+    "country": "EC",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8"
+    ]
+  },
+  {
+    "id": "EcuadorTV.ec@SD",
+    "name": "Ecuador TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.224.97.181:9999/EcuadorTV/index.m3u8",
+      "https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8",
+      "http://38.44.109.41:8003/play/a0e9/index.m3u8"
+    ]
+  },
+  {
+    "id": "EcuaMundoRadioTV.ec@SD",
+    "name": "EcuaMundo Radio TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pacific.direcnode.com:3353/live/ecuamundotvlive.m3u8"
+    ]
+  },
+  {
+    "id": "Ecuavisa.ec@Quito",
+    "name": "Ecuavisa (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/ECUAVISA/index.m3u8",
+      "http://45.224.97.181:9999/Ecuavisa/index.m3u8",
+      "https://redirector.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Ecuavisa.ec@Guayaquil",
+    "name": "Ecuavisa Guayaquil (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8"
+    ]
+  },
+  {
+    "id": "EducaTV.ec@SD",
+    "name": "Educa TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://avm.ecuamedia.net/educatv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ElSolNetworkTV.ec@SD",
+    "name": "El Sol Network TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8"
+    ]
+  },
+  {
+    "id": "FMMundo.ec@SD",
+    "name": "FM Mundo (1080p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Gamavision.ec@SD",
+    "name": "Gamavision (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.224.97.181:9999/Gamavision/index.m3u8",
+      "https://stream.esradioecuador.com/hls/stream.m3u8",
+      "http://181.78.211.244:8000/play/a0a2/index.m3u8"
+    ]
+  },
+  {
+    "id": "GaviotaTV.ec@SD",
+    "name": "Gaviota TV [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gaviotatv.streamseguro.com:3195/live/gaviotatvlive.m3u8"
+    ]
+  },
+  {
+    "id": "GM7Digital.ec@HD",
+    "name": "GM7 Digital [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8"
+    ]
+  },
+  {
+    "id": "HechosEcuador.ec@SD",
+    "name": "Hechos Ecuador (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8"
+    ]
+  },
+  {
+    "id": "IeanJesusEcuador.ec@SD",
+    "name": "IeanJesus Ecuador (720p)",
+    "country": "EC",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ImperioTVCanal6.ec@SD",
+    "name": "Imperio TV Canal 6 (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live21.bozztv.com/akamaissh101/ssh101/imperiotvcanal6/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "InfinitaTV.ec@SD",
+    "name": "Infinita TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.tvdatta.com:3753/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "id": "IntiTV.ec@SD",
+    "name": "Inti TV (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8"
+    ]
+  },
+  {
+    "id": "KCHTV.ec@SD",
+    "name": "KCHTV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://iptv.kchtv.video.makrodigital.com:8081/kchtv/iptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaNuevaRadioTV977.ec@SD",
+    "name": "La Nueva Radio TV 97.7 (1080p)",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaPerlaRadioTV.ec@SD",
+    "name": "La Perla Radio TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8068/index.m3u8"
+    ]
+  },
+  {
+    "id": "LatacungaTV.ec@SD",
+    "name": "Latacunga TV (360p)",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LoretoTV.ec@SD",
+    "name": "Loreto TV (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8"
+    ]
+  },
+  {
+    "id": "MajestadTelevision.ec@SD",
+    "name": "Majestad Televisión (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:19360/majestadtv/majestadtv.m3u8"
+    ]
+  },
+  {
+    "id": "MakroDigitalTelevision.ec@SD",
+    "name": "MakroDigital Television (1080p)",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8",
+      "http://iptv.makrodigitaltv.makrodigital.com:8081/makrodigitaltelevision/iptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Manavision.ec@SD",
+    "name": "Manavisión (480p)",
+    "country": "EC",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8"
+    ]
+  },
+  {
+    "id": "MarcaTV.ec@SD",
+    "name": "Marca TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://200.7.219.221:8088/live/livetv/index.m3u8"
+    ]
+  },
+  {
+    "id": "MarioPintoTV.ec@SD",
+    "name": "Mario Pinto TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8028/index.m3u8"
+    ]
+  },
+  {
+    "id": "MelRadioTV.ec@SD",
+    "name": "Mel Radio TV (360p)",
+    "country": "EC",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8334/index.m3u8"
+    ]
+  },
+  {
+    "id": "MetropoliMediosTV.ec@SD",
+    "name": "Metropoli Medios TV (720p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8214/index.m3u8"
+    ]
+  },
+  {
+    "id": "MulticanalCatamayo.ec@SD",
+    "name": "Multicanal Catamayo (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://multicanal.streamseguro.com:5443/LiveApp/streams/streaming.m3u8"
+    ]
+  },
+  {
+    "id": "NukaTV.ec@SD",
+    "name": "Ñuka TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8118/index.m3u8"
+    ]
+  },
+  {
+    "id": "OndasQuevedenasTV.ec@SD",
+    "name": "Ondas Quevedeñas TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv6.voxtvhd.com.br/radiosuprema/radiosuprema/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OromarTV.ec@SD",
+    "name": "Oromar TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.224.97.181:9999/Oromar/index.m3u8",
+      "https://stream.oromar.tv/hls/oromartv_hi/index.m3u8"
+    ]
+  },
+  {
+    "id": "OromarTVPlus.ec@SD",
+    "name": "Oromar TV+ (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.oromar.tv/hls/camriva/index.m3u8"
+    ]
+  },
+  {
+    "id": "PantallaClasicaEC.ec@SD",
+    "name": "Pantalla Clásica EC (512p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PlanetaChannel.ec@SD",
+    "name": "Planeta Channel [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8"
+    ]
+  },
+  {
+    "id": "PlusTV.ec@SD",
+    "name": "Plus TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://plustv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8"
+    ]
+  },
+  {
+    "id": "PuruwaTV.ec@SD",
+    "name": "Puruwa TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tvcontrolcp.com:1936/puruwatv/puruwatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioBonita1067.ec@SD",
+    "name": "Radio Bonita 106.7 (720p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8154/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioCuencaEstereo.ec@SD",
+    "name": "Radio Cuenca Estéreo (720p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8074/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioFantastica989FM.ec@SD",
+    "name": "Radio Fantástica 98.9 FM (1080p)",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.107.232.9:8082/livestream/stream.m3u8"
+    ]
+  },
+  {
+    "id": "RadioImpacto2.ec@SD",
+    "name": "Radio Impacto 2 (288p) [Not 24/7]",
+    "country": "EC",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://panel.streamingtv-mediacp.online:1936/jawepvrvyz/jawepvrvyz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioMonumentalTV.ec@SD",
+    "name": "Radio Monumental TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "RedTVEVentanas.ec@SD",
+    "name": "Red TVE Ventanas (432p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.tvdatta.com:3825/live/redtvelive.m3u8"
+    ]
+  },
+  {
+    "id": "RTRTV.ec@SD",
+    "name": "RTRTV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv3ecuador.site/hls/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTS.ec@SD",
+    "name": "RTS (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/RTS/index.m3u8",
+      "http://45.224.97.181:9999/RTS/index.m3u8",
+      "http://157.100.248.242:8080/RTSHD/index.m3u8",
+      "https://d2w3o8zn50cs1k.cloudfront.net/ts:abr.m3u8"
+    ]
+  },
+  {
+    "id": "RTU.ec@SD",
+    "name": "RTU (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=",
+      "http://45.224.97.181:9999/RTU/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTV.ec@SD",
+    "name": "RTV Riobamba (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sv72.ecuaradiotv.net/rtvhd/live/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "SonoOndaTV.ec@SD",
+    "name": "Sono Onda TV (720p)",
+    "country": "EC",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/sonoondatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "StudioPlusTV.ec@SD",
+    "name": "Studio + TV (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudvideo.servers10.com:8081/8184/index.m3u8"
+    ]
+  },
+  {
+    "id": "TCTelevision.ec@SD",
+    "name": "TC Television (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.224.97.181:9999/TC/index.m3u8",
+      "http://177.234.218.66:8084/play/a089/index.m3u8"
+    ]
+  },
+  {
+    "id": "Teleamazonas.ec@Quito",
+    "name": "Teleamazonas (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.108.253:8888/TELEAMAZONAS/index.m3u8",
+      "http://45.224.97.181:9999/Teleamazonas/index.m3u8",
+      "http://157.100.248.242:8080/TeleamazonasHD/index.m3u8",
+      "https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/fd4ab346-b4e3-4628-abf0-b5a1bc192428.m3u8"
+    ]
+  },
+  {
+    "id": "Teleamazonas.ec@SD",
+    "name": "Teleamazonas (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telecosta.ec@SD",
+    "name": "Telecosta",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b60b.m3u8"
+    ]
+  },
+  {
+    "id": "Telemar.ec@SD",
+    "name": "Telemar (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8"
+    ]
+  },
+  {
+    "id": "Telerama.ec@SD",
+    "name": "Telerama (240p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.once.net.ec/telerama/live.tv/538.m3u8"
+    ]
+  },
+  {
+    "id": "Telesucesos.ec@SD",
+    "name": "Telesucesos (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/streams/UIO-HD_adaptive.m3u8"
+    ]
+  },
+  {
+    "id": "TVCisne.ec@SD",
+    "name": "TV Cisne (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.lhdserver.es/tvcisne/live.m3u8"
+    ]
+  },
+  {
+    "id": "TVColorCanal36.ec@SD",
+    "name": "TV Color Canal 36 (720p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8"
+    ]
+  },
+  {
+    "id": "TVLegislativa.ec@SD",
+    "name": "TV Legislativa (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "TVUniversalEcuador.ec@SD",
+    "name": "TV Universal Ecuador (720p)",
+    "country": "EC",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVC.ec@SD",
+    "name": "TVC (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.224.97.181:9999/TVC/index.m3u8",
+      "http://157.100.248.242:8080/TVCHD/index.m3u8",
+      "https://d2m7i0pvomh4vg.cloudfront.net/ts:abr.m3u8"
+    ]
+  },
+  {
+    "id": "TvOro.ec@SD",
+    "name": "TvOro (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.187.0.19:9090/tvusa/index.m3u8"
+    ]
+  },
+  {
+    "id": "UEBITVOnline.ec@SD",
+    "name": "UEBI TV Online (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ventaxtv.com:3575/live/uebilive.m3u8"
+    ]
+  },
+  {
+    "id": "UNIANDESTV.ec@SD",
+    "name": "UNIANDES TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8"
+    ]
+  },
+  {
+    "id": "UnsionTV.ec@SD",
+    "name": "Unsion TV (1080p)",
+    "country": "EC",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://provedores.unsion.tv:8081/srt/1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VitoTVO.ec@SD",
+    "name": "VitoTVO (1080p)",
+    "country": "EC",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://iptv.vitotvo.video.makrodigital.com:8081/vitotvo/iptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VosyTV.ec@SD",
+    "name": "Vos y TV (720p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud37.ecuatel.com/vostv/live/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "WuanPlus.ec@SD",
+    "name": "Wuan+",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7.innovatestream.pe:19360/ecuadortest/ecuadortest.m3u8"
+    ]
+  },
+  {
+    "id": "ZaracayTV.ec@SD",
+    "name": "Zaracay TV (1080p) [Not 24/7]",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.makrodigital.com/zaracay/zaracay/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "StudioPlusTV.ec@HD",
+    "name": "Studio + TV (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vd01.streaminghd.net.ar:3113/hybrid/play.m3u8"
+    ]
+  }
+]

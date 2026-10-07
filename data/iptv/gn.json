@@ -1,0 +1,62 @@
+[
+  {
+    "id": "AfrikInfoTV.gn@SD",
+    "name": "Afrik Info TV",
+    "country": "GN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kali.vdopanel.com:3119/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "id": "ATV.gn@SD",
+    "name": "ATV (400p) [Not 24/7]",
+    "country": "GN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://guineetvdirect.online:3320/live/atvguineelive.m3u8"
+    ]
+  },
+  {
+    "id": "EspaceTV.gn@SD",
+    "name": "Espace TV (1080p)",
+    "country": "GN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "EvasionTV.gn@SD",
+    "name": "Evasion TV",
+    "country": "GN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kali.vdopanel.com:3788/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "id": "KalacTV.gn@SD",
+    "name": "Kalac TV (1080p)",
+    "country": "GN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8"
+    ]
+  }
+]

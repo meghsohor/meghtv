@@ -1,0 +1,676 @@
+[
+  {
+    "id": "Channel9.il@SD",
+    "name": "Channel 9 (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://contact.gostreaming.tv/Con-11/index.m3u8"
+    ]
+  },
+  {
+    "id": "Channel13.il@SD",
+    "name": "Channel 13 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/295/index.m3u8",
+      "https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8"
+    ]
+  },
+  {
+    "id": "Channel24.il@SD",
+    "name": "Channel 24 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/42/index.m3u8"
+    ]
+  },
+  {
+    "id": "GoodLife.il@SD",
+    "name": "Good Life (576p)",
+    "country": "IL",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/47/index.m3u8"
+    ]
+  },
+  {
+    "id": "HalaTV.il@SD",
+    "name": "Hala TV (1080p) [Not 24/7]",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.panet.com/edge/halaTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Hidabroot.il@SD",
+    "name": "Hidabroot (1080p)",
+    "country": "IL",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Hop.il@SD",
+    "name": "Hop! (1080p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/44/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTDrama.il@SD",
+    "name": "HOT Drama (1080p)",
+    "country": "IL",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/381/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTZone.il@SD",
+    "name": "HOT Zone (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/379/index.m3u8"
+    ]
+  },
+  {
+    "id": "i24NEWSArabic.il@SD",
+    "name": "i24NEWS Arabic (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8",
+      "https://hlspackager.akamaized.net/live/DB/i24_ARABIC/HLS/i24_ARABIC.m3u8"
+    ]
+  },
+  {
+    "id": "i24NEWSEnglishWorld.il@SD",
+    "name": "i24NEWS English World (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8",
+      "https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8"
+    ]
+  },
+  {
+    "id": "i24NEWSFrench.il@SD",
+    "name": "i24NEWS French (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8",
+      "https://bcovlive-a.akamaihd.net/41814196d97e433fb401c5e632d985e9/eu-central-1/5377161796001/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "i24NEWSHebrew.il@SD",
+    "name": "I24 News Hebrew (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8"
+    ]
+  },
+  {
+    "id": "KabbalahforthePeopleIsrael.il@SD",
+    "name": "Kabbalah for the People (Israel) (504p) [Not 24/7]",
+    "country": "IL",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Kan11.il@SD",
+    "name": "Kan 11 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KanEducational.il@SD",
+    "name": "Kan Educational (720p)",
+    "country": "IL",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/378/index.m3u8"
+    ]
+  },
+  {
+    "id": "Keshet12.il@SD",
+    "name": "Keshet 12 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/294/index.m3u8"
+    ]
+  },
+  {
+    "id": "KnessetChannel.il@SD",
+    "name": "Knesset Channel (576p)",
+    "country": "IL",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/48/index.m3u8",
+      "https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Makan33.il@SD",
+    "name": "Makan 33 (1080p)",
+    "country": "IL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Now14.il@SD",
+    "name": "Now 14 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ShelanuTV.il@SD",
+    "name": "Shelanu TV (720p)",
+    "country": "IL",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeenNick.il@SD",
+    "name": "TeenNick [Not 24/7]",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2334/index.m3u8",
+      "http://89.33.29.115:8080/TeenNick/index.m3u8"
+    ]
+  },
+  {
+    "id": "YamTichoni.il@SD",
+    "name": "Yam Tichoni (1080p)",
+    "country": "IL",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/46/index.m3u8"
+    ]
+  },
+  {
+    "id": "YesMoviesAction.il@SD",
+    "name": "Yes Movies Action (1080p)",
+    "country": "IL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/380/index.m3u8"
+    ]
+  },
+  {
+    "id": "Zoom.il@SD",
+    "name": "Zoom (576p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/377/index.m3u8",
+      "http://str2.iptvhd.ru:8080/zoom/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTCinema2.il@SD",
+    "name": "HOT Cinema 2 (1080p)",
+    "country": "IL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/action/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.il@SD",
+    "name": "Disney Channel (576p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/disney/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTCinema4.il@SD",
+    "name": "HOT Cinema 4 (1080p)",
+    "country": "IL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/drama/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTCinema1.il@SD",
+    "name": "HOT Cinema 1 (1080p)",
+    "country": "IL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/Gold/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.il@SD",
+    "name": "Nick Jr. (576p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/nickjr/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOT8.il@SD",
+    "name": "HOT8 (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/channel8/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTCinema3.il@SD",
+    "name": "HOT Cinema 3 (1080p)",
+    "country": "IL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/fun/index.m3u8"
+    ]
+  },
+  {
+    "id": "VivaPremium.il@SD",
+    "name": "Viva Premium (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/43/index.m3u8"
+    ]
+  },
+  {
+    "id": "RealityChannel.il@SD",
+    "name": "Reality Channel",
+    "country": "IL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index_1.m3u8"
+    ]
+  },
+  {
+    "id": "VacationChannel.il@SD",
+    "name": "Vacation Channel",
+    "country": "IL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index_2.m3u8"
+    ]
+  },
+  {
+    "id": "5Sport.il@SD",
+    "name": "5Sport (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/5sport/index.m3u8"
+    ]
+  },
+  {
+    "id": "5Live.il@SD",
+    "name": "5Live (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/5live/index.m3u8"
+    ]
+  },
+  {
+    "id": "FoodChannel.il@SD",
+    "name": "Food Channel (1080p)",
+    "country": "IL",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/FoodChannel/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTComedy.il@SD",
+    "name": "HOT Comedy (1080p)",
+    "country": "IL",
+    "categories": [
+      "comedy",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/HOTComedy/index.m3u8"
+    ]
+  },
+  {
+    "id": "5Gold.il@SD",
+    "name": "5Gold (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/sport5gold/index.m3u8"
+    ]
+  },
+  {
+    "id": "5Sport4K.il@SD",
+    "name": "5Sport 4K (2160p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport2.il@SD",
+    "name": "Sport 2 (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/Sport_2/index.m3u8"
+    ]
+  },
+  {
+    "id": "VivaIstanbul.il@SD",
+    "name": "Viva Istanbul (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/viva_plus/index.m3u8"
+    ]
+  },
+  {
+    "id": "VivaTelenovelas.il@SD",
+    "name": "Viva Telenovelas (1080p)",
+    "country": "IL",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/VIVA/index.m3u8"
+    ]
+  },
+  {
+    "id": "Junior.il@SD",
+    "name": "Junior (1080p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/junior/index.m3u8"
+    ]
+  },
+  {
+    "id": "One2.il@SD",
+    "name": "One 2 (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/One/index.m3u8"
+    ]
+  },
+  {
+    "id": "HealthChannel.il@SD",
+    "name": "Health Channel (1080p)",
+    "country": "IL",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.33.29.115:8080/Health/index.m3u8"
+    ]
+  },
+  {
+    "id": "HOTSenior.il@SD",
+    "name": "HOT Senior (1080p)",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/HOT_Senior/index.m3u8"
+    ]
+  },
+  {
+    "id": "Luli.il@SD",
+    "name": "Luli (1080p)",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/HOT_Luli/index.m3u8"
+    ]
+  },
+  {
+    "id": "HomePlus.il@SD",
+    "name": "Home + (576p)",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://str2.iptvhd.ru:8080/home_plus/index.m3u8"
+    ]
+  },
+  {
+    "id": "5Plus.il@SD",
+    "name": "5Plus (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.33.29.115:8080/sportplus/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport3.il@SD",
+    "name": "Sport 3 (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/12251/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport4.il@SD",
+    "name": "Sport 4 (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/2389/index.m3u8"
+    ]
+  },
+  {
+    "id": "5Stars.il@SD",
+    "name": "5Stars (1080p)",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.33.29.115:8080/IL_5Stars/index.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyChannel.il@SD",
+    "name": "Comedy Channel (1080p)",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8"
+    ]
+  },
+  {
+    "id": "Channel16.il@SD",
+    "name": "Channel 16",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8"
+    ]
+  }
+]

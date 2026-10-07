@@ -1,0 +1,147 @@
+[
+  {
+    "id": "312Kino.kg@SD",
+    "name": "312 Кино (406p)",
+    "country": "KG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.126.166.43:1935/live/312kino/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "312TV.kg@SD",
+    "name": "312 ТВ (406p)",
+    "country": "KG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.126.166.43:1935/live/312musik/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NextTV.kg@SD",
+    "name": "Next TV (1080p) [Not 24/7]",
+    "country": "KG",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://gohoski.fvds.ru:3000/mediabay/601/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV1KG.kg@SD",
+    "name": "TV1 KG (1080p)",
+    "country": "KG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://212.2.225.30:1935/live/site.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV15.kg@SD",
+    "name": "TV15 (1080p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://gohoski.fvds.ru:3000/mediabay/655/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OshPirim.kg@SD",
+    "name": "Ош Пирим (1080p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://gohoski.fvds.ru:3000/mediabay/697/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlaToo24.kg@SD",
+    "name": "УТРК Ала-Тоо 24 (480p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://st2.mediabay.tv/KG_KTRK-Ala-too/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Music.kg@SD",
+    "name": "УТРК Музыка (480p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://st2.mediabay.tv/KG_KTRK-Muzika/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport.kg@SD",
+    "name": "УТРК Спорт (480p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElTR.kg@SD",
+    "name": "ЭлТР (480p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://gohoski.fvds.ru:3000/mediabay/162/index.m3u8"
+    ]
+  },
+  {
+    "id": "BilimIlim.kg@SD",
+    "name": "ЭлТР Билим Илим (480p) [Not 24/7]",
+    "country": "KG",
+    "categories": [
+      "kids",
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "http://gohoski.fvds.ru:3000/mediabay/611/index.m3u8"
+    ]
+  },
+  {
+    "id": "ManasTV.kg@SD",
+    "name": "Manas TV (1080p)",
+    "country": "KG",
+    "categories": [
+      "education",
+      "culture",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://212.42.111.152:8080/hls/manas.m3u8"
+    ]
+  }
+]

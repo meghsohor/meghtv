@@ -1,0 +1,232 @@
+[
+  {
+    "id": "ExodusTV.si@SD",
+    "name": "Exodus TV (720p)",
+    "country": "SI",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://584943999.r.worldssl.net/584943999/_definst_/vzivo/playlist.m3u8",
+      "https://584943999.r.worldssl.net/584943999/vzivo/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FolxSlovenija.si@SD",
+    "name": "Folx Slovenija",
+    "country": "SI",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://folxsloapp.b-cdn.net/1080p/index.m3u8"
+    ]
+  },
+  {
+    "id": "H2HD.si@SD",
+    "name": "H2 HD",
+    "country": "SI",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.dstvmultimedia.com/HistoryChannel2/index.m3u8"
+    ]
+  },
+  {
+    "id": "History.si@HD",
+    "name": "History",
+    "country": "SI",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.dstvmultimedia.com/HistoryChannel/index.m3u8",
+      "https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
+    ]
+  },
+  {
+    "id": "StarChannel.si@SD",
+    "name": "Star Channel",
+    "country": "SI",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.36.202.5:10001/play/a01s"
+    ]
+  },
+  {
+    "id": "StarCrime.si@SD",
+    "name": "Star Crime",
+    "country": "SI",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.36.202.5:10001/play/a02o"
+    ]
+  },
+  {
+    "id": "StarLife.si@SD",
+    "name": "Star Life",
+    "country": "SI",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.36.202.5:10001/play/a02n"
+    ]
+  },
+  {
+    "id": "StarMovies.si@SD",
+    "name": "Star Movies",
+    "country": "SI",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.36.202.5:10001/play/a01o"
+    ]
+  },
+  {
+    "id": "TrzicTV.si@SD",
+    "name": "Tržič TV (1080p) [Not 24/7]",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vpn.video2go.live:444/trzic/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVSLO1.si@HD",
+    "name": "TV SLO 1 HD (1080p) [Not 24/7]",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.88.66.93/SLO1/index.m3u8",
+      "https://dash2.antik.sk/live/test_slo1_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVSLO2.si@HD",
+    "name": "TV SLO 2 HD (1080p) [Not 24/7]",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.88.66.93/SLO2/index.m3u8",
+      "https://dash2.antik.sk/live/test_slo2_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelevizijaUrslja.si@SD",
+    "name": "TV Uršlja (1080p) [Not 24/7]",
+    "country": "SI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ott.sgn.net/hls/tvurslja.m3u8"
+    ]
+  },
+  {
+    "id": "TVVeseljakGolicaHD.si@SD",
+    "name": "TV Veseljak Golica HD",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://radio.serv.si/VeseljakGolicaTV/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatExplore.si@HD",
+    "name": "Viasat Explore",
+    "country": "SI",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.dstvmultimedia.com/ViasatExplore/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatHistory.si@HD",
+    "name": "Viasat History",
+    "country": "SI",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.dstvmultimedia.com/ViasatHistory/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatNature.si@SD",
+    "name": "Viasat Nature",
+    "country": "SI",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.dstvmultimedia.com/ViasatNature/index.m3u8"
+    ]
+  },
+  {
+    "id": "KanalA.si@SD",
+    "name": "Kanal A",
+    "country": "SI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
+    ]
+  },
+  {
+    "id": "TVSLO1.si@SD",
+    "name": "SLO 1",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO1HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
+    ]
+  },
+  {
+    "id": "TVSLO2.si@SD",
+    "name": "SLO 2",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO2HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
+    ]
+  },
+  {
+    "id": "TVSLO3.si@SD",
+    "name": "SLO 3",
+    "country": "SI",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO3HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
+    ]
+  }
+]

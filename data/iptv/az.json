@@ -1,0 +1,221 @@
+[
+  {
+    "id": "AlvinChannelTV.az@SD",
+    "name": "Alvin Channel TV (360p) [Not 24/7]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AnewZTV.az@SD",
+    "name": "AnewZ",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "APATv.az@SD",
+    "name": "APA Tv (1080p)",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.apa.tv/apastream/index.m3u8"
+    ]
+  },
+  {
+    "id": "AyazTV.az@SD",
+    "name": "Ayaz TV (720p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8"
+    ]
+  },
+  {
+    "id": "AzTV.az@SD",
+    "name": "Az TV (1080p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://str.yodacdn.net/azertv/index.m3u8",
+      "http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA",
+      "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "BakuTV.az@SD",
+    "name": "Baku.TV",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.baku.tv/hls/bakutv.m3u8"
+    ]
+  },
+  {
+    "id": "CBCSport.az@HD",
+    "name": "CBC Sport HD [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ELTV.az@SD",
+    "name": "EL TV (260p) [Not 24/7]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
+      "https://live.eltv.az/live/eltv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IctimaiTV.az@SD",
+    "name": "Ictimai TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.itv.az/itv.m3u8"
+    ]
+  },
+  {
+    "id": "Kanal35.az@SD",
+    "name": "Kanal 35 (720p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://str2.yodacdn.net/kanal35/index.m3u8"
+    ]
+  },
+  {
+    "id": "KanalS.az@SD",
+    "name": "Kanal S",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8"
+    ]
+  },
+  {
+    "id": "KapazTV.az@SD",
+    "name": "Kapaz TV",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.132.78.122:8050/hls/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "KNMusicTV.az@SD",
+    "name": "KN Music TV",
+    "country": "AZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "MedeniyyetTV.az@SD",
+    "name": "Medeniyyet TV (1080p)",
+    "country": "AZ",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://str.yodacdn.net/medeniyyettele/index.m3u8"
+    ]
+  },
+  {
+    "id": "NaxcivanTV.az@SD",
+    "name": "Naxcivan TV (720p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://str2.yodacdn.net/ntv/video.m3u8"
+    ]
+  },
+  {
+    "id": "VilayetTV.az@SD",
+    "name": "Vilayet TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nl.livekadeh.com/hls2/vilayet.m3u8"
+    ]
+  },
+  {
+    "id": "XezerTV.az@SD",
+    "name": "Xezer TV (720p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.xezerxeber.az/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "AzadTV.az@SD",
+    "name": "Azad TV (1080p)",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
+    ]
+  }
+]

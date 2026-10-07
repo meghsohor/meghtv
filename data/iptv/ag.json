@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PointeTV.ag@SD",
+    "name": "Pointe TV",
+    "country": "AG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.pointville.ag/hls/mystream.m3u8"
+    ]
+  }
+]

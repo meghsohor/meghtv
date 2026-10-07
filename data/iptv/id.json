@@ -1,0 +1,2044 @@
+[
+  {
+    "id": "AFBTVKupang.id@SD",
+    "name": "AFBTV Kupang (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://afbtv.siar.us/live/afbtv.m3u8"
+    ]
+  },
+  {
+    "id": "AhsanTV.id@SD",
+    "name": "Ahsan TV",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AKTV.id@SD",
+    "name": "AKTV (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://akativi.siar.us/live/akativi.m3u8"
+    ]
+  },
+  {
+    "id": "AlBahjahTV.id@SD",
+    "name": "Al-Bahjah TV (1080p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.161.117:8000/play/AlBahjahTV"
+    ]
+  },
+  {
+    "id": "AlImanTV.id@SD",
+    "name": "Al-Iman TV (720p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.aliman.id/aliman/live.m3u8"
+    ]
+  },
+  {
+    "id": "AlWafaTarim.id@SD",
+    "name": "Alwafa Tarim TV (Am Media) (720p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ammedia.siar.us/ammedia/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ANTV.id@SD",
+    "name": "ANTV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.58.160.157:8278/720-ANTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AshiilTV.id@SD",
+    "name": "Ashiil TV (480p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8",
+      "https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8"
+    ]
+  },
+  {
+    "id": "AsthaTV.id@HD",
+    "name": "Astha TV (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hgmtv.com:19360/asthatv/asthatv.m3u8"
+    ]
+  },
+  {
+    "id": "AstroBlitarTV.id@SD",
+    "name": "Astro Blitar TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AtambuaTV.id@HD",
+    "name": "Atambua TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BalikpapanTV.id@SD",
+    "name": "Balikpapan TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BandungTV.id@SD",
+    "name": "Bandung TV (360p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8"
+    ]
+  },
+  {
+    "id": "BanjarTV.id@SD",
+    "name": "Banjar TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://banjartv.siar.us/banjartv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BantenTV.id@SD",
+    "name": "Banten TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BMSTV.id@SD",
+    "name": "Banyumas TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BatamTV.id@SD",
+    "name": "Batam TV (480p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BeritaSatu.id@SD",
+    "name": "BeritaSatu (1080p)",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xtdslboppkkv-pull.bpmedialive.com/live/beritasatu/abr.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8"
+    ]
+  },
+  {
+    "id": "BiznetAdventure.id@SD",
+    "name": "Biznet Adventure (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BiznetKids.id@SD",
+    "name": "Biznet Kids (1080p)",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8"
+    ]
+  },
+  {
+    "id": "BiznetLifestyle.id@SD",
+    "name": "Biznet Lifestyle (1080p)",
+    "country": "ID",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8"
+    ]
+  },
+  {
+    "id": "BNChannel.id@SD",
+    "name": "BN Channel (720p)",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://flv.intechmedia.net/live/ch112.m3u8",
+      "http://175.158.57.130:8888/stream/channelid/1402218159",
+      "http://ikitv.sqn.at:8000/play/a01l/index.m3u8"
+    ]
+  },
+  {
+    "id": "BRTV.id@SD",
+    "name": "BRTV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BungoTV.id@SD",
+    "name": "Bungo TV (480p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CarubanTV.id@HD",
+    "name": "Caruban TV (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.carubantv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "CelebesTV.id@SD",
+    "name": "Celebes TV [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ams.juraganstreaming.com:5443/LiveApp/streams/celebesmedia.m3u8"
+    ]
+  },
+  {
+    "id": "DAAITV.id@SD",
+    "name": "DAAI TV",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8",
+      "https://op-group1-swiftservesd-1.dens.tv/s/s182/index.m3u8"
+    ]
+  },
+  {
+    "id": "DavikaTV.id@SD",
+    "name": "Davika TV (480p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DhammaTV.id@SD",
+    "name": "Dhamma TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8"
+    ]
+  },
+  {
+    "id": "DhohoTV.id@SD",
+    "name": "Dhoho TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DMITV.id@SD",
+    "name": "DMI TV (576i)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvstreamcast.com/tawaftv.m3u8"
+    ]
+  },
+  {
+    "id": "dTVi.id@SD",
+    "name": "dTVi",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://e.siar.us/live/dtvi.m3u8"
+    ]
+  },
+  {
+    "id": "DutaTV.id@SD",
+    "name": "Duta TV (360p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dutatv.siar.us/dutatv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EInternational.id@Asia",
+    "name": "E International Asia (576p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8",
+      "https://vodcdn.bamboo-cloud.com/livehls/69a123b780c99d28cc0f0016/master.m3u8"
+    ]
+  },
+  {
+    "id": "EInternational.id@Europe",
+    "name": "E International Europe (576p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8",
+      "https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp410.310.578:2020.m3u8"
+    ]
+  },
+  {
+    "id": "EfarinaTV.id@SD",
+    "name": "Efarina TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.efarinatv.com/hls/bgtaufikganteng.m3u8"
+    ]
+  },
+  {
+    "id": "FajarTV.id@SD",
+    "name": "Fajar TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FicomChannel.id@SD",
+    "name": "Ficom Channel (720p)",
+    "country": "ID",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://v3.siar.us/ficomchannel/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GarudaTV.id@SD",
+    "name": "Garuda TV (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8"
+    ]
+  },
+  {
+    "id": "GrooviaKanal.id@HD",
+    "name": "Groovia Kanal (576p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8"
+    ]
+  },
+  {
+    "id": "GrooviaKids.id@HD",
+    "name": "Groovia Kids (576p)",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8"
+    ]
+  },
+  {
+    "id": "HumaBetangTV.id@SD",
+    "name": "Huma Betang TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://v3.siar.us/humabetangtv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IAmChannel.id@SD",
+    "name": "I Am Channel (576p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "IndonesianaTV.id@SD",
+    "name": "Indonesiana.TV (720p)",
+    "country": "ID",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvstreamcast.com/indonesiana.m3u8"
+    ]
+  },
+  {
+    "id": "JambiTV.id@SD",
+    "name": "Jambi TV",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8"
+    ]
+  },
+  {
+    "id": "JawaPosTV.id@Jakarta",
+    "name": "Jawa Pos TV Jakarta (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JekTV.id@SD",
+    "name": "Jek TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://27.124.81.245:1935/jektv/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JogjaIstimewaTV.id@SD",
+    "name": "Jogja Istimewa TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JogjaTV.id@SD",
+    "name": "Jogja TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "JTV.id@SD",
+    "name": "JTV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JTV.id@Madiun",
+    "name": "JTV Madiun",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JTV.id@Madura",
+    "name": "JTV Madura (480p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JTV.id@Malang",
+    "name": "JTV Malang",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KawanuaTV.id@SD",
+    "name": "Kawanua TV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KidsTV.id@SD",
+    "name": "Kids TV",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://origin5.mediacdn.ru/live/kidstv/index.m3u8"
+    ]
+  },
+  {
+    "id": "KilisuciTV.id@SD",
+    "name": "Kilisuci TV",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KTV.id@SD",
+    "name": "KTV (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://flv.intechmedia.net/live/ch118.m3u8"
+    ]
+  },
+  {
+    "id": "LingkarTV.id@SD",
+    "name": "Lingkar TV",
+    "country": "ID",
+    "categories": [
+      "news",
+      "music",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lingkartv.my.id/hls/lingkartv.m3u8"
+    ]
+  },
+  {
+    "id": "MadaniTV.id@SD",
+    "name": "Madani TV (720p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MaduTV.id@SD",
+    "name": "Madu TV (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://re1.siar.us/madutv/hd720/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MagnaChannel.id@SD",
+    "name": "Magna Channel (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
+      "http://202.150.172.59/MagnaChannel/index.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h24/index.m3u8"
+    ]
+  },
+  {
+    "id": "MatrixTVYogyakarta.id@HD",
+    "name": "Matrix TV Yogyakarta (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.matrixtv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "MBGTV.id@FHD",
+    "name": "MBG TV (1080p)",
+    "country": "ID",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MDTV.id@HD",
+    "name": "MDTV (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://wahyu1ptv.pages.dev/MDTV-HD.m3u8",
+      "https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8",
+      "http://ikitv.sqn.at:8000/play/a044/index.m3u8"
+    ]
+  },
+  {
+    "id": "MetroTV.id@SD",
+    "name": "Metro TV",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MGITV.id@SD",
+    "name": "MGI TV (720p) [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.rodja.live/tasik/ngrp:mgitv_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MGSTV.id@SD",
+    "name": "MGSTV (360p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mgstv.siar.us/live/mgstv.m3u8"
+    ]
+  },
+  {
+    "id": "MQTV.id@SD",
+    "name": "MQTV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MusicInformationChannel.id@SD",
+    "name": "Music Information Channel (720p)",
+    "country": "ID",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mic.siar.us/mic/live/mic.m3u8"
+    ]
+  },
+  {
+    "id": "MyKidz.id@SD",
+    "name": "My Kidz (720p)",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8"
+    ]
+  },
+  {
+    "id": "NaajiyaTV.id@SD",
+    "name": "Naajiya TV (720p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.naajiyatv.com/live/livestream.m3u8"
+    ]
+  },
+  {
+    "id": "NabawiTV.id@SD",
+    "name": "Nabawi TV (720p)",
+    "country": "ID",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.161.117:8000/play/NabawiTV"
+    ]
+  },
+  {
+    "id": "NusantaraTV.id@SD",
+    "name": "Nusantara TV (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8"
+    ]
+  },
+  {
+    "id": "OnlineTVNusantara.id@SD",
+    "name": "Online TV Nusantara (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general",
+      "music",
+      "news",
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/onlinetvnusantara/onlinetvnusantara/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PadangTV.id@SD",
+    "name": "Padang TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PKTV.id@SD",
+    "name": "PKTV (480p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming.id18.tunnel.my.id/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "PONTV.id@SD",
+    "name": "PONTV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PujaTVAceh.id@SD",
+    "name": "Puja TV Aceh (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://pujatv.siar.us/live/pujatv.m3u8"
+    ]
+  },
+  {
+    "id": "RadarLampungTV.id@SD",
+    "name": "Radar Lampung TV (480p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://www.streaming.radartv.co.id/hls/test.m3u8"
+    ]
+  },
+  {
+    "id": "RadarTasikmalayaTV.id@SD",
+    "name": "Radar Tasikmalaya TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://v2.siar.us/radartasikmalaya/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RCTV.id@SD",
+    "name": "RCTV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://v10.siar.us/rctv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RiauTV.id@SD",
+    "name": "Riau TV (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RinjaniTV.id@SD",
+    "name": "Rinjani TV",
+    "country": "ID",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rinjanitv.cloud/hls/tvkabel.m3u8"
+    ]
+  },
+  {
+    "id": "RodjaTV.id@SD",
+    "name": "Rodja TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rodjatv.com/rodjatv/live.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h233/index.m3u8"
+    ]
+  },
+  {
+    "id": "RRINet.id@SD",
+    "name": "RRI Net (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8"
+    ]
+  },
+  {
+    "id": "SaliraTV.id@SD",
+    "name": "Salira TV (720p)",
+    "country": "ID",
+    "categories": [
+      "culture",
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.salira.tv/p/3870/hybrid/play.m3u8",
+      "https://live.salira.tv:3870/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "SampitTV.id@SD",
+    "name": "Sampit TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sampit-tv.siar.us/live/sampit-tv.m3u8"
+    ]
+  },
+  {
+    "id": "SangajiTV.id@SD",
+    "name": "Sangaji TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8"
+    ]
+  },
+  {
+    "id": "SemarangTV.id@SD",
+    "name": "Semarang TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://116.254.112.74/hls/cakralive.m3u8"
+    ]
+  },
+  {
+    "id": "Simpang5TV.id@SD",
+    "name": "Simpang5 TV (360p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/SIMPANG5TV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SMTV.id@SD",
+    "name": "SMTV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8",
+      "https://e.siar.us/live/smtv.m3u8"
+    ]
+  },
+  {
+    "id": "SriwijayaTV.id@SD",
+    "name": "Sriwijaya TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://sriwijayatv.siar.us/live/sriwijayatv.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@SumedangMajalengka",
+    "name": "Stara TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Bandung",
+    "name": "Stara TV Bandung (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bandung.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Bojonegoro",
+    "name": "Stara TV Bojonegoro (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bojonegoro.staratv.id/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Cianjur",
+    "name": "Stara TV Cianjur (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cianjur.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Jakarta",
+    "name": "Stara TV Jakarta (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://jakarta.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Malang",
+    "name": "Stara TV Malang (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://malang.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "StaraTV.id@Parahyangan",
+    "name": "Stara TV Parahyangan (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://parahyangan.staratv.id/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "STV.id@SD",
+    "name": "STV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuaraSurabayaVisualRadio.id@Surabaya",
+    "name": "Suara Surabaya Visual Radio (720p)",
+    "country": "ID",
+    "categories": [
+      "news",
+      "interactive"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ssfm.siar.us/ssfm/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SultraTV.id@SD",
+    "name": "Sultra TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/SULTRATV/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SurauTV.id@SD",
+    "name": "Surau TV",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8",
+      "http://ikitv.sqn.at:8000/play/a00l/index.m3u8"
+    ]
+  },
+  {
+    "id": "TATV.id@SD",
+    "name": "TATV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://v2.siar.us/tatv/live.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TegarTVLampung.id@SD",
+    "name": "Tegar TV Lampung (480p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://wms.klikhost.com:1935/tegartv/tegartv/playlist.m3u8",
+      "https://5bf7b725107e5.streamlock.net/tegartv/tegartv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TheIndonesiaChannel.id@SD",
+    "name": "The Indonesia Channel (1080p)",
+    "country": "ID",
+    "categories": [
+      "culture",
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8"
+    ]
+  },
+  {
+    "id": "TV9Nusantara.id@SD",
+    "name": "TV9 Nusantara (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMu.id@SD",
+    "name": "TV Mu (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://e.siar.us/live/tvmu.m3u8"
+    ]
+  },
+  {
+    "id": "TVTabalong.id@SD",
+    "name": "TV Tabalong (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVKU.id@SD",
+    "name": "TVKU (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tvku.tv/hlsstream/hls/live.m3u8"
+    ]
+  },
+  {
+    "id": "TVRParlemen.id@SD",
+    "name": "TVR Parlemen (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.18.181.69:1935/golive/livestream/playlist.m3u8",
+      "https://ssv1.dpr.go.id/golive/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@HD",
+    "name": "TVRI (1080i)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+      "http://202.150.172.59/TVRI/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Aceh",
+    "name": "TVRI Aceh (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Bali",
+    "name": "TVRI Bali (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@BangkaBelitung",
+    "name": "TVRI Bangka Belitung (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Bengkulu",
+    "name": "TVRI Bengkulu (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Gorontalo",
+    "name": "TVRI Gorontalo (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Jakarta",
+    "name": "TVRI Jakarta (576i) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Jambi",
+    "name": "TVRI Jambi (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestJava",
+    "name": "TVRI Jawa Barat (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@CentralJava",
+    "name": "TVRI Jawa Tengah (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@EastJava",
+    "name": "TVRI Jawa Timur (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestKalimantan",
+    "name": "TVRI Kalimantan Barat (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@SouthKalimantan",
+    "name": "TVRI Kalimantan Selatan (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@CentralKalimantan",
+    "name": "TVRI Kalimantan Tengah (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@EastKalimantan",
+    "name": "TVRI Kalimantan Timur (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Lampung",
+    "name": "TVRI Lampung (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Maluku",
+    "name": "TVRI Maluku (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@NorthSulawesi",
+    "name": "TVRI North Sulawesi (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@NorthSumatra",
+    "name": "TVRI North Sumatra (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestNusaTenggara",
+    "name": "TVRI Nusa Tenggara Barat (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@EastNusaTenggara",
+    "name": "TVRI Nusa Tenggara Timur (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Papua",
+    "name": "TVRI Papua (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Riau",
+    "name": "TVRI Riau (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestSulawesi",
+    "name": "TVRI Sulawesi Barat (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@SouthSulawesi",
+    "name": "TVRI Sulawesi Selatan (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@CentralSulawesi",
+    "name": "TVRI Sulawesi Tengah (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@SoutheastSulawesi",
+    "name": "TVRI Sulawesi Tenggara (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestSumatra",
+    "name": "TVRI Sumatera Barat (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@SouthSumatra",
+    "name": "TVRI Sumatera Selatan (480p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@WestPapua",
+    "name": "TVRI West Papua (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8"
+    ]
+  },
+  {
+    "id": "TVRIWorld.id@SD",
+    "name": "TVRI World (1080p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@Yogyakarta",
+    "name": "TVRI Yogyakarta (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8"
+    ]
+  },
+  {
+    "id": "UChannel.id@SD",
+    "name": "U Channel",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srs.u-channel.tv/live/uchannel-tv.m3u8"
+    ]
+  },
+  {
+    "id": "UGTV.id@SD",
+    "name": "UGTV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8"
+    ]
+  },
+  {
+    "id": "VTV.id@SD",
+    "name": "VTV (720p)",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://flv.intechmedia.net/live/ch107.m3u8"
+    ]
+  },
+  {
+    "id": "YOYInternational.id@HD",
+    "name": "YOY International (576p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gist.githubusercontent.com/iptvonlinetv/8a6b2f12e5e968537378f1245cea02c9/raw/78bf84476f8e24cc8ea9d5ac24855078c61b18db/udp305.575.530:3030.m3u8"
+    ]
+  },
+  {
+    "id": "RCTI.id@HD",
+    "name": "RCTI HD (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mncmedia.malingtv.workers.dev/rcti.m3u8",
+      "http://202.150.172.59/RCTIHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "MNCTV.id@HD",
+    "name": "MNCTV HD (720p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mncmedia.malingtv.workers.dev/mnctv.m3u8",
+      "http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "GTV.id@HD",
+    "name": "GTV HD",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mncmedia.malingtv.workers.dev/gtv.m3u8",
+      "http://202.150.172.59/GTVHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "iNews.id@HD",
+    "name": "iNews HD (720p)",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mncmedia.malingtv.workers.dev/inews.m3u8",
+      "http://202.150.172.59/iNews/index.m3u8"
+    ]
+  },
+  {
+    "id": "AjwaTV.id@SD",
+    "name": "Ajwa TV (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ikitv.sqn.at:8000/play/a00j/index.m3u8"
+    ]
+  },
+  {
+    "id": "JTV.id@Kediri",
+    "name": "JTV Kediri (1080p) [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SalamTV.id@SD",
+    "name": "Salam TV (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.salamtelevisi.com/hls/0/stream.m3u8"
+    ]
+  },
+  {
+    "id": "SelaparangTV.id@SD",
+    "name": "Selaparang TV (720p) [Not 24/7]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://selaparangtv.siar.us/live/selaparangtv.m3u8"
+    ]
+  },
+  {
+    "id": "VTV.id@HD",
+    "name": "VTV HD (1080p)",
+    "country": "ID",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ikitv.sqn.at:8000/play/a023/index.m3u8",
+      "http://202.150.172.59/VTVHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "SPOTV.id@SD",
+    "name": "SPOTV (720p)",
+    "country": "ID",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10006/bysid/2614"
+    ]
+  },
+  {
+    "id": "SPOTV2.id@SD",
+    "name": "SPOTV 2 (720p)",
+    "country": "ID",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://58.8.186.128:10006/bysid/2630"
+    ]
+  },
+  {
+    "id": "DensFoodChannel.id@SD",
+    "name": "Dens Food Channel [Not 24/7]",
+    "country": "ID",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-flashcon-digdayahd-1.dens.tv/h/h221/02.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h221/index.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV.id@SD",
+    "name": "SCTV",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.172.59/SCTV/tracks-v1a1/mono.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8"
+    ]
+  },
+  {
+    "id": "Indosiar.id@HD",
+    "name": "Indosiar HD (1080p)",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.172.59/Indosiar/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVRISport.id@SD",
+    "name": "TVRI Sport (1080p)",
+    "country": "ID",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.172.59/TVRISport/index.m3u8",
+      "https://op-group1-swiftservesd-1.dens.tv/s/s107/index.m3u8"
+    ]
+  },
+  {
+    "id": "BTV.id@SD",
+    "name": "BTV [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h129/S4/mnf.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h210/index.m3u8"
+    ]
+  },
+  {
+    "id": "ChannelJowo.id@SD",
+    "name": "Channel Jowo [Geo-blocked]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h77/index.m3u8"
+    ]
+  },
+  {
+    "id": "DensKnowledge.id@SD",
+    "name": "Dens Learning & Knowledge [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8"
+    ]
+  },
+  {
+    "id": "DensLifeStyle.id@SD",
+    "name": "Dens Life & Style [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h222/index.m3u8"
+    ]
+  },
+  {
+    "id": "DensPlay.id@SD",
+    "name": "Dens Play [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h225/index.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h246/index.m3u8"
+    ]
+  },
+  {
+    "id": "DensShowBiz.id@SD",
+    "name": "Dens ShowBiz [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h203/index.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h244/index.m3u8"
+    ]
+  },
+  {
+    "id": "JakTV.id@SD",
+    "name": "Jak TV [Geo-blocked]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservesd-1.dens.tv/s/s123/index2.m3u8"
+    ]
+  },
+  {
+    "id": "KompasTV.id@SD",
+    "name": "Kompas TV [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8",
+      "https://op-group1-swiftservehd-1.dens.tv/s/s104/index.m3u8"
+    ]
+  },
+  {
+    "id": "Moji.id@SD",
+    "name": "Moji [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8"
+    ]
+  },
+  {
+    "id": "MyCinema.id@SD",
+    "name": "My Cinema [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h192/index.m3u8"
+    ]
+  },
+  {
+    "id": "MyFamily.id@SD",
+    "name": "My Family [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h194/index.m3u8"
+    ]
+  },
+  {
+    "id": "tvOne.id@SD",
+    "name": "tvOne [Geo-blocked]",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVRI.id@SD",
+    "name": "TVRI (480p) [Geo-blocked]",
+    "country": "ID",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8"
+    ]
+  }
+]

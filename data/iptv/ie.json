@@ -1,0 +1,132 @@
+[
+  {
+    "id": "F1Channel.ie@US",
+    "name": "F1 Channel (1080p) [Geo-blocked]",
+    "country": "IE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTV.ie@SD",
+    "name": "Oireachtas TV (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/oirtv/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVCommitteeRoom1.ie@SD",
+    "name": "Oireachtas TV Committee Room 1 (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/cr1/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVCommitteeRoom2.ie@SD",
+    "name": "Oireachtas TV Committee Room 2 (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/cr2/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVCommitteeRoom3.ie@SD",
+    "name": "Oireachtas TV Committee Room 3 (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/cr3/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVCommitteeRoom4.ie@SD",
+    "name": "Oireachtas TV Committee Room 4 (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/cr4/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVDailEireann.ie@SD",
+    "name": "Oireachtas TV Dáil Éireann (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/dail/hls.m3u8"
+    ]
+  },
+  {
+    "id": "OireachtasTVSeanadEireann.ie@SD",
+    "name": "Oireachtas TV Seanad Éireann (720p)",
+    "country": "IE",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d33zah5htxvoxb.cloudfront.net/el/live/seanad/hls.m3u8"
+    ]
+  },
+  {
+    "id": "SetantaSports1Eurasia.ie@SD",
+    "name": "Setanta Sports 1 Eurasia (1080p)",
+    "country": "IE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/234/index.m3u8"
+    ]
+  },
+  {
+    "id": "SetantaSports2Eurasia.ie@SD",
+    "name": "Setanta Sports 2 Eurasia (1080p)",
+    "country": "IE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/235/index.m3u8"
+    ]
+  },
+  {
+    "id": "TG4.ie@SD",
+    "name": "TG4 (1080p)",
+    "country": "IE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://fastly.live.brightcove.com/6384196213112/eu-west-1/1555966122001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieDl2YzlnLmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiMTU1NTk2NjEyMjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyIxNTU1OTY2MTIyMDAxIl0sImp0aSI6IjYzODQxOTYyMTMxMTIifQ.Co2xR3kmJBoxTaFTpwU0b37lJ05vNt-y32-SwfM26EA/chunklist.m3u8"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TelePeyi.gf@SD",
+    "name": "Télé Péyi (720p)",
+    "country": "GF",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8"
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "A2iMusic.sn@SD",
+    "name": "A2i Music (720p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "A2iNaija.sn@SD",
+    "name": "A2i Naija (720p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/A2iNaija/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "A2iReligion.sn@SD",
+    "name": "A2i Religion (720p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/A2iReligion/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AmaniTV.sn@SD",
+    "name": "Amani TV (1080p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://goccn.cloud/hls/amanitv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ChabibaTV.sn@SD",
+    "name": "Chabiba TV (360p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://endour.net/hls/RUgLAPCbPdF5oPSTX2Hvl/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNMTV.sn@SD",
+    "name": "CNM TV (720p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/cnmtv/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Diaspora24.sn@SD",
+    "name": "Diaspora 24 [Geo-blocked]",
+    "country": "SN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vdo3.pro-fhi.net:3218/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "GMSTV.sn@SD",
+    "name": "GMS TV",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LougaTV.sn@SD",
+    "name": "Louga TV (480p)",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OneNationTV.sn@SD",
+    "name": "One Nation TV (720p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://endour.net/hls/One_nationtv/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTS3.sn@SD",
+    "name": "RTS 3 (720p)",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://145.239.5.177/224/index.m3u8"
+    ]
+  },
+  {
+    "id": "SenewebTV.sn@SD",
+    "name": "Seneweb TV [Geo-blocked]",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vdo2.pro-fhi.net:3297/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "SenJeunesTV.sn@SD",
+    "name": "SenJeunes TV (480p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.sen-gt.com/senjeunestv/myStream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SunuLabelTV.sn@SD",
+    "name": "Sunu Label TV (480p) [Not 24/7]",
+    "country": "SN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live3.acangroup.org:1929/publiclive/sunulabel/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMusikSenegal.sn@SD",
+    "name": "TeleMusik Senegal (720p)",
+    "country": "SN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://58c04fb1d143f.streamlock.net/rezopropartner_1_live/rezopropartner_1_live/playlist.m3u8"
+    ]
+  }
+]

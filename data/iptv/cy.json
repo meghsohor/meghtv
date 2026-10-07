@@ -1,0 +1,197 @@
+[
+  {
+    "id": "AdaTV.cy@SD",
+    "name": "Ada TV",
+    "country": "CY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlfaSport.cy@SD",
+    "name": "Alfa Sport (1080p) [Not 24/7]",
+    "country": "CY",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+    ]
+  },
+  {
+    "id": "ANT1Cyprus.cy@SD",
+    "name": "ANT1 Cyprus (1080p)",
+    "country": "CY",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CityChannel.cy@SD",
+    "name": "City Channel (720p) [Not 24/7]",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dev.aftermind.xyz/edge-hls/unitrust/citychannel/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+    ]
+  },
+  {
+    "id": "MiddleEastTV.cy@SD",
+    "name": "Middle East TV (1080p)",
+    "country": "CY",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://content.uplynk.com/channel/9d35b73c264946d5945db6cdff26336e.m3u8"
+    ]
+  },
+  {
+    "id": "RIK1.cy@SD",
+    "name": "RIK 1",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://213.7.216.229:8888/udp/239.23.0.1:1234",
+      "https://l6.cloudskep.com/rikct/rik1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RIK2.cy@SD",
+    "name": "RIK 2",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://213.7.216.229:8888/udp/239.23.0.2:1234",
+      "https://l6.cloudskep.com/rikct/rik2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RIKHD.cy@SD",
+    "name": "RIK HD",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://213.7.216.229:8888/udp/239.23.0.5:1234",
+      "https://l6.cloudskep.com/rikct/rikhd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RIKSat.cy@SD",
+    "name": "RΙΚ Sat (CYBC S) (720p) [Not 24/7]",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8",
+      "http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Sat7Arabic.cy@SD",
+    "name": "Sat 7 Arabic (240p)",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "Sat7Kids.cy@SD",
+    "name": "Sat 7 Kids (1080p)",
+    "country": "CY",
+    "categories": [
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "Sat7Turk.cy@SD",
+    "name": "Sat 7 Türk (720p)",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist_dvr.m3u8",
+      "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
+      "https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SigmaTV.cy@SD",
+    "name": "Sigma TV (576p) [Not 24/7]",
+    "country": "CY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://sl2.sigmatv.com/hls/live.m3u8"
+    ]
+  },
+  {
+    "id": "VouliTV.cy@SD",
+    "name": "Vouli TV (1080p) [Not 24/7]",
+    "country": "CY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+    ]
+  },
+  {
+    "id": "OmegaChannel.cy@SD",
+    "name": "Omega Channel (576i)",
+    "country": "CY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ERTCosmosCyprus.cy@HD",
+    "name": "ERT Cosmos Cyprus (1080p)",
+    "country": "CY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ert-live.ascdn.broadpeak.io/bpk-tv/ERTCosmos_Cyprus/default/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sat7Pars.cy@SD",
+    "name": "Sat7 Pars",
+    "country": "CY",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sat7phls.wns.live/hls/stream.m3u8"
+    ]
+  }
+]

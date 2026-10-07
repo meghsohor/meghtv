@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "LaoSVTV.vn@SD",
+    "name": "Lao SV TV (480p)",
+    "country": "VN",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeaTV.vn@SD",
+    "name": "Tea TV (720p)",
+    "country": "VN",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UniquelyThai.vn@SD",
+    "name": "Uniquely Thai (720p)",
+    "country": "VN",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AnGiangTV1.vn@SD",
+    "name": "An Giang TV1 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.angiangtv.vn/live/kgtv/kgtv.m3u8"
+    ]
+  },
+  {
+    "id": "AnGiangTV2.vn@SD",
+    "name": "An Giang TV2 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8"
+    ]
+  },
+  {
+    "id": "AnGiangTV3.vn@SD",
+    "name": "An Giang TV3 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8"
+    ]
+  },
+  {
+    "id": "AnNinhTV.vn@HD",
+    "name": "ANTV (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8",
+      "https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "CaMauTV.vn@SD",
+    "name": "Cà Mau TV (720p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tv.ctvcamau.vn/live/tv/tv.m3u8"
+    ]
+  },
+  {
+    "id": "CanThoTV2.vn@SD",
+    "name": "Can Tho TV 2 (1080p)",
+    "country": "VN",
+    "categories": [
+      "science",
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanThoTV.vn@SD",
+    "name": "Cần Thơ TV1 (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.canthotv.vn/live/tv/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "CanThoTV3.vn@SD",
+    "name": "Cần Thơ TV3 (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.canthotv.vn/cs3/tv/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "CaoBangTV.vn@SD",
+    "name": "Cao Bằng TV (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "DaNangTV1.vn@SD",
+    "name": "Đà Nẵng TV1 (1080p) [Not 24/7]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "DaNangTV2.vn@SD",
+    "name": "Đà Nẵng TV2 (1080p) [Not 24/7]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "DakLakTV.vn@HD",
+    "name": "Đắk Lắk TV (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "DienBienTV.vn@SD",
+    "name": "Dien Bien TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8",
+      "https://truyenhinh.vnptvas.vn/live.m3u8?c=vstv362&deviceId=&deviceType=&gcId=1532&location=NA&pkg=pkg11.hni&q=high&requestTime=1586309420781&time=1586395820&token=LX-ibJYRUq9pflRtYAxfYQ&type=tv&userId="
+    ]
+  },
+  {
+    "id": "DongNaiTV1.vn@SD",
+    "name": "Đồng Nai 1 (480p) [Not 24/7]",
+    "country": "VN",
+    "categories": [
+      "news",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist.m3u8",
+      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8"
+    ]
+  },
+  {
+    "id": "DongNaiTV2.vn@SD",
+    "name": "Dong Nai TV 2 (720p)",
+    "country": "VN",
+    "categories": [
+      "sports",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8"
+    ]
+  },
+  {
+    "id": "DongThapTV.vn@SD",
+    "name": "Đồng Tháp TV1 (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveh34.vtvprime.vn/hls/DONGTHAPTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "TienGiangTV.vn@SD",
+    "name": "Đồng Tháp TV2 (540p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "HaTinhTV.vn@SD",
+    "name": "Ha Tinh TV (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cohauw9bgpvod.vcdn.cloud/httv1/index.m3u8"
+    ]
+  },
+  {
+    "id": "HanoiTV1.vn@SD",
+    "name": "HanoiTV1 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8",
+      "https://liveh34.vtvprime.vn/hls/HANOI1TV/index.m3u8"
+    ]
+  },
+  {
+    "id": "HanoiTV2.vn@SD",
+    "name": "HanoiTV2 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HTV9.vn@HD",
+    "name": "HTV9 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "news",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "HTV4.vn@SD",
+    "name": "HTV4 (1080p)",
+    "country": "VN",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9",
+      "https://dethich.pw/htv4/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTVSports.vn@SD",
+    "name": "HTV Thể thao (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8",
+      "https://dethich.pw/htvthethao/index.m3u8"
+    ]
+  },
+  {
+    "id": "ThuaThienHueTV.vn@SD",
+    "name": "Huế TV (720p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "KhanhHoaTV.vn@SD",
+    "name": "Khanh Hoa TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video"
+    ]
+  },
+  {
+    "id": "LamDongTV.vn@SD",
+    "name": "Lâm Đồng TV (480p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://118.107.85.5:1935/live/smil:LTV.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "LaoCaiTV.vn@HD",
+    "name": "Lào Cai TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.baolaocai.vn/channel2/stream.m3u8"
+    ]
+  },
+  {
+    "id": "NgheAnTV.vn@HD",
+    "name": "Nghệ An TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "NinhThuanTV.vn@SD",
+    "name": "Ninh Thuan TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video"
+    ]
+  },
+  {
+    "id": "ONKids.vn@SD",
+    "name": "ON Kids (720p)",
+    "country": "VN",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=179"
+    ]
+  },
+  {
+    "id": "ONLife.vn@SD",
+    "name": "ON Life (720p)",
+    "country": "VN",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=188"
+    ]
+  },
+  {
+    "id": "ONMovies.vn@SD",
+    "name": "ON Movies (720p)",
+    "country": "VN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=181"
+    ]
+  },
+  {
+    "id": "ONVieDrama.vn@SD",
+    "name": "ON Vie Drama (720p)",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8"
+    ]
+  },
+  {
+    "id": "QPVN.vn@HD",
+    "name": "QPVN HD (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveh12.vtvprime.vn/hls/QPTV/index.m3u8",
+      "https://qpvn.vn/live/qpvn/master.m3u8"
+    ]
+  },
+  {
+    "id": "QuangNgaiTV.vn@HD",
+    "name": "Quảng Ngãi TV1 (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV2.vn@SD",
+    "name": "SCTV2 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8",
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV3.vn@SD",
+    "name": "SCTV3 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV4.vn@SD",
+    "name": "SCTV4 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV5.vn@HD",
+    "name": "SCTV5 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://liveh34.vtvprime.vn/hls/SCTV5/01.m3u8?note=TheWavesIPTV"
+    ]
+  },
+  {
+    "id": "SCTV6.vn@SD",
+    "name": "SCTV6 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8",
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv6/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV7.vn@SD",
+    "name": "SCTV7 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv7/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV9.vn@SD",
+    "name": "SCTV9 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV11.vn@SD",
+    "name": "SCTV11 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV12.vn@SD",
+    "name": "SCTV12 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV13.vn@SD",
+    "name": "SCTV13 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV14.vn@SD",
+    "name": "SCTV14 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV16.vn@SD",
+    "name": "SCTV16 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV18.vn@SD",
+    "name": "SCTV18 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV19.vn@SD",
+    "name": "SCTV19 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/master.m3u8"
+    ]
+  },
+  {
+    "id": "SCTV20.vn@SD",
+    "name": "SCTV20 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8"
+    ]
+  },
+  {
+    "id": "TayNinhTV.vn@SD",
+    "name": "Tây Ninh TV (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "ThaiNguyenTV.vn@SD",
+    "name": "Thái Nguyên TV (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.thainguyentv.vn/hls/livestream.m3u8"
+    ]
+  },
+  {
+    "id": "TraVinhTV.vn@SD",
+    "name": "Tra Vinh TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "culture",
+      "entertainment",
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=91",
+      "https://dethich.pw/thvl5/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVBVietnam.vn@SD",
+    "name": "TVB Vietnam (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VietnamToday.vn@HD",
+    "name": "Vietnam Today (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://amagi-live.ondemandkorea.com/amgplt0456.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vietnamtoday/live-hls-avc/index.m3u8"
+    ]
+  },
+  {
+    "id": "VinhLongTV1.vn@HD",
+    "name": "Vinh Long TV 1 (576p) [Not 24/7]",
+    "country": "VN",
+    "categories": [
+      "news",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://125hvt.ddns.net:21585/thvl1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VinhLongTV2.vn@SD",
+    "name": "Vinh Long TV 2 (1080p)",
+    "country": "VN",
+    "categories": [
+      "culture",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1011154949.vnns.net/CDN-FPT02/THVL2-HD-1080p/playlist.m3u8",
+      "https://dethich.pw/thvl2/index.m3u8"
+    ]
+  },
+  {
+    "id": "TraVinhTV.vn@HD",
+    "name": "Vĩnh Long TV5 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "culture",
+      "entertainment",
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzsd1/vinhlong5_vhls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "VSBetHD.vn@HD",
+    "name": "VSBet HD (1080p)",
+    "country": "VN",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live05.meung.app/live/16226575.m3u8"
+    ]
+  },
+  {
+    "id": "VTV1.vn@HD",
+    "name": "VTV1 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv1/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV2.vn@HD",
+    "name": "VTV2 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv2/index.m3u8",
+      "http://125hvt.ddns.net:21585/vtv2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VTV3.vn@HD",
+    "name": "VTV3 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv3/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV4.vn@HD",
+    "name": "VTV4 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv4/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV5.vn@HD",
+    "name": "VTV5 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv5/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV5TayNamBo.vn@HD",
+    "name": "VTV5 Tay Nam Bo HD (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-a.fptplay53.net/live/media/vtv5tnb/live-hls-avc/index.m3u8",
+      "https://vtvgolive-failover.vtvdigital.vn/vtvgo/vtv5tnb-manifest.m3u8"
+    ]
+  },
+  {
+    "id": "VTV5TayNguyen.vn@HD",
+    "name": "VTV5 Tay Nguyen HD (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/index.m3u8",
+      "https://vtvgolive-failover.vtvdigital.vn/vtvgo/vtv5tn-manifest.m3u8"
+    ]
+  },
+  {
+    "id": "VTV6.vn@HD",
+    "name": "VTV6 (1080p)",
+    "country": "VN",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv6/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV7.vn@HD",
+    "name": "VTV7 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv7/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV8.vn@HD",
+    "name": "VTV8 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv8/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV9.vn@HD",
+    "name": "VTV9 HD (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8",
+      "https://live-a.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv9/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv9/index.m3u8"
+    ]
+  },
+  {
+    "id": "VTV10.vn@SD",
+    "name": "VTV10 (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "VTV10.vn@HD",
+    "name": "VTV10 (1080p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live-a.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8",
+      "https://live.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8",
+      "https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/index.m3u8",
+      "https://dethich.pw/vtv10/index.m3u8"
+    ]
+  },
+  {
+    "id": "DongNaiTV3.vn@SD",
+    "name": "Dong Nai TV 3 (720p)",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/dongnai3/index.m3u8"
+    ]
+  },
+  {
+    "id": "VinhLongTV1.vn@SD",
+    "name": "Vinh Long TV 1 (720p)",
+    "country": "VN",
+    "categories": [
+      "news",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/thvl1/index.m3u8"
+    ]
+  },
+  {
+    "id": "VinhLongTV3.vn@SD",
+    "name": "Vinh Long TV 3 (720p)",
+    "country": "VN",
+    "categories": [
+      "movies",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/thvl3/index.m3u8"
+    ]
+  },
+  {
+    "id": "VinhLongTV4.vn@SD",
+    "name": "Vinh Long TV 4 (720p)",
+    "country": "VN",
+    "categories": [
+      "culture",
+      "travel",
+      "sports",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/thvl4/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV1.vn@SD",
+    "name": "HTV1 (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv1/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV2.vn@SD",
+    "name": "HTV2 (720p)",
+    "country": "VN",
+    "categories": [
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv2/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV3.vn@SD",
+    "name": "HTV3 (720p)",
+    "country": "VN",
+    "categories": [
+      "series",
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv3/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV7.vn@SD",
+    "name": "HTV7 (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv7/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV9.vn@SD",
+    "name": "HTV9 (720p)",
+    "country": "VN",
+    "categories": [
+      "news",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv9/index.m3u8"
+    ]
+  }
+]

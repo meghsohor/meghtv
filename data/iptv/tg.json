@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ACTV.tg@SD",
+    "name": "AC TV (480p) [Not 24/7]",
+    "country": "TG",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ssh101stream.ssh101.com/akamaissh101/ssh101/actvstream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ChandelTV.tg@SD",
+    "name": "Chandel TV (720p)",
+    "country": "TG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kali.vdopanel.com:3660/live/vj6jlam1rlive.m3u8"
+    ]
+  },
+  {
+    "id": "DynamicGospelTV.tg@SD",
+    "name": "Dynamic Gospel TV (480p) [Not 24/7]",
+    "country": "TG",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ssh101stream.ssh101.com/akamaissh101/ssh101/tvdynamicstream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NWEconomie.tg@SD",
+    "name": "NW Economie (576p)",
+    "country": "TG",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.newworldtv.com/nw-economie/video/live.m3u8"
+    ]
+  },
+  {
+    "id": "NWInfo2.tg@SD",
+    "name": "NW Info 2 EN (576p)",
+    "country": "TG",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.newworldtv.com/nw-info-2/video/live.m3u8"
+    ]
+  },
+  {
+    "id": "NWInfo.tg@SD",
+    "name": "NW Info FR (576p)",
+    "country": "TG",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.newworldtv.com/nw-info/video/live.m3u8"
+    ]
+  },
+  {
+    "id": "NWMagazine.tg@SD",
+    "name": "NW Magazine (576p)",
+    "country": "TG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.newworldtv.com/nw-magazine/video/live.m3u8"
+    ]
+  },
+  {
+    "id": "RTJVA.tg@SD",
+    "name": "RT JVA (720p) [Not 24/7]",
+    "country": "TG",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn140m.panaccess.com/HLS/RTVJA/index.m3u8"
+    ]
+  },
+  {
+    "id": "SOSDocteurTV.tg@SD",
+    "name": "SOS Docteur TV (480p) [Not 24/7]",
+    "country": "TG",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wmoy82n4y2a7-hls-live.5centscdn.com/sostv/live.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelevisionEspoir47.tg@SD",
+    "name": "Television Espoir 47 (720p)",
+    "country": "TG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVT.tg@SD",
+    "name": "TVT (720p) [Not 24/7]",
+    "country": "TG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://69.64.57.208/tvt/playlist.m3u8"
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ADOTV.bj@SD",
+    "name": "ADO TV (720p)",
+    "country": "BJ",
+    "categories": [
+      "kids",
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BeninWebTV.bj@SD",
+    "name": "Bénin Web TV (720p)",
+    "country": "BJ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.beninwebtv.bj/2/live/stream.m3u8"
+    ]
+  },
+  {
+    "id": "EdenTV.bj@SD",
+    "name": "Eden TV (540p) [Not 24/7]",
+    "country": "BJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.edentv.bj/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "HC2TV.bj@SD",
+    "name": "HC2 TV",
+    "country": "BJ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.hc2tv.bj/2/live/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ICONETV.bj@SD",
+    "name": "ICONE TV",
+    "country": "BJ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lecteur.iconetv.bj/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "KassouaTV.bj@SD",
+    "name": "KassouaTV (720p)",
+    "country": "BJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playtv4k.live/live/kassouatv/index.m3u8"
+    ]
+  },
+  {
+    "id": "LeNouveauManagerTV.bj@SD",
+    "name": "Le Nouveau Manager TV",
+    "country": "BJ",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lnmlive.com/live/lnmtv.m3u8"
+    ]
+  },
+  {
+    "id": "ORTBTV.bj@HD",
+    "name": "ORTB TV (1080i)",
+    "country": "BJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SpeedlineTV.bj@SD",
+    "name": "Speedline TV",
+    "country": "BJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/dbe59037-07a0-4f1c-82a2-7de94b4b62d2/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVCBenin.bj@SD",
+    "name": "TVC Bénin (720p)",
+    "country": "BJ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8"
+    ]
+  }
+]

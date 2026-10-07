@@ -1,0 +1,14 @@
+[
+  {
+    "id": "QTVGambia.gm@SD",
+    "name": "QTV Gambia (720p) [Not 24/7]",
+    "country": "GM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://player.qtv.gm/hls/live.stream.m3u8"
+    ]
+  }
+]

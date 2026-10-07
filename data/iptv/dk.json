@@ -1,0 +1,143 @@
+[
+  {
+    "id": "TVStorbyen.dk@SD",
+    "name": "BL-TV/TV Storbyen (720p) [Not 24/7]",
+    "country": "DK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5eeb3940cfaa0.streamlock.net/webtv_live/_definst_/mp4:kanalnordvest/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DR1.dk@SD",
+    "name": "DR1 (1080p) [Geo-blocked]",
+    "country": "DK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8"
+    ]
+  },
+  {
+    "id": "DR2.dk@SD",
+    "name": "DR2 (1080p) [Geo-blocked]",
+    "country": "DK",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drlivedr2hls.akamaized.net/hls/live/2113623/drlivedr2/master.m3u8"
+    ]
+  },
+  {
+    "id": "DRRamasjang.dk@SD",
+    "name": "DR Ramasjang (720p) [Geo-blocked]",
+    "country": "DK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drlive03hls.akamaized.net/hls/live/2014190/drlive03/master.m3u8"
+    ]
+  },
+  {
+    "id": "DRTV.dk@SD",
+    "name": "DRTV (1080p)",
+    "country": "DK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8"
+    ]
+  },
+  {
+    "id": "TVfromtheDanishParliament.dk@SD",
+    "name": "Folketinget (1080p) [Not 24/7]",
+    "country": "DK",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8"
+    ]
+  },
+  {
+    "id": "KanalHovedstaden.dk@SD",
+    "name": "Kanal Hovedstaden (720p) [Not 24/7]",
+    "country": "DK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://khkbh.dk:8080/hls/livestream/index.m3u8"
+    ]
+  },
+  {
+    "id": "KKRtv.dk@SD",
+    "name": "KKRtv (720p) [Not 24/7]",
+    "country": "DK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.kkr.dk/live/kkr/playlist.m3u8",
+      "http://stream.kkr.dk/live/ngrp:kkr_adaptive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV2Bornholm.dk@SD",
+    "name": "TV 2/Bornholm (1080p) [Not 24/7]",
+    "country": "DK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://livecdn.euw1-0005.jwplive.com/live/sites/J42OBHtp/media/vvNWt4O9/live.isml/.m3u8"
+    ]
+  },
+  {
+    "id": "TV2Sport.dk@SD",
+    "name": "TV 2 Sport",
+    "country": "DK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/57/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV3Plus.dk@SD",
+    "name": "TV3+",
+    "country": "DK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/49/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVMarineret.dk@SD",
+    "name": "TVMarineret (1080p)",
+    "country": "DK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sdream.info:8080/hls/livestream/index.m3u8"
+    ]
+  }
+]

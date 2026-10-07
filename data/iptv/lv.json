@@ -1,0 +1,171 @@
+[
+  {
+    "id": "LTV1.lv@SD",
+    "name": "LTV1 (1080p)",
+    "country": "LV",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/34/index.m3u8",
+      "https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv1_pasaule/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LTV1.lv@HD",
+    "name": "LTV1 (720p)",
+    "country": "LV",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ltvlive3167.bstrm.net/ltvlive/_definst_/ltvlive_ltv06_ltv1_g_x44_43186_default_1326_hls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "LTV7.lv@SD",
+    "name": "LTV7 (1080p)",
+    "country": "LV",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/371/index.m3u8",
+      "https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8",
+      "http://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LTV7.lv@HD",
+    "name": "LTV7 (720p)",
+    "country": "LV",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ltvlive3167.bstrm.net/ltvlive/_definst_/ltvlive_ltv07_ltv7_g_eb0_43187_default_1327_hls.smil/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "MovifyKino.lv@SD",
+    "name": "Movify Kino (576p)",
+    "country": "LV",
+    "categories": [
+      "movies",
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8"
+    ]
+  },
+  {
+    "id": "Pingviins.lv@SD",
+    "name": "Pingvīns (576p) [Geo-blocked]",
+    "country": "LV",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://void.greenhosting.ru/PingvinsLV_Mpeg4/video.m3u8",
+      "https://sirius.greenhosting.ru/PingvinRu/video.m3u8"
+    ]
+  },
+  {
+    "id": "RadioSWHTV.lv@SD",
+    "name": "Radio SWH TV (1080p)",
+    "country": "LV",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ReTV.lv@SD",
+    "name": "Re TV (1080p)",
+    "country": "LV",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV3Life.lv@SD",
+    "name": "TV3 Life (1080p)",
+    "country": "LV",
+    "categories": [
+      "lifestyle",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/373/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVJurmala.lv@SD",
+    "name": "TV Jūrmala (1080p)",
+    "country": "LV",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://air.star.lv/TV_Jurmala_multistream/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVNET.lv@SD",
+    "name": "TVNET (360p)",
+    "country": "LV",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VidusdaugavasTelevizija.lv@SD",
+    "name": "Vidusdaugavas Televīzija (576p)",
+    "country": "LV",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://straume.vdtv.lv/vdtv2/index.m3u8"
+    ]
+  },
+  {
+    "id": "Gribuvisuzinat.lv@SD",
+    "name": "Хочу всё знать (576p)",
+    "country": "LV",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://void.greenhosting.ru/HochuVjeZnat_Mpeg4/index.m3u8"
+    ]
+  },
+  {
+    "id": "SeaTV.lv@SD",
+    "name": "Sea TV (360p)",
+    "country": "LV",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://dtv.vol.net.ua/Sea_TV_HD/index.m3u8"
+    ]
+  }
+]

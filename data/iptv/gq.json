@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SolTV.gq@SD",
+    "name": "SolTV (720p)",
+    "country": "GQ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.solmediaeg.com/soltv/soltv.m3u8"
+    ]
+  },
+  {
+    "id": "TVGE.gq@SD",
+    "name": "TVGE",
+    "country": "GQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rtmp.ott.mx1.com/tvge1/tvge1/playlist.m3u8"
+    ]
+  }
+]

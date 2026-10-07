@@ -1,0 +1,50 @@
+[
+  {
+    "id": "BonceTV.cw@SD",
+    "name": "Bonce TV (480p) [Not 24/7]",
+    "country": "CW",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://seswa.bonce.tv/hls/bonceswa.m3u8"
+    ]
+  },
+  {
+    "id": "NosPais.cw@SD",
+    "name": "Nos Païs (720p) [Not 24/7]",
+    "country": "CW",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5f86a49aedff6.streamlock.net/nos_pais_24_7/nos_pais_24_7/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVDirect13.cw@SD",
+    "name": "TV Direct 13 (480p) [Not 24/7]",
+    "country": "CW",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oqgdrog4d4rm-hls-live.5centscdn.com/tvdirect/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VAMTV.cw@SD",
+    "name": "VAM Vid's & More (720p)",
+    "country": "CW",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8"
+    ]
+  }
+]

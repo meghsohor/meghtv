@@ -1,0 +1,77 @@
+[
+  {
+    "id": "MNTV.mz@SD",
+    "name": "MNTV",
+    "country": "MZ",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8"
+    ]
+  },
+  {
+    "id": "ReinoInfantil.mz@SD",
+    "name": "Reino Infantil",
+    "country": "MZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaMocambique.mz@SD",
+    "name": "TV Mana Mocambique (720p)",
+    "country": "MZ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://145.239.5.177/141/index.m3u8",
+      "https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVVitoria.mz@SD",
+    "name": "TV Vitória (720p)",
+    "country": "MZ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.srvif.com/tvvitoriamz/tvvitoriamz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVM.mz@SD",
+    "name": "TVM (480p) [Not 24/7]",
+    "country": "MZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://online.tvm.co.mz:1935/live/smil:Channel1.smil/playlist.m3u8",
+      "http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8",
+      "https://stream.tvm.co.mz/hls/tvm/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMInternacional.mz@SD",
+    "name": "TVM Internacional (480p) [Not 24/7]",
+    "country": "MZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8"
+    ]
+  }
+]

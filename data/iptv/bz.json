@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FlexStudioRadioTV.bz@SD",
+    "name": "Flex Studio Radio TV [Not 24/7]",
+    "country": "BZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GuadalupeMedia.bz@SD",
+    "name": "Guadalupe Media (720p)",
+    "country": "BZ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer1.nexgen.bz/GUADALUPE_MEDIA/index.m3u8"
+    ]
+  }
+]

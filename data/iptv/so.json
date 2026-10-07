@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ArlaadiTV.so@SD",
+    "name": "Arlaadi TV",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ap02.iqplay.tv:8082/iqb8002/alr114iapp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HirshabelleTV.so@SD",
+    "name": "Hirshabelle TV (576p)",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PuntlandTV.so@SD",
+    "name": "Puntland TV (720p)",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SaabTV.so@SD",
+    "name": "Saab TV (576p)",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8",
+      "https://cd198.anystream.uk:9092/iqapp/s03btv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SBCTV.so@SD",
+    "name": "SBC TV (720p) [Not 24/7]",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SNTVDaljir.so@SD",
+    "name": "SNTV Daljir (576p)",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SomaliNationalTV.so@SD",
+    "name": "Somali National TV (576p)",
+    "country": "SO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8"
+    ]
+  }
+]

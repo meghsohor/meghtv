@@ -1,0 +1,1635 @@
+[
+  {
+    "id": "16tvBudapest.hu@SD",
+    "name": "16tv Budapest (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlfoldTV.hu@SD",
+    "name": "Alföld TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ApostolTV.hu@SD",
+    "name": "Apostol TV (576p)",
+    "country": "HU",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.apostoltv.hu/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ATV.hu@SD",
+    "name": "ATV (360p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.atv.hu/atvlive/atvstream_2_aac/playlist.m3u8",
+      "https://streamservers.atv.hu/atvlive/atvstream_1_aac/playlist.m3u8",
+      "http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ATVSpirit.hu@SD",
+    "name": "ATV Spirit (360p)",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streamservers.atv.hu/atvliveedge/_definst_/atvstream_2_aac/playlist.m3u8",
+      "http://88.212.15.19/live/test_atv_spirit/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BTV.hu@SD",
+    "name": "Bábolnai TV (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BajaiTV.hu@SD",
+    "name": "Bajai TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BalatonTV.hu@SD",
+    "name": "Balaton TV (432p)",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.iptvservice.eu/hls/balatontv.m3u8"
+    ]
+  },
+  {
+    "id": "BerenteTV.hu@SD",
+    "name": "Berente TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/BerenteTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "BudapestEuropaTelevizio.hu@SD",
+    "name": "Budapest Európa Televízió (576p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/bpetv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CityTV.hu@SD",
+    "name": "City TV",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://citytv.hu/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CsurgoTV.hu@SD",
+    "name": "Csurgo TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cstv.medialivecdn.hu/csurgotv/27725804dc13aa23b3970414524d2dbf.sdp/playlist.m3u8",
+      "http://79.120.178.90:1935/csurgotv/csurgolive/playlist.m3u8",
+      "https://5cd03f21c7193.streamlock.net/csurgotv/csurgolive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DaruTV.hu@SD",
+    "name": "Daru TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DikhTV.hu@SD",
+    "name": "Dikh TV",
+    "country": "HU",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/dikh/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.hu@SD",
+    "name": "Disney Channel",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/disney_channel_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "DSTV.hu@SD",
+    "name": "DSTV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://79.120.178.90:1935/dstv/dstvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DTV.hu@SD",
+    "name": "DTV (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8"
+    ]
+  },
+  {
+    "id": "Duna.hu@SD",
+    "name": "Duna",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/duna_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "DunaWorld.hu@SD",
+    "name": "Duna World",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/duna_world_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "EgykerTV.hu@SD",
+    "name": "Elsö Kerület TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv01.eurocable.co.hu/EC-EGYKERTVHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "ESTV.hu@SD",
+    "name": "ESTV (420p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
+      "https://cloudfront44.lexanetwork.com:1344/relay44_1/HDE040.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EWTNBonumTV.hu@SD",
+    "name": "EWTN/Bonum TV",
+    "country": "HU",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dash2.antik.sk/live/ewtn_bonum/index.m3u8"
+    ]
+  },
+  {
+    "id": "FehervarTV.hu@SD",
+    "name": "Fehérvár TV (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FEM3.hu@SD",
+    "name": "FEM3",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_fem3_atktv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Film4.hu@SD",
+    "name": "Film4",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/film4_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "FilmCafe.hu@Hungary",
+    "name": "Film Cafe",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/film_cafe/index.m3u8"
+    ]
+  },
+  {
+    "id": "FilmPlus.hu@SD",
+    "name": "Film+",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/film_plus_hun_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "FIXTV.hu@SD",
+    "name": "Fix TV (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://fixhd.tv:8082/fix/1080i/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Galaxy4.hu@SD",
+    "name": "Galaxy4",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://budapest-cache-1.antik.sk/live/test_galaxy_4_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GloboTV.hu@SD",
+    "name": "Globo TV (720p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/GloboTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "GolyaTV.hu@SD",
+    "name": "Gólya TV (480p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/GolyaTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "GranTV.hu@SD",
+    "name": "Gran TV (720p)",
+    "country": "HU",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.medialive.hu/gran/grantvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GyongyosiTV.hu@SD",
+    "name": "Gyongyosi TV",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay44_1/HDE043.sdp/playlist.m3u8",
+      "https://cloudfront41.lexanetwork.com:1344/relay02/livestream005.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HtMusicChannel.hu@SD",
+    "name": "H!T Music Channel (480p)",
+    "country": "HU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://hitmusic.hu/hitmusic.m3u8"
+    ]
+  },
+  {
+    "id": "HangulatTV.hu@SD",
+    "name": "Hangulat TV (720p)",
+    "country": "HU",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv01.eurocable.co.hu/EC-HANGULATTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "HegyvidekTV.hu@SD",
+    "name": "Hegyvidek TV",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv02.eurocable.co.hu:15400/EC-HEGYVIDEKTV-FTA/index.m3u8",
+      "https://tv.hegyvidek.hu/stream_mpeg.flv"
+    ]
+  },
+  {
+    "id": "HeviziTV.hu@SD",
+    "name": "Hévízi TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "History.hu@SD",
+    "name": "History",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/history_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "IzauraTV.hu@SD",
+    "name": "Izaura TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/izaura/index.m3u8"
+    ]
+  },
+  {
+    "id": "JaszsagiTersegiTV.hu@SD",
+    "name": "Jászsági Térségi TV (440p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JockyTV.hu@SD",
+    "name": "Jocky TV",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/jocky/index.m3u8"
+    ]
+  },
+  {
+    "id": "KanizsaTV.hu@SD",
+    "name": "Kanizsa TV (400p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/kanizsavtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KaposTV.hu@SD",
+    "name": "Kapos TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront63.lexanetwork.com:1344/relay01/livestream004.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KarcagTV.hu@SD",
+    "name": "Karcag TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront41.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KecskemetiTV.hu@SD",
+    "name": "Kecskemeti TV (416p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rtmp1.40e.hu:8000/live/ktv.m3u8",
+      "https://eurobioinvest.hu:444/live/ktv.m3u8"
+    ]
+  },
+  {
+    "id": "KiskorosTV.hu@SD",
+    "name": "Kiskőrös TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cd03f21c7193.streamlock.net/kiskorostv/korostvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Kolyokklub.hu@SD",
+    "name": "Kolyokklub",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/kolyokklub_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "KomaromiTelevizio.hu@SD",
+    "name": "Komáromi Televízió (400p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/HDE017.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KomlosTV.hu@SD",
+    "name": "Komlós TV (1080p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/KomlosTV/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "LiceumTV.hu@SD",
+    "name": "Liceum TV (576p)",
+    "country": "HU",
+    "categories": [
+      "culture",
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.225.32.62:8890/live.m3u8"
+    ]
+  },
+  {
+    "id": "LifeTV.hu@SD",
+    "name": "Life TV",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/lifetv/index.m3u8"
+    ]
+  },
+  {
+    "id": "Loversenykozvetites.hu@SD",
+    "name": "Lóverseny közvetítés (420p)",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "M1.hu@HD",
+    "name": "M1 HD",
+    "country": "HU",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_m_1_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "M2.hu@SD",
+    "name": "M2 (1080p)",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/m2_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "M4Sport.hu@SD",
+    "name": "M4 Sport",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/m4_hun/index.m3u8",
+      "https://7nyaler.streamhostingcdn.top/stream/80/index.m3u8",
+      "http://88.212.15.19/live/uatlmvixrr/index.m3u8"
+    ]
+  },
+  {
+    "id": "M5.hu@SD",
+    "name": "M5 (1080p)",
+    "country": "HU",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_m_5_hun_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MagyarMoziTV.hu@SD",
+    "name": "Magyar Mozi TV",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mozi/index.m3u8"
+    ]
+  },
+  {
+    "id": "MakoiVarosiTelevizio.hu@SD",
+    "name": "Makói Városi (576p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://makomedia.mikrohalo.hu/hls/makotv.m3u8"
+    ]
+  },
+  {
+    "id": "MezokovesdiTelevizio.hu@SD",
+    "name": "Mezőkövesdi Televízió (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/mezokovesdvtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Minimax.hu@SD",
+    "name": "Minimax",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/minimax_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "MoraNetTV.hu@SD",
+    "name": "Móra-Net TV (576p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.moranettv.hu/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "MoziPlus.hu@SD",
+    "name": "Mozi+",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/mozi_plusz/index.m3u8"
+    ]
+  },
+  {
+    "id": "Moziklub.hu@SD",
+    "name": "Moziklub",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/moziklub_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "Moziverzum.hu@SD",
+    "name": "Moziverzum",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/moziverzum/index.m3u8"
+    ]
+  },
+  {
+    "id": "MuzsikaTV.hu@SD",
+    "name": "Muzsika TV",
+    "country": "HU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_muzsika_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.hu@SD",
+    "name": "National Geographic",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/ngc_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographicWild.hu@SD",
+    "name": "National Geographic Wild",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/ngw_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.hu@SD",
+    "name": "Nick Jr.",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/nick_junior_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.hu@SD",
+    "name": "Nickelodeon",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nicktoons.hu@SD",
+    "name": "Nicktoons",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/nicktoons_hungary/index.m3u8"
+    ]
+  },
+  {
+    "id": "OroszlanyiVarosiTelevizio.hu@SD",
+    "name": "Oroszlányi Városi Televízió (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/broadcast002.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OrszaggyulesOGYplenaris.hu@SD",
+    "name": "Országgyűlés (Plenáris) (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://plenaris.parlament.hu:1935/edgelive/smil:mkogyplen.smil/playlist.m3u8",
+      "https://plenaris.parlament.hu:446/edgelive/smil:mkogyplen.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OrszaggyulesOGYTAB.hu@SD",
+    "name": "Országgyűlés (Törvényalkotási bizottság) (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "http://tab.parlament.hu:1935/edgelive/smil:mkogytab.smil/playlist.m3u8",
+      "https://tab.parlament.hu:446/edgelive/smil:mkogytab.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OxygenMusic.hu@HD",
+    "name": "Oxygen Music (1080p)",
+    "country": "HU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8"
+    ]
+  },
+  {
+    "id": "OzdiVarosiTV.hu@SD",
+    "name": "Ózdi Városi TV (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.nmih.hu:7980/live.m3u8"
+    ]
+  },
+  {
+    "id": "OzoneTV.hu@SD",
+    "name": "Ozone TV",
+    "country": "HU",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/ozone/index.m3u8"
+    ]
+  },
+  {
+    "id": "PilisTV.hu@SD",
+    "name": "PilisTV (1080p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/PilisTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "Prime.hu@SD",
+    "name": "Prime",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/prime/index.m3u8"
+    ]
+  },
+  {
+    "id": "PVTV.hu@SD",
+    "name": "Putnok Városi TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://78.47.126.198:5080/LiveApp/streams/902003217052313577741820.m3u8?token=null"
+    ]
+  },
+  {
+    "id": "RakosmenteTV.hu@SD",
+    "name": "Rákosmente TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rakosmentetv.hu:8080/hls/rmtv.m3u8"
+    ]
+  },
+  {
+    "id": "RegioPluszTV.hu@SD",
+    "name": "RégióPlusz TV (1080p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/RegioPluszTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTL.hu@SD",
+    "name": "RTL",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLGold.hu@SD",
+    "name": "RTL Gold",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://budapest-cache-1.antik.sk/live/test_film_plus_2_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLHarom.hu@SD",
+    "name": "RTL Harom",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLKetto.hu@SD",
+    "name": "RTL Ketto",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_rtl2_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTLOtthon.hu@SD",
+    "name": "RTL Otthon",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/rtl_otthon_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "SIXOTV.hu@SD",
+    "name": "SIXO TV (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/HDE038.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SlagerTV.hu@SD",
+    "name": "Slager TV",
+    "country": "HU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_slager_tv_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SoltvadkertiTelevizio.hu@SD",
+    "name": "Soltvadkerti Televízió (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://79.120.178.90:1935/soltvadkerttv/soltvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SorozatPlus.hu@SD",
+    "name": "Sorozat+",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_sorozat_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Sorozatklub.hu@SD",
+    "name": "Sorozatklub",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/sorozatklub_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "Spektrum.hu@SD",
+    "name": "Spektrum",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/spektrum_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "SpektrumHome.hu@SD",
+    "name": "Spektrum Home",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/spektrum_home_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "Spiler1.hu@SD",
+    "name": "Spiler 1",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/spiler1/index.m3u8"
+    ]
+  },
+  {
+    "id": "Spiler2.hu@SD",
+    "name": "Spiler 2",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/spiler2/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport1.hu@SD",
+    "name": "Sport 1",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/sport1_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport2.hu@SD",
+    "name": "Sport 2",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/sport2_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "Story4.hu@SD",
+    "name": "Story4",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_story_4_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTV2.hu@SD",
+    "name": "Super TV2",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_super_tv2_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SzecsenyTV.hu@SD",
+    "name": "Szécsény TV (720p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://iptv.eurocable.co.hu/EC-SZECSENYTVHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "SzolnokTV.hu@SD",
+    "name": "Szolnok TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/livestream004.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TataiTV.hu@SD",
+    "name": "Tatai TV (1080p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/broadcast006.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TelePaks.hu@SD",
+    "name": "TelePaks (396p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay02/livestream004.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TheFishingHuntingChannel.hu@SD",
+    "name": "The Fishing & Hunting Channel",
+    "country": "HU",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_fishing_hunting/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TiszaTV.hu@SD",
+    "name": "Tisza TV (576p) [Not 24/7]",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://www.tiszatv.hu/onlinetv/tiszatv_1.m3u8"
+    ]
+  },
+  {
+    "id": "TrimedioTV.hu@SD",
+    "name": "Trimedio TV (1080p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/TriMedioTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV2.hu@SD",
+    "name": "TV2",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_tv_2_hungary_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV2Comedy.hu@SD",
+    "name": "TV2 Comedy",
+    "country": "HU",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/tv2_comedy/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV2Kids.hu@SD",
+    "name": "TV2 Kids",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/tv2_kids/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV2Sef.hu@SD",
+    "name": "TV2 Sef",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_lichi_tv_atk_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TV4.hu@SD",
+    "name": "TV4",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.hu@SD",
+    "name": "TV7 Bekescsaba (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.y5.hu/stream/stream_bekescsaba/stream.m3u8"
+    ]
+  },
+  {
+    "id": "TVBudakalasz.hu@SD",
+    "name": "TV Budakalasz (1080p) [Not 24/7]",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/TVBudakalasz/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "TVEger.hu@SD",
+    "name": "TV Eger (1080p)",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://stream.tveger.hu:8010/live.m3u8"
+    ]
+  },
+  {
+    "id": "TVKeszthely.hu@SD",
+    "name": "TV Keszthely (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/keszthelyivtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVSzentendre.hu@SD",
+    "name": "TV Szentendre (1080p) [Geo-blocked]",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.streaming4u.hu/TVSzentendre/index.m3u8"
+    ]
+  },
+  {
+    "id": "VasarhelyiTelevizio.hu@SD",
+    "name": "Vásárhelyi Televízió (576p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.vasarhelyitelevizio.hu/stream/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Viasat2.hu@SD",
+    "name": "Viasat2",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/viasat2/index.m3u8"
+    ]
+  },
+  {
+    "id": "Viasat3.hu@SD",
+    "name": "Viasat 3",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/viasat3/index.m3u8"
+    ]
+  },
+  {
+    "id": "Viasat6.hu@SD",
+    "name": "Viasat 6",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/viasat6/index.m3u8"
+    ]
+  },
+  {
+    "id": "VolgyhidTV.hu@SD",
+    "name": "Völgyhíd TV (540p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5cd03f21c7193.streamlock.net/volgyhidtv/mediakft/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VTVFuzesabony.hu@SD",
+    "name": "VTV Füzesabony (720p) [Not 24/7]",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.nmih.hu:7962/live.m3u8"
+    ]
+  },
+  {
+    "id": "VTVMor.hu@SD",
+    "name": "VTV Mór (360p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/morvtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WilliamsTV.hu@SD",
+    "name": "Williams TV (480p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://79.120.178.90:1935/williams/williamstv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "XVTV.hu@SD",
+    "name": "XV TV (480p)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/relay01/HDE051.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ZalaegerszegiTV.hu@SD",
+    "name": "Zalaegerszegi TV (360p)",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/zegtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Zenebutik.hu@SD",
+    "name": "Zenebutik",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/zenebutik/index.m3u8"
+    ]
+  },
+  {
+    "id": "ZugloTV.hu@SD",
+    "name": "Zuglo TV (360p)",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TheFishingHuntingChannel.hu@HD",
+    "name": "The Fishing & Hunting Channel HD",
+    "country": "HU",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/fishing_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPaprika.hu@SD",
+    "name": "TV Paprika",
+    "country": "HU",
+    "categories": [
+      "lifestyle",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/parpika_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "JimJam.hu@SD",
+    "name": "JimJam",
+    "country": "HU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/jim_jam_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "Story4.hu@Czechia",
+    "name": "Story4 Czechia",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.19/live/story_4_cze_atk/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNSpin.hu@SD",
+    "name": "AXN Spin",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8"
+    ]
+  },
+  {
+    "id": "FilmCafe.hu@Romania",
+    "name": "Film Cafe Romania",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atlantida1.aquax1.cfd/cofyfilm/usergendxn8lzrnd.m3u8"
+    ]
+  },
+  {
+    "id": "AXNSpin.hu@Poland",
+    "name": "AXN Spin Poland",
+    "country": "HU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://polska.hach.workers.dev/14847.m3u8"
+    ]
+  },
+  {
+    "id": "HalomTV.hu@SD",
+    "name": "Halom TV (576i)",
+    "country": "HU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "rtmp://212.92.13.108/live/livestream1"
+    ]
+  },
+  {
+    "id": "FilmMania.hu@SD",
+    "name": "Film Mania (576p)",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/filmmania/mono.m3u8"
+    ]
+  },
+  {
+    "id": "MAX4.hu@SD",
+    "name": "MAX4 (1080p)",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://141.94.193.53:80/MAX4_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "Match4.hu@SD",
+    "name": "Match4 (1080p)",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://141.94.193.53:80/Match4_HD/index.m3u8"
+    ]
+  }
+]

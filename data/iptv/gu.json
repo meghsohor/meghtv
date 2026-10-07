@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Star101FM.gu@SD",
+    "name": "Star 101 FM (KNUT Guam) [Not 24/7]",
+    "country": "GU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8"
+    ]
+  }
+]

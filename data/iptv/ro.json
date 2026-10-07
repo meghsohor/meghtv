@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "A7TV.ro@SD",
+    "name": "A7TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a7tvlive.ro/A7TV/A7TV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AgroTV.ro@SD",
+    "name": "Agro TV (360p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8"
+    ]
+  },
+  {
+    "id": "AlephBusiness.ro@SD",
+    "name": "Aleph Business (1280p)",
+    "country": "RO",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlephNews.ro@SD",
+    "name": "Aleph News (720p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlfaOmegaTV.ro@SD",
+    "name": "Alfa Omega TV (1080p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://aom-live.maghost.ro/aomTV/streams/OOztu5o9Fx6dh9mD1711027803849.m3u8"
+    ]
+  },
+  {
+    "id": "AngelusTV.ro@SD",
+    "name": "Angelus TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.angelustv.ro/hls/angelustv.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaMonden.ro@SD",
+    "name": "Antena Monden (720p)",
+    "country": "RO",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AtomicAcademyTV.ro@SD",
+    "name": "Atomic Academy TV (480p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atomic.streamnet.ro/academia.m3u8"
+    ]
+  },
+  {
+    "id": "AtomicTV.ro@SD",
+    "name": "Atomic TV (360p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atomic.streamnet.ro/atomictv.m3u8"
+    ]
+  },
+  {
+    "id": "BollywoodHD.ro@SD",
+    "name": "Bollywood HD (1080p)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.213.31.109:90/BollywoodHD/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BollywoodHD.ro@Russia",
+    "name": "Bollywood HD Russia (576p)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8"
+    ]
+  },
+  {
+    "id": "BoomTV.ro@HD",
+    "name": "Boom TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvboom.ro/live-tv/live.m3u8"
+    ]
+  },
+  {
+    "id": "BucovinaTV.ro@SD",
+    "name": "Bucovina TV (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://www.bucovinatv.ro/proxy/video/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ColumnaTV.ro@SD",
+    "name": "Columna TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.streamnet.pro/columnatv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CredoTV.ro@SD",
+    "name": "Credo TV (720p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn.credonet.tv:1935/ctv/livecredo/playlist.m3u8",
+      "https://5bb3298db4821.streamlock.net/ctv/livecredo/playlist.m3u8",
+      "https://651c69fa2ff4e.streamlock.net/ctv/_definst_/livecredo/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Digi24.ro@SD",
+    "name": "Digi 24 (720p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport1.ro@SD",
+    "name": "Digi Sport 1",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://7nyaler.streamhostingcdn.top/stream/79/index.m3u8"
+    ]
+  },
+  {
+    "id": "DottoTV.ro@SD",
+    "name": "Dotto TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.dottotv.ro/index.m3u8"
+    ]
+  },
+  {
+    "id": "EMITV.ro@SD",
+    "name": "EMI TV",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://astra.emitv.ro/hls/emi/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVSE.ro@SD",
+    "name": "Exploris (576p) [Not 24/7]",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://89.38.8.130:39419"
+    ]
+  },
+  {
+    "id": "HD365TV.ro@SD",
+    "name": "HD365 TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.netstreaming.eu/hd365.m3u8"
+    ]
+  },
+  {
+    "id": "Hunedoara1.ro@SD",
+    "name": "Hunedoara 1 (480p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://netstreaming.eu/hd1.m3u8"
+    ]
+  },
+  {
+    "id": "IasiTVLife.ro@SD",
+    "name": "IasiTV Life (1080p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.streambox.ro/hls/itv/index.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactTV.ro@HD",
+    "name": "Impact TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tvimpact.ro:8088/hevc/index.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactTVDance.ro@SD",
+    "name": "Impact TV Dance (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.tvimpact.live/hls/dancetv.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactTVManele.ro@SD",
+    "name": "Impact TV Manele (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.tvimpact.live/hls/impact_tv.m3u8"
+    ]
+  },
+  {
+    "id": "InformatiaTV.ro@SD",
+    "name": "Informatia TV",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8"
+    ]
+  },
+  {
+    "id": "JOBTV.ro@SD",
+    "name": "JOB TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jobtvserver.eu/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "KanalD.ro@SD",
+    "name": "Kanal D (480p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.kanald.ro/iphone/knd-live.m3u8"
+    ]
+  },
+  {
+    "id": "KanalD2.ro@SD",
+    "name": "Kanal D2 (1080i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream2.kanald.ro/iphone/knd2-live.m3u8"
+    ]
+  },
+  {
+    "id": "KapitalTV.ro@SD",
+    "name": "Kapital TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://1a-1791.com/live/qt9k24wa/live-hls/41w5-c26y/chunklist_i1_DVR.m3u8"
+    ]
+  },
+  {
+    "id": "KissTV.ro@SD",
+    "name": "Kiss TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8"
+    ]
+  },
+  {
+    "id": "LightChannel.ro@SD",
+    "name": "Light Channel (480p) [Not 24/7]",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MagicTV.ro@SD",
+    "name": "Magic TV (720p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8"
+    ]
+  },
+  {
+    "id": "MetropolaTV.ro@SD",
+    "name": "Metropola TV (1080p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Mireasa.ro@SD",
+    "name": "Mireasa (720p)",
+    "country": "RO",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MISATV.ro@SD",
+    "name": "MISA TV",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vidl.misatv.ro:5050/MSTV/romanian_720p_baseline/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MuscelTV.ro@SD",
+    "name": "Muscel TV (720p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.streamnet.pro/musceltv/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NasulTV.ro@SD",
+    "name": "Nasul TV (720p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.nasul.tv/live/stream.m3u8"
+    ]
+  },
+  {
+    "id": "NovaTVBrasov.ro@SD",
+    "name": "Nova TV Brasov (576p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://novapress.ro:2022/live/nova/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ObservatorNews.ro@SD",
+    "name": "Observator News (360p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live_ObservatorNews/live_ObservatorNews.m3u8"
+    ]
+  },
+  {
+    "id": "PROTVNews.ro@SD",
+    "name": "Pro TV News (1080p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0"
+    ]
+  },
+  {
+    "id": "PROFI24TV.ro@SD",
+    "name": "PROFI 24 TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ro24tv.ro/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "QubTV.ro@SD",
+    "name": "Qub TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8"
+    ]
+  },
+  {
+    "id": "RadioFxNet.ro@HD",
+    "name": "Radio Fx Net (720p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RealitateaPlus.ro@SD",
+    "name": "Realitatea Plus (720p)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RealitateaSportiva.ro@SD",
+    "name": "Realitatea Sportiva (720p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RealitateaStar.ro@SD",
+    "name": "Realitatea Star (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.realitatea.net/realitatea/star_md/ts:playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RockTV.ro@SD",
+    "name": "Rock TV (720p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8"
+    ]
+  },
+  {
+    "id": "SperantaTV.ro@SD",
+    "name": "SperantaTV (1080p)",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jstre.am/live/jsl:2gNjpghXRLE.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTV.ro@SD",
+    "name": "Super TV (1080i) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.supertv.ro/live/supertv/playlist.m3u8",
+      "http://iptv.supertv.ro:8000/play/a001/index.m3u8"
+    ]
+  },
+  {
+    "id": "Tele7ABCHD.ro@SD",
+    "name": "Tele7ABC HD (720p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tele7abc.ro/hls/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMBotosani.ro@SD",
+    "name": "TeleM Botosani (540p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.137.197.15:8080/testing/pl5/playlist/ram/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeleMoldovaPlus.ro@SD",
+    "name": "TeleMoldova + [Geo-blocked]",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vdo.ssl-stream.com:3247/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "Telestar1.ro@SD",
+    "name": "Telestar1",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dvb.tennet.ro/mobile_tv/telestar.m3u8"
+    ]
+  },
+  {
+    "id": "TraditionalTV.ro@SD",
+    "name": "Traditional TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://83.103.149.75:8085/udp/239.30.0.9:4000"
+    ]
+  },
+  {
+    "id": "TVBuzau.ro@SD",
+    "name": "TV Buzau (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://78.96.33.89:8080"
+    ]
+  },
+  {
+    "id": "TVSUD.ro@SD",
+    "name": "TV SUD (1080p) [Geo-blocked]",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream2.live-stream.ro/WebRTCApp/streams/118334672595255049029831.m3u8"
+    ]
+  },
+  {
+    "id": "TVPlusSuceava.ro@SD",
+    "name": "TVPlus Suceava (576p)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://85.186.22.140/testing/pl5/playlist/ram/playlist.m3u8",
+      "http://85.186.146.34:8080"
+    ]
+  },
+  {
+    "id": "TVR1.ro@SD",
+    "name": "TVR 1",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVR2.ro@SD",
+    "name": "TVR 2",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVR3.ro@SD",
+    "name": "TVR 3",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRCluj.ro@SD",
+    "name": "TVR Cluj",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRCraiova.ro@SD",
+    "name": "TVR Craiova",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRCultural.ro@SD",
+    "name": "TVR Cultural",
+    "country": "RO",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRFolclor.ro@SD",
+    "name": "TVR Folclor",
+    "country": "RO",
+    "categories": [
+      "general",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRIasi.ro@SD",
+    "name": "TVR Iasi (1080p) [Geo-blocked]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-tvriasi.cdn.zitec.com/live/tvriasi/main.m3u8",
+      "http://82.208.141.70:8778/1.m3u8",
+      "https://tvr-iasi.lg.mncdn.com/tvriasi/smil:tvriasi.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRInfo.ro@SD",
+    "name": "TVR Info",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRInternational.ro@SD",
+    "name": "TVR International",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRSport.ro@SD",
+    "name": "TVR Sport",
+    "country": "RO",
+    "categories": [
+      "general",
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRTarguMures.ro@SD",
+    "name": "TVR Targu-Mures",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVRTimisoara.ro@SD",
+    "name": "TVR Timisoara",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVSat.ro@SD",
+    "name": "TVSat (576p) [Not 24/7]",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://89.38.8.130:39443"
+    ]
+  },
+  {
+    "id": "RadioRomaniaAntenaSatelor.ro@720p",
+    "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyPlay.ro@SD",
+    "name": "Comedy Play (576i)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/live/ComedyPlay/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "Tele7music.ro@SD",
+    "name": "Tele7music (576i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.tele7music.ro/hls/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.ro@SD",
+    "name": "Comedy Central",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://saruman1.tharen1.cfd/comedi/usergenrx7zo1kr.m3u8"
+    ]
+  },
+  {
+    "id": "TimelessDiziChannel.ro@SD",
+    "name": "Timeless Dizi Channel",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://atlantida1.aquax1.cfd/dizy/usergendlk0tas9c.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.ro@SD",
+    "name": "Disney Channel",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://galandriel1.thobias11.cfd/dysnee/usergendx0k2rnd.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.ro@SD",
+    "name": "Nickelodeon",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8"
+    ]
+  },
+  {
+    "id": "Nicktoons.ro@SD",
+    "name": "Nicktoons",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8"
+    ]
+  },
+  {
+    "id": "TVPaprika.ro@SD",
+    "name": "TV Paprika",
+    "country": "RO",
+    "categories": [
+      "lifestyle",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://galandriel1.thobias11.cfd/papi/usergendxs3jk0s9nd.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.ro@SD",
+    "name": "National Geographic",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://onyx1.mofta1.cfd/ngeo/usergenrnd84oeigt.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographicWild.ro@SD",
+    "name": "National Geographic Wild",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://flash1.bogulus1.cfd/wild/usergenr9qsi5gt.m3u8"
+    ]
+  },
+  {
+    "id": "EuronewsRomania.ro@SD",
+    "name": "Euronews Romania",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://thor1.syndula1.cfd/ernews/usergenx6vkj8aqrnd.m3u8",
+      "https://hls02ns.antenaplay.ro/hls/euronews-ro-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyJunior.ro@SD",
+    "name": "Disney Junior",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8"
+    ]
+  },
+  {
+    "id": "FilmNow.ro@SD",
+    "name": "Film Now",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://thor1.syndula1.cfd/df/usergendlg1ks0t2n.m3u8"
+    ]
+  },
+  {
+    "id": "ArgesTV.ro@SD",
+    "name": "Arges TV (720p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatHistory.ro@SD",
+    "name": "Viasat History",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://arwen1.panaka1.cfd/vhis/usergenrnd4v6g8eigt.m3u8"
+    ]
+  },
+  {
+    "id": "BollywoodClassic.ro@Romania",
+    "name": "Bollywood Classic Romania",
+    "country": "RO",
+    "categories": [
+      "movies",
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatNature.ro@SD",
+    "name": "Viasat Nature",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://arwen1.panaka1.cfd/vnature/usergenrnd2g9eqk.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatExplore.ro@SD",
+    "name": "Viasat Explore",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://arwen1.panaka1.cfd/vexplr/usergenrnd7ke5lgt.m3u8"
+    ]
+  },
+  {
+    "id": "HelloTaste.ro@SD",
+    "name": "Hello Taste",
+    "country": "RO",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/30ddffe9-87f0-4dc7-b0fe-8f0e12044f3e:GRQ/variant/c209b0d3694ace6f439e2179fdad8e66/bandwidth/2628000.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8"
+    ]
+  },
+  {
+    "id": "Minimax.ro@SD",
+    "name": "Minimax",
+    "country": "RO",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8"
+    ]
+  },
+  {
+    "id": "B1.ro@SD",
+    "name": "B1",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "NationalTV.ro@SD",
+    "name": "National TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "National24Plus.ro@SD",
+    "name": "National 24 Plus",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaTV.ro@HD",
+    "name": "Prima TV HD",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6995/index.m3u8"
+    ]
+  },
+  {
+    "id": "PROTV.ro@HD",
+    "name": "PRO TV HD",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/3KZ2W9GEEY49ZV/6997/index.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "RadioRomania3Net.ro@SD",
+    "name": "Radio Romania 3Net (480p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.3netmedia.ro/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ProArena.ro@HD",
+    "name": "Pro Arena HD",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6990/index.m3u8",
+      "https://dokagents.site/live/proarena/mono.m3u8"
+    ]
+  },
+  {
+    "id": "ProCinema.ro@SD",
+    "name": "Pro Cinema",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6951/index.m3u8",
+      "https://dokagents.site/live/procinema/mono.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "Acasa.ro@HD",
+    "name": "Acasa HD",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6988/index.m3u8"
+    ]
+  },
+  {
+    "id": "AcasaGold.ro@SD",
+    "name": "Acasa Gold",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6945/index.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-progold/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "PrimaNews.ro@SD",
+    "name": "Prima News",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "MireasaExtra.ro@SD",
+    "name": "Mireasa Extra",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "rtmp://stream1.antenaplay.ro/live/MireasaExtra"
+    ]
+  },
+  {
+    "id": "HappyChannel.ro@SD",
+    "name": "Happy Channel",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_600k.m3u8"
+    ]
+  },
+  {
+    "id": "TraLaLaTV.ro@SD",
+    "name": "TraLaLa TV",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls01ns.antenaplay.ro/hls/tralala-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaInternational.ro@SD",
+    "name": "Antena International",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sdi06/live2_sdi06_600k.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaStars.ro@SD",
+    "name": "Antena Stars",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sdi07/live2_sdi07_600k.m3u8"
+    ]
+  },
+  {
+    "id": "EtnoTV.ro@SD",
+    "name": "Etno TV",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/etno-tv-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "IneditTV.ro@SD",
+    "name": "Inedit TV",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/inedit-tv-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "BollywoodFilm.ro@SD",
+    "name": "Bollywood Film",
+    "country": "RO",
+    "categories": [
+      "movies",
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/bollywoodfilm/bollywoodfilm.m3u8"
+    ]
+  },
+  {
+    "id": "Antena1.ro@SD",
+    "name": "Antena 1",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sdi14/live2_sdi14_600k.m3u8"
+    ]
+  },
+  {
+    "id": "MoozDance.ro@SD",
+    "name": "Mooz Dance",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/moozdance/moozdance.m3u8"
+    ]
+  },
+  {
+    "id": "MoozHits.ro@SD",
+    "name": "Mooz Hits",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/moozhits/moozhits.m3u8"
+    ]
+  },
+  {
+    "id": "MoozRo.ro@SD",
+    "name": "Mooz Ro!",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/moozro/moozro.m3u8"
+    ]
+  },
+  {
+    "id": "MediCOOLTV.ro@SD",
+    "name": "MediCOOL TV",
+    "country": "RO",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8"
+    ]
+  },
+  {
+    "id": "CinemaratonPlus.ro@HD",
+    "name": "Cinemaraton Plus (1080i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "ImpactTV2.ro@HD",
+    "name": "Impact TV 2 (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.tvimpact.live/hls/impact_tv2.m3u8"
+    ]
+  },
+  {
+    "id": "Insulanonstop.ro@SD",
+    "name": "Insula non stop (576i)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sdi05/live2_sdi05_600k.m3u8"
+    ]
+  },
+  {
+    "id": "AsiaExpressNonStop.ro@SD",
+    "name": "Asia Express NonStop (576i)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sport05/live2_sport05_600k.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport2.ro@HD",
+    "name": "Digi Sport 2 HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/digisport222/playlist.m3u8",
+      "https://dokagents.site/live/digisport2/mono.m3u8"
+    ]
+  },
+  {
+    "id": "FilmNow.ro@HD",
+    "name": "Film Now HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/filmnoww/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport3.ro@SD",
+    "name": "Digi Sport 3 (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/digisport3/mono.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport4.ro@SD",
+    "name": "Digi Sport 4 (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/digisport4/mono.m3u8"
+    ]
+  },
+  {
+    "id": "DigiLife.ro@SD",
+    "name": "Digi Life (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/digilife/mono.m3u8"
+    ]
+  },
+  {
+    "id": "RomaniaTV.ro@SD",
+    "name": "Romania TV (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/romaniatv/mono.m3u8"
+    ]
+  },
+  {
+    "id": "DigiWorld.ro@SD",
+    "name": "Digi World (576i)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/digiworld/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport5.ro@SD",
+    "name": "Prima Sport 5 (480p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/pr5/mono.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport1.ro@HD",
+    "name": "Digi Sport 1 HD (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/digisport1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PROTV.ro@SD",
+    "name": "PRO TV (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/protv/mono.m3u8"
+    ]
+  },
+  {
+    "id": "RadioRomaniaTarguMures.ro@SD",
+    "name": "Radio Romania Targu Mures (576p)",
+    "country": "RO",
+    "categories": [
+      "general",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream3.srr.ro/live/radio-muresr/chunklist_w1731505049.m3u8"
+    ]
+  },
+  {
+    "id": "RadioRomaniaOlteniaCraiova.ro@SD",
+    "name": "Radio Romania Oltenia-Craiova (576p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream3.srr.ro/live/Radio-Oltenia/chunklist_w1200239883.m3u8"
+    ]
+  },
+  {
+    "id": "CineMaraton.ro@SD",
+    "name": "CineMaraton (576i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/cinemaraton/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaTV.ro@SD",
+    "name": "Prima TV (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/primatv/mono.m3u8"
+    ]
+  },
+  {
+    "id": "History.ro@SD",
+    "name": "History",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/history/mono.m3u8"
+    ]
+  },
+  {
+    "id": "TarafTV.ro@SD",
+    "name": "Taraf TV (576p)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/taraf-tv-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "FavoritTV.ro@SD",
+    "name": "Favorit TV (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/favorit-sd/index.m3u8"
+    ]
+  },
+  {
+    "id": "Chefiro.ro@SD",
+    "name": "Chefi.ro (1080p)",
+    "country": "RO",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_aws4_sdi13/live2_aws4_sdi13.m3u8"
+    ]
+  },
+  {
+    "id": "PartyMix.ro@HD",
+    "name": "Party Mix HD (1080p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "PROTVInternational.ro@SD",
+    "name": "PRO TV International",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "ProArena.ro@SD",
+    "name": "Pro Arena (1080p)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "Acasa.ro@SD",
+    "name": "Acasa (1080p)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "HtMusicChannel.ro@SD",
+    "name": "H!t Music Channel",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-mooz-dance/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "MusicChannel.ro@SD",
+    "name": "Music Channel",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-ncn/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "RapsodiaTV.ro@SD",
+    "name": "Rapsodia TV",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-rapsodia-tv/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "MoozLove.ro@SD",
+    "name": "Mooz Love (576p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/moozlove/moozlove.m3u8"
+    ]
+  },
+  {
+    "id": "MoozRetro.ro@SD",
+    "name": "Mooz Retro (576p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/moozretro/moozretro.m3u8"
+    ]
+  },
+  {
+    "id": "NostalgiaTV.ro@HD",
+    "name": "Nostalgia TV (1080p)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "VoyoSport1.ro@HD",
+    "name": "Voyo Sport 1 (1080p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "VPTV.ro@SD",
+    "name": "VP TV",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-vp-tv/live_lq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "DeParintiro.ro@SD",
+    "name": "DeParinti.ro (576p)",
+    "country": "RO",
+    "categories": [
+      "education",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8"
+    ]
+  },
+  {
+    "id": "RadioRomaniaResita.ro@SD",
+    "name": "Radio Romania Resita (576p) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream3.srr.ro/RadioResita/live/playlist.m3u8"
+    ]
+  }
+]

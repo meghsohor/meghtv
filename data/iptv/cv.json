@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TVCidade.cv@SD",
+    "name": "TV Cidade",
+    "country": "CV",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.srvif.com/tvcidade/tvcidade/playlist.m3u8"
+    ]
+  }
+]

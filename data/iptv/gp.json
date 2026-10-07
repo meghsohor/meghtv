@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ETV.gp@SD",
+    "name": "ETV (1080p)",
+    "country": "GP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "MadrasFMTV.gp@SD",
+    "name": "Madras FM TV (1080p)",
+    "country": "GP",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "RadioTVBasseTerre.gp@SD",
+    "name": "Radio TV Basse-Terre (720p)",
+    "country": "GP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vdo.ssl-stream.com:3412/stream/play.m3u8"
+    ]
+  },
+  {
+    "id": "RHTGuadeloupe.gp@SD",
+    "name": "RHT Guadeloupe (720p)",
+    "country": "GP",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "TMA.gp@SD",
+    "name": "TMA (1080p)",
+    "country": "GP",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://hls.tmacaraibes.com/live/index.m3u8"
+    ]
+  }
+]

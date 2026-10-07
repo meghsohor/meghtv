@@ -1,0 +1,91 @@
+[
+  {
+    "id": "NET.mt@SD",
+    "name": "NET (1080p)",
+    "country": "MT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/22.m3u8",
+      "http://80.79.6.221:25461/smash/public/22"
+    ]
+  },
+  {
+    "id": "One.mt@SD",
+    "name": "One",
+    "country": "MT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8",
+      "http://80.79.6.221:25461/smash/public/21"
+    ]
+  },
+  {
+    "id": "ParliamentofMalta.mt@SD",
+    "name": "Parliament of Malta (1080p)",
+    "country": "MT",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/23.m3u8",
+      "http://80.79.6.221:25461/smash/public/23"
+    ]
+  },
+  {
+    "id": "SmashTV.mt@SD",
+    "name": "Smash TV (720p)",
+    "country": "MT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/47.m3u8",
+      "http://80.79.6.221:25461/smash/public/1"
+    ]
+  },
+  {
+    "id": "TVM.mt@SD",
+    "name": "TVM (1080p)",
+    "country": "MT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8",
+      "http://80.79.6.221:25461/smash/public/19"
+    ]
+  },
+  {
+    "id": "TVMsportPlus.mt@SD",
+    "name": "TVMsport+ (1080p)",
+    "country": "MT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8"
+    ]
+  },
+  {
+    "id": "TVMnewsPlus.mt@SD",
+    "name": "TVM News+ [Geo-blocked]",
+    "country": "MT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://80.79.6.221:25461/smash/public/20"
+    ]
+  }
+]

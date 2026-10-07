@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Sahara24.mr@HD",
+    "name": "Sahara 24 (1080p)",
+    "country": "MR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.saharamedias.net:3317/live/shara24live.m3u8"
+    ]
+  }
+]

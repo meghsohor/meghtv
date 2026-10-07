@@ -1,0 +1,745 @@
+[
+  {
+    "id": "FUELTV.pt@EMEA",
+    "name": "FUEL TV (1080p)",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8"
+    ]
+  },
+  {
+    "id": "FUELTV.pt@AU",
+    "name": "Fuel TV (1080p)",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8",
+      "https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KuriakosCine.pt@SD",
+    "name": "Kuriakos Cine (1080p)",
+    "country": "PT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KuriakosKids.pt@SD",
+    "name": "Kuriakos Kids (1080p)",
+    "country": "PT",
+    "categories": [
+      "animation",
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPMundo.pt@SD",
+    "name": "RTP Mundo [Geo-blocked]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://op-group1-swiftservehd-1.dens.tv/s/s38/index.m3u8",
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ADBTV.pt@SD",
+    "name": "ADB TV (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ARTV.pt@SD",
+    "name": "ARTV Canal Parlamento (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "legislative"
+    ],
+    "visible": true,
+    "urls": [
+      "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AXN.pt@SD",
+    "name": "AXN",
+    "country": "PT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/axn.m3u8",
+      "http://188.115.15.121:8000/play/a02z"
+    ]
+  },
+  {
+    "id": "AXNMovies.pt@SD",
+    "name": "AXN Movies (720p)",
+    "country": "PT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://50.7.120.34:8080/AXN_BLACK/index.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.pt@SD",
+    "name": "Disney Channel (1080p)",
+    "country": "PT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
+      "http://zntx.dyndns.org:8085/hls/disney.m3u8"
+    ]
+  },
+  {
+    "id": "Famatv.pt@SD",
+    "name": "Famatv (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8"
+    ]
+  },
+  {
+    "id": "KuriakosMusic.pt@SD",
+    "name": "Kuriakos Music (1080p)",
+    "country": "PT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KuriakosTV.pt@SD",
+    "name": "Kuriakos TV (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaChurchOnline.pt@SD",
+    "name": "Maná Church Online (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaCirkevOnline.pt@SD",
+    "name": "Maná Cirkev Online (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaEgliseOnline.pt@SD",
+    "name": "Maná Église Online (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaIglesiaOnline.pt@SD",
+    "name": "Maná Iglesia Online (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaIgrejaOnline.pt@SD",
+    "name": "Maná Igreja Online (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ManaTserkovOnlayn.pt@SD",
+    "name": "Maná Tserkov' Onlayn (1080p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NPCRadioeTV.pt@SD",
+    "name": "NPC Rádio e TV (720p)",
+    "country": "PT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ONFM.pt@SD",
+    "name": "ON FM (720p)",
+    "country": "PT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PortoCanal.pt@SD",
+    "name": "Porto Canal (720p)",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioSines.pt@SD",
+    "name": "Rádio Sines (720p) [Geo-blocked]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RFPtv.pt@SD",
+    "name": "RFPtv (360p)",
+    "country": "PT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTP1.pt@HD",
+    "name": "RTP 1 (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTP2.pt@HD",
+    "name": "RTP 2 (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPAcores.pt@HD",
+    "name": "RTP Açores (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPAcores.pt@SD",
+    "name": "RTP Açores (504p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPAfrica.pt@SD",
+    "name": "RTP África (504p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPMadeira.pt@SD",
+    "name": "RTP Madeira (504p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPMemoria.pt@SD",
+    "name": "RTP Memória (504p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPNoticias.pt@HD",
+    "name": "RTP Noticias (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RTPNoticias.pt@SD",
+    "name": "RTP Noticias (504p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SIC.pt@SD",
+    "name": "SIC (1080p) [Geo-blocked]",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sic.live.impresa.pt/sic.m3u8"
+    ]
+  },
+  {
+    "id": "SICAltaDefinicao.pt@SD",
+    "name": "SIC Alta Definição (1080p)",
+    "country": "PT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8"
+    ]
+  },
+  {
+    "id": "SICNoticias.pt@SD",
+    "name": "SIC Notícias (1080p) [Geo-blocked]",
+    "country": "PT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sicnot.live.impresa.pt/sicnot.m3u8"
+    ]
+  },
+  {
+    "id": "SICReplay.pt@SD",
+    "name": "SIC Replay (1080p)",
+    "country": "PT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8"
+    ]
+  },
+  {
+    "id": "SportTV1.pt@SD",
+    "name": "Sport TV1",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/stv1.m3u8"
+    ]
+  },
+  {
+    "id": "SportTV2.pt@SD",
+    "name": "Sport TV2",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/stv2.m3u8"
+    ]
+  },
+  {
+    "id": "SportTV5.pt@SD",
+    "name": "Sport TV5",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/stv5.m3u8"
+    ]
+  },
+  {
+    "id": "SportTV6.pt@SD",
+    "name": "Sport TV6",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://zntx.dyndns.org:8085/hls/stv6.m3u8"
+    ]
+  },
+  {
+    "id": "SportTV7.pt@SD",
+    "name": "Sport TV7",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://zntx.dyndns.org:8085/hls/stv7.m3u8"
+    ]
+  },
+  {
+    "id": "SportTVPlus.pt@SD",
+    "name": "Sport TV+",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/sportv+.m3u8"
+    ]
+  },
+  {
+    "id": "StarChannel.pt@SD",
+    "name": "Star Channel",
+    "country": "PT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/fox.m3u8"
+    ]
+  },
+  {
+    "id": "StarComedy.pt@SD",
+    "name": "Star Comedy",
+    "country": "PT",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/foxcomedy.m3u8"
+    ]
+  },
+  {
+    "id": "StarCrime.pt@SD",
+    "name": "Star Crime",
+    "country": "PT",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/foxcrime.m3u8"
+    ]
+  },
+  {
+    "id": "StarLife.pt@SD",
+    "name": "Star Life",
+    "country": "PT",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/foxlife.m3u8"
+    ]
+  },
+  {
+    "id": "StarMovies.pt@SD",
+    "name": "Star Movies",
+    "country": "PT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/foxm.m3u8"
+    ]
+  },
+  {
+    "id": "TVMana1.pt@SD",
+    "name": "TV Maná 1 (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVMana2.pt@SD",
+    "name": "TV Maná 2 (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaBrasil.pt@SD",
+    "name": "TV Maná Brasil (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaEnglish.pt@SD",
+    "name": "TV Maná English (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaEspanhol.pt@SD",
+    "name": "TV Maná Español (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVManaRusskiy.pt@SD",
+    "name": "TV Maná Russkiy (1080p)",
+    "country": "PT",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVI.pt@SD",
+    "name": "TVI (720p)",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8",
+      "http://zntx.dyndns.org:8085/hls/tvi.m3u8"
+    ]
+  },
+  {
+    "id": "TVIFiccao.pt@SD",
+    "name": "TVI Ficção (720p)",
+    "country": "PT",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvificcao.m3u8"
+    ]
+  },
+  {
+    "id": "TVIReality.pt@SD",
+    "name": "TVI Reality (720p) [Not 24/7]",
+    "country": "PT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8"
+    ]
+  },
+  {
+    "id": "VPlusTVI.pt@SD",
+    "name": "V+ TVI (720p)",
+    "country": "PT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/vmaistvi.m3u8"
+    ]
+  },
+  {
+    "id": "SICMulher.pt@SD",
+    "name": "SIC Mulher",
+    "country": "PT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://zntx.dyndns.org:8085/hls/sicm.m3u8"
+    ]
+  },
+  {
+    "id": "SICRadical.pt@SD",
+    "name": "SIC Radical",
+    "country": "PT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://znty.dyndns.org:5010/hls/sicr.m3u8"
+    ]
+  },
+  {
+    "id": "FUELTV.pt@US",
+    "name": "Fuel TV (1080p) [Geo-blocked]",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FUELTV.pt@SD",
+    "name": "Fuel TV (1080p)",
+    "country": "PT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01074-fueltv-amg01074c1-stirr-us-4214.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  }
+]

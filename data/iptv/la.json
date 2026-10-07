@@ -1,0 +1,108 @@
+[
+  {
+    "id": "BrianTV.la@SD",
+    "name": "Brian TV (720p) [Not 24/7]",
+    "country": "LA",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/briantv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DaoLaneXangTV.la@SD",
+    "name": "Dao Lane Xang (720p) [Not 24/7]",
+    "country": "LA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ISTV.la@SD",
+    "name": "ISTV (480p)",
+    "country": "LA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LookThoongTV.la@SD",
+    "name": "Look Thoong TV (720p) [Not 24/7]",
+    "country": "LA",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LSTV.la@SD",
+    "name": "LS TV (480p)",
+    "country": "LA",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OhMuangLaoTV.la@SD",
+    "name": "Oh Muang Lao TV (720p)",
+    "country": "LA",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VatiLao.la@SD",
+    "name": "Vati Lao TV (720p)",
+    "country": "LA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaoNetTV.la@SD",
+    "name": "Lao Net TV (720p)",
+    "country": "LA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NingTV.la@SD",
+    "name": "Ning TV (720p)",
+    "country": "LA",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8"
+    ]
+  }
+]

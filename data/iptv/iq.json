@@ -1,0 +1,674 @@
+[
+  {
+    "id": "ABNsat.iq@SD",
+    "name": "ABNsat (720p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mediaserver.abnvideos.com/streams/abnsat.m3u8"
+    ]
+  },
+  {
+    "id": "AfaqTV.iq@SD",
+    "name": "Afaq TV",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AfarinBaxcha.iq@SD",
+    "name": "Afarin Baxcha (1080p)",
+    "country": "IQ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AfarinTV.iq@SD",
+    "name": "Afarin TV (720p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlIraqia.iq@SD",
+    "name": "Al Iraqia (1080p)",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8"
+    ]
+  },
+  {
+    "id": "AlIraqiaKurdish.iq@HD",
+    "name": "Al Iraqia Kurdish (720p)",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8"
+    ]
+  },
+  {
+    "id": "AlIraqiaNews.iq@SD",
+    "name": "Al Iraqia News (720p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8"
+    ]
+  },
+  {
+    "id": "AlIraqiaSport.iq@SD",
+    "name": "Al Iraqia Sport (720p)",
+    "country": "IQ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
+    ]
+  },
+  {
+    "id": "AlJanoubTV.iq@SD",
+    "name": "Al Janoub TV",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.alissahost.net/hls/test.m3u8"
+    ]
+  },
+  {
+    "id": "AlRasheedTV.iq@SD",
+    "name": "Al Rasheed TV (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlSharqiya.iq@SD",
+    "name": "Al Sharqiya (1080p)",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.9.2.18/chid_144/index.m3u8",
+      "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
+      "https://indexforce.com/tvhighres/mystream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlAimmaTV.iq@SD",
+    "name": "Al-Aimma TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://alaimma.tv/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "AlJawadainTV.iq@SD",
+    "name": "Al-Jawadain TV (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlNaeemTV.iq@SD",
+    "name": "Al-Naeem TV",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://37.238.136.61/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "AlSharqiyaNews.iq@SD",
+    "name": "Al-Sharqiya News (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+      "https://indexforce.com/newshighres/mystream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlabbassiaTV.iq@HD",
+    "name": "Alabbassia TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.alabbassia.com/live/alabbassia/index.m3u8"
+    ]
+  },
+  {
+    "id": "AlawlaTV.iq@SD",
+    "name": "Alawla TV",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.alawla.tv/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "AlghadeerTV.iq@SD",
+    "name": "Alghadeer TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sd343444.vodu.store:3356/live/Alghadeer/index.m3u8"
+    ]
+  },
+  {
+    "id": "Alquran.iq@SD",
+    "name": "Alquran (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ktvlive.online/stream/hls/ch1.m3u8"
+    ]
+  },
+  {
+    "id": "AmozhgaryTV.iq@SD",
+    "name": "Amozhgary TV",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://app-live.org/live/3268334b/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnwarTV2.iq@SD",
+    "name": "Anwar TV2 (720p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8"
+    ]
+  },
+  {
+    "id": "AvarTV.iq@HD",
+    "name": "Avar TV (1080p)",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://avr.host247.net/live/AvarTv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BeitolAbbasTVChannel.iq@SD",
+    "name": "BeitolAbbas TV Channel (720p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.beitolabbas.tv/live/beitolabbastv.m3u8"
+    ]
+  },
+  {
+    "id": "Channel8.iq@SD",
+    "name": "Channel 8 Kurdish (720p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
+    ]
+  },
+  {
+    "id": "DijlahTV.iq@SD",
+    "name": "Dijlah TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ghaasiflu.online/Dijlah/index.m3u8"
+    ]
+  },
+  {
+    "id": "EmanTv.iq@HD",
+    "name": "EmanTv (1080p)",
+    "country": "IQ",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://avr.host247.net/live/emantv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FarmodaTV.iq@HD",
+    "name": "FarmodaTV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://avr.host247.net/live/FarmodaTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV1.iq@SD",
+    "name": "Imam Hussein TV 1 (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.imamhossaintv.com/live/ih1.m3u8",
+      "http://fa.imamhossaintv.com/live/ih1.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV2.iq@SD",
+    "name": "Imam Hussein TV 2 (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.imamhossaintv.com/live/ih2.m3u8",
+      "http://ar.imamhossaintv.com/live/ih2.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV3.iq@SD",
+    "name": "Imam Hussein TV 3 (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.imamhossaintv.com/live/ih3.m3u8",
+      "http://en.imamhossaintv.com/live/ih3.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV4.iq@SD",
+    "name": "Imam Hussein TV 4 (1080p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.imamhossaintv.com/live/ih4.m3u8",
+      "http://ur.imamhossaintv.com/live/ih4.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV5.iq@SD",
+    "name": "Imam Hussein TV 5 (720p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.al-zahratv.com/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ImamHusseinTV6.iq@SD",
+    "name": "Imam Hussein TV 6 (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live.imamhossaintv.com/live/ih6.m3u8"
+    ]
+  },
+  {
+    "id": "INews.iq@SD",
+    "name": "iNEWS TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.i-news.tv/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "IraqFuture.iq@SD",
+    "name": "Iraq Future (480p)",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IshtarTV.iq@SD",
+    "name": "Ishtar TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "culture",
+      "music",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KarbalaDocumentary.iq@HD",
+    "name": "Karbala Documentary",
+    "country": "IQ",
+    "categories": [
+      "religious",
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ktvlive.online/stream/hls/ch3.m3u8"
+    ]
+  },
+  {
+    "id": "Kurdistan24.iq@SD",
+    "name": "Kurdistan 24 (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8"
+    ]
+  },
+  {
+    "id": "KurdistanTV.iq@SD",
+    "name": "Kurdistan TV (720p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Kurdsat.iq@SD",
+    "name": "Kurdsat (1080p)",
+    "country": "IQ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8",
+      "http://185.9.2.18/chid_1/index.m3u8"
+    ]
+  },
+  {
+    "id": "KurdsatNews.iq@SD",
+    "name": "Kurdsat News (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8"
+    ]
+  },
+  {
+    "id": "ManuChat.iq@SD",
+    "name": "Manu Chat",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vmi747311.contaboserver.net/hls/livetv.m3u8"
+    ]
+  },
+  {
+    "id": "MarjaeyatTVArabic.iq@SD",
+    "name": "Marjaeyat TV Arabic (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MarjaeyatTVEnglish.iq@SD",
+    "name": "Marjaeyat TV English (1080p)",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MarjaeyatTVPersian.iq@SD",
+    "name": "Marjaeyat TV Persian (240p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MBCIraq.iq@SD",
+    "name": "MBC Iraq (1080p)",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8"
+    ]
+  },
+  {
+    "id": "Mixkurdy.iq@HD",
+    "name": "Mixkurdy (1080p)",
+    "country": "IQ",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NRTTV.iq@SD",
+    "name": "NRT TV (720p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://media.streambrothers.com:1936/8226/8226/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PayamTV.iq@SD",
+    "name": "Payam TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
+      "https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RudawTV.iq@SD",
+    "name": "Rudaw TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8",
+      "https://live.rudaw.net/hls/rudaw-tv/master.m3u8"
+    ]
+  },
+  {
+    "id": "SamarraTV.iq@SD",
+    "name": "Samarra TV",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.bradosti.net/live/samaraweb_playlist.m3u8",
+      "https://samarra.tv/proxy.php/hls/main3/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ShamsTV.iq@SD",
+    "name": "Shams TV (1080p)",
+    "country": "IQ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.shams.tv/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "WaarTV.iq@SD",
+    "name": "Waar TV (1080p)",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
+      "https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "ZagrosTV.iq@SD",
+    "name": "Zagros (720p) [Not 24/7]",
+    "country": "IQ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
+      "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8"
+    ]
+  },
+  {
+    "id": "UTV.iq@SD",
+    "name": "UTV (1080p)",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8"
+    ]
+  },
+  {
+    "id": "KurdChannel.iq@SD",
+    "name": "Kurd Channel",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://kurdchhls.wns.live/hls/stream.m3u8"
+    ]
+  }
+]

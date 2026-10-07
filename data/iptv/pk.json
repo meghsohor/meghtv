@@ -1,0 +1,1225 @@
+[
+  {
+    "id": "92NewsHD.pk@SD",
+    "name": "92 News HD (720p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "APlusTV.pk@SD",
+    "name": "A-Plus TV (576p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/113328724",
+      "http://103.86.135.164:9981/stream/channelid/1522598263?profile=pass&ticket=8F210F02E7EF3471D45EFD9B293E0E07CE3532BF",
+      "https://cdn4.mjunoon.tv:8087/streamtest/118M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "AajEntertainment.pk@SD",
+    "name": "Aaj Entertainment (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8"
+    ]
+  },
+  {
+    "id": "AajNews.pk@SD",
+    "name": "Aaj News (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/750987367"
+    ]
+  },
+  {
+    "id": "AbbTakk.pk@SD",
+    "name": "Abb Takk (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/852828604"
+    ]
+  },
+  {
+    "id": "ABNNews.pk@SD",
+    "name": "ABN News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/966869781",
+      "https://vodzong.mjunoon.tv:8087/streamtest/ABN-161/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ApnaChannel.pk@SD",
+    "name": "Apna Channel (576p)",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/1273966657"
+    ]
+  },
+  {
+    "id": "ARYMusik.pk@SD",
+    "name": "ARY Musik (1080p)",
+    "country": "PK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://arymusik.aryzap.com/3fd38b2c62d0c3bbd74aedabb533c03a/6459fa78/v1/01847ac7a4930b8ed5aa6ed04aba/01847ac8f5f70b8ed5aa6ed04abd/main.m3u8"
+    ]
+  },
+  {
+    "id": "ATV.pk@SD",
+    "name": "ATV (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/299762256"
+    ]
+  },
+  {
+    "id": "aurLifeHD.pk@SD",
+    "name": "aurLife HD (614p)",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://124.109.47.101/hls/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "AVTKhyber.pk@SD",
+    "name": "AVT Khyber (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://115.42.65.142:9981/stream/channelid/1380586642"
+    ]
+  },
+  {
+    "id": "BSFilm.pk@SD",
+    "name": "BS Film (576p)",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/bsfilm/playlist.m3u8",
+      "https://live20.bozztv.com/akamaissh101/ssh101/bsfilm/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BSTV.pk@SD",
+    "name": "BSTV (576p)",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "City41.pk@SD",
+    "name": "City 41 (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://163.61.227.29:8000/play/a02r/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoverPakistan.pk@SD",
+    "name": "Discover Pakistan (1080p)",
+    "country": "PK",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
+      "http://103.86.135.164:9981/stream/channelid/2073419458?profile=pass&ticket=461AC76A96B0E3DC1FCFBFCF318709B61B2D3F5B",
+      "http://103.86.135.164:9981/stream/channelid/2089283490?profile=pass&ticket=BB7D99860884A453E7DEA789EDFB5114621FEDED"
+    ]
+  },
+  {
+    "id": "DunyaNews.pk@SD",
+    "name": "Dunya News (INT Feed) (720p) [Not 24/7]",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8",
+      "https://intl.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ExpressEntertainment.pk@SD",
+    "name": "Express Entertainment (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8"
+    ]
+  },
+  {
+    "id": "FazalTV.pk@SD",
+    "name": "Fazal TV (1080p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Filmax.pk@SD",
+    "name": "Filmax (576p)",
+    "country": "PK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s3.ideationtec.live/Filmax/Filmax.m3u8"
+    ]
+  },
+  {
+    "id": "Filmazia.pk@SD",
+    "name": "Filmazia (576p)",
+    "country": "PK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a02k/index.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsKidsClubTV.pk@Arabic",
+    "name": "God Stands Kids Club TV Arabic",
+    "country": "PK",
+    "categories": [
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsKidsClubTV.pk@Chinese",
+    "name": "God Stands Kids Club TV Chinese",
+    "country": "PK",
+    "categories": [
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsKidsClubTV.pk@English",
+    "name": "God Stands Kids Club TV English",
+    "country": "PK",
+    "categories": [
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsKidsClubTV.pk@Urdu",
+    "name": "God Stands Kids Club TV Urdu",
+    "country": "PK",
+    "categories": [
+      "kids",
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Main",
+    "name": "God Stands TV",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Arabic",
+    "name": "God Stands TV Arabic",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Chinese",
+    "name": "God Stands TV Chinese",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@English",
+    "name": "God Stands TV English",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Hindi",
+    "name": "God Stands TV Hindi",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Punjabi",
+    "name": "God Stands TV Punjabi",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/PunjabiStreaming.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Tagalog",
+    "name": "God Stands TV Tagalog",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8"
+    ]
+  },
+  {
+    "id": "GodStandsTV.pk@Urdu",
+    "name": "God Stands TV Urdu",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8"
+    ]
+  },
+  {
+    "id": "GraceNetwork.pk@SD",
+    "name": "Grace Network (720p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/grace/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HarPalGeo.pk@SD",
+    "name": "HarPal Geo (360p)",
+    "country": "PK",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HumNews.pk@SD",
+    "name": "Hum News",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.86.135.164:9981/stream/channelid/2024790699?profile=pass&ticket=CAC87CD3CF8747A13FB03B91C9BE860F93CD615C"
+    ]
+  },
+  {
+    "id": "IsaacTV.pk@SD",
+    "name": "Isaac TV (720p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/isaac/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JalwaTV.pk@SD",
+    "name": "Jalwa TV",
+    "country": "PK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://119.156.228.231:9983/stream/channelid/1893273325?profile=pass&ticket=B3DB50D5930411D593B973B8404789C46D3559B8",
+      "https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/live/135M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "JeremiahTV.pk@SD",
+    "name": "Jeremiah TV",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8",
+      "https://x.streamablecloud.com/stream/hls/jeremiahtv/1_2/index.m3u8"
+    ]
+  },
+  {
+    "id": "JooMusic.pk@SD",
+    "name": "JooMusic (720p)",
+    "country": "PK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JoshuaTV.pk@SD",
+    "name": "Joshua TV (720p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/joshua/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Kay2HD.pk@SD",
+    "name": "Kay2 HD (1080p)",
+    "country": "PK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a027/index.m3u8"
+    ]
+  },
+  {
+    "id": "KidsZone.pk@SD",
+    "name": "Kids Zone (720p)",
+    "country": "PK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04m/index.m3u8"
+    ]
+  },
+  {
+    "id": "KingTV.pk@SD",
+    "name": "King TV (720p) [Not 24/7]",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KohenoorNews.pk@SD",
+    "name": "Kohenoor News (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00r/index.m3u8"
+    ]
+  },
+  {
+    "id": "KTNNews.pk@SD",
+    "name": "KTN News (360p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodzong.mjunoon.tv:8087/streamtest/KTNNews-151/playlist.m3u8",
+      "https://cdn4.mjunoon.tv:8087/streamtest/151M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "LahoreNews.pk@SD",
+    "name": "Lahore News (720p) [Not 24/7]",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LahoreRang.pk@SD",
+    "name": "Lahore Rang (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a01q/index.m3u8"
+    ]
+  },
+  {
+    "id": "LTNFamily.pk@SD",
+    "name": "LTN Family (576p)",
+    "country": "PK",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a02j/index.m3u8"
+    ]
+  },
+  {
+    "id": "MNews.pk@SD",
+    "name": "M News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.rabta.stream/M-News/index.m3u8"
+    ]
+  },
+  {
+    "id": "MSports.pk@SD",
+    "name": "M Sports (1080p)",
+    "country": "PK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.rabta.stream/M-Sports/index.m3u8",
+      "https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.ts.m3u8",
+      "https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "MadaniChannelEnglish.pk@SD",
+    "name": "Madani Channel English (720p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://tvsen7.aynascope.net/MadaniTV/index.m3u8",
+      "https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8"
+    ]
+  },
+  {
+    "id": "MadaniChannelUrdu.pk@SD",
+    "name": "Madani Channel Urdu (720p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8"
+    ]
+  },
+  {
+    "id": "MasalaTV.pk@SD",
+    "name": "Masala TV (576p)",
+    "country": "PK",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a02x/index.m3u8",
+      "https://cdn4.mjunoon.tv:8087/streamtest/81M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "MashriqTV.pk@SD",
+    "name": "Mashriq TV (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a02s/index.m3u8",
+      "https://cdn4.mjunoon.tv:8087/streamtest/108M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "MehranTV.pk@SD",
+    "name": "Mehran TV (576p)",
+    "country": "PK",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00m/index.m3u8"
+    ]
+  },
+  {
+    "id": "Metro1News.pk@SD",
+    "name": "Metro1 News (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04u/index.m3u8"
+    ]
+  },
+  {
+    "id": "Minimax.pk@SD",
+    "name": "Minimax (360p)",
+    "country": "PK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NeoNews.pk@SD",
+    "name": "Neo News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a01p/index.m3u8",
+      "https://vodzong.mjunoon.tv:8087/streamtest/Neo-110/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NewsOne.pk@SD",
+    "name": "News One (720p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodzong.mjunoon.tv:8087/streamtest/NEWS1-128/playlist.m3u8",
+      "http://103.250.28.74:8000/play/a04j/index.m3u8"
+    ]
+  },
+  {
+    "id": "ONNewsHD.pk@SD",
+    "name": "ON News HD (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a046/index.m3u8"
+    ]
+  },
+  {
+    "id": "OneGolf.pk@SD",
+    "name": "One Golf (720p)",
+    "country": "PK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8"
+    ]
+  },
+  {
+    "id": "PaighanTV.pk@SD",
+    "name": "Paighan TV (1080p)",
+    "country": "PK",
+    "categories": [
+      "religious",
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://116.90.120.151:8000/play/a00h/index.m3u8",
+      "https://cdn4.mjunoon.tv:8087/streamtest/107M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "Pashto1.pk@SD",
+    "name": "Pashto 1 (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00t/index.m3u8"
+    ]
+  },
+  {
+    "id": "PKSports.pk@SD",
+    "name": "PK Sports (720p)",
+    "country": "PK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PlayEntertainment.pk@SD",
+    "name": "Play Entertainment (576p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a050/index.m3u8"
+    ]
+  },
+  {
+    "id": "PMITV.pk@SD",
+    "name": "PMI TV (720p) [Not 24/7]",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn.live247stream.com/pmi/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PraiseTV.pk@SD",
+    "name": "Praise TV (720p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://livecdn.live247stream.com/praise/tv/playlist.m3u8",
+      "https://pixelsmedia.live/livepraisetv/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVNews.pk@SD",
+    "name": "PTV News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a017/index.m3u8"
+    ]
+  },
+  {
+    "id": "PTVSports.pk@SD",
+    "name": "PTV Sports (1080p)",
+    "country": "PK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a019/index.m3u8",
+      "https://tvsen7.aynascope.net/Sports1/index.m3u8"
+    ]
+  },
+  {
+    "id": "PublicNews.pk@SD",
+    "name": "Public News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04g/index.m3u8"
+    ]
+  },
+  {
+    "id": "QuranTV.pk@SD",
+    "name": "Quran TV (576p)",
+    "country": "PK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a03e/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaaviTV.pk@SD",
+    "name": "Raavi TV (576p) [Not 24/7]",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://116.90.120.149:8000/play/a01f/index.m3u8"
+    ]
+  },
+  {
+    "id": "Rohi.pk@SD",
+    "name": "Rohi (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00d/index.m3u8"
+    ]
+  },
+  {
+    "id": "RozeNews.pk@SD",
+    "name": "Roze News (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a01k/index.m3u8"
+    ]
+  },
+  {
+    "id": "SABTV.pk@SD",
+    "name": "SAB TV (1080p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8"
+    ]
+  },
+  {
+    "id": "SamaaTV.pk@SD",
+    "name": "Samaa TV (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a022/index.m3u8",
+      "https://vodzong.mjunoon.tv:8087/streamtest/SAMAA-173/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ShineStarTV.pk@SD",
+    "name": "Shine Star TV (720p) [Not 24/7]",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SilverScreen.pk@SD",
+    "name": "Silver Screen (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a044/index.m3u8"
+    ]
+  },
+  {
+    "id": "SindhTV.pk@SD",
+    "name": "Sindh TV (1080p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00u/index.m3u8"
+    ]
+  },
+  {
+    "id": "SindhTVNews.pk@SD",
+    "name": "Sindh TV News (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00v/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyNewsUrdu.pk@SD",
+    "name": "Sky News Urdu (720p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "StarAsia.pk@SD",
+    "name": "Star Asia (720p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a010/index.m3u8"
+    ]
+  },
+  {
+    "id": "SuchTV.pk@SD",
+    "name": "Such TV",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.primexsports.com/suchnews/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SunoNewsHD.pk@SD",
+    "name": "Suno News HD (1080p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a02a/index.m3u8"
+    ]
+  },
+  {
+    "id": "TenSportsPakistan.pk@SD",
+    "name": "Ten Sports Pakistan",
+    "country": "PK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://121.91.61.106:8000/play/a04h/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVOneGlobal.pk@SD",
+    "name": "TV One Global (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04i/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVToday.pk@SD",
+    "name": "TV Today (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a06e/index.m3u8"
+    ]
+  },
+  {
+    "id": "VenusHD.pk@SD",
+    "name": "Venus HD (1080p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04x/index.m3u8"
+    ]
+  },
+  {
+    "id": "VSHNews.pk@SD",
+    "name": "VSH News (576p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a00w/index.m3u8"
+    ]
+  },
+  {
+    "id": "WasebTV.pk@SD",
+    "name": "Waseb TV (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.250.28.74:8000/play/a04k/index.m3u8"
+    ]
+  },
+  {
+    "id": "ZindagiTV.pk@SD",
+    "name": "Zindagi TV (576p) [Not 24/7]",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "ARYNews.pk@SD",
+    "name": "ARY News",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8"
+    ]
+  },
+  {
+    "id": "AikNews.pk@SD",
+    "name": "Aik News",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2",
+      "https://cdn23lhr.tamashaweb.com:8087/jazzauth/PNN-abr/live/vsat-84H/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "BolEntertainment.pk@HD",
+    "name": "Bol Entertainment HD",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodzong.mjunoon.tv:8087/streamtest/Channel5-159-4/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HumTV.pk@HD",
+    "name": "Hum TV (720p)",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "7News.pk@SD",
+    "name": "7 News (720p)",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sscsott.com/7news/live/index.m3u8"
+    ]
+  },
+  {
+    "id": "CapitalTV.pk@SD",
+    "name": "Capital TV",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "365News.pk@SD",
+    "name": "365 News",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "24NewsHD.pk@SD",
+    "name": "24 News HD",
+    "country": "PK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "HumTV.pk@SD",
+    "name": "Hum TV SD",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.mjunoon.tv:8087/streamtest/82M/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "FalakTV.pk@SD",
+    "name": "Falak TV",
+    "country": "PK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://falak.rst.ae/index.m3u8"
+    ]
+  },
+  {
+    "id": "8XM.pk@HD",
+    "name": "8XM HD",
+    "country": "PK",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8"
+    ]
+  }
+]

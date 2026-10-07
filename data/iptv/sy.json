@@ -1,0 +1,126 @@
+[
+  {
+    "id": "AlSouriyaTV.sy@HD",
+    "name": "Al-Souriya TV (1080p)",
+    "country": "SY",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8"
+    ]
+  },
+  {
+    "id": "AlikhbariaSyria.sy@SD",
+    "name": "Alikhbaria Syria (1080p)",
+    "country": "SY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.9.2.18/chid_423/index.m3u8"
+    ]
+  },
+  {
+    "id": "Althania.sy@SD",
+    "name": "Althania (1080p)",
+    "country": "SY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kwikmotion.com/syriatv02live/syriatv02.smil/playlist.m3u8",
+      "https://qmcconnect.qa/api/StreamServices/arabictvsyria2/master.m3u8"
+    ]
+  },
+  {
+    "id": "HalabTodayTV.sy@SD",
+    "name": "Halab Today TV (1080p)",
+    "country": "SY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://halabtoday-live.lg.mncdn.com/halabtoday/livestream/playlist.m3u8",
+      "https://mn-nl.mncdn.com/halabtoday/livestream/index.m3u8"
+    ]
+  },
+  {
+    "id": "RojavaTV.sy@SD",
+    "name": "Rojava TV (1080p)",
+    "country": "SY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8"
+    ]
+  },
+  {
+    "id": "RonahiTV.sy@SD",
+    "name": "Ronahi TV (1080p)",
+    "country": "SY",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8"
+    ]
+  },
+  {
+    "id": "SyriaTV.sy@SD",
+    "name": "Syria TV (1080p)",
+    "country": "SY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+      "https://qmcconnect.qa/api/StreamServices/arabictvsyria1/master.m3u8",
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+      "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
+    ]
+  },
+  {
+    "id": "WelatTV.sy@HD",
+    "name": "Welat TV (1080i)",
+    "country": "SY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.badinan.xyz/welat/tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AlalamNewsChannelSyria.sy@SD",
+    "name": "Alalam News Channel Syria (1080p)",
+    "country": "SY",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://live2.alalam.ir/live/Alalam/index.m3u8"
+    ]
+  },
+  {
+    "id": "Prime.sy@HD",
+    "name": "Prime (1080p)",
+    "country": "SY",
+    "categories": [
+      "general",
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.bestream.io/prime/prime.m3u8"
+    ]
+  }
+]

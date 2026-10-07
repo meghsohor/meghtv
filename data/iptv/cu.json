@@ -1,0 +1,50 @@
+[
+  {
+    "id": "PrensaLatinaTV.cu@SD",
+    "name": "Prensa Latina TV (1080p)",
+    "country": "CU",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8192/index.m3u8"
+    ]
+  },
+  {
+    "id": "CubavisionInternacional.cu@SD",
+    "name": "Cubavision Internacional (720p) [Not 24/7]",
+    "country": "CU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Cubavision.cu@SD",
+    "name": "Cubavision",
+    "country": "CU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:9KJTMRBAm2BbnsYK.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalCaribe.cu@SD",
+    "name": "Canal Caribe",
+    "country": "CU",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:CKZ3s6Wuv4gDjndG.stream/playlist.m3u8"
+    ]
+  }
+]
