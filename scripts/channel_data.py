@@ -103,31 +103,45 @@ def _check_categories(where: str, value, known: set[str], errors: list[str]) -> 
             errors.append(f"{where}: unknown category {category!r}")
 
 
+def exclusive_categories(data: ChannelData) -> set[str]:
+    """Categories whose channels show only there: no country, not in All Channels or Search."""
+    return {
+        c["id"]
+        for rows in (data.categories, data.custom_categories)
+        if isinstance(rows, list)
+        for c in rows
+        if isinstance(c, dict) and c.get("exclusive") is True and "id" in c
+    }
+
+
 def validate(data: ChannelData) -> list[str]:
     errors: list[str] = []
 
-    def check_menu(name: str, rows, key: str, extra: list[str]) -> set[str]:
+    def check_menu(name: str, rows, key: str, extra: list[str], optional: tuple[str, ...] = ()) -> set[str]:
         ids: set[str] = set()
         if not isinstance(rows, list):
             errors.append(f"{name}: must be a list")
             return ids
         for row in rows:
             expected = {key, "name", "visible", *extra}
-            if not isinstance(row, dict) or set(row) != expected:
-                errors.append(f"{name}: each entry needs exactly {sorted(expected)}: {row!r}")
+            if not isinstance(row, dict) or not expected <= set(row) <= expected | set(optional):
+                errors.append(f"{name}: each entry needs {sorted(expected)}, optionally {sorted(optional)}: {row!r}")
                 continue
             if not _is_text(row[key]) or not _is_text(row["name"]) or not isinstance(row["visible"], bool):
                 errors.append(f"{name}: bad entry {row!r}")
+            if "exclusive" in row and not isinstance(row["exclusive"], bool):
+                errors.append(f"{name}: exclusive must be true or false: {row!r}")
             if row[key] in ids:
                 errors.append(f"{name}: duplicate {key} {row[key]!r}")
             ids.add(row[key])
         return ids
 
-    category_ids = check_menu("categories.json", data.categories, "id", [])
-    custom_category_ids = check_menu("custom/categories.json", data.custom_categories, "id", [])
+    category_ids = check_menu("categories.json", data.categories, "id", [], ("exclusive",))
+    custom_category_ids = check_menu("custom/categories.json", data.custom_categories, "id", [], ("exclusive",))
     for clash in sorted(category_ids & custom_category_ids):
         errors.append(f"custom/categories.json: {clash!r} is already an iptv-org category")
     all_categories = category_ids | custom_category_ids
+    exclusive = exclusive_categories(data)
     country_codes = check_menu("countries.json", data.countries, "code", ["flag"])
 
     iptv_ids: set[str] = set()
@@ -159,6 +173,7 @@ def validate(data: ChannelData) -> list[str]:
             errors.append(f'{where}: hiddenBy can only be "sync", on a hidden channel')
         _check_urls(where, channel["urls"], errors)
 
+    iptv_categories = {c["id"]: c["categories"] for c in data.channels if isinstance(c, dict) and "id" in c and "categories" in c}
     custom_ids: set[str] = set()
     if not isinstance(data.custom_channels, list):
         errors.append("custom/channels.json: must be a list")
@@ -182,7 +197,11 @@ def validate(data: ChannelData) -> list[str]:
             errors.append(f"{where}: changes nothing")
         if "name" in entry and not _is_text(entry["name"]):
             errors.append(f"{where}: empty name")
-        if "country" in entry and entry["country"] not in country_codes:
+        if entry.get("country") == "":
+            categories = entry.get("categories") or iptv_categories.get(entry["id"]) or []
+            if not isinstance(categories, list) or not any(c in exclusive for c in categories):
+                errors.append(f"{where}: only a channel in an exclusive category can have no country")
+        elif "country" in entry and entry["country"] not in country_codes:
             errors.append(f"{where}: unknown country {entry['country']!r}")
         if "categories" in entry:
             _check_categories(where, entry["categories"], all_categories, errors)

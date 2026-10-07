@@ -131,6 +131,25 @@ class BuildTest(unittest.TestCase):
         d = data([channel("a@x", ["http://a"])], custom=[{"id": "a@x", "visible": False}])
         self.assertEqual(build(d)["channels"], [])
 
+    def test_exclusive_category_channels_show_only_there(self):
+        d = data(
+            [channel("a@x", ["http://a"], categories=["news", "music"])],
+            custom=[
+                {"id": "adult@x", "name": "Adult", "country": "", "categories": ["xyz"], "urls": ["http://x"]},
+                {"id": "a@x", "categories": ["xyz", "news"]},
+            ],
+            custom_categories=[{"id": "xyz", "name": "XYZ", "visible": True, "exclusive": True}],
+        )
+        self.assertEqual(validate(d), [])
+        out = build(d)
+        self.assertEqual([(c["id"], c["country"], c["categories"]) for c in out["channels"]], [("a@x", "", ["xyz"]), ("adult@x", "", ["xyz"])])
+        self.assertEqual(out["categories"], [{"id": "xyz", "name": "XYZ", "exclusive": True}])
+        self.assertEqual(out["countries"], [])
+
+    def test_only_exclusive_channels_may_have_no_country(self):
+        d = data([], custom=[{"id": "n@x", "name": "N", "country": "", "categories": ["news"], "urls": ["http://n"]}])
+        self.assertIn("only a channel in an exclusive category", "\n".join(validate(d)))
+
     def test_an_all_hidden_list_is_never_published(self):
         d = data([channel("a@x", ["http://a"], visible=False)])
         self.assertEqual(empty_parts(build(d)), ["channels", "categories", "countries"])

@@ -19,7 +19,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-from channel_data import ChannelData, load, validate
+from channel_data import ChannelData, exclusive_categories, load, validate
 
 SCHEMA_VERSION = 1
 # A deliberate mass hide (a whole category) needs --force; anything else this big is probably a mistake.
@@ -42,13 +42,22 @@ def merged_channels(data: ChannelData) -> list[dict]:
 
 
 def build(data: ChannelData) -> dict:
-    channels = [c for c in merged_channels(data) if c["visible"]]
+    exclusive = exclusive_categories(data)
+    channels = []
+    for c in merged_channels(data):
+        if not c["visible"]:
+            continue
+        only = [cat for cat in c["categories"] if cat in exclusive]
+        if only:
+            # Shown only in its exclusive categories: no country, so no flag and no Countries entry.
+            c = {**c, "categories": only, "country": ""}
+        channels.append(c)
     used_categories = {cat for c in channels for cat in c["categories"]}
-    used_countries = {c["country"] for c in channels}
+    used_countries = {c["country"] for c in channels if c["country"]}
     return {
         "schemaVersion": SCHEMA_VERSION,
         "categories": [
-            {"id": c["id"], "name": c["name"]}
+            {"id": c["id"], "name": c["name"], **({"exclusive": True} if c["id"] in exclusive else {})}
             for c in data.categories + data.custom_categories
             if c["visible"] and c["id"] in used_categories
         ],

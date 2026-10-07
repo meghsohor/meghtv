@@ -46,6 +46,16 @@ A channel the sync hid (`"hiddenBy": "sync"`) is the sync's to manage, and it's 
 
 A new category goes in `data/custom/categories.json` as `{"id", "name", "visible"}`.
 
+### Exclusive categories
+
+A category with `"exclusive": true` (like `xyz`) keeps its channels to itself. They show only in that category: not under any country, and not in All Channels or Search. A user's Favourites still show them.
+- A channel in an exclusive category can set `"country": ""`. Only such channels may have an empty country.
+- If a channel is also in other categories, the published list keeps only its exclusive ones and empties its country.
+
+```json
+{"id": "Example.xyz@HD", "name": "Example", "country": "", "categories": ["xyz"], "urls": ["https://…"]}
+```
+
 ## Daily sync
 
 `sync-iptv.yml` on `main` runs every day. It merges iptv-org into `data/` and opens a PR against this branch, or updates the one already open. Nothing is published until that PR is merged.

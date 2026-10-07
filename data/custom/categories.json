@@ -2,6 +2,7 @@
   {
     "id": "xyz",
     "name": "XYZ",
-    "visible": true
+    "visible": true,
+    "exclusive": true
   }
 ]
