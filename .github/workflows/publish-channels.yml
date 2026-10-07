@@ -1,0 +1,46 @@
+name: Publish channels
+
+on:
+  push:
+    branches: [channels]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Publish even if it has under half the channels of the live list
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish-channels
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build the list
+        id: build
+        env:
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: python3 scripts/build_channels.py --out site --live https://meghsohor.github.io/meghtv $FORCE
+
+      - name: Upload
+        if: steps.build.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy
+        id: deploy
+        if: steps.build.outputs.changed == 'true'
+        uses: actions/deploy-pages@v5
