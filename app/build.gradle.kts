@@ -21,6 +21,10 @@ android {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
+        // Release plus the owner's own channels from local/channels.json, which stays out of git. Never published.
+        create("personal") {
+            initWith(getByName("release"))
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -42,6 +46,42 @@ android {
 
 kotlin {
     jvmToolchain(17)
+}
+
+/** Copies local/channels.json, and nothing else from local/, into the personal build's assets. */
+abstract class PersonalChannelsTask : DefaultTask() {
+    @get:InputFile abstract val channels: RegularFileProperty
+    @get:OutputDirectory abstract val outputDir: DirectoryProperty
+
+    @TaskAction
+    fun copy() {
+        val file = channels.get().asFile
+        // A file the app can't read would cost its channels, and their favourites, on the next refresh: fail here instead.
+        val list = (groovy.json.JsonSlurper().parse(file) as? Map<*, *>)?.get("channels") as? List<*>
+            ?: throw GradleException("$file: no \"channels\" list")
+        list.forEachIndexed { i, entry ->
+            val c = entry as? Map<*, *>
+            fun strings(key: String) = (c?.get(key) as? List<*>)?.all { it is String } == true
+            val urls = c?.get("urls") as? List<*>
+            if (c?.get("id") !is String || c["name"] !is String || !strings("categories") || !strings("urls") || urls.isNullOrEmpty()) {
+                throw GradleException("$file: channel ${i + 1} needs an id, a name, categories and at least one URL")
+            }
+        }
+        val out = outputDir.get().asFile
+        out.deleteRecursively()
+        out.mkdirs()
+        file.copyTo(out.resolve("personal_channels.json"))
+    }
+}
+
+val personalChannels = tasks.register<PersonalChannelsTask>("personalChannels") {
+    channels.set(rootProject.layout.projectDirectory.file("local/channels.json"))
+}
+
+androidComponents {
+    onVariants(selector().withBuildType("personal")) { variant ->
+        variant.sources.assets?.addGeneratedSourceDirectory(personalChannels, PersonalChannelsTask::outputDir)
+    }
 }
 
 dependencies {
