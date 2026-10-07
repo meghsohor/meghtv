@@ -1,7 +1,8 @@
 """Checks whether stream URLs work: playlist, first variant, first segment. Reads headers and a few bytes only.
 
 Usage: check_urls.py [FILE ...] [--id ID ...]
-  FILE  channel files to check (default: data/custom/channels.json)
+  FILE  channel files to check: a list of channels, or a file with a "channels" list
+        (default: data/custom/channels.json)
   --id  only these channel ids
 """
 
@@ -86,7 +87,11 @@ def main() -> None:
     parser.add_argument("--id", action="append", dest="ids")
     args = parser.parse_args()
 
-    channels = [c for path in args.files for c in json.loads(path.read_text(encoding="utf-8"))]
+    channels = []
+    for path in args.files:
+        content = json.loads(path.read_text(encoding="utf-8"))
+        # A channel list, or a whole published-style file with a "channels" key.
+        channels += content["channels"] if isinstance(content, dict) else content
     if args.ids:
         channels = [c for c in channels if c["id"] in args.ids]
     urls = list(dict.fromkeys(u for c in channels for u in c.get("urls", [])))
