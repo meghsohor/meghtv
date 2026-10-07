@@ -82,7 +82,11 @@ Don't edit the `sync/iptv` branch: the next run replaces it. Make changes on thi
 python3 -m unittest discover -s scripts   # script tests
 python3 scripts/build_channels.py --check # validate data/
 python3 scripts/build_channels.py --out site  # build the published files locally
+python3 scripts/check_urls.py                 # test the custom channels' URLs (playlist, variant, first segment)
+python3 scripts/check_urls.py data/iptv/fr.json --id France24.fr@English  # any file, any channels
 ```
+
+Run `check_urls.py` from a network without a firewall: an office network can refuse or reset connections to streaming servers.
 
 Your PRs to this branch run both checks. The sync PR runs none, because GitHub starts no workflows for a PR opened by a workflow; the sync job runs the checks itself before opening it.
 
