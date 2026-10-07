@@ -54,6 +54,18 @@ Physical keyboard/mouse input to the emulator's own window does not work on this
 
 **Don't re-litigate this** unless something material changes (OS update, emulator update). For a human to interact with the app directly, the real fix is sideloading onto a physical Android TV/Fire TV/Chromecast/Shield device — the full build+sign+`adb install` pipeline already works for that.
 
+## Own channel list (`channels` branch)
+
+- The `channels` branch is an orphan branch, never merged into `main`. It holds the channel data, the scripts and its own workflows; its `README.md` has the rules.
+  - `data/iptv/<cc>.json` is a copy of iptv-org that only ever grows, with a `visible` flag on every channel, category and country.
+  - `data/custom/` holds channels added by hand.
+- Every push to `channels` publishes `manifest.json` and `channels.json` to GitHub Pages (`https://meghsohor.github.io/meghtv/`). The `github-pages` environment allows the `channels` branch to deploy. A ruleset stops the branch from being deleted or force-pushed.
+- `.github/workflows/sync-iptv.yml` lives on `main`, because scheduled workflows only run from the default branch. Every day it merges iptv-org into `channels` and opens or updates the one `sync/iptv` PR. The user merges it by hand.
+  - It uses `GITHUB_TOKEN`, which needs the repo setting that lets Actions create PRs.
+  - A PR opened that way starts no workflows, so the job runs the checks itself.
+  - GitHub turns off scheduled workflows in a public repo after 60 days without commits. If syncs stop, re-enable it on the Actions tab.
+- The app still reads iptv-org directly. Switching it to the published list is the next app PR.
+
 ## iptv-org data source — non-obvious things learned by inspecting it directly
 
 - Source repos: metadata (`channels.csv`, `feeds.csv`, `categories.csv`, `countries.csv`) from `iptv-org/database`; actual stream URLs from the compiled per-country playlists (`streams/<cc>.m3u`) in `iptv-org/iptv`.
