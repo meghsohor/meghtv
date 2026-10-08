@@ -145,7 +145,7 @@ fun VideoPlayer(
   val loadedUrl = remember { arrayOfNulls<String>(1) }
   val pendingUrl = remember { arrayOfNulls<String>(1) }
   val keepAttempt = remember { arrayOfNulls<SourceAttempt>(1) }
-  // From a load until that source first plays: when "Source N of M" shows under the spinner.
+  // From a load until that source first plays: "Source N of M" shows under the spinner, and the controls stay up.
   var sourceLoading by remember { mutableStateOf(false) }
   // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
   var failedSources by remember { mutableStateOf(emptySet<String>()) }
@@ -201,6 +201,7 @@ fun VideoPlayer(
         attempt.index + 1 < currentStreamUrls.size -> SourceAttempt(attempt.index + 1).also { pendingUrl[0] = currentStreamUrls[it.index] }
         else -> {
           pendingUrl[0] = null
+          sourceLoading = false
           playbackError = error
           // A picker left open would sit over the error screen, and a pick from it would play behind that screen.
           openMenu = null
@@ -248,7 +249,7 @@ fun VideoPlayer(
           updateHeldBack()
           val view = playerView ?: return
           view.findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(view.resources.displayMetrics.density, dimmed = !playWhenReady)
-          view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null && !sourcesOpen) ControlsAutoHideMs else 0
+          view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null && !sourcesOpen && !sourceLoading) ControlsAutoHideMs else 0
           if (view.isControllerFullyVisible) view.showController() // re-arm with the new timeout
         }
 
@@ -380,10 +381,11 @@ fun VideoPlayer(
     currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
-  // An open picker holds the controls up, so the button it came from is still there to return to.
-  LaunchedEffect(openMenu, sourcesOpen) {
+  // An open picker holds the controls up, so the button it came from is still there to return to. So does a loading
+  // source, so a switch stays in view; the hide timer starts once it plays.
+  LaunchedEffect(openMenu, sourcesOpen, sourceLoading) {
     val view = playerView ?: return@LaunchedEffect
-    view.controllerShowTimeoutMs = if (openMenu == null && !sourcesOpen && player.playWhenReady) ControlsAutoHideMs else 0
+    view.controllerShowTimeoutMs = if (openMenu == null && !sourcesOpen && !sourceLoading && player.playWhenReady) ControlsAutoHideMs else 0
     if (view.isControllerFullyVisible) view.showController()
   }
 
