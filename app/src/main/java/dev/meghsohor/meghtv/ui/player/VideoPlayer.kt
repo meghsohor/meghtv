@@ -93,7 +93,7 @@ data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = f
 /**
  * Plays [streamUrls] in order, moving on when one fails; the error screen shows once all have failed.
  * [sources] are the same URLs in listed order, for the Source picker; a pick goes to [onSourcePicked], which should
- * put it first in [streamUrls].
+ * make [streamUrls] the pick followed by the rest of [sources]. The player plays that order at once.
  * [channelId] restarts playback on a switch even when two channels share the same URL list.
  * [onTap] returns true when it used the tap. [onAllSourcesFailed] isn't called while offline.
  */
@@ -128,7 +128,11 @@ fun VideoPlayer(
   }
   // Unkeyed: the player listener closes over these once; the load effect resets them on a switch.
   var attempt by remember { mutableStateOf(SourceAttempt()) }
-  var retryTick by remember(channelId, streamUrls) { mutableIntStateOf(0) }
+  var retryTick by remember { mutableIntStateOf(0) }
+  // A pick's play order (the pick, then the rest as listed: what saving it makes streamUrls) until streamUrls next
+  // changes, so a fallback from the pick already follows it before the saved reorder arrives.
+  var pickedOrder by remember(channelId, streamUrls) { mutableStateOf<List<String>?>(null) }
+  val playOrder = pickedOrder ?: streamUrls
   var playbackError by remember { mutableStateOf<PlaybackException?>(null) }
   var keepScreenOn by remember { mutableStateOf(false) }
   var buffering by remember { mutableStateOf(false) }
@@ -159,7 +163,7 @@ fun VideoPlayer(
   // Replays the centre animation.
   var pulse by remember { mutableIntStateOf(0) }
   var volume by remember { mutableFloatStateOf(audioPrefs.getFloat(VolumeKey, 1f)) }
-  val currentStreamUrls by rememberUpdatedState(streamUrls)
+  val currentStreamUrls by rememberUpdatedState(playOrder)
   val currentOnTap by rememberUpdatedState(onTap)
   val currentControlsAllowed by rememberUpdatedState(controlsAllowed)
   val currentOnControlsVisibilityChange by rememberUpdatedState(onControlsVisibilityChange)
@@ -371,7 +375,7 @@ fun VideoPlayer(
     remember(tracks, keptCaptions) {
       TrackKind.entries.filter { trackOptions(it, tracks, player.trackSelectionParameters, keptCaptions = keptCaptions).isNotEmpty() }.toSet()
     }
-  val playingSource = streamUrls.getOrNull(attempt.index)
+  val playingSource = playOrder.getOrNull(attempt.index)
   val sourceNumber = sources.indexOf(playingSource) + 1
   val sourceBadge = if (sources.size > 1 && sourceNumber > 0) "$sourceNumber/${sources.size}" else null
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
@@ -389,17 +393,18 @@ fun VideoPlayer(
     if (view.isControllerFullyVisible) view.showController()
   }
 
-  // Plays the pick here and now; the saved pick only reorders streamUrls, which the load effect plays on through.
+  // Plays the pick here and now, in the order saving it will give streamUrls; that reorder then changes nothing.
   fun pickSource(url: String) {
     sourcesOpen = false
     onSourcePicked(url) // the playing one too: that's how to keep a fallback that worked
-    val index = streamUrls.indexOf(url)
-    if (index < 0 || (url == playingSource && playbackError == null)) return
+    if (url !in sources || (url == playingSource && playbackError == null)) return
     playbackError = null
-    // The saved pick's reorder can reach the load effect before this attempt does; it then plays this, not the old source.
+    // Survives the saved reorder or a refresh landing before the load effect runs: it plays this, not the old source.
     pendingUrl[0] = url
-    attempt = SourceAttempt(index)
-    retryTick++ // reloads even when the index doesn't change
+    val order = listOf(url) + sources.filterNot { it == url }
+    if (order != playOrder) pickedOrder = order
+    attempt = SourceAttempt(0)
+    retryTick++ // reloads even when nothing else changes
   }
 
   fun goLive() {
@@ -427,8 +432,8 @@ fun VideoPlayer(
 
   // The channel attempt and playbackError belong to; a switch resets them here, so it loads once, at the first mirror.
   val loadedFor = remember { arrayOfNulls<Pair<String, List<String>>>(1) }
-  LaunchedEffect(channelId, streamUrls, attempt, retryTick) {
-    val key = channelId to streamUrls
+  LaunchedEffect(channelId, playOrder, attempt, retryTick) {
+    val key = channelId to playOrder
     if (loadedFor[0] != key) {
       val sameChannel = loadedFor[0]?.first == channelId
       loadedFor[0] = key
@@ -441,7 +446,7 @@ fun VideoPlayer(
       // Same channel, its list only reordered or edited (a saved pick, a refresh): go on with the source the player
       // should be on, one still to load or else the one playing, at its new place.
       val current = pendingUrl[0] ?: loadedUrl[0]
-      val kept = if (sameChannel && playbackError == null && current != null) streamUrls.indexOf(current) else -1
+      val kept = if (sameChannel && playbackError == null && current != null) playOrder.indexOf(current) else -1
       if (kept >= 0) {
         val alreadyLoaded = current == loadedUrl[0]
         if (alreadyLoaded) pendingUrl[0] = null
@@ -465,7 +470,7 @@ fun VideoPlayer(
     val skip = keepAttempt[0] == attempt
     keepAttempt[0] = null
     if (skip) return@LaunchedEffect
-    val url = streamUrls.getOrNull(attempt.index)
+    val url = playOrder.getOrNull(attempt.index)
     loadedUrl[0] = url
     pendingUrl[0] = null
     sourceLoading = url != null
