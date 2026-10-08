@@ -1718,15 +1718,15 @@
   },
   {
     "id": "MNCTV.id@HD",
-    "name": "MNCTV HD (720p)",
+    "name": "MNCTV HD",
     "country": "ID",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mncmedia.malingtv.workers.dev/mnctv.m3u8",
-      "http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8"
+      "http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8",
+      "https://mncmedia.malingtv.workers.dev/mnctv.m3u8"
     ]
   },
   {

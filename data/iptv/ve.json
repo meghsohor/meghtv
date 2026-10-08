@@ -908,5 +908,17 @@
     "urls": [
       "http://186.148.196.100:8000/play/a01d"
     ]
+  },
+  {
+    "id": "TVes.ve@SD",
+    "name": "TVes (1080p)",
+    "country": "VE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8"
+    ]
   }
 ]
