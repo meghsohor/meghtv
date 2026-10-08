@@ -12,6 +12,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
@@ -48,12 +49,15 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -255,10 +259,65 @@ private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, modifier: Mo
   }
 }
 
+/**
+ * Touch only: ‹ and › either side of the centre, each over the name of the channel it plays. Wide apart, so the
+ * spinner, its source label and the error screen's text fit between them, but never closer to the sides than
+ * [edgeInset] (clear of the menu tab). Only the buttons take touches. No backgrounds of their own: they sit on the
+ * controls' dimmed picture, or the error screen.
+ */
+@Composable
+internal fun ChannelStepButtons(
+  previous: String?,
+  next: String?,
+  onPrevious: () -> Unit,
+  onNext: () -> Unit,
+  onTouch: () -> Unit,
+  edgeInset: Dp,
+  modifier: Modifier = Modifier,
+) {
+  BoxWithConstraints(modifier) {
+    val gap = (maxWidth - ChannelStepWidth * 2 - edgeInset * 2).coerceIn(0.dp, ChannelStepMaxGap)
+    Row(Modifier.align(Alignment.Center), horizontalArrangement = Arrangement.spacedBy(gap), verticalAlignment = Alignment.CenterVertically) {
+      ChannelStepButton(previous, MeghIcons.ChevronLeft, "Previous channel", onPrevious, onTouch)
+      ChannelStepButton(next, MeghIcons.ChevronRight, "Next channel", onNext, onTouch)
+    }
+  }
+}
+
+@Composable
+private fun ChannelStepButton(name: String?, icon: ImageVector, label: String, onClick: () -> Unit, onTouch: () -> Unit) {
+  // Holds its place when there's nothing to step to, so the other one stays put. The name is part of the button.
+  Column(
+    Modifier.width(ChannelStepWidth).then(
+      if (name == null) Modifier
+      else
+        Modifier.clip(RoundedCornerShape(12.dp))
+          .clickable(role = Role.Button) {
+            onTouch()
+            onClick()
+          }
+          .semantics(mergeDescendants = true) { contentDescription = "$label: $name" }
+    ),
+    horizontalAlignment = Alignment.CenterHorizontally,
+    verticalArrangement = Arrangement.spacedBy(6.dp),
+  ) {
+    if (name == null) return@Column
+    Box(Modifier.size(56.dp), contentAlignment = Alignment.Center) {
+      Icon(icon, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(36.dp))
+    }
+    Text(name, color = Color.White, style = MaterialTheme.typography.labelMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+  }
+}
+
+private val ChannelStepMaxGap = 360.dp
+private val ChannelStepWidth = 130.dp
+
 @Composable
 internal fun PlaybackErrorOverlay(
   offline: Boolean,
   onRetry: () -> Unit,
+  /** Opens the Source picker; null with a single source. */
+  onSources: (() -> Unit)?,
   onDelete: () -> Unit,
   endPadding: Dp,
   focusRetry: Boolean,
@@ -282,6 +341,8 @@ internal fun PlaybackErrorOverlay(
       )
       Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         OverlayButton("Retry", onClick = onRetry, primary = true, modifier = Modifier.focusRequester(retryFocusRequester))
+        // Try one by hand: Retry starts again from the first.
+        if (onSources != null) OverlayButton("Source", onClick = onSources, primary = false)
         // Offline says nothing about the channel.
         if (!offline) OverlayButton("Delete channel", onClick = onDelete, primary = false)
       }

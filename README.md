@@ -10,7 +10,7 @@
 
 ![Release APK](https://github.com/meghsohor/meghtv/actions/workflows/release.yml/badge.svg)
 
-An Android TV and phone app for watching the live TV channels listed by [iptv-org](https://github.com/iptv-org).
+An Android TV and phone app for watching live TV channels, most of them listed by [iptv-org](https://github.com/iptv-org).
 
 MeghTV is free to use and has no ads. If you find it useful, you can support its development to help keep it that way.
 
@@ -18,13 +18,13 @@ MeghTV is free to use and has no ads. If you find it useful, you can support its
 
 ## Features
 
-- Runs on Android TV (remote control) and Android phones (touch, landscape).
+- Runs on Android TV (remote control) and Android phones (touch, landscape). On a phone, arrows over the picture switch to the previous or next channel.
 - Channels browsed by category or country, with search and favourites stored on the device.
-- Channels that failed to play are marked. Any channel can be deleted; a refresh brings deleted channels back.
+- Channels that failed to play are marked. Any channel can be deleted; a full refresh brings deleted channels back.
 - Plays HLS, DASH, SmoothStreaming and RTSP streams, and tries a channel's other stream URLs when one fails. A channel's source can also be picked by hand; the pick is played first from then on.
 - Picture quality, subtitles and audio track can be picked when a stream offers more than one.
 - A paused channel resumes where it was paused; "Go live" (or Right / fast-forward on a TV remote) jumps back to the live picture.
-- "Refresh Channels" updates the channel list from iptv-org.
+- Checks for a new channel list at launch and offers to update; "Refresh Channels" in the menu checks on demand.
 
 ## Building locally
 

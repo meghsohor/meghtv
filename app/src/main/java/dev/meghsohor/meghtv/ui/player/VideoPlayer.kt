@@ -85,7 +85,8 @@ private const val GoLiveMinBehindMs = 3_000L
 enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive, FocusTrackControls }
 
 /** [available]: at least one of Source, Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
-data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false)
+/** [pickerOpen]: a Source, Quality, Subtitles or Audio picker is up. */
+data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false, val pickerOpen: Boolean = false)
 
 /** [behind]: paused, or playing on behind the live edge. [goLiveOffered]: the Go live chip is up. */
 data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = false)
@@ -108,6 +109,8 @@ fun VideoPlayer(
   onTap: () -> Boolean,
   onControlsVisibilityChange: (Boolean) -> Unit,
   onPlaybackActiveChange: (Boolean) -> Unit,
+  onPlaybackFailedChange: (Boolean) -> Unit,
+  onLoadingChange: (Boolean) -> Unit,
   onAllSourcesFailed: () -> Unit,
   onPlaying: () -> Unit,
   onDeleteChannel: () -> Unit,
@@ -117,6 +120,10 @@ fun VideoPlayer(
   overlayEndPadding: Dp = 0.dp,
   controlsEdgeInset: Dp = 0.dp,
   playerCommands: Flow<PlayerCommand> = emptyFlow(),
+  previousChannelName: String? = null,
+  nextChannelName: String? = null,
+  onPreviousChannel: () -> Unit = {},
+  onNextChannel: () -> Unit = {},
 ) {
   val context = LocalContext.current
   val player = remember {
@@ -169,6 +176,12 @@ fun VideoPlayer(
   val currentOnControlsVisibilityChange by rememberUpdatedState(onControlsVisibilityChange)
   val currentOnAllSourcesFailed by rememberUpdatedState(onAllSourcesFailed)
   val currentOnPlaying by rememberUpdatedState(onPlaying)
+  val currentTouchControls by rememberUpdatedState(touchControls)
+  // A phone can switch input modes (a keyboard or gamepad) with the player up.
+  LaunchedEffect(touchControls, playerView) {
+    val view = playerView ?: return@LaunchedEffect
+    view.findViewById<View>(Media3R.id.exo_controls_background)?.background = controlsScrim(view.resources.displayMetrics.density, !player.playWhenReady, touchControls)
+  }
   val liveRejoins = remember { intArrayOf(0) }
   // A resumed live stream plays on from where it was paused. Most streams carry no wall clock, so how far behind it is
   // is the time spent paused (or held back by another app's audio) since the last join with the live edge. Where the
@@ -252,7 +265,7 @@ fun VideoPlayer(
           playing = playWhenReady
           updateHeldBack()
           val view = playerView ?: return
-          view.findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(view.resources.displayMetrics.density, dimmed = !playWhenReady)
+          view.findViewById<View>(Media3R.id.exo_controls_background)?.background = controlsScrim(view.resources.displayMetrics.density, !playWhenReady, currentTouchControls)
           view.controllerShowTimeoutMs = if (playWhenReady && openMenu == null && !sourcesOpen && !sourceLoading) ControlsAutoHideMs else 0
           if (view.isControllerFullyVisible) view.showController() // re-arm with the new timeout
         }
@@ -324,6 +337,13 @@ fun VideoPlayer(
   val playbackActive = playing && playbackError == null
   val currentOnPlaybackActiveChange by rememberUpdatedState(onPlaybackActiveChange)
   LaunchedEffect(playbackActive) { currentOnPlaybackActiveChange(playbackActive) }
+  val failed = playbackError != null
+  val currentOnPlaybackFailedChange by rememberUpdatedState(onPlaybackFailedChange)
+  LaunchedEffect(failed) { currentOnPlaybackFailedChange(failed) }
+  DisposableEffect(Unit) { onDispose { currentOnPlaybackFailedChange(false) } }
+  val currentOnLoadingChange by rememberUpdatedState(onLoadingChange)
+  LaunchedEffect(sourceLoading) { currentOnLoadingChange(sourceLoading) }
+  DisposableEffect(Unit) { onDispose { currentOnLoadingChange(false) } }
 
   LaunchedEffect(muted, volume) {
     player.volume = if (muted) 0f else volume
@@ -381,8 +401,9 @@ fun VideoPlayer(
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null
   val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null)
-  LaunchedEffect(trackControlsReachable, trackControlsFocused) {
-    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused))
+  val pickerOpen = openMenu != null || sourcesOpen
+  LaunchedEffect(trackControlsReachable, trackControlsFocused, pickerOpen) {
+    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused, pickerOpen))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
   // An open picker holds the controls up, so the button it came from is still there to return to. So does a loading
@@ -432,6 +453,8 @@ fun VideoPlayer(
 
   // The channel attempt and playbackError belong to; a switch resets them here, so it loads once, at the first mirror.
   val loadedFor = remember { arrayOfNulls<Pair<String, List<String>>>(1) }
+  // A step from the error screen: its arrows go with the error, so the controls bring them back while the next one loads.
+  val showControlsOnLoad = remember { booleanArrayOf(false) }
   LaunchedEffect(channelId, playOrder, attempt, retryTick) {
     val key = channelId to playOrder
     if (loadedFor[0] != key) {
@@ -497,6 +520,10 @@ fun VideoPlayer(
         return@LaunchedEffect
       }
       player.playWhenReady = true
+      if (showControlsOnLoad[0]) {
+        showControlsOnLoad[0] = false
+        if (controlsAllowed) playerView?.showController()
+      }
     }
   }
 
@@ -524,7 +551,7 @@ fun VideoPlayer(
           findViewById<View>(Media3R.id.exo_progress)?.visibility = View.GONE
           findViewById<View>(Media3R.id.exo_time)?.visibility = View.GONE
 
-          findViewById<View>(Media3R.id.exo_controls_background)?.background = edgeScrim(resources.displayMetrics.density, dimmed = false)
+          findViewById<View>(Media3R.id.exo_controls_background)?.background = controlsScrim(resources.displayMetrics.density, dimmed = false, touchControls)
           // Its settings and CC buttons and their popups are replaced by TrackControls and TrackPickerDialog.
           findViewById<View>(Media3R.id.exo_bottom_bar)?.visibility = View.GONE
 
@@ -612,11 +639,13 @@ fun VideoPlayer(
       }
     }
 
-    if (sourcesOpen && playbackError == null) {
+    // Also from the error screen; a pick there clears it and plays the pick.
+    if (sourcesOpen) {
       TrackPickerDialog(
         "Source",
         sourceLabels(sources, failedSources),
-        selectedIndex = sources.indexOf(playingSource),
+        // Nothing plays behind the error screen.
+        selectedIndex = if (playbackError != null) -1 else sources.indexOf(playingSource),
         touchMode = touchControls,
         onPick = { pickSource(sources[it]) },
         onDismiss = { sourcesOpen = false },
@@ -661,13 +690,37 @@ fun VideoPlayer(
           pendingUrl[0] = null
           retryTick++ // re-runs the load effect even at the first mirror
         },
+        onSources = if (sources.size > 1) ({ sourcesOpen = true }) else null,
         endPadding = overlayEndPadding,
         focusRetry = controlsAllowed,
         modifier = Modifier.fillMaxSize(),
       )
     }
+
+    // With the controls, or on the error screen, where skipping a dead channel is most wanted. TV has Channel Up/Down.
+    if (touchControls && (previousChannelName != null || nextChannelName != null) && ((controlsVisible && playbackError == null) || (playbackError != null && controlsAllowed))) {
+      ChannelStepButtons(
+        previous = previousChannelName,
+        next = nextChannelName,
+        onPrevious = {
+          if (playbackError != null) showControlsOnLoad[0] = true
+          onPreviousChannel()
+        },
+        onNext = {
+          if (playbackError != null) showControlsOnLoad[0] = true
+          onNextChannel()
+        },
+        onTouch = ::keepControlsAlive,
+        edgeInset = controlsEdgeInset,
+        modifier = Modifier.fillMaxSize().padding(end = overlayEndPadding),
+      )
+    }
   }
 }
+
+// On touch the controls fill the picture (the channel arrows sit in the middle), so the whole of it dims evenly.
+private fun controlsScrim(density: Float, dimmed: Boolean, touch: Boolean): Drawable =
+  if (touch) ColorDrawable(MeghBackground.copy(alpha = 0.45f).toArgb()) else edgeScrim(density, dimmed)
 
 /** Dark behind the top and bottom controls; the middle is clear, or [dimmed] while paused. */
 private fun edgeScrim(density: Float, dimmed: Boolean): Drawable {

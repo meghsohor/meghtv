@@ -105,12 +105,13 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var panelOpen by remember { mutableStateOf(splashDone) }
   var activityTick by remember { mutableIntStateOf(0) }
   val lastActivityAt = remember { longArrayOf(SystemClock.uptimeMillis()) }
-  var confirmRefresh by remember { mutableStateOf(false) }
   var confirmExit by remember { mutableStateOf(false) }
   var showSupport by rememberSaveable { mutableStateOf(false) }
   var showInfo by remember { mutableStateOf(false) }
   var searchFieldFocused by remember { mutableStateOf(false) }
   var playbackActive by remember { mutableStateOf(false) }
+  var playbackFailed by remember { mutableStateOf(false) }
+  var channelLoading by remember { mutableStateOf(false) }
   var menuChannel by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
@@ -159,7 +160,11 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   // Nothing to watch: on touch unless something plays; on TV only before the first pick, since there
   // only the timer can move the panel off a paused picture or the error screen.
   val nothingToWatch = if (touchMode) !(hasPlayer && playbackActive) else !hasPlayer
-  val suppressAutoHide = !splashDone || refreshInProgress || confirmRefresh || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
+  // Waits its turn behind any other popup and typing; a check at launch can finish during the loading screen.
+  val showUpdateOffer =
+    splashDone && state.updateOffer != null && !refreshInProgress && !showSupport && !showInfo && menuChannel == null && !confirmExit &&
+      !trackControls.pickerOpen && !searching
+  val suppressAutoHide = !splashDone || refreshInProgress || showUpdateOffer || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
   LaunchedEffect(Unit) {
     if (splashDone) return@LaunchedEffect
     delay(SplashMs)
@@ -178,8 +183,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     onPauseOrDispose {}
   }
   val hasChannels = state.categories.isNotEmpty()
-  LaunchedEffect(resumeCount, splashDone, state.startupPanelChosen, refreshInProgress, hasChannels, showInfo) {
-    if (splashDone && state.startupPanelChosen && !refreshInProgress && hasChannels && !showInfo && supportPrompt.dueToday()) {
+  val updateOfferPending = state.updateOffer != null || state.checkingInBackground
+  LaunchedEffect(resumeCount, splashDone, state.startupPanelChosen, refreshInProgress, updateOfferPending, hasChannels, showInfo) {
+    if (splashDone && state.startupPanelChosen && !refreshInProgress && !updateOfferPending && hasChannels && !showInfo && supportPrompt.dueToday()) {
       supportPrompt.markShown()
       showSupport = true
     }
@@ -322,6 +328,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onLiveStateChange = { liveState = it },
         onTrackControlsChange = { trackControls = it },
         onPlaybackActiveChange = { playbackActive = it },
+        onPlaybackFailedChange = { playbackFailed = it },
+        onLoadingChange = { channelLoading = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
         onDeleteChannel = {
@@ -332,10 +340,15 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         // Clear of the edge tab, and the same on the left.
         controlsEdgeInset = PanelHandleWidth + 8.dp,
         playerCommands = playerCommands,
+        previousChannelName = state.previousChannel?.displayName,
+        nextChannelName = state.nextChannel?.displayName,
+        onPreviousChannel = viewModel::onChannelDown,
+        onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
-      if (panelOpen || playerControlsVisible) {
-        NowPlayingBadge(channel = currentChannel, live = !liveState.behind, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
+      // Also while a channel loads and on the error screen, so it says which channel that is; LIVE is greyed until it plays.
+      if (panelOpen || playerControlsVisible || playbackFailed || channelLoading) {
+        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !playbackFailed && !channelLoading, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
       Image(
@@ -357,7 +370,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     }
 
     // Touch only: a remote can't reach it, since with the menu closed its keys open the menu. The menu covers it when open.
-    if (touchMode) CornerInfoButton(onClick = { showInfo = true }, modifier = Modifier.align(Alignment.TopEnd).padding(16.dp))
+    // Lined up with the menu tab below it, which is as wide.
+    if (touchMode) CornerInfoButton(onClick = { showInfo = true }, modifier = Modifier.align(Alignment.TopEnd).padding(top = 16.dp))
 
     // Slides in from the edge it lives on. One placement offset, so a low-end TV keeps up.
     AnimatedVisibility(
@@ -375,7 +389,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onSearchFieldFocusChanged = { searchFieldFocused = it },
         // The in-list search's own Back handler stamps the shared de-dupe, so a doubled press can't also close the panel.
         onBackHandled = { lastBackAt[0] = SystemClock.uptimeMillis() },
-        onRefresh = { confirmRefresh = true },
+        onRefresh = viewModel::onCheckForUpdate,
         onInfo = { showInfo = true },
         onChannelMenu = { index, channel -> menuChannel = IndexedValue(index, channel) },
         refocusAfterDelete = refocusAfterDelete,
@@ -392,20 +406,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       exit = fadeOut(tween(PanelAnimMs)),
     ) {
       PanelHandle(onClick = ::openPanel)
-    }
-
-    if (confirmRefresh) {
-      ConfirmDialog(
-        title = "Refresh channels?",
-        message = "This downloads the latest channel list from iptv-org. Any channels you deleted will come back.",
-        confirmLabel = "Refresh",
-        touchMode = touchMode,
-        onConfirm = {
-          confirmRefresh = false
-          viewModel.onRefresh()
-        },
-        onDismiss = { confirmRefresh = false },
-      )
     }
 
     if (confirmExit) {
@@ -440,6 +440,15 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
 
     if (splashDone) state.refresh?.let { status -> RefreshDialog(status = status, touchMode = touchMode, onDismiss = viewModel::onDismissRefreshResult) }
 
+    state.updateOffer?.takeIf { showUpdateOffer }?.let { offer ->
+      UpdateOfferDialog(
+        offer = offer,
+        touchMode = touchMode,
+        onUpdate = { viewModel.onApplyUpdate(full = false) },
+        onFullRefresh = { viewModel.onApplyUpdate(full = true) },
+        onDismiss = viewModel::onDismissUpdateOffer,
+      )
+    }
     if (showSupport) SupportDialog(touchMode = touchMode, onDismiss = { showSupport = false })
     if (showInfo) InfoDialog(touchMode = touchMode, onDismiss = { showInfo = false })
 
@@ -498,15 +507,14 @@ private fun PanelHandle(onClick: () -> Unit, modifier: Modifier = Modifier) {
 
 @Composable
 private fun CornerInfoButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
+  // As wide as the menu tab, with the icon a touch in from its left edge (the user's choice).
   Box(
     modifier
-      .size(44.dp)
-      .clip(RoundedCornerShape(50))
-      .background(MeghBackground.copy(alpha = 0.8f))
-      .clickable(onClickLabel = "About MeghTV", onClick = onClick)
+      .size(PanelHandleWidth)
+      .clickable(onClickLabel = "About MeghTV", indication = null, interactionSource = null, onClick = onClick)
       .semantics { contentDescription = "About MeghTV" },
-    contentAlignment = Alignment.Center,
+    contentAlignment = Alignment.CenterStart,
   ) {
-    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(start = 4.dp).size(22.dp))
   }
 }

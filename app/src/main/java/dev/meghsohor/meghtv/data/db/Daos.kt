@@ -51,10 +51,12 @@ interface CountryDao {
 
 data class ChannelSelection(val id: String, val selectedSourceUrl: String?)
 
-// Lists sort by name (source order reads as random) and leave out deleted channels.
+// Lists sort by name (source order reads as random) and leave out deleted channels. A channel with no country
+// belongs only to its exclusive categories, so All Channels and Search leave it out too.
 @Dao
 interface ChannelDao {
-  @Query("SELECT * FROM channels WHERE id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder") fun observeAll(): Flow<List<ChannelEntity>>
+  @Query("SELECT * FROM channels WHERE countryCode != '' AND id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder")
+  fun observeAll(): Flow<List<ChannelEntity>>
 
   @Query(
     "SELECT * FROM channels WHERE (';' || categoryIds || ';') LIKE ('%;' || :categoryId || ';%') AND id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder"
@@ -64,7 +66,7 @@ interface ChannelDao {
   @Query("SELECT * FROM channels WHERE countryCode = :countryCode AND id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder")
   fun observeByCountry(countryCode: String): Flow<List<ChannelEntity>>
 
-  @Query("SELECT * FROM channels WHERE displayName LIKE '%' || :query || '%' AND id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder")
+  @Query("SELECT * FROM channels WHERE displayName LIKE '%' || :query || '%' AND countryCode != '' AND id NOT IN (SELECT channelId FROM deleted_channels) ORDER BY displayName COLLATE NOCASE, sortOrder")
   fun observeSearch(query: String): Flow<List<ChannelEntity>>
 
   @Query(
@@ -73,6 +75,8 @@ interface ChannelDao {
   fun observeBookmarked(): Flow<List<ChannelEntity>>
 
   @Query("SELECT id FROM channels") suspend fun allIds(): List<String>
+
+  @Query("SELECT * FROM channels") suspend fun getAll(): List<ChannelEntity>
 
   @Query("SELECT EXISTS(SELECT 1 FROM channels)") suspend fun hasAny(): Boolean
 
@@ -98,6 +102,8 @@ interface StreamUrlDao {
 
   @Query("SELECT * FROM stream_urls WHERE channelId = :channelId ORDER BY sortOrder")
   suspend fun getForChannel(channelId: String): List<StreamUrlEntity>
+
+  @Query("SELECT * FROM stream_urls ORDER BY channelId, sortOrder") suspend fun getAllUrls(): List<StreamUrlEntity>
 
   @Query("DELETE FROM stream_urls") suspend fun deleteAll()
 
@@ -127,6 +133,8 @@ interface BookmarkDao {
 interface DeletedChannelDao {
   @Insert(onConflict = OnConflictStrategy.REPLACE) suspend fun add(entry: DeletedChannelEntity)
 
+  @Query("SELECT channelId FROM deleted_channels") suspend fun allIds(): List<String>
+
   @Query("DELETE FROM deleted_channels") suspend fun clear()
 }
 
@@ -137,6 +145,10 @@ interface FailedChannelDao {
   @Insert(onConflict = OnConflictStrategy.REPLACE) suspend fun add(entry: FailedChannelEntity)
 
   @Query("DELETE FROM failed_channels WHERE channelId = :channelId") suspend fun remove(channelId: String)
+
+  @Query("DELETE FROM failed_channels WHERE channelId IN (:channelIds)") suspend fun removeIds(channelIds: List<String>)
+
+  @Query("DELETE FROM failed_channels") suspend fun clear()
 
   @Query("DELETE FROM failed_channels WHERE channelId NOT IN (SELECT id FROM channels)") suspend fun deleteOrphans()
 }
