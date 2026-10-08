@@ -57,10 +57,12 @@ jobs:
           git add data
           git commit --quiet -m "Sync with iptv-org on $(date -u +%Y-%m-%d)"
           # GITHUB_TOKEN can't move a branch across workflow-file changes; recreating it works (and closes the old PR).
-          if ! git push --quiet --force origin sync/iptv; then
+          if git fetch --quiet --depth 1 origin sync/iptv 2>/dev/null && ! git diff --quiet FETCH_HEAD HEAD -- .github/workflows; then
             git push --quiet origin --delete sync/iptv
             git push --quiet origin sync/iptv
             open_pr=""
+          else
+            git push --quiet --force origin sync/iptv
           fi
           if [ -n "$open_pr" ]; then
             gh pr edit sync/iptv --body-file "$RUNNER_TEMP/summary.md"
