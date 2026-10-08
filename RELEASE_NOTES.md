@@ -4,7 +4,7 @@
 - **Previous and next channel on a phone.** Arrows over the picture switch to the previous or next channel in the list you're watching from, with the channel's name under each arrow. They also show when a channel doesn't load, so you can skip it.
 - **Try another source when a channel fails.** When none of a channel's sources load, a **Source** button next to Retry lets you pick one to try.
 - **Always see which channel it is.** The channel's name stays at the top while it loads and when it doesn't load.
-- On a phone, the controls now dim the whole picture evenly, and the Info button moved from the menu bar to the corner of the screen.
+- On a phone, the controls now dim the whole picture evenly, and Info is no longer in the menu bar; the button in the corner of the screen opens it.
 
 ## Install
 
