@@ -140,8 +140,13 @@ fun VideoPlayer(
   var videoHeight by remember { mutableIntStateOf(0) }
   var openMenu by remember { mutableStateOf<TrackKind?>(null) }
   var sourcesOpen by remember { mutableStateOf(false) }
-  // A picked source not yet handed to the player.
-  val pendingPick = remember { arrayOfNulls<String>(1) }
+  // The URL handed to the player (null once it fails), the next one to load (a pick or a fallback) until it's handed
+  // over, and the attempt the load effect skips once after keeping the loaded source through a reorder.
+  val loadedUrl = remember { arrayOfNulls<String>(1) }
+  val pendingUrl = remember { arrayOfNulls<String>(1) }
+  val keepAttempt = remember { arrayOfNulls<SourceAttempt>(1) }
+  // From a load until that source first plays: when "Source N of M" shows under the spinner.
+  var sourceLoading by remember { mutableStateOf(false) }
   // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
   var failedSources by remember { mutableStateOf(emptySet<String>()) }
   var trackControlsFocused by remember { mutableStateOf(false) }
@@ -189,11 +194,13 @@ fun VideoPlayer(
     val url = currentStreamUrls.getOrNull(attempt.index)
     val retryAsHls = error.errorCode == PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED && !attempt.asHls && url != null && !url.looksLikeHls()
     if (!retryAsHls && url != null) failedSources = failedSources + url
+    loadedUrl[0] = null // dead, so a reorder in the meantime can't keep it
     attempt =
       when {
-        retryAsHls -> attempt.copy(asHls = true)
-        attempt.index + 1 < currentStreamUrls.size -> SourceAttempt(attempt.index + 1)
+        retryAsHls -> attempt.copy(asHls = true).also { pendingUrl[0] = url }
+        attempt.index + 1 < currentStreamUrls.size -> SourceAttempt(attempt.index + 1).also { pendingUrl[0] = currentStreamUrls[it.index] }
         else -> {
+          pendingUrl[0] = null
           playbackError = error
           // A picker left open would sit over the error screen, and a pick from it would play behind that screen.
           openMenu = null
@@ -208,6 +215,8 @@ fun VideoPlayer(
     val listener =
       object : Player.Listener {
         override fun onPlayerError(error: PlaybackException) {
+          // From media a pending load is about to replace: blaming it on the next source would skip that one.
+          if (pendingUrl[0] != null) return
           val params = player.trackSelectionParameters
           // Paused past the live window: the source is fine, rejoin at the live edge. Fallen behind with a quality pinned,
           // the connection can't keep up with it: back to Auto too, or it stalls and rejoins forever.
@@ -264,7 +273,8 @@ fun VideoPlayer(
           if (state == Player.STATE_READY && behindLiveMs == 0L && edgeOffsetMs[0] == C.TIME_UNSET) edgeOffsetMs[0] = player.currentLiveOffset
           if (state == Player.STATE_READY) {
             liveRejoins[0] = 0
-            currentStreamUrls.getOrNull(attempt.index)?.let { if (it in failedSources) failedSources = failedSources - it }
+            sourceLoading = false
+            loadedUrl[0]?.let { if (it in failedSources) failedSources = failedSources - it }
           }
         }
 
@@ -385,7 +395,7 @@ fun VideoPlayer(
     if (index < 0 || (url == playingSource && playbackError == null)) return
     playbackError = null
     // The saved pick's reorder can reach the load effect before this attempt does; it then plays this, not the old source.
-    pendingPick[0] = url
+    pendingUrl[0] = url
     attempt = SourceAttempt(index)
     retryTick++ // reloads even when the index doesn't change
   }
@@ -415,31 +425,31 @@ fun VideoPlayer(
 
   // The channel attempt and playbackError belong to; a switch resets them here, so it loads once, at the first mirror.
   val loadedFor = remember { arrayOfNulls<Pair<String, List<String>>>(1) }
-  // The URL handed to the player, and whether the next run of the load effect should leave the player alone.
-  val loadedUrl = remember { arrayOfNulls<String>(1) }
-  val keepLoaded = remember { booleanArrayOf(false) }
   LaunchedEffect(channelId, streamUrls, attempt, retryTick) {
     val key = channelId to streamUrls
     if (loadedFor[0] != key) {
       val sameChannel = loadedFor[0]?.first == channelId
       loadedFor[0] = key
+      keepAttempt[0] = null
       if (!sameChannel) {
         failedSources = emptySet()
         sourcesOpen = false
-        pendingPick[0] = null
+        pendingUrl[0] = null
       }
       // Same channel, its list only reordered or edited (a saved pick, a refresh): go on with the source the player
-      // should be on, a pick still to load or else the playing one, at its new place.
-      val current = pendingPick[0] ?: loadedUrl[0]
-      val kept = if (sameChannel && playbackError == null) streamUrls.indexOf(current) else -1
+      // should be on, one still to load or else the one playing, at its new place.
+      val current = pendingUrl[0] ?: loadedUrl[0]
+      val kept = if (sameChannel && playbackError == null && current != null) streamUrls.indexOf(current) else -1
       if (kept >= 0) {
-        val playing = current == loadedUrl[0]
+        val alreadyLoaded = current == loadedUrl[0]
+        if (alreadyLoaded) pendingUrl[0] = null
         if (attempt.index != kept) {
-          keepLoaded[0] = playing
-          attempt = if (playing) attempt.copy(index = kept) else SourceAttempt(kept) // relaunches this effect
+          val next = attempt.copy(index = kept)
+          if (alreadyLoaded) keepAttempt[0] = next
+          attempt = next // relaunches this effect
           return@LaunchedEffect
         }
-        if (playing) return@LaunchedEffect
+        if (alreadyLoaded) return@LaunchedEffect
       } else {
         playbackError = null
         liveRejoins[0] = 0
@@ -449,13 +459,14 @@ fun VideoPlayer(
         }
       }
     }
-    if (keepLoaded[0]) {
-      keepLoaded[0] = false
-      return@LaunchedEffect
-    }
+    // Only the relaunch that the reorder above asked for, for this list.
+    val skip = keepAttempt[0] == attempt
+    keepAttempt[0] = null
+    if (skip) return@LaunchedEffect
     val url = streamUrls.getOrNull(attempt.index)
     loadedUrl[0] = url
-    pendingPick[0] = null
+    pendingUrl[0] = null
+    sourceLoading = url != null
     if (url == null) {
       player.stop()
       player.clearMediaItems()
@@ -615,7 +626,7 @@ fun VideoPlayer(
         modifier = Modifier.align(Alignment.Center).padding(end = overlayEndPadding).size(48.dp),
       )
       // Below the spinner, which stays centred: shows a source switch, picked or a fallback, as it happens.
-      if (sources.size > 1 && sourceNumber > 0) {
+      if (sourceLoading && sources.size > 1 && sourceNumber > 0) {
         Text(
           "Source $sourceNumber of ${sources.size}",
           color = Color.White,
@@ -638,6 +649,9 @@ fun VideoPlayer(
           attempt = SourceAttempt()
           playbackError = null
           failedSources = emptySet()
+          // Nothing to keep through a reorder: start over at the first mirror whatever arrives first.
+          loadedUrl[0] = null
+          pendingUrl[0] = null
           retryTick++ // re-runs the load effect even at the first mirror
         },
         endPadding = overlayEndPadding,
