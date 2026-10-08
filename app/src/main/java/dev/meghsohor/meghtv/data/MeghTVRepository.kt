@@ -12,6 +12,7 @@ import dev.meghsohor.meghtv.data.db.StreamUrlEntity
 import dev.meghsohor.meghtv.data.remote.ChannelList
 import dev.meghsohor.meghtv.data.remote.ChannelListClient
 import dev.meghsohor.meghtv.data.remote.ListManifest
+import dev.meghsohor.meghtv.data.remote.parseChannelList
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
@@ -66,11 +67,32 @@ private const val SqliteMaxBindVariables = 900
 /** A list that would remove more than this share of the stored channels is refused: it points to a broken publish. */
 private const val MaxRemovedShare = 0.5
 
+/** [extraChannelsJson] reads the personal build's bundled channels (published list shape); null elsewhere. Called off the main thread. */
 class MeghTVRepository(
   private val db: MeghTVDatabase,
   private val prefs: ChannelListPrefs,
   private val client: ChannelListClient = ChannelListClient(),
+  private val extraChannelsJson: () -> String? = { null },
 ) {
+
+  private val extraChannelsFile: String? by lazy { extraChannelsJson() }
+  // Null for a file that doesn't parse: downloads then fail rather than drop its channels and their favourites.
+  private val extraChannels: ChannelList? by lazy { extraChannelsFile?.let { runCatching { parseChannelList(it) }.getOrNull() } }
+
+  /** The applied list's key: the published list, plus the bundled file when there is one, so a new file counts as a new list. */
+  private suspend fun listKey(updatedAt: String): String {
+    val file = withContext(Dispatchers.IO) { extraChannelsFile } ?: return updatedAt
+    return "$updatedAt+${file.hashCode().toUInt().toString(16)}"
+  }
+
+  // An id the published list also has stays the published one.
+  private fun ChannelList.withExtras(): ChannelList {
+    if (extraChannelsFile == null) return this
+    val extra = checkNotNull(extraChannels) { "the bundled channel file is broken" }
+    val ids = channels.mapTo(HashSet()) { it.id }
+    val categoryIds = categories.mapTo(HashSet()) { it.id }
+    return ChannelList(categories + extra.categories.filter { it.id !in categoryIds }, countries, channels + extra.channels.filter { it.id !in ids })
+  }
 
   val categories: Flow<List<CategoryEntity>> = db.categoryDao().observeAll()
   val countries: Flow<List<CountryEntity>> = db.countryDao().observeAll()
@@ -127,10 +149,11 @@ class MeghTVRepository(
   suspend fun checkForUpdate(background: Boolean, onProgress: (RefreshProgress) -> Unit = {}): ListCheck {
     onProgress(RefreshProgress.Checking)
     val manifest = client.fetchManifest()
-    if (!hasChannels()) return ListCheck.Applied(write(manifest.updatedAt, download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress))
-    if (manifest.updatedAt == prefs.appliedUpdatedAt) return ListCheck.UpToDate(manifest.updatedAt)
+    val key = listKey(manifest.updatedAt)
+    if (!hasChannels()) return ListCheck.Applied(write(key, download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress))
+    if (key == prefs.appliedUpdatedAt) return ListCheck.UpToDate(manifest.updatedAt)
     // Its removals went in when it was first found.
-    if (background && manifest.updatedAt == prefs.postponedUpdatedAt) return ListCheck.Postponed
+    if (background && key == prefs.postponedUpdatedAt) return ListCheck.Postponed
     val built = download(manifest, onProgress)
 
     val stored = db.channelDao().getAll()
@@ -159,7 +182,7 @@ class MeghTVRepository(
       }
     val removedIds = stored.mapTo(HashSet()) { it.id } - built.channels.mapTo(HashSet()) { it.id }
     checkRemovals(removedIds.size, stored.size)
-    if (added == 0 && changed.isEmpty()) return ListCheck.Applied(write(manifest.updatedAt, built, full = false, urlsChanged, onProgress))
+    if (added == 0 && changed.isEmpty()) return ListCheck.Applied(write(key, built, full = false, urlsChanged, onProgress))
 
     val bookmarkedIds = db.bookmarkDao().allChannelIds().toSet()
     db.withTransaction {
@@ -170,7 +193,7 @@ class MeghTVRepository(
       db.countryDao().deleteUnused()
     }
     return ListCheck.Offer(
-      ListUpdate(manifest.updatedAt, built, added, changed.size, urlsChanged, removedIds.size, removedIds.count { it in bookmarkedIds })
+      ListUpdate(key, built, added, changed.size, urlsChanged, removedIds.size, removedIds.count { it in bookmarkedIds })
     )
   }
 
@@ -184,14 +207,14 @@ class MeghTVRepository(
   suspend fun fullRefresh(onProgress: (RefreshProgress) -> Unit = {}): RefreshResult {
     onProgress(RefreshProgress.Checking)
     val manifest = client.fetchManifest()
-    return write(manifest.updatedAt, download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress)
+    return write(listKey(manifest.updatedAt), download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress)
   }
 
   // Everything is downloaded before the database is touched, so a failed download leaves the old data intact.
   private suspend fun download(manifest: ListManifest, onProgress: (RefreshProgress) -> Unit): BuiltChannels {
     onProgress(RefreshProgress.Downloading(0, manifest.size))
     val list = client.fetchList(manifest) { onProgress(RefreshProgress.Downloading(it, manifest.size)) }
-    val built = withContext(Dispatchers.Default) { list.toEntities() }
+    val built = withContext(Dispatchers.Default) { list.withExtras().toEntities() }
     // Writing an empty list would delete every channel and, by cascade, every favourite.
     check(built.channels.isNotEmpty()) { "the channel list is empty" }
     return built
