@@ -390,6 +390,7 @@ private val AppFeatures =
     "Remembers mute and volume between channels",
     "Pick the picture quality, subtitles or audio track when a stream offers them",
     "Tries a channel's backup streams when one fails, and marks channels that didn't play",
+    "Pick a channel's source by hand; it plays first from then on",
     "Delete channels you don't want; a refresh brings them back",
     "Refresh to get the latest channel list",
   )
