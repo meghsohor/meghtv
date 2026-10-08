@@ -183,7 +183,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     onPauseOrDispose {}
   }
   val hasChannels = state.categories.isNotEmpty()
-  val updateOfferPending = state.updateOffer != null
+  val updateOfferPending = state.updateOffer != null || state.checkingInBackground
   LaunchedEffect(resumeCount, splashDone, state.startupPanelChosen, refreshInProgress, updateOfferPending, hasChannels, showInfo) {
     if (splashDone && state.startupPanelChosen && !refreshInProgress && !updateOfferPending && hasChannels && !showInfo && supportPrompt.dueToday()) {
       supportPrompt.markShown()

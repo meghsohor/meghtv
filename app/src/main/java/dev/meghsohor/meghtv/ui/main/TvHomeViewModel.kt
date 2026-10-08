@@ -61,6 +61,8 @@ data class TvHomeUiState(
   /** Null when no refresh dialog is up. */
   val refresh: RefreshStatus? = null,
   val updateOffer: UpdateOffer? = null,
+  /** The launch check is still running; the support prompt waits for it, so a new list is offered first. */
+  val checkingInBackground: Boolean = false,
 )
 
 class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
@@ -73,6 +75,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
   private val searchQuery = MutableStateFlow("")
   private val refreshStatus = MutableStateFlow<RefreshStatus?>(null)
   private val updateOffer = MutableStateFlow<UpdateOffer?>(null)
+  private val checkingInBackground = MutableStateFlow(false)
 
   /** A check or a list write is running. Main thread only. */
   private var listBusy = false
@@ -160,7 +163,12 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
     }
 
   val uiState =
-    combine(browseState, combine(playerState, neighbours, ::Pair), searchQuery, refreshStatus, updateOffer) { browse, (player, near), query, refresh, offer ->
+    combine(browseState, combine(playerState, neighbours, ::Pair), searchQuery, refreshStatus, combine(updateOffer, checkingInBackground, ::Pair)) {
+        browse,
+        (player, near),
+        query,
+        refresh,
+        (offer, checking) ->
         TvHomeUiState(
           panel = browse.panel,
           startupPanelChosen = browse.startupPanelChosen,
@@ -177,6 +185,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
           searchQuery = query,
           refresh = refresh,
           updateOffer = offer,
+          checkingInBackground = checking,
         )
       }
       .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), TvHomeUiState())
@@ -315,11 +324,12 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
     }
     listBusy = true
     manualJoined = false
-    if (manual) refreshStatus.value = RefreshStatus.Running(RefreshProgress.Checking)
+    if (manual) refreshStatus.value = RefreshStatus.Running(RefreshProgress.Checking) else checkingInBackground.value = true
     viewModelScope.launch {
       // Progress only shows while the dialog is up, so a background check reports into nothing until the menu joins it.
       val result = runCatching { repository.checkForUpdate(background = !manual, ::onRefreshProgress) }
       listBusy = false
+      checkingInBackground.value = false
       val asked = manual || manualJoined
       manualJoined = false
       val check = result.getOrElse {

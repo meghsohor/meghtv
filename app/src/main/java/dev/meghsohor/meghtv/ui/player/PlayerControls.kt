@@ -12,6 +12,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
@@ -260,14 +261,26 @@ private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, modifier: Mo
 
 /**
  * Touch only: ‹ and › either side of the centre, each over the name of the channel it plays. Wide apart, so the
- * spinner, its source label and the error screen's text fit between them. Only the buttons take touches. No
- * backgrounds of their own: they sit on the controls' dimmed picture, or the error screen.
+ * spinner, its source label and the error screen's text fit between them, but never closer to the sides than
+ * [edgeInset] (clear of the menu tab). Only the buttons take touches. No backgrounds of their own: they sit on the
+ * controls' dimmed picture, or the error screen.
  */
 @Composable
-internal fun ChannelStepButtons(previous: String?, next: String?, onPrevious: () -> Unit, onNext: () -> Unit, onTouch: () -> Unit, modifier: Modifier = Modifier) {
-  Row(modifier, horizontalArrangement = Arrangement.spacedBy(ChannelStepGap, Alignment.CenterHorizontally), verticalAlignment = Alignment.CenterVertically) {
-    ChannelStepButton(previous, MeghIcons.ChevronLeft, "Previous channel", onPrevious, onTouch)
-    ChannelStepButton(next, MeghIcons.ChevronRight, "Next channel", onNext, onTouch)
+internal fun ChannelStepButtons(
+  previous: String?,
+  next: String?,
+  onPrevious: () -> Unit,
+  onNext: () -> Unit,
+  onTouch: () -> Unit,
+  edgeInset: Dp,
+  modifier: Modifier = Modifier,
+) {
+  BoxWithConstraints(modifier) {
+    val gap = (maxWidth - ChannelStepWidth * 2 - edgeInset * 2).coerceIn(0.dp, ChannelStepMaxGap)
+    Row(Modifier.align(Alignment.Center), horizontalArrangement = Arrangement.spacedBy(gap), verticalAlignment = Alignment.CenterVertically) {
+      ChannelStepButton(previous, MeghIcons.ChevronLeft, "Previous channel", onPrevious, onTouch)
+      ChannelStepButton(next, MeghIcons.ChevronRight, "Next channel", onNext, onTouch)
+    }
   }
 }
 
@@ -296,7 +309,7 @@ private fun ChannelStepButton(name: String?, icon: ImageVector, label: String, o
   }
 }
 
-private val ChannelStepGap = 360.dp
+private val ChannelStepMaxGap = 360.dp
 private val ChannelStepWidth = 130.dp
 
 @Composable

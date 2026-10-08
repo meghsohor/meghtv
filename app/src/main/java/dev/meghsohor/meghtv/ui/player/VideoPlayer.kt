@@ -711,7 +711,8 @@ fun VideoPlayer(
           onNextChannel()
         },
         onTouch = ::keepControlsAlive,
-        modifier = Modifier.align(Alignment.Center).padding(end = overlayEndPadding),
+        edgeInset = controlsEdgeInset,
+        modifier = Modifier.fillMaxSize().padding(end = overlayEndPadding),
       )
     }
   }

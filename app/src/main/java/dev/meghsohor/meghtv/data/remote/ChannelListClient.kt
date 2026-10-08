@@ -90,13 +90,17 @@ class ListMismatchException : IllegalStateException("The channel list is being u
 private fun checkSchema(version: Int) = check(version == SupportedSchemaVersion) { "This channel list needs a newer version of MeghTV." }
 
 private fun JsonReader.readList(): ChannelList {
-  var categories = emptyList<ListCategory>()
-  var countries = emptyList<ListCountry>()
-  var channels = emptyList<ListChannel>()
+  var schemaSeen = false
+  var categories: List<ListCategory>? = null
+  var countries: List<ListCountry>? = null
+  var channels: List<ListChannel>? = null
   beginObject()
   while (hasNext()) {
     when (nextName()) {
-      "schemaVersion" -> checkSchema(nextInt())
+      "schemaVersion" -> {
+        checkSchema(nextInt())
+        schemaSeen = true
+      }
       "categories" -> categories = readArray { readFields { ListCategory(string("id"), string("name")) } }
       "countries" -> countries = readArray { readFields { ListCountry(string("code"), string("name"), string("flag")) } }
       "channels" ->
@@ -105,6 +109,8 @@ private fun JsonReader.readList(): ChannelList {
     }
   }
   endObject()
+  // Each part replaces a whole table, so a missing one would empty it.
+  check(schemaSeen && categories != null && countries != null && channels != null) { "the channel list is incomplete" }
   return ChannelList(categories, countries, channels)
 }
 
