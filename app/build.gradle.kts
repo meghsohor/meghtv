@@ -57,8 +57,8 @@ abstract class PersonalChannelsTask : DefaultTask() {
     fun copy() {
         val file = channels.get().asFile
         // A file the app can't read would cost its channels, and their favourites, on the next refresh: fail here instead.
-        val list = (groovy.json.JsonSlurper().parse(file) as? Map<*, *>)?.get("channels") as? List<*>
-            ?: throw GradleException("$file: no \"channels\" list")
+        val root = groovy.json.JsonSlurper().parse(file) as? Map<*, *> ?: throw GradleException("$file: not a JSON object")
+        val list = root["channels"] as? List<*> ?: throw GradleException("$file: no \"channels\" list")
         list.forEachIndexed { i, entry ->
             val c = entry as? Map<*, *>
             fun strings(key: String) = (c?.get(key) as? List<*>)?.all { it is String } == true
@@ -66,11 +66,14 @@ abstract class PersonalChannelsTask : DefaultTask() {
             if (c?.get("id") !is String || c["name"] !is String || !strings("categories") || !strings("urls") || urls.isNullOrEmpty()) {
                 throw GradleException("$file: channel ${i + 1} needs an id, a name, categories and at least one URL")
             }
+            if (c["visible"] != null && c["visible"] !is Boolean) throw GradleException("$file: channel ${i + 1}: visible must be true or false")
         }
+        // Hidden channels never reach the app, as on the published list.
+        val shown = list.filter { (it as Map<*, *>)["visible"] != false }
         val out = outputDir.get().asFile
         out.deleteRecursively()
         out.mkdirs()
-        file.copyTo(out.resolve("personal_channels.json"))
+        out.resolve("personal_channels.json").writeText(groovy.json.JsonOutput.toJson(LinkedHashMap(root).apply { put("channels", shown) }))
     }
 }
 
