@@ -63,10 +63,12 @@ import dev.meghsohor.meghtv.ui.DialogBand
 import dev.meghsohor.meghtv.ui.DialogButton
 import dev.meghsohor.meghtv.ui.DialogCard
 import dev.meghsohor.meghtv.ui.MeghIcons
+import java.text.DateFormat
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import java.util.TimeZone
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -137,7 +139,7 @@ internal fun ChannelMenuDialog(
         MenuOption(if (bookmarked) "Remove from favourites" else "Add to favourites", MeghIcons.Star, onToggleBookmark, Modifier.focusRequester(firstFocus))
         MenuOption("Delete channel", MeghIcons.Delete, onDelete, tint = MeghLive)
         Text(
-          "A deleted channel comes back with the next refresh.",
+          "A deleted channel comes back with a full refresh.",
           color = MaterialTheme.colorScheme.onSurfaceVariant,
           style = MaterialTheme.typography.labelMedium,
           modifier = Modifier.padding(start = 6.dp, top = 4.dp),
@@ -206,8 +208,8 @@ private fun RefreshBar(status: RefreshStatus) {
   val track = MaterialTheme.colorScheme.surfaceVariant
   val progress = (status as? RefreshStatus.Running)?.progress
   when {
-    progress is RefreshProgress.Playlists && progress.total > 0 -> {
-      val fraction by animateFloatAsState(progress.done.toFloat() / progress.total, label = "refresh")
+    progress is RefreshProgress.Downloading && progress.total > 0 -> {
+      val fraction by animateFloatAsState((progress.bytes.toFloat() / progress.total).coerceIn(0f, 1f), label = "refresh")
       LinearProgressIndicator(progress = { fraction }, modifier = modifier, trackColor = track)
     }
     status is RefreshStatus.Running -> LinearProgressIndicator(modifier = modifier, trackColor = track)
@@ -223,15 +225,10 @@ private fun refreshTexts(status: RefreshStatus): RefreshTexts {
   return when (status) {
     is RefreshStatus.Running ->
       when (val progress = status.progress) {
-        RefreshProgress.ChannelInfo -> RefreshTexts("Refreshing channels", "Downloading channel info…", "")
-        is RefreshProgress.Playlists ->
-          RefreshTexts(
-            "Refreshing channels",
-            "Downloading playlists: ${progress.done} of ${progress.total}",
-            "${number.format(progress.channelsFound)} channels found",
-          )
-        RefreshProgress.CombinedPlaylist -> RefreshTexts("Refreshing channels", "Downloading the channel list…", "")
-        is RefreshProgress.Saving -> RefreshTexts("Refreshing channels", "Saving ${number.format(progress.channels)} channels…", "")
+        RefreshProgress.Checking -> RefreshTexts("Updating channels", "Checking for a new channel list…", "")
+        is RefreshProgress.Downloading ->
+          RefreshTexts("Updating channels", "Downloading the channel list…", if (progress.total > 0) "${megabytes(progress.bytes)} of ${megabytes(progress.total)} MB" else "")
+        is RefreshProgress.Saving -> RefreshTexts("Updating channels", "Saving ${number.format(progress.channels)} channels…", "")
       }
     is RefreshStatus.Done -> {
       val result = status.result
@@ -244,9 +241,67 @@ private fun refreshTexts(status: RefreshStatus): RefreshTexts {
       RefreshTexts("Channels updated", "${number.format(result.total)} channels", changes.joinToString(" · "))
     }
     is RefreshStatus.Failed ->
-      RefreshTexts("Refresh failed", "Couldn't download the channel list.", listOfNotNull("Check the connection and try again.", status.reason).joinToString("\n"))
+      RefreshTexts("Update failed", "Couldn't download the channel list.", listOfNotNull("Check the connection and try again.", status.reason).joinToString("\n"))
   }
 }
+
+private fun megabytes(bytes: Long) = "%.1f".format(bytes / 1_000_000.0)
+
+// The way out is focused on "up to date", so a doubled OK can't start a download; Update is, when there's one to take.
+@Composable
+internal fun UpdateOfferDialog(offer: UpdateOffer, touchMode: Boolean, onUpdate: () -> Unit, onFullRefresh: () -> Unit, onDismiss: () -> Unit) {
+  val firstFocus = remember { FocusRequester() }
+  Dialog(onDismissRequest = onDismiss) {
+    LaunchedEffect(Unit) { if (!touchMode) firstFocus.requestFocus() }
+    DialogCard {
+      Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        when (offer) {
+          is UpdateOffer.Available -> {
+            val update = offer.update
+            val number = NumberFormat.getIntegerInstance()
+            val changes =
+              listOfNotNull(
+                if (update.added > 0) "${number.format(update.added)} new ${if (update.added == 1) "channel" else "channels"}" else null,
+                if (update.changed > 0) "${number.format(update.changed)} changed" else null,
+              )
+            Text("New channel list", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
+            Text(changes.joinToString(" · "), color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
+            Text(
+              "Update keeps the channels you deleted. Full refresh brings them back and clears the \"didn't play\" marks.",
+              color = MaterialTheme.colorScheme.onSurfaceVariant,
+              style = MaterialTheme.typography.bodyMedium,
+            )
+            Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+              DialogButton("Later", onClick = onDismiss, secondary = true)
+              DialogButton("Full refresh", onClick = onFullRefresh, secondary = true)
+              DialogButton("Update", onClick = onUpdate, modifier = Modifier.focusRequester(firstFocus))
+            }
+          }
+          is UpdateOffer.UpToDate -> {
+            Text("Channels are up to date", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
+            Text("The channel list was last updated on ${listDate(offer.updatedAt)}.", color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyMedium)
+            Text(
+              "Full refresh downloads it again, brings back the channels you deleted and clears the \"didn't play\" marks.",
+              color = MaterialTheme.colorScheme.onSurfaceVariant,
+              style = MaterialTheme.typography.bodyMedium,
+            )
+            Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+              DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus), secondary = true)
+              DialogButton("Full refresh", onClick = onFullRefresh)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+private fun listDate(updatedAt: String): String =
+  runCatching {
+      val parser = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US).apply { timeZone = TimeZone.getTimeZone("UTC") }
+      DateFormat.getDateInstance(DateFormat.MEDIUM).format(parser.parse(updatedAt)!!)
+    }
+    .getOrDefault(updatedAt.substringBefore('T'))
 
 // A TV usually has no browser, and paying with a remote is no fun: there it shows a code to scan with a phone instead.
 @Composable
@@ -342,7 +397,7 @@ internal fun InfoDialog(touchMode: Boolean, onDismiss: () -> Unit) {
           )
           if (isTv) KofiQrCode()
           Text(
-            "Channels are publicly available streams listed by the iptv-org project. MeghTV doesn't host any of them.",
+            "Channels are publicly available streams, most of them listed by the iptv-org project. MeghTV doesn't host any of them.",
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             style = MaterialTheme.typography.labelMedium,
             modifier = Modifier.padding(top = 8.dp),
@@ -391,8 +446,8 @@ private val AppFeatures =
     "Pick the picture quality, subtitles or audio track when a stream offers them",
     "Tries a channel's backup streams when one fails, and marks channels that didn't play",
     "Pick a channel's source by hand; it plays first from then on",
-    "Delete channels you don't want; a refresh brings them back",
-    "Refresh to get the latest channel list",
+    "Delete channels you don't want; a full refresh brings them back",
+    "Checks for a new channel list at launch and offers to update",
   )
 
 @Composable

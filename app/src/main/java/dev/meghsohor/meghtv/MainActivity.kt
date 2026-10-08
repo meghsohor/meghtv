@@ -12,13 +12,14 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import dev.meghsohor.meghtv.data.ChannelListPrefs
 import dev.meghsohor.meghtv.data.MeghTVRepository
 import dev.meghsohor.meghtv.data.db.MeghTVDatabase
 import dev.meghsohor.meghtv.theme.MeghTVTheme
 
 class MainActivity : ComponentActivity() {
 
-  private val repository: MeghTVRepository by lazy { MeghTVRepository(MeghTVDatabase.getInstance(applicationContext)) }
+  private val repository: MeghTVRepository by lazy { MeghTVRepository(MeghTVDatabase.getInstance(applicationContext), ChannelListPrefs(applicationContext)) }
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)

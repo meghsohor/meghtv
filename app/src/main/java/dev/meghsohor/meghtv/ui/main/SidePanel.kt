@@ -123,7 +123,7 @@ internal fun SidePanel(
     }
     onRefocused()
   }
-  // Entry focus is the selected tab, not Refresh: a double OK to wake the panel would start a refresh.
+  // Entry focus is the selected tab, not Refresh Channels: a double OK to wake the panel would start a check.
   fun entry(selected: Boolean) = if (selected) Modifier.focusRequester(entryFocusRequester) else Modifier
   fun open(index: Int, navigate: () -> Unit) {
     openedFrom[state.panel] = index
@@ -162,8 +162,6 @@ internal fun SidePanel(
           PinnedRow("Favourites", MeghIcons.Star, viewModel::onPinnedFavourites, selected = isFavourites(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isFavourites(state.panel))))
           PinnedDivider(vertical = true)
           PinnedRow("Categories", MeghIcons.Grid, viewModel::onPinnedCategories, selected = isCategories(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isCategories(state.panel))))
-          PinnedDivider(vertical = true)
-          InfoButton(onInfo, Modifier.fillMaxHeight().width(48.dp))
         }
       } else {
         Column(band) {
@@ -335,13 +333,5 @@ private fun PinnedRow(
       maxLines = 1,
       overflow = TextOverflow.Ellipsis,
     )
-  }
-}
-
-@Composable
-private fun InfoButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
-  val interaction = remember { MutableInteractionSource() }
-  Box(modifier.panelRow(interaction, block = false, onClick = onClick).semantics { contentDescription = "About MeghTV" }, contentAlignment = Alignment.Center) {
-    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
   }
 }

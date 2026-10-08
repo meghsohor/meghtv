@@ -85,7 +85,8 @@ private const val GoLiveMinBehindMs = 3_000L
 enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive, FocusTrackControls }
 
 /** [available]: at least one of Source, Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
-data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false)
+/** [pickerOpen]: a Source, Quality, Subtitles or Audio picker is up. */
+data class TrackControlsState(val available: Boolean = false, val focused: Boolean = false, val pickerOpen: Boolean = false)
 
 /** [behind]: paused, or playing on behind the live edge. [goLiveOffered]: the Go live chip is up. */
 data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = false)
@@ -381,8 +382,9 @@ fun VideoPlayer(
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null
   val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null)
-  LaunchedEffect(trackControlsReachable, trackControlsFocused) {
-    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused))
+  val pickerOpen = openMenu != null || sourcesOpen
+  LaunchedEffect(trackControlsReachable, trackControlsFocused, pickerOpen) {
+    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused, pickerOpen))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
   // An open picker holds the controls up, so the button it came from is still there to return to. So does a loading

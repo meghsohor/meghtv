@@ -9,12 +9,9 @@ import dev.meghsohor.meghtv.data.db.DeletedChannelEntity
 import dev.meghsohor.meghtv.data.db.FailedChannelEntity
 import dev.meghsohor.meghtv.data.db.MeghTVDatabase
 import dev.meghsohor.meghtv.data.db.StreamUrlEntity
-import dev.meghsohor.meghtv.data.remote.IptvOrgClient
-import dev.meghsohor.meghtv.data.remote.M3uEntry
-import dev.meghsohor.meghtv.data.remote.parseCsv
-import dev.meghsohor.meghtv.data.remote.parseM3u
-import java.util.Collections
-import java.util.concurrent.atomic.AtomicInteger
+import dev.meghsohor.meghtv.data.remote.ChannelList
+import dev.meghsohor.meghtv.data.remote.ChannelListClient
+import dev.meghsohor.meghtv.data.remote.ListManifest
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
@@ -22,22 +19,58 @@ import kotlinx.coroutines.withContext
 data class RefreshResult(val total: Int, val added: Int, val removed: Int, val bookmarksRemoved: Int)
 
 sealed interface RefreshProgress {
-  data object ChannelInfo : RefreshProgress
+  data object Checking : RefreshProgress
 
-  data class Playlists(val done: Int, val total: Int, val channelsFound: Int) : RefreshProgress
-
-  /** The single-file fallback: no per-playlist steps to count. */
-  data object CombinedPlaylist : RefreshProgress
+  /** Uncompressed bytes, against the manifest's size. */
+  data class Downloading(val bytes: Long, val total: Long) : RefreshProgress
 
   data class Saving(val channels: Int) : RefreshProgress
 }
 
-private val TvgIdAttribute = Regex("""tvg-id="([^"]+)"""")
+/** A downloaded list with new or changed channels, waiting for Update or Full refresh. Its removals are already applied. */
+class ListUpdate internal constructor(
+  val updatedAt: String,
+  internal val built: BuiltChannels,
+  val added: Int,
+  val changed: Int,
+  internal val urlsChangedIds: List<String>,
+  internal val removed: Int,
+  internal val bookmarksRemoved: Int,
+) {
+  val total: Int
+    get() = built.channels.size
+}
+
+sealed interface ListCheck {
+  data class UpToDate(val updatedAt: String) : ListCheck
+
+  /** Nothing to ask about (only removals or menu changes), or nothing stored yet: applied already. */
+  data class Applied(val result: RefreshResult) : ListCheck
+
+  /** A background check found the list the user put off with Later. */
+  data object Postponed : ListCheck
+
+  data class Offer(val update: ListUpdate) : ListCheck
+}
+
+internal class BuiltChannels(
+  val channels: List<ChannelEntity>,
+  val urlsByChannel: Map<String, List<StreamUrlEntity>>,
+  val categories: List<CategoryEntity>,
+  val countries: List<CountryEntity>,
+)
 
 // Under SQLite's default limit of 999 bound parameters per statement.
 private const val SqliteMaxBindVariables = 900
 
-class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvOrgClient = IptvOrgClient()) {
+/** A list that would remove more than this share of the stored channels is refused: it points to a broken publish. */
+private const val MaxRemovedShare = 0.5
+
+class MeghTVRepository(
+  private val db: MeghTVDatabase,
+  private val prefs: ChannelListPrefs,
+  private val client: ChannelListClient = ChannelListClient(),
+) {
 
   val categories: Flow<List<CategoryEntity>> = db.categoryDao().observeAll()
   val countries: Flow<List<CountryEntity>> = db.countryDao().observeAll()
@@ -48,7 +81,7 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
 
   suspend fun hasChannels(): Boolean = db.channelDao().hasAny()
 
-  // What refresh does, for data stored before it did.
+  // What a list update does, for data stored before it did.
   suspend fun pruneEmptyMenus() =
     db.withTransaction {
       db.categoryDao().deleteUnused()
@@ -81,124 +114,154 @@ class MeghTVRepository(private val db: MeghTVDatabase, private val client: IptvO
 
   suspend fun setSelectedSource(channelId: String, url: String?) = db.channelDao().setSelectedSourceUrl(channelId, url)
 
-  private class BuiltChannels(
-    val channels: List<ChannelEntity>,
-    val urlsByChannel: Map<String, List<StreamUrlEntity>>,
-    val categories: List<CategoryEntity>,
-    val countries: List<CountryEntity>,
-  )
+  fun isPostponed(updatedAt: String) = prefs.postponedUpdatedAt == updatedAt
 
-  // Everything is fetched before the database is touched, so a failed fetch leaves the old data intact.
-  suspend fun refresh(onProgress: (RefreshProgress) -> Unit = {}): RefreshResult {
-    onProgress(RefreshProgress.ChannelInfo)
-    val categoryCsv = client.fetchCategoriesCsv()
-    val countryCsv = client.fetchCountriesCsv()
-    val channelCsv = client.fetchChannelsCsv()
-    // Parsed up front so progress can count only playlist entries that will become channels.
-    val channelRows = withContext(Dispatchers.Default) { parseCsv(channelCsv).associateBy { it.getValue("id") } }
+  fun postpone(updatedAt: String) {
+    prefs.postponedUpdatedAt = updatedAt
+  }
 
-    // Per-country files keep each channel's mirror URLs, but need the GitHub API to list them, which is
-    // rate-limited per IP (403 on shared mobile networks). Fall back to the combined playlist, which needs no API.
-    val playlists =
-      runCatching {
-          val codes = client.fetchPlaylistCountryCodes()
-          // On Default, so the per-playlist scan runs off the main thread, on several threads at once.
-          withContext(Dispatchers.Default) {
-            val done = AtomicInteger()
-            val found = Collections.synchronizedSet(HashSet<String>()) // ConcurrentHashMap.newKeySet() needs API 24
-            onProgress(RefreshProgress.Playlists(0, codes.size, 0))
-            client
-              .fetchAllPlaylists(codes) { text ->
-                for (match in TvgIdAttribute.findAll(text)) {
-                  val tvgId = match.groupValues[1]
-                  if (tvgId.substringBefore('@') in channelRows) found += tvgId
-                }
-                onProgress(RefreshProgress.Playlists(done.incrementAndGet(), codes.size, found.size))
-              }
-              .ifEmpty { error("no playlists") }
-          }
-        }
-        .getOrElse {
-          onProgress(RefreshProgress.CombinedPlaylist)
-          listOf("combined" to client.fetchCombinedPlaylist())
-        }
-        .filter { it.second.isNotBlank() }
-    check(playlists.isNotEmpty()) { "could not reach iptv-org (no playlists fetched)" }
+  /**
+   * Compares the published list with the device's own data, so the counts are right however many lists were skipped.
+   * Removed channels go at once, so one can't stay playable while the user keeps putting the update off.
+   */
+  suspend fun checkForUpdate(background: Boolean, onProgress: (RefreshProgress) -> Unit = {}): ListCheck {
+    onProgress(RefreshProgress.Checking)
+    val manifest = client.fetchManifest()
+    if (!hasChannels()) return ListCheck.Applied(write(manifest.updatedAt, download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress))
+    if (manifest.updatedAt == prefs.appliedUpdatedAt) return ListCheck.UpToDate(manifest.updatedAt)
+    // Its removals went in when it was first found.
+    if (background && manifest.updatedAt == prefs.postponedUpdatedAt) return ListCheck.Postponed
+    val built = download(manifest, onProgress)
 
-    val existingSelections = db.channelDao().allSelectedSources().associate { it.id to it.selectedSourceUrl }
-
-    // CPU-bound for ~11k channels: off the main thread.
-    val built =
+    val stored = db.channelDao().getAll()
+    val storedUrls = db.streamUrlDao().getAllUrls()
+    val deletedIds = db.deletedChannelDao().allIds().toHashSet()
+    val (added, changed, urlsChanged) =
       withContext(Dispatchers.Default) {
-        val categoryRows = parseCsv(categoryCsv)
-        val countryRows = parseCsv(countryCsv)
-
-        val entriesByKey = LinkedHashMap<String, MutableList<M3uEntry>>()
-        for ((_, text) in playlists) {
-          for (entry in parseM3u(text)) {
-            entriesByKey.getOrPut(entry.tvgId) { mutableListOf() }.add(entry)
+        val storedById = stored.associateBy { it.id }
+        val urlsByChannel = storedUrls.groupBy({ it.channelId }, { it.url })
+        var added = 0
+        val changed = mutableListOf<String>()
+        val urlsChanged = mutableListOf<String>()
+        for (channel in built.channels) {
+          val old = storedById[channel.id]
+          if (old == null) {
+            added++
+            continue
           }
+          val urlsDiffer = urlsByChannel[channel.id].orEmpty() != built.urlsByChannel[channel.id].orEmpty().map { it.url }
+          if (urlsDiffer) urlsChanged += channel.id
+          // A deleted channel's changes go in too, but there's nothing to show for them.
+          val differs = urlsDiffer || old.displayName != channel.displayName || old.countryCode != channel.countryCode || old.categoryIds != channel.categoryIds
+          if (differs && channel.id !in deletedIds) changed += channel.id
         }
-
-        var order = 0
-        val newChannels = mutableListOf<ChannelEntity>()
-        val urlsByChannel = mutableMapOf<String, List<StreamUrlEntity>>()
-        for ((tvgId, entries) in entriesByKey) {
-          val channelId = tvgId.substringBefore('@')
-          val channelRow = channelRows[channelId] ?: continue
-          val urls = entries.map { it.url }
-          val preservedSelection = existingSelections[tvgId]?.takeIf { it in urls }
-          newChannels +=
-            ChannelEntity(
-              id = tvgId,
-              displayName = entries.first().title.ifBlank { channelRow["name"].orEmpty() },
-              countryCode = channelRow["country"].orEmpty(),
-              categoryIds = channelRow["categories"].orEmpty(),
-              sortOrder = order++,
-              selectedSourceUrl = preservedSelection,
-            )
-          urlsByChannel[tvgId] = entries.mapIndexed { idx, e -> StreamUrlEntity(channelId = tvgId, url = e.url, sortOrder = idx) }
-        }
-        // iptv-org defines categories and countries its playlists have no stream for ("XXX", Antarctica).
-        val usedCategoryIds = newChannels.flatMapTo(HashSet()) { it.categoryIds.split(';') }
-        val usedCountryCodes = newChannels.mapTo(HashSet()) { it.countryCode }
-        BuiltChannels(
-          channels = newChannels,
-          urlsByChannel = urlsByChannel,
-          categories =
-            categoryRows
-              .filter { it["id"] in usedCategoryIds }
-              .mapIndexed { i, r -> CategoryEntity(r.getValue("id"), r.getValue("name"), i) },
-          countries =
-            countryRows
-              .filter { it["code"] in usedCountryCodes }
-              .mapIndexed { i, r -> CountryEntity(r.getValue("code"), r.getValue("name"), r.getValue("flag"), i) },
-        )
+        Triple(added, changed, urlsChanged)
       }
+    val removedIds = stored.mapTo(HashSet()) { it.id } - built.channels.mapTo(HashSet()) { it.id }
+    checkRemovals(removedIds.size, stored.size)
+    if (added == 0 && changed.isEmpty()) return ListCheck.Applied(write(manifest.updatedAt, built, full = false, urlsChanged, onProgress))
 
-    // A 200 with a non-playlist body (captive portal, error page) parses to nothing; writing that would delete
-    // every channel and, by cascade, every favourite. Keep the old catalogue instead.
-    check(built.channels.isNotEmpty()) { "iptv-org returned no usable channels" }
-    onProgress(RefreshProgress.Saving(built.channels.size))
-
-    val existingIds = existingSelections.keys
-    val newIds = built.channels.map { it.id }.toSet()
-    val removedIds = (existingIds - newIds).toList()
-    val addedCount = (newIds - existingIds).size
     val bookmarkedIds = db.bookmarkDao().allChannelIds().toSet()
-    val bookmarksRemovedCount = removedIds.count { it in bookmarkedIds }
-
     db.withTransaction {
-      db.categoryDao().replaceAll(built.categories)
-      db.countryDao().replaceAll(built.countries)
       // Chunked: `IN (:ids)` binds one parameter per id. Cascades to stream_urls and bookmarks.
       for (chunk in removedIds.chunked(SqliteMaxBindVariables)) db.channelDao().deleteByIds(chunk)
-      db.channelDao().upsertAll(built.channels)
-      db.streamUrlDao().replaceAll(built.urlsByChannel)
-      db.deletedChannelDao().clear()
       db.failedChannelDao().deleteOrphans()
+      db.categoryDao().deleteUnused()
+      db.countryDao().deleteUnused()
     }
-
-    return RefreshResult(total = built.channels.size, added = addedCount, removed = removedIds.size, bookmarksRemoved = bookmarksRemovedCount)
+    return ListCheck.Offer(
+      ListUpdate(manifest.updatedAt, built, added, changed.size, urlsChanged, removedIds.size, removedIds.count { it in bookmarkedIds })
+    )
   }
+
+  /** Update ([full] false) keeps deleted channels and the other channels' "not working" marks; Full refresh resets both. */
+  suspend fun apply(update: ListUpdate, full: Boolean, onProgress: (RefreshProgress) -> Unit = {}): RefreshResult {
+    val result = write(update.updatedAt, update.built, full, update.urlsChangedIds, onProgress)
+    return result.copy(removed = result.removed + update.removed, bookmarksRemoved = result.bookmarksRemoved + update.bookmarksRemoved)
+  }
+
+  /** Downloads the list and applies it as a Full refresh: a new install, or Full refresh with no new list. */
+  suspend fun fullRefresh(onProgress: (RefreshProgress) -> Unit = {}): RefreshResult {
+    onProgress(RefreshProgress.Checking)
+    val manifest = client.fetchManifest()
+    return write(manifest.updatedAt, download(manifest, onProgress), full = true, urlsChangedIds = emptyList(), onProgress)
+  }
+
+  // Everything is downloaded before the database is touched, so a failed download leaves the old data intact.
+  private suspend fun download(manifest: ListManifest, onProgress: (RefreshProgress) -> Unit): BuiltChannels {
+    onProgress(RefreshProgress.Downloading(0, manifest.size))
+    val list = client.fetchList(manifest) { onProgress(RefreshProgress.Downloading(it, manifest.size)) }
+    val built = withContext(Dispatchers.Default) { list.toEntities() }
+    // Writing an empty list would delete every channel and, by cascade, every favourite.
+    check(built.channels.isNotEmpty()) { "the channel list is empty" }
+    return built
+  }
+
+  private suspend fun write(updatedAt: String, built: BuiltChannels, full: Boolean, urlsChangedIds: List<String>, onProgress: (RefreshProgress) -> Unit): RefreshResult {
+    onProgress(RefreshProgress.Saving(built.channels.size))
+    // Read inside the transaction, so a source picked meanwhile isn't overwritten with the old pick.
+    val result = db.withTransaction {
+      val existingSelections = db.channelDao().allSelectedSources().associate { it.id to it.selectedSourceUrl }
+      val channels =
+        built.channels.map { channel ->
+          val selection = existingSelections[channel.id]?.takeIf { url -> built.urlsByChannel[channel.id].orEmpty().any { it.url == url } }
+          channel.copy(selectedSourceUrl = selection)
+        }
+      val existingIds = existingSelections.keys
+      val newIds = channels.mapTo(HashSet()) { it.id }
+      val removedIds = (existingIds - newIds).toList()
+      checkRemovals(removedIds.size, existingIds.size)
+      val bookmarkedIds = db.bookmarkDao().allChannelIds().toSet()
+
+      db.categoryDao().replaceAll(built.categories)
+      db.countryDao().replaceAll(built.countries)
+      for (chunk in removedIds.chunked(SqliteMaxBindVariables)) db.channelDao().deleteByIds(chunk)
+      db.channelDao().upsertAll(channels)
+      db.streamUrlDao().replaceAll(built.urlsByChannel)
+      if (full) {
+        db.deletedChannelDao().clear()
+        db.failedChannelDao().clear()
+      } else {
+        // New sources deserve a fresh try.
+        for (chunk in urlsChangedIds.chunked(SqliteMaxBindVariables)) db.failedChannelDao().removeIds(chunk)
+      }
+      db.failedChannelDao().deleteOrphans()
+      RefreshResult(
+        total = channels.size,
+        added = (newIds - existingIds).size,
+        removed = removedIds.size,
+        bookmarksRemoved = removedIds.count { it in bookmarkedIds },
+      )
+    }
+    prefs.appliedUpdatedAt = updatedAt
+    prefs.postponedUpdatedAt = null
+    return result
+  }
+}
+
+private fun checkRemovals(removed: Int, stored: Int) =
+  check(stored == 0 || removed <= stored * MaxRemovedShare) { "The new channel list is missing most channels, so the current one was kept." }
+
+private fun ChannelList.toEntities(): BuiltChannels {
+  val channelEntities = mutableListOf<ChannelEntity>()
+  val urlsByChannel = LinkedHashMap<String, List<StreamUrlEntity>>()
+  for (channel in channels) {
+    val urls = channel.urls.distinct()
+    if (urls.isEmpty() || channel.id in urlsByChannel) continue
+    channelEntities +=
+      ChannelEntity(
+        id = channel.id,
+        displayName = channel.name,
+        countryCode = channel.country,
+        categoryIds = channel.categories.joinToString(";"),
+        sortOrder = channelEntities.size,
+      )
+    urlsByChannel[channel.id] = urls.mapIndexed { i, url -> StreamUrlEntity(channelId = channel.id, url = url, sortOrder = i) }
+  }
+  return BuiltChannels(
+    channels = channelEntities,
+    urlsByChannel = urlsByChannel,
+    categories = categories.mapIndexed { i, c -> CategoryEntity(c.id, c.name, i) },
+    countries = countries.mapIndexed { i, c -> CountryEntity(c.code, c.name, c.flag, i) },
+  )
 }

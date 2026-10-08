@@ -2,6 +2,8 @@ package dev.meghsohor.meghtv.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dev.meghsohor.meghtv.data.ListCheck
+import dev.meghsohor.meghtv.data.ListUpdate
 import dev.meghsohor.meghtv.data.MeghTVRepository
 import dev.meghsohor.meghtv.data.RefreshProgress
 import dev.meghsohor.meghtv.data.RefreshResult
@@ -29,6 +31,14 @@ sealed interface RefreshStatus {
   data class Failed(val reason: String?) : RefreshStatus
 }
 
+sealed interface UpdateOffer {
+  /** New or changed channels: Update, Full refresh or Later. */
+  data class Available(val update: ListUpdate) : UpdateOffer
+
+  /** A check from the menu found nothing new: Full refresh or Close. */
+  data class UpToDate(val updatedAt: String) : UpdateOffer
+}
+
 data class TvHomeUiState(
   val panel: PanelState = PanelState.CategoriesMenu,
   /** False until launch has picked the opening view; [panel] may still change before that. */
@@ -47,6 +57,7 @@ data class TvHomeUiState(
   val searchQuery: String = "",
   /** Null when no refresh dialog is up. */
   val refresh: RefreshStatus? = null,
+  val updateOffer: UpdateOffer? = null,
 )
 
 class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
@@ -58,6 +69,13 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
   private val currentPlaybackList = MutableStateFlow<List<String>>(emptyList())
   private val searchQuery = MutableStateFlow("")
   private val refreshStatus = MutableStateFlow<RefreshStatus?>(null)
+  private val updateOffer = MutableStateFlow<UpdateOffer?>(null)
+
+  /** A check or a list write is running. Main thread only. */
+  private var listBusy = false
+
+  /** The menu asked while a background check was running: that check answers it. */
+  private var manualJoined = false
   private var startedInitialSelection = false
 
   private data class LoadedList(val panel: PanelState, val channels: List<ChannelEntity>)
@@ -130,7 +148,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
       .stateIn(viewModelScope, SharingStarted.Eagerly, PlayerState(null, null, emptyList()))
 
   val uiState =
-    combine(browseState, playerState, searchQuery, refreshStatus) { browse, player, query, refresh ->
+    combine(browseState, playerState, searchQuery, refreshStatus, updateOffer) { browse, player, query, refresh, offer ->
         TvHomeUiState(
           panel = browse.panel,
           startupPanelChosen = browse.startupPanelChosen,
@@ -144,6 +162,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
           currentSources = player.currentSources,
           searchQuery = query,
           refresh = refresh,
+          updateOffer = offer,
         )
       }
       .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), TvHomeUiState())
@@ -153,11 +172,15 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
       if (startedInitialSelection) return@launch
       startedInitialSelection = true
       if (repository.bookmarkedChannels.first().isNotEmpty()) panel.value = PanelState.ChannelList(ChannelListSource.Favourites)
-      // The first refresh starts before startup is reported done, so nothing waiting on startup sees a gap between them.
+      // The first download starts before startup is reported done, so nothing waiting on startup sees a gap between them.
       val empty = !repository.hasChannels()
-      if (empty) onRefresh()
+      if (empty) runListJob(full = true, RefreshProgress.Checking) { repository.fullRefresh(::onRefreshProgress) }
       startupPanelChosen.value = true
-      if (!empty) repository.pruneEmptyMenus()
+      // Once per launch, in the background.
+      if (!empty) {
+        repository.pruneEmptyMenus()
+        checkForUpdate(manual = false)
+      }
     }
   }
 
@@ -261,30 +284,90 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
     viewModelScope.launch { repository.deleteChannel(channelId) }
   }
 
-  fun onRefresh() {
-    if (refreshStatus.value is RefreshStatus.Running) return
-    refreshStatus.value = RefreshStatus.Running(RefreshProgress.ChannelInfo)
-    viewModelScope.launch {
-      val result = runCatching { repository.refresh(::onRefreshProgress) }
-      refreshStatus.value = result.fold(onSuccess = { RefreshStatus.Done(it) }, onFailure = { RefreshStatus.Failed(it.message) })
-      if (result.isSuccess) {
-        deletedIds.clear()
-        // Drop removed channels from the zap list, except the playing one: Up/Down step from it.
-        val validIds = repository.allChannelIds().toSet()
-        val playing = currentChannelId.value
-        currentPlaybackList.value = currentPlaybackList.value.filter { it in validIds || it == playing }
+  /** The menu's Refresh Channels. */
+  fun onCheckForUpdate() = checkForUpdate(manual = true)
+
+  // A check in the background shows nothing unless there's something to offer, and offers a list put off with Later only
+  // when asked from the menu.
+  private fun checkForUpdate(manual: Boolean) {
+    if (updateOffer.value != null) return
+    if (listBusy) {
+      // Only a background check can be running here: a write's dialog covers the menu.
+      if (manual && refreshStatus.value == null) {
+        manualJoined = true
+        refreshStatus.value = RefreshStatus.Running(RefreshProgress.Checking)
       }
+      return
+    }
+    listBusy = true
+    manualJoined = false
+    if (manual) refreshStatus.value = RefreshStatus.Running(RefreshProgress.Checking)
+    viewModelScope.launch {
+      // Progress only shows while the dialog is up, so a background check reports into nothing until the menu joins it.
+      val result = runCatching { repository.checkForUpdate(background = !manual, ::onRefreshProgress) }
+      listBusy = false
+      val asked = manual || manualJoined
+      manualJoined = false
+      val check = result.getOrElse {
+        if (asked) refreshStatus.value = RefreshStatus.Failed(it.message)
+        return@launch
+      }
+      if (check is ListCheck.Applied || check is ListCheck.Offer) onListChanged(full = false)
+      when (check) {
+        is ListCheck.UpToDate -> if (asked) updateOffer.value = UpdateOffer.UpToDate(check.updatedAt)
+        is ListCheck.Applied -> if (asked) refreshStatus.value = RefreshStatus.Done(check.result)
+        is ListCheck.Offer -> if (asked || !repository.isPostponed(check.update.updatedAt)) updateOffer.value = UpdateOffer.Available(check.update)
+        // Skipped the download; the menu wants the offer back, so check again in full.
+        ListCheck.Postponed ->
+          if (asked) {
+            refreshStatus.value = null
+            checkForUpdate(manual = true)
+            return@launch
+          }
+      }
+      if (asked && refreshStatus.value is RefreshStatus.Running) refreshStatus.value = null
     }
   }
 
-  // Playlist callbacks arrive from several threads, so out of order: never step the count back.
-  private fun onRefreshProgress(progress: RefreshProgress) {
-    refreshStatus.update { current ->
-      val shown = (current as? RefreshStatus.Running)?.progress
-      if (current !is RefreshStatus.Running) current
-      else if (shown is RefreshProgress.Playlists && progress is RefreshProgress.Playlists && shown.done > progress.done) current
-      else RefreshStatus.Running(progress)
+  /** Update ([full] false) or Full refresh, from the update popup. */
+  fun onApplyUpdate(full: Boolean) {
+    val offer = updateOffer.value ?: return
+    updateOffer.value = null
+    when (offer) {
+      is UpdateOffer.Available -> runListJob(full, RefreshProgress.Saving(offer.update.total)) { repository.apply(offer.update, full, ::onRefreshProgress) }
+      is UpdateOffer.UpToDate -> runListJob(full = true, RefreshProgress.Checking) { repository.fullRefresh(::onRefreshProgress) }
     }
+  }
+
+  /** Later, or Close on "up to date". A list put off isn't offered again by itself; a newer one is. */
+  fun onDismissUpdateOffer() {
+    (updateOffer.value as? UpdateOffer.Available)?.let { repository.postpone(it.update.updatedAt) }
+    updateOffer.value = null
+  }
+
+  private fun runListJob(full: Boolean, firstStep: RefreshProgress, job: suspend () -> RefreshResult) {
+    if (listBusy) return
+    listBusy = true
+    refreshStatus.value = RefreshStatus.Running(firstStep)
+    viewModelScope.launch {
+      val result = runCatching { job() }
+      listBusy = false
+      refreshStatus.value = result.fold(onSuccess = { RefreshStatus.Done(it) }, onFailure = { RefreshStatus.Failed(it.message) })
+      if (result.isSuccess) onListChanged(full)
+    }
+  }
+
+  private suspend fun onListChanged(full: Boolean) {
+    // A Full refresh brings deleted channels back.
+    if (full) deletedIds.clear()
+    // Drop removed channels from the zap list, except the playing one: Up/Down step from it.
+    val validIds = repository.allChannelIds().toSet()
+    val playing = currentChannelId.value
+    currentPlaybackList.value = currentPlaybackList.value.filter { it in validIds || it == playing }
+  }
+
+  private fun onRefreshProgress(progress: RefreshProgress) {
+    refreshStatus.update { current -> if (current is RefreshStatus.Running) RefreshStatus.Running(progress) else current }
   }
 
   fun onDismissRefreshResult() {

@@ -59,6 +59,6 @@ data class BookmarkEntity(@PrimaryKey val channelId: String, val addedAt: Long)
 @Entity(tableName = "failed_channels")
 data class FailedChannelEntity(@PrimaryKey val channelId: String, val failedAt: Long)
 
-/** Hidden from every list until the next refresh; the channel row stays, so its favourite does too. */
+/** Hidden from every list until a Full refresh; the channel row stays, so its favourite does too. */
 @Entity(tableName = "deleted_channels")
 data class DeletedChannelEntity(@PrimaryKey val channelId: String)
