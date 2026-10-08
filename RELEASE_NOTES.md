@@ -1,15 +1,13 @@
 ## What's new
 
-- **Pause without missing your place.** A paused channel now resumes where you paused it. While you're behind, a **Go live** button jumps back to the live picture. On a TV remote, press Right or fast-forward.
-- **Mute is remembered.** Mute and volume stay as you left them when you switch channels or reopen the app.
-- **Refresh shows its progress.** While the channel list updates you can see how many playlists have downloaded and how many channels were found, then how many were added or removed.
-- **Quality, subtitles and audio.** Buttons in the player show the quality you're watching (SD, HD, FHD, 4K) and let you pick it (or leave it on Auto), turn subtitles on, or switch the audio track; a button is greyed out when the stream has nothing to choose. On a TV remote, press Down with the controls showing.
-- **A new start screen** while the app gets ready.
-- **Info & Support.** A new info screen lists what MeghTV can do and shows the app version. Open it from **Info & Support** at the top of the menu on a TV, or the **i** button on a phone. A short support message also appears at most once a day.
+- **More channels play.** Streams from servers that don't use HTTPS, about a quarter of all streams, now play instead of being skipped.
+- **Pick a channel's source.** Many channels have several streams. A new **Source** button in the player shows which one is playing (for example 2/5) and lets you pick another. The channel then starts from your pick next time. If a stream doesn't load, the next one is tried as before, and the list marks the ones that didn't load. On a TV remote, press Down with the controls showing.
+- **See what's loading.** While a stream loads, its number shows under the spinner, and the controls stay on screen until it plays.
+- **Info & Support** now lists the features first, then the support message. On a TV it also shows a QR code to scan with your phone.
 
 ## Install
 
-Download **MeghTV-v1.1.0.apk** below and open it on your device. It updates MeghTV 1.0.0 and keeps your favourites. You need Android 6.0 or newer. On a TV, an app such as Downloader can fetch and install the file.
+Download **MeghTV-v1.2.0.apk** below and open it on your device. It updates MeghTV 1.0.0 or 1.1.0 and keeps your favourites. You need Android 6.0 or newer. On a TV, an app such as Downloader can fetch and install the file.
 
 ## Support
 
