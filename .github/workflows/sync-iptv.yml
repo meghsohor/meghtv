@@ -1,0 +1,71 @@
+name: Sync channels with iptv-org
+
+# Scheduled workflows only run from the default branch, so this lives on main and works on the channels branch.
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-iptv
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: channels
+
+      - name: Fetch iptv-org
+        run: |
+          git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/iptv-org/iptv.git "$RUNNER_TEMP/iptv"
+          git -C "$RUNNER_TEMP/iptv" sparse-checkout set streams
+          git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/iptv-org/database.git "$RUNNER_TEMP/database"
+          git -C "$RUNNER_TEMP/database" sparse-checkout set data
+
+      - name: Merge into the channel list
+        run: python3 scripts/sync_iptv.py --iptv "$RUNNER_TEMP/iptv" --database "$RUNNER_TEMP/database" --summary "$RUNNER_TEMP/summary.md"
+
+      # A PR opened with GITHUB_TOKEN starts no workflows, so nothing else checks this one.
+      - name: Check
+        run: |
+          python3 -m unittest discover -s scripts
+          python3 scripts/build_channels.py --check
+
+      - name: Open or update the sync PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open_pr=$(gh pr list --head sync/iptv --base channels --state open --json number --jq '.[].number')
+          if [ -z "$(git status --porcelain -- data)" ]; then
+            echo "No changes from iptv-org"
+            # An open PR is now out of date; merging it would publish yesterday's changes.
+            if [ -n "$open_pr" ]; then
+              gh pr close "$open_pr" --delete-branch --comment "Closed: iptv-org no longer differs from the channels branch."
+            fi
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --quiet -c sync/iptv
+          git add data
+          git commit --quiet -m "Sync with iptv-org on $(date -u +%Y-%m-%d)"
+          # GITHUB_TOKEN can't move a branch across workflow-file changes; recreating it works (and closes the old PR).
+          if git fetch --quiet --depth 1 origin sync/iptv 2>/dev/null && ! git diff --quiet FETCH_HEAD HEAD -- .github/workflows; then
+            git push --quiet origin --delete sync/iptv
+            git push --quiet origin sync/iptv
+            open_pr=""
+          else
+            git push --quiet --force origin sync/iptv
+          fi
+          if [ -n "$open_pr" ]; then
+            gh pr edit sync/iptv --body-file "$RUNNER_TEMP/summary.md"
+          else
+            gh pr create --base channels --head sync/iptv --title "Sync with iptv-org" --body-file "$RUNNER_TEMP/summary.md"
+          fi
