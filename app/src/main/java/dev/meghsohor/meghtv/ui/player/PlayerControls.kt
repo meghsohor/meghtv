@@ -48,12 +48,15 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -254,6 +257,47 @@ private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, modifier: Mo
     if (!touchControls) Icon(MeghIcons.ChevronRight, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(18.dp))
   }
 }
+
+/**
+ * Touch only: ‹ and › either side of the centre, each over the name of the channel it plays. Wide apart, so the
+ * spinner, its source label and the error screen's text fit between them. Only the buttons take touches. No
+ * backgrounds of their own: they sit on the controls' dimmed picture, or the error screen.
+ */
+@Composable
+internal fun ChannelStepButtons(previous: String?, next: String?, onPrevious: () -> Unit, onNext: () -> Unit, onTouch: () -> Unit, modifier: Modifier = Modifier) {
+  Row(modifier, horizontalArrangement = Arrangement.spacedBy(ChannelStepGap, Alignment.CenterHorizontally), verticalAlignment = Alignment.CenterVertically) {
+    ChannelStepButton(previous, MeghIcons.ChevronLeft, "Previous channel", onPrevious, onTouch)
+    ChannelStepButton(next, MeghIcons.ChevronRight, "Next channel", onNext, onTouch)
+  }
+}
+
+@Composable
+private fun ChannelStepButton(name: String?, icon: ImageVector, label: String, onClick: () -> Unit, onTouch: () -> Unit) {
+  // Holds its place when there's nothing to step to, so the other one stays put. The name is part of the button.
+  Column(
+    Modifier.width(ChannelStepWidth).then(
+      if (name == null) Modifier
+      else
+        Modifier.clip(RoundedCornerShape(12.dp))
+          .clickable(role = Role.Button) {
+            onTouch()
+            onClick()
+          }
+          .semantics(mergeDescendants = true) { contentDescription = "$label: $name" }
+    ),
+    horizontalAlignment = Alignment.CenterHorizontally,
+    verticalArrangement = Arrangement.spacedBy(6.dp),
+  ) {
+    if (name == null) return@Column
+    Box(Modifier.size(56.dp), contentAlignment = Alignment.Center) {
+      Icon(icon, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(36.dp))
+    }
+    Text(name, color = Color.White, style = MaterialTheme.typography.labelMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+  }
+}
+
+private val ChannelStepGap = 320.dp
+private val ChannelStepWidth = 140.dp
 
 @Composable
 internal fun PlaybackErrorOverlay(

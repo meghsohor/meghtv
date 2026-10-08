@@ -54,6 +54,9 @@ data class TvHomeUiState(
   val currentStreamUrls: List<String> = emptyList(),
   /** The same sources in their listed order, which numbers them in the Source picker. */
   val currentSources: List<String> = emptyList(),
+  /** Where Channel Down and Channel Up go from the playing channel; null with nothing to step to. */
+  val previousChannel: ChannelEntity? = null,
+  val nextChannel: ChannelEntity? = null,
   val searchQuery: String = "",
   /** Null when no refresh dialog is up. */
   val refresh: RefreshStatus? = null,
@@ -147,8 +150,17 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
       // Eagerly: uiState stops collecting in the background, and a restart would lose the last good state.
       .stateIn(viewModelScope, SharingStarted.Eagerly, PlayerState(null, null, emptyList()))
 
+  private data class Neighbours(val previous: ChannelEntity?, val next: ChannelEntity?)
+
+  private val neighbours =
+    combine(currentChannelId, currentPlaybackList, ::Pair).flatMapLatest { (id, list) ->
+      val index = list.indexOf(id)
+      if (index == -1 || list.size < 2) flowOf(Neighbours(null, null))
+      else combine(repository.channelById(list[(index - 1).mod(list.size)]), repository.channelById(list[(index + 1).mod(list.size)]), ::Neighbours)
+    }
+
   val uiState =
-    combine(browseState, playerState, searchQuery, refreshStatus, updateOffer) { browse, player, query, refresh, offer ->
+    combine(browseState, combine(playerState, neighbours, ::Pair), searchQuery, refreshStatus, updateOffer) { browse, (player, near), query, refresh, offer ->
         TvHomeUiState(
           panel = browse.panel,
           startupPanelChosen = browse.startupPanelChosen,
@@ -160,6 +172,8 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
           currentChannel = player.currentChannel,
           currentStreamUrls = player.currentStreamUrls,
           currentSources = player.currentSources,
+          previousChannel = near.previous,
+          nextChannel = near.next,
           searchQuery = query,
           refresh = refresh,
           updateOffer = offer,

@@ -336,6 +336,10 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         // Clear of the edge tab, and the same on the left.
         controlsEdgeInset = PanelHandleWidth + 8.dp,
         playerCommands = playerCommands,
+        previousChannelName = state.previousChannel?.displayName,
+        nextChannelName = state.nextChannel?.displayName,
+        onPreviousChannel = viewModel::onChannelDown,
+        onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
       if (panelOpen || playerControlsVisible) {
@@ -361,7 +365,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     }
 
     // Touch only: a remote can't reach it, since with the menu closed its keys open the menu. The menu covers it when open.
-    if (touchMode) CornerInfoButton(onClick = { showInfo = true }, modifier = Modifier.align(Alignment.TopEnd).padding(16.dp))
+    // Lined up with the menu tab below it, which is as wide.
+    if (touchMode) CornerInfoButton(onClick = { showInfo = true }, modifier = Modifier.align(Alignment.TopEnd).padding(top = 16.dp))
 
     // Slides in from the edge it lives on. One placement offset, so a low-end TV keeps up.
     AnimatedVisibility(
@@ -497,15 +502,14 @@ private fun PanelHandle(onClick: () -> Unit, modifier: Modifier = Modifier) {
 
 @Composable
 private fun CornerInfoButton(onClick: () -> Unit, modifier: Modifier = Modifier) {
+  // As wide as the menu tab, with the icon a touch in from its left edge (the user's choice).
   Box(
     modifier
-      .size(44.dp)
-      .clip(RoundedCornerShape(50))
-      .background(MeghBackground.copy(alpha = 0.8f))
-      .clickable(onClickLabel = "About MeghTV", onClick = onClick)
+      .size(PanelHandleWidth)
+      .clickable(onClickLabel = "About MeghTV", indication = null, interactionSource = null, onClick = onClick)
       .semantics { contentDescription = "About MeghTV" },
-    contentAlignment = Alignment.Center,
+    contentAlignment = Alignment.CenterStart,
   ) {
-    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(start = 4.dp).size(22.dp))
   }
 }
