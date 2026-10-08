@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 IPTV_DIR = DATA / "iptv"
 
-CHANNEL_KEYS = ["id", "name", "country", "categories", "visible", "hiddenBy", "urls"]
+CHANNEL_KEYS = ["id", "name", "country", "categories", "visible", "urls"]
 CUSTOM_AMEND_KEYS = {"id", "name", "country", "categories", "visible", "urls"}
 URL_SCHEME = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*://")
 
@@ -150,7 +150,7 @@ def validate(data: ChannelData) -> list[str]:
         if not isinstance(channel, dict):
             errors.append(f"{where}: not an object")
             continue
-        missing = set(CHANNEL_KEYS) - {"hiddenBy"} - set(channel)
+        missing = set(CHANNEL_KEYS) - set(channel)
         unknown = set(channel) - set(CHANNEL_KEYS)
         if missing or unknown:
             errors.append(f"{where}: missing {sorted(missing)}, unknown {sorted(unknown)}")
@@ -169,8 +169,6 @@ def validate(data: ChannelData) -> list[str]:
         _check_categories(where, channel["categories"], all_categories, errors)
         if not isinstance(channel["visible"], bool):
             errors.append(f"{where}: visible must be true or false")
-        if "hiddenBy" in channel and (channel["hiddenBy"] != "sync" or channel["visible"] is not False):
-            errors.append(f'{where}: hiddenBy can only be "sync", on a hidden channel')
         _check_urls(where, channel["urls"], errors)
 
     iptv_categories = {c["id"]: c["categories"] for c in data.channels if isinstance(c, dict) and "id" in c and "categories" in c}

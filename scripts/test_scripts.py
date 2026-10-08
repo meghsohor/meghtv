@@ -33,11 +33,9 @@ class SyncTest(unittest.TestCase):
         merge(d, [upstream("a@x", ["http://new", "http://old2"])])
         self.assertEqual(d.channels[0]["urls"], ["http://new", "http://old2", "http://old1"])
 
-    def test_channel_gone_upstream_is_hidden_not_removed_and_returns(self):
+    def test_channel_gone_upstream_is_left_as_it_is(self):
         d = data([channel("a@x", ["http://a"]), channel("b@x", ["http://b"])])
         merge(d, [upstream("a@x", ["http://a"])])
-        self.assertEqual(d.channels[1], channel("b@x", ["http://b"], visible=False, hiddenBy="sync"))
-        merge(d, [upstream("a@x", ["http://a"]), upstream("b@x", ["http://b"])])
         self.assertEqual(d.channels[1], channel("b@x", ["http://b"]))
 
     def test_sync_never_shows_a_channel_hidden_by_hand(self):
@@ -45,8 +43,6 @@ class SyncTest(unittest.TestCase):
         merge(d, [upstream("a@x", ["http://a"], name="Renamed")])
         self.assertFalse(d.channels[0]["visible"])
         self.assertEqual(d.channels[0]["name"], "Renamed")
-        merge(d, [])
-        self.assertNotIn("hiddenBy", d.channels[0])
 
     def test_new_channel_is_added_visible(self):
         d = data([])
@@ -71,8 +67,8 @@ class SyncTest(unittest.TestCase):
         self.assertEqual(usable, [Upstream("ok@x", "ok", "FR", ["news"], ["http://a"])])
         self.assertEqual(set_aside, {"bad@x"})
         self.assertEqual(len(report), 3)
-        merge(d, usable, set_aside)
-        self.assertTrue(d.channels[0]["visible"])  # set aside, not hidden
+        merge(d, usable)
+        self.assertTrue(d.channels[0]["visible"])
         self.assertEqual(validate(d), [])
 
     def test_upstream_category_never_replaces_a_custom_one(self):

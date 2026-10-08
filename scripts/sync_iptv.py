@@ -90,7 +90,7 @@ def read_upstream(iptv: Path, database: Path) -> tuple[list[Upstream], list[dict
 def screen(upstream: list[Upstream], data: ChannelData) -> tuple[list[Upstream], set[str], list[str]]:
     """Fixes or sets aside upstream entries our checks would reject, so one bad value can't stop the sync.
 
-    Returns the usable channels, the ids set aside (still upstream, so not hidden) and a report.
+    Returns the usable channels, the ids set aside (still upstream, for the guard) and a report.
     """
     countries = {c["code"] for c in data.countries}
     categories = {c["id"] for c in data.categories + data.custom_categories}
@@ -119,11 +119,11 @@ def screen(upstream: list[Upstream], data: ChannelData) -> tuple[list[Upstream],
 
 
 def check_upstream(data: ChannelData, present: set[str]) -> None:
-    """Stops when most channels we track would be hidden: upstream is broken, or renamed its ids."""
-    tracked = {c["id"] for c in data.channels if c.get("hiddenBy") != "sync"}
+    """Stops when most channels we track are gone upstream: it's broken, or renamed its ids."""
+    tracked = {c["id"] for c in data.channels}
     still_there = len(tracked & present)
     if tracked and still_there < len(tracked) * MIN_UPSTREAM_SHARE:
-        sys.exit(f"only {still_there} of the {len(tracked)} channels we track are still in iptv-org: refusing to hide the rest")
+        sys.exit(f"only {still_there} of the {len(tracked)} channels we track are still in iptv-org: refusing to merge")
 
 
 def merge_menu(rows: list[dict], upstream: list[dict], key: str, report: list[str], label: str, reserved: set[str] = frozenset()) -> None:
@@ -140,9 +140,9 @@ def merge_menu(rows: list[dict], upstream: list[dict], key: str, report: list[st
             row.update(item)  # name and flag follow upstream; visible is ours
 
 
-def merge(data: ChannelData, upstream: list[Upstream], set_aside: set[str] = frozenset()) -> dict[str, list[str]]:
-    """[set_aside] are still upstream but unusable today: left as they are, not hidden."""
-    changes: dict[str, list[str]] = {k: [] for k in ("added", "urls", "details", "hidden", "returned")}
+def merge(data: ChannelData, upstream: list[Upstream]) -> dict[str, list[str]]:
+    """Adds and updates; never hides. A channel gone from iptv-org stays as it is, and only the owner hides channels."""
+    changes: dict[str, list[str]] = {k: [] for k in ("added", "urls", "details")}
     current = {c["id"]: c for c in data.channels}
     for up in upstream:
         channel = current.get(up.id)
@@ -166,17 +166,6 @@ def merge(data: ChannelData, upstream: list[Upstream], set_aside: set[str] = fro
             changes["details"].append(f"{up.name} ({up.id}): {', '.join(changed)}")
             channel.update(details)
             data.sources.pop(up.id, None)  # a new country moves it to that country's file on save
-        if channel.get("hiddenBy") == "sync":
-            channel["visible"] = True
-            del channel["hiddenBy"]
-            changes["returned"].append(f"{up.name} ({up.id})")
-
-    present = {up.id for up in upstream} | set_aside
-    for channel in data.channels:
-        if channel["id"] not in present and channel["visible"]:
-            channel["visible"] = False
-            channel["hiddenBy"] = "sync"
-            changes["hidden"].append(f"{channel['name']} ({channel['id']})")
     return changes
 
 
@@ -184,8 +173,6 @@ SECTIONS = [
     ("added", "New channels"),
     ("urls", "Channels with new or reordered URLs"),
     ("details", "Channels with a new name, country or categories"),
-    ("hidden", "Hidden: no longer in iptv-org"),
-    ("returned", "Shown again: back in iptv-org"),
     ("menus", "Categories and countries"),
     ("screened", "Fixed or skipped upstream entries"),
 ]
@@ -220,7 +207,7 @@ def main() -> None:
     merge_menu(data.countries, countries, "code", menus, "country")
     usable, set_aside, screened = screen(upstream, data)
     check_upstream(data, {up.id for up in usable} | set_aside)
-    changes = merge(data, usable, set_aside)
+    changes = merge(data, usable)
     changes["menus"] = menus
     changes["screened"] = screened
 
