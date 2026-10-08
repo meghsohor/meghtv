@@ -110,6 +110,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var showInfo by remember { mutableStateOf(false) }
   var searchFieldFocused by remember { mutableStateOf(false) }
   var playbackActive by remember { mutableStateOf(false) }
+  var playbackFailed by remember { mutableStateOf(false) }
   var menuChannel by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
@@ -326,6 +327,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onLiveStateChange = { liveState = it },
         onTrackControlsChange = { trackControls = it },
         onPlaybackActiveChange = { playbackActive = it },
+        onPlaybackFailedChange = { playbackFailed = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
         onDeleteChannel = {
@@ -342,8 +344,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
-      if (panelOpen || playerControlsVisible) {
-        NowPlayingBadge(channel = currentChannel, live = !liveState.behind, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
+      // Also on the error screen, so it says which channel failed; nothing plays there, so LIVE is greyed.
+      if (panelOpen || playerControlsVisible || playbackFailed) {
+        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !playbackFailed, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
       Image(
