@@ -110,6 +110,7 @@ fun VideoPlayer(
   onControlsVisibilityChange: (Boolean) -> Unit,
   onPlaybackActiveChange: (Boolean) -> Unit,
   onPlaybackFailedChange: (Boolean) -> Unit,
+  onLoadingChange: (Boolean) -> Unit,
   onAllSourcesFailed: () -> Unit,
   onPlaying: () -> Unit,
   onDeleteChannel: () -> Unit,
@@ -340,6 +341,9 @@ fun VideoPlayer(
   val currentOnPlaybackFailedChange by rememberUpdatedState(onPlaybackFailedChange)
   LaunchedEffect(failed) { currentOnPlaybackFailedChange(failed) }
   DisposableEffect(Unit) { onDispose { currentOnPlaybackFailedChange(false) } }
+  val currentOnLoadingChange by rememberUpdatedState(onLoadingChange)
+  LaunchedEffect(sourceLoading) { currentOnLoadingChange(sourceLoading) }
+  DisposableEffect(Unit) { onDispose { currentOnLoadingChange(false) } }
 
   LaunchedEffect(muted, volume) {
     player.volume = if (muted) 0f else volume

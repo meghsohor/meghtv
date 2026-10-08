@@ -111,6 +111,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var searchFieldFocused by remember { mutableStateOf(false) }
   var playbackActive by remember { mutableStateOf(false) }
   var playbackFailed by remember { mutableStateOf(false) }
+  var channelLoading by remember { mutableStateOf(false) }
   var menuChannel by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
@@ -328,6 +329,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onTrackControlsChange = { trackControls = it },
         onPlaybackActiveChange = { playbackActive = it },
         onPlaybackFailedChange = { playbackFailed = it },
+        onLoadingChange = { channelLoading = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
         onDeleteChannel = {
@@ -344,9 +346,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
-      // Also on the error screen, so it says which channel failed; nothing plays there, so LIVE is greyed.
-      if (panelOpen || playerControlsVisible || playbackFailed) {
-        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !playbackFailed, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
+      // Also while a channel loads and on the error screen, so it says which channel that is; LIVE is greyed until it plays.
+      if (panelOpen || playerControlsVisible || playbackFailed || channelLoading) {
+        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !playbackFailed && !channelLoading, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
       Image(
