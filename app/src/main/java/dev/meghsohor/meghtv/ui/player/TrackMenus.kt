@@ -1,10 +1,11 @@
 package dev.meghsohor.meghtv.ui.player
 
-import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -18,6 +19,8 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.media3.common.C
@@ -182,12 +185,9 @@ private fun labelsFor(formats: List<Format>, fallback: String): List<String> {
   }
 }
 
-/** "Source 2 · host", numbered in listed order; [failed] ones are marked so the viewer can skip them. */
+/** "Source 2", numbered in listed order; [failed] ones are marked so the viewer can skip them. */
 internal fun sourceLabels(sources: List<String>, failed: Set<String>): List<String> =
-  sources.mapIndexed { i, url ->
-    val host = runCatching { Uri.parse(url).host }.getOrNull()?.takeIf { it.isNotBlank() } ?: url
-    "Source ${i + 1} · $host" + if (url in failed) " · didn't load" else ""
-  }
+  sources.mapIndexed { i, url -> "Source ${i + 1}" + if (url in failed) " · didn't load" else "" }
 
 /** A choice list in the app's dialog style: picking applies and closes it; Back closes it. */
 @Composable
@@ -214,6 +214,7 @@ internal fun TrackPickerDialog(title: String, labels: List<String>, selectedInde
         ) {
           val focusIndex = selectedIndex.coerceAtLeast(0)
           labels.forEachIndexed { i, label ->
+            if (i > 0) RowDivider()
             ChoiceRow(
               label,
               selected = i == selectedIndex,
@@ -225,4 +226,12 @@ internal fun TrackPickerDialog(title: String, labels: List<String>, selectedInde
       }
     }
   }
+}
+
+// Soft white in the middle, fading out at both ends.
+private val RowDividerBrush = Brush.horizontalGradient(listOf(Color.Transparent, Color.White.copy(alpha = 0.16f), Color.Transparent))
+
+@Composable
+private fun RowDivider() {
+  Box(Modifier.fillMaxWidth().padding(horizontal = 8.dp).height(1.dp).background(RowDividerBrush))
 }

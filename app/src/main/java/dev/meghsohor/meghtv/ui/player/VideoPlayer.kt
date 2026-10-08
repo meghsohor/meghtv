@@ -14,13 +14,18 @@ import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.systemGestureExclusion
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -36,6 +41,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
@@ -134,6 +140,8 @@ fun VideoPlayer(
   var videoHeight by remember { mutableIntStateOf(0) }
   var openMenu by remember { mutableStateOf<TrackKind?>(null) }
   var sourcesOpen by remember { mutableStateOf(false) }
+  // A picked source not yet handed to the player.
+  val pendingPick = remember { arrayOfNulls<String>(1) }
   // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
   var failedSources by remember { mutableStateOf(emptySet<String>()) }
   var trackControlsFocused by remember { mutableStateOf(false) }
@@ -376,6 +384,8 @@ fun VideoPlayer(
     val index = streamUrls.indexOf(url)
     if (index < 0 || (url == playingSource && playbackError == null)) return
     playbackError = null
+    // The saved pick's reorder can reach the load effect before this attempt does; it then plays this, not the old source.
+    pendingPick[0] = url
     attempt = SourceAttempt(index)
     retryTick++ // reloads even when the index doesn't change
   }
@@ -405,7 +415,7 @@ fun VideoPlayer(
 
   // The channel attempt and playbackError belong to; a switch resets them here, so it loads once, at the first mirror.
   val loadedFor = remember { arrayOfNulls<Pair<String, List<String>>>(1) }
-  // The URL handed to the player, and whether the next run of the load effect should leave it playing.
+  // The URL handed to the player, and whether the next run of the load effect should leave the player alone.
   val loadedUrl = remember { arrayOfNulls<String>(1) }
   val keepLoaded = remember { booleanArrayOf(false) }
   LaunchedEffect(channelId, streamUrls, attempt, retryTick) {
@@ -416,21 +426,27 @@ fun VideoPlayer(
       if (!sameChannel) {
         failedSources = emptySet()
         sourcesOpen = false
+        pendingPick[0] = null
       }
-      // Same channel, its list only reordered or edited (a saved pick, a refresh): play on, at the source's new place.
-      val kept = if (sameChannel && playbackError == null) streamUrls.indexOf(loadedUrl[0]) else -1
+      // Same channel, its list only reordered or edited (a saved pick, a refresh): go on with the source the player
+      // should be on, a pick still to load or else the playing one, at its new place.
+      val current = pendingPick[0] ?: loadedUrl[0]
+      val kept = if (sameChannel && playbackError == null) streamUrls.indexOf(current) else -1
       if (kept >= 0) {
+        val playing = current == loadedUrl[0]
         if (attempt.index != kept) {
-          keepLoaded[0] = true
-          attempt = attempt.copy(index = kept) // relaunches this effect, which then leaves the player alone
+          keepLoaded[0] = playing
+          attempt = if (playing) attempt.copy(index = kept) else SourceAttempt(kept) // relaunches this effect
+          return@LaunchedEffect
         }
-        return@LaunchedEffect
-      }
-      playbackError = null
-      liveRejoins[0] = 0
-      if (attempt != SourceAttempt()) {
-        attempt = SourceAttempt() // relaunches this effect, at the first mirror
-        return@LaunchedEffect
+        if (playing) return@LaunchedEffect
+      } else {
+        playbackError = null
+        liveRejoins[0] = 0
+        if (attempt != SourceAttempt()) {
+          attempt = SourceAttempt() // relaunches this effect, at the first mirror
+          return@LaunchedEffect
+        }
       }
     }
     if (keepLoaded[0]) {
@@ -439,6 +455,7 @@ fun VideoPlayer(
     }
     val url = streamUrls.getOrNull(attempt.index)
     loadedUrl[0] = url
+    pendingPick[0] = null
     if (url == null) {
       player.stop()
       player.clearMediaItems()
@@ -597,6 +614,20 @@ fun VideoPlayer(
         strokeWidth = 3.dp,
         modifier = Modifier.align(Alignment.Center).padding(end = overlayEndPadding).size(48.dp),
       )
+      // Below the spinner, which stays centred: shows a source switch, picked or a fallback, as it happens.
+      if (sources.size > 1 && sourceNumber > 0) {
+        Text(
+          "Source $sourceNumber of ${sources.size}",
+          color = Color.White,
+          style = MaterialTheme.typography.labelLarge,
+          modifier =
+            Modifier.align(Alignment.Center)
+              .padding(end = overlayEndPadding)
+              .offset(y = 52.dp)
+              .background(MeghBackground.copy(alpha = 0.6f), RoundedCornerShape(50))
+              .padding(horizontal = 12.dp, vertical = 4.dp),
+        )
+      }
     }
 
     playbackError?.let { error ->
