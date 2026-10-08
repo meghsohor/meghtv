@@ -296,13 +296,15 @@ private fun ChannelStepButton(name: String?, icon: ImageVector, label: String, o
   }
 }
 
-private val ChannelStepGap = 320.dp
-private val ChannelStepWidth = 140.dp
+private val ChannelStepGap = 360.dp
+private val ChannelStepWidth = 130.dp
 
 @Composable
 internal fun PlaybackErrorOverlay(
   offline: Boolean,
   onRetry: () -> Unit,
+  /** Opens the Source picker; null with a single source. */
+  onSources: (() -> Unit)?,
   onDelete: () -> Unit,
   endPadding: Dp,
   focusRetry: Boolean,
@@ -326,6 +328,8 @@ internal fun PlaybackErrorOverlay(
       )
       Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         OverlayButton("Retry", onClick = onRetry, primary = true, modifier = Modifier.focusRequester(retryFocusRequester))
+        // Try one by hand: Retry starts again from the first.
+        if (onSources != null) OverlayButton("Source", onClick = onSources, primary = false)
         // Offline says nothing about the channel.
         if (!offline) OverlayButton("Delete channel", onClick = onDelete, primary = false)
       }

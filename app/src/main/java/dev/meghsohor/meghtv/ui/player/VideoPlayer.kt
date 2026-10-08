@@ -639,11 +639,13 @@ fun VideoPlayer(
       }
     }
 
-    if (sourcesOpen && playbackError == null) {
+    // Also from the error screen; a pick there clears it and plays the pick.
+    if (sourcesOpen) {
       TrackPickerDialog(
         "Source",
         sourceLabels(sources, failedSources),
-        selectedIndex = sources.indexOf(playingSource),
+        // Nothing plays behind the error screen.
+        selectedIndex = if (playbackError != null) -1 else sources.indexOf(playingSource),
         touchMode = touchControls,
         onPick = { pickSource(sources[it]) },
         onDismiss = { sourcesOpen = false },
@@ -688,6 +690,7 @@ fun VideoPlayer(
           pendingUrl[0] = null
           retryTick++ // re-runs the load effect even at the first mirror
         },
+        onSources = if (sources.size > 1) ({ sourcesOpen = true }) else null,
         endPadding = overlayEndPadding,
         focusRetry = controlsAllowed,
         modifier = Modifier.fillMaxSize(),
