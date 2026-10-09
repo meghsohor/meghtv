@@ -26,6 +26,12 @@ Operational notes for any AI agent working in this repo — the stuff that isn't
 - The database is at version 2 (`failed_channels` and `deleted_channels` tables). `MeghTVDatabase` has a hand-written 1→2 migration; any further schema change needs its own migration, or upgrading users lose their favourites.
 - Next: a tests PR (TV key routing, ViewModel startup and channel zap, DAO ordering and pruning).
 
+## Personal build (owner's devices only)
+
+- `personal` build type: `initWith(release)`, so it is shrunk like release. `scripts/build-local-release.sh --personal` builds it and signs it with the release key, as `MeghTV-v<version>-personal.apk`. The same app ID and key mean it installs over a sideloaded release (GitHub or local) and keeps favourites. It can't update a Play install: Play re-signs with its own app-signing key.
+- Its only difference: `local/tools/channels/*.json` (the owner's own channels, one file per category named after it, e.g. `xyz.json`, each in the published list's shape; `local/` is in `.git/info/exclude`) are checked and merged into its assets as `personal_channels.json` by the `personalChannels` task, which fails the build on a broken file or a channel id used twice. Release, debug and CI builds never get it. Never commit `local/`, and never hand out a personal APK: its links carry a reseller's account keys.
+- `MeghTVRepository` adds those channels to every downloaded list (`withExtras`, read with the same parser as the published list), after the checks against the manifest. An id the published list also has stays the published one. The applied list's key includes a hash of the file, so a new personal build (or an edited file) counts as a new list: the launch check offers its channels in the usual popup, and installing over the real app works the same way. If the asset exists but doesn't parse, downloads fail rather than drop those channels and their favourites. Without the asset, nothing changes.
+
 ## Dev environment — command-line only, no Android Studio
 
 - JDK 17 via Homebrew (`openjdk@17`), keg-only — not on PATH by default. Every build command needs `export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"` first.

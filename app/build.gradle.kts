@@ -21,6 +21,10 @@ android {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
+        // Release plus the owner's own channels from local/tools/channels/, which stays out of git. Never published.
+        create("personal") {
+            initWith(getByName("release"))
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -42,6 +46,61 @@ android {
 
 kotlin {
     jvmToolchain(17)
+}
+
+/** Merges the .json files in local/tools/channels (one per category), and nothing else from local/, into the personal build's assets. */
+abstract class PersonalChannelsTask : DefaultTask() {
+    @get:InputDirectory abstract val channelsDir: DirectoryProperty
+    @get:OutputDirectory abstract val outputDir: DirectoryProperty
+
+    @TaskAction
+    fun merge() {
+        val dir = channelsDir.get().asFile
+        val files = dir.listFiles { f -> f.isFile && f.name.endsWith(".json") }.orEmpty().sortedBy { it.name }
+        if (files.isEmpty()) throw GradleException("$dir: no channel files")
+        val categories = LinkedHashMap<Any?, Any?>()
+        val countries = LinkedHashMap<Any?, Any?>()
+        val ids = mutableSetOf<Any?>()
+        val shown = mutableListOf<Any?>()
+        for (file in files) {
+            // A file the app can't read would cost its channels, and their favourites, on the next refresh: fail here instead.
+            val root = groovy.json.JsonSlurper().parse(file) as? Map<*, *> ?: throw GradleException("$file: not a JSON object")
+            if (root["schemaVersion"] != 1) throw GradleException("$file: schemaVersion must be 1")
+            val list = root["channels"] as? List<*> ?: throw GradleException("$file: no \"channels\" list")
+            list.forEachIndexed { i, entry ->
+                val c = entry as? Map<*, *>
+                fun strings(key: String) = (c?.get(key) as? List<*>)?.all { it is String } == true
+                val urls = c?.get("urls") as? List<*>
+                if (c?.get("id") !is String || c["name"] !is String || c["country"] !is String || !strings("categories") || !strings("urls") || urls.isNullOrEmpty()) {
+                    throw GradleException("$file: channel ${i + 1} needs an id, a name, a country (\"\" for none), categories and at least one URL")
+                }
+                if (c["visible"] != null && c["visible"] !is Boolean) throw GradleException("$file: channel ${i + 1}: visible must be true or false")
+                if (!ids.add(c["id"])) throw GradleException("$file: channel ${i + 1}: id ${c["id"]} is used twice")
+                // Hidden channels never reach the app, as on the published list.
+                if (c["visible"] != false) shown += c
+            }
+            fun entries(key: String, vararg fields: String) = (root[key] as? List<*> ?: throw GradleException("$file: no \"$key\" list")).map { entry ->
+                (entry as? Map<*, *>)?.takeIf { m -> fields.all { m[it] is String } } ?: throw GradleException("$file: each of $key needs ${fields.joinToString()}")
+            }
+            entries("categories", "id", "name").forEach { categories.putIfAbsent(it["id"], it) }
+            entries("countries", "code", "name", "flag").forEach { countries.putIfAbsent(it["code"], it) }
+        }
+        val merged = linkedMapOf("schemaVersion" to 1, "categories" to categories.values.toList(), "countries" to countries.values.toList(), "channels" to shown)
+        val out = outputDir.get().asFile
+        out.deleteRecursively()
+        out.mkdirs()
+        out.resolve("personal_channels.json").writeText(groovy.json.JsonOutput.toJson(merged))
+    }
+}
+
+val personalChannels = tasks.register<PersonalChannelsTask>("personalChannels") {
+    channelsDir.set(rootProject.layout.projectDirectory.dir("local/tools/channels"))
+}
+
+androidComponents {
+    onVariants(selector().withBuildType("personal")) { variant ->
+        variant.sources.assets?.addGeneratedSourceDirectory(personalChannels, PersonalChannelsTask::outputDir)
+    }
 }
 
 dependencies {

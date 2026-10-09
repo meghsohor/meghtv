@@ -19,7 +19,14 @@ import dev.meghsohor.meghtv.theme.MeghTVTheme
 
 class MainActivity : ComponentActivity() {
 
-  private val repository: MeghTVRepository by lazy { MeghTVRepository(MeghTVDatabase.getInstance(applicationContext), ChannelListPrefs(applicationContext)) }
+  private val repository: MeghTVRepository by lazy {
+    MeghTVRepository(
+      MeghTVDatabase.getInstance(applicationContext),
+      ChannelListPrefs(applicationContext),
+      // Only the personal build bundles this file.
+      extraChannelsJson = { runCatching { applicationContext.assets.open("personal_channels.json").bufferedReader().use { it.readText() } }.getOrNull() },
+    )
+  }
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
