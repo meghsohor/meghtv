@@ -1959,7 +1959,8 @@
     "visible": true,
     "urls": [
       "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
-      "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8"
+      "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8",
+      "https://techtraveleat.in/stream.m3u8?id=historytv18eng"
     ]
   },
   {
@@ -2669,7 +2670,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8"
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8",
+      "https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8"
     ]
   },
   {
@@ -3715,16 +3717,16 @@
   },
   {
     "id": "RepublicBangla.in@SD",
-    "name": "Republic Bangla (1080p)",
+    "name": "Republic Bangla",
     "country": "IN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
       "https://cdn.pishow.tv/ott/live/270/master.m3u8",
-      "https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8"
+      "https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8",
+      "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8"
     ]
   },
   {

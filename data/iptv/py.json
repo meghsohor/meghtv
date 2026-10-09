@@ -746,13 +746,14 @@
   },
   {
     "id": "TigoSports.py@SD",
-    "name": "Tigo Sports (1080p)",
+    "name": "Tigo Sports",
     "country": "PY",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8",
       "http://45.170.130.224:8000/play/a04k/index.m3u8?hls"
     ]
   },

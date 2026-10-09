@@ -1826,5 +1826,17 @@
     "urls": [
       "https://stream3.srr.ro/RadioResita/live/playlist.m3u8"
     ]
+  },
+  {
+    "id": "PrimaComedy.ro@SD",
+    "name": "Prima Comedy (576p)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/primacomedy/mono.m3u8"
+    ]
   }
 ]

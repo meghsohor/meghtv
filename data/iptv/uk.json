@@ -3318,5 +3318,17 @@
     "urls": [
       "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8"
     ]
+  },
+  {
+    "id": "Foodxp.uk@SD",
+    "name": "Foodxp (1080p)",
+    "country": "UK",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://techtraveleat.in/stream.m3u8?id=foodxp"
+    ]
   }
 ]

@@ -3368,5 +3368,29 @@
     "urls": [
       "https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ComedyCentralBrasil.br@SD",
+    "name": "Comedy Central Brasil (480p)",
+    "country": "BR",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVGuarapari.br@SD",
+    "name": "TV Guarapari (720p)",
+    "country": "BR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.welltecnologia.com.br/tvguarapari/tvguarapari/playlist.m3u8"
+    ]
   }
 ]

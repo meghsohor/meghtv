@@ -1,15 +1,15 @@
 [
   {
     "id": "NET.mt@SD",
-    "name": "NET (1080p)",
+    "name": "NET [Geo-blocked]",
     "country": "MT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream.smashmalta.com:25463/live/webplayer/livestream/22.m3u8",
-      "http://80.79.6.221:25461/smash/public/22"
+      "http://80.79.6.221:25461/smash/public/22",
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/22.m3u8"
     ]
   },
   {
@@ -27,15 +27,15 @@
   },
   {
     "id": "ParliamentofMalta.mt@SD",
-    "name": "Parliament of Malta (1080p)",
+    "name": "Parliament TV [Geo-blocked]",
     "country": "MT",
     "categories": [
       "legislative"
     ],
     "visible": true,
     "urls": [
-      "https://stream.smashmalta.com:25463/live/webplayer/livestream/23.m3u8",
-      "http://80.79.6.221:25461/smash/public/23"
+      "http://80.79.6.221:25461/smash/public/23",
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/23.m3u8"
     ]
   },
   {
@@ -53,15 +53,15 @@
   },
   {
     "id": "TVM.mt@SD",
-    "name": "TVM (1080p)",
+    "name": "TVM [Geo-blocked]",
     "country": "MT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8",
-      "http://80.79.6.221:25461/smash/public/19"
+      "http://80.79.6.221:25461/smash/public/19",
+      "https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8"
     ]
   },
   {
@@ -86,6 +86,18 @@
     "visible": true,
     "urls": [
       "http://80.79.6.221:25461/smash/public/20"
+    ]
+  },
+  {
+    "id": "MedTV.mt@SD",
+    "name": "Med.TV (720p)",
+    "country": "MT",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://med-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-medtv-1-restreaming/bitok/eyJzdGlkIjoiMGUzYjU2OWQtYTY3NC00ZDQxLThmZmMtNjA2NWU5YzMwNTViIiwibWt0IjoiaXQiLCJjaCI6IjUiLCJwdGYiOjV9/hls/main.m3u8"
     ]
   }
 ]

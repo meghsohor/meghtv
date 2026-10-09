@@ -11221,6 +11221,7 @@
     "urls": [
       "http://23.237.104.106:8080/USA_NBA/index.m3u8",
       "http://rezofoot.tv/NBATV/index.m3u8",
+      "http://198.58.104.90:8989/nba/index.m3u8",
       "https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8",
       "https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8"
     ]
@@ -23761,6 +23762,196 @@
     "visible": true,
     "urls": [
       "https://amg02507-giantpictures-tribeca-xumo-ey2b7.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TNT.us@East",
+    "name": "TNT (720p)",
+    "country": "US",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.254.245.162/TNT-HD/index.m3u8",
+      "http://212.5.144.156/tnt/index.m3u8"
+    ]
+  },
+  {
+    "id": "TBS.us@East",
+    "name": "TBS (720p)",
+    "country": "US",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.254.245.162/TBS/index.m3u8"
+    ]
+  },
+  {
+    "id": "truTV.us@East",
+    "name": "truTV (720p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_TRUTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "Cinemax.us@West",
+    "name": "Cinemax West (720p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8"
+    ]
+  },
+  {
+    "id": "DestinationAmerica.us@SD",
+    "name": "Destination America (720p)",
+    "country": "US",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8"
+    ]
+  },
+  {
+    "id": "MilitaryHistory.us@SD",
+    "name": "Military History (720p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/ab44a8245afe413db1169317ee5cda08/index.m3u8?type=ae2"
+    ]
+  },
+  {
+    "id": "Tooncast.us@SD",
+    "name": "Tooncast (1080p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a01t/index.m3u8"
+    ]
+  },
+  {
+    "id": "TCMLatinAmerica.us@South",
+    "name": "TCM Latin America South (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a014/index.m3u8"
+    ]
+  },
+  {
+    "id": "CinemaxLatinAmerica.us@HD",
+    "name": "Cinemax Latin America HD (1080p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.65.175.84:8000/play/a093/index.m3u8"
+    ]
+  },
+  {
+    "id": "TNTLatinAmerica.us@Center",
+    "name": "TNT Latin America (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a03i/index.m3u8"
+    ]
+  },
+  {
+    "id": "TNTSeriesLatinAmerica.us@Panregional",
+    "name": "TNT Series Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://168.196.127.137:6001/play/a095/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannelLatinAmerica.us@Panregional",
+    "name": "Discovery Channel Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a032/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkLatinAmerica.us@SouthAtlantic",
+    "name": "Cartoon Network Latin America South Atlantic (1080p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.172.217.18:8000/play/a03a/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkLatinAmerica.us@NorthAtlantic",
+    "name": "Cartoon Network Latin America North Atlantic (1080p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.252.238.18:8000/play/a053/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryKidsLatinAmerica.us@Mexico",
+    "name": "Discovery Kids Latin America Mexico (1080p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.65.175.84:8000/play/a0an/index.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscoveryLatinAmerica.us@South",
+    "name": "Investigation Discovery Latin America South (1080p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.65.175.84:8000/play/a0ch/index.m3u8"
     ]
   }
 ]
