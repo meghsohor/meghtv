@@ -12,7 +12,7 @@
   {
     "id": "business",
     "name": "Business",
-    "visible": true
+    "visible": false
   },
   {
     "id": "classic",
@@ -62,7 +62,7 @@
   {
     "id": "interactive",
     "name": "Interactive",
-    "visible": true
+    "visible": false
   },
   {
     "id": "kids",
