@@ -27,6 +27,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Text
+import androidx.compose.material3.ripple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -72,6 +73,7 @@ import dev.meghsohor.meghtv.ui.MeghIcons
 internal fun ControlsRow(
   playing: Boolean,
   onTogglePlay: () -> Unit,
+  onStop: () -> Unit,
   onGoLive: (() -> Unit)?,
   touchControls: Boolean,
   muted: Boolean,
@@ -112,6 +114,13 @@ internal fun ControlsRow(
       goLiveChip()
       return@Row
     }
+    // On TV it's in TrackControls, where the remote can reach it.
+    Box(
+      Modifier.size(48.dp).clip(CircleShape).clickable(onClick = onStop),
+      contentAlignment = Alignment.Center,
+    ) {
+      Icon(MeghIcons.Stop, contentDescription = "Stop", tint = MeghCyan, modifier = Modifier.size(26.dp))
+    }
     Box(
       Modifier.size(48.dp).clip(CircleShape).clickable(onClick = onToggleMute),
       contentAlignment = Alignment.Center,
@@ -147,7 +156,7 @@ internal fun ControlsRow(
 /**
  * Source, Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the
  * remote. The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
- * [sourceBadge] is the playing source as "2/5", null with a single source.
+ * [sourceBadge] is the playing source as "2/5", null with a single source. [onStop] adds Stop at the end (TV only).
  */
 @Composable
 internal fun TrackControls(
@@ -157,6 +166,7 @@ internal fun TrackControls(
   focusRequester: FocusRequester,
   onOpenSources: () -> Unit,
   onOpen: (TrackKind) -> Unit,
+  onStop: (() -> Unit)?,
   onFocusChange: (Boolean) -> Unit,
   onActivity: () -> Unit,
   modifier: Modifier = Modifier,
@@ -183,6 +193,12 @@ internal fun TrackControls(
           if (kind == TrackKind.Quality && qualityBadge != null) TextBadge(qualityBadge, tint)
           else Icon(kind.icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
         }
+      }
+    }
+    if (onStop != null) {
+      val nothingElse = !sourcesEnabled && firstEnabledKind == null
+      ControlButton("Stop", true, focusRequester.takeIf { nothingElse }, onActivity, onStop) { tint ->
+        Icon(MeghIcons.StopOutline, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
       }
     }
   }
@@ -346,6 +362,31 @@ internal fun PlaybackErrorOverlay(
         // Offline says nothing about the channel.
         if (!offline) OverlayButton("Delete channel", onClick = onDelete, primary = false)
       }
+    }
+  }
+}
+
+/** After Stop: nothing streams, and the last picture is covered, not left frozen. Only a Play button, outlined like the Info button. */
+@Composable
+internal fun StoppedOverlay(onPlay: () -> Unit, endPadding: Dp, focusPlay: Boolean, modifier: Modifier = Modifier) {
+  val playFocusRequester = remember { FocusRequester() }
+  // Not while the panel is open: it would pull focus out of the list.
+  LaunchedEffect(focusPlay) { if (focusPlay) playFocusRequester.requestFocus() }
+
+  Box(modifier.background(MeghBackground).padding(end = endPadding), contentAlignment = Alignment.Center) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+      Box(
+        Modifier.size(56.dp)
+          .focusRequester(playFocusRequester)
+          .clip(CircleShape)
+          .clickable(interactionSource = null, indication = ripple(color = MeghCyan), onClickLabel = "Play", onClick = onPlay)
+          .semantics { contentDescription = "Play" },
+        contentAlignment = Alignment.Center,
+      ) {
+        Icon(MeghIcons.PlayCircle, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(42.dp))
+      }
+      // An empty line where the arrows have their channel names, so the icon sits level with theirs.
+      Text("", style = MaterialTheme.typography.labelMedium)
     }
   }
 }

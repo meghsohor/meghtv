@@ -82,7 +82,7 @@ private const val VolumeKey = "volume"
 /** Behind live by less than this after a pause isn't worth a Go live button. */
 private const val GoLiveMinBehindMs = 3_000L
 
-enum class PlayerCommand { TogglePlayPause, Play, Pause, ShowControls, HideControls, GoLive, FocusTrackControls }
+enum class PlayerCommand { TogglePlayPause, Play, Pause, Stop, ShowControls, HideControls, GoLive, FocusTrackControls }
 
 /** [available]: at least one of Source, Quality, Subtitles or Audio has a choice, so the remote can reach it. [focused]: one has D-pad focus. */
 /** [pickerOpen]: a Source, Quality, Subtitles or Audio picker is up. */
@@ -97,6 +97,7 @@ data class LiveState(val behind: Boolean = false, val goLiveOffered: Boolean = f
  * make [streamUrls] the pick followed by the rest of [sources]. The player plays that order at once.
  * [channelId] restarts playback on a switch even when two channels share the same URL list.
  * [onTap] returns true when it used the tap. [onAllSourcesFailed] isn't called while offline.
+ * Stop disconnects and covers the picture until Play; a switch to another channel plays it as usual.
  */
 @Composable
 fun VideoPlayer(
@@ -111,6 +112,7 @@ fun VideoPlayer(
   onPlaybackActiveChange: (Boolean) -> Unit,
   onPlaybackFailedChange: (Boolean) -> Unit,
   onLoadingChange: (Boolean) -> Unit,
+  onStoppedChange: (Boolean) -> Unit,
   onAllSourcesFailed: () -> Unit,
   onPlaying: () -> Unit,
   onDeleteChannel: () -> Unit,
@@ -141,6 +143,7 @@ fun VideoPlayer(
   var pickedOrder by remember(channelId, streamUrls) { mutableStateOf<List<String>?>(null) }
   val playOrder = pickedOrder ?: streamUrls
   var playbackError by remember { mutableStateOf<PlaybackException?>(null) }
+  var stopped by remember { mutableStateOf(false) }
   var keepScreenOn by remember { mutableStateOf(false) }
   var buffering by remember { mutableStateOf(false) }
   var controlsVisible by remember { mutableStateOf(false) }
@@ -322,7 +325,7 @@ fun VideoPlayer(
       when (event) {
         Lifecycle.Event.ON_STOP -> player.stop()
         Lifecycle.Event.ON_START ->
-          if (player.mediaItemCount > 0 && player.playbackState == Player.STATE_IDLE && playbackError == null) {
+          if (player.mediaItemCount > 0 && player.playbackState == Player.STATE_IDLE && playbackError == null && !stopped) {
             player.seekToDefaultPosition()
             player.prepare()
             joinedLiveEdge()
@@ -334,7 +337,7 @@ fun VideoPlayer(
     onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
   }
 
-  val playbackActive = playing && playbackError == null
+  val playbackActive = playing && playbackError == null && !stopped
   val currentOnPlaybackActiveChange by rememberUpdatedState(onPlaybackActiveChange)
   LaunchedEffect(playbackActive) { currentOnPlaybackActiveChange(playbackActive) }
   val failed = playbackError != null
@@ -344,6 +347,9 @@ fun VideoPlayer(
   val currentOnLoadingChange by rememberUpdatedState(onLoadingChange)
   LaunchedEffect(sourceLoading) { currentOnLoadingChange(sourceLoading) }
   DisposableEffect(Unit) { onDispose { currentOnLoadingChange(false) } }
+  val currentOnStoppedChange by rememberUpdatedState(onStoppedChange)
+  LaunchedEffect(stopped) { currentOnStoppedChange(stopped) }
+  DisposableEffect(Unit) { onDispose { currentOnStoppedChange(false) } }
 
   LaunchedEffect(muted, volume) {
     player.volume = if (muted) 0f else volume
@@ -365,7 +371,7 @@ fun VideoPlayer(
     }
   }
 
-  val behind = isLive && playbackError == null && (!playing || behindLiveMs >= GoLiveMinBehindMs)
+  val behind = isLive && playbackError == null && !stopped && (!playing || behindLiveMs >= GoLiveMinBehindMs)
   // On TV only once playing again: while paused the controls stay up, and Right must still open the panel.
   val goLiveOffered = behind && (touchControls || playing)
   val currentOnLiveStateChange by rememberUpdatedState(onLiveStateChange)
@@ -378,7 +384,33 @@ fun VideoPlayer(
     }
   }
 
+  // The media item stays, so Play reconnects to the same source, at the live edge.
+  fun stopPlayback() {
+    if (stopped || playbackError != null) return
+    player.stop()
+    stopped = true
+    sourceLoading = false
+    openMenu = null
+    sourcesOpen = false
+    playerView?.hideController()
+  }
+
+  fun resume() {
+    stopped = false
+    sourceLoading = true
+    player.seekToDefaultPosition()
+    player.prepare()
+    player.playWhenReady = true
+    joinedLiveEdge()
+    pulse++
+    if (currentControlsAllowed) playerView?.showController()
+  }
+
   fun setPlaying(play: Boolean) {
+    if (stopped) {
+      if (play) resume()
+      return
+    }
     if (player.playWhenReady == play) return
     player.playWhenReady = play
     pulse++
@@ -399,8 +431,9 @@ fun VideoPlayer(
   val sourceNumber = sources.indexOf(playingSource) + 1
   val sourceBadge = if (sources.size > 1 && sourceNumber > 0) "$sourceNumber/${sources.size}" else null
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
-  val trackControlsShown = controlsVisible && playbackError == null
-  val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null)
+  val trackControlsShown = controlsVisible && playbackError == null && !stopped
+  // On TV Stop is in that row, so it can always be reached; on touch it sits by play/pause.
+  val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null || !touchControls)
   val pickerOpen = openMenu != null || sourcesOpen
   LaunchedEffect(trackControlsReachable, trackControlsFocused, pickerOpen) {
     currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused, pickerOpen))
@@ -438,10 +471,12 @@ fun VideoPlayer(
     playerCommands.collect { command ->
       when (command) {
         PlayerCommand.HideControls -> playerView?.hideController()
-        PlayerCommand.ShowControls -> if (currentControlsAllowed && playbackError == null) playerView?.showController()
+        PlayerCommand.ShowControls -> if (currentControlsAllowed && playbackError == null && !stopped) playerView?.showController()
         PlayerCommand.Play -> setPlaying(true)
         PlayerCommand.Pause -> setPlaying(false)
-        PlayerCommand.TogglePlayPause -> setPlaying(!player.playWhenReady)
+        PlayerCommand.Stop -> stopPlayback()
+        // Stop leaves playWhenReady as it was, so a plain toggle could pause a stopped stream.
+        PlayerCommand.TogglePlayPause -> if (stopped) resume() else setPlaying(!player.playWhenReady)
         PlayerCommand.GoLive -> goLive()
         PlayerCommand.FocusTrackControls -> {
           keepControlsAlive()
@@ -462,6 +497,7 @@ fun VideoPlayer(
       loadedFor[0] = key
       keepAttempt[0] = null
       if (!sameChannel) {
+        stopped = false
         failedSources = emptySet()
         sourcesOpen = false
         pendingUrl[0] = null
@@ -496,7 +532,8 @@ fun VideoPlayer(
     val url = playOrder.getOrNull(attempt.index)
     loadedUrl[0] = url
     pendingUrl[0] = null
-    sourceLoading = url != null
+    // Stopped, the same channel's new list only replaces the item that Play will load.
+    sourceLoading = url != null && !stopped
     if (url == null) {
       player.stop()
       player.clearMediaItems()
@@ -514,6 +551,7 @@ fun VideoPlayer(
       // A format with no Media3 module throws here instead of reporting a playback error.
       try {
         player.setMediaItem(MediaItem.Builder().setUri(url).apply { if (attempt.asHls) setMimeType(MimeTypes.APPLICATION_M3U8) }.build())
+        if (stopped) return@LaunchedEffect
         player.prepare()
       } catch (e: IllegalStateException) {
         onSourceFailed(PlaybackException("Unsupported stream format", e, PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED))
@@ -564,7 +602,7 @@ fun VideoPlayer(
           installTapHandler { view ->
             if (!currentOnTap()) {
               when {
-                playbackError != null -> Unit
+                playbackError != null || stopped -> Unit
                 view.isControllerFullyVisible -> view.hideController()
                 currentControlsAllowed -> view.showController()
               }
@@ -575,15 +613,16 @@ fun VideoPlayer(
       },
       update = { view ->
         view.player = player
-        // Controls left under the error screen would still take taps and Back.
-        if (!controlsAllowed || playbackError != null) view.hideController()
+        // Controls left under the error or stopped screen would still take taps and Back.
+        if (!controlsAllowed || playbackError != null || stopped) view.hideController()
       },
     )
 
-    if (controlsVisible && playbackError == null) {
+    if (controlsVisible && playbackError == null && !stopped) {
       ControlsRow(
         playing = playing,
         onTogglePlay = { setPlaying(!player.playWhenReady) },
+        onStop = ::stopPlayback,
         onGoLive = if (goLiveOffered) ::goLive else null,
         touchControls = touchControls,
         muted = muted || volume == 0f,
@@ -614,6 +653,7 @@ fun VideoPlayer(
         focusRequester = trackControlsFocus,
         onOpenSources = { sourcesOpen = true },
         onOpen = { openMenu = it },
+        onStop = if (touchControls) null else ::stopPlayback,
         onFocusChange = { trackControlsFocused = it },
         onActivity = ::keepControlsAlive,
         modifier = Modifier.align(Alignment.BottomEnd).height(60.dp).systemGestureExclusion().padding(end = controlsEdgeInset),
@@ -697,17 +737,27 @@ fun VideoPlayer(
       )
     }
 
-    // With the controls, or on the error screen, where skipping a dead channel is most wanted. TV has Channel Up/Down.
-    if (touchControls && (previousChannelName != null || nextChannelName != null) && ((controlsVisible && playbackError == null) || (playbackError != null && controlsAllowed))) {
+    if (stopped) {
+      StoppedOverlay(
+        onPlay = ::resume,
+        endPadding = overlayEndPadding,
+        focusPlay = controlsAllowed,
+        modifier = Modifier.fillMaxSize(),
+      )
+    }
+
+    // With the controls, or on the error or stopped screen, where skipping a dead channel is most wanted. TV has Channel Up/Down.
+    val overlayUp = playbackError != null || stopped
+    if (touchControls && (previousChannelName != null || nextChannelName != null) && ((controlsVisible && !overlayUp) || (overlayUp && controlsAllowed))) {
       ChannelStepButtons(
         previous = previousChannelName,
         next = nextChannelName,
         onPrevious = {
-          if (playbackError != null) showControlsOnLoad[0] = true
+          if (overlayUp) showControlsOnLoad[0] = true
           onPreviousChannel()
         },
         onNext = {
-          if (playbackError != null) showControlsOnLoad[0] = true
+          if (overlayUp) showControlsOnLoad[0] = true
           onNextChannel()
         },
         onTouch = ::keepControlsAlive,

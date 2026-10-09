@@ -442,6 +442,7 @@ private val AppFeatures =
     "Works with a TV remote or by touch",
     "Channel Up/Down on a remote, or the arrows on a phone, switch channels",
     "A paused channel resumes where it was paused; Go live jumps back to the live picture",
+    "Stop ends the stream and clears the picture; Play starts it again at live",
     "Remembers mute and volume between channels",
     "Pick the picture quality, subtitles or audio track when a stream offers them",
     "Tries a channel's backup streams when one fails, and marks channels that didn't play",

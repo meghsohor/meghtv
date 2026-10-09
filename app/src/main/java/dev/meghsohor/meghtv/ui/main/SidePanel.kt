@@ -81,6 +81,7 @@ internal fun SidePanel(
   onRefresh: () -> Unit,
   onInfo: () -> Unit,
   onChannelMenu: (index: Int, ChannelEntity) -> Unit,
+  onChannelPicked: (channelId: String) -> Unit,
   refocusAfterDelete: IndexedValue<String>?,
   onRefocused: () -> Unit,
   modifier: Modifier = Modifier,
@@ -215,7 +216,10 @@ internal fun SidePanel(
               currentChannelId = state.currentChannel?.id,
               onBack = { viewModel.onBack() },
               onSearchQueryChange = viewModel::onSearchQueryChange,
-              onSelectChannel = viewModel::onSelectChannel,
+              onSelectChannel = { id, shownIds ->
+                viewModel.onSelectChannel(id, shownIds)
+                onChannelPicked(id)
+              },
               onToggleBookmark = viewModel::onToggleBookmark,
               onChannelMenu = onChannelMenu,
               onSearchFieldFocusChanged = onSearchFieldFocusChanged,
