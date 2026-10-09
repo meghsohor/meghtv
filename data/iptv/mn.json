@@ -111,7 +111,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/BloombergMon/DASH-FTA/BloombergMon.mpd",
       "https://cdn4.skygo.mn/live/disk1/BloombergMon/HLSv3-FTA/BloombergMon.m3u8"

@@ -79,7 +79,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://lnmlive.com/live/lnmtv.m3u8"
     ]

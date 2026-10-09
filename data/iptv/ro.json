@@ -30,7 +30,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8"
     ]
@@ -328,7 +328,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://jobtvserver.eu/hls/stream.m3u8"
     ]

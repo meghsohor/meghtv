@@ -857,7 +857,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8"
     ]

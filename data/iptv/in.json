@@ -1045,7 +1045,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8"
     ]
@@ -1057,7 +1057,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8"
     ]
@@ -1069,7 +1069,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8"
     ]
@@ -1081,7 +1081,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8"
     ]
@@ -1531,7 +1531,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etnow/etnow_master.m3u8"
     ]
@@ -2797,7 +2797,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8",
       "https://cdn.pishow.tv/ott/live/1287/master.m3u8"
@@ -2810,7 +2810,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8"
     ]
@@ -5253,7 +5253,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
       "https://dwby15d04agvq.cloudfront.net/index_1.m3u8"
@@ -8353,7 +8353,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987"
     ]

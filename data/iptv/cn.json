@@ -113,7 +113,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://74.91.26.218:82/live/cctv2hd.m3u8"
     ]
@@ -607,7 +607,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8"
     ]
@@ -1264,7 +1264,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8"
     ]
@@ -1492,7 +1492,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://stream2.xiancity.cn/xatv3/playlist.m3u8"
     ]
@@ -1633,7 +1633,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8",
       "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8"

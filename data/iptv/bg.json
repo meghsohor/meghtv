@@ -42,7 +42,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://213.91.179.28:8000/play/a04m"
     ]

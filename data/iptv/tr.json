@@ -269,7 +269,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
       "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",

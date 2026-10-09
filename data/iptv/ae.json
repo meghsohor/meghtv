@@ -33,7 +33,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8"
     ]
@@ -116,7 +116,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://cnbc-live.akamaized.net/cnbc/master.m3u8"
     ]

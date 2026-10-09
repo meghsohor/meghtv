@@ -55,7 +55,7 @@
     "categories": [
       "business"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://tv.nucast.tv/lb/ge/bmg/index.m3u8"
     ]
