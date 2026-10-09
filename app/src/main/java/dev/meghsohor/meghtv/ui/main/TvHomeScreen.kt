@@ -112,6 +112,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var playbackActive by remember { mutableStateOf(false) }
   var playbackFailed by remember { mutableStateOf(false) }
   var channelLoading by remember { mutableStateOf(false) }
+  var playbackStopped by remember { mutableStateOf(false) }
   var menuChannel by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var refocusAfterDelete by remember { mutableStateOf<IndexedValue<String>?>(null) }
   var playerControlsVisible by remember { mutableStateOf(false) }
@@ -277,6 +278,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           Key.MediaPlayPause -> repeated || playerCommands.tryEmit(PlayerCommand.TogglePlayPause)
           Key.MediaPlay -> playerCommands.tryEmit(PlayerCommand.Play)
           Key.MediaPause -> playerCommands.tryEmit(PlayerCommand.Pause)
+          Key.MediaStop -> playerCommands.tryEmit(PlayerCommand.Stop)
           // A held key acts once: its repeats would rejoin live again, or open the panel once the flag clears.
           Key.MediaFastForward -> repeated || (liveState.behind && playerCommands.tryEmit(PlayerCommand.GoLive))
           // With the chip up (controls showing, behind live), Right goes live; else it opens the panel. A fresh press
@@ -293,6 +295,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
               }
               !rootSelfFocused -> false // Retry or Delete has focus
               playerControlsVisible -> repeated || playerCommands.tryEmit(PlayerCommand.TogglePlayPause)
+              playbackStopped -> repeated || playerCommands.tryEmit(PlayerCommand.Play)
               hasPlayer -> repeated || playerCommands.tryEmit(PlayerCommand.ShowControls)
               else -> {
                 openPanel()
@@ -330,6 +333,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onPlaybackActiveChange = { playbackActive = it },
         onPlaybackFailedChange = { playbackFailed = it },
         onLoadingChange = { channelLoading = it },
+        onStoppedChange = { playbackStopped = it },
         onAllSourcesFailed = { viewModel.onPlaybackFailed(currentChannel.id) },
         onPlaying = { viewModel.onPlaybackWorked(currentChannel.id) },
         onDeleteChannel = {
@@ -346,9 +350,10 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
-      // Also while a channel loads and on the error screen, so it says which channel that is; LIVE is greyed until it plays.
-      if (panelOpen || playerControlsVisible || playbackFailed || channelLoading) {
-        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !playbackFailed && !channelLoading, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
+      // Also while a channel loads and on the error and stopped screens, so it says which channel that is; LIVE is greyed until it plays.
+      val notPlaying = playbackFailed || channelLoading || playbackStopped
+      if (panelOpen || playerControlsVisible || notPlaying) {
+        NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !notPlaying, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
       Image(
@@ -392,6 +397,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onRefresh = viewModel::onCheckForUpdate,
         onInfo = { showInfo = true },
         onChannelMenu = { index, channel -> menuChannel = IndexedValue(index, channel) },
+        // Picking the stopped channel again plays it; any other channel plays anyway.
+        onChannelPicked = { if (playbackStopped && it == state.currentChannel?.id) playerCommands.tryEmit(PlayerCommand.Play) },
         refocusAfterDelete = refocusAfterDelete,
         onRefocused = { refocusAfterDelete = null },
         listState = listState,

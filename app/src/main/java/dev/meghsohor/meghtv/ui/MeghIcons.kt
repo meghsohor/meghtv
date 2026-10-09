@@ -30,6 +30,9 @@ object MeghIcons {
   val StarFilled = solid("StarFilled", StarPath)
   val Play = solid("Play", "M7,4.5l12,7.5 -12,7.5z")
   val Pause = solid("Pause", roundRect(6f, 4f, 3f, 16f, 0.5f), roundRect(15f, 4f, 3f, 16f, 0.5f))
+  val Stop = solid("Stop", roundRect(5.5f, 5.5f, 13f, 13f, 1.5f))
+  val StopOutline = line("StopOutline", roundRect(5f, 5f, 14f, 14f, 2f))
+  val PlayCircle = line("PlayCircle", "M12,2a10,10 0,1 0,0,20a10,10 0,1 0,0,-20z", "M10,8l6,4 -6,4z")
   val VolumeUp = line("VolumeUp", SpeakerPath, "M16,9a5,5 0,0 1,0,6", "M19.364,18.364a9,9 0,0 0,0,-12.728")
   val VolumeOff = line("VolumeOff", SpeakerPath, "M22,9l-6,6", "M16,9l6,6")
   val Coffee =
