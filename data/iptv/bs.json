@@ -18,7 +18,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://zns-edge1.streamcomedia.cloud/abr_parliamentarychannel/abr-parliament_streams/playlist.m3u8"
     ]

@@ -60,7 +60,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://rtcg-live-open-geo.morescreens.com/RTCG_1_003/playlist.m3u8"
     ]

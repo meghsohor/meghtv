@@ -1735,7 +1735,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8"
     ]

@@ -862,7 +862,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://plenaris.parlament.hu:1935/edgelive/smil:mkogyplen.smil/playlist.m3u8",
       "https://plenaris.parlament.hu:446/edgelive/smil:mkogyplen.smil/playlist.m3u8"
@@ -875,7 +875,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://tab.parlament.hu:1935/edgelive/smil:mkogytab.smil/playlist.m3u8",
       "https://tab.parlament.hu:446/edgelive/smil:mkogytab.smil/playlist.m3u8"

@@ -32,7 +32,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://80.79.6.221:25461/smash/public/23",
       "https://stream.smashmalta.com:25463/live/webplayer/livestream/23.m3u8"

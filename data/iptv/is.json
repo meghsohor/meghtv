@@ -6,7 +6,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://althingi-live.secure.footprint.net/althingi/live/index.m3u8"
     ]

@@ -464,7 +464,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8"
     ]
@@ -840,7 +840,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8",
       "https://temp2.isilive.ca/live/_definst_/ontla/house-en-cc/playlist.m3u8"
@@ -853,7 +853,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8"
     ]
@@ -923,7 +923,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8",
       "https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8"
@@ -1986,7 +1986,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8"
     ]
@@ -1998,7 +1998,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8"
     ]

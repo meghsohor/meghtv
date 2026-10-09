@@ -767,7 +767,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://lbgo.bozztv.com/ssh101/ssh101/jnetv/playlist.m3u8"
     ]
@@ -792,7 +792,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://190.93.224.42/JUSTICIA-TV/index.m3u8",
       "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/justicia.stream/playlist.m3u8"

@@ -1652,7 +1652,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1664,7 +1664,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/alettajacobszaal/index.m3u8?hd=1&keyframes=1&subtitles=live",
       "https://livestream.tweedekamer.nl/live/aletta_jacobszaal/index.m3u8?hd=1&subtitles=1"
@@ -1677,7 +1677,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1689,7 +1689,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/groenvanprinstererzaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1711,7 +1711,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/maxvanderstoelzaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1723,7 +1723,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8?hd=1&keyframes=1&subtitles=live",
       "https://livestream.tweedekamer.nl/live/plenaire_zaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live"
@@ -1736,7 +1736,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/suzegroenewegzaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1748,7 +1748,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&keyframes=1&subtitles=live",
       "https://livestream.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live"
@@ -1761,7 +1761,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestream.tweedekamer.nl/live/tilanuskamer/73/prog_index.m3u8",
       "https://livestream.tweedekamer.nl/live/tilanuskamer/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live"
@@ -1774,7 +1774,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]
@@ -1786,7 +1786,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&keyframes=1&subtitles=live"
     ]

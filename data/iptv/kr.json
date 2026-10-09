@@ -610,7 +610,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/kr/natv.m3u8"
     ]

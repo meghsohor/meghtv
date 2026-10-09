@@ -3992,7 +3992,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8"
     ]
@@ -4004,7 +4004,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8",
       "https://mumbai-edge.smartplaytv.in/Sansad1/index.m3u8"
@@ -4017,7 +4017,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
       "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8"
@@ -4030,7 +4030,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://cdn.pishow.tv/ott/live/39/master.m3u8"
     ]

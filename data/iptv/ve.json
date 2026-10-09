@@ -880,7 +880,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://181.78.8.199:8000/play/a0fo/index.m3u8"
     ]

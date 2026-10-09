@@ -214,7 +214,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://stream.mcquack.net/48/index.m3u8",
       "https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8"

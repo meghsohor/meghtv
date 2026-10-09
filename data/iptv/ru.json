@@ -4753,7 +4753,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://185.23.80.23:8080/DumaTV/index.m3u8",
       "https://dumatv.iptv2022.com/playlist.m3u8"

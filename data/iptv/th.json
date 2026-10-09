@@ -615,7 +615,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://tv-live.tpchannel.org/live/tv.m3u8"
     ]

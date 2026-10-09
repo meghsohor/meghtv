@@ -355,7 +355,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8"
     ]

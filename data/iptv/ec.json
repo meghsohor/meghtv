@@ -869,7 +869,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8"
     ]

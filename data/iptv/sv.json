@@ -218,7 +218,7 @@
     "categories": [
       "legislative"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8"
     ]
