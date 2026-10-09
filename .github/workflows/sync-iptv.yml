@@ -3,7 +3,8 @@ name: Sync channels with iptv-org
 # Scheduled workflows only run from the default branch, so this lives on main and works on the channels branch.
 on:
   schedule:
-    - cron: "30 3 * * *"
+    - cron: "0 6 * * *"
+      timezone: "Europe/Berlin"
   workflow_dispatch:
 
 permissions:
