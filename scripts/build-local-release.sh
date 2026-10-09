@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Builds and signs a release APK locally. Usage: scripts/build-local-release.sh [--personal] [output-path]
-# --personal: the personal build type, release plus local/channels.json; for the owner's own devices only.
+# --personal: the personal build type, release plus local/tools/channels/*.json; for the owner's own devices only.
 # The keystore and its passwords live outside the repo; MEGHTV_KEYSTORE / MEGHTV_KEYSTORE_CREDS override their paths.
 set -euo pipefail
 
@@ -17,7 +17,7 @@ BUILD_TYPE="release"
 if [[ "${1:-}" == "--personal" ]]; then
   BUILD_TYPE="personal"
   shift
-  [[ -f "$(dirname "${BASH_SOURCE[0]}")/../local/channels.json" ]] || { echo "local/channels.json not found" >&2; exit 1; }
+  compgen -G "$(dirname "${BASH_SOURCE[0]}")/../local/tools/channels/*.json" >/dev/null || { echo "no channel files in local/tools/channels" >&2; exit 1; }
 fi
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$PROJECT_ROOT"
