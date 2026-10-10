@@ -2589,5 +2589,17 @@
     "urls": [
       "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8"
     ]
+  },
+  {
+    "id": "Nickelodeon.fr@SD",
+    "name": "Nickelodeon (504p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://151.80.18.177:86/Nickelodeon_FR/index.m3u8"
+    ]
   }
 ]

@@ -826,13 +826,14 @@
   },
   {
     "id": "PooyaTV.ir@SD",
-    "name": "Pooya & Nahal",
+    "name": "Pooya TV",
     "country": "IR",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
       "https://ncdn.telewebion.ir/pooya/live/playlist.m3u8"
     ]
   },

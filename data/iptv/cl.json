@@ -2727,5 +2727,17 @@
     "urls": [
       "https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8"
     ]
+  },
+  {
+    "id": "CNNChile.cl@SD",
+    "name": "CNN Chile (1080p)",
+    "country": "CL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.110.96.238:8000/play/a0f5/index.m3u8"
+    ]
   }
 ]

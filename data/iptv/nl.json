@@ -2086,5 +2086,17 @@
     "urls": [
       "https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8"
     ]
+  },
+  {
+    "id": "NPO1.nl@SD",
+    "name": "NPO 1 (360p)",
+    "country": "NL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10001/playlist.m3u8"
+    ]
   }
 ]

@@ -3032,5 +3032,39 @@
       "https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8",
       "https://streams2.sofast.tv/vglive-sk-231198/index.m3u8"
     ]
+  },
+  {
+    "id": "Nickelodeon.it@SD",
+    "name": "Nickelodeon",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zg9mhld.s.gy/HD-NICK-IT.ts"
+    ]
+  },
+  {
+    "id": "LA7.it@HD",
+    "name": "LA7 HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8"
+    ]
+  },
+  {
+    "id": "La7Cinema.it@HD",
+    "name": "La7 Cinema (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://102.129.186.182:81/la7d/index.m3u8"
+    ]
   }
 ]
