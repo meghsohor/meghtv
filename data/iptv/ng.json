@@ -630,5 +630,17 @@
       "https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/index.m3u8",
       "https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/chunklist.m3u8"
     ]
+  },
+  {
+    "id": "HMTV.ng@SD",
+    "name": "HMTV (720p)",
+    "country": "NG",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8"
+    ]
   }
 ]

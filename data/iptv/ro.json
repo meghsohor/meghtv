@@ -1212,8 +1212,8 @@
     "visible": true,
     "urls": [
       "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6951/index.m3u8",
-      "https://dokagents.site/live/procinema/mono.m3u8",
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0"
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0",
+      "https://dokagents.site/live/procinema/mono.m3u8"
     ]
   },
   {
@@ -1515,11 +1515,12 @@
   },
   {
     "id": "RomaniaTV.ro@SD",
-    "name": "Romania TV (576i)",
+    "name": "Romania TV (576p)",
     "country": "RO",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://hls01ns.antenaplay.ro/hls/romania-tv-sd/index.m3u8",
       "https://dokagents.site/live/romaniatv/mono.m3u8"
     ]
   },
@@ -1837,6 +1838,112 @@
     "visible": true,
     "urls": [
       "https://dokagents.site/live/primacomedy/mono.m3u8"
+    ]
+  },
+  {
+    "id": "Antena3CNN.ro@SD",
+    "name": "Antena 3 CNN (576p)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_aws4_sdi11/live2_aws4_sdi11_600k.m3u8"
+    ]
+  },
+  {
+    "id": "FavoritTV2.ro@SD",
+    "name": "Favorit TV2",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-canal-33/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "NationalTV2.ro@SD",
+    "name": "National TV2",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-telestar1/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "IntermediaTV.ro@SD",
+    "name": "Intermedia TV (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.intermediatv.ro/ram/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AccesDirect.ro@SD",
+    "name": "Acces Direct (576p)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch6/stream.m3u8"
+    ]
+  },
+  {
+    "id": "InPuiiMei.ro@SD",
+    "name": "In Puii Mei (576p)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch7/stream.m3u8"
+    ]
+  },
+  {
+    "id": "iRoast.ro@SD",
+    "name": "iRoast (576p)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch3/stream.m3u8"
+    ]
+  },
+  {
+    "id": "iUmor.ro@SD",
+    "name": "iUmor (576p)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8"
+    ]
+  },
+  {
+    "id": "TraLaLaDSN.ro@SD",
+    "name": "TraLaLa DSN",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0"
     ]
   }
 ]

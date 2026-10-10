@@ -8465,7 +8465,8 @@
     "urls": [
       "http://15.204.246.24:8080/CinecanalHD/index.m3u8",
       "http://181.119.66.28:8081/CINECANAL-HD/index.m3u8",
-      "http://190.61.47.54:8000/play/a02z/index.m3u8"
+      "http://190.61.47.54:8000/play/a02z/index.m3u8",
+      "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8"
     ]
   },
   {
@@ -8933,7 +8934,8 @@
       "http://212.5.144.156/disneyjr/index.m3u8",
       "http://tvsen5.aynascope.net/disney/index.m3u8",
       "http://tvsen7.aynascope.net/disney/index.m3u8",
-      "http://tvsen7.aynascope.net/disneyjr/index.m3u8"
+      "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
+      "https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F212.5.144.156%3A8080%2Fdisneyjr%2Ftracks-v1a1%2Fmono.m3u8"
     ]
   },
   {
@@ -9413,7 +9415,8 @@
       "http://181.119.66.28:8081/FX-HD/index.m3u8",
       "http://190.93.224.42/FX/index.m3u8",
       "http://38.252.238.18:8000/play/a01c/index.m3u8",
-      "http://168.196.127.137:6001/play/a05u/index.m3u8"
+      "http://168.196.127.137:6001/play/a05u/index.m3u8",
+      "https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8"
     ]
   },
   {
@@ -11195,7 +11198,8 @@
       "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
       "http://181.119.66.28:8081/NATGEO-HD/index.m3u8",
       "http://190.93.224.42/NAT-GEO/index.m3u8",
-      "http://45.173.231.22:8000/play/a05z/index.m3u8"
+      "http://45.173.231.22:8000/play/a05z/index.m3u8",
+      "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8"
     ]
   },
   {
@@ -11564,7 +11568,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/NickHD/index.m3u8",
-      "http://190.93.224.42/NICK/index.m3u8"
+      "http://190.93.224.42/NICK/index.m3u8",
+      "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8"
     ]
   },
   {
@@ -23845,7 +23850,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://38.134.250.110:8000/play/a01t/index.m3u8"
+      "http://38.134.250.110:8000/play/a01t/index.m3u8",
+      "https://streaming.onnethn.com/TOONCAST/playlist.m3u8"
     ]
   },
   {
@@ -23952,6 +23958,493 @@
     "visible": true,
     "urls": [
       "http://38.65.175.84:8000/play/a0ch/index.m3u8"
+    ]
+  },
+  {
+    "id": "TNTLatinAmerica.us@Colombia",
+    "name": "TNT Latin America Colombia (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://181.78.211.244:8005/play/a09g/index.m3u8"
+    ]
+  },
+  {
+    "id": "WarnerChannel.us@Colombia",
+    "name": "Warner Channel Colombia (1080p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a029/index.m3u8"
+    ]
+  },
+  {
+    "id": "UniversalTVLatinAmerica.us@Colombia",
+    "name": "Universal TV Latin America Colombia (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a006/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryKidsLatinAmerica.us@Colombia",
+    "name": "Discovery Kids Latin America Colombia (1080p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a003/index.m3u8"
+    ]
+  },
+  {
+    "id": "HBOLatinAmerica.us@SD",
+    "name": "HBO Latin America (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/HBOHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "TNTLatinAmerica.us@Brazil",
+    "name": "TNT Latin America Brazil (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/TNTHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryWorld.us@Brazil",
+    "name": "Discovery World Brazil (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryKidsLatinAmerica.us@Brazil",
+    "name": "Discovery Kids Latin America Brazil (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkLatinAmerica.us@Brazil",
+    "name": "Cartoon Network Latin America Brazil (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanetLatinAmerica.us@HD",
+    "name": "Animal Planet Latin America HD (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://15.204.246.24:8080/AnimalPlanetHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "MagnoliaNetwork.us@East",
+    "name": "Magnolia Network (720p)",
+    "country": "US",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.us@East",
+    "name": "Animal Planet (720p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.239.31.26:8989/animalplanet/index.m3u8",
+      "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.us@EastHD",
+    "name": "Animal Planet East HD (720p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.254.245.162/ANIMAL-PLANET/index.m3u8"
+    ]
+  },
+  {
+    "id": "AmericanHeroesChannel.us@SD",
+    "name": "American Heroes Channel (720p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8"
+    ]
+  },
+  {
+    "id": "CookingChannel.us@SD",
+    "name": "Cooking Channel (720p)",
+    "country": "US",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_COOKING/index.m3u8"
+    ]
+  },
+  {
+    "id": "TLCLatinAmerica.us@Panregional",
+    "name": "TLC Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a00n/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.us@East",
+    "name": "Discovery Channel (1080p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://212.5.144.156:8080/discovery/index.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscovery.us@East",
+    "name": "Investigation Discovery (1080p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://212.5.144.156:8080/id/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTNChicago.us@SD",
+    "name": "RTN Chicago (480p)",
+    "country": "US",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://651c69fa2ff4e.streamlock.net/3707/live1/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkLatinAmerica.us@SouthPacific",
+    "name": "Cartoon Network Latin America South Pacific (576p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.167.1.138:8000/play/a00w"
+    ]
+  },
+  {
+    "id": "FoodNetwork.us@East",
+    "name": "Food Network (720p)",
+    "country": "US",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
+      "http://212.5.144.156:8080/foodnetwork/index.m3u8"
+    ]
+  },
+  {
+    "id": "HLN.us@SD",
+    "name": "HLN (720p)",
+    "country": "US",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_HLN/index.m3u8"
+    ]
+  },
+  {
+    "id": "OWN.us@East",
+    "name": "OWN (720p)",
+    "country": "US",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_OWN/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryScienceLatinAmerica.us@SD",
+    "name": "Discovery Science Latin America (720p)",
+    "country": "US",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a007/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryWorld.us@LatinAmerica",
+    "name": "Discovery World (1080p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://168.196.127.137:6001/play/a097/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryTurboLatinAmerica.us@Panregional",
+    "name": "Discovery Turbo Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.134.250.110:8000/play/a01y/index.m3u8"
+    ]
+  },
+  {
+    "id": "Starz.us@West",
+    "name": "Starz West (720p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNN.us@SD",
+    "name": "CNN (1080p)",
+    "country": "US",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TeenNick.us@East",
+    "name": "TeenNick (432p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://tvsen7.aynascope.net/teennick/index.m3u8"
+    ]
+  },
+  {
+    "id": "ESPNExtraLatinAmerica.us@Argentine",
+    "name": "ESPN Extra Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?"
+    ]
+  },
+  {
+    "id": "FoodNetworkLatinAmerica.us@Panregional",
+    "name": "Food Network Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://168.196.127.137:6001/play/a09v/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanetLatinAmerica.us@SD",
+    "name": "Animal Planet Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.128.214.97:64333/play/a01n/index.m3u8"
+    ]
+  },
+  {
+    "id": "HBOFamilyLatinAmerica.us@SD",
+    "name": "HBO Family Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a00k/index.m3u8"
+    ]
+  },
+  {
+    "id": "HBO2LatinAmerica.us@SD",
+    "name": "HBO 2 Latin America (576p)",
+    "country": "US",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.65.175.84:8000/play/a0ct/index.m3u8"
+    ]
+  },
+  {
+    "id": "HBO2LatinAmerica.us@HD",
+    "name": "HBO 2 Latin America HD (1080p)",
+    "country": "US",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a00i/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV.us@SD",
+    "name": "HTV (720p)",
+    "country": "US",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.171.64.30:6060/play/a012/index.m3u8",
+      "https://streaming.onnethn.com/HTV/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HGTVLatinAmerica.us@Panregional",
+    "name": "HGTV Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.87.224.19:2220/play/a01p/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryTheaterLatinAmerica.us@SD",
+    "name": "Discovery Theater Latin America (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://181.224.200.5:2277/play/a0bj/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryKidsLatinAmerica.us@Panregional",
+    "name": "Discovery Kids Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.224.200.5:2277/play/a00o/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNNenEspanol.us@SD",
+    "name": "CNN en Espanol (1080p)",
+    "country": "US",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CinemaxLatinAmerica.us@SD",
+    "name": "Cinemax Latin America (720p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.onnethn.com/CINEMAX/playlist.m3u8"
     ]
   }
 ]
