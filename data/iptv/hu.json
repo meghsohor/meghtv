@@ -659,8 +659,8 @@
     "visible": true,
     "urls": [
       "http://88.212.15.19/live/m4_hun/index.m3u8",
-      "https://7nyaler.streamhostingcdn.top/stream/80/index.m3u8",
-      "http://88.212.15.19/live/uatlmvixrr/index.m3u8"
+      "http://88.212.15.19/live/uatlmvixrr/index.m3u8",
+      "https://7nyaler.streamhostingcdn.top/stream/80/index.m3u8"
     ]
   },
   {
@@ -1630,6 +1630,18 @@
     "visible": true,
     "urls": [
       "http://141.94.193.53:80/Match4_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "Arena4.hu@SD",
+    "name": "Arena4",
+    "country": "HU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/arena4/index.m3u8"
     ]
   }
 ]

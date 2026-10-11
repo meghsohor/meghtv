@@ -900,7 +900,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd"
+      "http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd",
+      "http://57.128.210.196:8080/193/index.m3u8"
     ]
   },
   {
@@ -1274,7 +1275,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://92.114.85.87:8016/play/a00b/index.m3u8"
+      "http://92.114.85.87:8016/play/a00b/index.m3u8",
+      "http://57.128.210.196:8080/194/index.m3u8"
     ]
   },
   {
@@ -1358,7 +1360,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://92.114.85.87:8017/play/a004/index.m3u8"
+      "http://92.114.85.87:8017/play/a004/index.m3u8",
+      "https://gist.githubusercontent.com/xykt-fix/e01ce187bbad74d0a0c5a86e0fc1b885/raw/eb00491161b819c2321733e929a27aeb2972b416/cbeeb-stream.m3u8"
     ]
   },
   {
@@ -1659,6 +1662,209 @@
     "visible": true,
     "urls": [
       "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "GolfZone.pl@SD",
+    "name": "Golf Zone (1080p)",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/248/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatFilm.pl@HD",
+    "name": "Polsat Film HD",
+    "country": "PL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10208.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ="
+    ]
+  },
+  {
+    "id": "V90.pl@SD",
+    "name": "V90 (1080p)",
+    "country": "PL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/228/index.m3u8"
+    ]
+  },
+  {
+    "id": "ElevenSports1.pl@SD",
+    "name": "Eleven Sports 1",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.114.85.87:8002/play/a00e/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPHD.pl@SD",
+    "name": "TVP HD (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/141/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVP1.pl@SD",
+    "name": "TVP1",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://92.114.85.87:8009/play/a009/index.m3u8",
+      "http://57.128.210.196:8080/144/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPWilno.pl@SD",
+    "name": "TVP Wilno",
+    "country": "PL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://78.62.9.23:55555/TVP%20Wilno%20HD"
+    ]
+  },
+  {
+    "id": "TVP2.pl@SD",
+    "name": "TVP2 (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/143/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV6.pl@SD",
+    "name": "TV6 (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/160/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVPSport.pl@SD",
+    "name": "TVP Sport (1080p)",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/134/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatSport3.pl@SD",
+    "name": "Polsat Sport 3 (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/192/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatSport2.pl@SD",
+    "name": "Polsat Sport 2 (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/195/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatSeriale.pl@SD",
+    "name": "Polsat Seriale (1080p)",
+    "country": "PL",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/196/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatRodzina.pl@SD",
+    "name": "Polsat Rodzina (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/197/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport1Polska.pl@SD",
+    "name": "Eurosport 1 Polska (1080p)",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/264/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport2Polska.pl@SD",
+    "name": "Eurosport 2 Polska (1080p)",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.210.196:8080/263/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport4Polska.pl@SD",
+    "name": "Eurosport 4 Polska (1080p)",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/291/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport3Polska.pl@SD",
+    "name": "Eurosport 3 Polska",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0"
     ]
   }
 ]

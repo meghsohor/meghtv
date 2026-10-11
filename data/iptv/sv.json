@@ -372,15 +372,15 @@
   },
   {
     "id": "TVMElSalvador.sv@SD",
-    "name": "TVM El Salvador (720p)",
+    "name": "TVM El Salvador [Not 24/7]",
     "country": "SV",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://twitch-m3u8.bastypro112.workers.dev/tvm_esa/index.m3u8",
-      "http://201.247.102.189/tmp_hls/stream/index.m3u8"
+      "http://201.247.102.189/tmp_hls/stream/index.m3u8",
+      "https://twitch-m3u8.bastypro112.workers.dev/tvm_esa/index.m3u8"
     ]
   },
   {
