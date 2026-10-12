@@ -60,8 +60,11 @@ import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.common.Tracks
 import androidx.media3.common.VideoSize
+import androidx.media3.datasource.DefaultDataSource
+import androidx.media3.datasource.DefaultHttpDataSource
 import androidx.media3.exoplayer.DefaultRenderersFactory
 import androidx.media3.exoplayer.ExoPlayer
+import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.ui.PlayerView
 import androidx.media3.ui.R as Media3R
 import dev.meghsohor.meghtv.theme.MeghBackground
@@ -130,7 +133,10 @@ fun VideoPlayer(
   val context = LocalContext.current
   val player = remember {
     // Low-end TV chips can fail to open their preferred hardware decoder for a stream's profile.
+    // Many sources redirect between http and https, which Media3 refuses by default.
+    val http = DefaultHttpDataSource.Factory().setAllowCrossProtocolRedirects(true)
     ExoPlayer.Builder(context, DefaultRenderersFactory(context).setEnableDecoderFallback(true))
+      .setMediaSourceFactory(DefaultMediaSourceFactory(DefaultDataSource.Factory(context, http)))
       .setAudioAttributes(AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MOVIE).build(), true)
       .setHandleAudioBecomingNoisy(true)
       .build()
