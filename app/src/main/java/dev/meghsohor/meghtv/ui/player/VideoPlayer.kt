@@ -372,7 +372,7 @@ fun VideoPlayer(
   }
 
   val behind = isLive && playbackError == null && !stopped && (!playing || behindLiveMs >= GoLiveMinBehindMs)
-  // On TV only once playing again: while paused the controls stay up, and Right must still open the panel.
+  // On TV only once playing again: while paused the controls stay up, and Right must still reach their buttons.
   val goLiveOffered = behind && (touchControls || playing)
   val currentOnLiveStateChange by rememberUpdatedState(onLiveStateChange)
   LaunchedEffect(behind, goLiveOffered) { currentOnLiveStateChange(LiveState(behind, goLiveOffered)) }

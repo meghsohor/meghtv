@@ -155,7 +155,7 @@ internal fun ControlsRow(
 
 /**
  * Source, Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the
- * remote. The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
+ * remote. The enabled ones are focusable, so a TV remote reaches them with Left/Right; Up or Back leaves (handled by the screen).
  * [sourceBadge] is the playing source as "2/5", null with a single source. [onStop] adds Stop at the end (TV only).
  */
 @Composable

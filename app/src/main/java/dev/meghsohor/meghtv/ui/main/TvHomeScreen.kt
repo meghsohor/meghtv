@@ -83,6 +83,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 
 private val PanelWidth = 360.dp
+// Wider on TV, where Info shares the tab row: room for "Categories" at a larger TV font size.
+private val TvPanelWidth = 420.dp
 private val PanelHandleWidth = 44.dp
 private const val PanelAnimMs = 220
 private const val SplashMs = 3_000L
@@ -106,6 +108,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var activityTick by remember { mutableIntStateOf(0) }
   val lastActivityAt = remember { longArrayOf(SystemClock.uptimeMillis()) }
   var confirmExit by remember { mutableStateOf(false) }
+  // TV's row Delete asks first: a single OK would otherwise remove the channel.
+  var confirmDelete by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var showSupport by rememberSaveable { mutableStateOf(false) }
   var showInfo by remember { mutableStateOf(false) }
   var searchFieldFocused by remember { mutableStateOf(false) }
@@ -125,14 +129,24 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   val listState = listStates.getOrPut(state.panel) { LazyListState() }
   // The row each menu was left through, to put D-pad focus back on it.
   val openedFrom = remember { mutableMapOf<PanelState, Int>() }
+  // The row each view had focused, to land on it when the panel opens again.
+  val focusedRows = remember { mutableMapOf<PanelState, FocusedRow>() }
+  var panelEntryRequest by remember { mutableIntStateOf(0) }
   val backDispatcher = LocalOnBackPressedDispatcherOwner.current?.onBackPressedDispatcher
   val playerCommands = remember { MutableSharedFlow<PlayerCommand>(extraBufferCapacity = 1) }
   val activity = LocalActivity.current
   var rootHasFocus by remember { mutableStateOf(false) }
   var rootSelfFocused by remember { mutableStateOf(false) }
+  val panelWidth = if (touchMode) PanelWidth else TvPanelWidth
   val hasPlayer = state.currentStreamUrls.isNotEmpty() && state.currentChannel != null
+  // Until the first pick the menu can't be closed; deleting the playing channel later doesn't bring that back.
+  // Not saved: after process death nothing plays again until a pick.
+  var everPicked by remember { mutableStateOf(false) }
+  LaunchedEffect(hasPlayer) { if (hasPlayer) everPicked = true }
 
   fun openPanel() {
+    // Reopened mid-slide-out, the panel isn't composed afresh, so ask it to take focus.
+    if (!panelOpen) panelEntryRequest++
     panelOpen = true
     lastActivityAt[0] = SystemClock.uptimeMillis()
     activityTick++
@@ -148,7 +162,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     when {
       !splashDone -> Unit
       !panelOpen && playerControlsVisible -> playerCommands.tryEmit(PlayerCommand.HideControls)
-      panelOpen -> panelOpen = false
+      // Nothing picked yet since launch: the menu stays, and Back asks to exit.
+      panelOpen && everPicked -> panelOpen = false
       // finish(): the system default only moves the task back, and reopening would resume the last channel.
       else -> confirmExit = true
     }
@@ -163,9 +178,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   val nothingToWatch = if (touchMode) !(hasPlayer && playbackActive) else !hasPlayer
   // Waits its turn behind any other popup and typing; a check at launch can finish during the loading screen.
   val showUpdateOffer =
-    splashDone && state.updateOffer != null && !refreshInProgress && !showSupport && !showInfo && menuChannel == null && !confirmExit &&
+    splashDone && state.updateOffer != null && !refreshInProgress && !showSupport && !showInfo && menuChannel == null && !confirmExit && confirmDelete == null &&
       !trackControls.pickerOpen && !searching
-  val suppressAutoHide = !splashDone || refreshInProgress || showUpdateOffer || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
+  val suppressAutoHide = !splashDone || refreshInProgress || showUpdateOffer || menuChannel != null || confirmExit || confirmDelete != null || showSupport || showInfo || searching || nothingToWatch
   LaunchedEffect(Unit) {
     if (splashDone) return@LaunchedEffect
     delay(SplashMs)
@@ -203,12 +218,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
     panelOpen = false
   }
 
-  // Keyed on the flip, not activityTick, so it doesn't steal focus mid-browse. None on touch: it would
-  // only paint a highlight. At launch it waits for the opening view.
-  LaunchedEffect(panelOpen, state.startupPanelChosen) {
-    if (!panelOpen) rootFocusRequester.requestFocus()
-    else if (!touchMode && state.startupPanelChosen) panelEntryFocusRequester.requestFocus()
-  }
+  // Keyed on the flip, not activityTick, so it doesn't steal focus mid-browse. The panel focuses itself on opening.
+  LaunchedEffect(panelOpen) { if (!panelOpen) rootFocusRequester.requestFocus() }
 
   // Removing the focused element (Retry, an opened or un-starred row) drops focus, and with it every
   // remote key. Take it back; the next key moves it into the panel.
@@ -251,21 +262,27 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
             else -> Unit
           }
         }
-        // A held Up: a fresh press with the panel closed opens it at once, so repeats arriving while it's still closed
-        // only follow leaving those buttons, and would open the panel mid-press.
-        if (!panelOpen && repeated && event.key == Key.DirectionUp) return@onPreviewKeyEvent true
-        // With the controls up and those buttons showing, Down moves into them instead of opening the panel.
-        if (!panelOpen && rootSelfFocused && playerControlsVisible && trackControls.available && event.key == Key.DirectionDown) {
-          return@onPreviewKeyEvent playerCommands.tryEmit(PlayerCommand.FocusTrackControls)
-        }
         // Focus parked on the root with the panel up: directional search doesn't look inside it, so move it in directly.
         if (panelOpen && rootSelfFocused && !touchMode && event.key in PanelNavigationKeys) {
           openPanel()
-          runCatching { panelEntryFocusRequester.requestFocus() }
+          panelEntryRequest++
           return@onPreviewKeyEvent true
         }
-        // Focus on the error screen's buttons: Left/Right move between them.
-        if (!panelOpen && !rootSelfFocused && (event.key == Key.DirectionLeft || event.key == Key.DirectionRight)) return@onPreviewKeyEvent false
+        val leftOrRight = event.key == Key.DirectionLeft || event.key == Key.DirectionRight
+        // Focus on the error or stopped screen's buttons, or the player's: Left/Right move between them.
+        if (!panelOpen && !rootSelfFocused && leftOrRight) return@onPreviewKeyEvent false
+        // A held arrow acts once. A fresh press with the panel closed acts at once, so repeats arriving while it's still
+        // closed only follow leaving those buttons, or showing the controls, and would act again mid-press.
+        if (!panelOpen && repeated && (leftOrRight || event.key == Key.DirectionUp || event.key == Key.DirectionDown)) return@onPreviewKeyEvent true
+        // Panel closed: Left/Right are the player's, Up/Down the panel's. Left/Right show the controls, then move into
+        // the buttons; with the Go live chip up, Right goes live instead.
+        if (!panelOpen && leftOrRight && hasPlayer && !playbackFailed && !playbackStopped) {
+          return@onPreviewKeyEvent when {
+            event.key == Key.DirectionRight && playerControlsVisible && liveState.goLiveOffered -> playerCommands.tryEmit(PlayerCommand.GoLive)
+            playerControlsVisible && trackControls.available -> playerCommands.tryEmit(PlayerCommand.FocusTrackControls)
+            else -> playerCommands.tryEmit(PlayerCommand.ShowControls)
+          }
+        }
         when (event.key) {
           Key.ChannelUp -> {
             viewModel.onChannelUp()
@@ -281,11 +298,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           Key.MediaStop -> playerCommands.tryEmit(PlayerCommand.Stop)
           // A held key acts once: its repeats would rejoin live again, or open the panel once the flag clears.
           Key.MediaFastForward -> repeated || (liveState.behind && playerCommands.tryEmit(PlayerCommand.GoLive))
-          // With the chip up (controls showing, behind live), Right goes live; else it opens the panel. A fresh press
-          // with the panel closed opens it at once, so repeats arriving while it's still closed only follow a go-live.
-          Key.DirectionRight if !panelOpen && repeated -> true
-          Key.DirectionRight if !panelOpen && rootSelfFocused && playerControlsVisible && liveState.goLiveOffered ->
-            playerCommands.tryEmit(PlayerCommand.GoLive)
           // Panel closed: OK shows the controls, then plays/pauses, for remotes without media keys.
           Key.DirectionCenter, Key.Enter, Key.NumPadEnter ->
             when {
@@ -340,7 +352,7 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
           viewModel.onDeleteChannel(currentChannel.id)
           openPanel()
         },
-        overlayEndPadding = if (panelOpen) PanelWidth else 0.dp,
+        overlayEndPadding = if (panelOpen) panelWidth else 0.dp,
         // Clear of the edge tab, and the same on the left.
         controlsEdgeInset = PanelHandleWidth + 8.dp,
         playerCommands = playerCommands,
@@ -350,9 +362,10 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onNextChannel = viewModel::onChannelUp,
         modifier = Modifier.fillMaxSize(),
       )
-      // Also while a channel loads and on the error and stopped screens, so it says which channel that is; LIVE is greyed until it plays.
+      // Always on TV. On touch with the panel or controls, and while a channel loads and on the error and stopped
+      // screens, so it says which channel that is; LIVE is greyed until it plays.
       val notPlaying = playbackFailed || channelLoading || playbackStopped
-      if (panelOpen || playerControlsVisible || notPlaying) {
+      if (!touchMode || panelOpen || playerControlsVisible || notPlaying) {
         NowPlayingBadge(channel = currentChannel, live = !liveState.behind && !notPlaying, modifier = Modifier.align(Alignment.TopStart).padding(16.dp))
       }
     } else {
@@ -360,11 +373,11 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         painter = painterResource(R.drawable.tv_banner),
         contentDescription = null,
         contentScale = ContentScale.Crop,
-        // Clickable only with a menu to close, or a screen reader announces a no-op.
+        // Clickable only with a menu to close, or a screen reader announces a no-op. Not before the first pick.
         modifier =
           Modifier.fillMaxSize()
             .then(
-              if (panelOpen) {
+              if (panelOpen && everPicked) {
                 Modifier.clickable(onClickLabel = "Close menu", indication = null, interactionSource = null) { panelOpen = false }
                   .semantics { contentDescription = "Close menu" }
               } else {
@@ -390,6 +403,8 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         viewModel = viewModel,
         touchMode = touchMode,
         entryFocusRequester = panelEntryFocusRequester,
+        entryRequest = panelEntryRequest,
+        open = panelOpen,
         onActivity = { lastActivityAt[0] = SystemClock.uptimeMillis() },
         onSearchFieldFocusChanged = { searchFieldFocused = it },
         // The in-list search's own Back handler stamps the shared de-dupe, so a doubled press can't also close the panel.
@@ -397,13 +412,15 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onRefresh = viewModel::onCheckForUpdate,
         onInfo = { showInfo = true },
         onChannelMenu = { index, channel -> menuChannel = IndexedValue(index, channel) },
+        onDeleteChannel = { index, channel -> confirmDelete = IndexedValue(index, channel) },
         // Picking the stopped channel again plays it; any other channel plays anyway.
         onChannelPicked = { if (playbackStopped && it == state.currentChannel?.id) playerCommands.tryEmit(PlayerCommand.Play) },
         refocusAfterDelete = refocusAfterDelete,
         onRefocused = { refocusAfterDelete = null },
         listState = listState,
         openedFrom = openedFrom,
-        modifier = Modifier.fillMaxHeight().width(PanelWidth),
+        focusedRows = focusedRows,
+        modifier = Modifier.fillMaxHeight().width(panelWidth),
       )
     }
     AnimatedVisibility(
@@ -413,6 +430,22 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       exit = fadeOut(tween(PanelAnimMs)),
     ) {
       PanelHandle(onClick = ::openPanel)
+    }
+
+    confirmDelete?.let { (index, channel) ->
+      ConfirmDialog(
+        title = "Delete ${channel.displayName}?",
+        message = "A deleted channel comes back with a full refresh.",
+        confirmLabel = "Delete",
+        touchMode = touchMode,
+        onConfirm = {
+          confirmDelete = null
+          // Focus moves to the row that takes its place.
+          refocusAfterDelete = IndexedValue(index, channel.id)
+          viewModel.onDeleteChannel(channel.id)
+        },
+        onDismiss = { confirmDelete = null },
+      )
     }
 
     if (confirmExit) {
