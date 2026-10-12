@@ -41,9 +41,9 @@
       "http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8",
       "http://stream.mcquack.net/183/index.m3u8",
       "https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/STS_Love/index.m3u8",
       "http://31.148.48.15/STS_Love/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/STS_Love/index.m3u8"
     ]
   },
   {
@@ -56,9 +56,9 @@
       "https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8",
       "http://stream.mcquack.net/237/index.m3u8",
       "https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Vremya/index.m3u8",
       "http://88.212.15.19/live/test_vremya/playlist.m3u8",
-      "http://31.148.48.15/Vremya/index.m3u8"
+      "http://31.148.48.15/Vremya/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Vremya/index.m3u8"
     ]
   },
   {
@@ -90,8 +90,8 @@
       "https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8",
       "http://94.155.93.182/POBEDA_HD/index.m3u8",
       "https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Pobeda/index.m3u8",
-      "https://streaming.thestream.cyou/live/43.m3u8"
+      "https://streaming.thestream.cyou/live/43.m3u8",
+      "http://str2.iptvhd.ru:8080/Pobeda/index.m3u8"
     ]
   },
   {
@@ -107,9 +107,9 @@
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Telekafe/index.m3u8",
       "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
-      "http://31.148.48.15/Telekafe/index.m3u8"
+      "http://31.148.48.15/Telekafe/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Telekafe/index.m3u8"
     ]
   },
   {
@@ -194,8 +194,8 @@
       "http://stream.mcquack.net/70/index.m3u8",
       "https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/365_dney/index.m3u8",
-      "http://31.148.48.15/365_dney/index.m3u8"
+      "http://31.148.48.15/365_dney/index.m3u8",
+      "http://str2.iptvhd.ru:8080/365_dney/index.m3u8"
     ]
   },
   {
@@ -261,8 +261,8 @@
     "urls": [
       "http://stream.mcquack.net/162/index.m3u8",
       "http://flussonic.linkintel.ru/amedia-hit/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Amedia_Hit_HD/index.m3u8",
-      "http://31.148.48.15/Amedia_HIT_HD/index.m3u8"
+      "http://31.148.48.15/Amedia_HIT_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Amedia_Hit_HD/index.m3u8"
     ]
   },
   {
@@ -277,8 +277,8 @@
       "http://46.32.176.50/anitv/index.m3u8",
       "http://stream.mcquack.net/306/index.m3u8",
       "http://flussonic.linkintel.ru/Ani/index.m3u8",
-      "http://str2.iptvhd.ru:8080/ani/index.m3u8",
-      "http://31.148.48.15/Ani/index.m3u8"
+      "http://31.148.48.15/Ani/index.m3u8",
+      "http://str2.iptvhd.ru:8080/ani/index.m3u8"
     ]
   },
   {
@@ -304,8 +304,8 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/Avto_Plyus/index.m3u8",
-      "http://31.148.48.15/Avto_Plus/index.m3u8"
+      "http://31.148.48.15/Avto_Plus/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Avto_Plyus/index.m3u8"
     ]
   },
   {
@@ -369,8 +369,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/154/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Boks_TV/index.m3u8",
-      "http://31.148.48.15/Boks_TV/index.m3u8"
+      "http://31.148.48.15/Boks_TV/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Boks_TV/index.m3u8"
     ]
   },
   {
@@ -414,8 +414,8 @@
       "http://stream.mcquack.net/272/index.m3u8",
       "http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8",
       "https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Bridge_TV_Classic/index.m3u8",
-      "http://31.148.48.15/Bridge_TV_Classic/index.m3u8"
+      "http://31.148.48.15/Bridge_TV_Classic/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Bridge_TV_Classic/index.m3u8"
     ]
   },
   {
@@ -468,13 +468,13 @@
       "https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8",
       "http://stream.mcquack.net/120/index.m3u8",
       "http://flussonic.linkintel.ru/Karusel/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Karusel/index.m3u8",
       "http://88.212.15.19/live/test_karusel/playlist.m3u8",
       "http://31.148.5.241/kanal_8/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/11.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/232.m3u8",
       "http://31.148.48.15/Karusel_HD/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Karusel/index.m3u8"
     ]
   },
   {
@@ -569,11 +569,11 @@
       "http://45.153.24.78/1TV/index.m3u8",
       "http://178.217.49.7/1/index.m3u8",
       "http://45.145.32.13:20440/pervyj_kanal/index.m3u8?token=test",
-      "http://str2.iptvhd.ru:8080/Pervikanal/index.m3u8",
       "http://31.148.5.241/kanal_1/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/4.m3u8",
       "http://31.148.48.15/Pervii_kanal_HD/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Pervikanal/index.m3u8"
     ]
   },
   {
@@ -626,10 +626,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8",
       "http://stream.mcquack.net/238/index.m3u8",
       "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
-      "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
+      "http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8"
     ]
   },
   {
@@ -694,8 +694,8 @@
       "http://178.134.1.158:8081/doktor/index.m3u8",
       "https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/80/index.m3u8",
-      "http://str2.iptvhd.ru:8080/24Dok/index.m3u8",
-      "http://31.148.48.15/Doktor/index.m3u8"
+      "http://31.148.48.15/Doktor/index.m3u8",
+      "http://str2.iptvhd.ru:8080/24Dok/index.m3u8"
     ]
   },
   {
@@ -709,9 +709,9 @@
     "urls": [
       "http://stream.mcquack.net/236/index.m3u8",
       "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/Dom_kino/index.m3u8",
       "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
-      "https://streaming.thestream.cyou/live/44.m3u8"
+      "https://streaming.thestream.cyou/live/44.m3u8",
+      "http://str2.iptvhd.ru:8080/Dom_kino/index.m3u8"
     ]
   },
   {
@@ -738,10 +738,10 @@
     "urls": [
       "http://stream.mcquack.net/227/index.m3u8",
       "https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Domashniy/index.m3u8",
       "http://31.148.5.241/kanal_14/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/17.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Domashniy/index.m3u8"
     ]
   },
   {
@@ -817,8 +817,8 @@
     "urls": [
       "http://stream.mcquack.net/184/index.m3u8",
       "https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Evropa_Plyus_TV/index.m3u8",
-      "http://31.148.48.15/Europa_Plus_HD/index.m3u8"
+      "http://31.148.48.15/Europa_Plus_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Evropa_Plyus_TV/index.m3u8"
     ]
   },
   {
@@ -897,8 +897,8 @@
     "visible": true,
     "urls": [
       "http://hls127.freeott.top:8080/Football/video.m3u8",
-      "http://str2.iptvhd.ru:8080/Futbol/index.m3u8",
-      "http://31.148.48.15/Futbol_HD/index.m3u8"
+      "http://31.148.48.15/Futbol_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Futbol/index.m3u8"
     ]
   },
   {
@@ -937,11 +937,11 @@
       "http://stream.mcquack.net/181/index.m3u8",
       "https://vod.tuva.ru/friday/index.m3u8",
       "http://flussonic.linkintel.ru/Pyatnica/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Pyatnitsa/index.m3u8",
       "http://31.148.5.241/kanal_16/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/19.m3u8",
       "http://31.148.48.15/Pyatnica/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Pyatnitsa/index.m3u8"
     ]
   },
   {
@@ -1060,8 +1060,8 @@
     "urls": [
       "http://hls127.freeott.top:8080/Istoriya/video.m3u8",
       "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Istoriya/index.m3u8",
-      "http://31.148.48.15/Istoriya/index.m3u8"
+      "http://31.148.48.15/Istoriya/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Istoriya/index.m3u8"
     ]
   },
   {
@@ -1089,8 +1089,8 @@
       "http://stream.mcquack.net/166/index.m3u8",
       "https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/KHL/index.m3u8",
-      "http://str2.iptvhd.ru:8080/KHL/index.m3u8",
-      "http://31.148.48.15/KHL_TV/index.m3u8"
+      "http://31.148.48.15/KHL_TV/index.m3u8",
+      "http://str2.iptvhd.ru:8080/KHL/index.m3u8"
     ]
   },
   {
@@ -1143,9 +1143,9 @@
       "http://stream.mcquack.net/221/index.m3u8",
       "https://vod.tuva.ru/kinotv/index.m3u8",
       "http://flussonic.linkintel.ru/kino-tv/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Kino_TV/index.m3u8",
       "http://31.148.48.15/Kino_TV_HD/index.m3u8",
-      "http://31.148.48.15/Kino_TV/index.m3u8"
+      "http://31.148.48.15/Kino_TV/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Kino_TV/index.m3u8"
     ]
   },
   {
@@ -1203,8 +1203,8 @@
     "urls": [
       "http://stream.mcquack.net/64/index.m3u8",
       "https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/Kinopokaz/index.m3u8",
-      "http://31.148.48.15/Kinopokaz/index.m3u8"
+      "http://31.148.48.15/Kinopokaz/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Kinopokaz/index.m3u8"
     ]
   },
   {
@@ -1376,8 +1376,8 @@
     "urls": [
       "http://178.124.179.122:8080/KVN-TV/index.m3u8",
       "https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/KVN_TV/index.m3u8",
-      "http://31.148.48.15/KVN_TV/index.m3u8"
+      "http://31.148.48.15/KVN_TV/index.m3u8",
+      "http://str2.iptvhd.ru:8080/KVN_TV/index.m3u8"
     ]
   },
   {
@@ -1417,8 +1417,8 @@
       "http://stream.mcquack.net/79/index.m3u8",
       "http://flussonic.linkintel.ru/mama/index.m3u8",
       "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/mama_tv/index.m3u8",
-      "http://31.148.48.15/Mama/index.m3u8"
+      "http://31.148.48.15/Mama/index.m3u8",
+      "http://str2.iptvhd.ru:8080/mama_tv/index.m3u8"
     ]
   },
   {
@@ -1431,9 +1431,9 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/163/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Match_Arena/index.m3u8",
       "http://31.148.48.15/Match_Arena_HD/index.m3u8",
-      "http://31.148.48.15/Match_Arena/index.m3u8"
+      "http://31.148.48.15/Match_Arena/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Match_Arena/index.m3u8"
     ]
   },
   {
@@ -1446,8 +1446,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/112/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Match_Boets/index.m3u8",
-      "http://31.148.48.15/Match_Boec/index.m3u8"
+      "http://31.148.48.15/Match_Boec/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Match_Boets/index.m3u8"
     ]
   },
   {
@@ -1493,8 +1493,8 @@
       "https://fs.uplink.kz/match/mono.m3u8?token=onlinetv",
       "http://45.132.87.69:8080/match/index.m3u8",
       "http://tv.tuva.ru/machtv/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8",
-      "http://31.148.5.241/kanal_3/index.m3u8"
+      "http://31.148.5.241/kanal_3/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8"
     ]
   },
   {
@@ -1522,8 +1522,8 @@
       "http://5.188.159.128:8070/mir_24/index.m3u8",
       "https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8",
       "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
-      "http://str2.iptvhd.ru:8080/mir_24/index.m3u8",
-      "http://31.148.48.15/Mir_24/index.m3u8"
+      "http://31.148.48.15/Mir_24/index.m3u8",
+      "http://str2.iptvhd.ru:8080/mir_24/index.m3u8"
     ]
   },
   {
@@ -1632,8 +1632,8 @@
       "http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/124/index.m3u8",
       "https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/IQ_HD/index.m3u8",
-      "http://31.148.48.15/Moya_Planeta_HD/index.m3u8"
+      "http://31.148.48.15/Moya_Planeta_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/IQ_HD/index.m3u8"
     ]
   },
   {
@@ -1660,9 +1660,9 @@
       "http://stream.mcquack.net/232/index.m3u8",
       "http://flussonic.linkintel.ru/Mult/index.m3u8",
       "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/Mult/index.m3u8",
       "http://31.148.48.15/Mult_HD/index.m3u8",
-      "http://31.148.48.15/Mult/index.m3u8"
+      "http://31.148.48.15/Mult/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Mult/index.m3u8"
     ]
   },
   {
@@ -1690,8 +1690,8 @@
     "urls": [
       "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Multimaniya/index.m3u8",
-      "http://31.148.48.15/Multilandiya/index.m3u8"
+      "http://31.148.48.15/Multilandiya/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Multimaniya/index.m3u8"
     ]
   },
   {
@@ -1862,8 +1862,8 @@
       "http://stream.mcquack.net/125/index.m3u8",
       "https://vod.tuva.ru/nauka2/index.m3u8",
       "http://45.145.32.13:20440/nauka/index.m3u8?token=test",
-      "http://str2.iptvhd.ru:8080/Nauka_2.0/index.m3u8",
-      "http://31.148.48.15/Nauka_2.0/index.m3u8"
+      "http://31.148.48.15/Nauka_2.0/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Nauka_2.0/index.m3u8"
     ]
   },
   {
@@ -1928,8 +1928,8 @@
       "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
       "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/Nostalgiya/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Nostalgiya/index.m3u8",
-      "http://31.148.48.15/Nostalgiya/index.m3u8"
+      "http://31.148.48.15/Nostalgiya/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Nostalgiya/index.m3u8"
     ]
   },
   {
@@ -1958,11 +1958,11 @@
       "http://45.153.24.78/NTV/index.m3u8",
       "https://cdn.ntv.ru/ntv-spb/index.m3u8",
       "http://176.118.197.101/NTV/index.m3u8",
-      "http://str2.iptvhd.ru:8080/NTV/index.m3u8",
       "http://31.148.5.241/kanal_4/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/7.m3u8",
       "http://31.148.48.15/NTV/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/NTV/index.m3u8"
     ]
   },
   {
@@ -1977,8 +1977,8 @@
       "https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https",
       "https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8",
       "http://flussonic.linkintel.ru/ntv/index.m3u8",
-      "http://str2.iptvhd.ru:8080/NTV_HD/index.m3u8",
-      "https://cdn.ntv.ru/ntv0/playlist.m3u8"
+      "https://cdn.ntv.ru/ntv0/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/NTV_HD/index.m3u8"
     ]
   },
   {
@@ -1989,8 +1989,8 @@
     "visible": true,
     "urls": [
       "http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8",
-      "http://str2.iptvhd.ru:8080/ntvpravo/index.m3u8",
-      "https://cdn.ntv.ru/th_pravo/playlist.m3u8"
+      "https://cdn.ntv.ru/th_pravo/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/ntvpravo/index.m3u8"
     ]
   },
   {
@@ -2004,8 +2004,8 @@
     "urls": [
       "http://5.188.159.128:8070/ntvmir_TV/index.m3u8",
       "https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/NTV_Mir/index.m3u8",
-      "https://streaming.thestream.cyou/live/213.m3u8"
+      "https://streaming.thestream.cyou/live/213.m3u8",
+      "http://str2.iptvhd.ru:8080/NTV_Mir/index.m3u8"
     ]
   },
   {
@@ -2018,8 +2018,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/301/index.m3u8",
-      "http://str2.iptvhd.ru:8080/ntvserial/index.m3u8",
-      "https://cdn.ntv.ru/th_serial/playlist.m3u8"
+      "https://cdn.ntv.ru/th_serial/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/ntvserial/index.m3u8"
     ]
   },
   {
@@ -2032,8 +2032,8 @@
     "visible": true,
     "urls": [
       "http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8",
-      "http://str2.iptvhd.ru:8080/ntvstyle/index.m3u8",
-      "https://cdn.ntv.ru/th_style/playlist.m3u8"
+      "https://cdn.ntv.ru/th_style/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/ntvstyle/index.m3u8"
     ]
   },
   {
@@ -2347,8 +2347,8 @@
       "https://online-video.rbc.ru/spb/rbctv_spb.m3u8",
       "http://online-video.rbc.ru/online2/rbctv.m3u8",
       "http://176.118.197.101/RBK/index.m3u8",
-      "http://str2.iptvhd.ru:8080/RBK/index.m3u8",
-      "http://31.148.48.15/RBK/index.m3u8"
+      "http://31.148.48.15/RBK/index.m3u8",
+      "http://str2.iptvhd.ru:8080/RBK/index.m3u8"
     ]
   },
   {
@@ -2396,8 +2396,8 @@
       "http://stream.mcquack.net/242/index.m3u8",
       "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Nashe_kino/index.m3u8",
-      "http://31.148.48.15/Rodnoe_kino/index.m3u8"
+      "http://31.148.48.15/Rodnoe_kino/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Nashe_kino/index.m3u8"
     ]
   },
   {
@@ -2479,8 +2479,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/164/index.m3u8",
-      "http://str2.iptvhd.ru:8080/RTG_TV/index.m3u8",
-      "http://46.53.200.153:7777/play/a00u/index.m3u8"
+      "http://46.53.200.153:7777/play/a00u/index.m3u8",
+      "http://str2.iptvhd.ru:8080/RTG_TV/index.m3u8"
     ]
   },
   {
@@ -2536,7 +2536,6 @@
     "urls": [
       "https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8",
       "http://109.207.243.18/2/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Rossiya_1/index.m3u8",
       "http://31.148.5.241/kanal_2/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/abakan/russia1-sd/index.m3u8",
       "http://vgtrkregion-reg.cdnvideo.ru/vgtrk/maykop/russia1-hd/index.m3u8",
@@ -2622,7 +2621,8 @@
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yaroslavl/russia1-sd/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/5.m3u8",
       "http://31.148.48.15/Rossiya_1_HD/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Rossiya_1/index.m3u8"
     ]
   },
   {
@@ -2637,7 +2637,6 @@
       "https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8",
       "https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8",
       "http://176.118.197.101/RossiyaHD/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Rossiya_HD/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/russia1-hd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/astrahan/russia1-hd/index.m3u8",
@@ -2686,7 +2685,8 @@
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/cheboksar/russia1-hd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chita/russia1-hd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ugnosahalinsk/russia1-hd/index.m3u8",
-      "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yakutsk/russia1-hd/index.m3u8"
+      "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yakutsk/russia1-hd/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Rossiya_HD/index.m3u8"
     ]
   },
   {
@@ -2703,7 +2703,6 @@
       "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
       "https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/Rossiya24/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Rossiya_24/index.m3u8",
       "http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8",
       "http://31.148.5.241/kanal_7/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8",
@@ -2792,7 +2791,8 @@
       "https://streaming.televizor-24-tochka.ru/live/10.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/30.m3u8",
       "http://31.148.48.15/Rossiya_24/index.m3u8",
-      "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8"
+      "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Rossiya_24/index.m3u8"
     ]
   },
   {
@@ -2821,11 +2821,11 @@
       "http://stream.mcquack.net/229/index.m3u8",
       "https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Rossiya_K/index.m3u8",
       "http://31.148.5.241/kanal_6/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/9.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
-      "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8"
+      "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Rossiya_K/index.m3u8"
     ]
   },
   {
@@ -2864,8 +2864,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/208/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Russkiy_bestseller/index.m3u8",
-      "http://31.148.48.15/Russkiy_Bestseller/index.m3u8"
+      "http://31.148.48.15/Russkiy_Bestseller/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Russkiy_bestseller/index.m3u8"
     ]
   },
   {
@@ -2878,8 +2878,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/204/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Russkiy_detektiv/index.m3u8",
-      "http://31.148.48.15/Russkiy_Detektiv/index.m3u8"
+      "http://31.148.48.15/Russkiy_Detektiv/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Russkiy_detektiv/index.m3u8"
     ]
   },
   {
@@ -2893,9 +2893,9 @@
     "urls": [
       "http://stream.mcquack.net/266/index.m3u8",
       "https://vod.tuva.ru/rusroman/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Russkiy_roman/index.m3u8",
       "http://31.148.48.15/Russkiy_Roman_HD/index.m3u8",
-      "http://31.148.48.15/Russkiy_Roman/index.m3u8"
+      "http://31.148.48.15/Russkiy_Roman/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Russkiy_roman/index.m3u8"
     ]
   },
   {
@@ -2957,8 +2957,8 @@
     "urls": [
       "http://stream.mcquack.net/81/index.m3u8",
       "https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Sarafan/index.m3u8",
-      "http://31.148.48.15/Sarafan/index.m3u8"
+      "http://31.148.48.15/Sarafan/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Sarafan/index.m3u8"
     ]
   },
   {
@@ -2976,9 +2976,9 @@
       "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
       "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/ShansonTV/index.m3u8",
       "http://46.53.200.153:7777/play/Shanson_TV/index.m3u8",
-      "https://hls-shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8"
+      "https://hls-shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/ShansonTV/index.m3u8"
     ]
   },
   {
@@ -3164,8 +3164,8 @@
       "http://stream.mcquack.net/118/index.m3u8",
       "https://tv.mediacdn.ru/live/solntse/playlist.m3u8",
       "http://tv.mediacdn.ru/live/solntse/playlist.m3u8",
-      "http://str2.iptvhd.ru:8080/Disney_rus/index.m3u8",
-      "http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8"
+      "http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Disney_rus/index.m3u8"
     ]
   },
   {
@@ -3272,12 +3272,12 @@
       "http://flussonic.linkintel.ru/sts/index.m3u8",
       "https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/CTC/index.m3u8",
-      "http://str2.iptvhd.ru:8080/STS/index.m3u8",
       "http://31.148.5.241/kanal_13/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/16.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/296.m3u8",
       "http://31.148.48.15/STS/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/STS/index.m3u8"
     ]
   },
   {
@@ -3448,12 +3448,12 @@
       "http://stream.mcquack.net/135/index.m3u8",
       "http://flussonic.linkintel.ru/tnt/index.m3u8",
       "http://176.118.197.101/THT/index.m3u8",
-      "http://str2.iptvhd.ru:8080/TNT/index.m3u8",
       "http://31.148.5.241/kanal_19/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/23.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/38.m3u8",
       "http://31.148.48.15/TNT/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/TNT/index.m3u8"
     ]
   },
   {
@@ -3554,10 +3554,10 @@
       "http://flussonic.linkintel.ru/tvc/index.m3u8",
       "https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/TVC/index.m3u8",
       "http://31.148.5.241/kanal_10/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/13.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/TVC/index.m3u8"
     ]
   },
   {
@@ -3595,10 +3595,10 @@
       "http://178.134.1.158:8081/U/index.m3u8",
       "http://stream.mcquack.net/230/index.m3u8",
       "https://fs.uplink.kz/u/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/UTV/index.m3u8",
       "https://cdn-01.bonus-tv.ru/u/playlist.m3u8",
       "http://31.148.48.15/U/index.m3u8",
-      "http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8"
+      "http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/UTV/index.m3u8"
     ]
   },
   {
@@ -3700,8 +3700,8 @@
     "urls": [
       "http://stream.mcquack.net/239/index.m3u8",
       "https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Viasat_Explorer/index.m3u8",
-      "http://46.53.200.153:7777/play/a01i/index.m3u8"
+      "http://46.53.200.153:7777/play/a01i/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Viasat_Explorer/index.m3u8"
     ]
   },
   {
@@ -3744,8 +3744,8 @@
     "urls": [
       "http://stream.mcquack.net/110/index.m3u8",
       "https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/TV1000/index.m3u8",
-      "http://46.53.200.153:7777/play/TV_1000/index.m3u8"
+      "http://46.53.200.153:7777/play/TV_1000/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000/index.m3u8"
     ]
   },
   {
@@ -3760,8 +3760,8 @@
       "http://stream.mcquack.net/100/index.m3u8",
       "https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/TV1000_Action/index.m3u8",
-      "http://46.53.200.153:7777/play/a01h/index.m3u8"
+      "http://46.53.200.153:7777/play/a01h/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000_Action/index.m3u8"
     ]
   },
   {
@@ -3776,9 +3776,9 @@
       "https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8",
       "https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/TV1000russkoekino/index.m3u8",
       "http://46.53.200.153:7777/play/a01g/index.m3u8",
-      "http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8"
+      "http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000russkoekino/index.m3u8"
     ]
   },
   {
@@ -3791,8 +3791,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/201/index.m3u8",
-      "http://str2.iptvhd.ru:8080/TV1000_Comedy_HD/index.m3u8",
-      "http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8"
+      "http://46.53.200.153:7777/play/Viju_Comedy_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000_Comedy_HD/index.m3u8"
     ]
   },
   {
@@ -3805,8 +3805,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/200/index.m3u8",
-      "http://str2.iptvhd.ru:8080/TV1000_Megahit_HD/index.m3u8",
-      "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8"
+      "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000_Megahit_HD/index.m3u8"
     ]
   },
   {
@@ -3831,8 +3831,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/202/index.m3u8",
-      "http://str2.iptvhd.ru:8080/TV1000_Premium_HD/index.m3u8",
-      "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8"
+      "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TV1000_Premium_HD/index.m3u8"
     ]
   },
   {
@@ -3845,8 +3845,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/311/index.m3u8",
-      "http://str2.iptvhd.ru:8080/VIP_Serial_HD/index.m3u8",
-      "http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8"
+      "http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/VIP_Serial_HD/index.m3u8"
     ]
   },
   {
@@ -3984,8 +3984,8 @@
     "visible": true,
     "urls": [
       "https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8",
-      "http://str2.iptvhd.ru:8080/Zvezda/index.m3u8",
-      "https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8"
+      "https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/Zvezda/index.m3u8"
     ]
   },
   {
@@ -4853,8 +4853,8 @@
     "visible": true,
     "urls": [
       "http://178.134.1.158:8081/ntvhit/index.m3u8",
-      "http://str2.iptvhd.ru:8080/ntv_hit/index.m3u8",
-      "https://cdn.ntv.ru/th_hit/playlist.m3u8"
+      "https://cdn.ntv.ru/th_hit/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/ntv_hit/index.m3u8"
     ]
   },
   {
@@ -4937,9 +4937,9 @@
     "urls": [
       "http://flussonic.linkintel.ru/che/index.m3u8",
       "http://176.118.197.101/Che/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Che/index.m3u8",
       "http://31.148.48.15/Che/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/Che/index.m3u8"
     ]
   },
   {
@@ -5059,8 +5059,8 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/zdorovoe_tv/index.m3u8",
-      "http://31.148.48.15/Zdorovoe_TV/index.m3u8"
+      "http://31.148.48.15/Zdorovoe_TV/index.m3u8",
+      "http://str2.iptvhd.ru:8080/zdorovoe_tv/index.m3u8"
     ]
   },
   {
@@ -5094,8 +5094,8 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/Zhivaya_planeta/index.m3u8",
-      "http://31.148.48.15/Zhivaya_Planeta/index.m3u8"
+      "http://31.148.48.15/Zhivaya_Planeta/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Zhivaya_planeta/index.m3u8"
     ]
   },
   {
@@ -5158,8 +5158,8 @@
     "visible": true,
     "urls": [
       "https://fs.uplink.kz/india/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/ZeeTV/index.m3u8",
-      "http://31.148.48.15/Zee_TV_Russia/index.m3u8"
+      "http://31.148.48.15/Zee_TV_Russia/index.m3u8",
+      "http://str2.iptvhd.ru:8080/ZeeTV/index.m3u8"
     ]
   },
   {
@@ -5185,8 +5185,8 @@
     "urls": [
       "https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/Evrokino/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Evrokino/index.m3u8",
-      "http://31.148.48.15/Evrokino/index.m3u8"
+      "http://31.148.48.15/Evrokino/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Evrokino/index.m3u8"
     ]
   },
   {
@@ -5225,8 +5225,8 @@
     "visible": true,
     "urls": [
       "https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Russkiy_illyuzion/index.m3u8",
-      "http://31.148.48.15/Russkiy_illusion/index.m3u8"
+      "http://31.148.48.15/Russkiy_illusion/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Russkiy_illyuzion/index.m3u8"
     ]
   },
   {
@@ -5251,8 +5251,8 @@
     "visible": true,
     "urls": [
       "https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Zhivi/index.m3u8",
-      "http://31.148.48.15/Zhivi/index.m3u8"
+      "http://31.148.48.15/Zhivi/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Zhivi/index.m3u8"
     ]
   },
   {
@@ -5561,8 +5561,8 @@
     "visible": true,
     "urls": [
       "http://176.118.197.101/Illuzion+/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Illyuzion/index.m3u8",
-      "http://31.148.48.15/Illusion_plus/index.m3u8"
+      "http://31.148.48.15/Illusion_plus/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Illyuzion/index.m3u8"
     ]
   },
   {
@@ -5586,10 +5586,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/5_kanal/index.m3u8",
       "http://31.148.5.241/kanal_5/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/8.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8",
+      "http://str2.iptvhd.ru:8080/5_kanal/index.m3u8"
     ]
   },
   {
@@ -5618,15 +5618,15 @@
   },
   {
     "id": "Ktoestkto.ru@SD",
-    "name": "Kto est kto (576p)",
+    "name": "Кто есть Кто (576p)",
     "country": "RU",
     "categories": [
       "education"
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/kto_est_kto/index.m3u8",
-      "http://31.148.48.15/Kto_est_kto/index.m3u8"
+      "http://31.148.48.15/Kto_est_kto/index.m3u8",
+      "http://str2.iptvhd.ru:8080/kto_est_kto/index.m3u8"
     ]
   },
   {
@@ -5643,13 +5643,14 @@
   },
   {
     "id": "NationalGeographicWild.ru@HD",
-    "name": "National Geographic Wild HD (1080p)",
+    "name": "National Geographic Wild HD",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
+      "http://178.76.68.60:7442/50/mpegts",
       "http://str2.iptvhd.ru:8080/Nat_Geo_Wild_HD/index.m3u8"
     ]
   },
@@ -5674,8 +5675,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8",
-      "http://46.53.200.153:7777/play/a01l/index.m3u8"
+      "http://46.53.200.153:7777/play/a01l/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8"
     ]
   },
   {
@@ -5704,15 +5705,15 @@
   },
   {
     "id": "Teleputeshestviya.ru@SD",
-    "name": "Teleputeshestviya (576p)",
+    "name": "Телепутешествия (576p)",
     "country": "RU",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/Teleputeshestviya/index.m3u8",
-      "http://31.148.48.15/Teleputeshestviya/index.m3u8"
+      "http://31.148.48.15/Teleputeshestviya/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Teleputeshestviya/index.m3u8"
     ]
   },
   {
@@ -5765,16 +5766,16 @@
   },
   {
     "id": "TERRA.ru@SD",
-    "name": "TERRA (1080p)",
+    "name": "Terra (576p)",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8",
       "http://31.148.48.15/Terra/index.m3u8",
-      "http://31.148.48.15/Terra_HD/index.m3u8"
+      "http://31.148.48.15/Terra_HD/index.m3u8",
+      "http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8"
     ]
   },
   {
@@ -5870,15 +5871,15 @@
   },
   {
     "id": "RussianExtreme.ru@SD",
-    "name": "Russian Extreme (576p)",
+    "name": "Русский Экстрим (576p)",
     "country": "RU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/Russkiy_ekstrim/index.m3u8",
-      "http://31.148.48.15/Russkiy_Ekstrim/index.m3u8"
+      "http://31.148.48.15/Russkiy_Ekstrim/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Russkiy_ekstrim/index.m3u8"
     ]
   },
   {
@@ -5905,15 +5906,15 @@
   },
   {
     "id": "A2.ru@SD",
-    "name": "A2 (576p)",
+    "name": "Amedia 2 (576p)",
     "country": "RU",
     "categories": [
       "series"
     ],
     "visible": true,
     "urls": [
-      "http://str2.iptvhd.ru:8080/Amedia_2/index.m3u8",
-      "http://31.148.48.15/A2/index.m3u8"
+      "http://31.148.48.15/A2/index.m3u8",
+      "http://str2.iptvhd.ru:8080/Amedia_2/index.m3u8"
     ]
   },
   {
@@ -7438,6 +7439,88 @@
     "visible": true,
     "urls": [
       "https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8"
+    ]
+  },
+  {
+    "id": "MatchPremier.ru@SD",
+    "name": "Match! Premier (480p) [Geo-blocked]",
+    "country": "RU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://192.162.64.99:5000/play/a02b/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.ru@SD",
+    "name": "Discovery Channel (1080p)",
+    "country": "RU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/177/index.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscovery.ru@SD",
+    "name": "Investigation Discovery (1080p)",
+    "country": "RU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/205/index.m3u8"
+    ]
+  },
+  {
+    "id": "TLC.ru@SD",
+    "name": "TLC (1080p)",
+    "country": "RU",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/168/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.ru@SD",
+    "name": "Animal Planet (1080p)",
+    "country": "RU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/114/index.m3u8"
+    ]
+  },
+  {
+    "id": "FoodNetwork.ru@SD",
+    "name": "Food Network (1080p)",
+    "country": "RU",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/298/index.m3u8"
+    ]
+  },
+  {
+    "id": "TravelChannel.ru@SD",
+    "name": "Travel Channel (1080p)",
+    "country": "RU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://stream.mcquack.net/231/index.m3u8"
     ]
   }
 ]

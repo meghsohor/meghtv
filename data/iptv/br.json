@@ -3392,5 +3392,32 @@
     "urls": [
       "https://video.welltecnologia.com.br/tvguarapari/tvguarapari/playlist.m3u8"
     ]
+  },
+  {
+    "id": "CNNBrasil.br@SD",
+    "name": "CNN Brasil (1080p)",
+    "country": "BR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8"
+    ]
+  },
+  {
+    "id": "PlusMaisUm.br@HD",
+    "name": "+MaisUm (720p)",
+    "country": "BR",
+    "categories": [
+      "general",
+      "entertainment",
+      "movies",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ichibansys.com:3230/hybrid/play.m3u8"
+    ]
   }
 ]

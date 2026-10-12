@@ -253,7 +253,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://86.87.15.10:8004/play/a02g/index.m3u8"
+      "http://86.87.15.10:8004/play/a02g/index.m3u8",
+      "https://lb.iptvnetwork.net/ls28/10014/playlist.m3u8"
     ]
   },
   {
@@ -2085,6 +2086,176 @@
     "visible": true,
     "urls": [
       "https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8"
+    ]
+  },
+  {
+    "id": "NPO1.nl@SD",
+    "name": "NPO 1 (360p)",
+    "country": "NL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10001/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalPlusActionEurope.nl@Netherlands",
+    "name": "Canal+ Action Europe (360p)",
+    "country": "NL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10020/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BBCNL.nl@HD",
+    "name": "BBC NL (360p)",
+    "country": "NL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10021/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BVN.nl@SD",
+    "name": "BVN (360p)",
+    "country": "NL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10025/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN.nl@HD",
+    "name": "ESPN (360p)",
+    "country": "NL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10041/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN2.nl@HD",
+    "name": "ESPN 2 (360p)",
+    "country": "NL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10042/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN4.nl@HD",
+    "name": "ESPN 4",
+    "country": "NL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10044/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN3.nl@HD",
+    "name": "ESPN 3",
+    "country": "NL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10043/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "STARChannel.nl@SD",
+    "name": "STAR Channel (1080p)",
+    "country": "NL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10012/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VeronicaDisneyJr.nl@SD",
+    "name": "Veronica / Disney Jr. (360p)",
+    "country": "NL",
+    "categories": [
+      "entertainment",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10011/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.nl@SD",
+    "name": "Discovery Channel (360p)",
+    "country": "NL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10015/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.nl@SD",
+    "name": "National Geographic (360p)",
+    "country": "NL",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10016/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "History.nl@SD",
+    "name": "History (360p)",
+    "country": "NL",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10022/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TMF.nl@HDFAST",
+    "name": "TMF (1080p)",
+    "country": "NL",
+    "categories": [
+      "classic",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tmf-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMGMzZGFhOGYtYjNhMC00Njk1LThkZTktZWNmNmVmNzRmMzY4IiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8"
     ]
   }
 ]

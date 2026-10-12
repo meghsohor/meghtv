@@ -2986,5 +2986,41 @@
     "urls": [
       "https://cdn4.wind.do/streams/colorvision/colorvision_master.m3u8"
     ]
+  },
+  {
+    "id": "Antena7.do@HD",
+    "name": "Antena 7 HD (1080p) [Not 24/7]",
+    "country": "DO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.tvabierta.net/hls/007.m3u8"
+    ]
+  },
+  {
+    "id": "Antena21.do@HD",
+    "name": "Antena 21 HD (720p) [Not 24/7]",
+    "country": "DO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://hls.tvabierta.net/hls/021.m3u8"
+    ]
+  },
+  {
+    "id": "TarimaTV.do@HD",
+    "name": "Tarima TV (720p)",
+    "country": "DO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://190.122.104.210:5080/LiveApp/streams/tarima.m3u8"
+    ]
   }
 ]

@@ -2040,5 +2040,17 @@
     "urls": [
       "https://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8"
     ]
+  },
+  {
+    "id": "CNNIndonesia.id@SD",
+    "name": "CNN Indonesia",
+    "country": "ID",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8"
+    ]
   }
 ]

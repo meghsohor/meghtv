@@ -33,7 +33,8 @@
     "visible": true,
     "urls": [
       "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8",
-      "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl/stream4_.m3u8"
+      "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl/stream4_.m3u8",
+      "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl/stream1_.m3u8"
     ]
   },
   {

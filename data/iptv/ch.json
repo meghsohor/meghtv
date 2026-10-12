@@ -356,5 +356,17 @@
     "urls": [
       "https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8"
     ]
+  },
+  {
+    "id": "NickSchweiz.ch@SD",
+    "name": "Nick Schweiz",
+    "country": "CH",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zg9mhld.s.gy/CH-NICK-SCHWEIZ-HD.ts"
+    ]
   }
 ]

@@ -301,5 +301,92 @@
     "urls": [
       "http://103.151.60.162:2122/play/a01h/index.m3u8?hls"
     ]
+  },
+  {
+    "id": "Channel5.sg@SD",
+    "name": "Channel 5 (720p)",
+    "country": "SG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.qd.je/163189/ch5"
+    ]
+  },
+  {
+    "id": "CartoonNetworkAsia.sg@SD",
+    "name": "Cartoon Network Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonitoAsia.sg@SD",
+    "name": "Cartoonito Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8"
+    ]
+  },
+  {
+    "id": "AsianFoodNetwork.sg@Vietnam",
+    "name": "Asian Food Network Vietnam (1080p)",
+    "country": "SG",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=215"
+    ]
+  },
+  {
+    "id": "HBOAsia.sg@HD",
+    "name": "HBO Asia HD (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2x2.me/yTKXaE"
+    ]
+  },
+  {
+    "id": "HBOHitsAsia.sg@HD",
+    "name": "HBO Hits Asia HD (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2x2.me/BbwzPx"
+    ]
+  },
+  {
+    "id": "AXNAsia.sg@Malaysia",
+    "name": "AXN Asia Malaysia (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2x2.me/5aE8sA"
+    ]
   }
 ]

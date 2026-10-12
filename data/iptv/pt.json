@@ -741,5 +741,17 @@
     "urls": [
       "https://amg01074-fueltv-amg01074c1-stirr-us-4214.playouts.now.amagi.tv/playlist.m3u8"
     ]
+  },
+  {
+    "id": "CNNPortugal.pt@SD",
+    "name": "CNN Portugal",
+    "country": "PT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8"
+    ]
   }
 ]

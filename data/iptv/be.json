@@ -468,5 +468,45 @@
     "urls": [
       "https://wtvlive.b-cdn.net/playlist.m3u8"
     ]
+  },
+  {
+    "id": "VTM2.be@SD",
+    "name": "VTM 2 (360p)",
+    "country": "BE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10035/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VTM.be@SD",
+    "name": "VTM (360p)",
+    "country": "BE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10033/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VTM3.be@SD",
+    "name": "VTM 3 (360p)",
+    "country": "BE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10037/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VTM4.be@SD",
+    "name": "VTM 4 (360p)",
+    "country": "BE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10038/playlist.m3u8"
+    ]
   }
 ]

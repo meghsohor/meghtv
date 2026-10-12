@@ -423,13 +423,13 @@
     "urls": [
       "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
       "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
-      "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8",
       "http://170.83.16.50/DW/index.m3u8",
       "https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/440/index.m3u8",
       "https://cdn-7.pishow.tv/live/431/master.m3u8",
       "https://mumt05.tangotv.in/87NeALx2DWTV/index.m3u8",
-      "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8"
+      "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
+      "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8"
     ]
   },
   {
@@ -1364,13 +1364,13 @@
   },
   {
     "id": "ProSieben.de@SD",
-    "name": "ProSieben (576p)",
+    "name": "ProSieben (1080p)",
     "country": "DE",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://85.187.13.40:18000/ProSieben",
-      "https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8"
+      "https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8",
+      "http://85.187.13.40:18000/ProSieben"
     ]
   },
   {
@@ -1552,7 +1552,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8"
+      "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8",
+      "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8"
     ]
   },
   {
@@ -2118,7 +2119,8 @@
     "visible": true,
     "urls": [
       "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
-      "http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass"
+      "http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass",
+      "http://5.180.164.197:8080/ZDFNEO/index.m3u8"
     ]
   },
   {
@@ -2252,7 +2254,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/269948147?profile=pass"
+      "http://178.27.12.3:9981/stream/channelid/269948147?profile=pass",
+      "https://s6.hopslan.com/disneyX/index.m3u8"
     ]
   },
   {
@@ -2274,7 +2277,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass"
+      "http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass",
+      "https://s6.hopslan.com/dokuX/index.m3u8"
     ]
   },
   {
@@ -5350,6 +5354,28 @@
     "visible": true,
     "urls": [
       "https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DMAX.de@SD",
+    "name": "DMAX (576p)",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://5.180.164.197:8080/DMAX/index.m3u8"
+    ]
+  },
+  {
+    "id": "ProSiebenMaxx.de@HD",
+    "name": "ProSieben Maxx HD (360p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10828/playlist.m3u8"
     ]
   }
 ]

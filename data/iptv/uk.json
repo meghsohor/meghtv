@@ -606,8 +606,8 @@
       "http://46.32.176.50/bbcworld/index.m3u8",
       "http://stream.mcquack.net/85/index.m3u8",
       "https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8",
-      "http://str2.iptvhd.ru:8080/bbc/index.m3u8",
-      "https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8"
+      "https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
+      "http://str2.iptvhd.ru:8080/bbc/index.m3u8"
     ]
   },
   {
@@ -3329,6 +3329,140 @@
     "visible": true,
     "urls": [
       "https://techtraveleat.in/stream.m3u8?id=foodxp"
+    ]
+  },
+  {
+    "id": "ITV1.uk@London",
+    "name": "ITV1 (360p)",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10103/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Channel4.uk@UK",
+    "name": "Channel 4 (360p)",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Channel5.uk@SD",
+    "name": "Channel 5 (360p)",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ITV2.uk@SD",
+    "name": "ITV2 (360p)",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10106/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ITV3.uk@SD",
+    "name": "ITV3 (360p)",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10107/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ITV4.uk@SD",
+    "name": "ITV4 (360p)",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10108/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "E4.uk@SD",
+    "name": "E4 (360p)",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10113/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "More4.uk@SD",
+    "name": "More4 (360p)",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5USA.uk@SD",
+    "name": "5USA (360p)",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lb.iptvnetwork.net/ls28/10115/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@Ukraine",
+    "name": "Cartoon Network CEE Ukraine (576p)",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.132.87.69:8080/cartoon_network/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@CzechRepublic",
+    "name": "Cartoon Network CEE Czech Republic",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_cartoon_network_tizen/playlist.m3u8"
     ]
   }
 ]
