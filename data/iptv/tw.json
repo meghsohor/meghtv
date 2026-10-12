@@ -280,7 +280,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8"
     ]

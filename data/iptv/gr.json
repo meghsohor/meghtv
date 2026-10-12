@@ -469,7 +469,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8"
     ]

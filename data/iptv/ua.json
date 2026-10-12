@@ -1645,7 +1645,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8"
     ]

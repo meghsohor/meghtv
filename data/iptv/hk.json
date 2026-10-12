@@ -186,7 +186,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8"
     ]

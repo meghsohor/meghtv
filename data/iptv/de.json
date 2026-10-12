@@ -6,7 +6,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://123tv-mx1.flex-cdn.net/index.m3u8"
     ]
@@ -548,7 +548,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8"
     ]
@@ -584,7 +584,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8"
     ]
@@ -596,7 +596,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8"
     ]
@@ -608,7 +608,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8"
     ]
@@ -632,7 +632,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8"
     ]
@@ -656,7 +656,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://api.alpaca.t62a.com/hls/9103/index.m3u8",
       "https://elephant.t62a.com/hls/8103/index.m3u8"
@@ -1390,7 +1390,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8"
     ]
@@ -1402,7 +1402,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8"
     ]
@@ -1414,7 +1414,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8"
     ]

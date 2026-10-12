@@ -54,7 +54,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8"
     ]

@@ -566,7 +566,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://master.tucableip.com/redtvshop/index.m3u8"
     ]

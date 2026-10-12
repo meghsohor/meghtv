@@ -164,7 +164,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "https://fox.hostlagarto.com:8081/bajotechotv/tracks-v1a1/mono.m3u8"
     ]

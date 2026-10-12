@@ -10235,7 +10235,7 @@
     "categories": [
       "shop"
     ],
-    "visible": true,
+    "visible": false,
     "urls": [
       "http://51.75.127.199:3141/propextv/index.m3u8"
     ]
