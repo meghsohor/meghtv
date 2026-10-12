@@ -679,7 +679,7 @@ fun VideoPlayer(
       }
     }
 
-    // Also from the error screen; a pick there clears it and plays the pick.
+    // From the controls' Source button.
     if (sourcesOpen) {
       TrackPickerDialog(
         "Source",
@@ -730,7 +730,6 @@ fun VideoPlayer(
           pendingUrl[0] = null
           retryTick++ // re-runs the load effect even at the first mirror
         },
-        onSources = if (sources.size > 1) ({ sourcesOpen = true }) else null,
         endPadding = overlayEndPadding,
         focusRetry = controlsAllowed,
         modifier = Modifier.fillMaxSize(),

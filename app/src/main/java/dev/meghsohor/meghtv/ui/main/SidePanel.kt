@@ -283,7 +283,9 @@ internal fun SidePanel(
       val band = Modifier.fillMaxWidth().background(PinnedBand).drawBehind {
         drawRect(LineColor, topLeft = Offset(0f, size.height - 1.dp.toPx()), size = size.copy(height = 1.dp.toPx()))
       }
-      Row(band.height(52.dp).padding(bottom = 1.dp).then(tabFocus), verticalAlignment = Alignment.CenterVertically) {
+      // Up from the list lands on the open tab, not whichever is nearest (Info, at the far left).
+      val upToSelectedTab = Modifier.focusProperties { onEnter = { if (requestedFocusDirection == FocusDirection.Up) entryFocusRequester.requestFocus() } }.focusGroup()
+      Row(band.height(52.dp).padding(bottom = 1.dp).then(tabFocus).then(upToSelectedTab), verticalAlignment = Alignment.CenterVertically) {
         if (!touchMode) {
           InfoTab(onInfo)
           PinnedDivider()
