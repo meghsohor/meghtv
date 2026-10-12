@@ -72,7 +72,7 @@
   {
     "id": "legislative",
     "name": "Legislative",
-    "visible": true
+    "visible": false
   },
   {
     "id": "lifestyle",
@@ -127,7 +127,7 @@
   {
     "id": "shop",
     "name": "Shop",
-    "visible": true
+    "visible": false
   },
   {
     "id": "sports",
