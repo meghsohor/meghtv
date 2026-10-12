@@ -155,7 +155,7 @@ internal fun ControlsRow(
 
 /**
  * Source, Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the
- * remote. The enabled ones are focusable, so a TV remote reaches them with Down; Up or Back leaves (handled by the screen).
+ * remote. The enabled ones are focusable, so a TV remote reaches them with Left/Right; Up or Back leaves (handled by the screen).
  * [sourceBadge] is the playing source as "2/5", null with a single source. [onStop] adds Stop at the end (TV only).
  */
 @Composable
@@ -332,8 +332,6 @@ private val ChannelStepWidth = 130.dp
 internal fun PlaybackErrorOverlay(
   offline: Boolean,
   onRetry: () -> Unit,
-  /** Opens the Source picker; null with a single source. */
-  onSources: (() -> Unit)?,
   onDelete: () -> Unit,
   endPadding: Dp,
   focusRetry: Boolean,
@@ -357,8 +355,6 @@ internal fun PlaybackErrorOverlay(
       )
       Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         OverlayButton("Retry", onClick = onRetry, primary = true, modifier = Modifier.focusRequester(retryFocusRequester))
-        // Try one by hand: Retry starts again from the first.
-        if (onSources != null) OverlayButton("Source", onClick = onSources, primary = false)
         // Offline says nothing about the channel.
         if (!offline) OverlayButton("Delete channel", onClick = onDelete, primary = false)
       }

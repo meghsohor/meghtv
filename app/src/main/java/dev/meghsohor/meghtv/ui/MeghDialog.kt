@@ -48,22 +48,21 @@ internal fun DialogCard(modifier: Modifier = Modifier, content: @Composable () -
   Box(modifier.widthIn(min = 300.dp, max = 420.dp).clip(shape).background(MaterialTheme.colorScheme.surface).border(1.dp, DialogLineColor, shape)) { content() }
 }
 
-/** [secondary] is the way out (Cancel, Not now): muted, with a fainter outline. */
+/** All alike, outlined; D-pad focus fills one cyan, so it's clear which OK presses. */
 @Composable
-internal fun DialogButton(label: String, onClick: () -> Unit, modifier: Modifier = Modifier, secondary: Boolean = false) {
+internal fun DialogButton(label: String, onClick: () -> Unit, modifier: Modifier = Modifier) {
   val interaction = remember { MutableInteractionSource() }
   val focused by interaction.collectIsFocusedAsState()
-  val color = if (secondary) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.primary
-  val outline = if (focused) color else color.copy(alpha = if (secondary) 0.2f else 0.45f)
+  val color = MaterialTheme.colorScheme.primary
   Text(
     label,
-    color = color,
+    color = if (focused) MeghBackground else color,
     style = MaterialTheme.typography.titleSmall,
     modifier =
       modifier
         .clip(RoundedCornerShape(8.dp))
-        .background(if (focused) color.copy(alpha = 0.15f) else Color.Transparent)
-        .border(1.dp, outline, RoundedCornerShape(8.dp))
+        .background(if (focused) color else Color.Transparent)
+        .border(1.dp, if (focused) color else color.copy(alpha = 0.45f), RoundedCornerShape(8.dp))
         .clickable(interactionSource = interaction, indication = null, onClick = onClick)
         .focusable(interactionSource = interaction)
         .padding(horizontal = 16.dp, vertical = 8.dp),
