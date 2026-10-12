@@ -43,6 +43,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
@@ -317,9 +318,11 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Opaque and a shade darker than the list layer, so rows read as set into it.
-private val RowFill = lerp(ListTone, MeghBackground, 0.15f)
+// Opaque, a deeper and more saturated navy than the list layer (the user's choice), under the gloss.
+private val RowFill = Color(0xFF101A3E)
 internal val LineColor = Color.White.copy(alpha = 0.09f)
+private val GlossColors = listOf(Color.White.copy(alpha = 0.10f), Color.White.copy(alpha = 0.02f), Color.Transparent)
+private val GlossEdge = Color.White.copy(alpha = 0.14f)
 
 private val DimmedRowFill = MeghSurfaceVariant.copy(alpha = 0.2f)
 private val DimmedLineColor = Color.White.copy(alpha = 0.04f)
@@ -355,6 +358,11 @@ internal fun Modifier.panelRow(
   val ring = if (selected) Color.White else colors.primary
   return this.drawBehind {
       drawRect(fill)
+      // Glass: a sheen fading down from the top and a faint top highlight, over whatever the row's fill is.
+      if (block) {
+        drawRect(Brush.verticalGradient(GlossColors, endY = size.height * 0.65f))
+        drawRect(GlossEdge, size = size.copy(height = 1.dp.toPx()))
+      }
       val ringOn = focused || ringed
       val width = (if (focused && selected) 3.dp else if (ringOn) 2.dp else 1.dp).toPx()
       val inset = Offset(width / 2, width / 2)
