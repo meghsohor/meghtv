@@ -164,9 +164,19 @@ internal fun SidePanel(
   // the row a level was opened from, else entryRow().
   val servedEntry = remember { intArrayOf(-1) }
   LaunchedEffect(state.panel, contentReady, entryRequest) {
-    if (touchMode || !contentReady) return@LaunchedEffect
+    if (!contentReady) return@LaunchedEffect
     val opening = servedEntry[0] != entryRequest
     servedEntry[0] = entryRequest
+    // Touch has no focus: opening only brings the playing channel into view (after the arrows switched it, say).
+    if (touchMode) {
+      val playing = if (opening && state.panel is PanelState.ChannelList) state.currentChannel?.id?.let(::rowIndex) else null
+      if (playing != null) {
+        withFrameNanos {}
+        withFrameNanos {}
+        if (listState.layoutInfo.visibleItemsInfo.none { it.index == playing }) listState.scrollToItem(playing)
+      }
+      return@LaunchedEffect
+    }
     val row = (if (opening) null else openedFrom[state.panel]) ?: entryRow()
     if (row == null && opening) {
       withFrameNanos {}
