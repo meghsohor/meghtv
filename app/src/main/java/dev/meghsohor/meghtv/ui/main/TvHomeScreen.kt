@@ -108,8 +108,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   var activityTick by remember { mutableIntStateOf(0) }
   val lastActivityAt = remember { longArrayOf(SystemClock.uptimeMillis()) }
   var confirmExit by remember { mutableStateOf(false) }
-  // TV's row Delete asks first: a single OK would otherwise remove the channel.
-  var confirmDelete by remember { mutableStateOf<IndexedValue<ChannelEntity>?>(null) }
   var showSupport by rememberSaveable { mutableStateOf(false) }
   var showInfo by remember { mutableStateOf(false) }
   var searchFieldFocused by remember { mutableStateOf(false) }
@@ -178,9 +176,9 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
   val nothingToWatch = if (touchMode) !(hasPlayer && playbackActive) else !hasPlayer
   // Waits its turn behind any other popup and typing; a check at launch can finish during the loading screen.
   val showUpdateOffer =
-    splashDone && state.updateOffer != null && !refreshInProgress && !showSupport && !showInfo && menuChannel == null && !confirmExit && confirmDelete == null &&
+    splashDone && state.updateOffer != null && !refreshInProgress && !showSupport && !showInfo && menuChannel == null && !confirmExit &&
       !trackControls.pickerOpen && !searching
-  val suppressAutoHide = !splashDone || refreshInProgress || showUpdateOffer || menuChannel != null || confirmExit || confirmDelete != null || showSupport || showInfo || searching || nothingToWatch
+  val suppressAutoHide = !splashDone || refreshInProgress || showUpdateOffer || menuChannel != null || confirmExit || showSupport || showInfo || searching || nothingToWatch
   LaunchedEffect(Unit) {
     if (splashDone) return@LaunchedEffect
     delay(SplashMs)
@@ -412,7 +410,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
         onRefresh = viewModel::onCheckForUpdate,
         onInfo = { showInfo = true },
         onChannelMenu = { index, channel -> menuChannel = IndexedValue(index, channel) },
-        onDeleteChannel = { index, channel -> confirmDelete = IndexedValue(index, channel) },
         // Picking the stopped channel again plays it; any other channel plays anyway.
         onChannelPicked = { if (playbackStopped && it == state.currentChannel?.id) playerCommands.tryEmit(PlayerCommand.Play) },
         refocusAfterDelete = refocusAfterDelete,
@@ -430,22 +427,6 @@ fun TvHomeScreen(repository: MeghTVRepository, modifier: Modifier = Modifier) {
       exit = fadeOut(tween(PanelAnimMs)),
     ) {
       PanelHandle(onClick = ::openPanel)
-    }
-
-    confirmDelete?.let { (index, channel) ->
-      ConfirmDialog(
-        title = "Delete ${channel.displayName}?",
-        message = "A deleted channel comes back with a full refresh.",
-        confirmLabel = "Delete",
-        touchMode = touchMode,
-        onConfirm = {
-          confirmDelete = null
-          // Focus moves to the row that takes its place.
-          refocusAfterDelete = IndexedValue(index, channel.id)
-          viewModel.onDeleteChannel(channel.id)
-        },
-        onDismiss = { confirmDelete = null },
-      )
     }
 
     if (confirmExit) {

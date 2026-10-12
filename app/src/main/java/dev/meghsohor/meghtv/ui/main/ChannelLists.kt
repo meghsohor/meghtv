@@ -55,7 +55,6 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.key
@@ -198,7 +197,6 @@ internal fun ChannelListContent(
   onSelectChannel: (channelId: String, shownIds: List<String>) -> Unit,
   onToggleBookmark: (ChannelEntity) -> Unit,
   onChannelMenu: (index: Int, ChannelEntity) -> Unit,
-  onDeleteChannel: (index: Int, ChannelEntity) -> Unit,
   onSearchFieldFocusChanged: (Boolean) -> Unit,
   onBackHandled: () -> Unit,
   onRowsShown: (List<ChannelEntity>?) -> Unit,
@@ -281,6 +279,7 @@ internal fun ChannelListContent(
           bookmarked = channel.id in bookmarkedIds,
           playing = channel.id == currentChannelId,
           failed = channel.id in failedIds,
+          touchMode = touchMode,
           onLongClick = {
             if (isSearch || searchExpanded) keyboard?.hide()
             onChannelMenu(i, channel)
@@ -290,8 +289,6 @@ internal fun ChannelListContent(
             onSelectChannel(channel.id, rows.map { it.id })
           },
           onToggleBookmark = { onToggleBookmark(channel) },
-          // A remote can't long-press easily; touch keeps it in the long-press menu.
-          onDelete = if (touchMode) null else ({ onDeleteChannel(i, channel) }),
           // Top-level views go to their tab.
           onNavigateUp = if (isSearch || source == ChannelListSource.Favourites) onNavigateToTab else onBack,
         )
@@ -503,32 +500,32 @@ private fun ChannelRow(
   bookmarked: Boolean,
   playing: Boolean,
   failed: Boolean,
+  touchMode: Boolean,
   onClick: () -> Unit,
   onLongClick: () -> Unit,
   onToggleBookmark: () -> Unit,
-  onDelete: (() -> Unit)?,
   onNavigateUp: (() -> Unit)?,
   modifier: Modifier = Modifier,
 ) {
   val interaction = remember { MutableInteractionSource() }
   val rowFocus = remember { FocusRequester() }
   val starFocus = remember { FocusRequester() }
-  val deleteFocus = remember { FocusRequester() }
   val starInteraction = remember { MutableInteractionSource() }
-  val deleteInteraction = remember { MutableInteractionSource() }
   val starFocused by starInteraction.collectIsFocusedAsState()
-  val deleteFocused by deleteInteraction.collectIsFocusedAsState()
-  // With the star or Delete focused, only that button is lit: the row keeps a plain fill (even when playing) and the ring.
-  val buttonFocused = starFocused || deleteFocused
-  val cyan = playing && !buttonFocused
+  // With the star focused, only it is lit: the row keeps a plain fill (even when playing) and the ring.
+  val cyan = playing && !starFocused
+  // TV shows the star on the focused row only, and a favourite's always; touch on every row. A hidden star keeps its
+  // space, so a name doesn't reflow as focus moves.
+  val rowFocused by interaction.collectIsFocusedAsState()
+  val showStar = touchMode || bookmarked || rowFocused || starFocused
   Row(
     modifier
       .fillMaxWidth()
-      // The buttons are inside the row's bounds, which directional search skips: link them explicitly.
+      // The star is inside the row's bounds, which directional search skips: link it explicitly.
       .focusRequester(rowFocus)
       .focusProperties { right = starFocus }
       .leftGoesUp(interaction, onNavigateUp)
-      .panelRow(interaction, selected = cyan, dimmed = failed, ringed = buttonFocused, onLongClick = onLongClick, onClick = onClick)
+      .panelRow(interaction, selected = cyan, dimmed = failed, ringed = starFocused, onLongClick = onLongClick, onClick = onClick)
       .semantics { if (failed) stateDescription = "Not working" }
       .heightIn(min = 48.dp)
       .padding(start = 14.dp, end = 2.dp),
@@ -548,59 +545,39 @@ private fun ChannelRow(
         modifier = Modifier.weight(1f, fill = false).then(if (failed && !playing) Modifier.alpha(DimmedTextAlpha) else Modifier),
       )
     }
-    RowButton(
-      icon = if (bookmarked) MeghIcons.StarFilled else MeghIcons.Star,
-      // On the cyan row both states are dark; the shape tells them apart.
-      tint =
-        when {
-          cyan -> rowContentColor(selected = true)
-          bookmarked -> Color.White
-          else -> MaterialTheme.colorScheme.onSurfaceVariant
-        },
-      onCyan = cyan,
-      interaction = starInteraction,
-      modifier =
-        Modifier.focusRequester(starFocus)
-          .focusProperties {
-            left = rowFocus
-            if (onDelete != null) right = deleteFocus
-          }
-          .toggleable(value = bookmarked, onValueChange = { onToggleBookmark() }, role = Role.Checkbox, interactionSource = starInteraction, indication = null)
-          .semantics { contentDescription = "${channel.displayName} favourite" },
-    )
-    if (onDelete != null) {
-      RowButton(
-        icon = MeghIcons.Delete,
-        tint = if (cyan) rowContentColor(selected = true) else MaterialTheme.colorScheme.onSurfaceVariant,
-        onCyan = cyan,
-        interaction = deleteInteraction,
-        modifier =
-          Modifier.focusRequester(deleteFocus)
-            .focusProperties { left = starFocus }
-            .clickable(interactionSource = deleteInteraction, indication = null, role = Role.Button, onClick = onDelete)
-            .semantics { contentDescription = "Delete ${channel.displayName}" },
-      )
+    val starPressed by starInteraction.collectIsPressedAsState()
+    val starFill =
+      when {
+        starFocused -> MaterialTheme.colorScheme.primary
+        starPressed -> if (cyan) Color.White.copy(alpha = 0.35f) else MaterialTheme.colorScheme.surfaceVariant
+        else -> Color.Transparent
+      }
+    // 48dp tall; narrower on TV, where nothing is tapped. The fill sits just inside the row's 2dp ring, square like the row.
+    Box(
+      Modifier.size(width = if (touchMode) 48.dp else 40.dp, height = 48.dp)
+        .focusRequester(starFocus)
+        .focusProperties { left = rowFocus }
+        .toggleable(value = bookmarked, onValueChange = { onToggleBookmark() }, role = Role.Checkbox, interactionSource = starInteraction, indication = null)
+        .semantics { contentDescription = "${channel.displayName} favourite" },
+      contentAlignment = Alignment.Center,
+    ) {
+      Box(Modifier.matchParentSize().padding(vertical = 2.dp).background(starFill))
+      if (showStar) {
+        Icon(
+          if (bookmarked) MeghIcons.StarFilled else MeghIcons.Star,
+          contentDescription = null,
+          // On the cyan row both states are dark; the shape tells them apart.
+          tint =
+            when {
+              starFocused -> MaterialTheme.colorScheme.onPrimary
+              cyan -> rowContentColor(selected = true)
+              bookmarked -> Color.White
+              else -> MaterialTheme.colorScheme.onSurfaceVariant
+            },
+          modifier = Modifier.size(20.dp),
+        )
+      }
     }
-  }
-}
-
-/**
- * The star or Delete in a channel row: 48dp, solid cyan while it has focus, lit while pressed. The fill sits just inside
- * the row's 2dp ring, square like the row, so Delete meets its edge with no gap.
- */
-@Composable
-private fun RowButton(icon: ImageVector, tint: Color, onCyan: Boolean, interaction: MutableInteractionSource, modifier: Modifier = Modifier) {
-  val focused by interaction.collectIsFocusedAsState()
-  val pressed by interaction.collectIsPressedAsState()
-  val fill =
-    when {
-      focused -> MaterialTheme.colorScheme.primary
-      pressed -> if (onCyan) Color.White.copy(alpha = 0.35f) else MaterialTheme.colorScheme.surfaceVariant
-      else -> Color.Transparent
-    }
-  Box(Modifier.size(48.dp).then(modifier), contentAlignment = Alignment.Center) {
-    Box(Modifier.matchParentSize().padding(vertical = 2.dp).background(fill))
-    Icon(icon, contentDescription = null, tint = if (focused) MaterialTheme.colorScheme.onPrimary else tint, modifier = Modifier.size(20.dp))
   }
 }
 
