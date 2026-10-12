@@ -53,7 +53,7 @@ A category with `"exclusive": true` (like `xyz`) keeps its channels to itself. T
 
 ## Daily sync
 
-`sync-iptv.yml` on `main` runs every day. It merges iptv-org into `data/` and opens a PR against this branch, or updates the one already open. Nothing is published until that PR is merged.
+`sync-iptv.yml` on `main` runs every day. It merges iptv-org into `data/`, runs the checks, commits to this branch and publishes the list. The run's summary lists what changed.
 
 - New channels, categories and countries are added, visible.
 - For an existing channel:
@@ -62,14 +62,13 @@ A category with `"exclusive": true` (like `xyz`) keeps its channels to itself. T
   - a channel you hid stays hidden.
 - A channel gone from iptv-org is left as it is, still visible. Hide it yourself if you want it gone.
 - If under half of the channels we track are still in iptv-org (a broken upstream, or renamed ids), the run stops.
-- An upstream entry our checks would reject is fixed or skipped, and listed in the PR:
+- An upstream entry our checks would reject is fixed or skipped, and listed in the summary:
   - URLs without a scheme are dropped;
   - unknown categories are dropped from the channel;
   - a channel with a space in its id, an unknown country or no usable URL is skipped, and left as it is if we already have it.
 - An iptv-org category with the same id as one in `data/custom/categories.json` is ignored; yours is kept.
-- If a newer run finds nothing to change, it closes the open PR, because merging it would publish out-of-date changes.
 
-Don't edit the `sync/iptv` branch: the next run replaces it. Make changes on this branch after merging.
+If you push to this branch while a sync runs, the sync's push is refused and the next day's run picks up both.
 
 ## Checks
 
@@ -83,7 +82,7 @@ python3 scripts/check_urls.py data/iptv/fr.json --id France24.fr@English  # any 
 
 Run `check_urls.py` from a network without a firewall: an office network can refuse or reset connections to streaming servers.
 
-Your PRs to this branch run both checks. The sync PR runs none, because GitHub starts no workflows for a PR opened by a workflow; the sync job runs the checks itself before opening it.
+Your PRs to this branch run both checks. The sync runs them itself before committing.
 
 A publish refuses:
 - invalid data;

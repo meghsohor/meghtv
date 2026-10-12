@@ -1,6 +1,5 @@
 name: Check channels
 
-# PRs opened by the sync workflow don't trigger this; that workflow checks the data itself.
 on:
   pull_request:
     branches: [channels]

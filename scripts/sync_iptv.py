@@ -179,7 +179,7 @@ SECTIONS = [
 
 
 def summary(changes: dict[str, list[str]], limit: int = 100) -> str:
-    lines = ["Daily sync with iptv-org. Merging publishes the list to the app.", ""]
+    lines = ["Daily sync with iptv-org.", ""]
     for key, title in SECTIONS:
         items = changes.get(key, [])
         if not items:
