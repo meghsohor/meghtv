@@ -1029,8 +1029,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8",
-      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8"
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8",
+      "http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8"
     ]
   },
   {

@@ -5377,5 +5377,17 @@
     "urls": [
       "https://lb.iptvnetwork.net/ls28/10828/playlist.m3u8"
     ]
+  },
+  {
+    "id": "DaVinciAsia.de@Vietnam",
+    "name": "Da Vinci Asia Vietnam (1080p)",
+    "country": "DE",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=214"
+    ]
   }
 ]

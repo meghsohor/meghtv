@@ -943,7 +943,8 @@
       "http://170.238.200.199/rcn-novelas/index.m3u8",
       "http://181.78.8.199:8000/play/a0a7/index.m3u8",
       "http://181.65.191.173:8069/play/a061",
-      "https://stream1.bitred.cl/rcn-novelas/index.m3u8"
+      "https://stream1.bitred.cl/rcn-novelas/index.m3u8",
+      "https://streaming.onnethn.com/RCN_NOVELAS/playlist.m3u8"
     ]
   },
   {
@@ -1418,7 +1419,8 @@
       "http://168.228.44.241:9999/play/a03z/index.m3u8",
       "http://200.115.120.1:8000/play/ca067/index.m3u8",
       "http://190.123.76.22:8002/play/a06j/index.m3u8",
-      "http://132.255.210.69:8000/play/a049/index.m3u8"
+      "http://132.255.210.69:8000/play/a049/index.m3u8",
+      "https://streaming.onnethn.com/CARACOL_INTERNACIONAL/playlist.m3u8"
     ]
   },
   {

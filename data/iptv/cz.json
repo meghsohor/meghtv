@@ -853,5 +853,111 @@
     "urls": [
       "http://88.212.15.17/live/test_cinemax2_hd_hevc/playlist.m3u8"
     ]
+  },
+  {
+    "id": "AnimalPlanet.cz@SD",
+    "name": "Animal Planet",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_animal_planet_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.cz@SD",
+    "name": "Discovery Channel",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_discovery_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HBO.cz@SD",
+    "name": "HBO",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_hbo_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HBO2.cz@SD",
+    "name": "HBO 2",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_hbo2_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HBO3.cz@SD",
+    "name": "HBO 3",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_hbo3_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TravelChannel.cz@SD",
+    "name": "Travel Channel",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_travel_channel_hd_hevc/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FoodNetwork.cz@SD",
+    "name": "Food Network",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_food_network_atk_tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HGTV.cz@SD",
+    "name": "HGTV",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_hgtv_hevc_25p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TLC.cz@SD",
+    "name": "TLC",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_tlc_1200_atk/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscovery.cz@SD",
+    "name": "Investigation Discovery",
+    "country": "CZ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_id_hevc_atktv/playlist.m3u8"
+    ]
   }
 ]

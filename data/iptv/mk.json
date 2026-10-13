@@ -298,5 +298,17 @@
     "urls": [
       "http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ArenaSportPremiumM1.mk@SD",
+    "name": "Arena Sport Premium M1",
+    "country": "MK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqQgIFxl-Ch6B37eGpkVDb28"
+    ]
   }
 ]

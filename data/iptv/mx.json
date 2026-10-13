@@ -1713,7 +1713,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://200.229.147.210:9999/play/a00k/index.m3u8"
+      "http://200.229.147.210:9999/play/a00k/index.m3u8",
+      "http://200.57.28.141:8540/play/a0ln"
     ]
   },
   {
@@ -1725,7 +1726,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://200.229.147.210:9999/play/a00l/index.m3u8"
+      "http://200.229.147.210:9999/play/a00l/index.m3u8",
+      "http://200.57.28.141:8540/play/a0lo"
     ]
   },
   {

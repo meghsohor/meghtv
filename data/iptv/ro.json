@@ -1069,7 +1069,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8"
+      "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0"
     ]
   },
   {
@@ -1969,6 +1970,52 @@
     "visible": true,
     "urls": [
       "https://live.sangeorztv.ro:8443/live/index.m3u8?cookieCheck=1"
+    ]
+  },
+  {
+    "id": "TravelMix.ro@SD",
+    "name": "Travel Mix (576p)",
+    "country": "RO",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-travel-mix/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "Digi24.ro@HD",
+    "name": "Digi 24 HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-tele-moldova-plus/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "EMITV.ro@HD",
+    "name": "EMI TV HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-emi/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "UTV.ro@SD",
+    "name": "UTV (576p)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-kapital/live_hq?offsetSeconds=0"
     ]
   }
 ]

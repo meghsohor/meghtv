@@ -2052,5 +2052,17 @@
     "urls": [
       "https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8"
     ]
+  },
+  {
+    "id": "CNBCIndonesia.id@SD",
+    "name": "CNBC Indonesia",
+    "country": "ID",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8"
+    ]
   }
 ]

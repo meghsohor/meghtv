@@ -1919,5 +1919,53 @@
     "urls": [
       "http://91.228.35.249:8001/1:0:1:42:1964:13E:820000:0:0:0"
     ]
+  },
+  {
+    "id": "FoodNetwork.pl@SD",
+    "name": "Food Network (1080p)",
+    "country": "PL",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/253/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.pl@SD",
+    "name": "Discovery Channel (1080p)",
+    "country": "PL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/282/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryHistoria.pl@SD",
+    "name": "Discovery Historia (576p)",
+    "country": "PL",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/281/index.m3u8"
+    ]
+  },
+  {
+    "id": "HGTV.pl@SD",
+    "name": "HGTV (1080p)",
+    "country": "PL",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/241/index.m3u8"
+    ]
   }
 ]

@@ -1667,5 +1667,37 @@
     "urls": [
       "http://88.212.15.17/live/discovery_hungary/index.m3u8"
     ]
+  },
+  {
+    "id": "HGTV.hu@SD",
+    "name": "HGTV",
+    "country": "HU",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/hgtv_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.hu@SD",
+    "name": "Animal Planet",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/animal_hun/index.m3u8"
+    ]
+  },
+  {
+    "id": "TravelChannel.hu@SD",
+    "name": "Travel Channel",
+    "country": "HU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/travel_hun/index.m3u8"
+    ]
   }
 ]
