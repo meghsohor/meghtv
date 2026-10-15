@@ -388,5 +388,29 @@
     "urls": [
       "https://2x2.me/5aE8sA"
     ]
+  },
+  {
+    "id": "HBOAsia.sg@Taiwan",
+    "name": "HBO Asia Taiwan (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://125.227.210.55:1003/VideoInput/play.ts"
+    ]
+  },
+  {
+    "id": "CinemaxAsia.sg@HD",
+    "name": "Cinemax Asia HD (1080p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://125.227.210.55:1001/VideoInput/play.ts"
+    ]
   }
 ]

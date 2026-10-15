@@ -1699,5 +1699,29 @@
     "urls": [
       "http://88.212.15.17/live/travel_hun/index.m3u8"
     ]
+  },
+  {
+    "id": "FoodNetwork.hu@SD",
+    "name": "Food Network",
+    "country": "HU",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/fn_hungary/index.m3u8"
+    ]
+  },
+  {
+    "id": "TLC.hu@SD",
+    "name": "TLC",
+    "country": "HU",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/tlc_hungary/index.m3u8"
+    ]
   }
 ]

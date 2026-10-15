@@ -7522,5 +7522,17 @@
     "urls": [
       "http://stream.mcquack.net/231/index.m3u8"
     ]
+  },
+  {
+    "id": "Quadro.ru@4K",
+    "name": "Quadro (2160p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/316/index.m3u8"
+    ]
   }
 ]

@@ -228,5 +228,17 @@
     "urls": [
       "https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO3HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true"
     ]
+  },
+  {
+    "id": "ArenaSport1Premium.si@SD",
+    "name": "Arena Sport 1 Premium",
+    "country": "SI",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vhWLdkJ_3C0RZgs4W19uhl8S3kU0l__4SxERjFMDgcT6"
+    ]
   }
 ]

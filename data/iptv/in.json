@@ -6633,7 +6633,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8"
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8",
+      "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8"
     ]
   },
   {
@@ -11044,6 +11045,68 @@
     "visible": true,
     "urls": [
       "https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetwork.in@SD",
+    "name": "Cartoon Network (720p)",
+    "country": "IN",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNNNews18.in@SD",
+    "name": "CNN News 18 (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkHDPlus.in@SD",
+    "name": "Cartoon Network HD+ (720p)",
+    "country": "IN",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryKids.in@SD",
+    "name": "Discovery Kids (720p)",
+    "country": "IN",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.in@HD",
+    "name": "Animal Planet HD (720p)",
+    "country": "IN",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8"
     ]
   }
 ]

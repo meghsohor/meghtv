@@ -103,13 +103,14 @@
   },
   {
     "id": "KIX.hk@SD",
-    "name": "KIX",
+    "name": "KIX (1080p)",
     "country": "HK",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9901",
       "https://liveh34.vtvprime.vn/hls/KIX/04.m3u8"
     ]
   },

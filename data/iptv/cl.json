@@ -816,25 +816,27 @@
   },
   {
     "id": "EnerGeekFAN.cl@SD",
-    "name": "EnerGeek Fan (1080p)",
+    "name": "EnerGeek FAN (720p) [Geo-blocked]",
     "country": "CL",
     "categories": [
       "animation"
     ],
     "visible": true,
     "urls": [
+      "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
       "https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH"
     ]
   },
   {
     "id": "EnerGeekRadio.cl@SD",
-    "name": "EnerGeek Radio (1080p)",
+    "name": "EnerGeek Radio (720p) [Geo-blocked]",
     "country": "CL",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
       "https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH"
     ]
   },
@@ -1784,7 +1786,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8"
+      "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
+      "https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8"
     ]
   },
   {
@@ -1880,7 +1883,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8"
+      "https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8",
+      "http://181.119.97.124:8080/play/a00n/index.m3u8"
     ]
   },
   {
@@ -2750,6 +2754,54 @@
     "visible": true,
     "urls": [
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn_premium.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RetroPlus.cl@SD",
+    "name": "Retro Plus (1080p)",
+    "country": "CL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.119.97.124:8080/play/a00t/index.m3u8"
+    ]
+  },
+  {
+    "id": "RetroPlus3.cl@SD",
+    "name": "Retro Plus 3 (1080p)",
+    "country": "CL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.119.97.124:8080/play/retroplus_3/index.m3u8"
+    ]
+  },
+  {
+    "id": "SuyaiTV.cl@HD",
+    "name": "Suyai TV (1080p)",
+    "country": "CL",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://trun.suyaitv.cl/memfs/1255a743-cd41-40a8-86c4-d264ee16ebf3.m3u8"
+    ]
+  },
+  {
+    "id": "EnerGeek.cl@HD",
+    "name": "EnerGeek (1080p) [Geo-blocked]",
+    "country": "CL",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cl-2.backend.energeek.cl/bkp/egretroweb/index.m3u8?token=IPTVgh26"
     ]
   }
 ]

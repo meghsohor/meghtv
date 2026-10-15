@@ -1003,5 +1003,17 @@
     "urls": [
       "https://vd01.streaminghd.net.ar:3113/hybrid/play.m3u8"
     ]
+  },
+  {
+    "id": "MaxivisionCanal8.ec@SD",
+    "name": "Maxivision Canal 8 (1080p)",
+    "country": "EC",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.119.97.124:8080/play/a00w/index.m3u8"
+    ]
   }
 ]

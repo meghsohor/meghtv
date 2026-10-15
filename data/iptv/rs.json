@@ -507,5 +507,17 @@
     "urls": [
       "https://webtvstream.bhtelecom.ba/sci-fi.m3u8"
     ]
+  },
+  {
+    "id": "ArenaSport1Premium.rs@SD",
+    "name": "Arena Sport 1 Premium (360p)",
+    "country": "RS",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vmRdlEHaaMaQAQw3LRAakpnghBMtR57sXXgLEXZF8gVD"
+    ]
   }
 ]

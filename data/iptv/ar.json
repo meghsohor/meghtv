@@ -1614,6 +1614,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://158.172.155.130:8000/play/a0dp/index.m3u8",
       "http://15.204.246.24:8080/TNHD/index.m3u8",
       "http://playcom.trapemn.tv:1935/transcoderip/tn.stream/playlist.m3u8"
     ]
@@ -2217,7 +2218,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://138.59.227.20:8000/play/a085/index.m3u8"
+      "http://138.59.227.20:8000/play/a085/index.m3u8",
+      "http://158.172.155.130:8000/play/a09x/index.m3u8"
     ]
   },
   {
@@ -2254,6 +2256,65 @@
     "visible": true,
     "urls": [
       "https://ca.centaurychile.com:2443/hls/mediospublicos.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannelLatinAmerica.ar@South",
+    "name": "Disney Channel Latin America South",
+    "country": "AR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "Space.ar@South",
+    "name": "Space South (720p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/space.stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "QuieroMusicaenmiIdioma.ar@SD",
+    "name": "Quiero Musica en mi Idioma (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.172.155.130:8000/play/a00a/index.m3u8"
+    ]
+  },
+  {
+    "id": "AllegroHD.ar@SD",
+    "name": "Allegro HD (1080p)",
+    "country": "AR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.172.155.130:8000/play/a0dn/index.m3u8"
+    ]
+  },
+  {
+    "id": "DeporTV.ar@SD",
+    "name": "DeporTV (1080p)",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://158.172.155.130:8000/play/a09y/index.m3u8"
     ]
   }
 ]

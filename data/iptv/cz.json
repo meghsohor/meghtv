@@ -959,5 +959,17 @@
     "urls": [
       "http://88.212.15.17/live/test_id_hevc_atktv/playlist.m3u8"
     ]
+  },
+  {
+    "id": "WarnerTV.cz@SD",
+    "name": "Warner TV",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/warner_tv/index.m3u8"
+    ]
   }
 ]

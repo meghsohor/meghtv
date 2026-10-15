@@ -172,5 +172,15 @@
     "urls": [
       "https://mumbai-edge.smartplaytv.in/ShakthiTV/index.m3u8"
     ]
+  },
+  {
+    "id": "Rupavahini.lk@SD",
+    "name": "Rupavahini (720p)",
+    "country": "LK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8"
+    ]
   }
 ]

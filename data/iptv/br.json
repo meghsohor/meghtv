@@ -3420,5 +3420,17 @@
     "urls": [
       "https://stream.ichibansys.com:3230/hybrid/play.m3u8"
     ]
+  },
+  {
+    "id": "RetroCartoon.br@SD",
+    "name": "Retro Cartoon (720p)",
+    "country": "BR",
+    "categories": [
+      "classic"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8"
+    ]
   }
 ]
