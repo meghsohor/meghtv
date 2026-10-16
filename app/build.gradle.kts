@@ -67,8 +67,9 @@ abstract class PersonalChannelsTask : DefaultTask() {
             val root = groovy.json.JsonSlurper().parse(file) as? Map<*, *> ?: throw GradleException("$file: not a JSON object")
             if (root["schemaVersion"] != 1) throw GradleException("$file: schemaVersion must be 1")
             val list = root["channels"] as? List<*> ?: throw GradleException("$file: no \"channels\" list")
+            val providers = root["providers"] as? Map<*, *> ?: emptyMap<Any?, Any?>()
             list.forEachIndexed { i, entry ->
-                val c = entry as? Map<*, *>
+                val c = (entry as? Map<*, *>)?.let { withProviderUrls(file, i + 1, it, providers) }
                 fun strings(key: String) = (c?.get(key) as? List<*>)?.all { it is String } == true
                 val urls = c?.get("urls") as? List<*>
                 if (c?.get("id") !is String || c["name"] !is String || c["country"] !is String || !strings("categories") || !strings("urls") || urls.isNullOrEmpty()) {
@@ -90,6 +91,22 @@ abstract class PersonalChannelsTask : DefaultTask() {
         out.deleteRecursively()
         out.mkdirs()
         out.resolve("personal_channels.json").writeText(groovy.json.JsonOutput.toJson(merged))
+    }
+
+    // A provider holds its URL pattern and account tokens once; its channels give only "provider" and "stream".
+    private fun withProviderUrls(file: java.io.File, n: Int, c: Map<*, *>, providers: Map<*, *>): Map<*, *> {
+        val name = c["provider"] ?: return c
+        val p = providers[name] as? Map<*, *>
+        val pattern = p?.get("url") as? String
+        val tokens = p?.get("tokens") as? List<*>
+        if (pattern == null || "{token}" !in pattern || "{stream}" !in pattern || tokens.isNullOrEmpty() || !tokens.all { it is String }) {
+            throw GradleException("$file: provider $name needs a url with {token} and {stream}, and a list of tokens")
+        }
+        val stream = c["stream"]
+        if (stream !is Int && stream !is String) throw GradleException("$file: channel $n: provider $name needs a stream")
+        if (c.containsKey("urls")) throw GradleException("$file: channel $n has both urls and a provider")
+        val urls = tokens.map { pattern.replace("{token}", it as String).replace("{stream}", stream.toString()) }
+        return c.filterKeys { it != "provider" && it != "stream" } + ("urls" to urls)
     }
 }
 
