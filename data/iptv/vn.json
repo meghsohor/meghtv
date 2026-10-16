@@ -79,6 +79,7 @@
     "visible": true,
     "urls": [
       "https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=20",
       "https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8"
     ]
   },

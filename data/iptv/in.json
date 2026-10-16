@@ -11108,5 +11108,89 @@
     "urls": [
       "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8"
     ]
+  },
+  {
+    "id": "Eurosport.in@SD",
+    "name": "Eurosport (720p)",
+    "country": "IN",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.in@SD",
+    "name": "Discovery Channel (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/discovery_sd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryScience.in@SD",
+    "name": "Discovery Science (720p)",
+    "country": "IN",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryTurbo.in@SD",
+    "name": "Discovery Turbo (720p)",
+    "country": "IN",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/discovery_turbo_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscovery.in@SD",
+    "name": "Investigation Discovery (720p)",
+    "country": "IN",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.in@SD",
+    "name": "Animal Planet (720p)",
+    "country": "IN",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "SonyMax1.in@SD",
+    "name": "Sony Max 1",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://27.116.22.53:5001/live/3418.m3u8"
+    ]
   }
 ]

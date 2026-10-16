@@ -429,6 +429,7 @@
       "https://cdn-7.pishow.tv/live/431/master.m3u8",
       "https://mumt05.tangotv.in/87NeALx2DWTV/index.m3u8",
       "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=109",
       "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8"
     ]
   },
@@ -5388,6 +5389,18 @@
     "visible": true,
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=214"
+    ]
+  },
+  {
+    "id": "TLC.de@SD",
+    "name": "TLC (576p)",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/tlcX/index.m3u8"
     ]
   }
 ]

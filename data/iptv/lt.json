@@ -183,5 +183,15 @@
     "urls": [
       "http://stream.mcquack.net/374/index.m3u8"
     ]
+  },
+  {
+    "id": "TV1.lt@SD",
+    "name": "TV1 (1080p)",
+    "country": "LT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd"
+    ]
   }
 ]

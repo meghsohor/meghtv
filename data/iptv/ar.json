@@ -2316,5 +2316,29 @@
     "urls": [
       "http://158.172.155.130:8000/play/a09y/index.m3u8"
     ]
+  },
+  {
+    "id": "VIVETV.ar@HD",
+    "name": "VIVE TV (1080p)",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8"
+    ]
+  },
+  {
+    "id": "TelePosadas.ar@SD",
+    "name": "Tele Posadas SD (576p) [Not 24/7]",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8"
+    ]
   }
 ]

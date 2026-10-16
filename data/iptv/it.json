@@ -3141,5 +3141,17 @@
     "urls": [
       "https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8"
     ]
+  },
+  {
+    "id": "DiscoveryTurbo.it@SD",
+    "name": "Discovery Turbo (1080p)",
+    "country": "IT",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8"
+    ]
   }
 ]

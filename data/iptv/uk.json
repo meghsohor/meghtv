@@ -3487,7 +3487,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://57.128.231.171:8080/293/index.m3u8"
+      "http://57.128.231.171:8080/293/index.m3u8",
+      "http://92.114.85.87:8007/play/a009"
     ]
   },
   {
@@ -3499,7 +3500,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://57.128.231.171:8080/303/index.m3u8"
+      "http://57.128.231.171:8080/303/index.m3u8",
+      "http://92.114.85.87:8007/play/a008"
     ]
   },
   {
@@ -3560,6 +3562,54 @@
     "visible": true,
     "urls": [
       "http://57.128.231.171:8080/318/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatEpicDrama.uk@Poland",
+    "name": "Viasat Epic Drama Poland (1080p)",
+    "country": "UK",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.114.85.87:8001/play/a00x/index.m3u8"
+    ]
+  },
+  {
+    "id": "EnglishClubGlobal.uk@SD",
+    "name": "English Club Global",
+    "country": "UK",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/english-club-global.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportsF1.uk@SD",
+    "name": "Sky Sports F1 (720p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/out/v1/SKY_SPORTS_F1/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportsNFL.uk@SD",
+    "name": "Sky Sports NFL (720p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/out/v1/SKY_SPORTS_ACTION/index.m3u8"
     ]
   }
 ]

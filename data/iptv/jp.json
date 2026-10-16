@@ -64,6 +64,7 @@
     "urls": [
       "https://nhk.lls.pbs.org/index.m3u8",
       "http://170.83.16.50/NHK_WORLD/index.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=106",
       "http://51.75.127.199:3141/nhkworldjapan/index.m3u8"
     ]
   },

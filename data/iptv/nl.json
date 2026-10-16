@@ -2255,7 +2255,20 @@
     ],
     "visible": true,
     "urls": [
+      "https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/TMF.m3u8",
       "https://tmf-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMGMzZGFhOGYtYjNhMC00Njk1LThkZTktZWNmNmVmNzRmMzY4IiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8"
+    ]
+  },
+  {
+    "id": "FightBox.nl@Poland",
+    "name": "FightBox Poland (576i)",
+    "country": "NL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.114.85.87:8003/play/a00b/index.m3u8"
     ]
   }
 ]

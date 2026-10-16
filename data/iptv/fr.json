@@ -717,7 +717,6 @@
       "http://170.83.16.50/FRANCE_24/index.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
-      "https://liveh12.vtvprime.vn/hls/FRANCE24/03.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_500.m3u8",
@@ -726,7 +725,8 @@
       "https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8",
       "https://dash3.antik.sk/live/test_france24_eng/playlist.m3u8",
       "https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8",
-      "https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8"
+      "https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8",
+      "https://liveh12.vtvprime.vn/hls/FRANCE24/03.m3u8"
     ]
   },
   {
@@ -1057,6 +1057,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8",
       "http://145.239.5.177/333/index.m3u8"
     ]
   },
@@ -1299,14 +1300,15 @@
     "visible": true,
     "urls": [
       "http://54.37.19.157/TV5MONDE/index.m3u8",
-      "https://liveh12.vtvprime.vn/hls/TV5/03.m3u8",
       "http://27.131.164.187:8080/TV5_Monde/index.m3u8",
       "http://103.172.187.30:12000/stream/allchannel/tv5asie",
       "http://103.190.232.129/stream/tvb/asie/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
       "http://103.190.232.129/stream/tvb/asie?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
       "https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8",
       "https://mumt03.tangotv.in/Dsly5z3HTV5MONDEASIA/index.m3u8",
-      "https://op-group1-swiftservehd-1.dens.tv/h/h121/index.m3u8"
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9852",
+      "https://op-group1-swiftservehd-1.dens.tv/h/h121/index.m3u8",
+      "https://liveh12.vtvprime.vn/hls/TV5/03.m3u8"
     ]
   },
   {
@@ -2673,6 +2675,28 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/192/index.m3u8"
+    ]
+  },
+  {
+    "id": "RMCDecouverte.fr@SD",
+    "name": "RMC Decouverte (1080p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8"
+    ]
+  },
+  {
+    "id": "LEquipe.fr@SD",
+    "name": "L'Equipe (1080p)",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8"
     ]
   }
 ]

@@ -412,5 +412,41 @@
     "urls": [
       "http://125.227.210.55:1001/VideoInput/play.ts"
     ]
+  },
+  {
+    "id": "HBOAsia.sg@SD",
+    "name": "HBO Asia SD (720p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tinyurl.com/yn3d3rmd"
+    ]
+  },
+  {
+    "id": "CinemaxAsia.sg@SD",
+    "name": "Cinemax Asia (720p) [Geo-blocked]",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tinyurl.com/44efw2rx"
+    ]
+  },
+  {
+    "id": "CNBCAsia.sg@HD",
+    "name": "CNBC Asia HD (1080p)",
+    "country": "SG",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9855"
+    ]
   }
 ]

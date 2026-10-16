@@ -8605,6 +8605,7 @@
     "visible": true,
     "urls": [
       "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
       "http://15.204.246.24:8080/ComedyCentralHD/index.m3u8",
       "http://190.93.224.42/COMEDY-CENTRAL/index.m3u8",
       "http://103.111.40.244:9999/play/a0i5/index.m3u8",
@@ -9425,13 +9426,14 @@
   },
   {
     "id": "FXLatinAmerica.us@South",
-    "name": "FX Latin America South (720p)",
+    "name": "FX Latin America South",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/fx-key/chunks.m3u8",
       "http://72.1.184.5:8089/play/a05i/index.m3u8"
     ]
   },
@@ -11866,7 +11868,8 @@
       "http://45.224.97.181:9999/Pasiones/index.m3u8",
       "http://190.93.224.42/PASIONES/index.m3u8",
       "http://190.60.55.141:9083/play/a0ni/index.m3u8",
-      "http://45.173.231.22:8000/play/a06n/index.m3u8"
+      "http://45.173.231.22:8000/play/a06n/index.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/pasiones/chunks.m3u8"
     ]
   },
   {
@@ -13109,7 +13112,8 @@
     "visible": true,
     "urls": [
       "http://190.93.224.42/TNT-NOVELAS/index.m3u8",
-      "http://158.172.155.130:8000/play/a0at/index.m3u8"
+      "http://158.172.155.130:8000/play/a0at/index.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tntnovelas.stream/chunks.m3u8"
     ]
   },
   {
@@ -24026,7 +24030,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/HBOHD/index.m3u8",
-      "https://streaming.onnethn.com/HBO/playlist.m3u8"
+      "https://streaming.onnethn.com/HBO/playlist.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO/chunks.m3u8"
     ]
   },
   {
@@ -24364,7 +24369,8 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:6060/play/a00k/index.m3u8",
-      "http://15.204.246.24:8080/HBOFamilyHD/index.m3u8"
+      "http://15.204.246.24:8080/HBOFamilyHD/index.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Family/chunks.m3u8"
     ]
   },
   {
@@ -24391,7 +24397,8 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:6060/play/a00i/index.m3u8",
-      "http://15.204.246.24:8080/HBO2HD/index.m3u8"
+      "http://15.204.246.24:8080/HBO2HD/index.m3u8",
+      "https://bantel-cdn1.iptvperu.tv:1936/Bantel_new/hbo2/chunks.m3u8"
     ]
   },
   {
@@ -24687,16 +24694,16 @@
   },
   {
     "id": "ESPN.us@SD",
-    "name": "ESPN (720p)",
+    "name": "ESPN (432p)",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
       "http://tvsen7.aynascope.net/espn/index.m3u8",
-      "http://212.5.144.156:8080/espn/index.m3u8"
+      "http://212.5.144.156:8080/espn/index.m3u8",
+      "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8"
     ]
   },
   {
@@ -25029,6 +25036,112 @@
     "visible": true,
     "urls": [
       "http://212.5.144.156:8080/cnn/index.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN.us@HD",
+    "name": "ESPN HD (720p)",
+    "country": "US",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "ESPN2.us@HD",
+    "name": "ESPN 2 HD (720p)",
+    "country": "US",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "HBOMundiLatinAmerica.us@SD",
+    "name": "HBO Mundi Latin America",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cinemax.stream/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "HBOSignatureLatinAmerica.us@SD",
+    "name": "HBO Signature Latin America",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/hbosignature.stream/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "HBOXtremeLatinAmerica.us@SD",
+    "name": "HBO Xtreme Latin America",
+    "country": "US",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "TNTLatinAmerica.us@South",
+    "name": "TNT Latin America South",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tnt/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "TNTSeriesLatinAmerica.us@South",
+    "name": "TNT Series Latin America South",
+    "country": "US",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "StarChannelLatinAmerica.us@South",
+    "name": "Star Channel Latin America South",
+    "country": "US",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/StarChannel.stream/chunks.m3u8"
+    ]
+  },
+  {
+    "id": "HGTV.us@East",
+    "name": "HGTV (720p)",
+    "country": "US",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://tvsen7.aynascope.net/hgtv/index.m3u8"
     ]
   }
 ]

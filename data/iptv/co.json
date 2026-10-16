@@ -474,7 +474,9 @@
       "http://38.190.100.202:8000/play/a09v/index.m3u8",
       "http://190.61.42.218:9000/play/a09n/index.m3u8",
       "http://200.122.223.13:55000/play/caracol-tv-hd-tdt/index.m3u8",
-      "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8"
+      "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8",
+      "http://45.173.12.70:8000/play/a0f9",
+      "http://200.122.223.13:55000/play/canal-caracol-banda-ku/index.m3u8"
     ]
   },
   {
@@ -1420,7 +1422,9 @@
       "http://200.115.120.1:8000/play/ca067/index.m3u8",
       "http://190.123.76.22:8002/play/a06j/index.m3u8",
       "http://132.255.210.69:8000/play/a049/index.m3u8",
-      "https://streaming.onnethn.com/CARACOL_INTERNACIONAL/playlist.m3u8"
+      "https://streaming.onnethn.com/CARACOL_INTERNACIONAL/playlist.m3u8",
+      "http://45.238.141.222:8000/play/a0oo/index.m3u8",
+      "http://45.5.117.57:8200/play/a0e9/index.m3u8"
     ]
   },
   {
