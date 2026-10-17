@@ -1028,5 +1028,15 @@
     "urls": [
       "http://tldigital-17th06day-tl9648290.duckdns.org/tv.m3u8"
     ]
+  },
+  {
+    "id": "BinhThuanTV.vn@SD",
+    "name": "Binh Thuan TV (1080p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://1011154949.vnns.net/CDN-FPT02/BINHTHUAN-SD-720p/playlist.m3u8"
+    ]
   }
 ]

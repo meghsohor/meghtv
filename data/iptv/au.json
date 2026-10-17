@@ -594,5 +594,29 @@
     "urls": [
       "https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8"
     ]
+  },
+  {
+    "id": "SkyNewsExtra.au@SD",
+    "name": "Sky News Extra",
+    "country": "AU",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8"
+    ]
+  },
+  {
+    "id": "SkyNewsWeatherChannel.au@SD",
+    "name": "Sky News Weather Channel",
+    "country": "AU",
+    "categories": [
+      "weather"
+    ],
+    "visible": true,
+    "urls": [
+      "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8"
+    ]
   }
 ]
