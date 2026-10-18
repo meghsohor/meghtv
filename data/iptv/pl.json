@@ -34,6 +34,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox_family_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_family_atk_1200/playlist.m3u8"
     ]
   },
@@ -46,6 +47,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox_family_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_family_hun_atk_1200/playlist.m3u8"
     ]
   },
@@ -82,6 +84,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_film_boxextra_hd_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_film_boxextra_hd_hevc/playlist.m3u8"
     ]
   },
@@ -94,6 +97,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8"
     ]
   },
@@ -130,6 +134,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_film_boxpremium_hd_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_film_boxpremium_hd_hevc/playlist.m3u8"
     ]
   },
@@ -142,6 +147,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox_plus_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_plus_atk_1200/playlist.m3u8"
     ]
   },
@@ -192,6 +198,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox/playlist.m3u8"
     ]
   },
@@ -216,22 +223,23 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
-      "https://stream.4fun.tv:8889/hls/4fk.m3u8"
+      "https://stream.4fun.tv:8889/hls/4fk.m3u8",
+      "https://stream.4fun.tv:8889/hd/kids_hd_high.m3u8",
+      "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8"
     ]
   },
   {
     "id": "4FunTV.pl@SD",
-    "name": "4 Fun TV (576i) [Not 24/7]",
+    "name": "4 Fun TV (288p) [Not 24/7]",
     "country": "PL",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
       "https://stream.4fun.tv:8888/hls/4f.m3u8",
-      "https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8"
+      "https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8",
+      "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8"
     ]
   },
   {
@@ -355,6 +363,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/fb_premium_hungary/index.m3u8",
       "http://88.212.15.19/live/fb_premium_hungary/index.m3u8"
     ]
   },
@@ -367,6 +376,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8"
     ]
   },

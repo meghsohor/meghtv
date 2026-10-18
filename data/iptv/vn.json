@@ -1038,5 +1038,17 @@
     "urls": [
       "https://1011154949.vnns.net/CDN-FPT02/BINHTHUAN-SD-720p/playlist.m3u8"
     ]
+  },
+  {
+    "id": "KonTumTV.vn@SD",
+    "name": "Kon Tum TV (720p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://247.dpdns.org/module/IPTV/?id=QNgTV2&accKenh=vuminhthanh1"
+    ]
   }
 ]

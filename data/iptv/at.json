@@ -144,6 +144,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://test02.mdn.ors.at/orf/orf1/qxa/manifest.m3u8",
       "http://88.212.15.19/live/test_orf_eins_tizen/playlist.m3u8",
       "https://7nyaler.streamhostingcdn.top/stream/50/index.m3u8"
     ]
@@ -157,6 +158,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_orf_zwei_tizen/playlist.m3u8",
       "http://88.212.15.19/live/test_orf_zwei_tizen/playlist.m3u8"
     ]
   },

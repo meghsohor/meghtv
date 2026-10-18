@@ -448,17 +448,17 @@
   },
   {
     "id": "CanalRural.br@SD",
-    "name": "Canal Rural (1080p)",
+    "name": "Canal Rural (720p)",
     "country": "BR",
     "categories": [
       "outdoor"
     ],
     "visible": true,
     "urls": [
-      "https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8",
-      "https://cdn2.easy.tv.br/canalrural/index.m3u8",
       "http://170.83.49.66:8083/CANALRURALHD/index.m3u8",
-      "http://186.219.52.187/canal_rural/index.m3u8"
+      "http://186.219.52.187/canal_rural/index.m3u8",
+      "https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8",
+      "https://cdn2.easy.tv.br/canalrural/index.m3u8"
     ]
   },
   {
@@ -2468,12 +2468,12 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://45.162.64.114/GAZETA/index.m3u8",
       "http://45.162.64.114/TV_GAZETA/index.m3u8",
-      "http://168.197.104.22/GAZETA/index.m3u8",
-      "http://170.84.165.204/Gazeta_HD/index.m3u8",
       "http://186.219.52.187/gazeta/index.m3u8",
-      "https://tv.nuvemplay.live/hls/40gtv/stream.m3u8"
+      "https://tv.nuvemplay.live/hls/40gtv/stream.m3u8",
+      "http://45.162.64.114/GAZETA/index.m3u8",
+      "http://168.197.104.22/GAZETA/index.m3u8",
+      "http://170.84.165.204/Gazeta_HD/index.m3u8"
     ]
   },
   {

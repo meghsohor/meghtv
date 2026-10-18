@@ -397,5 +397,17 @@
     "urls": [
       "https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8"
     ]
+  },
+  {
+    "id": "MiMiTV.uz@SD",
+    "name": "MiMi TV (720p)",
+    "country": "UZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fl.biztv.media/MiMiTV_720/playlist.m3u8"
+    ]
   }
 ]

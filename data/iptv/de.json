@@ -303,7 +303,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
+      "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+      "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8"
     ]
   },
   {
@@ -2266,7 +2267,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass"
+      "http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass",
+      "https://s6.hopslan.com/pro7maxxX/index.m3u8"
     ]
   },
   {
@@ -5388,7 +5390,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://freem3u.xyz/api/live/play.m3u8?vid=214"
+      "https://freem3u.xyz/api/live/play.m3u8?vid=214",
+      "https://vmttv.dpdns.org/tv360/?id=davinci-hd"
     ]
   },
   {

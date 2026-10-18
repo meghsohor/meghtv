@@ -38,11 +38,11 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8",
-      "http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8",
       "http://stream.mcquack.net/183/index.m3u8",
-      "https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/STS_Love/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
+      "http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8",
+      "https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/STS_Love/index.m3u8"
     ]
   },
@@ -56,8 +56,9 @@
       "https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8",
       "http://stream.mcquack.net/237/index.m3u8",
       "https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv",
-      "http://88.212.15.19/live/test_vremya/playlist.m3u8",
+      "http://88.212.15.17/live/test_vremya/playlist.m3u8",
       "http://31.148.48.15/Vremya/index.m3u8",
+      "http://88.212.15.19/live/test_vremya/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Vremya/index.m3u8"
     ]
   },
@@ -88,9 +89,9 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8",
+      "https://streaming.thestream.cyou/live/43.m3u8",
       "http://94.155.93.182/POBEDA_HD/index.m3u8",
       "https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv",
-      "https://streaming.thestream.cyou/live/43.m3u8",
       "http://str2.iptvhd.ru:8080/Pobeda/index.m3u8"
     ]
   },
@@ -107,8 +108,9 @@
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
-      "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
+      "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
       "http://31.148.48.15/Telekafe/index.m3u8",
+      "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Telekafe/index.m3u8"
     ]
   },
@@ -468,12 +470,13 @@
       "https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8",
       "http://stream.mcquack.net/120/index.m3u8",
       "http://flussonic.linkintel.ru/Karusel/index.m3u8",
-      "http://88.212.15.19/live/test_karusel/playlist.m3u8",
+      "http://88.212.15.17/live/test_karusel/playlist.m3u8",
       "http://31.148.5.241/kanal_8/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/11.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/232.m3u8",
       "http://31.148.48.15/Karusel_HD/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8",
+      "http://88.212.15.19/live/test_karusel/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Karusel/index.m3u8"
     ]
   },
@@ -709,8 +712,9 @@
     "urls": [
       "http://stream.mcquack.net/236/index.m3u8",
       "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
-      "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
+      "http://88.212.15.17/live/test_dom_kino/playlist.m3u8",
       "https://streaming.thestream.cyou/live/44.m3u8",
+      "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Dom_kino/index.m3u8"
     ]
   },
@@ -1753,6 +1757,7 @@
     "urls": [
       "http://stream.mcquack.net/153/index.m3u8",
       "https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8",
+      "http://88.212.15.17/live/test_muzyka_pervogo/playlist.m3u8",
       "http://88.212.15.19/live/test_muzyka_pervogo/playlist.m3u8"
     ]
   },
@@ -1808,15 +1813,15 @@
   },
   {
     "id": "NasheNovoeKino.ru@SD",
-    "name": "Nashe Novoe Kino (1080p)",
+    "name": "Nashe Novoe Kino",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8",
       "https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8",
+      "http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8",
       "https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Nashe_novoe_kino/index.m3u8"
     ]
@@ -1926,9 +1931,9 @@
     "visible": true,
     "urls": [
       "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
-      "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/Nostalgiya/index.m3u8",
       "http://31.148.48.15/Nostalgiya/index.m3u8",
+      "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Nostalgiya/index.m3u8"
     ]
   },
@@ -2003,8 +2008,8 @@
     "visible": true,
     "urls": [
       "http://5.188.159.128:8070/ntvmir_TV/index.m3u8",
-      "https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv",
       "https://streaming.thestream.cyou/live/213.m3u8",
+      "https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/NTV_Mir/index.m3u8"
     ]
   },
@@ -2111,15 +2116,15 @@
   },
   {
     "id": "OkkoFutbol.ru@SD",
-    "name": "Okko Futbol (1080p)",
+    "name": "Okko Futbol (576p)",
     "country": "RU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/491/index.m3u8",
-      "http://178.124.179.122:8080/Setanta1/index.m3u8"
+      "http://178.124.179.122:8080/Setanta1/index.m3u8",
+      "http://stream.mcquack.net/491/index.m3u8"
     ]
   },
   {
@@ -2365,8 +2370,8 @@
       "http://45.145.32.13:20440/ren_tv/index.m3u8?token=test",
       "http://flussonic.linkintel.ru/ren_tv/index.m3u8",
       "http://31.148.5.241/kanal_11/index.m3u8",
-      "https://streaming.televizor-24-tochka.ru/live/14.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/14.m3u8"
     ]
   },
   {
@@ -2395,8 +2400,8 @@
     "urls": [
       "http://stream.mcquack.net/242/index.m3u8",
       "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8",
-      "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Rodnoe_kino/index.m3u8",
+      "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Nashe_kino/index.m3u8"
     ]
   },
@@ -2509,8 +2514,8 @@
       "https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https",
       "https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/109/index.m3u8",
-      "https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv",
-      "http://31.148.48.15/RU_TV/index.m3u8"
+      "http://31.148.48.15/RU_TV/index.m3u8",
+      "https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -2701,7 +2706,6 @@
       "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8",
       "https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8",
       "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
-      "https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv",
       "http://176.118.197.101/Rossiya24/index.m3u8",
       "http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8",
       "http://31.148.5.241/kanal_7/index.m3u8",
@@ -2792,6 +2796,7 @@
       "https://streaming.televizor-24-tochka.ru/live/30.m3u8",
       "http://31.148.48.15/Rossiya_24/index.m3u8",
       "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8",
+      "https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Rossiya_24/index.m3u8"
     ]
   },
@@ -2820,11 +2825,11 @@
     "urls": [
       "http://stream.mcquack.net/229/index.m3u8",
       "https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8",
-      "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv",
       "http://31.148.5.241/kanal_6/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/9.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
       "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
+      "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Rossiya_K/index.m3u8"
     ]
   },
@@ -2956,8 +2961,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/81/index.m3u8",
-      "https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Sarafan/index.m3u8",
+      "https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Sarafan/index.m3u8"
     ]
   },
@@ -3200,11 +3205,11 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Spas/video.m3u8",
       "https://tvspas.mediacdn.ru/cdn/spas/playlist.m3u8",
       "http://31.148.5.241/kanal_12/index.m3u8",
-      "https://streaming.televizor-24-tochka.ru/live/15.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8",
+      "http://hls127.freeott.top:8080/Spas/video.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/15.m3u8"
     ]
   },
   {
@@ -3254,8 +3259,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/128/index.m3u8",
-      "https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv",
-      "http://176.118.197.101/START_AIR/index.m3u8"
+      "http://176.118.197.101/START_AIR/index.m3u8",
+      "https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -3366,6 +3371,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/svoboda/index.m3u8",
       "http://88.212.15.19/live/svoboda/index.m3u8"
     ]
   },
@@ -4953,9 +4959,9 @@
     "urls": [
       "http://flussonic.linkintel.ru/otr/index.m3u8",
       "http://31.148.5.241/kanal_9/index.m3u8",
-      "https://streaming.televizor-24-tochka.ru/live/12.m3u8",
       "http://31.148.48.15/OTR/index.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/12.m3u8"
     ]
   },
   {
@@ -5112,15 +5118,15 @@
   },
   {
     "id": "RTRPlaneta.ru@CIS",
-    "name": "RTR-Planeta (576p)",
+    "name": "Russia RTR CIS (720p) [Geo-blocked]",
     "country": "RU",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv",
-      "https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410"
+      "https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410",
+      "https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -5143,9 +5149,10 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_poehali/playlist.m3u8",
+      "http://31.148.48.15/Poehali/index.m3u8",
       "https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv",
-      "http://88.212.15.19/live/test_poehali/playlist.m3u8",
-      "http://31.148.48.15/Poehali/index.m3u8"
+      "http://88.212.15.19/live/test_poehali/playlist.m3u8"
     ]
   },
   {
@@ -5217,15 +5224,15 @@
   },
   {
     "id": "RusskiyIllusion.ru@SD",
-    "name": "Russkiy Illusion (576p)",
+    "name": "Русский Иллюзион (576p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Russkiy_illusion/index.m3u8",
+      "https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Russkiy_illyuzion/index.m3u8"
     ]
   },
@@ -5291,13 +5298,14 @@
   },
   {
     "id": "O.ru@International",
-    "name": "O! International (576p)",
+    "name": "O! International (720p)",
     "country": "RU",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_telekanal_o/playlist.m3u8",
       "https://fs.uplink.kz/o/mono.m3u8?token=onlinetv"
     ]
   },
@@ -5309,6 +5317,7 @@
     "visible": true,
     "urls": [
       "https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv",
+      "http://88.212.15.17/live/test_bober/playlist.m3u8",
       "http://88.212.15.19/live/test_bober/playlist.m3u8"
     ]
   },
@@ -6008,8 +6017,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8",
-      "http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8"
+      "http://88.212.15.17/live/test_dom_kino_premium/playlist.m3u8",
+      "http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8",
+      "http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8"
     ]
   },
   {
@@ -6298,16 +6308,16 @@
   },
   {
     "id": "RTDocumentary.ru@Russian",
-    "name": "RTД",
+    "name": "RT Documentary Russian (1080p)",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "https://cdn-01.bonus-tv.ru/rtdoc/playlist.m3u8",
       "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",
-      "https://streaming.thestream.cyou/live/554.m3u8"
+      "https://streaming.thestream.cyou/live/554.m3u8",
+      "https://cdn-01.bonus-tv.ru/rtdoc/playlist.m3u8"
     ]
   },
   {

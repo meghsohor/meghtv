@@ -1496,6 +1496,7 @@
     "visible": true,
     "urls": [
       "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
+      "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
       "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
     ]
   },
@@ -3152,6 +3153,18 @@
     "visible": true,
     "urls": [
       "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiMovie.it@HD",
+    "name": "Rai Movie HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://team-tv.co:81/raimovie/index.m3u8"
     ]
   }
 ]

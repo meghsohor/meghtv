@@ -2377,5 +2377,77 @@
     "urls": [
       "http://176.65.153.26:6004/play/a02s/index.m3u8"
     ]
+  },
+  {
+    "id": "beINSports1Turk.tr@SD",
+    "name": "beIN Sports 1 Turk",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8"
+    ]
+  },
+  {
+    "id": "beINSports2Turk.tr@SD",
+    "name": "beIN Sports 2 Turk",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8"
+    ]
+  },
+  {
+    "id": "beINSports3Turk.tr@SD",
+    "name": "beIN Sports 3 Turk",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8"
+    ]
+  },
+  {
+    "id": "beINSports4Turk.tr@SD",
+    "name": "beIN Sports 4 Turk",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8"
+    ]
+  },
+  {
+    "id": "beINSports5Turk.tr@SD",
+    "name": "beIN Sports 5 Turk",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8"
+    ]
+  },
+  {
+    "id": "beINSportsHaber.tr@SD",
+    "name": "beIN Sports Haber",
+    "country": "TR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8"
+    ]
   }
 ]

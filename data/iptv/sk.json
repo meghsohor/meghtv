@@ -6,6 +6,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/prima_love_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/prima_love_avc_25p/playlist.m3u8"
     ]
   },
@@ -18,6 +19,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_trojka_25p/playlist.m3u8",
       "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8"
     ]
   },
@@ -30,6 +32,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_rtvs_sport_hevc/playlist.m3u8",
       "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
     ]
   },
@@ -54,6 +57,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_arenasport/playlist.m3u8",
       "http://88.212.15.19/live/test_arenasport/playlist.m3u8"
     ]
   },
@@ -66,6 +70,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_arenasport_dva/playlist.m3u8",
       "http://88.212.15.19/live/test_arenasport_dva/playlist.m3u8"
     ]
   },
@@ -117,6 +122,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_dvojka_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_dvojka_25p/playlist.m3u8"
     ]
   },
@@ -141,6 +147,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_jednotka_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_jednotka_25p/playlist.m3u8"
     ]
   },
@@ -175,6 +182,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/prima_cool_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/prima_cool_avc_25p/playlist.m3u8"
     ]
   },
@@ -185,6 +193,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/prima_krimi_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/prima_krimi_avc_25p/playlist.m3u8"
     ]
   },
@@ -497,6 +506,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_prima_plus_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_prima_plus_25p/playlist.m3u8"
     ]
   },
@@ -661,6 +671,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/via_tv/index.m3u8",
       "http://88.212.15.19/live/via_tv/index.m3u8"
     ]
   }

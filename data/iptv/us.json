@@ -4449,6 +4449,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/viasat_film/index.m3u8",
       "http://88.212.15.19/live/viasat_film/index.m3u8"
     ]
   },
@@ -7537,6 +7538,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_black/playlist.m3u8",
       "http://88.212.15.19/live/test_black/playlist.m3u8"
     ]
   },
@@ -7653,6 +7655,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/test_white/playlist.m3u8",
       "http://88.212.15.19/live/test_white/playlist.m3u8"
     ]
   },
@@ -9286,7 +9289,8 @@
     "urls": [
       "http://138.121.15.230:9002/FOX-NEWS/index.m3u8",
       "http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8",
-      "https://tvsen6.aynaott.com/foxnews/index.m3u8"
+      "https://tvsen6.aynaott.com/foxnews/index.m3u8",
+      "https://p14.usnlive.com/stream/foxnews.m3u8"
     ]
   },
   {
@@ -11826,6 +11830,7 @@
     "visible": true,
     "urls": [
       "http://23.237.104.106:8080/USA_OAN/index.m3u8",
+      "https://p14.usnlive.com/stream/oann.m3u8",
       "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8"
     ]
   },
@@ -24078,7 +24083,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8"
+      "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8",
+      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8"
     ]
   },
   {
@@ -24308,6 +24314,7 @@
     "visible": true,
     "urls": [
       "https://tvsen6.aynaott.com/cnn/index.m3u8",
+      "https://p13.usnlive.com/stream/cnn.m3u8",
       "https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8"
     ]
   },
@@ -24998,7 +25005,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://tvsen6.aynaott.com/msnbc/index.m3u8"
+      "https://tvsen6.aynaott.com/msnbc/index.m3u8",
+      "https://p13.usnlive.com/stream/msnbc.m3u8"
     ]
   },
   {
@@ -25142,6 +25150,18 @@
     "visible": true,
     "urls": [
       "http://tvsen7.aynascope.net/hgtv/index.m3u8"
+    ]
+  },
+  {
+    "id": "LucasFriends.us@SD",
+    "name": "Lucas & Friends",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8"
     ]
   }
 ]

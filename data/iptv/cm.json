@@ -178,5 +178,17 @@
     "urls": [
       "https://stream.it-innov.com/tr24/index.m3u8"
     ]
+  },
+  {
+    "id": "BalafonTV.cm@SD",
+    "name": "Balafon TV [Geo-blocked]",
+    "country": "CM",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://broadcasting-channels.com:9044/hls/test.m3u8"
+    ]
   }
 ]

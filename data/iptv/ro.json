@@ -2065,5 +2065,89 @@
     "urls": [
       "https://www.btv.ro/hls/banat-tv.m3u8"
     ]
+  },
+  {
+    "id": "OrizontTV.ro@SD",
+    "name": "Orizont TV (576p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-orizont-tv/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "TVAS.ro@SD",
+    "name": "TV AS (576p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-tv-as/live_hq?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "PrimaSport1.ro@SD",
+    "name": "Prima Sport 1",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/pr1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport2.ro@SD",
+    "name": "Prima Sport 2",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/pr2/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport3.ro@SD",
+    "name": "Prima Sport 3",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/pr3/mono.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport4.ro@SD",
+    "name": "Prima Sport 4",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dokagents.site/live/pr4/mono.m3u8"
+    ]
+  },
+  {
+    "id": "NHLAntenaPlay.ro@SD",
+    "name": "NHL AntenaPlay",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8"
+    ]
   }
 ]
