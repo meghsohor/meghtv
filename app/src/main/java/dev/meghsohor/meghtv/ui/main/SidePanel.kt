@@ -46,6 +46,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.compositeOver
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.input.pointer.PointerEventPass
@@ -331,20 +333,23 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Pills (the user's choice, after WhatsApp's and YouTube's buttons) in the tab bar's dark tone, so they stand out from
-// the lighter list and from the faint failed ones, with a glass rim brighter along the top edge.
-private val RowFill = PinnedBand
-private val RowFocusFill = lerp(PinnedBand, Color.White, 0.08f)
+// Glossy pills (the user's choice, after WhatsApp's and YouTube's buttons): a faint sheen on the top edge, the tab
+// bar's dark through the top half, easing to the earlier glass tone at the bottom, and a rim brighter along the top.
+private fun glossy(dark: Color, light: Color) =
+  Brush.verticalGradient(0f to lerp(dark, Color.White, 0.07f), 0.15f to dark, 0.5f to dark, 1f to light)
+private val GlassTone = Color.White.copy(alpha = 0.07f).compositeOver(ListTone)
+private val RowFill = glossy(PinnedBand, GlassTone)
+private val RowFocusFill = glossy(lerp(PinnedBand, Color.White, 0.08f), lerp(GlassTone, Color.White, 0.08f))
 private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.30f), Color.White.copy(alpha = 0.08f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
 // A failed channel: faint see-through glass instead of the dark fill, so it reads as muted but stays visible.
-private val DimmedRowFill = Color.White.copy(alpha = 0.035f)
+private val DimmedRowFill = SolidColor(Color.White.copy(alpha = 0.035f))
 private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.04f)))
 internal const val DimmedTextAlpha = 0.6f
 
 /**
- * A [block] (list row) is a glass pill, fainter when [dimmed]; a pinned tab
+ * A [block] (list row) is a glossy pill, faint glass when [dimmed]; a pinned tab
  * only fills when selected, pressed or focused. Selected is brand cyan (pair with [rowContentColor]),
  * and D-pad focus draws a 2dp ring (3dp white on a selected one); [ringed] draws it while a button inside has focus. One drawBehind, no clip or animation: those cost per row on a low-end TV.
  */
@@ -361,13 +366,13 @@ internal fun Modifier.panelRow(
   val focused by interaction.collectIsFocusedAsState()
   val pressed by interaction.collectIsPressedAsState()
   val colors = MaterialTheme.colorScheme
-  val fill =
+  val fill: Brush =
     when {
-      selected -> colors.primary
-      focused || pressed -> if (block) RowFocusFill else colors.surfaceVariant
+      selected -> SolidColor(colors.primary)
+      focused || pressed -> if (block) RowFocusFill else SolidColor(colors.surfaceVariant)
       dimmed -> DimmedRowFill
       block -> RowFill
-      else -> Color.Transparent
+      else -> SolidColor(Color.Transparent)
     }
   // On the cyan fill a dark ring barely shows: white, and thicker.
   val ring = if (selected) Color.White else colors.primary
