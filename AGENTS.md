@@ -60,13 +60,13 @@ Physical keyboard/mouse input to the emulator's own window does not work on this
 ## Own channel list (`channels` branch)
 
 - The `channels` branch is an orphan branch, never merged into `main`. It holds the channel data, the scripts and its own workflows; its `README.md` has the rules.
-  - `data/iptv/<cc>.json` is a copy of iptv-org that only ever grows, with a `visible` flag on every channel, category and country.
+  - `data/iptv/<cc>.json` is a copy of iptv-org, with a `visible` flag on every channel, category and country. A visible channel still missing from iptv-org 7 days after a sync first found it missing is removed (`data/gone.json` holds the day each went missing); the wait keeps a stream that drops out for a day from costing users their favourite. Hidden channels are kept, so they stay hidden if they come back.
   - `data/custom/` holds channels added by hand.
 - Every push to `channels` publishes `manifest.json` and `channels.json` to GitHub Pages (`https://meghsohor.github.io/meghtv/`). The `github-pages` environment allows the `channels` branch to deploy. A ruleset stops the branch from being deleted or force-pushed.
-- `.github/workflows/sync-iptv.yml` lives on `main`, because scheduled workflows only run from the default branch. Every day it merges iptv-org into `channels` and opens or updates the one `sync/iptv` PR. The user merges it by hand.
-  - It uses `GITHUB_TOKEN`, which needs the repo setting that lets Actions create PRs.
-  - A PR opened that way starts no workflows, so the job runs the checks itself.
-  - GitHub turns off scheduled workflows in a public repo after 60 days without commits. If syncs stop, re-enable it on the Actions tab.
+- `.github/workflows/sync-iptv.yml` lives on `main`, because scheduled workflows only run from the default branch. Every day it merges iptv-org into `channels`, runs the checks, commits straight to the branch and publishes the list, with nothing for the user to approve.
+  - A push made with `GITHUB_TOKEN` starts no workflows, so the job runs the checks itself and has its own publish job. That job runs every day and skips the deploy when the live list is already current, so a failed publish is retried the next day.
+  - It doesn't open a PR, because GitHub holds workflow runs on PRs opened with `GITHUB_TOKEN` until someone approves them.
+  - GitHub turns off scheduled workflows in a public repo after 60 days without activity, so each run re-enables its own workflow. If syncs stop anyway, re-enable it on the Actions tab.
 - The app reads only the published list (since the switch-over after `1.2.0`); a failed download keeps the last one. A new install downloads it at once. Otherwise the app checks once per launch, in the background:
   - `manifest.json`'s `updatedAt` against the one last applied (`channel_list` SharedPreferences). Same: nothing happens.
   - Different: it downloads `channels.json`, checks it against the manifest's `sha256` (Pages caches each file on its own for up to 10 minutes, so a new manifest can come with the old list; a mismatch fails and the next check retries), and compares it with the device's own rows, so the counts are right however many lists were skipped.
