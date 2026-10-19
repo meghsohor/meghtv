@@ -118,5 +118,17 @@
     "urls": [
       "http://stream.mcquack.net/37/index.m3u8"
     ]
+  },
+  {
+    "id": "YerkirMedia.am@SD",
+    "name": "Yerkir Media (1080p)",
+    "country": "AM",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://yerkirmedia.am/yerkirmedia/live.m3u8"
+    ]
   }
 ]

@@ -929,5 +929,17 @@
     "urls": [
       "http://168.196.127.137:6001/play/a0ay/index.m3u8"
     ]
+  },
+  {
+    "id": "JEMRTV.hn@HD",
+    "name": "JEMR TV (1080p) [Geo-blocked]",
+    "country": "HN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.webmedialive.com/jmrtv/live/playlist.m3u8"
+    ]
   }
 ]

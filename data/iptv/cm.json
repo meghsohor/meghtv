@@ -190,5 +190,17 @@
     "urls": [
       "https://broadcasting-channels.com:9044/hls/test.m3u8"
     ]
+  },
+  {
+    "id": "CRTVSportsandEntertainment.cm@SD",
+    "name": "CRTV Sports and Entertainment (360p)",
+    "country": "CM",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8"
+    ]
   }
 ]

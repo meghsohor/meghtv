@@ -376,6 +376,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.17/live/filmbox_hungary/index.m3u8",
       "http://88.212.15.17/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8"
     ]
@@ -2647,6 +2648,30 @@
     "visible": true,
     "urls": [
       "http://57.128.210.196:8080/301/index.m3u8"
+    ]
+  },
+  {
+    "id": "FILMBOXPlusLoveCrime.pl@Magyar",
+    "name": "FILMBOX+ Love & Crime Magyar",
+    "country": "PL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.15.17/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.pl@HD",
+    "name": "Animal Planet HD (1080i)",
+    "country": "PL",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/317/index.m3u8"
     ]
   }
 ]

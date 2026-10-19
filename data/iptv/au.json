@@ -618,5 +618,17 @@
     "urls": [
       "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8"
     ]
+  },
+  {
+    "id": "News24World.au@SD",
+    "name": "News24 World",
+    "country": "AU",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8"
+    ]
   }
 ]

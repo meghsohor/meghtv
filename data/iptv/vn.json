@@ -198,7 +198,9 @@
     "visible": true,
     "urls": [
       "http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist.m3u8",
-      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8"
+      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8",
+      "https://vtvgoliveapp1-aws-plus-tn.vtvdigital.vn/aws-dp/dongnai1tv/playlist.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=53"
     ]
   },
   {
@@ -211,7 +213,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8"
+      "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=255"
     ]
   },
   {
@@ -250,15 +253,15 @@
   },
   {
     "id": "HanoiTV1.vn@SD",
-    "name": "HanoiTV1 (1080p) [Geo-blocked]",
+    "name": "HanoiTV1 (720p)",
     "country": "VN",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8",
-      "https://liveh34.vtvprime.vn/hls/HANOI1TV/index.m3u8"
+      "https://liveh34.vtvprime.vn/hls/HANOI1TV/index.m3u8",
+      "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8"
     ]
   },
   {
@@ -458,8 +461,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8",
-      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8"
+      "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8",
+      "https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8"
     ]
   },
   {
@@ -899,7 +902,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://dethich.pw/dongnai3/index.m3u8"
+      "https://dethich.pw/dongnai3/index.m3u8",
+      "https://tv.vietanhtv.top/vieon/vieon.php?id=dong-nai-3"
     ]
   },
   {
@@ -1049,6 +1053,52 @@
     "visible": true,
     "urls": [
       "https://247.dpdns.org/module/IPTV/?id=QNgTV2&accKenh=vuminhthanh1"
+    ]
+  },
+  {
+    "id": "LangSonTV.vn@SD",
+    "name": "Lang Son TV (720p) [Geo-blocked]",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NgheAnTV.vn@SD",
+    "name": "Nghe An TV (720p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://67tz1gnwrvxic.cmccdn.net/hls/NGHEANTV/03.m3u8"
+    ]
+  },
+  {
+    "id": "QuangNamTV.vn@SD",
+    "name": "Quang Nam TV",
+    "country": "VN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=80"
+    ]
+  },
+  {
+    "id": "HungYenTV.vn@SD",
+    "name": "Hung Yen TV (480p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ott3.nethubtv.vn/live/hungyentv/playlist.m3u8"
     ]
   }
 ]
