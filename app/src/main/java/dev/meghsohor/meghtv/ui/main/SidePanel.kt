@@ -46,6 +46,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
@@ -59,6 +60,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.theme.MeghBackground
+import dev.meghsohor.meghtv.theme.MeghCyan
 import dev.meghsohor.meghtv.theme.MeghSurface
 import dev.meghsohor.meghtv.theme.MeghSurfaceVariant
 import dev.meghsohor.meghtv.ui.MeghIcons
@@ -332,10 +334,13 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Flat glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a see-through white tint and a light
-// rim, brighter along the top edge; strong enough to stand clear of the faint failed rows.
-private val RowFill = SolidColor(Color.White.copy(alpha = 0.11f))
-private val RowFocusFill = SolidColor(Color.White.copy(alpha = 0.18f))
+// Flat glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a cyan-tinted white over the list and
+// a light rim, brighter along the top edge, with a soft drop shadow. Opaque, so the shadow doesn't show through.
+private val GlassTint = lerp(Color.White, MeghCyan, 0.35f)
+private val RowFill = SolidColor(GlassTint.copy(alpha = 0.12f).compositeOver(ListTone))
+private val RowFocusFill = SolidColor(GlassTint.copy(alpha = 0.19f).compositeOver(ListTone))
+// Stacked offsets fake a blur without a per-row layer.
+private val RowShadow = listOf(1.5f to 0.18f, 3f to 0.11f, 4.5f to 0.06f)
 private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.38f), Color.White.copy(alpha = 0.12f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
@@ -345,7 +350,7 @@ private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha 
 internal const val DimmedTextAlpha = 0.6f
 
 /**
- * A [block] (list row) is a glass pill, fainter when [dimmed]; a pinned tab
+ * A [block] (list row) is a glass pill with a drop shadow, faint and flat when [dimmed]; a pinned tab
  * only fills when selected, pressed or focused. Selected is brand cyan (pair with [rowContentColor]),
  * and D-pad focus draws a 2dp ring (3dp white on a selected one); [ringed] draws it while a button inside has focus. One drawBehind, no clip or animation: those cost per row on a low-end TV.
  */
@@ -373,6 +378,11 @@ internal fun Modifier.panelRow(
   // On the cyan fill a dark ring barely shows: white, and thicker.
   val ring = if (selected) Color.White else colors.primary
   return this.drawBehind {
+      if (block && !dimmed) {
+        RowShadow.forEach { (dy, alpha) ->
+          drawRoundRect(Color.Black.copy(alpha = alpha), topLeft = Offset(0f, dy.dp.toPx()), size = size, cornerRadius = CornerRadius(size.height / 2))
+        }
+      }
       drawRoundRect(fill, cornerRadius = CornerRadius(if (block) size.height / 2 else 0f))
       val ringOn = focused || ringed
       val width = (if (focused && selected) 3.dp else if (ringOn) 2.dp else 1.dp).toPx()
