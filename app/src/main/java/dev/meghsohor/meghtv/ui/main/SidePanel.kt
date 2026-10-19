@@ -1,6 +1,7 @@
 package dev.meghsohor.meghtv.ui.main
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.focusGroup
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -8,15 +9,12 @@ import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -38,16 +36,20 @@ import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.focus.FocusDirection
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.compositeOver
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.semantics.contentDescription
@@ -58,14 +60,19 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.meghsohor.meghtv.data.db.ChannelEntity
 import dev.meghsohor.meghtv.theme.MeghBackground
+import dev.meghsohor.meghtv.theme.MeghCyan
 import dev.meghsohor.meghtv.theme.MeghSurface
 import dev.meghsohor.meghtv.theme.MeghSurfaceVariant
 import dev.meghsohor.meghtv.ui.MeghIcons
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withTimeoutOrNull
 
-/** Below this height the four pinned tabs share one row. */
-private val CompactPanelHeight = 480.dp
+/** The row last focused in a view (or [TabRowKey] for the tabs), where it was, and what was playing then. */
+internal data class FocusedRow(val key: String, val index: Int, val playingId: String?)
+
+private const val TabRowKey = "#tab"
+
+private val ArrowDirections = setOf(FocusDirection.Left, FocusDirection.Right, FocusDirection.Up, FocusDirection.Down, FocusDirection.Next, FocusDirection.Previous)
 
 @Composable
 internal fun SidePanel(
@@ -73,8 +80,11 @@ internal fun SidePanel(
   viewModel: TvHomeViewModel,
   touchMode: Boolean,
   entryFocusRequester: FocusRequester,
+  entryRequest: Int,
+  open: Boolean,
   listState: LazyListState,
   openedFrom: MutableMap<PanelState, Int>,
+  focusedRows: MutableMap<PanelState, FocusedRow>,
   onActivity: () -> Unit,
   onSearchFieldFocusChanged: (Boolean) -> Unit,
   onBackHandled: () -> Unit,
@@ -102,17 +112,85 @@ internal fun SidePanel(
       runCatching { contentFocusRequester.requestFocus() } // the row may have scrolled away meanwhile
     }
   }
+  // The rows as displayed: an in-list search filters them, and the menu index points into that filtered list.
+  // Per view, so a new list isn't looked up in the last one's rows before it reports its own.
+  var shownRows by remember(state.panel) { mutableStateOf<List<ChannelEntity>?>(null) }
+  fun rowIndex(key: String): Int? =
+    when (state.panel) {
+      PanelState.CategoriesMenu ->
+        when (key) {
+          AllChannelsRowKey -> 0
+          CountriesRowKey -> 1
+          else -> state.categories.indexOfFirst { it.id == key }.takeIf { it >= 0 }?.plus(2)
+        }
+      PanelState.CountriesMenu -> state.countries.indexOfFirst { it.code == key }.takeIf { it >= 0 }
+      // Null right after opening, until the list reports it.
+      is PanelState.ChannelList -> (shownRows ?: state.listChannels)?.indexOfFirst { it.id == key }?.takeIf { it >= 0 }
+    }
+  fun rowCount(): Int =
+    when (state.panel) {
+      PanelState.CategoriesMenu -> state.categories.size + 2
+      PanelState.CountriesMenu -> state.countries.size
+      is PanelState.ChannelList -> (shownRows ?: state.listChannels)?.size ?: 0
+    }
+  // The row last focused here, or the playing channel if it changed since (Channel Up/Down with the panel closed).
+  // Null: the selected tab.
+  fun entryRow(): Int? {
+    val playingId = state.currentChannel?.id
+    val playing = if (state.panel is PanelState.ChannelList) playingId?.let(::rowIndex) else null
+    val last = focusedRows[state.panel] ?: return playing
+    // A row gone since (un-starred, deleted, filtered out): the one now in its place.
+    val lastIndex = if (last.key == TabRowKey) null else rowIndex(last.key) ?: last.index.coerceAtMost(rowCount() - 1).takeIf { it >= 0 }
+    return when {
+      last.playingId != playingId -> playing ?: lastIndex
+      last.key == TabRowKey -> null
+      else -> lastIndex ?: playing
+    }
+  }
+  fun onRowFocused(key: String) {
+    focusedRows[state.panel] = FocusedRow(key, rowIndex(key) ?: -1, state.currentChannel?.id)
+  }
+  // A channel change with the panel open (a pick, Channel Up/Down) leaves focus where it is. Not while it slides
+  // away: a change then counts as made with it closed.
+  val currentOpen by rememberUpdatedState(open)
+  val seenPlaying = remember { arrayOf(state.currentChannel?.id) }
+  LaunchedEffect(state.currentChannel?.id) {
+    val playingId = state.currentChannel?.id
+    if (playingId == seenPlaying[0]) return@LaunchedEffect
+    seenPlaying[0] = playingId
+    if (currentOpen) focusedRows[state.panel]?.let { focusedRows[state.panel] = it.copy(playingId = playingId) }
+  }
+  // A tab opened with OK keeps focus, so the new view never sees it arrive: record it there too.
+  var tabRowHasFocus by remember { mutableStateOf(false) }
+  LaunchedEffect(state.panel) { if (tabRowHasFocus) onRowFocused(TabRowKey) }
   // Wait for the query: a revisited list's scroll state still describes the previous visit.
-  val contentReady = state.panel !is PanelState.ChannelList || state.listChannels != null
-  // The caller focuses the view it opened on.
-  val openedOn = remember { arrayOf<PanelState?>(state.panel) }
-  LaunchedEffect(state.panel, contentReady) {
-    if (openedOn[0] != state.panel) openedOn[0] = null
-    if (touchMode || !contentReady || openedOn[0] != null) return@LaunchedEffect
+  val contentReady = state.startupPanelChosen && (state.panel !is PanelState.ChannelList || state.listChannels != null)
+  // Opening, or a key with focus left on the root, lands on entryRow(), else the selected tab. A view change lands on
+  // the row a level was opened from, else entryRow().
+  val servedEntry = remember { intArrayOf(-1) }
+  LaunchedEffect(state.panel, contentReady, entryRequest) {
+    if (!contentReady) return@LaunchedEffect
+    val opening = servedEntry[0] != entryRequest
+    servedEntry[0] = entryRequest
+    // Touch has no focus: opening only brings the playing channel into view (after the arrows switched it, say).
+    if (touchMode) {
+      val playing = if (opening && state.panel is PanelState.ChannelList) state.currentChannel?.id?.let(::rowIndex) else null
+      if (playing != null) {
+        withFrameNanos {}
+        withFrameNanos {}
+        if (listState.layoutInfo.visibleItemsInfo.none { it.index == playing }) listState.scrollToItem(playing)
+      }
+      return@LaunchedEffect
+    }
+    val row = (if (opening) null else openedFrom[state.panel]) ?: entryRow()
+    if (row == null && opening) {
+      withFrameNanos {}
+      runCatching { entryFocusRequester.requestFocus() }
+      return@LaunchedEffect
+    }
+    if (row != null) focusIndex = row
     focusRow(focusIndex)
   }
-  // The rows as displayed: an in-list search filters them, and the menu index points into that filtered list.
-  var shownRows by remember { mutableStateOf<List<ChannelEntity>?>(null) }
   // Once a deleted row leaves the list, focus the row that took its place.
   LaunchedEffect(refocusAfterDelete, shownRows) {
     val (index, deletedId) = refocusAfterDelete ?: return@LaunchedEffect
@@ -124,20 +202,23 @@ internal fun SidePanel(
     }
     onRefocused()
   }
-  // Entry focus is the selected tab, not Refresh Channels: a double OK to wake the panel would start a check.
+  // Entry focus is the selected tab, not Refresh: a double OK to wake the panel would start a check.
   fun entry(selected: Boolean) = if (selected) Modifier.focusRequester(entryFocusRequester) else Modifier
   fun open(index: Int, navigate: () -> Unit) {
     openedFrom[state.panel] = index
     navigate()
   }
 
-  BoxWithConstraints(
+  Box(
     modifier
       .drawBehind {
         drawRect(PanelBackground)
         drawRect(LineColor, size = size.copy(width = 1.dp.toPx()))
       }
       .onFocusChanged { panelHasFocus = it.hasFocus }
+      // An arrow at the panel's edge stays put: it would land on the error or stopped screen's buttons behind it.
+      .focusProperties { onExit = { if (requestedFocusDirection in ArrowDirections) cancelFocusChange() } }
+      .focusGroup()
       // Observes every touch: restarts the countdown, and stops a tap on empty space reaching the video.
       .pointerInput(Unit) {
         awaitPointerEventScope {
@@ -149,38 +230,16 @@ internal fun SidePanel(
       }
       .imePadding()
   ) {
-    val compact = maxHeight < CompactPanelHeight
-    Column(Modifier.fillMaxSize()) {
-      val band = Modifier.fillMaxWidth().background(PinnedBand).drawBehind {
-        drawRect(LineColor, topLeft = Offset(0f, size.height - 1.dp.toPx()), size = size.copy(height = 1.dp.toPx()))
+    val toTab = { runCatching { entryFocusRequester.requestFocus() }; Unit }
+    val tabFocus =
+      Modifier.onFocusChanged {
+        tabRowHasFocus = it.hasFocus
+        if (it.hasFocus) onRowFocused(TabRowKey)
       }
-      if (compact) {
-        Row(band.height(52.dp).padding(bottom = 1.dp), verticalAlignment = Alignment.CenterVertically) {
-          PinnedRow("Refresh", MeghIcons.Refresh, onRefresh, compact = true, modifier = Modifier.weight(1f))
-          PinnedDivider(vertical = true)
-          PinnedRow("Search", MeghIcons.Search, viewModel::onPinnedSearch, selected = isSearch(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isSearch(state.panel))))
-          PinnedDivider(vertical = true)
-          PinnedRow("Favourites", MeghIcons.Star, viewModel::onPinnedFavourites, selected = isFavourites(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isFavourites(state.panel))))
-          PinnedDivider(vertical = true)
-          PinnedRow("Categories", MeghIcons.Grid, viewModel::onPinnedCategories, selected = isCategories(state.panel), compact = true, modifier = Modifier.weight(1f).then(entry(isCategories(state.panel))))
-        }
-      } else {
-        Column(band) {
-          PinnedRow("Info & Support", MeghIcons.Info, onInfo, modifier = Modifier.fillMaxWidth())
-          PinnedDivider(vertical = false)
-          PinnedRow("Refresh Channels", MeghIcons.Refresh, onRefresh, modifier = Modifier.fillMaxWidth())
-          PinnedDivider(vertical = false)
-          PinnedRow("Search", MeghIcons.Search, viewModel::onPinnedSearch, selected = isSearch(state.panel), modifier = Modifier.fillMaxWidth().then(entry(isSearch(state.panel))))
-          PinnedDivider(vertical = false)
-          PinnedRow("Favourites", MeghIcons.Star, viewModel::onPinnedFavourites, selected = isFavourites(state.panel), modifier = Modifier.fillMaxWidth().then(entry(isFavourites(state.panel))))
-          PinnedDivider(vertical = false)
-          PinnedRow("Categories", MeghIcons.Grid, viewModel::onPinnedCategories, selected = isCategories(state.panel), modifier = Modifier.fillMaxWidth().then(entry(isCategories(state.panel))))
-        }
-      }
-
-      // Empty until launch picks the opening view, or Categories flashes up first. The gutter and top gap live on
-      // the lists inside, not here, so a drilled-in list's header can span the full panel width flush to the tabs.
-      Box(Modifier.weight(1f)) {
+    // Empty until launch picks the opening view, or Categories flashes up first. The gutter and top gap live on
+    // the lists inside, not here, so a drilled-in list's header can span the full panel width flush to the tabs.
+    val content: @Composable (Modifier) -> Unit = { contentModifier ->
+      Box(contentModifier) {
         if (state.startupPanelChosen) when (val panel = state.panel) {
           PanelState.CategoriesMenu ->
             CategoriesMenuContent(
@@ -188,6 +247,8 @@ internal fun SidePanel(
               listState = listState,
               focusIndex = focusIndex,
               focusRequester = contentFocusRequester,
+              onRowFocused = ::onRowFocused,
+              onNavigateToTab = toTab,
               onAllChannels = { open(0) { viewModel.onSelectAllChannelsRow() } },
               onCountries = { open(1) { viewModel.onSelectCountriesRow() } },
               onCategory = { index, category -> open(index) { viewModel.onSelectCategoryRow(category) } },
@@ -198,6 +259,7 @@ internal fun SidePanel(
               listState = listState,
               focusIndex = focusIndex,
               focusRequester = contentFocusRequester,
+              onRowFocused = ::onRowFocused,
               onBack = { viewModel.onBack() },
               onCountry = { index, country -> open(index) { viewModel.onSelectCountryRow(country) } },
             )
@@ -208,6 +270,8 @@ internal fun SidePanel(
               listState = listState,
               focusIndex = focusIndex,
               focusRequester = contentFocusRequester,
+              onRowFocused = ::onRowFocused,
+              onNavigateToTab = toTab,
               searchQuery = state.searchQuery,
               channels = state.listChannels,
               countries = state.countries,
@@ -229,6 +293,28 @@ internal fun SidePanel(
         }
       }
     }
+    // One row of tabs on every device, as on a phone. TV adds Info at its start; touch has the corner button instead.
+    Column(Modifier.fillMaxSize()) {
+      val band = Modifier.fillMaxWidth().background(PinnedBand).drawBehind {
+        drawRect(LineColor, topLeft = Offset(0f, size.height - 1.dp.toPx()), size = size.copy(height = 1.dp.toPx()))
+      }
+      // Up from the list lands on the open tab, not whichever is nearest (Info, at the far left).
+      val upToSelectedTab = Modifier.focusProperties { onEnter = { if (requestedFocusDirection == FocusDirection.Up) entryFocusRequester.requestFocus() } }.focusGroup()
+      Row(band.height(52.dp).padding(bottom = 1.dp).then(tabFocus).then(upToSelectedTab), verticalAlignment = Alignment.CenterVertically) {
+        if (!touchMode) {
+          InfoTab(onInfo)
+          PinnedDivider()
+        }
+        PinnedRow("Refresh", onRefresh, modifier = Modifier.weight(1f))
+        PinnedDivider()
+        PinnedRow("Search", viewModel::onPinnedSearch, selected = isSearch(state.panel), modifier = Modifier.weight(1f).then(entry(isSearch(state.panel))))
+        PinnedDivider()
+        PinnedRow("Favourites", viewModel::onPinnedFavourites, selected = isFavourites(state.panel), modifier = Modifier.weight(1f).then(entry(isFavourites(state.panel))))
+        PinnedDivider()
+        PinnedRow("Categories", viewModel::onPinnedCategories, selected = isCategories(state.panel), modifier = Modifier.weight(1f).then(entry(isCategories(state.panel))))
+      }
+      content(Modifier.weight(1f))
+    }
   }
 }
 
@@ -238,9 +324,9 @@ private fun isFavourites(panel: PanelState) = panel is PanelState.ChannelList &&
 
 /** Drill-downs from Categories keep that tab highlighted. */
 private fun isCategories(panel: PanelState) = !isSearch(panel) && !isFavourites(panel)
-
 internal val RowGutter = 10.dp
 internal val RowGap = 6.dp
+// The search field's corners; list rows are pills.
 internal val RowRadius = 12.dp
 // Three nested layers told apart by tone alone, each a step lighter than the one around it:
 // the pinned tabs (outermost), a drilled-in list's header, then the list itself.
@@ -248,18 +334,25 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Opaque and a shade darker than the list layer, so rows read as set into it.
-private val RowFill = lerp(ListTone, MeghBackground, 0.15f)
+// Flat glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a cyan-tinted white over the list and
+// a light rim, brighter along the top edge, with a soft drop shadow. Opaque, so the shadow doesn't show through.
+private val GlassTint = lerp(Color.White, MeghCyan, 0.35f)
+private val RowFill = SolidColor(GlassTint.copy(alpha = 0.12f).compositeOver(ListTone))
+private val RowFocusFill = SolidColor(GlassTint.copy(alpha = 0.19f).compositeOver(ListTone))
+// Stacked offsets fake a blur without a per-row layer.
+private val RowShadow = listOf(1.5f to 0.18f, 3f to 0.11f, 4.5f to 0.06f)
+private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.38f), Color.White.copy(alpha = 0.12f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
-private val DimmedRowFill = MeghSurfaceVariant.copy(alpha = 0.2f)
-private val DimmedLineColor = Color.White.copy(alpha = 0.04f)
-internal const val DimmedTextAlpha = 0.5f
+// A failed channel: fainter glass, so it reads as muted but stays visible.
+private val DimmedRowFill = SolidColor(Color.White.copy(alpha = 0.035f))
+private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.04f)))
+internal const val DimmedTextAlpha = 0.6f
 
 /**
- * A [block] (list row) is a rounded block with a hairline border, fainter when [dimmed]; a pinned tab
+ * A [block] (list row) is a glass pill with a drop shadow, faint and flat when [dimmed]; a pinned tab
  * only fills when selected, pressed or focused. Selected is brand cyan (pair with [rowContentColor]),
- * and D-pad focus draws a 2dp ring. One drawBehind, no clip or animation: those cost per row on a low-end TV.
+ * and D-pad focus draws a 2dp ring (3dp white on a selected one); [ringed] draws it while a button inside has focus. One drawBehind, no clip or animation: those cost per row on a low-end TV.
  */
 @Composable
 internal fun Modifier.panelRow(
@@ -267,31 +360,39 @@ internal fun Modifier.panelRow(
   selected: Boolean = false,
   block: Boolean = true,
   dimmed: Boolean = false,
+  ringed: Boolean = false,
   onLongClick: (() -> Unit)? = null,
   onClick: () -> Unit,
 ): Modifier {
   val focused by interaction.collectIsFocusedAsState()
   val pressed by interaction.collectIsPressedAsState()
   val colors = MaterialTheme.colorScheme
-  val fill =
+  val fill: Brush =
     when {
-      selected -> colors.primary
-      focused || pressed -> colors.surfaceVariant
+      selected -> SolidColor(colors.primary)
+      focused || pressed -> if (block) RowFocusFill else SolidColor(colors.surfaceVariant)
       dimmed -> DimmedRowFill
       block -> RowFill
-      else -> Color.Transparent
+      else -> SolidColor(Color.Transparent)
     }
-  val ring = if (selected) colors.onPrimary else colors.primary
+  // On the cyan fill a dark ring barely shows: white, and thicker.
+  val ring = if (selected) Color.White else colors.primary
   return this.drawBehind {
-      val radius = if (block) RowRadius.toPx() else 0f
-      drawRoundRect(fill, cornerRadius = CornerRadius(radius))
-      val width = (if (focused) 2.dp else 1.dp).toPx()
+      if (block && !dimmed) {
+        RowShadow.forEach { (dy, alpha) ->
+          drawRoundRect(Color.Black.copy(alpha = alpha), topLeft = Offset(0f, dy.dp.toPx()), size = size, cornerRadius = CornerRadius(size.height / 2))
+        }
+      }
+      drawRoundRect(fill, cornerRadius = CornerRadius(if (block) size.height / 2 else 0f))
+      val ringOn = focused || ringed
+      val width = (if (focused && selected) 3.dp else if (ringOn) 2.dp else 1.dp).toPx()
       val inset = Offset(width / 2, width / 2)
       val ringSize = Size(size.width - width, size.height - width)
-      val corner = CornerRadius(radius - width / 2)
+      // Half the stroke's own height, so its outer edge follows the fill's.
+      val corner = CornerRadius(if (block) ringSize.height / 2 else 0f)
       when {
-        focused -> drawRoundRect(ring, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
-        block && !selected -> drawRoundRect(if (dimmed) DimmedLineColor else LineColor, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
+        ringOn -> drawRoundRect(ring, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
+        block && !selected -> drawRoundRect(if (dimmed) DimmedRowRim else RowRim, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
       }
     }
     .combinedClickable(interactionSource = interaction, indication = null, onLongClick = onLongClick, onClick = onClick)
@@ -299,43 +400,34 @@ internal fun Modifier.panelRow(
 }
 
 @Composable
-private fun PinnedDivider(vertical: Boolean) {
-  Box(if (vertical) Modifier.width(1.dp).height(24.dp).background(LineColor) else Modifier.fillMaxWidth().padding(horizontal = 16.dp).height(1.dp).background(LineColor))
+private fun PinnedDivider() {
+  Box(Modifier.width(1.dp).height(24.dp).background(LineColor))
 }
 
 @Composable
 internal fun rowContentColor(selected: Boolean): Color = if (selected) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
 
+/** A tab in the top row: its name only, centred; too narrow for an icon and "Favourites". */
 @Composable
-private fun PinnedRow(
-  label: String,
-  icon: ImageVector,
-  onClick: () -> Unit,
-  modifier: Modifier = Modifier,
-  selected: Boolean = false,
-  compact: Boolean = false,
-) {
+private fun PinnedRow(label: String, onClick: () -> Unit, modifier: Modifier = Modifier, selected: Boolean = false) {
   val interaction = remember { MutableInteractionSource() }
   Row(
-    modifier
-      .panelRow(interaction, selected, block = false, onClick = onClick)
-      .then(if (compact) Modifier.fillMaxHeight() else Modifier.heightIn(min = 48.dp))
-      .padding(horizontal = if (compact) 2.dp else 16.dp),
-    horizontalArrangement = if (compact) Arrangement.Center else Arrangement.Start,
+    modifier.panelRow(interaction, selected, block = false, onClick = onClick).fillMaxHeight().padding(horizontal = 2.dp),
+    horizontalArrangement = Arrangement.Center,
     verticalAlignment = Alignment.CenterVertically,
   ) {
-    // Too narrow for an icon and "Favourites".
-    if (!compact) {
-      Icon(icon, contentDescription = null, tint = if (selected) rowContentColor(true) else MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
-      Spacer(Modifier.width(14.dp))
-    }
-    Text(
-      label,
-      color = rowContentColor(selected),
-      style = if (compact) MaterialTheme.typography.labelLarge else MaterialTheme.typography.titleSmall,
-      fontWeight = FontWeight.Normal,
-      maxLines = 1,
-      overflow = TextOverflow.Ellipsis,
-    )
+    Text(label, color = rowContentColor(selected), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Normal, maxLines = 1, overflow = TextOverflow.Ellipsis)
+  }
+}
+
+/** TV only: Info & Support at the start of the top row, as an icon. */
+@Composable
+private fun InfoTab(onClick: () -> Unit) {
+  val interaction = remember { MutableInteractionSource() }
+  Box(
+    Modifier.width(52.dp).fillMaxHeight().panelRow(interaction, block = false, onClick = onClick).semantics { contentDescription = "Info & Support" },
+    contentAlignment = Alignment.Center,
+  ) {
+    Icon(MeghIcons.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
   }
 }

@@ -60,8 +60,11 @@ import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.common.Tracks
 import androidx.media3.common.VideoSize
+import androidx.media3.datasource.DefaultDataSource
+import androidx.media3.datasource.DefaultHttpDataSource
 import androidx.media3.exoplayer.DefaultRenderersFactory
 import androidx.media3.exoplayer.ExoPlayer
+import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.ui.PlayerView
 import androidx.media3.ui.R as Media3R
 import dev.meghsohor.meghtv.theme.MeghBackground
@@ -130,7 +133,10 @@ fun VideoPlayer(
   val context = LocalContext.current
   val player = remember {
     // Low-end TV chips can fail to open their preferred hardware decoder for a stream's profile.
+    // Many sources redirect between http and https, which Media3 refuses by default.
+    val http = DefaultHttpDataSource.Factory().setAllowCrossProtocolRedirects(true)
     ExoPlayer.Builder(context, DefaultRenderersFactory(context).setEnableDecoderFallback(true))
+      .setMediaSourceFactory(DefaultMediaSourceFactory(DefaultDataSource.Factory(context, http)))
       .setAudioAttributes(AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MOVIE).build(), true)
       .setHandleAudioBecomingNoisy(true)
       .build()
@@ -163,6 +169,7 @@ fun VideoPlayer(
   var sourceLoading by remember { mutableStateOf(false) }
   // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
   var failedSources by remember { mutableStateOf(emptySet<String>()) }
+  var playControlsFocused by remember { mutableStateOf(false) }
   var trackControlsFocused by remember { mutableStateOf(false) }
   val trackControlsFocus = remember { FocusRequester() }
   var playerView by remember { mutableStateOf<PlayerView?>(null) }
@@ -372,7 +379,7 @@ fun VideoPlayer(
   }
 
   val behind = isLive && playbackError == null && !stopped && (!playing || behindLiveMs >= GoLiveMinBehindMs)
-  // On TV only once playing again: while paused the controls stay up, and Right must still open the panel.
+  // On TV only once playing again: while paused the controls stay up, and Right must still reach their buttons.
   val goLiveOffered = behind && (touchControls || playing)
   val currentOnLiveStateChange by rememberUpdatedState(onLiveStateChange)
   LaunchedEffect(behind, goLiveOffered) { currentOnLiveStateChange(LiveState(behind, goLiveOffered)) }
@@ -432,11 +439,10 @@ fun VideoPlayer(
   val sourceBadge = if (sources.size > 1 && sourceNumber > 0) "$sourceNumber/${sources.size}" else null
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null && !stopped
-  // On TV Stop is in that row, so it can always be reached; on touch it sits by play/pause.
-  val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null || !touchControls)
   val pickerOpen = openMenu != null || sourcesOpen
-  LaunchedEffect(trackControlsReachable, trackControlsFocused, pickerOpen) {
-    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused, pickerOpen))
+  val controlsFocused = trackControlsShown && (playControlsFocused || trackControlsFocused)
+  LaunchedEffect(trackControlsShown, controlsFocused, pickerOpen) {
+    currentOnTrackControlsChange(TrackControlsState(trackControlsShown, controlsFocused, pickerOpen))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
   // An open picker holds the controls up, so the button it came from is still there to return to. So does a loading
@@ -624,6 +630,7 @@ fun VideoPlayer(
         onTogglePlay = { setPlaying(!player.playWhenReady) },
         onStop = ::stopPlayback,
         onGoLive = if (goLiveOffered) ::goLive else null,
+        goLiveArrow = !controlsFocused,
         touchControls = touchControls,
         muted = muted || volume == 0f,
         volume = volume,
@@ -640,6 +647,8 @@ fun VideoPlayer(
           if (it > 0f) muted = false
         },
         onTouch = ::keepControlsAlive,
+        focusRequester = trackControlsFocus,
+        onFocusChange = { playControlsFocused = it },
         // Excluded from the edge back-swipe zone, which swallowed taps on play/pause.
         modifier = Modifier.align(Alignment.BottomStart).height(60.dp).systemGestureExclusion().padding(start = controlsEdgeInset),
       )
@@ -650,10 +659,8 @@ fun VideoPlayer(
         sourceBadge = sourceBadge,
         enabledKinds = enabledKinds,
         qualityBadge = qualityBadge(videoHeight),
-        focusRequester = trackControlsFocus,
         onOpenSources = { sourcesOpen = true },
         onOpen = { openMenu = it },
-        onStop = if (touchControls) null else ::stopPlayback,
         onFocusChange = { trackControlsFocused = it },
         onActivity = ::keepControlsAlive,
         modifier = Modifier.align(Alignment.BottomEnd).height(60.dp).systemGestureExclusion().padding(end = controlsEdgeInset),
@@ -679,7 +686,7 @@ fun VideoPlayer(
       }
     }
 
-    // Also from the error screen; a pick there clears it and plays the pick.
+    // From the controls' Source button.
     if (sourcesOpen) {
       TrackPickerDialog(
         "Source",
@@ -730,7 +737,6 @@ fun VideoPlayer(
           pendingUrl[0] = null
           retryTick++ // re-runs the load effect even at the first mirror
         },
-        onSources = if (sources.size > 1) ({ sourcesOpen = true }) else null,
         endPadding = overlayEndPadding,
         focusRetry = controlsAllowed,
         modifier = Modifier.fillMaxSize(),

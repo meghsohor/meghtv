@@ -14,24 +14,14 @@ object MeghIcons {
   val ChevronLeft = line("ChevronLeft", "M15,18l-6,-6 6,-6")
   val ChevronRight = line("ChevronRight", "M9,18l6,-6 -6,-6")
   val ArrowBack = line("ArrowBack", "M12,19l-7,-7 7,-7", "M19,12H5")
-  val Refresh =
-    line(
-      "Refresh",
-      "M3,12a9,9 0,0 1,9,-9 9.75,9.75 0,0 1,6.74,2.74L21,8",
-      "M21,3v5h-5",
-      "M21,12a9,9 0,0 1,-9,9 9.75,9.75 0,0 1,-6.74,-2.74L3,16",
-      "M8,16H3v5",
-    )
   val Search = line("Search", "M11,3a8,8 0,1 0,0,16a8,8 0,1 0,0,-16z", "M21,21l-4.3,-4.3")
   val Close = line("Close", "M6,6l12,12", "M6,18l12,-12")
   val ClearCircle = line("ClearCircle", "M12,3a9,9 0,1 0,0,18a9,9 0,1 0,0,-18z", "M15,9l-6,6", "M9,9l6,6")
-  val Grid = line("Grid", roundRect(3f, 3f), roundRect(14f, 3f), roundRect(14f, 14f), roundRect(3f, 14f))
   val Star = line("Star", StarPath)
   val StarFilled = solid("StarFilled", StarPath)
   val Play = solid("Play", "M7,4.5l12,7.5 -12,7.5z")
   val Pause = solid("Pause", roundRect(6f, 4f, 3f, 16f, 0.5f), roundRect(15f, 4f, 3f, 16f, 0.5f))
   val Stop = solid("Stop", roundRect(5.5f, 5.5f, 13f, 13f, 1.5f))
-  val StopOutline = line("StopOutline", roundRect(5f, 5f, 14f, 14f, 2f))
   val PlayCircle = line("PlayCircle", "M12,2a10,10 0,1 0,0,20a10,10 0,1 0,0,-20z", "M10,8l6,4 -6,4z")
   val VolumeUp = line("VolumeUp", SpeakerPath, "M16,9a5,5 0,0 1,0,6", "M19.364,18.364a9,9 0,0 0,0,-12.728")
   val VolumeOff = line("VolumeOff", SpeakerPath, "M22,9l-6,6", "M16,9l6,6")

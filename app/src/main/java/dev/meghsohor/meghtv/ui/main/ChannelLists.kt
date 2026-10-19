@@ -25,6 +25,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.selection.toggleable
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
@@ -106,13 +107,14 @@ private fun Modifier.scrollIndicator(state: LazyListState): Modifier = drawWithC
   )
 }
 
-/** Left on the row itself goes up a level. Not from the star: its Left bubbles up here and must move focus to the row. */
+/** Left on the row itself goes up a level, or to the tab. Not from the star: its Left bubbles up here and must move focus to the row. */
 @Composable
 private fun Modifier.leftGoesUp(interaction: MutableInteractionSource, onNavigateUp: (() -> Unit)?): Modifier {
   if (onNavigateUp == null) return this
   val focused by interaction.collectIsFocusedAsState()
   return onKeyEvent { event ->
-    if (focused && event.type == KeyEventType.KeyDown && event.key == Key.DirectionLeft) {
+    // A held Left climbs one level, not all of them.
+    if (focused && event.type == KeyEventType.KeyDown && event.key == Key.DirectionLeft && event.nativeKeyEvent.repeatCount == 0) {
       onNavigateUp()
       true
     } else {
@@ -121,22 +123,32 @@ private fun Modifier.leftGoesUp(interaction: MutableInteractionSource, onNavigat
   }
 }
 
+/** Keys of the Categories menu's two fixed rows, apart from the category ids. */
+internal const val AllChannelsRowKey = "#all-channels"
+internal const val CountriesRowKey = "#countries"
+
+/** Reports [key] while this row, or the star in it, has focus. */
+private fun Modifier.reportFocus(key: String, onRowFocused: (String) -> Unit): Modifier = onFocusChanged { if (it.hasFocus) onRowFocused(key) }
+
 @Composable
 internal fun CategoriesMenuContent(
   categories: List<CategoryEntity>,
   listState: LazyListState,
   focusIndex: Int,
   focusRequester: FocusRequester,
+  onRowFocused: (key: String) -> Unit,
+  onNavigateToTab: () -> Unit,
   onAllChannels: () -> Unit,
   onCountries: () -> Unit,
   onCategory: (index: Int, CategoryEntity) -> Unit,
 ) {
-  fun rowModifier(index: Int) = if (index == focusIndex) Modifier.focusRequester(focusRequester) else Modifier
+  fun rowModifier(index: Int, key: String) =
+    (if (index == focusIndex) Modifier.focusRequester(focusRequester) else Modifier).reportFocus(key, onRowFocused)
   LazyColumn(Modifier.padding(horizontal = RowGutter).scrollIndicator(listState), state = listState, contentPadding = MenuPadding, verticalArrangement = Arrangement.spacedBy(RowGap)) {
-    item { PlainRow("All Channels", onClick = onAllChannels, modifier = rowModifier(0)) }
-    item { PlainRow("Countries", onClick = onCountries, modifier = rowModifier(1)) }
+    item { PlainRow("All Channels", onClick = onAllChannels, onNavigateUp = onNavigateToTab, modifier = rowModifier(0, AllChannelsRowKey)) }
+    item { PlainRow("Countries", onClick = onCountries, onNavigateUp = onNavigateToTab, modifier = rowModifier(1, CountriesRowKey)) }
     itemsIndexed(categories, key = { _, it -> it.id }) { i, category ->
-      PlainRow(category.name, onClick = { onCategory(i + 2, category) }, modifier = rowModifier(i + 2))
+      PlainRow(category.name, onClick = { onCategory(i + 2, category) }, onNavigateUp = onNavigateToTab, modifier = rowModifier(i + 2, category.id))
     }
   }
 }
@@ -147,6 +159,7 @@ internal fun CountriesMenuContent(
   listState: LazyListState,
   focusIndex: Int,
   focusRequester: FocusRequester,
+  onRowFocused: (key: String) -> Unit,
   onBack: () -> Unit,
   onCountry: (index: Int, CountryEntity) -> Unit,
 ) {
@@ -158,7 +171,7 @@ internal fun CountriesMenuContent(
           "${country.flag}  ${country.name}",
           onClick = { onCountry(i, country) },
           onNavigateUp = onBack,
-          modifier = if (i == focusIndex) Modifier.focusRequester(focusRequester) else Modifier,
+          modifier = (if (i == focusIndex) Modifier.focusRequester(focusRequester) else Modifier).reportFocus(country.code, onRowFocused),
         )
       }
     }
@@ -172,6 +185,8 @@ internal fun ChannelListContent(
   listState: LazyListState,
   focusIndex: Int,
   focusRequester: FocusRequester,
+  onRowFocused: (key: String) -> Unit,
+  onNavigateToTab: () -> Unit,
   searchQuery: String,
   channels: List<ChannelEntity>?,
   countries: List<CountryEntity>,
@@ -199,8 +214,9 @@ internal fun ChannelListContent(
   val searchable = (source is ChannelListSource.Category || source is ChannelListSource.Country) && (channels?.size ?: 0) > InListSearchThreshold
   // A refresh can shrink a list below the threshold: don't leave the field stuck open.
   LaunchedEffect(searchable) { if (!searchable) { searchExpanded = false; localQuery = "" } }
-  // onBackHandled stamps the shared Back de-dupe, so a doubled press collapses the search without also closing the panel.
-  BackHandler(enabled = searchExpanded) { onBackHandled(); searchExpanded = false; localQuery = "" }
+  // Touch only: on TV Back always closes the panel. onBackHandled stamps the shared Back de-dupe, so a doubled press
+  // collapses the search without also closing the panel.
+  BackHandler(enabled = searchExpanded && touchMode) { onBackHandled(); searchExpanded = false; localQuery = "" }
 
   val shown =
     remember(channels, searchExpanded, localQuery) {
@@ -258,12 +274,13 @@ internal fun ChannelListContent(
     ) {
       itemsIndexed(rows, key = { _, it -> it.id }) { i, channel ->
         ChannelRow(
-          modifier = if (i == focusIndex) Modifier.focusRequester(focusRequester) else Modifier,
+          modifier = (if (i == focusIndex) Modifier.focusRequester(focusRequester) else Modifier).reportFocus(channel.id, onRowFocused),
           channel = channel,
           flag = flagByCountry[channel.countryCode].orEmpty(),
           bookmarked = channel.id in bookmarkedIds,
           playing = channel.id == currentChannelId,
           failed = channel.id in failedIds,
+          touchMode = touchMode,
           onLongClick = {
             if (isSearch || searchExpanded) keyboard?.hide()
             onChannelMenu(i, channel)
@@ -273,8 +290,8 @@ internal fun ChannelListContent(
             onSelectChannel(channel.id, rows.map { it.id })
           },
           onToggleBookmark = { onToggleBookmark(channel) },
-          // Top-level tabs: nothing above them.
-          onNavigateUp = if (isSearch || source == ChannelListSource.Favourites) null else onBack,
+          // Top-level views go to their tab.
+          onNavigateUp = if (isSearch || source == ChannelListSource.Favourites) onNavigateToTab else onBack,
         )
       }
     }
@@ -321,6 +338,7 @@ private fun ListHeader(
         Row(
           Modifier.weight(1f)
             .fillMaxHeight()
+            .leftGoesUp(backInteraction, onBack)
             .panelRow(backInteraction, block = false, onClick = onBack)
             .padding(horizontal = 14.dp),
           verticalAlignment = Alignment.CenterVertically,
@@ -381,7 +399,7 @@ private fun EmptyListMessage(text: String) {
 
 @Composable
 private fun SearchField(value: String, onValueChange: (String) -> Unit, autoFocus: Boolean, onFocusChanged: (Boolean) -> Unit) {
-  // The field would swallow DPAD_DOWN as a cursor move: hand it to focus traversal.
+  // The field would swallow DPAD_DOWN and DPAD_UP as cursor moves: hand them to focus traversal (Up reaches the tabs).
   val focusManager = LocalFocusManager.current
   val keyboard = LocalSoftwareKeyboardController.current
   val fieldFocusRequester = remember { FocusRequester() }
@@ -405,8 +423,8 @@ private fun SearchField(value: String, onValueChange: (String) -> Unit, autoFocu
         onFocusChanged(it.hasFocus)
       }
       .onPreviewKeyEvent { event ->
-        if (event.type == KeyEventType.KeyDown && event.key == Key.DirectionDown) {
-          focusManager.moveFocus(FocusDirection.Down)
+        if (event.type == KeyEventType.KeyDown && (event.key == Key.DirectionDown || event.key == Key.DirectionUp)) {
+          focusManager.moveFocus(if (event.key == Key.DirectionDown) FocusDirection.Down else FocusDirection.Up)
           true
         } else {
           false
@@ -469,7 +487,7 @@ private fun PlainRow(label: String, onClick: () -> Unit, modifier: Modifier = Mo
       .leftGoesUp(interaction, onNavigateUp)
       .panelRow(interaction, onClick = onClick)
       .heightIn(min = 48.dp)
-      .padding(horizontal = 16.dp),
+      .padding(horizontal = 20.dp),
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Text(label, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -483,6 +501,7 @@ private fun ChannelRow(
   bookmarked: Boolean,
   playing: Boolean,
   failed: Boolean,
+  touchMode: Boolean,
   onClick: () -> Unit,
   onLongClick: () -> Unit,
   onToggleBookmark: () -> Unit,
@@ -492,6 +511,14 @@ private fun ChannelRow(
   val interaction = remember { MutableInteractionSource() }
   val rowFocus = remember { FocusRequester() }
   val starFocus = remember { FocusRequester() }
+  val starInteraction = remember { MutableInteractionSource() }
+  val starFocused by starInteraction.collectIsFocusedAsState()
+  // With the star focused, only it is lit: the row keeps a plain fill (even when playing) and the ring.
+  val cyan = playing && !starFocused
+  // TV shows the star on the focused row only, and a favourite's always; touch on every row. A hidden star keeps its
+  // space, so a name doesn't reflow as focus moves.
+  val rowFocused by interaction.collectIsFocusedAsState()
+  val showStar = touchMode || bookmarked || rowFocused || starFocused
   Row(
     modifier
       .fillMaxWidth()
@@ -499,18 +526,18 @@ private fun ChannelRow(
       .focusRequester(rowFocus)
       .focusProperties { right = starFocus }
       .leftGoesUp(interaction, onNavigateUp)
-      .panelRow(interaction, selected = playing, dimmed = failed, onLongClick = onLongClick, onClick = onClick)
+      .panelRow(interaction, selected = cyan, dimmed = failed, ringed = starFocused, onLongClick = onLongClick, onClick = onClick)
       .semantics { if (failed) stateDescription = "Not working" }
       .heightIn(min = 48.dp)
-      .padding(start = 14.dp, end = 2.dp),
+      .padding(start = 20.dp, end = 2.dp),
     horizontalArrangement = Arrangement.SpaceBetween,
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
-      if (playing) Icon(MeghIcons.Play, contentDescription = null, tint = rowContentColor(selected = true), modifier = Modifier.padding(end = 8.dp).size(12.dp))
+      if (playing) Icon(MeghIcons.Play, contentDescription = null, tint = if (cyan) rowContentColor(selected = true) else MaterialTheme.colorScheme.primary, modifier = Modifier.padding(end = 8.dp).size(12.dp))
       Text(
         "$flag  ${channel.displayName}",
-        color = rowContentColor(playing),
+        color = rowContentColor(cyan),
         style = MaterialTheme.typography.bodyMedium,
         fontWeight = if (playing) FontWeight.Bold else null,
         overflow = TextOverflow.Ellipsis,
@@ -519,38 +546,38 @@ private fun ChannelRow(
         modifier = Modifier.weight(1f, fill = false).then(if (failed && !playing) Modifier.alpha(DimmedTextAlpha) else Modifier),
       )
     }
-    val starInteraction = remember { MutableInteractionSource() }
-    val starFocused by starInteraction.collectIsFocusedAsState()
     val starPressed by starInteraction.collectIsPressedAsState()
-    val starHighlight = if (playing) Color.White.copy(alpha = 0.35f) else MaterialTheme.colorScheme.surfaceVariant
-    // 48dp touch target. A shaped background, not clip(): a clip gives every row a render layer.
+    val starFill =
+      when {
+        starFocused -> MaterialTheme.colorScheme.primary
+        starPressed -> if (cyan) Color.White.copy(alpha = 0.35f) else MaterialTheme.colorScheme.surfaceVariant
+        else -> Color.Transparent
+      }
+    // 48dp tall; narrower on TV, where nothing is tapped. The fill sits just inside the row's 2dp ring, rounded like the row's end.
     Box(
-      Modifier.size(48.dp)
-        .background(if (starFocused || starPressed) starHighlight else Color.Transparent, RoundedCornerShape(8.dp))
+      Modifier.size(width = if (touchMode) 48.dp else 40.dp, height = 48.dp)
         .focusRequester(starFocus)
         .focusProperties { left = rowFocus }
-        .toggleable(
-          value = bookmarked,
-          onValueChange = { onToggleBookmark() },
-          role = Role.Checkbox,
-          interactionSource = starInteraction,
-          indication = null,
-        )
+        .toggleable(value = bookmarked, onValueChange = { onToggleBookmark() }, role = Role.Checkbox, interactionSource = starInteraction, indication = null)
         .semantics { contentDescription = "${channel.displayName} favourite" },
       contentAlignment = Alignment.Center,
     ) {
-      Icon(
-        if (bookmarked) MeghIcons.StarFilled else MeghIcons.Star,
-        contentDescription = null,
-        // On the cyan row both states are dark; the shape tells them apart.
-        tint =
-          when {
-            playing -> rowContentColor(selected = true)
-            bookmarked -> Color.White
-            else -> MaterialTheme.colorScheme.onSurfaceVariant
-          },
-        modifier = Modifier.size(20.dp),
-      )
+      Box(Modifier.matchParentSize().padding(vertical = 2.dp).background(starFill, CircleShape))
+      if (showStar) {
+        Icon(
+          if (bookmarked) MeghIcons.StarFilled else MeghIcons.Star,
+          contentDescription = null,
+          // On the cyan row both states are dark; the shape tells them apart.
+          tint =
+            when {
+              starFocused -> MaterialTheme.colorScheme.onPrimary
+              cyan -> rowContentColor(selected = true)
+              bookmarked -> Color.White
+              else -> MaterialTheme.colorScheme.onSurfaceVariant
+            },
+          modifier = Modifier.size(20.dp),
+        )
+      }
     }
   }
 }

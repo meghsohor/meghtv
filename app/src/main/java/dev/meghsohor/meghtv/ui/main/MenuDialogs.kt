@@ -93,7 +93,7 @@ internal fun ConfirmDialog(
         Text(title, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.titleMedium)
         if (message != null) Text(message, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
         Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
-          DialogButton("Cancel", onClick = onDismiss, modifier = Modifier.focusRequester(cancelFocus), secondary = true)
+          DialogButton("Cancel", onClick = onDismiss, modifier = Modifier.focusRequester(cancelFocus))
           DialogButton(confirmLabel, onClick = onConfirm)
         }
       }
@@ -153,7 +153,7 @@ internal fun ChannelMenuDialog(
 private fun MenuOption(label: String, icon: ImageVector, onClick: () -> Unit, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary) {
   val interaction = remember { MutableInteractionSource() }
   Row(
-    modifier.fillMaxWidth().panelRow(interaction, onClick = onClick).heightIn(min = 48.dp).padding(horizontal = 16.dp),
+    modifier.fillMaxWidth().panelRow(interaction, onClick = onClick).heightIn(min = 48.dp).padding(horizontal = 20.dp),
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(20.dp))
@@ -272,8 +272,8 @@ internal fun UpdateOfferDialog(offer: UpdateOffer, touchMode: Boolean, onUpdate:
               style = MaterialTheme.typography.bodyMedium,
             )
             Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
-              DialogButton("Later", onClick = onDismiss, secondary = true)
-              DialogButton("Full refresh", onClick = onFullRefresh, secondary = true)
+              DialogButton("Later", onClick = onDismiss)
+              DialogButton("Full refresh", onClick = onFullRefresh)
               DialogButton("Update", onClick = onUpdate, modifier = Modifier.focusRequester(firstFocus))
             }
           }
@@ -286,7 +286,7 @@ internal fun UpdateOfferDialog(offer: UpdateOffer, touchMode: Boolean, onUpdate:
               style = MaterialTheme.typography.bodyMedium,
             )
             Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
-              DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus), secondary = true)
+              DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus))
               DialogButton("Full refresh", onClick = onFullRefresh)
             }
           }
@@ -328,7 +328,7 @@ internal fun SupportDialog(touchMode: Boolean, onDismiss: () -> Unit) {
           if (isTv) {
             DialogButton("Close", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus))
           } else {
-            DialogButton("Not now", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus), secondary = true)
+            DialogButton("Not now", onClick = onDismiss, modifier = Modifier.focusRequester(firstFocus))
             DialogButton(
               "Buy me a coffee",
               onClick = {

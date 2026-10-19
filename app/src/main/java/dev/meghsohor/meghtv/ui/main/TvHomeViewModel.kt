@@ -307,7 +307,7 @@ class TvHomeViewModel(private val repository: MeghTVRepository) : ViewModel() {
     viewModelScope.launch { repository.deleteChannel(channelId) }
   }
 
-  /** The menu's Refresh Channels. */
+  /** The menu's Refresh. */
   fun onCheckForUpdate() = checkForUpdate(manual = true)
 
   // A check in the background shows nothing unless there's something to offer, and offers a list put off with Later only
