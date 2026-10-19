@@ -41,8 +41,10 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
@@ -321,7 +323,7 @@ private fun isFavourites(panel: PanelState) = panel is PanelState.ChannelList &&
 private fun isCategories(panel: PanelState) = !isSearch(panel) && !isFavourites(panel)
 internal val RowGutter = 10.dp
 internal val RowGap = 6.dp
-// The search field's corners; list rows are square.
+// The search field's corners; list rows are pills.
 internal val RowRadius = 12.dp
 // Three nested layers told apart by tone alone, each a step lighter than the one around it:
 // the pinned tabs (outermost), a drilled-in list's header, then the list itself.
@@ -329,18 +331,20 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Opaque, and a lighter, more saturated navy than the list layer, so rows stand clear of it (the user's choice).
-private val RowFill = Color(0xFF1C2A5A)
-private val RowFocusFill = Color(0xFF26386F)
+// Glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a see-through white tint and a light rim,
+// brighter along the top edge.
+private val RowFill = Color.White.copy(alpha = 0.07f)
+private val RowFocusFill = Color.White.copy(alpha = 0.14f)
+private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.30f), Color.White.copy(alpha = 0.08f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
-// A failed channel: still a solid row, halfway to the panel, so it reads as muted but stays visible.
-private val DimmedRowFill = lerp(RowFill, ListTone, 0.5f)
-private val DimmedLineColor = Color.White.copy(alpha = 0.06f)
+// A failed channel: fainter glass, so it reads as muted but stays visible.
+private val DimmedRowFill = Color.White.copy(alpha = 0.035f)
+private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.04f)))
 internal const val DimmedTextAlpha = 0.6f
 
 /**
- * A [block] (list row) is a square block with a hairline border, fainter when [dimmed]; a pinned tab
+ * A [block] (list row) is a glass pill, fainter when [dimmed]; a pinned tab
  * only fills when selected, pressed or focused. Selected is brand cyan (pair with [rowContentColor]),
  * and D-pad focus draws a 2dp ring (3dp white on a selected one); [ringed] draws it while a button inside has focus. One drawBehind, no clip or animation: those cost per row on a low-end TV.
  */
@@ -368,14 +372,16 @@ internal fun Modifier.panelRow(
   // On the cyan fill a dark ring barely shows: white, and thicker.
   val ring = if (selected) Color.White else colors.primary
   return this.drawBehind {
-      drawRect(fill)
+      drawRoundRect(fill, cornerRadius = CornerRadius(if (block) size.height / 2 else 0f))
       val ringOn = focused || ringed
       val width = (if (focused && selected) 3.dp else if (ringOn) 2.dp else 1.dp).toPx()
       val inset = Offset(width / 2, width / 2)
       val ringSize = Size(size.width - width, size.height - width)
+      // Half the stroke's own height, so its outer edge follows the fill's.
+      val corner = CornerRadius(if (block) ringSize.height / 2 else 0f)
       when {
-        ringOn -> drawRect(ring, topLeft = inset, size = ringSize, style = Stroke(width))
-        block && !selected -> drawRect(if (dimmed) DimmedLineColor else LineColor, topLeft = inset, size = ringSize, style = Stroke(width))
+        ringOn -> drawRoundRect(ring, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
+        block && !selected -> drawRoundRect(if (dimmed) DimmedRowRim else RowRim, topLeft = inset, size = ringSize, cornerRadius = corner, style = Stroke(width))
       }
     }
     .combinedClickable(interactionSource = interaction, indication = null, onLongClick = onLongClick, onClick = onClick)

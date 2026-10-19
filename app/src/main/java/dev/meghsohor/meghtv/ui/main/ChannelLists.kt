@@ -25,6 +25,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.selection.toggleable
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
@@ -398,7 +399,7 @@ private fun EmptyListMessage(text: String) {
 
 @Composable
 private fun SearchField(value: String, onValueChange: (String) -> Unit, autoFocus: Boolean, onFocusChanged: (Boolean) -> Unit) {
-  // The field would swallow DPAD_DOWN as a cursor move: hand it to focus traversal.
+  // The field would swallow DPAD_DOWN and DPAD_UP as cursor moves: hand them to focus traversal (Up reaches the tabs).
   val focusManager = LocalFocusManager.current
   val keyboard = LocalSoftwareKeyboardController.current
   val fieldFocusRequester = remember { FocusRequester() }
@@ -422,8 +423,8 @@ private fun SearchField(value: String, onValueChange: (String) -> Unit, autoFocu
         onFocusChanged(it.hasFocus)
       }
       .onPreviewKeyEvent { event ->
-        if (event.type == KeyEventType.KeyDown && event.key == Key.DirectionDown) {
-          focusManager.moveFocus(FocusDirection.Down)
+        if (event.type == KeyEventType.KeyDown && (event.key == Key.DirectionDown || event.key == Key.DirectionUp)) {
+          focusManager.moveFocus(if (event.key == Key.DirectionDown) FocusDirection.Down else FocusDirection.Up)
           true
         } else {
           false
@@ -486,7 +487,7 @@ private fun PlainRow(label: String, onClick: () -> Unit, modifier: Modifier = Mo
       .leftGoesUp(interaction, onNavigateUp)
       .panelRow(interaction, onClick = onClick)
       .heightIn(min = 48.dp)
-      .padding(horizontal = 16.dp),
+      .padding(horizontal = 20.dp),
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Text(label, color = MaterialTheme.colorScheme.onSurface, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -528,7 +529,7 @@ private fun ChannelRow(
       .panelRow(interaction, selected = cyan, dimmed = failed, ringed = starFocused, onLongClick = onLongClick, onClick = onClick)
       .semantics { if (failed) stateDescription = "Not working" }
       .heightIn(min = 48.dp)
-      .padding(start = 14.dp, end = 2.dp),
+      .padding(start = 20.dp, end = 2.dp),
     horizontalArrangement = Arrangement.SpaceBetween,
     verticalAlignment = Alignment.CenterVertically,
   ) {
@@ -552,7 +553,7 @@ private fun ChannelRow(
         starPressed -> if (cyan) Color.White.copy(alpha = 0.35f) else MaterialTheme.colorScheme.surfaceVariant
         else -> Color.Transparent
       }
-    // 48dp tall; narrower on TV, where nothing is tapped. The fill sits just inside the row's 2dp ring, square like the row.
+    // 48dp tall; narrower on TV, where nothing is tapped. The fill sits just inside the row's 2dp ring, rounded like the row's end.
     Box(
       Modifier.size(width = if (touchMode) 48.dp else 40.dp, height = 48.dp)
         .focusRequester(starFocus)
@@ -561,7 +562,7 @@ private fun ChannelRow(
         .semantics { contentDescription = "${channel.displayName} favourite" },
       contentAlignment = Alignment.Center,
     ) {
-      Box(Modifier.matchParentSize().padding(vertical = 2.dp).background(starFill))
+      Box(Modifier.matchParentSize().padding(vertical = 2.dp).background(starFill, CircleShape))
       if (showStar) {
         Icon(
           if (bookmarked) MeghIcons.StarFilled else MeghIcons.Star,

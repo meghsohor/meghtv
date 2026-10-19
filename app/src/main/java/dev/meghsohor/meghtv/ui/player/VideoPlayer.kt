@@ -169,6 +169,7 @@ fun VideoPlayer(
   var sourceLoading by remember { mutableStateOf(false) }
   // Sources that failed on this channel, marked in the Source picker; one is unmarked when it plays, all on Retry or a switch.
   var failedSources by remember { mutableStateOf(emptySet<String>()) }
+  var playControlsFocused by remember { mutableStateOf(false) }
   var trackControlsFocused by remember { mutableStateOf(false) }
   val trackControlsFocus = remember { FocusRequester() }
   var playerView by remember { mutableStateOf<PlayerView?>(null) }
@@ -438,11 +439,10 @@ fun VideoPlayer(
   val sourceBadge = if (sources.size > 1 && sourceNumber > 0) "$sourceNumber/${sources.size}" else null
   val currentOnTrackControlsChange by rememberUpdatedState(onTrackControlsChange)
   val trackControlsShown = controlsVisible && playbackError == null && !stopped
-  // On TV Stop is in that row, so it can always be reached; on touch it sits by play/pause.
-  val trackControlsReachable = trackControlsShown && (enabledKinds.isNotEmpty() || sourceBadge != null || !touchControls)
   val pickerOpen = openMenu != null || sourcesOpen
-  LaunchedEffect(trackControlsReachable, trackControlsFocused, pickerOpen) {
-    currentOnTrackControlsChange(TrackControlsState(trackControlsReachable, trackControlsReachable && trackControlsFocused, pickerOpen))
+  val controlsFocused = trackControlsShown && (playControlsFocused || trackControlsFocused)
+  LaunchedEffect(trackControlsShown, controlsFocused, pickerOpen) {
+    currentOnTrackControlsChange(TrackControlsState(trackControlsShown, controlsFocused, pickerOpen))
   }
   DisposableEffect(Unit) { onDispose { currentOnTrackControlsChange(TrackControlsState()) } }
   // An open picker holds the controls up, so the button it came from is still there to return to. So does a loading
@@ -630,6 +630,7 @@ fun VideoPlayer(
         onTogglePlay = { setPlaying(!player.playWhenReady) },
         onStop = ::stopPlayback,
         onGoLive = if (goLiveOffered) ::goLive else null,
+        goLiveArrow = !controlsFocused,
         touchControls = touchControls,
         muted = muted || volume == 0f,
         volume = volume,
@@ -646,6 +647,8 @@ fun VideoPlayer(
           if (it > 0f) muted = false
         },
         onTouch = ::keepControlsAlive,
+        focusRequester = trackControlsFocus,
+        onFocusChange = { playControlsFocused = it },
         // Excluded from the edge back-swipe zone, which swallowed taps on play/pause.
         modifier = Modifier.align(Alignment.BottomStart).height(60.dp).systemGestureExclusion().padding(start = controlsEdgeInset),
       )
@@ -656,10 +659,8 @@ fun VideoPlayer(
         sourceBadge = sourceBadge,
         enabledKinds = enabledKinds,
         qualityBadge = qualityBadge(videoHeight),
-        focusRequester = trackControlsFocus,
         onOpenSources = { sourcesOpen = true },
         onOpen = { openMenu = it },
-        onStop = if (touchControls) null else ::stopPlayback,
         onFocusChange = { trackControlsFocused = it },
         onActivity = ::keepControlsAlive,
         modifier = Modifier.align(Alignment.BottomEnd).height(60.dp).systemGestureExclusion().padding(end = controlsEdgeInset),

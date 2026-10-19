@@ -10,6 +10,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -75,51 +76,54 @@ internal fun ControlsRow(
   onTogglePlay: () -> Unit,
   onStop: () -> Unit,
   onGoLive: (() -> Unit)?,
+  // Right goes live only while focus isn't in the buttons, where it moves between them.
+  goLiveArrow: Boolean,
   touchControls: Boolean,
   muted: Boolean,
   volume: Float,
   onToggleMute: () -> Unit,
   onVolumeChange: (Float) -> Unit,
   onTouch: () -> Unit,
+  focusRequester: FocusRequester,
+  onFocusChange: (Boolean) -> Unit,
   modifier: Modifier = Modifier,
 ) {
   val currentOnTouch by rememberUpdatedState(onTouch)
+  val currentOnFocusChange by rememberUpdatedState(onFocusChange)
+  DisposableEffect(Unit) { onDispose { currentOnFocusChange(false) } }
   Row(
-    modifier.pointerInput(Unit) {
-      awaitPointerEventScope {
-        while (true) {
-          awaitPointerEvent(PointerEventPass.Initial)
-          currentOnTouch()
+    modifier
+      .pointerInput(Unit) {
+        awaitPointerEventScope {
+          while (true) {
+            awaitPointerEvent(PointerEventPass.Initial)
+            currentOnTouch()
+          }
         }
       }
-    },
+      .onFocusChanged { currentOnFocusChange(it.hasFocus) }
+      .onPreviewKeyEvent {
+        currentOnTouch()
+        false
+      },
     verticalAlignment = Alignment.CenterVertically,
   ) {
-    // On TV only a state indicator, and so not a D-pad stop: OK and the media keys toggle it.
-    Box(
-      Modifier.size(48.dp).clip(CircleShape).then(if (touchControls) Modifier.clickable(onClick = onTogglePlay) else Modifier),
-      contentAlignment = Alignment.Center,
-    ) {
-      Icon(
-        if (playing) MeghIcons.Pause else MeghIcons.Play,
-        contentDescription = if (playing) "Pause" else "Play",
-        tint = MeghCyan,
-        modifier = Modifier.size(30.dp),
-      )
+    // Where the remote's Left/Right land; from here they go on to Stop and TrackControls.
+    ControlButton(if (playing) "Pause" else "Play", true, focusRequester, onTouch, onTogglePlay) { tint ->
+      Icon(if (playing) MeghIcons.Pause else MeghIcons.Play, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
     }
-    // Last in the row, so it doesn't shift mute and volume when it appears. On TV the Right key (or fast-forward) does
-    // it, so the chip shows that arrow instead of taking focus.
-    val goLiveChip = @Composable { if (onGoLive != null) GoLiveChip(onClick = onGoLive, touchControls = touchControls, modifier = Modifier.padding(start = 12.dp)) }
+    ControlButton("Stop", true, null, onTouch, onStop) { tint ->
+      Icon(MeghIcons.Stop, contentDescription = null, tint = tint, modifier = Modifier.size(26.dp))
+    }
+    // Last in the row, so it doesn't shift mute and volume when it appears. On TV fast-forward does it, or Right before
+    // the buttons have focus, so the chip shows that arrow then instead of taking focus.
+    val goLiveChip = @Composable {
+      if (onGoLive != null) GoLiveChip(onClick = onGoLive, touchControls = touchControls, arrow = goLiveArrow, modifier = Modifier.padding(start = 12.dp))
+    }
+    // TV has the remote's volume.
     if (!touchControls) {
       goLiveChip()
       return@Row
-    }
-    // On TV it's in TrackControls, where the remote can reach it.
-    Box(
-      Modifier.size(48.dp).clip(CircleShape).clickable(onClick = onStop),
-      contentAlignment = Alignment.Center,
-    ) {
-      Icon(MeghIcons.Stop, contentDescription = "Stop", tint = MeghCyan, modifier = Modifier.size(26.dp))
     }
     Box(
       Modifier.size(48.dp).clip(CircleShape).clickable(onClick = onToggleMute),
@@ -155,18 +159,16 @@ internal fun ControlsRow(
 
 /**
  * Source, Quality, Subtitles and Audio, always shown; one with nothing to choose is dimmed, inert and skipped by the
- * remote. The enabled ones are focusable, so a TV remote reaches them with Left/Right; Up or Back leaves (handled by the screen).
- * [sourceBadge] is the playing source as "2/5", null with a single source. [onStop] adds Stop at the end (TV only).
+ * remote. The enabled ones are focusable, so a TV remote reaches them with Left/Right from ControlsRow; Up or Back
+ * leaves (handled by the screen). [sourceBadge] is the playing source as "2/5", null with a single source.
  */
 @Composable
 internal fun TrackControls(
   sourceBadge: String?,
   enabledKinds: Set<TrackKind>,
   qualityBadge: String?,
-  focusRequester: FocusRequester,
   onOpenSources: () -> Unit,
   onOpen: (TrackKind) -> Unit,
-  onStop: (() -> Unit)?,
   onFocusChange: (Boolean) -> Unit,
   onActivity: () -> Unit,
   modifier: Modifier = Modifier,
@@ -181,24 +183,15 @@ internal fun TrackControls(
     verticalAlignment = Alignment.CenterVertically,
     horizontalArrangement = Arrangement.spacedBy(4.dp),
   ) {
-    // The remote lands on the first enabled button.
-    val sourcesEnabled = sourceBadge != null
-    val firstEnabledKind = TrackKind.entries.firstOrNull { it in enabledKinds }.takeUnless { sourcesEnabled }
-    ControlButton("Source", sourcesEnabled, focusRequester.takeIf { sourcesEnabled }, onActivity, onOpenSources) { tint ->
+    ControlButton("Source", sourceBadge != null, null, onActivity, onOpenSources) { tint ->
       if (sourceBadge != null) TextBadge(sourceBadge, tint) else Icon(MeghIcons.Sources, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
     }
     TrackKind.entries.forEach { kind ->
       key(kind) {
-        ControlButton(kind.title, kind in enabledKinds, focusRequester.takeIf { kind == firstEnabledKind }, onActivity, { onOpen(kind) }) { tint ->
+        ControlButton(kind.title, kind in enabledKinds, null, onActivity, { onOpen(kind) }) { tint ->
           if (kind == TrackKind.Quality && qualityBadge != null) TextBadge(qualityBadge, tint)
           else Icon(kind.icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
         }
-      }
-    }
-    if (onStop != null) {
-      val nothingElse = !sourcesEnabled && firstEnabledKind == null
-      ControlButton("Stop", true, focusRequester.takeIf { nothingElse }, onActivity, onStop) { tint ->
-        Icon(MeghIcons.StopOutline, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
       }
     }
   }
@@ -215,11 +208,12 @@ private fun ControlButton(
 ) {
   val interaction = remember { MutableInteractionSource() }
   val focused by interaction.collectIsFocusedAsState()
+  val pressed by interaction.collectIsPressedAsState()
   Box(
     Modifier.size(48.dp)
       .then(if (focusRequester != null) Modifier.focusRequester(focusRequester) else Modifier)
       .clip(CircleShape)
-      .background(if (focused) MeghCyan.copy(alpha = 0.2f) else Color.Transparent)
+      .background(if (focused || pressed) MeghCyan.copy(alpha = 0.2f) else Color.Transparent)
       .border(2.dp, if (focused) MeghCyan else Color.Transparent, CircleShape)
       // Disabled: neither clickable nor focusable, so D-pad Left/Right skip it.
       .clickable(enabled = enabled, interactionSource = interaction, indication = null, onClickLabel = title) {
@@ -258,7 +252,7 @@ private fun TextBadge(text: String, tint: Color) {
 }
 
 @Composable
-private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, modifier: Modifier = Modifier) {
+private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, arrow: Boolean, modifier: Modifier = Modifier) {
   Row(
     modifier
       .clip(RoundedCornerShape(50))
@@ -271,7 +265,7 @@ private fun GoLiveChip(onClick: () -> Unit, touchControls: Boolean, modifier: Mo
   ) {
     Box(Modifier.size(8.dp).background(MeghLive, CircleShape))
     Text("Go live", color = Color.White, style = MaterialTheme.typography.labelLarge)
-    if (!touchControls) Icon(MeghIcons.ChevronRight, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(18.dp))
+    if (!touchControls && arrow) Icon(MeghIcons.ChevronRight, contentDescription = null, tint = MeghCyan, modifier = Modifier.size(18.dp))
   }
 }
 

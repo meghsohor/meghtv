@@ -153,7 +153,7 @@ internal fun ChannelMenuDialog(
 private fun MenuOption(label: String, icon: ImageVector, onClick: () -> Unit, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary) {
   val interaction = remember { MutableInteractionSource() }
   Row(
-    modifier.fillMaxWidth().panelRow(interaction, onClick = onClick).heightIn(min = 48.dp).padding(horizontal = 16.dp),
+    modifier.fillMaxWidth().panelRow(interaction, onClick = onClick).heightIn(min = 48.dp).padding(horizontal = 20.dp),
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(20.dp))
