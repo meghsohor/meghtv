@@ -333,10 +333,10 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Glossy pills (the user's choice, after WhatsApp's and YouTube's buttons): a faint sheen on the top edge, the tab
-// bar's dark through the top half, easing to the earlier glass tone at the bottom, and a rim brighter along the top.
+// Glossy pills (the user's choice, after WhatsApp's and YouTube's buttons): the earlier glass tone at the top, with a
+// faint sheen on the edge, easing to the tab bar's dark through the bottom half, and a rim brighter along the top.
 private fun glossy(dark: Color, light: Color) =
-  Brush.verticalGradient(0f to lerp(dark, Color.White, 0.07f), 0.15f to dark, 0.5f to dark, 1f to light)
+  Brush.verticalGradient(0f to lerp(light, Color.White, 0.05f), 0.5f to dark, 1f to dark)
 private val GlassTone = Color.White.copy(alpha = 0.07f).compositeOver(ListTone)
 private val RowFill = glossy(PinnedBand, GlassTone)
 private val RowFocusFill = glossy(lerp(PinnedBand, Color.White, 0.08f), lerp(GlassTone, Color.White, 0.08f))
