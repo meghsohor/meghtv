@@ -46,7 +46,6 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.lerp
@@ -333,23 +332,20 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Glossy pills (the user's choice, after WhatsApp's and YouTube's buttons): the earlier glass tone at the top, with a
-// faint sheen on the edge, easing to the tab bar's dark through the bottom half, and a rim brighter along the top.
-private fun glossy(dark: Color, light: Color) =
-  Brush.verticalGradient(0f to lerp(light, Color.White, 0.05f), 0.5f to dark, 1f to dark)
-private val GlassTone = Color.White.copy(alpha = 0.07f).compositeOver(ListTone)
-private val RowFill = glossy(PinnedBand, GlassTone)
-private val RowFocusFill = glossy(lerp(PinnedBand, Color.White, 0.08f), lerp(GlassTone, Color.White, 0.08f))
-private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.30f), Color.White.copy(alpha = 0.08f)))
+// Flat glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a see-through white tint and a light
+// rim, brighter along the top edge; strong enough to stand clear of the faint failed rows.
+private val RowFill = SolidColor(Color.White.copy(alpha = 0.11f))
+private val RowFocusFill = SolidColor(Color.White.copy(alpha = 0.18f))
+private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.38f), Color.White.copy(alpha = 0.12f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
-// A failed channel: faint see-through glass instead of the dark fill, so it reads as muted but stays visible.
+// A failed channel: fainter glass, so it reads as muted but stays visible.
 private val DimmedRowFill = SolidColor(Color.White.copy(alpha = 0.035f))
 private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.04f)))
 internal const val DimmedTextAlpha = 0.6f
 
 /**
- * A [block] (list row) is a glossy pill, faint glass when [dimmed]; a pinned tab
+ * A [block] (list row) is a glass pill, fainter when [dimmed]; a pinned tab
  * only fills when selected, pressed or focused. Selected is brand cyan (pair with [rowContentColor]),
  * and D-pad focus draws a 2dp ring (3dp white on a selected one); [ringed] draws it while a button inside has focus. One drawBehind, no clip or animation: those cost per row on a low-end TV.
  */
