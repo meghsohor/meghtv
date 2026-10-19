@@ -331,14 +331,14 @@ private val PinnedBand = lerp(MeghSurface, MeghBackground, 0.4f)
 internal val HeaderBand = MeghSurface
 private val ListTone = lerp(MeghSurface, MeghSurfaceVariant, 0.55f)
 private val PanelBackground = ListTone.copy(alpha = 0.97f)
-// Glass pills (the user's choice, after WhatsApp's and YouTube's buttons): a see-through white tint and a light rim,
-// brighter along the top edge.
-private val RowFill = Color.White.copy(alpha = 0.07f)
-private val RowFocusFill = Color.White.copy(alpha = 0.14f)
+// Pills (the user's choice, after WhatsApp's and YouTube's buttons) in the tab bar's dark tone, so they stand out from
+// the lighter list and from the faint failed ones, with a glass rim brighter along the top edge.
+private val RowFill = PinnedBand
+private val RowFocusFill = lerp(PinnedBand, Color.White, 0.08f)
 private val RowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.30f), Color.White.copy(alpha = 0.08f)))
 internal val LineColor = Color.White.copy(alpha = 0.09f)
 
-// A failed channel: fainter glass, so it reads as muted but stays visible.
+// A failed channel: faint see-through glass instead of the dark fill, so it reads as muted but stays visible.
 private val DimmedRowFill = Color.White.copy(alpha = 0.035f)
 private val DimmedRowRim = Brush.verticalGradient(listOf(Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.04f)))
 internal const val DimmedTextAlpha = 0.6f
