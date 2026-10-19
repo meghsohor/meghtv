@@ -4,6 +4,7 @@ This branch holds the channel list that MeghTV downloads. It shares no history w
 
 - `data/iptv/<country>.json`: a copy of [iptv-org](https://github.com/iptv-org/iptv), one file per country.
 - `data/categories.json`, `data/countries.json`: the menus.
+- `data/gone.json`: channels missing from iptv-org, with the day each went missing. The sync keeps it.
 - `data/custom/channels.json`, `data/custom/categories.json`: channels and categories added by hand.
 
 Every push to this branch publishes the list to GitHub Pages:
@@ -31,7 +32,7 @@ Every push to this branch publishes the list to GitHub Pages:
 - **Channel:** set `"visible": false`. It disappears from the app.
 - **Category or country:** set `"visible": false` in `categories.json` or `countries.json`. Only the menu entry disappears; its channels still show in their other categories, All Channels and Search.
 
-Nothing is ever deleted, and only you hide channels: the sync never does. Edit a channel in its country's file.
+Only you hide channels: the sync never does. Edit a channel in its country's file.
 
 ## Custom channels
 
@@ -60,7 +61,7 @@ A category with `"exclusive": true` (like `xyz`) keeps its channels to itself. T
   - iptv-org's current URLs go first, and older URLs stay after them;
   - its name, country and categories follow iptv-org;
   - a channel you hid stays hidden.
-- A channel gone from iptv-org is left as it is, still visible. Hide it yourself if you want it gone.
+- A channel still missing from iptv-org 7 days after a sync first found it missing is removed (it's back to day 0 whenever a sync finds it there), and the app drops it, with any favourite of it, on its next update. A hidden channel, or one `data/custom/channels.json` changes, is kept instead, so a hidden one stays hidden if it comes back.
 - If under half of the channels we track are still in iptv-org (a broken upstream, or renamed ids), the run stops.
 - An upstream entry our checks would reject is fixed or skipped, and listed in the summary:
   - URLs without a scheme are dropped;

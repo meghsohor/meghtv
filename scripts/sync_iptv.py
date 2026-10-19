@@ -1,4 +1,4 @@
-"""Merges iptv-org into data/. Never removes a channel or URL; see README.md for the rules.
+"""Merges iptv-org into data/, and removes visible channels it dropped a week ago; see README.md for the rules.
 
 Usage: sync_iptv.py --iptv <iptv-org/iptv clone> --database <iptv-org/database clone> [--summary FILE]
 """
@@ -10,15 +10,20 @@ import csv
 import re
 import sys
 from dataclasses import dataclass
+from datetime import date, datetime, timezone
 from pathlib import Path
 
-from channel_data import URL_SCHEME, ChannelData, load, save_iptv, validate
+from channel_data import DATA, URL_SCHEME, ChannelData, load, read_json, save_iptv, validate, write_json
 
 PLAYLIST_NAME = re.compile(r"^[a-z0-9_]+\.m3u$")
 TVG_ID = re.compile(r'tvg-id="([^"]*)"')
 LINE_BREAK = re.compile(r"\r\n|\r|\n")
 # Below this share of our tracked channels still upstream, upstream is more likely broken than shrunk.
 MIN_UPSTREAM_SHARE = 0.5
+# Channel id -> the day it was first missing from iptv-org.
+GONE_FILE = DATA / "gone.json"
+# Streams often drop out of iptv-org for a day or two; removing one costs its viewers their favourite.
+GRACE_DAYS = 7
 
 
 @dataclass
@@ -126,6 +131,21 @@ def check_upstream(data: ChannelData, present: set[str]) -> None:
         sys.exit(f"only {still_there} of the {len(tracked)} channels we track are still in iptv-org: refusing to merge")
 
 
+def remove_gone(data: ChannelData, present: set[str], gone: dict[str, str], today: date) -> tuple[list[str], list[str]]:
+    """Removes visible channels missing from iptv-org for GRACE_DAYS. Hidden ones are kept, so they stay hidden
+    if they come back, and so are ones custom/channels.json changes. Updates `gone`; returns (removed, newly missing)."""
+    custom = {c.get("id") for c in data.custom_channels if isinstance(c, dict)}
+    missing = [c for c in data.channels if c.get("visible") is True and c["id"] not in present and c["id"] not in custom]
+    since = {c["id"]: gone.get(c["id"], today.isoformat()) for c in missing}
+    expired = {cid for cid, day in since.items() if (today - date.fromisoformat(day)).days >= GRACE_DAYS}
+    removed = [f"{c['name']} ({c['id']})" for c in missing if c["id"] in expired]
+    new = [f"{c['name']} ({c['id']})" for c in missing if c["id"] not in gone]
+    data.channels[:] = [c for c in data.channels if c["id"] not in expired]
+    gone.clear()
+    gone.update({cid: day for cid, day in sorted(since.items()) if cid not in expired})
+    return removed, new
+
+
 def merge_menu(rows: list[dict], upstream: list[dict], key: str, report: list[str], label: str, reserved: set[str] = frozenset()) -> None:
     by_key = {row[key]: row for row in rows}
     for item in upstream:
@@ -141,7 +161,7 @@ def merge_menu(rows: list[dict], upstream: list[dict], key: str, report: list[st
 
 
 def merge(data: ChannelData, upstream: list[Upstream]) -> dict[str, list[str]]:
-    """Adds and updates; never hides. A channel gone from iptv-org stays as it is, and only the owner hides channels."""
+    """Adds and updates; never hides: only the owner hides channels."""
     changes: dict[str, list[str]] = {k: [] for k in ("added", "urls", "details")}
     current = {c["id"]: c for c in data.channels}
     for up in upstream:
@@ -171,6 +191,8 @@ def merge(data: ChannelData, upstream: list[Upstream]) -> dict[str, list[str]]:
 
 SECTIONS = [
     ("added", "New channels"),
+    ("missing", f"Channels gone from iptv-org, removed if still gone in {GRACE_DAYS} days"),
+    ("removed", f"Channels removed, gone from iptv-org for {GRACE_DAYS} days"),
     ("urls", "Channels with new or reordered URLs"),
     ("details", "Channels with a new name, country or categories"),
     ("menus", "Categories and countries"),
@@ -206,8 +228,11 @@ def main() -> None:
     merge_menu(data.categories, categories, "id", menus, "category", reserved={c["id"] for c in data.custom_categories})
     merge_menu(data.countries, countries, "code", menus, "country")
     usable, set_aside, screened = screen(upstream, data)
-    check_upstream(data, {up.id for up in usable} | set_aside)
+    present = {up.id for up in usable} | set_aside
+    check_upstream(data, present)
     changes = merge(data, usable)
+    gone = read_json(GONE_FILE, {})
+    changes["removed"], changes["missing"] = remove_gone(data, present, gone, datetime.now(timezone.utc).date())
     changes["menus"] = menus
     changes["screened"] = screened
 
@@ -215,6 +240,7 @@ def main() -> None:
     if errors:
         sys.exit("invalid data after the merge:\n" + "\n".join(errors[:50]))
     save_iptv(data)
+    write_json(GONE_FILE, gone)
     for key, title in SECTIONS:
         print(f"{title}: {len(changes[key])}")
     if args.summary:

@@ -1,12 +1,13 @@
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
 import channel_data
 from build_channels import build, empty_parts
 from channel_data import ChannelData, validate
-from sync_iptv import Upstream, check_upstream, merge, merge_menu, parse_m3u, screen
+from sync_iptv import Upstream, check_upstream, merge, merge_menu, parse_m3u, remove_gone, screen
 
 
 def channel(id, urls, visible=True, **extra):
@@ -33,10 +34,32 @@ class SyncTest(unittest.TestCase):
         merge(d, [upstream("a@x", ["http://new", "http://old2"])])
         self.assertEqual(d.channels[0]["urls"], ["http://new", "http://old2", "http://old1"])
 
-    def test_channel_gone_upstream_is_left_as_it_is(self):
+    def test_channel_gone_upstream_is_removed_after_a_week(self):
         d = data([channel("a@x", ["http://a"]), channel("b@x", ["http://b"])])
-        merge(d, [upstream("a@x", ["http://a"])])
-        self.assertEqual(d.channels[1], channel("b@x", ["http://b"]))
+        gone = {}
+        self.assertEqual(remove_gone(d, {"a@x"}, gone, date(2026, 10, 1)), ([], ["b@x (b@x)"]))
+        self.assertEqual(remove_gone(d, {"a@x"}, gone, date(2026, 10, 7)), ([], []))
+        self.assertEqual(len(d.channels), 2)
+        self.assertEqual(remove_gone(d, {"a@x"}, gone, date(2026, 10, 8)), (["b@x (b@x)"], []))
+        self.assertEqual(d.channels, [channel("a@x", ["http://a"])])
+        self.assertEqual(gone, {})
+
+    def test_channel_back_upstream_restarts_the_week(self):
+        d = data([channel("a@x", ["http://a"])])
+        gone = {}
+        remove_gone(d, set(), gone, date(2026, 10, 1))
+        remove_gone(d, {"a@x"}, gone, date(2026, 10, 2))
+        self.assertEqual(gone, {})
+        remove_gone(d, set(), gone, date(2026, 10, 8))
+        self.assertEqual(gone, {"a@x": "2026-10-08"})
+        self.assertEqual(len(d.channels), 1)
+
+    def test_hidden_or_custom_changed_channel_gone_upstream_is_kept(self):
+        d = data([channel("a@x", ["http://a"], visible=False), channel("b@x", ["http://b"])], custom=[{"id": "b@x", "name": "B"}])
+        gone = {}
+        self.assertEqual(remove_gone(d, set(), gone, date(2026, 10, 30)), ([], []))
+        self.assertEqual((len(d.channels), gone), (2, {}))
+        self.assertEqual(validate(d), [])
 
     def test_sync_never_shows_a_channel_hidden_by_hand(self):
         d = data([channel("a@x", ["http://a"], visible=False)])
