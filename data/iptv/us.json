@@ -7591,7 +7591,8 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/AXN/index.m3u8",
-      "http://45.167.1.138:8000/play/a04s"
+      "http://45.167.1.138:8000/play/a04s",
+      "https://streaming.onnethn.com/AXN_HD/playlist.m3u8"
     ]
   },
   {
@@ -11085,7 +11086,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/MTVHD/index.m3u8"
+      "http://15.204.246.24:8080/MTVHD/index.m3u8",
+      "https://streaming.onnethn.com/MTV/playlist.m3u8"
     ]
   },
   {
@@ -11579,7 +11581,8 @@
     "urls": [
       "http://15.204.246.24:8080/NickHD/index.m3u8",
       "http://190.93.224.42/NICK/index.m3u8",
-      "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8"
+      "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
+      "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
     ]
   },
   {
@@ -15557,7 +15560,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.171.64.30:6060/play/a005/index.m3u8"
+      "http://45.171.64.30:6060/play/a005/index.m3u8",
+      "https://streaming.onnethn.com/AMC/playlist.m3u8"
     ]
   },
   {
@@ -25162,6 +25166,28 @@
     "visible": true,
     "urls": [
       "https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8"
+    ]
+  },
+  {
+    "id": "TCMLatinAmerica.us@Chile",
+    "name": "TCM Latin America Chile (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming.onnethn.com/TCM_HD/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NickJrLatinAmerica.us@Panregional",
+    "name": "Nick Jr. Latin America (1080p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.onnethn.com/NICK_JR/playlist.m3u8"
     ]
   }
 ]

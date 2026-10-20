@@ -2149,5 +2149,41 @@
     "urls": [
       "https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8"
     ]
+  },
+  {
+    "id": "TequilaMusicTV.ro@SD",
+    "name": "Tequila Music TV",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.tequilamusic.net/hls/tequila_tv.m3u8"
+    ]
+  },
+  {
+    "id": "SmartRadio.ro@SD",
+    "name": "Smart Radio (576p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "SportExtra.ro@SD",
+    "name": "Sport Extra",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvextra-hls.b-cdn.net/sportextra/sportextra.m3u8"
+    ]
   }
 ]

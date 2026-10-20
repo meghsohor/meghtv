@@ -8594,15 +8594,15 @@
   },
   {
     "id": "ZeeTelugu.in@HD",
-    "name": "Zee Telugu HD (720p)",
+    "name": "Zee Telugu HD (576p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
       "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8",
+      "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
       "http://51.75.127.199:3141/zeeteluguhd/index.m3u8"
     ]
   },

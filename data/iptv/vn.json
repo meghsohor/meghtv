@@ -1100,5 +1100,29 @@
     "urls": [
       "https://ott3.nethubtv.vn/live/hungyentv/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ONCine.vn@SD",
+    "name": "ON Cine",
+    "country": "VN",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=176"
+    ]
+  },
+  {
+    "id": "ONMusic.vn@SD",
+    "name": "ON Music (1080p)",
+    "country": "VN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=185"
+    ]
   }
 ]

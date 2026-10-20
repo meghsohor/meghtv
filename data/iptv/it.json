@@ -3166,5 +3166,39 @@
     "urls": [
       "http://team-tv.co:81/raimovie/index.m3u8"
     ]
+  },
+  {
+    "id": "RealTime.it@SD",
+    "name": "Real Time (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nove.it@SD",
+    "name": "Nove (1080p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8"
+    ]
+  },
+  {
+    "id": "Giallo.it@SD",
+    "name": "Giallo (1080p)",
+    "country": "IT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8"
+    ]
   }
 ]

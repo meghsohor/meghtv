@@ -2673,5 +2673,41 @@
     "urls": [
       "http://57.128.231.171:8080/317/index.m3u8"
     ]
+  },
+  {
+    "id": "DiscoveryLife.pl@SD",
+    "name": "Discovery Life SD (576i)",
+    "country": "PL",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/280/index.m3u8"
+    ]
+  },
+  {
+    "id": "DTX.pl@SD",
+    "name": "DTX (576i)",
+    "country": "PL",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/274/index.m3u8"
+    ]
+  },
+  {
+    "id": "FoxComedy.pl@SD",
+    "name": "Fox Comedy (576i)",
+    "country": "PL",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "http://57.128.231.171:8080/250/index.m3u8"
+    ]
   }
 ]

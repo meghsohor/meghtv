@@ -3477,5 +3477,77 @@
     "urls": [
       "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8"
     ]
+  },
+  {
+    "id": "7TV.es@Andalucia",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://especial7tv.gestec-video.com/hls/regional.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.es@Cordoba",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming004.gestec-video.com/hls/7TVCORDOBA.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.es@Jaen",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming004.gestec-video.com/hls/7TVJAEN.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.es@Jerez",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming004.gestec-video.com/hls/7TVJEREZ.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.es@Malaga",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streaming004.gestec-video.com/hls/7TVMALAGA.m3u8"
+    ]
+  },
+  {
+    "id": "7TV.es@Sevilla",
+    "name": "7TV",
+    "country": "ES",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8"
+    ]
   }
 ]

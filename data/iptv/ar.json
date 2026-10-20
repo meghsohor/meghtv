@@ -2340,5 +2340,17 @@
     "urls": [
       "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8"
     ]
+  },
+  {
+    "id": "FoxSports2.ar@SD",
+    "name": "Fox Sports 2 (576i)",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
+    ]
   }
 ]
