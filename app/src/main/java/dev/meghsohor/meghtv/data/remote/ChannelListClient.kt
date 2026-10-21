@@ -87,6 +87,9 @@ class ChannelListClient(private val http: OkHttpClient = OkHttpClient()) {
 
 class ListMismatchException : IllegalStateException("The channel list is being updated. Try again in a few minutes.")
 
+/** A list in the published shape from elsewhere: the personal build's bundled channels. */
+internal fun parseChannelList(json: String): ChannelList = JsonReader(json.reader()).readList()
+
 private fun checkSchema(version: Int) = check(version == SupportedSchemaVersion) { "This channel list needs a newer version of MeghTV." }
 
 private fun JsonReader.readList(): ChannelList {
