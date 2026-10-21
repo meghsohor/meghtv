@@ -314,15 +314,15 @@
   },
   {
     "id": "CCTV15.cn@SD",
-    "name": "CCTV-15 (1080p)",
+    "name": "CCTV-15 (720p)",
     "country": "CN",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://xykt-fix.github.io/play/a02e/index.m3u8",
-      "http://74.91.26.218:82/live/cctv15hd.m3u8"
+      "http://74.91.26.218:82/live/cctv15hd.m3u8",
+      "https://xykt-fix.github.io/play/a02e/index.m3u8"
     ]
   },
   {
@@ -893,7 +893,8 @@
     "visible": true,
     "urls": [
       "http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8",
-      "https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8"
+      "https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8",
+      "http://139.211.217.79:9004/hls/75/index.m3u8"
     ]
   },
   {
@@ -925,7 +926,8 @@
     "urls": [
       "http://110.153.180.106:55555/out_3/index.m3u8",
       "http://222.80.13.33:4022/udp/238.125.3.175:5140",
-      "https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0"
+      "https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0",
+      "https://infolive.hongshannet.cn/RedHillEye/1781077833267957853648adb1cc9957853648adb1cc9.m3u8?auth_key=1812613833-0-0-4dabcc60fbe41e40712b37dbf24dc877"
     ]
   },
   {
@@ -938,7 +940,8 @@
       "http://110.153.180.106:55555/out_2/index.m3u8",
       "http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8",
-      "https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8"
+      "https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8",
+      "http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -1979,6 +1982,28 @@
     "urls": [
       "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
       "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv"
+    ]
+  },
+  {
+    "id": "HunanEconomyChannel.cn@SD",
+    "name": "Hunan Economy Channel",
+    "country": "CN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://p8.vzan.com/slowlive/415983998730568937/live.m3u8"
+    ]
+  },
+  {
+    "id": "XinjiangTV5.cn@SD",
+    "name": "Xinjiang TV 5",
+    "country": "CN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   }
 ]

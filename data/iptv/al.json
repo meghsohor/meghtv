@@ -254,5 +254,17 @@
     "urls": [
       "http://valashop.online:8090/fieritv.m3u8"
     ]
+  },
+  {
+    "id": "A2CNN.al@SD",
+    "name": "A2 CNN",
+    "country": "AL",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8"
+    ]
   }
 ]

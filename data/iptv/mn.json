@@ -1,16 +1,16 @@
 [
   {
     "id": "DreamTV.mn@SD",
-    "name": "DreamTV (1080p)",
+    "name": "Dream TV (1080p)",
     "country": "MN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://xykt-fix.github.io/play/a02j/index.m3u8",
       "https://cdn4.skygo.mn/live/disk1/Dreambox/DASH-FTA/Dreambox.mpd",
-      "https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8"
+      "https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8",
+      "https://xykt-fix.github.io/play/a02j/index.m3u8"
     ]
   },
   {
@@ -300,13 +300,14 @@
   },
   {
     "id": "NTV.mn@SD",
-    "name": "NTV (1080p)",
+    "name": "NTV [Geo-blocked]",
     "country": "MN",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://xykt-fix.github.io/channel/ottliv-036/index.m3u8",
       "https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
       "https://cdn4.skygo.mn/live/disk1/NTVHD/HLSv3-FTA/NTVHD.m3u8"
     ]

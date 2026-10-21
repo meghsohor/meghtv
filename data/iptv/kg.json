@@ -132,7 +132,7 @@
   },
   {
     "id": "ManasTV.kg@SD",
-    "name": "Manas TV (1080p)",
+    "name": "Manas TV",
     "country": "KG",
     "categories": [
       "education",
@@ -141,6 +141,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://120.70.60.179:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0",
       "http://212.42.111.152:8080/hls/manas.m3u8"
     ]
   }

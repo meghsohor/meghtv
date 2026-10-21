@@ -630,5 +630,17 @@
     "urls": [
       "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8"
     ]
+  },
+  {
+    "id": "News24Weather.au@SD",
+    "name": "News24 Weather",
+    "country": "AU",
+    "categories": [
+      "weather"
+    ],
+    "visible": true,
+    "urls": [
+      "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8"
+    ]
   }
 ]

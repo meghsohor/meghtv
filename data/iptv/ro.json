@@ -1947,7 +1947,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0"
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0",
+      "https://hls01ns.antenaplay.ro/hls/tralala-desene-animate-hd/index.m3u8"
     ]
   },
   {
@@ -1981,7 +1982,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-travel-mix/live_hq?offsetSeconds=0"
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-travel-mix/live_hq?offsetSeconds=0",
+      "https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8"
     ]
   },
   {
@@ -2039,7 +2041,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-aleph-news/live_hq?offsetSeconds=0"
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-aleph-news/live_hq?offsetSeconds=0",
+      "https://hls02ns.antenaplay.ro/hls/bollywood-clasic-sd/index.m3u8"
     ]
   },
   {
@@ -2184,6 +2187,18 @@
     "visible": true,
     "urls": [
       "https://tvextra-hls.b-cdn.net/sportextra/sportextra.m3u8"
+    ]
+  },
+  {
+    "id": "QuantumTV.ro@SD",
+    "name": "Quantum TV (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vs2140.vcdn.biz/0ca68e9e27bff1ff8d23519b5d9acbfe_megogo/live/hls/b/700_2490_4000/u_sid/0/o/190218421/rsid/0ad6062a-da94-4998-9598-08eece834674/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/86.120.126.66*asn/u_srvc/109126/u_did/web_00eb8979dc50e08f4572830b5a96f2db28ddd9581263144fcb95c26c90424491/type.live/chunklist-sid9102974610344929476-b2490000.m3u8"
     ]
   }
 ]
