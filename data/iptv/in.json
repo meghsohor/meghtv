@@ -735,7 +735,8 @@
       "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
       "https://asianet-samsung.vgcdn.net/ptnr-monitoring/vglive-sk-906908/playlist.m3u8",
       "https://asianetnews.vgcdn.net/vglive-sk-917600/playlist.m3u8",
-      "https://streams.tangotv.in/ASIANETNEWS/ORIGIN/index.m3u8"
+      "https://streams.tangotv.in/ASIANETNEWS/ORIGIN/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/1297/master.m3u8"
     ]
   },
   {
@@ -1144,6 +1145,7 @@
     "visible": true,
     "urls": [
       "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/448/master.m3u8",
       "http://51.75.127.199:3141/ctvnakdplus/index.m3u8"
     ]
   },
@@ -1670,8 +1672,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
       "https://mumbai-edge.smartplaytv.in/ETVHD/index.m3u8",
+      "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
       "http://51.75.127.199:3141/etvhd/index.m3u8"
     ]
   },
@@ -2276,7 +2278,8 @@
     "visible": true,
     "urls": [
       "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
-      "https://d1msejlow1t3l4.cloudfront.net/fta/kashishnews/playlist.m3u8"
+      "https://d1msejlow1t3l4.cloudfront.net/fta/kashishnews/playlist.m3u8",
+      "https://cdn.pishow.tv/ott/live/1471/master.m3u8"
     ]
   },
   {
@@ -5756,7 +5759,8 @@
     "visible": true,
     "urls": [
       "https://mumt01.tangotv.in/O5aw8Zn3NEWSX/index.m3u8",
-      "https://mumbai-edge.smartplaytv.in/NewsX/index.m3u8"
+      "https://mumbai-edge.smartplaytv.in/NewsX/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/1765/master.m3u8"
     ]
   },
   {
@@ -5768,7 +5772,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://mumt03.tangotv.in/Dsly5z3HNEWSXWORLD/index.m3u8"
+      "https://mumt03.tangotv.in/Dsly5z3HNEWSXWORLD/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/1049/master.m3u8"
     ]
   },
   {
@@ -5966,6 +5971,7 @@
     "visible": true,
     "urls": [
       "https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8",
+      "https://d1msejlow1t3l4.cloudfront.net/fta/peppers/playlist.m3u8",
       "https://cdn.pishow.tv/ott/live/1383/master.m3u8"
     ]
   },
@@ -7308,8 +7314,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://66.102.126.10:8000/play/a00a/index.m3u8",
-      "http://103.151.60.162:2122/play/a02q/index.m3u8?hls"
+      "http://103.151.60.162:2122/play/a02q/index.m3u8?hls",
+      "http://103.135.253.32:8080/Color-HD/index.m3u8",
+      "http://66.102.126.10:8000/play/a00a/index.m3u8"
     ]
   },
   {
@@ -8692,7 +8699,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8"
+      "https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/1161/master.m3u8"
     ]
   },
   {
@@ -9486,6 +9494,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://107.167.16.138/zeetalkies/index.m3u8?token=test",
       "http://51.75.127.199:3141/zeetalkieshd/index.m3u8"
     ]
   },
@@ -11241,6 +11250,41 @@
     "visible": true,
     "urls": [
       "https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrarthanaLife.in@SD",
+    "name": "Prarthana Life (720p)",
+    "country": "IN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8",
+      "https://cdn.pishow.tv/ott/live/1500/master.m3u8"
+    ]
+  },
+  {
+    "id": "Zingabad.in@SD",
+    "name": "Zingabad (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/zingabad/index.m3u8"
+    ]
+  },
+  {
+    "id": "Tunes6.in@SD",
+    "name": "Tunes 6 (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.d6-pro.com/Tunes6music/live/video.m3u8"
     ]
   }
 ]

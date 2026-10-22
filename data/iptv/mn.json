@@ -479,5 +479,17 @@
       "https://cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/DASH-FTA/SoyonGegeeruulegch.mpd",
       "https://cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/HLSv3-FTA/SoyonGegeeruulegch.m3u8"
     ]
+  },
+  {
+    "id": "LuxeTVMongolia.mn@SD",
+    "name": "Luxe TV Mongolia [Geo-blocked]",
+    "country": "MN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xykt-fix.github.io/channel/ottliv-038/index.m3u8"
+    ]
   }
 ]

@@ -2625,8 +2625,8 @@
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/elista/russia1-sd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yaroslavl/russia1-sd/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/5.m3u8",
-      "http://31.148.48.15/Rossiya_1_HD/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8",
+      "http://31.148.48.15/Rossiya_1_HD/index.m3u8",
       "http://str2.iptvhd.ru:8080/Rossiya_1/index.m3u8"
     ]
   },
@@ -7543,6 +7543,18 @@
     "visible": true,
     "urls": [
       "http://57.128.231.171:8080/316/index.m3u8"
+    ]
+  },
+  {
+    "id": "VIVARussia.ru@SD",
+    "name": "VIVA Russia",
+    "country": "RU",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
     ]
   }
 ]

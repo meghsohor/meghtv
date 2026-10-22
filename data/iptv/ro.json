@@ -1070,7 +1070,8 @@
     "visible": true,
     "urls": [
       "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8",
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0"
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0",
+      "https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8"
     ]
   },
   {

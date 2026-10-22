@@ -1221,5 +1221,18 @@
     "urls": [
       "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8"
     ]
+  },
+  {
+    "id": "CartoonNetwork.pk@SD",
+    "name": "Cartoon Network",
+    "country": "PK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8"
+    ]
   }
 ]

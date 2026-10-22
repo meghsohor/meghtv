@@ -1126,5 +1126,17 @@
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=185"
     ]
+  },
+  {
+    "id": "ONVieGiaiTri.vn@HD",
+    "name": "ON Vie Giai Tri (1080p)",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=180"
+    ]
   }
 ]
