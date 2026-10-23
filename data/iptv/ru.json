@@ -571,11 +571,11 @@
     "urls": [
       "http://45.153.24.78/1TV/index.m3u8",
       "http://178.217.49.7/1/index.m3u8",
-      "http://45.145.32.13:20440/pervyj_kanal/index.m3u8?token=test",
       "http://31.148.5.241/kanal_1/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/4.m3u8",
       "http://31.148.48.15/Pervii_kanal_HD/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8",
+      "http://45.145.32.13:20440/pervyj_kanal/index.m3u8?token=test",
       "http://str2.iptvhd.ru:8080/Pervikanal/index.m3u8"
     ]
   },
@@ -1564,9 +1564,9 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8",
-      "http://45.145.32.13:20440/mmatv/index.m3u8?token=test",
       "https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv",
-      "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8"
+      "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
+      "http://45.145.32.13:20440/mmatv/index.m3u8?token=test"
     ]
   },
   {
@@ -1596,8 +1596,8 @@
       "https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=37881ef2e289f062ceff0dca6c24dc58",
       "https://stream.smotrim.ru/hls2/givc9/playlist_4.m3u8",
       "https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8",
-      "http://45.145.32.13:20440/moskva24/index.m3u8?token=test",
-      "https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv",
+      "http://45.145.32.13:20440/moskva24/index.m3u8?token=test"
     ]
   },
   {
@@ -1866,8 +1866,8 @@
     "urls": [
       "http://stream.mcquack.net/125/index.m3u8",
       "https://vod.tuva.ru/nauka2/index.m3u8",
-      "http://45.145.32.13:20440/nauka/index.m3u8?token=test",
       "http://31.148.48.15/Nauka_2.0/index.m3u8",
+      "http://45.145.32.13:20440/nauka/index.m3u8?token=test",
       "http://str2.iptvhd.ru:8080/Nauka_2.0/index.m3u8"
     ]
   },
@@ -2367,10 +2367,10 @@
     "urls": [
       "http://31.148.48.15/REN-TV/index.m3u8",
       "http://185.23.80.23:8080/REN/index.m3u8",
-      "http://45.145.32.13:20440/ren_tv/index.m3u8?token=test",
       "http://flussonic.linkintel.ru/ren_tv/index.m3u8",
       "http://31.148.5.241/kanal_11/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8",
+      "http://45.145.32.13:20440/ren_tv/index.m3u8?token=test",
       "https://streaming.televizor-24-tochka.ru/live/14.m3u8"
     ]
   },
@@ -4813,15 +4813,15 @@
   },
   {
     "id": "TravelPlusAdventure.ru@SD",
-    "name": "Travel+Adventure (576p)",
+    "name": "Travel+Adventure (1080p)",
     "country": "RU",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
-      "http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test",
-      "http://31.148.48.15/Travel_Adventure_HD/index.m3u8"
+      "http://31.148.48.15/Travel_Adventure_HD/index.m3u8",
+      "http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test"
     ]
   },
   {
@@ -7555,6 +7555,18 @@
     "visible": true,
     "urls": [
       "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Ministerstvoidey.ru@SD",
+    "name": "Ministerstvo idey (1080p)",
+    "country": "RU",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8"
     ]
   }
 ]

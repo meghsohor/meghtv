@@ -38,8 +38,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://145.239.5.177/371/index.m3u8",
-      "https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8"
+      "https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8",
+      "http://145.239.5.177/371/index.m3u8"
     ]
   },
   {

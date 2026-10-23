@@ -7556,15 +7556,15 @@
   },
   {
     "id": "AXNBlack.us@Romania",
-    "name": "AXN Black Romania [Not 24/7]",
+    "name": "AXN Black Romania",
     "country": "US",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6952/index.m3u8",
-      "https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8"
+      "https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6952/index.m3u8"
     ]
   },
   {
@@ -7577,8 +7577,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/AXNHD/index.m3u8",
-      "http://181.119.66.28:8081/AXN/index.m3u8",
-      "http://190.93.224.42/AXN/index.m3u8"
+      "http://190.93.224.42/AXN/index.m3u8",
+      "http://181.119.66.28:8081/AXN/index.m3u8"
     ]
   },
   {
@@ -7623,15 +7623,15 @@
   },
   {
     "id": "AXNWhite.us@SD",
-    "name": "AXN White [Not 24/7]",
+    "name": "AXN White",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8",
-      "https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8"
+      "https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8"
     ]
   },
   {
@@ -8470,9 +8470,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/CinecanalHD/index.m3u8",
-      "http://181.119.66.28:8081/CINECANAL-HD/index.m3u8",
       "http://190.61.47.54:8000/play/a02z/index.m3u8",
-      "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8"
+      "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8",
+      "http://181.119.66.28:8081/CINECANAL-HD/index.m3u8"
     ]
   },
   {
@@ -9423,11 +9423,11 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/FXHD/index.m3u8",
-      "http://181.119.66.28:8081/FX-HD/index.m3u8",
       "http://190.93.224.42/FX/index.m3u8",
       "http://38.252.238.18:8000/play/a01c/index.m3u8",
       "http://168.196.127.137:6001/play/a05u/index.m3u8",
-      "https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8"
+      "https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8",
+      "http://181.119.66.28:8081/FX-HD/index.m3u8"
     ]
   },
   {
@@ -9802,8 +9802,8 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
-      "http://181.119.66.28:8081/HISTORY-2/index.m3u8",
-      "http://190.93.224.42/HISTORY-2/index.m3u8"
+      "http://190.93.224.42/HISTORY-2/index.m3u8",
+      "http://181.119.66.28:8081/HISTORY-2/index.m3u8"
     ]
   },
   {
@@ -9829,8 +9829,8 @@
     "urls": [
       "http://15.204.246.24:8080/HistoryHD/index.m3u8",
       "http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8",
-      "http://181.119.66.28:8081/History-HD/index.m3u8",
-      "http://190.93.224.42/HISTORY/index.m3u8"
+      "http://190.93.224.42/HISTORY/index.m3u8",
+      "http://181.119.66.28:8081/History-HD/index.m3u8"
     ]
   },
   {
@@ -10534,8 +10534,8 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/LIFETIME/index.m3u8",
-      "http://181.119.66.28:8081/Lifetime-HD/index.m3u8",
-      "http://187.102.208.209:8000/play/a0ad/index.m3u8"
+      "http://187.102.208.209:8000/play/a0ad/index.m3u8",
+      "http://181.119.66.28:8081/Lifetime-HD/index.m3u8"
     ]
   },
   {
@@ -11209,10 +11209,11 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
-      "http://181.119.66.28:8081/NATGEO-HD/index.m3u8",
       "http://190.93.224.42/NAT-GEO/index.m3u8",
       "http://45.173.231.22:8000/play/a05z/index.m3u8",
-      "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8"
+      "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8",
+      "http://181.78.79.131:8000/play/a0pt",
+      "http://181.119.66.28:8081/NATGEO-HD/index.m3u8"
     ]
   },
   {
@@ -11583,7 +11584,8 @@
       "http://15.204.246.24:8080/NickHD/index.m3u8",
       "http://190.93.224.42/NICK/index.m3u8",
       "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
-      "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
+      "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8",
+      "http://181.78.79.131:8000/play/a0qm"
     ]
   },
   {
@@ -11695,8 +11697,8 @@
     "visible": true,
     "urls": [
       "https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8",
-      "http://145.239.5.177/215/index.m3u8",
-      "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811"
+      "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811",
+      "http://145.239.5.177/215/index.m3u8"
     ]
   },
   {
@@ -11877,9 +11879,9 @@
       "http://15.204.246.24:8080/PasionesHD/index.m3u8",
       "http://45.224.97.181:9999/Pasiones/index.m3u8",
       "http://190.93.224.42/PASIONES/index.m3u8",
-      "http://190.60.55.141:9083/play/a0ni/index.m3u8",
       "http://45.173.231.22:8000/play/a06n/index.m3u8",
-      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/pasiones/chunks.m3u8"
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/pasiones/chunks.m3u8",
+      "http://190.60.55.141:9083/play/a0ni/index.m3u8"
     ]
   },
   {
@@ -11953,7 +11955,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8"
+      "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+      "https://tvsen7.aynascope.net/pbskids/index.m3u8"
     ]
   },
   {
@@ -12613,9 +12616,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/SonyHD/index.m3u8",
-      "http://181.119.66.28:8081/SONY-HD/index.m3u8",
       "http://190.93.224.42/SONY-CHANNEL/index.m3u8",
-      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/sonychannel.stream/playlist.m3u8"
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/sonychannel.stream/playlist.m3u8",
+      "http://181.119.66.28:8081/SONY-HD/index.m3u8"
     ]
   },
   {
@@ -12678,8 +12681,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/STARCHANNELHD/index.m3u8",
-      "http://181.119.66.28:8081/STAR-CHANNEL/index.m3u8",
-      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/StarChannel.stream/playlist.m3u8"
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/StarChannel.stream/playlist.m3u8",
+      "http://181.119.66.28:8081/STAR-CHANNEL/index.m3u8"
     ]
   },
   {
@@ -24508,7 +24511,8 @@
     "visible": true,
     "urls": [
       "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8",
-      "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8"
+      "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
+      "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1"
     ]
   },
   {

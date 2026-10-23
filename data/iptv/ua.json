@@ -1346,13 +1346,13 @@
   },
   {
     "id": "TET.ua@SD",
-    "name": "TET (1080p) [Not 24/7]",
+    "name": "TET (1080p)",
     "country": "UA",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6377/index.m3u8",
       "http://stream.mcquack.net/338/index.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6377/index.m3u8",
       "http://str2.iptvhd.ru:8080/TET/index.m3u8"
     ]
   },

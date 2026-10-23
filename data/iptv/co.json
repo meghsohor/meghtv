@@ -343,7 +343,6 @@
       "http://181.78.17.228:8081/RCN-HD/index.m3u8",
       "http://209.14.115.253:8081/RCN/index.m3u8",
       "http://190.61.47.54:8000/play/a01f/index.m3u8",
-      "http://190.60.55.141:9083/play/a0n5/index.m3u8",
       "http://181.205.130.194:4000/play/a0dl",
       "http://38.134.250.110:8000/play/a00i/index.m3u8",
       "http://190.60.46.228:8888/play/a04d/index.m3u8",
@@ -352,7 +351,8 @@
       "http://181.78.79.131:8000/play/a0sc",
       "http://190.109.2.92:8000/play/a00w/index.m3u8",
       "http://200.122.223.13:55000/play/rcn-hd-tdt/index.m3u8",
-      "https://barinaslive1.boldmss.com/RCN/RCN.isml/RCN.m3u8"
+      "https://barinaslive1.boldmss.com/RCN/RCN.isml/RCN.m3u8",
+      "http://190.60.55.141:9083/play/a0n5/index.m3u8"
     ]
   },
   {
@@ -871,9 +871,9 @@
     "urls": [
       "http://170.238.200.199/nuestra-tele/index.m3u8",
       "http://181.78.8.199:8000/play/a0a8/index.m3u8",
-      "http://190.60.55.141:9083/play/a0hg/index.m3u8",
       "http://45.173.231.22:8000/play/a0cr/index.m3u8",
-      "https://stream1.bitred.cl/nuestra-tele/index.m3u8"
+      "https://stream1.bitred.cl/nuestra-tele/index.m3u8",
+      "http://190.60.55.141:9083/play/a0hg/index.m3u8"
     ]
   },
   {

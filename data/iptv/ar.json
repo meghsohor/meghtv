@@ -2353,5 +2353,17 @@
     "urls": [
       "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
     ]
+  },
+  {
+    "id": "MultivisionFederal.ar@SD",
+    "name": "Multivision Federal",
+    "country": "AR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.m3u8"
+    ]
   }
 ]

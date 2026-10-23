@@ -164,7 +164,8 @@
     "visible": true,
     "urls": [
       "http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8",
-      "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8"
+      "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8",
+      "https://cdn.pishow.tv/ott/live/969/master.m3u8"
     ]
   },
   {
@@ -819,8 +820,8 @@
       "https://cdn.pishow.tv/ott/live/227/master.m3u8",
       "https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8",
       "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
-      "http://107.167.16.138/b4ukadak/index.m3u8?token=test",
       "https://mumt06.tangotv.in/qYyB8fXVB4UKADAK/index.m3u8",
+      "http://107.167.16.138/b4ukadak/index.m3u8?token=test",
       "http://51.75.127.199:3141/b4ukadak/index.m3u8"
     ]
   },
@@ -1176,9 +1177,9 @@
       "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
       "https://streams.tangotv.in/DANGAL/ORIGIN/index.m3u8",
       "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
-      "http://107.167.16.138/dangal/index.m3u8?token=test",
       "https://mumt04.tangotv.in/m18aqlK4DANGAL/index.m3u8",
-      "https://cdn.pishow.tv/ott/live/1141/master.m3u8"
+      "https://cdn.pishow.tv/ott/live/1141/master.m3u8",
+      "http://107.167.16.138/dangal/index.m3u8?token=test"
     ]
   },
   {
@@ -3365,9 +3366,9 @@
       "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
       "https://cdn.pishow.tv/ott/live/1245/master.m3u8",
       "https://streams.tangotv.in/POLIMERNEWS/ORIGIN/index.m3u8",
-      "http://107.167.16.138/polimernews/index.m3u8?token=test",
       "https://mumt05.tangotv.in/87NeALx2POLIMERNEWS/index.m3u8",
-      "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerNews.m3u8"
+      "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerNews.m3u8",
+      "http://107.167.16.138/polimernews/index.m3u8?token=test"
     ]
   },
   {
@@ -4174,9 +4175,9 @@
       "https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8",
       "https://streams.tangotv.in/SHEMAROOTV/ORIGIN/index.m3u8",
       "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
-      "http://107.167.16.138/ShemarooTV/index.m3u8?token=test",
       "https://mumt06.tangotv.in/qYyB8fXVSHEMAROOTV/index.m3u8",
       "https://cdn.pishow.tv/ott/live/230/master.m3u8",
+      "http://107.167.16.138/ShemarooTV/index.m3u8?token=test",
       "http://51.75.127.199:3141/shemarootv/index.m3u8"
     ]
   },
@@ -4191,8 +4192,8 @@
     "urls": [
       "https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8",
       "https://streams.tangotv.in/SHEMAROOUMANG/ORIGIN/index.m3u8",
-      "http://107.167.16.138/ShemarooUmang/index.m3u8?token=test",
       "https://mumt04.tangotv.in/m18aqlK4SHEMAROOUMANG/index.m3u8",
+      "http://107.167.16.138/ShemarooUmang/index.m3u8?token=test",
       "http://51.75.127.199:3141/shemarooumang/index.m3u8"
     ]
   },
@@ -4615,8 +4616,8 @@
     "visible": true,
     "urls": [
       "https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8",
-      "http://107.167.16.138/tarangtv/index.m3u8?token=test",
-      "https://mumbai-edge.smartplaytv.in/tarang/index.m3u8"
+      "https://mumbai-edge.smartplaytv.in/tarang/index.m3u8",
+      "http://107.167.16.138/tarangtv/index.m3u8?token=test"
     ]
   },
   {
@@ -5932,8 +5933,8 @@
     "visible": true,
     "urls": [
       "https://mumt07.tangotv.in/zHjX9OFlSANGEETMARATHI/index.m3u8",
-      "http://107.167.16.138/sangeetmarathi/index.m3u8?token=test",
-      "https://cdn.pishow.tv/ott/live/1229/master.m3u8"
+      "https://cdn.pishow.tv/ott/live/1229/master.m3u8",
+      "http://107.167.16.138/sangeetmarathi/index.m3u8?token=test"
     ]
   },
   {
@@ -7123,13 +7124,14 @@
   },
   {
     "id": "Kabaddi24x7.in@SD",
-    "name": "Kabaddi 24x7 (576p)",
+    "name": "Kabaddi 24x7 (720p)",
     "country": "IN",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8",
       "http://180.188.254.253/live/KABADDI24X7.m3u8"
     ]
   },
@@ -8012,15 +8014,15 @@
   },
   {
     "id": "DDNational.in@SD",
-    "name": "DD National (576p)",
+    "name": "DD National SD (576p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://107.167.16.138/ddnational/index.m3u8?token=test",
-      "https://cdn.pishow.tv/ott/live/11/master.m3u8"
+      "https://cdn.pishow.tv/ott/live/11/master.m3u8",
+      "http://107.167.16.138/ddnational/index.m3u8?token=test"
     ]
   },
   {
@@ -8037,15 +8039,15 @@
   },
   {
     "id": "Dhamaal.in@SD",
-    "name": "Dhamaal (576p)",
+    "name": "Dhamaal (576p) [Geo-blocked]",
     "country": "IN",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "http://107.167.16.138/dhamaal/index.m3u8?token=test",
-      "https://tvsen6.aynaott.com/F4Z6es8E/index.m3u8"
+      "https://tvsen6.aynaott.com/F4Z6es8E/index.m3u8",
+      "http://107.167.16.138/dhamaal/index.m3u8?token=test"
     ]
   },
   {
@@ -8172,15 +8174,15 @@
   },
   {
     "id": "Asianet.in@HD",
-    "name": "Asianet HD (360p) [Not 24/7]",
+    "name": "Asianet HD (1080p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b696000.m3u8",
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8"
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8",
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b696000.m3u8"
     ]
   },
   {
@@ -9330,13 +9332,14 @@
   },
   {
     "id": "AsianetMovies.in@SD",
-    "name": "Asianet Movies (576p)",
+    "name": "Asianet Movies (396p)",
     "country": "IN",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8",
       "http://51.75.127.199:3141/asianetmovies/index.m3u8"
     ]
   },
@@ -9874,13 +9877,14 @@
   },
   {
     "id": "7XMusic.in@SD",
-    "name": "7X Music (576p)",
+    "name": "7X Music (360p)",
     "country": "IN",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://cdn2.in/7xPunjabihls/live.m3u8",
       "http://51.75.127.199:3141/7xmusic/index.m3u8"
     ]
   },
@@ -11285,6 +11289,275 @@
     "visible": true,
     "urls": [
       "https://stream.d6-pro.com/Tunes6music/live/video.m3u8"
+    ]
+  },
+  {
+    "id": "Pogo.in@SD",
+    "name": "Pogo (576p)",
+    "country": "IN",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.151.60.162:2122/play/a01e/index.m3u8?hls"
+    ]
+  },
+  {
+    "id": "AagaazTimes.in@SD",
+    "name": "Aagaaz Times (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live1.ottlive.co.in/aagaaztimes/index.m3u8"
+    ]
+  },
+  {
+    "id": "AmritGurbani.in@SD",
+    "name": "Amrit Gurbani (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/AMRITGURBANI/SAMITAORIGIN/index.m3u8",
+      "https://mumt04.tangotv.in/m18aqlK4AMRITGURBANI/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnandpurLive.in@HD",
+    "name": "Anandpur Live (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mumt05.tangotv.in/87NeALx2ANANDPURLIVE/index.m3u8"
+    ]
+  },
+  {
+    "id": "BhaktiDhara.in@SD",
+    "name": "Bhakti Dhara (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://newsliveindia.com:4433/bhaktidhara/index.m3u8"
+    ]
+  },
+  {
+    "id": "ChhayaChitramTelugu.in@SD",
+    "name": "Chhaya Chitram Telugu (360p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/CHHAYACHITRAMTELUGU/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "ChintpurniLive.in@SD",
+    "name": "Chintpurni Live (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8",
+      "https://mumt03.tangotv.in/Dsly5z3HCHINTPURNILIVE/index.m3u8"
+    ]
+  },
+  {
+    "id": "DukhnivaranPatialaLive.in@HD",
+    "name": "Dukhnivaran Patiala Live (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/DUKHNIWARAN/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "IndiaTalkies.in@SD",
+    "name": "India Talkies (360p)",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "MoviePunjab.in@SD",
+    "name": "Movie Punjab (720p)",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3MOVIEPUNJAB/index.m3u8"
+    ]
+  },
+  {
+    "id": "NanaksarLive.in@SD",
+    "name": "Nanaksar Live (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/NANAKSARLIVE/SAMITAORIGIN/index.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3NANAKSARLIVE/index.m3u8"
+    ]
+  },
+  {
+    "id": "PadharoSA.in@SD",
+    "name": "Padharo SA (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PADHAROSA/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "Pankh.in@SD",
+    "name": "Pankh (360p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PANKH/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "PunjabiMusicHD.in@SD",
+    "name": "Punjabi Music HD (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PUNJABIMUSICHD/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "PunjabiTV.in@SD",
+    "name": "Punjabi TV (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PUNJABITV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "Ragni.in@SD",
+    "name": "Ragni (360p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/RAGNITV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "Saang.in@SD",
+    "name": "Saang (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/SAANGTV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "ShreeHazurSahibji.in@SD",
+    "name": "Shree Hazur Sahibji (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/SHREEHAZURSAHIBJI/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "SindhTV.in@SD",
+    "name": "Sindh TV (720p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/SINDHTV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "SoneriCinema.in@SD",
+    "name": "Soneri Cinema (360p)",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnmolTV.in@SD",
+    "name": "Anmol TV (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8"
+    ]
+  },
+  {
+    "id": "AshwaveegaNews24x7.in@SD",
+    "name": "Ashwaveega News 24x7 (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mars.streambridge.cloud/sls/ashwaveega/playlist.m3u8"
     ]
   }
 ]

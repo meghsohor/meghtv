@@ -258,15 +258,15 @@
   },
   {
     "id": "TeenNick.il@SD",
-    "name": "TeenNick [Not 24/7]",
+    "name": "TeenNick (406p)",
     "country": "IL",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2334/index.m3u8",
-      "http://89.33.29.115:8080/TeenNick/index.m3u8"
+      "http://89.33.29.115:8080/TeenNick/index.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2334/index.m3u8"
     ]
   },
   {

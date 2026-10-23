@@ -20,6 +20,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream.aguacatetv.com:3949/hybrid/play.m3u8",
       "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
     ]
   },

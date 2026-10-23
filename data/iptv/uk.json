@@ -1643,9 +1643,9 @@
     "visible": true,
     "urls": [
       "https://shift03.isp.bg/MTVEurope/index.m3u8",
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/12055/index.m3u8",
       "http://85.14.32.26:8800/udp/239.100.10.67:5000",
-      "http://dvr2.kablova.tv/MTV/index.m3u8"
+      "http://dvr2.kablova.tv/MTV/index.m3u8",
+      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/12055/index.m3u8"
     ]
   },
   {
@@ -3488,7 +3488,7 @@
   },
   {
     "id": "CartoonNetworkCEE.uk@Poland",
-    "name": "Cartoon Network CEE Poland (1080p)",
+    "name": "Cartoon Network CEE Poland",
     "country": "UK",
     "categories": [
       "animation",
@@ -3496,8 +3496,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://57.128.231.171:8080/293/index.m3u8",
-      "http://92.114.85.87:8007/play/a009"
+      "http://92.114.85.87:8007/play/a009",
+      "http://57.128.231.171:8080/293/index.m3u8"
     ]
   },
   {
@@ -3509,8 +3509,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://57.128.231.171:8080/303/index.m3u8",
-      "http://92.114.85.87:8007/play/a008"
+      "http://92.114.85.87:8007/play/a008",
+      "http://57.128.231.171:8080/303/index.m3u8"
     ]
   },
   {

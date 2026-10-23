@@ -3549,5 +3549,17 @@
     "urls": [
       "https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8"
     ]
+  },
+  {
+    "id": "Boing.es@SD",
+    "name": "Boing",
+    "country": "ES",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://digisat.ddns.net:4022/udp/239.0.5.177:8208"
+    ]
   }
 ]
