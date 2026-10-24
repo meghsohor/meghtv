@@ -193,5 +193,29 @@
     "urls": [
       "https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd"
     ]
+  },
+  {
+    "id": "2TV.lt@SD",
+    "name": "2TV (1080p)",
+    "country": "LT",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lnk5511.bstrm.net/live/687e3ff1679c8d4d68fab6c5/hd/manifest.mpd"
+    ]
+  },
+  {
+    "id": "InfoTV.lt@SD",
+    "name": "Info TV (1080p)",
+    "country": "LT",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lnk5511.bstrm.net/live/687e3fd2679c8d4d68fab65b/hd/manifest.mpd"
+    ]
   }
 ]

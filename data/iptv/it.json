@@ -1517,7 +1517,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953"
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953",
+      "http://5.180.164.197:8080/RAIGULP/index.m3u8"
     ]
   },
   {
@@ -2930,7 +2931,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://102.129.186.182:81/nick/index.m3u8"
+      "http://102.129.186.182:81/nick/index.m3u8",
+      "https://streamer-jv9.pages.dev/italy/nickjr.m3u"
     ]
   },
   {

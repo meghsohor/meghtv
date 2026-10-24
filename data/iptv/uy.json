@@ -36,5 +36,77 @@
       "https://canalmasuruguay.com/hls/master-abr.m3u8",
       "https://canalmasuruguay.com/hls/720p/index.m3u8"
     ]
+  },
+  {
+    "id": "CanalOncePlus.uy@SD",
+    "name": "Canal Once Plus",
+    "country": "UY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalALMA.uy@SD",
+    "name": "Canal ALMA",
+    "country": "UY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv1.voxtvhd.com.br/canalalmatv/canalalmatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "DesdeElSurTV.uy@SD",
+    "name": "Desde El Sur TV",
+    "country": "UY",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv.gmpro.top/surtv/surtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "LaElegidaTelevision.uy@SD",
+    "name": "La Elegida Television",
+    "country": "UY",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stmv.gmpro.top/laelegidatv/laelegidatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MisionVidaTV.uy@SD",
+    "name": "Mision Vida TV",
+    "country": "UY",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://5bf8041cb3fed.streamlock.net/zoefm/zoefm/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVUniversalUruguay.uy@SD",
+    "name": "TV Universal Uruguay",
+    "country": "UY",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.universal.org.uy/hls/0/stream.m3u8"
+    ]
   }
 ]

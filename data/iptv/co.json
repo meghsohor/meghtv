@@ -122,7 +122,8 @@
       "http://38.134.250.110:8000/play/a014/index.m3u8",
       "http://190.61.47.54:8000/play/a00u/index.m3u8",
       "http://190.109.2.92:8000/play/a010/index.m3u8",
-      "http://200.122.223.13:55000/play/canal-1-tdt/index.m3u8"
+      "http://200.122.223.13:55000/play/canal-1-tdt/index.m3u8",
+      "https://barinaslive1.boldmss.com/CANAL1/CANAL1.isml/CANAL1.m3u8"
     ]
   },
   {
@@ -481,7 +482,8 @@
       "http://181.78.21.38:8000/play/a0cv/index.m3u8",
       "http://200.115.120.1:8000/play/ca070/index.m3u8",
       "http://181.78.8.199:8000/play/a0jz/index.m3u8",
-      "http://181.78.64.206:10000/play/a0w4/index.m3u8"
+      "http://181.78.64.206:10000/play/a0w4/index.m3u8",
+      "http://190.121.140.222:8081/CARACOL/index.m3u8"
     ]
   },
   {

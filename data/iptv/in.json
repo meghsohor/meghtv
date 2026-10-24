@@ -9436,6 +9436,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8",
       "http://51.75.127.199:3141/b4ubhojpuri/index.m3u8"
     ]
   },
@@ -10467,13 +10468,14 @@
   },
   {
     "id": "AndTV.in@SD",
-    "name": "&TV (576p)",
+    "name": "&TV (720p)",
     "country": "IN",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8",
       "http://103.151.60.162:2122/play/a020/index.m3u8?hls"
     ]
   },
@@ -11558,6 +11560,271 @@
     "visible": true,
     "urls": [
       "https://mars.streambridge.cloud/sls/ashwaveega/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SonarBangla.in@SD",
+    "name": "Sonar Bangla (360p)",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/SONARBANGLA/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "ATNSamachar.in@SD",
+    "name": "ATN Samachar (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://newsliveindia.com:4433/atn/index.m3u8"
+    ]
+  },
+  {
+    "id": "BanglaJago.in@SD",
+    "name": "Bangla Jago (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8"
+    ]
+  },
+  {
+    "id": "BharatAtoZ.in@SD",
+    "name": "Bharat AtoZ (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.ekamraott.com/4tv/bharata2z/index.m3u8"
+    ]
+  },
+  {
+    "id": "BHIChannel.in@SD",
+    "name": "BHI Channel (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://server.livelegitpro.in/bhichannel/bhichannel/index.m3u8"
+    ]
+  },
+  {
+    "id": "BSTV.in@SD",
+    "name": "BSTV (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/BSTV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "CineJomjomat.in@SD",
+    "name": "Cine Jomjomat (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg13779-amg13779c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13779-amg13779c1-amgplt0016/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FGNChannel.in@SD",
+    "name": "FGN Channel (360p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/FGNCHANNEL/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "ZBCinema.in@HD",
+    "name": "ZB Cinema (1080p)",
+    "country": "IN",
+    "categories": [
+      "classic",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://server.zillarbarta.com/ZBCINEMA/index.m3u8"
+    ]
+  },
+  {
+    "id": "ZeeTamil.in@SD",
+    "name": "Zee Tamil (576p) [Geo-blocked]",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Tamil/dash/drm/index.mpd"
+    ]
+  },
+  {
+    "id": "AlrightTV.in@SD",
+    "name": "Alright! TV (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d3c7vdfq3tyeyw.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/rusk_media/v1/channel/ruskmedia/germane.m3u8"
+    ]
+  },
+  {
+    "id": "DivyaBhajan.in@SD",
+    "name": "Divya Bhajan (1080p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://jmp2.uk/stvp-IN1600002IQ"
+    ]
+  },
+  {
+    "id": "GlobalIndia.in@SD",
+    "name": "Global India (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8"
+    ]
+  },
+  {
+    "id": "GlobeTV.in@SD",
+    "name": "Globe TV (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mumbai-edge.smartplaytv.in/GlobeTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "GraceTV.in@SD",
+    "name": "Grace TV (360p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/GRACETV/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "GreenGoldTV.in@India",
+    "name": "Green Gold TV (1080p)",
+    "country": "IN",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HindiHits.in@SD",
+    "name": "Hindi Hits (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/HINDIHITS/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "MahuaPlay.in@SD",
+    "name": "Mahua Play (1080p)",
+    "country": "IN",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.ottlive.co.in/mahuaplay/index.m3u8"
+    ]
+  },
+  {
+    "id": "MahuaKhabar.in@SD",
+    "name": "Mahua Khabar (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.ottlive.co.in/mahuakhabar/index.m3u8"
+    ]
+  },
+  {
+    "id": "MHOne.in@SD",
+    "name": "MH One (360p)",
+    "country": "IN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/MHONE/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "PunjabiBeatsHD.in@HD",
+    "name": "Punjabi Beats HD (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mumt01.tangotv.in/O5aw8Zn3PUNJABIBEATSHD/index.m3u8"
+    ]
+  },
+  {
+    "id": "PuthiyaThalaimuraiExpress.in@SD",
+    "name": "Puthiya Thalaimurai Express (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PUTHIYAEXPRESS/SAMITAORIGIN/index.m3u8"
     ]
   }
 ]
