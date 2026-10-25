@@ -49,5 +49,17 @@
     "urls": [
       "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR"
     ]
+  },
+  {
+    "id": "ElyssaTV.tn@HD",
+    "name": "Elyssa TV (1080p)",
+    "country": "TN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.elyssatv.com/live/master.m3u8"
+    ]
   }
 ]

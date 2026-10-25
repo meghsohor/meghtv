@@ -3444,5 +3444,15 @@
     "urls": [
       "http://138.204.86.4:8080/CAZE_TV/playlist.m3u8"
     ]
+  },
+  {
+    "id": "TVGloboBrasilia.br@SD",
+    "name": "TV Globo Brasilia (1080p)",
+    "country": "BR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://79.127.238.228:14173/"
+    ]
   }
 ]

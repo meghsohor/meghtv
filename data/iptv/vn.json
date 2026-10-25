@@ -1138,5 +1138,17 @@
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=180"
     ]
+  },
+  {
+    "id": "ONO2TV.vn@SD",
+    "name": "ON O2TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=136"
+    ]
   }
 ]

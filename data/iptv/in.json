@@ -4386,17 +4386,17 @@
   },
   {
     "id": "StarPlus.in@HD",
-    "name": "StarPlus HD (1080i)",
+    "name": "StarPlus HD (1080p) [Geo-blocked]",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://202.70.146.135:8000/play/a009/index.m3u8",
       "http://41.205.93.154/STAR-PLUS/index.m3u8",
       "http://66.102.126.10:8000/play/a008/index.m3u8",
       "http://103.185.24.134:3001/Star-Plus/index.m3u8",
+      "http://202.70.146.135:8000/play/a009/index.m3u8",
       "http://51.75.127.199:3141/starplushd/index.m3u8"
     ]
   },
@@ -10437,8 +10437,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.185.24.134:3001/SonyMAX/index.m3u8",
-      "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
+      "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+      "http://103.185.24.134:3001/SonyMAX/index.m3u8"
     ]
   },
   {
@@ -11825,6 +11825,18 @@
     "visible": true,
     "urls": [
       "https://samitaorigin.tangotv.in/PUTHIYAEXPRESS/SAMITAORIGIN/index.m3u8"
+    ]
+  },
+  {
+    "id": "ETNowSwadesh.in@SD",
+    "name": "ET Now Swadesh (1080p) [Geo-blocked]",
+    "country": "IN",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etswadesh/etswadesh_master.m3u8"
     ]
   }
 ]

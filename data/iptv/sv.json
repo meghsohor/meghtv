@@ -38,15 +38,15 @@
   },
   {
     "id": "Canal2.sv@SD",
-    "name": "Canal 2 (480p) [Not 24/7]",
+    "name": "Canal 2 (720p)",
     "country": "SV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8",
-      "http://186.33.26.18:8000/play/a0qp/index.m3u8"
+      "http://186.33.26.18:8000/play/a0qp/index.m3u8",
+      "https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8"
     ]
   },
   {
@@ -63,15 +63,15 @@
   },
   {
     "id": "Canal6.sv@SD",
-    "name": "Canal 6 (480p) [Not 24/7]",
+    "name": "Canal 6 (720p)",
     "country": "SV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8",
-      "http://45.167.2.101:8000/play/a0qs/index.m3u8"
+      "http://45.167.2.101:8000/play/a0qs/index.m3u8",
+      "https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8"
     ]
   },
   {
@@ -418,8 +418,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.5.118.188:8000/play/a00j/index.m3u8",
-      "http://168.228.44.241:9999/play/a042/index.m3u8"
+      "http://168.228.44.241:9999/play/a042/index.m3u8",
+      "http://45.5.118.188:8000/play/a00j/index.m3u8"
     ]
   },
   {

@@ -5415,5 +5415,17 @@
     "urls": [
       "https://s6.hopslan.com/tele5X/index.m3u8"
     ]
+  },
+  {
+    "id": "TVBozsikeHamburgHD.de@HD",
+    "name": "TV Bozsike Hamburg HD (1080p)",
+    "country": "DE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.radiobozsike.com/hls/stream1.m3u8"
+    ]
   }
 ]
