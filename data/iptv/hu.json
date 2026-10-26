@@ -46,6 +46,7 @@
     "urls": [
       "https://stream.atv.hu/atvlive/atvstream_2_aac/playlist.m3u8",
       "https://streamservers.atv.hu/atvlive/atvstream_1_aac/playlist.m3u8",
+      "http://88.212.7.14/live/test_atv_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_atv_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8"
     ]
@@ -58,6 +59,7 @@
     "visible": true,
     "urls": [
       "https://streamservers.atv.hu/atvliveedge/_definst_/atvstream_2_aac/playlist.m3u8",
+      "http://88.212.7.14/live/test_atv_spirit/playlist.m3u8",
       "http://88.212.15.17/live/test_atv_spirit/playlist.m3u8",
       "http://88.212.15.19/live/test_atv_spirit/playlist.m3u8"
     ]
@@ -167,6 +169,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/dikh/index.m3u8",
       "http://88.212.15.17/live/dikh/index.m3u8",
       "http://88.212.15.19/live/dikh/index.m3u8"
     ]
@@ -180,6 +183,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/disney_channel_hun/index.m3u8",
       "http://88.212.15.17/live/disney_channel_hun/index.m3u8",
       "http://88.212.15.19/live/disney_channel_hun/index.m3u8"
     ]
@@ -215,6 +219,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/duna_hun/index.m3u8",
       "http://88.212.15.17/live/duna_hun/index.m3u8",
       "http://88.212.15.19/live/duna_hun/index.m3u8"
     ]
@@ -228,6 +233,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/duna_world_hun/index.m3u8",
       "http://88.212.15.17/live/duna_world_hun/index.m3u8",
       "http://88.212.15.19/live/duna_world_hun/index.m3u8"
     ]
@@ -290,6 +296,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_fem3_atktv/playlist.m3u8",
       "http://88.212.15.17/live/test_fem3_atktv/playlist.m3u8",
       "http://88.212.15.19/live/test_fem3_atktv/playlist.m3u8"
     ]
@@ -303,6 +310,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/film4_hun/index.m3u8",
       "http://88.212.15.17/live/film4_hun/index.m3u8",
       "http://88.212.15.19/live/film4_hun/index.m3u8"
     ]
@@ -316,6 +324,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/film_cafe/index.m3u8",
       "http://88.212.15.17/live/film_cafe/index.m3u8",
       "http://88.212.15.19/live/film_cafe/index.m3u8"
     ]
@@ -329,6 +338,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/film_plus_hun_atk/index.m3u8",
       "http://88.212.15.17/live/film_plus_hun_atk/index.m3u8",
       "http://88.212.15.19/live/film_plus_hun_atk/index.m3u8"
     ]
@@ -462,6 +472,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/history_hun/index.m3u8",
       "http://88.212.15.17/live/history_hun/index.m3u8",
       "http://88.212.15.19/live/history_hun/index.m3u8"
     ]
@@ -475,6 +486,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/izaura/index.m3u8",
       "http://88.212.15.17/live/izaura/index.m3u8",
       "http://88.212.15.19/live/izaura/index.m3u8"
     ]
@@ -500,6 +512,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/jocky/index.m3u8",
       "http://88.212.15.17/live/jocky/index.m3u8",
       "http://88.212.15.19/live/jocky/index.m3u8"
     ]
@@ -574,6 +587,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/kolyokklub_atk/index.m3u8",
       "http://88.212.15.17/live/kolyokklub_atk/index.m3u8",
       "http://88.212.15.19/live/kolyokklub_atk/index.m3u8"
     ]
@@ -624,6 +638,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/lifetv/index.m3u8",
       "http://88.212.15.17/live/lifetv/index.m3u8",
       "http://88.212.15.19/live/lifetv/index.m3u8"
     ]
@@ -649,6 +664,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_m_1_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_m_1_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_m_1_hungary_1200_atk/playlist.m3u8"
     ]
@@ -662,6 +678,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/m2_hun/index.m3u8",
       "http://88.212.15.17/live/m2_hun/index.m3u8",
       "http://88.212.15.19/live/m2_hun/index.m3u8"
     ]
@@ -675,6 +692,8 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/m4_hun/index.m3u8",
+      "http://88.212.7.14/live/uatlmvixrr/index.m3u8",
       "http://88.212.15.17/live/m4_hun/index.m3u8",
       "http://88.212.15.17/live/uatlmvixrr/index.m3u8",
       "http://88.212.15.19/live/m4_hun/index.m3u8",
@@ -691,6 +710,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_m_5_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_m_5_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_m_5_hun_atk_1200/playlist.m3u8"
     ]
@@ -704,6 +724,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/mozi/index.m3u8",
       "http://88.212.15.17/live/mozi/index.m3u8",
       "http://88.212.15.19/live/mozi/index.m3u8"
     ]
@@ -741,6 +762,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/minimax_hun/index.m3u8",
       "http://88.212.15.17/live/minimax_hun/index.m3u8",
       "http://88.212.15.19/live/minimax_hun/index.m3u8"
     ]
@@ -766,6 +788,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/mozi_plusz/index.m3u8",
       "http://88.212.15.17/live/mozi_plusz/index.m3u8",
       "http://88.212.15.19/live/mozi_plusz/index.m3u8"
     ]
@@ -779,6 +802,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/moziklub_atk/index.m3u8",
       "http://88.212.15.17/live/moziklub_atk/index.m3u8",
       "http://88.212.15.19/live/moziklub_atk/index.m3u8"
     ]
@@ -792,6 +816,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/moziverzum/index.m3u8",
       "http://88.212.15.17/live/moziverzum/index.m3u8",
       "http://88.212.15.19/live/moziverzum/index.m3u8"
     ]
@@ -805,6 +830,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_muzsika_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_muzsika_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_muzsika_hungary_1200_atk/playlist.m3u8"
     ]
@@ -818,6 +844,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/ngc_hun/index.m3u8",
       "http://88.212.15.17/live/ngc_hun/index.m3u8",
       "http://88.212.15.19/live/ngc_hun/index.m3u8"
     ]
@@ -831,6 +858,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/ngw_hun/index.m3u8",
       "http://88.212.15.17/live/ngw_hun/index.m3u8",
       "http://88.212.15.19/live/ngw_hun/index.m3u8"
     ]
@@ -844,6 +872,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/nick_junior_hun/index.m3u8",
       "http://88.212.15.17/live/nick_junior_hun/index.m3u8",
       "http://88.212.15.19/live/nick_junior_hun/index.m3u8"
     ]
@@ -857,6 +886,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_nickelodeon_hu_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_nickelodeon_hu_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8"
     ]
@@ -870,6 +900,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/nicktoons_hungary/index.m3u8",
       "http://88.212.15.17/live/nicktoons_hungary/index.m3u8",
       "http://88.212.15.19/live/nicktoons_hungary/index.m3u8"
     ]
@@ -945,6 +976,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/ozone/index.m3u8",
       "http://88.212.15.17/live/ozone/index.m3u8",
       "http://88.212.15.19/live/ozone/index.m3u8"
     ]
@@ -968,6 +1000,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/prime/index.m3u8",
       "http://88.212.15.17/live/prime/index.m3u8",
       "http://88.212.15.19/live/prime/index.m3u8"
     ]
@@ -1015,6 +1048,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1036,6 +1070,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1047,6 +1082,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_rtl2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_rtl2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_rtl2_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1060,6 +1096,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/rtl_otthon_atk/index.m3u8",
       "http://88.212.15.17/live/rtl_otthon_atk/index.m3u8",
       "http://88.212.15.19/live/rtl_otthon_atk/index.m3u8"
     ]
@@ -1085,6 +1122,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_slager_tv_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_slager_tv_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_slager_tv_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1108,6 +1146,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_sorozat_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_sorozat_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_sorozat_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1121,6 +1160,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/sorozatklub_atk/index.m3u8",
       "http://88.212.15.17/live/sorozatklub_atk/index.m3u8",
       "http://88.212.15.19/live/sorozatklub_atk/index.m3u8"
     ]
@@ -1134,6 +1174,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/spektrum_hun/index.m3u8",
       "http://88.212.15.17/live/spektrum_hun/index.m3u8",
       "http://88.212.15.19/live/spektrum_hun/index.m3u8"
     ]
@@ -1147,6 +1188,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/spektrum_home_hun/index.m3u8",
       "http://88.212.15.17/live/spektrum_home_hun/index.m3u8",
       "http://88.212.15.19/live/spektrum_home_hun/index.m3u8"
     ]
@@ -1160,6 +1202,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/spiler1/index.m3u8",
       "http://88.212.15.17/live/spiler1/index.m3u8",
       "http://88.212.15.19/live/spiler1/index.m3u8"
     ]
@@ -1173,6 +1216,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/spiler2/index.m3u8",
       "http://88.212.15.17/live/spiler2/index.m3u8",
       "http://88.212.15.19/live/spiler2/index.m3u8"
     ]
@@ -1186,6 +1230,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/sport1_hun/index.m3u8",
       "http://88.212.15.17/live/sport1_hun/index.m3u8",
       "http://88.212.15.19/live/sport1_hun/index.m3u8"
     ]
@@ -1199,6 +1244,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/sport2_hun/index.m3u8",
       "http://88.212.15.17/live/sport2_hun/index.m3u8",
       "http://88.212.15.19/live/sport2_hun/index.m3u8"
     ]
@@ -1210,6 +1256,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_story_4_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_story_4_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_story_4_atk_1200/playlist.m3u8"
     ]
@@ -1221,6 +1268,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_super_tv2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_super_tv2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_super_tv2_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1282,6 +1330,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_fishing_hunting/playlist.m3u8",
       "http://88.212.15.17/live/test_fishing_hunting/playlist.m3u8",
       "http://88.212.15.19/live/test_fishing_hunting/playlist.m3u8"
     ]
@@ -1315,6 +1364,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_tv_2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_tv_2_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_tv_2_hungary_1200_atk/playlist.m3u8"
     ]
@@ -1328,6 +1378,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/tv2_comedy/index.m3u8",
       "http://88.212.15.17/live/tv2_comedy/index.m3u8",
       "http://88.212.15.19/live/tv2_comedy/index.m3u8"
     ]
@@ -1341,6 +1392,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/tv2_kids/index.m3u8",
       "http://88.212.15.17/live/tv2_kids/index.m3u8",
       "http://88.212.15.19/live/tv2_kids/index.m3u8"
     ]
@@ -1352,6 +1404,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_lichi_tv_atk_tv/playlist.m3u8",
       "http://88.212.15.17/live/test_lichi_tv_atk_tv/playlist.m3u8",
       "http://88.212.15.19/live/test_lichi_tv_atk_tv/playlist.m3u8"
     ]
@@ -1363,6 +1416,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_tv_4_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_tv_4_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8"
     ]
@@ -1442,6 +1496,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/viasat2/index.m3u8",
       "http://88.212.15.17/live/viasat2/index.m3u8",
       "http://88.212.15.19/live/viasat2/index.m3u8"
     ]
@@ -1453,6 +1508,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/viasat3/index.m3u8",
       "http://88.212.15.17/live/viasat3/index.m3u8",
       "http://88.212.15.19/live/viasat3/index.m3u8"
     ]
@@ -1464,6 +1520,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/viasat6/index.m3u8",
       "http://88.212.15.17/live/viasat6/index.m3u8",
       "http://88.212.15.19/live/viasat6/index.m3u8"
     ]
@@ -1543,6 +1600,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/zenebutik/index.m3u8",
       "http://88.212.15.17/live/zenebutik/index.m3u8",
       "http://88.212.15.19/live/zenebutik/index.m3u8"
     ]
@@ -1568,6 +1626,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/fishing_hun/index.m3u8",
       "http://88.212.15.17/live/fishing_hun/index.m3u8",
       "http://88.212.15.19/live/fishing_hun/index.m3u8"
     ]
@@ -1582,6 +1641,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/parpika_hun/index.m3u8",
       "http://88.212.15.17/live/parpika_hun/index.m3u8",
       "http://88.212.15.19/live/parpika_hun/index.m3u8"
     ]
@@ -1595,6 +1655,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/jim_jam_hun/index.m3u8",
       "http://88.212.15.17/live/jim_jam_hun/index.m3u8",
       "http://88.212.15.19/live/jim_jam_hun/index.m3u8"
     ]
@@ -1606,6 +1667,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/story_4_cze_atk/index.m3u8",
       "http://88.212.15.17/live/story_4_cze_atk/index.m3u8",
       "http://88.212.15.19/live/story_4_cze_atk/index.m3u8"
     ]
@@ -1659,18 +1721,6 @@
     ]
   },
   {
-    "id": "FilmMania.hu@SD",
-    "name": "Film Mania (576p)",
-    "country": "HU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/filmmania/mono.m3u8"
-    ]
-  },
-  {
     "id": "MAX4.hu@SD",
     "name": "MAX4 (1080p)",
     "country": "HU",
@@ -1703,6 +1753,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/arena4/index.m3u8",
       "http://88.212.15.17/live/arena4/index.m3u8"
     ]
   },
@@ -1715,6 +1766,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/id_hun/index.m3u8",
       "http://88.212.15.17/live/id_hun/index.m3u8"
     ]
   },
@@ -1727,6 +1779,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/discovery_hungary/index.m3u8",
       "http://88.212.15.17/live/discovery_hungary/index.m3u8"
     ]
   },
@@ -1739,6 +1792,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/hgtv_hun/index.m3u8",
       "http://88.212.15.17/live/hgtv_hun/index.m3u8"
     ]
   },
@@ -1749,6 +1803,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/animal_hun/index.m3u8",
       "http://88.212.15.17/live/animal_hun/index.m3u8"
     ]
   },
@@ -1759,6 +1814,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/travel_hun/index.m3u8",
       "http://88.212.15.17/live/travel_hun/index.m3u8"
     ]
   },
@@ -1771,6 +1827,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/fn_hungary/index.m3u8",
       "http://88.212.15.17/live/fn_hungary/index.m3u8"
     ]
   },
@@ -1783,6 +1840,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/tlc_hungary/index.m3u8",
       "http://88.212.15.17/live/tlc_hungary/index.m3u8"
     ]
   },

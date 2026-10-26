@@ -158,6 +158,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_orf_zwei_tizen/playlist.m3u8",
       "http://88.212.15.17/live/test_orf_zwei_tizen/playlist.m3u8",
       "http://88.212.15.19/live/test_orf_zwei_tizen/playlist.m3u8"
     ]
@@ -364,7 +365,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8"
+      "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8",
+      "https://s6.hopslan.com/servuz1/index.m3u8"
     ]
   },
   {

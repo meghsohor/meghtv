@@ -1163,19 +1163,6 @@
     ]
   },
   {
-    "id": "NOWTV.tr@SD",
-    "name": "NOW TV (720p)",
-    "country": "TR",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
-      "http://116.202.238.88/FOXTV_TR/index.m3u8"
-    ]
-  },
-  {
     "id": "NTV.tr@SD",
     "name": "NTV",
     "country": "TR",
@@ -1819,16 +1806,6 @@
     "visible": true,
     "urls": [
       "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "TV100.tr@SD",
-    "name": "TV 100",
-    "country": "TR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8"
     ]
   },
   {

@@ -24,18 +24,6 @@
     ]
   },
   {
-    "id": "AlAlam.ir@SD",
-    "name": "Al Alam (360p)",
-    "country": "IR",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live2.alalam.ir/alalam.m3u8"
-    ]
-  },
-  {
     "id": "AlWilayah.ir@SD",
     "name": "Al Wilayah (720p)",
     "country": "IR",

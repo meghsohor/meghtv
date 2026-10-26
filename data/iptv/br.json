@@ -877,19 +877,6 @@
     ]
   },
   {
-    "id": "geFast.br@SD",
-    "name": "ge Fast (1080p)",
-    "country": "BR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
-      "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8"
-    ]
-  },
-  {
     "id": "Geekdot.br@SD",
     "name": "Geekdot (720p)",
     "country": "BR",
@@ -3284,18 +3271,6 @@
     "visible": true,
     "urls": [
       "https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "SporTV.br@SD",
-    "name": "SporTV (1080p)",
-    "country": "BR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://195.178.110.110/sportv/index.m3u8"
     ]
   },
   {

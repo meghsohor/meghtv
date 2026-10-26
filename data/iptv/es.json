@@ -476,6 +476,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/axn_hun/index.m3u8",
       "http://88.212.15.17/live/axn_hun/index.m3u8",
       "http://88.212.15.19/live/axn_hun/index.m3u8"
     ]
@@ -501,6 +502,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_axn/playlist.m3u8",
       "http://88.212.15.17/live/test_axn/playlist.m3u8",
       "http://88.212.15.19/live/test_axn/playlist.m3u8"
     ]
@@ -1131,18 +1133,6 @@
     ]
   },
   {
-    "id": "DeportesporMovistarPlusPlus.es@SD",
-    "name": "Deportes por Movistar Plus+",
-    "country": "ES",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/18/index.m3u8"
-    ]
-  },
-  {
     "id": "DiezTVLasVillas.es@SD",
     "name": "Diez TV Las Villas (1080p)",
     "country": "ES",
@@ -1680,18 +1670,6 @@
     ]
   },
   {
-    "id": "LigadeCampeonesporMovistarPlusPlus.es@SD",
-    "name": "Liga de Campeones por Movistar Plus+",
-    "country": "ES",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/36/index.m3u8"
-    ]
-  },
-  {
     "id": "LleidaTelevisio.es@SD",
     "name": "Lleida Televisió (1080p)",
     "country": "ES",
@@ -2198,6 +2176,7 @@
     "visible": true,
     "urls": [
       "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
+      "http://88.212.15.50/live/real_madrid_tv/index.m3u8",
       "http://88.212.15.17/live/real_madrid_tv/index.m3u8",
       "http://88.212.15.19/live/real_madrid_tv/index.m3u8"
     ]
@@ -2988,18 +2967,6 @@
     "visible": true,
     "urls": [
       "http://38.252.238.18:8000/play/a04a/index.m3u8"
-    ]
-  },
-  {
-    "id": "AXN.es@SD",
-    "name": "AXN (1080p)",
-    "country": "ES",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://193.254.245.162/AXN/index.m3u8"
     ]
   },
   {

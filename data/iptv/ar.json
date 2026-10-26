@@ -798,16 +798,6 @@
     ]
   },
   {
-    "id": "ChacoTV.ar@SD",
-    "name": "Chaco TV (720p) [Not 24/7]",
-    "country": "AR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8"
-    ]
-  },
-  {
     "id": "ChacraTV.ar@SD",
     "name": "Chacra TV",
     "country": "AR",
@@ -1132,18 +1122,6 @@
     "visible": true,
     "urls": [
       "https://stream1.sersat.com/hls/garagetv.m3u8"
-    ]
-  },
-  {
-    "id": "IPNoticias.ar@SD",
-    "name": "IP Noticias (720p)",
-    "country": "AR",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://twitch-m3u8.bastypro112.workers.dev/argentina_12tw/index.m3u8"
     ]
   },
   {
@@ -2061,18 +2039,6 @@
     ]
   },
   {
-    "id": "ElTreceInternacionalLatinAmerica.ar@SD",
-    "name": "El Trece Internacional Latin America (1080p)",
-    "country": "AR",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://200.7.99.59:8000/play/a0gm/index.m3u8"
-    ]
-  },
-  {
     "id": "Encuentro.ar@SD",
     "name": "Encuentro (720p)",
     "country": "AR",
@@ -2120,18 +2086,6 @@
     "urls": [
       "http://190.128.214.97:64333/play/a02r/index.m3u8",
       "http://138.59.227.20:8000/play/a05t/index.m3u8"
-    ]
-  },
-  {
-    "id": "CronicaTV.ar@SD",
-    "name": "Cronica TV (1080p)",
-    "country": "AR",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://190.128.214.97:64333/play/a010/index.m3u8"
     ]
   },
   {

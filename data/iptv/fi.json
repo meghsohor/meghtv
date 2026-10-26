@@ -227,18 +227,6 @@
     ]
   },
   {
-    "id": "ViaplayTV.fi@SD",
-    "name": "Viaplay TV (Finland) (720p) [Not 24/7]",
-    "country": "FI",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?hd=true"
-    ]
-  },
-  {
     "id": "YleTV1.fi@SD",
     "name": "YLE TV 1 (1080p) [Geo-blocked]",
     "country": "FI",

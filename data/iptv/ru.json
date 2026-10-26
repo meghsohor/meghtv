@@ -56,8 +56,9 @@
       "https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8",
       "http://stream.mcquack.net/237/index.m3u8",
       "https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv",
-      "http://88.212.15.17/live/test_vremya/playlist.m3u8",
+      "http://88.212.15.50/live/test_vremya/playlist.m3u8",
       "http://31.148.48.15/Vremya/index.m3u8",
+      "http://88.212.15.17/live/test_vremya/playlist.m3u8",
       "http://88.212.15.19/live/test_vremya/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Vremya/index.m3u8"
     ]
@@ -108,8 +109,9 @@
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
-      "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
+      "http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8",
       "http://31.148.48.15/Telekafe/index.m3u8",
+      "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
       "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Telekafe/index.m3u8"
     ]
@@ -470,12 +472,13 @@
       "https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8",
       "http://stream.mcquack.net/120/index.m3u8",
       "http://flussonic.linkintel.ru/Karusel/index.m3u8",
-      "http://88.212.15.17/live/test_karusel/playlist.m3u8",
+      "http://88.212.15.50/live/test_karusel/playlist.m3u8",
       "http://31.148.5.241/kanal_8/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/11.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/232.m3u8",
       "http://31.148.48.15/Karusel_HD/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8",
+      "http://88.212.15.17/live/test_karusel/playlist.m3u8",
       "http://88.212.15.19/live/test_karusel/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Karusel/index.m3u8"
     ]
@@ -712,8 +715,9 @@
     "urls": [
       "http://stream.mcquack.net/236/index.m3u8",
       "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
-      "http://88.212.15.17/live/test_dom_kino/playlist.m3u8",
+      "http://88.212.15.50/live/test_dom_kino/playlist.m3u8",
       "https://streaming.thestream.cyou/live/44.m3u8",
+      "http://88.212.15.17/live/test_dom_kino/playlist.m3u8",
       "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/Dom_kino/index.m3u8"
     ]
@@ -1757,6 +1761,7 @@
     "urls": [
       "http://stream.mcquack.net/153/index.m3u8",
       "https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8",
+      "http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8",
       "http://88.212.15.17/live/test_muzyka_pervogo/playlist.m3u8",
       "http://88.212.15.19/live/test_muzyka_pervogo/playlist.m3u8"
     ]
@@ -2140,18 +2145,6 @@
     ]
   },
   {
-    "id": "OkkoSport.ru@SD",
-    "name": "Okko Sport (1080p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://stream.mcquack.net/492/index.m3u8"
-    ]
-  },
-  {
     "id": "Ostrosyuzhetnoye.ru@HD",
     "name": "Ostrosyuzhetnoye HD (1080p)",
     "country": "RU",
@@ -2236,22 +2229,6 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/198/index.m3u8"
-    ]
-  },
-  {
-    "id": "Pro100TV.ru@SD",
-    "name": "Pro100TV (576p)",
-    "country": "RU",
-    "categories": [
-      "movies",
-      "entertainment",
-      "family",
-      "classic",
-      "animation"
-    ],
-    "visible": true,
-    "urls": [
-      "https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8"
     ]
   },
   {
@@ -3371,6 +3348,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/svoboda/index.m3u8",
       "http://88.212.15.17/live/svoboda/index.m3u8",
       "http://88.212.15.19/live/svoboda/index.m3u8"
     ]
@@ -4315,20 +4293,6 @@
     ]
   },
   {
-    "id": "Multimania.ru@SD",
-    "name": "Мультимания (576p)",
-    "country": "RU",
-    "categories": [
-      "animation",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8",
-      "http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8"
-    ]
-  },
-  {
     "id": "HopeChannelRussia.ru@SD",
     "name": "Надежда (720p)",
     "country": "RU",
@@ -5149,8 +5113,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.17/live/test_poehali/playlist.m3u8",
+      "http://88.212.15.50/live/test_poehali/playlist.m3u8",
       "http://31.148.48.15/Poehali/index.m3u8",
+      "http://88.212.15.17/live/test_poehali/playlist.m3u8",
       "https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv",
       "http://88.212.15.19/live/test_poehali/playlist.m3u8"
     ]
@@ -5210,19 +5175,6 @@
     ]
   },
   {
-    "id": "Oruzhie.ru@SD",
-    "name": "Oruzhie (576p)",
-    "country": "RU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv",
-      "http://str2.iptvhd.ru:8080/Oruzhie/index.m3u8"
-    ]
-  },
-  {
     "id": "RusskiyIllusion.ru@SD",
     "name": "Русский Иллюзион (576p)",
     "country": "RU",
@@ -5273,18 +5225,6 @@
     ]
   },
   {
-    "id": "STSkids.ru@International",
-    "name": "STS kids International (576p)",
-    "country": "RU",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv"
-    ]
-  },
-  {
     "id": "CarouselInternational.ru@SD",
     "name": "Carousel International (576p)",
     "country": "RU",
@@ -5305,6 +5245,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_telekanal_o/playlist.m3u8",
       "http://88.212.15.17/live/test_telekanal_o/playlist.m3u8",
       "https://fs.uplink.kz/o/mono.m3u8?token=onlinetv"
     ]
@@ -5317,6 +5258,7 @@
     "visible": true,
     "urls": [
       "https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv",
+      "http://88.212.15.50/live/test_bober/playlist.m3u8",
       "http://88.212.15.17/live/test_bober/playlist.m3u8",
       "http://88.212.15.19/live/test_bober/playlist.m3u8"
     ]
@@ -5498,18 +5440,6 @@
     ]
   },
   {
-    "id": "Rybalkaiokhota.ru@SD",
-    "name": "Rybalka i okhota (576p)",
-    "country": "RU",
-    "categories": [
-      "outdoor"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fs.uplink.kz/ohota_i_ribalka/mono.m3u8?token=onlinetv"
-    ]
-  },
-  {
     "id": "FridayInternational.ru@Kazakhstan",
     "name": "Friday! International Kazakhstan (576p)",
     "country": "RU",
@@ -5575,18 +5505,6 @@
     ]
   },
   {
-    "id": "MusicBoxGold.ru@SD",
-    "name": "MusicBox Gold (576p)",
-    "country": "RU",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/360TuneBox/index.m3u8"
-    ]
-  },
-  {
     "id": "Channel5.ru@SD",
     "name": "Channel 5 (576p)",
     "country": "RU",
@@ -5599,30 +5517,6 @@
       "https://streaming.televizor-24-tochka.ru/live/8.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8",
       "http://str2.iptvhd.ru:8080/5_kanal/index.m3u8"
-    ]
-  },
-  {
-    "id": "Bollywood.ru@SD",
-    "name": "Bollywood (576p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/bollywood/index.m3u8"
-    ]
-  },
-  {
-    "id": "ExtremeSportsChannel.ru@HD",
-    "name": "Extreme Sports Channel HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8"
     ]
   },
   {
@@ -5639,18 +5533,6 @@
     ]
   },
   {
-    "id": "Muzhskoy.ru@SD",
-    "name": "Muzhskoy (1080p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Muzhskoy/index.m3u8"
-    ]
-  },
-  {
     "id": "NationalGeographicWild.ru@HD",
     "name": "National Geographic Wild HD",
     "country": "RU",
@@ -5661,18 +5543,6 @@
     "urls": [
       "http://178.76.68.60:7442/50/mpegts",
       "http://str2.iptvhd.ru:8080/Nat_Geo_Wild_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "NationalGeographic.ru@HD",
-    "name": "National Geographic HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/National_Geo_HD/index.m3u8"
     ]
   },
   {
@@ -5689,30 +5559,6 @@
     ]
   },
   {
-    "id": "RENTV.ru@HD",
-    "name": "REN TV HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/REN_TV/index.m3u8"
-    ]
-  },
-  {
-    "id": "FoodTime.ru@HD",
-    "name": "FoodTime (1080p)",
-    "country": "RU",
-    "categories": [
-      "cooking"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Eda/index.m3u8"
-    ]
-  },
-  {
     "id": "Teleputeshestviya.ru@SD",
     "name": "Телепутешествия (576p)",
     "country": "RU",
@@ -5723,54 +5569,6 @@
     "urls": [
       "http://31.148.48.15/Teleputeshestviya/index.m3u8",
       "http://str2.iptvhd.ru:8080/Teleputeshestviya/index.m3u8"
-    ]
-  },
-  {
-    "id": "TNT4.ru@HD",
-    "name": "TNT4 HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/TNT_4/index.m3u8"
-    ]
-  },
-  {
-    "id": "FX.ru@SD",
-    "name": "FX (1080p)",
-    "country": "RU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "STARTAir.ru@HD",
-    "name": "START Air HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/START_Air_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "STARTWorld.ru@HD",
-    "name": "START World HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/START_World_HD/index.m3u8"
     ]
   },
   {
@@ -5788,97 +5586,6 @@
     ]
   },
   {
-    "id": "vijuNature.ru@HD",
-    "name": "viju Nature HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Viasat_Nature_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "Tochkarf.ru@HD",
-    "name": "Tochka.rf (576p)",
-    "country": "RU",
-    "categories": [
-      "documentary",
-      "travel"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/HD_Life/index.m3u8"
-    ]
-  },
-  {
-    "id": "Vmirezhivotnykh.ru@HD",
-    "name": "V mire zhivotnykh HD (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Animal_Family_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "PervyyKosmicheskiy.ru@HD",
-    "name": "Pervyy Kosmicheskiy HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "science"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Eureka_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "History2.ru@SD",
-    "name": "History 2 (1080p)",
-    "country": "RU",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/H2_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "FXLife.ru@SD",
-    "name": "FX Life (576p)",
-    "country": "RU",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Fox_Life_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "SSSRTV.ru@SD",
-    "name": "SSSR TV (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/sssr_kino/index.m3u8"
-    ]
-  },
-  {
-    "id": "StrashnoeHD.ru@SD",
-    "name": "Strashnoe HD (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/StrashnoeHD/index.m3u8"
-    ]
-  },
-  {
     "id": "RussianExtreme.ru@SD",
     "name": "Русский Экстрим (576p)",
     "country": "RU",
@@ -5889,28 +5596,6 @@
     "urls": [
       "http://31.148.48.15/Russkiy_Ekstrim/index.m3u8",
       "http://str2.iptvhd.ru:8080/Russkiy_ekstrim/index.m3u8"
-    ]
-  },
-  {
-    "id": "Romantichnoe.ru@HD",
-    "name": "Romantichnoe HD (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Semeynoe_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "KapitanFantastika.ru@HD",
-    "name": "Kapitan Fantastika HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Ginger_HD/index.m3u8"
     ]
   },
   {
@@ -5927,88 +5612,6 @@
     ]
   },
   {
-    "id": "Kamedi.ru@HD",
-    "name": "Kamedi HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Kinopokaz_HD2/index.m3u8"
-    ]
-  },
-  {
-    "id": "ProLyubov.ru@HD",
-    "name": "Pro Lyubov HD (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/pro_lyubov/index.m3u8"
-    ]
-  },
-  {
-    "id": "FastFunBox.ru@HD",
-    "name": "Fast&FunBox HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/FastFunBoxHD/index.m3u8"
-    ]
-  },
-  {
-    "id": "Detskimir.ru@SD",
-    "name": "Detski mir (576p)",
-    "country": "RU",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Teleklub/index.m3u8"
-    ]
-  },
-  {
-    "id": "BRIDGEFresh.ru@SD",
-    "name": "BRIDGE Fresh (1080p)",
-    "country": "RU",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Bridge_TV_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "KHLPrime.ru@HD",
-    "name": "KHL Prime (1080p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/KHL_TV_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "MatchIgra.ru@HD",
-    "name": "Match! Igra HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Match_Igra_HD/index.m3u8"
-    ]
-  },
-  {
     "id": "DomkinoPremium.ru@SD",
     "name": "Dom kino Premium (576p)",
     "country": "RU",
@@ -6017,8 +5620,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.17/live/test_dom_kino_premium/playlist.m3u8",
+      "http://88.212.15.50/live/test_dom_kino_premium/playlist.m3u8",
       "http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8",
+      "http://88.212.15.17/live/test_dom_kino_premium/playlist.m3u8",
       "http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8"
     ]
   },
@@ -6078,18 +5682,6 @@
     "visible": true,
     "urls": [
       "http://195.26.83.96:7029/play/a006"
-    ]
-  },
-  {
-    "id": "SetantaSports1.ru@HD",
-    "name": "Setanta Sports 1 HD",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -6159,6 +5751,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://91.224.16.9:7779/Oplot_2/index.m3u8",
       "http://iptv.mega.net.ru:8888/Oplot_2/index.m3u8"
     ]
   },
@@ -6280,18 +5873,6 @@
     "visible": true,
     "urls": [
       "https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8"
-    ]
-  },
-  {
-    "id": "NovyiRusskii.ru@HD",
-    "name": "Новый Русский (720p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8"
     ]
   },
   {
@@ -6477,16 +6058,6 @@
     "urls": [
       "https://krasnodar.mediacdn.ru/live/cdn/krasnodar/playlist.m3u8",
       "https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "ShayanTV.ru@SD",
-    "name": "Шаян ТВ (Татарстан) (1080p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://shayan.bonus-tv.ru/cdn/shayan/playlist.m3u8"
     ]
   },
   {

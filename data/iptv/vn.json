@@ -265,31 +265,6 @@
     ]
   },
   {
-    "id": "HanoiTV2.vn@SD",
-    "name": "HanoiTV2 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "HTV9.vn@HD",
-    "name": "HTV9 HD (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "news",
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8"
-    ]
-  },
-  {
     "id": "HTV4.vn@SD",
     "name": "HTV4 (1080p)",
     "country": "VN",
@@ -312,41 +287,8 @@
     "visible": true,
     "urls": [
       "https://dethich.pw/htvthethao/index.m3u8",
+      "https://vmttv.dpdns.org/tv360/?id=htv-the-thao",
       "https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8"
-    ]
-  },
-  {
-    "id": "ThuaThienHueTV.vn@SD",
-    "name": "Huế TV (720p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8"
-    ]
-  },
-  {
-    "id": "KhanhHoaTV.vn@SD",
-    "name": "Khanh Hoa TV (1080p)",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video"
-    ]
-  },
-  {
-    "id": "LamDongTV.vn@SD",
-    "name": "Lâm Đồng TV (480p)",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://118.107.85.5:1935/live/smil:LTV.smil/chunklist.m3u8"
     ]
   },
   {
@@ -371,18 +313,6 @@
     "visible": true,
     "urls": [
       "https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8"
-    ]
-  },
-  {
-    "id": "NinhThuanTV.vn@SD",
-    "name": "Ninh Thuan TV (1080p)",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video"
     ]
   },
   {
@@ -483,16 +413,6 @@
     "visible": true,
     "urls": [
       "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8"
-    ]
-  },
-  {
-    "id": "SCTV5.vn@HD",
-    "name": "SCTV5 (720p)",
-    "country": "VN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://liveh34.vtvprime.vn/hls/SCTV5/01.m3u8?note=TheWavesIPTV"
     ]
   },
   {
@@ -697,33 +617,6 @@
     ]
   },
   {
-    "id": "TraVinhTV.vn@HD",
-    "name": "Vĩnh Long TV5 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "culture",
-      "entertainment",
-      "music",
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live.fptplay53.net/epzsd1/vinhlong5_vhls.smil/chunklist.m3u8"
-    ]
-  },
-  {
-    "id": "VSBetHD.vn@HD",
-    "name": "VSBet HD (1080p)",
-    "country": "VN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live05.meung.app/live/16226575.m3u8"
-    ]
-  },
-  {
     "id": "VTV1.vn@HD",
     "name": "VTV1 HD (1080p)",
     "country": "VN",
@@ -872,16 +765,6 @@
       "https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8",
       "https://live-a.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8",
       "https://live.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8"
-    ]
-  },
-  {
-    "id": "VTV10.vn@SD",
-    "name": "VTV10 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8"
     ]
   },
   {
@@ -1136,7 +1019,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://freem3u.xyz/api/live/play.m3u8?vid=180"
+      "https://freem3u.xyz/api/live/play.m3u8?vid=180",
+      "https://tv.vietanhtv.top/vieon/vieon.php?id=vie-giai-tri-hd"
     ]
   },
   {
@@ -1149,6 +1033,67 @@
     "visible": true,
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=136"
+    ]
+  },
+  {
+    "id": "ONStyleTV.vn@SD",
+    "name": "ON Style TV (1080p)",
+    "country": "VN",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=184"
+    ]
+  },
+  {
+    "id": "ONVieDramas.vn@SD",
+    "name": "ON Vie Dramas (1080i)",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=177"
+    ]
+  },
+  {
+    "id": "HTVCMovies.vn@SD",
+    "name": "HTVC Movies (720p)",
+    "country": "VN",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htvcphim/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTVCWomen.vn@SD",
+    "name": "HTVC Women (720p)",
+    "country": "VN",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htvcphunu/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTVCFamily.vn@SD",
+    "name": "HTVC Family (720p)",
+    "country": "VN",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htvcgiadinh/index.m3u8"
     ]
   }
 ]

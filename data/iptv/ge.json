@@ -239,15 +239,5 @@
     "urls": [
       "http://158.101.222.193:88/georgia_play.php?id=gms"
     ]
-  },
-  {
-    "id": "Maestro.ge@SD",
-    "name": "Maestro (576p)",
-    "country": "GE",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/maestro/index.m3u8"
-    ]
   }
 ]

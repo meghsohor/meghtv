@@ -1719,19 +1719,6 @@
     ]
   },
   {
-    "id": "MNCTV.id@HD",
-    "name": "MNCTV HD",
-    "country": "ID",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8",
-      "https://mncmedia.malingtv.workers.dev/mnctv.m3u8"
-    ]
-  },
-  {
     "id": "GTV.id@HD",
     "name": "GTV HD",
     "country": "ID",
@@ -1812,30 +1799,6 @@
     "urls": [
       "http://ikitv.sqn.at:8000/play/a023/index.m3u8",
       "http://202.150.172.59/VTVHD/index.m3u8"
-    ]
-  },
-  {
-    "id": "SPOTV.id@SD",
-    "name": "SPOTV (720p)",
-    "country": "ID",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10006/bysid/2614"
-    ]
-  },
-  {
-    "id": "SPOTV2.id@SD",
-    "name": "SPOTV 2 (720p)",
-    "country": "ID",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10006/bysid/2630"
     ]
   },
   {

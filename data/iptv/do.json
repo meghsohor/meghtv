@@ -274,6 +274,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://cdnfox.hostlagarto.com/canatvdigital/index.m3u8",
       "https://stream.hostuis.com:19360/canatvdigital/canatvdigital.m3u8"
     ]
   },
@@ -858,13 +859,14 @@
   },
   {
     "id": "Farovision.do@SD",
-    "name": "Farovisión (720p)",
+    "name": "Farovision (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://5790d294af2dc.streamlock.net/femeninatv/femeninatv/playlist.m3u8",
       "https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8"
     ]
   },
@@ -954,13 +956,14 @@
   },
   {
     "id": "GlobalTV.do@SD",
-    "name": "Global TV (720p)",
+    "name": "Global TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://vtm1.msinteractiva.com./globaltv/globaltv/playlist.m3u8",
       "https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8"
     ]
   },
@@ -1230,15 +1233,16 @@
   },
   {
     "id": "LarivisionTV.do@HD",
-    "name": "Larivision TV [Not 24/7]",
+    "name": "Larivision TV",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://live.larimartv.net/livelan/stream.m3u8",
-      "https://cloud5.larivision.net/hls/live.m3u8"
+      "https://cloud5.larivision.net/hls/live.m3u8",
+      "https://live.larivision.net/livelan/live.m3u8",
+      "https://live.larimartv.net/livelan/stream.m3u8"
     ]
   },
   {
@@ -2450,13 +2454,14 @@
   },
   {
     "id": "TurismoRDTV.do@HD",
-    "name": "Turismo RDTV (720p)",
+    "name": "Turismo RDTV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
+      "https://5790d294af2dc.streamlock.net/yosoyturismotv/live/playlist.m3u8",
       "https://streamunoapp.com:3086/live/telemileniolive.m3u8"
     ]
   },
@@ -2842,6 +2847,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://5790d294af2dc.streamlock.net/manieltv/manieltv/playlist.m3u8",
       "https://mp.panelchs.com/hls/8024/8024.m3u8"
     ]
   },
@@ -2854,6 +2860,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://cdn.streamrd.cloud/live/ch_kb5qe1zr.m3u8",
       "https://mp.panelchs.com/hls/8032/8032.m3u8"
     ]
   },

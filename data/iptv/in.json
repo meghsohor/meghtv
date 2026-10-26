@@ -7551,18 +7551,6 @@
     ]
   },
   {
-    "id": "SonySportsTen2.in@HD",
-    "name": "Sony Sports Ten 2 HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8"
-    ]
-  },
-  {
     "id": "SonySportsTen3Hindi.in@SD",
     "name": "Sony Sports Ten 3 Hindi (576p)",
     "country": "IN",
@@ -7573,42 +7561,6 @@
     "urls": [
       "http://103.151.60.162:2122/play/a01t/index.m3u8?hls",
       "https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
-    ]
-  },
-  {
-    "id": "SonySportsTen3Hindi.in@HD",
-    "name": "Sony Sports Ten 3 Hindi HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8"
-    ]
-  },
-  {
-    "id": "SonySportsTen4.in@Tamil",
-    "name": "Sony Sports Ten 4 (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cloudplay-sonyliv.pages.dev/ten4.m3u8"
-    ]
-  },
-  {
-    "id": "SonySportsTen4.in@Telugu",
-    "name": "Sony Sports Ten 4 Telugu (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8"
     ]
   },
   {
@@ -9062,30 +9014,6 @@
     ]
   },
   {
-    "id": "FashionTV.in@SD",
-    "name": "FashionTV (1080p)",
-    "country": "IN",
-    "categories": [
-      "lifestyle"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/ftvhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "NationalGeographicWild.in@SD",
-    "name": "National Geographic Wild (576p)",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/natgeowild/index.m3u8"
-    ]
-  },
-  {
     "id": "4TVNews.in@SD",
     "name": "4TV News (576p)",
     "country": "IN",
@@ -9096,30 +9024,6 @@
     "urls": [
       "https://cdn.pishow.tv/ott/live/1007/master.m3u8",
       "http://51.75.127.199:3141/4tv/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarGold.in@SD",
-    "name": "Star Gold (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/stargold/index.m3u8"
-    ]
-  },
-  {
-    "id": "DisneyChannel.in@SD",
-    "name": "Disney Channel (576p)",
-    "country": "IN",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/disneychannel/index.m3u8"
     ]
   },
   {
@@ -9150,16 +9054,6 @@
     ]
   },
   {
-    "id": "TV100.in@SD",
-    "name": "TV 100 (576p)",
-    "country": "IN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/tv100/index.m3u8"
-    ]
-  },
-  {
     "id": "DisneyJunior.in@SD",
     "name": "Disney Junior (576p)",
     "country": "IN",
@@ -9186,18 +9080,6 @@
     ]
   },
   {
-    "id": "TV24.in@SD",
-    "name": "TV 24 (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/tv24/index.m3u8"
-    ]
-  },
-  {
     "id": "ZeeTV.in@SD",
     "name": "Zee TV (576p)",
     "country": "IN",
@@ -9208,126 +9090,6 @@
     "urls": [
       "http://103.151.60.162:2122/play/a01u/index.m3u8?hls",
       "http://51.75.127.199:3141/zeetv/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarPlus.in@SD",
-    "name": "StarPlus (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starplus/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarBharat.in@SD",
-    "name": "Star Bharat (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starbharat/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarUtsav.in@SD",
-    "name": "Star Utsav (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starutsav/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarUtsavMovies.in@SD",
-    "name": "Star Utsav Movies (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starutsavmovies/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarPravah.in@SD",
-    "name": "Star Pravah (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starpravah/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarVijay.in@SD",
-    "name": "Star Vijay (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starvijay/index.m3u8"
-    ]
-  },
-  {
-    "id": "VijaySuper.in@SD",
-    "name": "Vijay Super (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/vijaysuper/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarSuvarna.in@SD",
-    "name": "Star Suvarna (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starsuvarna/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarSuvarnaPlus.in@SD",
-    "name": "Star Suvarna Plus (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starsuvarnaplus/index.m3u8"
-    ]
-  },
-  {
-    "id": "Asianet.in@SD",
-    "name": "Asianet (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/asianet/index.m3u8"
     ]
   },
   {
@@ -9344,90 +9106,6 @@
     ]
   },
   {
-    "id": "StarGold2.in@SD",
-    "name": "Star Gold 2 (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/stargold2/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMaa.in@SD",
-    "name": "Star Maa (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starmaa/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMaaMovies.in@SD",
-    "name": "Star Maa Movies (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starmaamovies/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMaaMusic.in@SD",
-    "name": "Star Maa Music (576p)",
-    "country": "IN",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starmaamusic/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMaaGold.in@SD",
-    "name": "Star Maa Gold (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starmaagold/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarSportsKhel.in@SD",
-    "name": "Star Sports Khel (576p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starsportskhel/index.m3u8"
-    ]
-  },
-  {
-    "id": "BigMagic.in@SD",
-    "name": "Big Magic (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/bigmagic/index.m3u8"
-    ]
-  },
-  {
     "id": "B4UBhojpuri.in@Plus",
     "name": "B4U Bhojpuri Plus (1080p)",
     "country": "IN",
@@ -9438,18 +9116,6 @@
     "urls": [
       "https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8",
       "http://51.75.127.199:3141/b4ubhojpuri/index.m3u8"
-    ]
-  },
-  {
-    "id": "RomedyNow.in@SD",
-    "name": "Romedy Now (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/romedynow/index.m3u8"
     ]
   },
   {
@@ -9466,30 +9132,6 @@
     ]
   },
   {
-    "id": "ColorsKannadaCinema.in@SD",
-    "name": "Colors Kannada Cinema (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorskannadacinema/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsGujaratiCinema.in@SD",
-    "name": "Colors Gujarati Cinema (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorsgujaraticinema/index.m3u8"
-    ]
-  },
-  {
     "id": "ZeeTalkies.in@HD",
     "name": "Zee Talkies HD (1080p)",
     "country": "IN",
@@ -9500,66 +9142,6 @@
     "urls": [
       "http://107.167.16.138/zeetalkies/index.m3u8?token=test",
       "http://51.75.127.199:3141/zeetalkieshd/index.m3u8"
-    ]
-  },
-  {
-    "id": "Unite8Sports1.in@HD",
-    "name": "Unite8 Sports 1 HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/zeecafehd/index.m3u8"
-    ]
-  },
-  {
-    "id": "Unite8Sports2.in@HD",
-    "name": "Unite8 Sports 2 HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/andflixhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZeePower.in@HD",
-    "name": "Zee Power HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/zeepowerhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZeeKeralam.in@HD",
-    "name": "Zee Keralam HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/zeekeralamhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZeePunjabi.in@SD",
-    "name": "Zee Punjabi (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/zeepunjabi/index.m3u8"
     ]
   },
   {
@@ -9587,42 +9169,6 @@
     ]
   },
   {
-    "id": "ColorsCineplexSuperhits.in@SD",
-    "name": "Colors Cineplex Superhits (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorscineplexsuperhit/index.m3u8"
-    ]
-  },
-  {
-    "id": "NickHDPlus.in@HD",
-    "name": "Nick HD+ (1080p)",
-    "country": "IN",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/nickhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarBharat.in@HD",
-    "name": "Star Bharat HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starbharathd/index.m3u8"
-    ]
-  },
-  {
     "id": "HistoryTV18.in@SD",
     "name": "History TV18 (576p)",
     "country": "IN",
@@ -9633,54 +9179,6 @@
     "urls": [
       "http://103.151.60.162:2122/play/a00y/index.m3u8?hls",
       "http://51.75.127.199:3141/historytv18/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsTamil.in@SD",
-    "name": "Colors Tamil (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorstamil/index.m3u8"
-    ]
-  },
-  {
-    "id": "SidharthTV.in@SD",
-    "name": "Sidharth TV (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/sidharthtv/index.m3u8"
-    ]
-  },
-  {
-    "id": "SidharthGold.in@SD",
-    "name": "Sidharth Gold (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/sidharthgold/index.m3u8"
-    ]
-  },
-  {
-    "id": "SidharthUtsav.in@SD",
-    "name": "Sidharth Utsav (576p)",
-    "country": "IN",
-    "categories": [
-      "religious"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/sidharthbhakti/index.m3u8"
     ]
   },
   {
@@ -9697,186 +9195,6 @@
     ]
   },
   {
-    "id": "RaftaarSamay.in@SD",
-    "name": "Raftaar Samay (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/raftaarsamay/index.m3u8"
-    ]
-  },
-  {
-    "id": "NakshatraDigitalTV.in@SD",
-    "name": "Nakshatra Digital TV (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/nakshatradigitaltv/index.m3u8"
-    ]
-  },
-  {
-    "id": "India24x7.in@SD",
-    "name": "India 24x7 (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/india24x7/index.m3u8"
-    ]
-  },
-  {
-    "id": "FashionIndia.in@SD",
-    "name": "Fashion India (720p)",
-    "country": "IN",
-    "categories": [
-      "lifestyle"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/fashionindia/index.m3u8"
-    ]
-  },
-  {
-    "id": "RSBharat.in@SD",
-    "name": "RS Bharat (576p)",
-    "country": "IN",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/rsbharat/index.m3u8"
-    ]
-  },
-  {
-    "id": "SadvidyaTV.in@SD",
-    "name": "Sadvidya TV (576p)",
-    "country": "IN",
-    "categories": [
-      "religious"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/sadvidyatv/index.m3u8"
-    ]
-  },
-  {
-    "id": "KKDNews.in@SD",
-    "name": "KKD News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/kkdnews/index.m3u8"
-    ]
-  },
-  {
-    "id": "SamacharNation.in@SD",
-    "name": "Samachar Nation (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/samacharnation/index.m3u8"
-    ]
-  },
-  {
-    "id": "IN24News.in@SD",
-    "name": "IN 24 News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/in24news/index.m3u8"
-    ]
-  },
-  {
-    "id": "BS9News.in@SD",
-    "name": "BS9 News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/bs9news/index.m3u8"
-    ]
-  },
-  {
-    "id": "News21.in@SD",
-    "name": "News 21 (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/news21/index.m3u8"
-    ]
-  },
-  {
-    "id": "VNMTV.in@SD",
-    "name": "VNM TV (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/vnmtv/index.m3u8"
-    ]
-  },
-  {
-    "id": "ABCNews.in@SD",
-    "name": "ABC News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/abcnews/index.m3u8"
-    ]
-  },
-  {
-    "id": "BBCNewsHindi.in@SD",
-    "name": "BBC News Hindi (1080p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/bbcnewshindi/index.m3u8"
-    ]
-  },
-  {
-    "id": "NewsFlash.in@SD",
-    "name": "News Flash (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/newsflash/index.m3u8"
-    ]
-  },
-  {
     "id": "7XMusic.in@SD",
     "name": "7X Music (360p)",
     "country": "IN",
@@ -9890,163 +9208,6 @@
     ]
   },
   {
-    "id": "STVHaryanaNews.in@SD",
-    "name": "STV Haryana News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/stvharyananews/index.m3u8"
-    ]
-  },
-  {
-    "id": "BharatNewsTV.in@SD",
-    "name": "Bharat News TV (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/bharatnewstv/index.m3u8"
-    ]
-  },
-  {
-    "id": "BuletinIndia.in@SD",
-    "name": "Buletin India (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/buletinindia/index.m3u8"
-    ]
-  },
-  {
-    "id": "ExpressNews.in@SD",
-    "name": "Express News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/expressnews/index.m3u8"
-    ]
-  },
-  {
-    "id": "AnaadiTV.in@SD",
-    "name": "Anaadi TV (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/anaaditv/index.m3u8"
-    ]
-  },
-  {
-    "id": "FMNews.in@SD",
-    "name": "FM News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/fmnews/index.m3u8"
-    ]
-  },
-  {
-    "id": "ANNNews.in@HD",
-    "name": "ANN News (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/annnews/index.m3u8"
-    ]
-  },
-  {
-    "id": "24HrsTV.in@SD",
-    "name": "24Hrs TV (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/24hrstv/index.m3u8"
-    ]
-  },
-  {
-    "id": "BVTV.in@SD",
-    "name": "BVTV (576p)",
-    "country": "IN",
-    "categories": [
-      "religious"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/bvtv/index.m3u8"
-    ]
-  },
-  {
-    "id": "KannurOne.in@SD",
-    "name": "Kannur One (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/kannurone/index.m3u8"
-    ]
-  },
-  {
-    "id": "ShikshaTV.in@SD",
-    "name": "Shiksha TV (576p)",
-    "country": "IN",
-    "categories": [
-      "culture",
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/shikshatv/index.m3u8"
-    ]
-  },
-  {
-    "id": "NewsOnly.in@SD",
-    "name": "News Only (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/newsonly/index.m3u8"
-    ]
-  },
-  {
-    "id": "WahPunjabi.in@SD",
-    "name": "Wah Punjabi (576p)",
-    "country": "IN",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/wahpunjabi/index.m3u8"
-    ]
-  },
-  {
     "id": "SantvaniChannel.in@SD",
     "name": "Santvani Channel (576p)",
     "country": "IN",
@@ -10056,30 +9217,6 @@
       "https://d1msejlow1t3l4.cloudfront.net/fta/santwani/playlist.m3u8",
       "https://cdn.pishow.tv/ott/live/475/master.m3u8",
       "http://51.75.127.199:3141/santvani/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsBangla.in@SD",
-    "name": "Colors Bangla (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorsbanglasd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsKannada.in@SD",
-    "name": "Colors Kannada (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorskannadasd/index.m3u8"
     ]
   },
   {
@@ -10096,18 +9233,6 @@
     ]
   },
   {
-    "id": "ColorsInfinity.in@SD",
-    "name": "Colors Infinity (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorsinfinitysd/index.m3u8"
-    ]
-  },
-  {
     "id": "ColorsInfinity.in@HD",
     "name": "Colors Infinity HD (1080p)",
     "country": "IN",
@@ -10118,30 +9243,6 @@
     "urls": [
       "http://103.151.60.162:2122/play/a02r/index.m3u8?hls",
       "http://51.75.127.199:3141/colorsinfinityhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsMarathi.in@SD",
-    "name": "Colors Marathi (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/colorsmarathisd/index.m3u8"
-    ]
-  },
-  {
-    "id": "SuryaSamachar.in@SD",
-    "name": "Surya Samachar (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/suryasamachar/index.m3u8"
     ]
   },
   {
@@ -10158,54 +9259,6 @@
     ]
   },
   {
-    "id": "TuljaBhavani.in@SD",
-    "name": "Tulja Bhavani (576p)",
-    "country": "IN",
-    "categories": [
-      "religious"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/tuljabhavani/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarGoldSelect.in@SD",
-    "name": "Star Gold Select (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/stargoldselect/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarGoldSelect.in@HD",
-    "name": "Star Gold Select HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/stargoldselecthd/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMovies.in@SD",
-    "name": "Star Movies (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/starmovies/index.m3u8"
-    ]
-  },
-  {
     "id": "StarMovies.in@HD",
     "name": "Star Movies HD (1080p)",
     "country": "IN",
@@ -10217,19 +9270,6 @@
       "http://103.185.24.134:3001/Star-Movies/index.m3u8",
       "http://103.151.60.162:2122/play/a02k/index.m3u8?hls",
       "http://51.75.127.199:3141/starmovieshd/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarMoviesSelect.in@HD",
-    "name": "Star Movies Select HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a02l/index.m3u8?hls",
-      "http://51.75.127.199:3141/starmoviesselecthd/index.m3u8"
     ]
   },
   {
@@ -10253,30 +9293,6 @@
     "visible": false,
     "urls": [
       "http://51.75.127.199:3141/propextv/index.m3u8"
-    ]
-  },
-  {
-    "id": "DNN.in@SD",
-    "name": "DNN (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/dnn/index.m3u8"
-    ]
-  },
-  {
-    "id": "LiveSamacharBharat.in@SD",
-    "name": "Live Samachar Bharat (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://51.75.127.199:3141/livesamacharbharat/index.m3u8"
     ]
   },
   {
@@ -11837,6 +10853,18 @@
     "visible": true,
     "urls": [
       "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etswadesh/etswadesh_master.m3u8"
+    ]
+  },
+  {
+    "id": "AMNTV.in@SD",
+    "name": "AMN TV (576p)",
+    "country": "IN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.onecloudlive.in/amn/amntv/index.m3u8"
     ]
   }
 ]

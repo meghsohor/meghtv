@@ -12,18 +12,6 @@
     ]
   },
   {
-    "id": "ArenaSport5Premium.rs@SD",
-    "name": "Arena Sport 5 Premium",
-    "country": "RS",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nl1.nghk.ai/SK2SRHD/index.m3u8"
-    ]
-  },
-  {
     "id": "DMSat.rs@SD",
     "name": "DM Sat (576p)",
     "country": "RS",

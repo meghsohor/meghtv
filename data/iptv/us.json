@@ -4449,6 +4449,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/viasat_film/index.m3u8",
       "http://88.212.15.17/live/viasat_film/index.m3u8",
       "http://88.212.15.19/live/viasat_film/index.m3u8"
     ]
@@ -7161,31 +7162,6 @@
     ]
   },
   {
-    "id": "Alhurra.us@SD",
-    "name": "Alhurra (720p)",
-    "country": "US",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
-      "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8"
-    ]
-  },
-  {
-    "id": "AlhurraIraq.us@SD",
-    "name": "Alhurra Iraq (720p)",
-    "country": "US",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8"
-    ]
-  },
-  {
     "id": "AlientoVision.us@SD",
     "name": "Aliento Vision (720p) [Not 24/7]",
     "country": "US",
@@ -7538,6 +7514,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_black/playlist.m3u8",
       "http://88.212.15.17/live/test_black/playlist.m3u8",
       "http://88.212.15.19/live/test_black/playlist.m3u8"
     ]
@@ -7656,6 +7633,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_white/playlist.m3u8",
       "http://88.212.15.17/live/test_white/playlist.m3u8",
       "http://88.212.15.19/live/test_white/playlist.m3u8"
     ]
@@ -8919,18 +8897,6 @@
     ]
   },
   {
-    "id": "DisneyChannel.us@East",
-    "name": "Disney Channel (720p) [Geo-blocked]",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://212.5.144.156/disney/index.m3u8"
-    ]
-  },
-  {
     "id": "DisneyJunior.us@East",
     "name": "Disney Junior (576p) [Geo-blocked]",
     "country": "US",
@@ -8948,13 +8914,14 @@
   },
   {
     "id": "DisneyXD.us@East",
-    "name": "Disney XD (720p)",
+    "name": "Disney XD (1080p)",
     "country": "US",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://89.187.179.148:826/1368/gXwiagaXda/1672",
       "http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8"
     ]
   },
@@ -9993,18 +9960,6 @@
     "visible": true,
     "urls": [
       "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8"
-    ]
-  },
-  {
-    "id": "InfoWars.us@SD",
-    "name": "InfoWars Network (1080p)",
-    "country": "US",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8"
     ]
   },
   {
@@ -11307,18 +11262,6 @@
     "visible": true,
     "urls": [
       "http://187.102.210.46/universo/index.m3u8"
-    ]
-  },
-  {
-    "id": "NBCUniverso.us@West",
-    "name": "NBC Universo West (720p)",
-    "country": "US",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://190.11.225.124:5000/live/universo_hd/playlist.m3u8"
     ]
   },
   {
@@ -14662,18 +14605,6 @@
     ]
   },
   {
-    "id": "STV.us@HD",
-    "name": "STV (360p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a81edf1063044437202e65c/master.m3u8"
-    ]
-  },
-  {
     "id": "ESPNDeportes.us@HD",
     "name": "ESPN Deportes HD (720p)",
     "country": "US",
@@ -14693,31 +14624,6 @@
     "visible": true,
     "urls": [
       "http://168.228.44.241:9998/play/a0e1/index.m3u8"
-    ]
-  },
-  {
-    "id": "SPremium.us@HD",
-    "name": "S Premium! (360p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8",
-      "https://vodcdn.bamboo-cloud.com/livehls/6aa1f82906304434d9688a53/master.m3u8"
-    ]
-  },
-  {
-    "id": "STomSings.us@HD",
-    "name": "S Tom Sings (1080p)",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8"
     ]
   },
   {
@@ -15078,19 +14984,6 @@
     ]
   },
   {
-    "id": "HBOMovies.us@East",
-    "name": "HBO Movies (720p)",
-    "country": "US",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8"
-    ]
-  },
-  {
     "id": "CinemaxClassics.us@East",
     "name": "Cinemax Classics (1080p)",
     "country": "US",
@@ -15137,18 +15030,6 @@
     "visible": true,
     "urls": [
       "https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8"
-    ]
-  },
-  {
-    "id": "SFree.us@HD",
-    "name": "S Free! (360p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8"
     ]
   },
   {
@@ -15293,19 +15174,6 @@
     "visible": true,
     "urls": [
       "https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8"
-    ]
-  },
-  {
-    "id": "SKPop.us@HD",
-    "name": "S KPop! (480p)",
-    "country": "US",
-    "categories": [
-      "music",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6aac8803063044569e156563/master.m3u8"
     ]
   },
   {
@@ -15464,31 +15332,6 @@
     "visible": true,
     "urls": [
       "http://190.197.41.183/TELEXITOS/index.m3u8"
-    ]
-  },
-  {
-    "id": "VH1.us@East",
-    "name": "VH1 (432p)",
-    "country": "US",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://193.254.245.162/VH1/index.m3u8"
-    ]
-  },
-  {
-    "id": "ParamountNetwork.us@East",
-    "name": "Paramount Network (432p)",
-    "country": "US",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://193.254.245.162/PARAMOUNT-CHANNEL/index.m3u8"
     ]
   },
   {
@@ -24135,18 +23978,6 @@
     ]
   },
   {
-    "id": "AnimalPlanet.us@EastHD",
-    "name": "Animal Planet East HD (720p)",
-    "country": "US",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://193.254.245.162/ANIMAL-PLANET/index.m3u8"
-    ]
-  },
-  {
     "id": "AmericanHeroesChannel.us@SD",
     "name": "American Heroes Channel (720p)",
     "country": "US",
@@ -24391,19 +24222,6 @@
     ]
   },
   {
-    "id": "HBO2LatinAmerica.us@SD",
-    "name": "HBO 2 Latin America (576p)",
-    "country": "US",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "http://38.65.175.84:8000/play/a0ct/index.m3u8"
-    ]
-  },
-  {
     "id": "HBO2LatinAmerica.us@HD",
     "name": "HBO 2 Latin America HD (1080p)",
     "country": "US",
@@ -24511,9 +24329,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8",
+      "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
       "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
-      "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1"
+      "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1",
+      "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8"
     ]
   },
   {
@@ -24725,18 +24544,6 @@
     ]
   },
   {
-    "id": "ESPN2.us@SD",
-    "name": "ESPN 2 (720p)",
-    "country": "US",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8"
-    ]
-  },
-  {
     "id": "DiscoveryFamily.us@East",
     "name": "Discovery Family (720p)",
     "country": "US",
@@ -24804,19 +24611,6 @@
     "visible": true,
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=216"
-    ]
-  },
-  {
-    "id": "CartoonNetworkLatinAmerica.us@Mexico",
-    "name": "Cartoon Network Latin America Mexico",
-    "country": "US",
-    "categories": [
-      "animation",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://zg9mhld.s.gy/HD-CARTOON-MX.ts"
     ]
   },
   {
@@ -24981,6 +24775,7 @@
     "visible": true,
     "urls": [
       "http://190.61.42.218:9000/play/a06i/index.m3u8",
+      "http://45.173.231.22:8000/play/a01i/index.m3u8",
       "http://200.62.239.170:830/play/a07n/index.m3u8"
     ]
   },

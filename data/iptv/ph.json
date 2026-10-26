@@ -1,17 +1,5 @@
 [
   {
-    "id": "KoolTV.ph@SD",
-    "name": "Kool TV (720p)",
-    "country": "PH",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://twitch-m3u8.bastypro112.workers.dev/kooltvlive/index.m3u8"
-    ]
-  },
-  {
     "id": "AbanteTV.ph@HD",
     "name": "Abante TV (1080p)",
     "country": "PH",

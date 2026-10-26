@@ -1707,18 +1707,6 @@
     ]
   },
   {
-    "id": "SportdigitalFUSSBALL.de@SD",
-    "name": "Sportdigital FUSSBALL",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8"
-    ]
-  },
-  {
     "id": "SRFernsehen.de@SD",
     "name": "SR Fernsehen (720p)",
     "country": "DE",
@@ -5426,6 +5414,18 @@
     "visible": true,
     "urls": [
       "https://rtmp.radiobozsike.com/hls/stream1.m3u8"
+    ]
+  },
+  {
+    "id": "DisneyChannel.de@HD",
+    "name": "Disney Channel HD",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.85.181.77:9981/stream/channelid/652495718?profile=pass"
     ]
   }
 ]

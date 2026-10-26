@@ -1589,18 +1589,6 @@
     ]
   },
   {
-    "id": "RaiSport.it@SD",
-    "name": "Rai Sport",
-    "country": "IT",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8"
-    ]
-  },
-  {
     "id": "RaiStoria.it@SD",
     "name": "Rai Storia (1080p)",
     "country": "IT",
@@ -2803,18 +2791,6 @@
     ]
   },
   {
-    "id": "ZonaDAZN.it@SD",
-    "name": "Zona DAZN",
-    "country": "IT",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/24/index.m3u8"
-    ]
-  },
-  {
     "id": "RaiNews24.it@HD",
     "name": "Rai News 24 HD (1080p)",
     "country": "IT",
@@ -2933,18 +2909,6 @@
     "urls": [
       "http://102.129.186.182:81/nick/index.m3u8",
       "https://streamer-jv9.pages.dev/italy/nickjr.m3u"
-    ]
-  },
-  {
-    "id": "HorrorChannel.it@SD",
-    "name": "Horror Channel (1080p)",
-    "country": "IT",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://str2.iptvhd.ru:8080/Horror/index.m3u8"
     ]
   },
   {
@@ -3117,20 +3081,6 @@
     "visible": true,
     "urls": [
       "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8"
-    ]
-  },
-  {
-    "id": "CartoonNetwork.it@HD",
-    "name": "Cartoon Network HD",
-    "country": "IT",
-    "categories": [
-      "animation",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://bin.webhookrelay.com/v1/webhooks/c804ab58-63c4-427d-bd2e-4d774eb34073",
-      "https://zg9mhld.s.gy/HD-CARTOON-IT.ts"
     ]
   },
   {
@@ -3307,6 +3257,31 @@
     "visible": true,
     "urls": [
       "https://tgrfriulibis-live.akamaized.net/hls/live/2025579/tgrfriulibis/tgrfriulibis/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Boing.it@HD",
+    "name": "Boing HD (1080p)",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDM5MjgwMDExMiJ9.0RWQ0yZrauU0cHSnbpBYhgyRPeq1Lyw6nOn_fo7_cg0/playlist-hls.m3u8"
+    ]
+  },
+  {
+    "id": "Cartoonito.it@HD",
+    "name": "Cartoonito HD (720p)",
+    "country": "IT",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8"
     ]
   }
 ]

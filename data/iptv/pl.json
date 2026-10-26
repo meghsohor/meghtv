@@ -34,6 +34,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_filmbox_family_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox_family_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_family_atk_1200/playlist.m3u8"
     ]
@@ -47,6 +48,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_filmbox_family_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox_family_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_family_hun_atk_1200/playlist.m3u8"
     ]
@@ -84,6 +86,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_film_boxextra_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_film_boxextra_hd_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_film_boxextra_hd_hevc/playlist.m3u8"
     ]
@@ -97,6 +100,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8"
     ]
@@ -134,6 +138,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_film_boxpremium_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_film_boxpremium_hd_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_film_boxpremium_hd_hevc/playlist.m3u8"
     ]
@@ -147,6 +152,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_filmbox_plus_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox_plus_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_plus_atk_1200/playlist.m3u8"
     ]
@@ -198,6 +204,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_filmbox/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox/playlist.m3u8"
     ]
@@ -363,6 +370,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/fb_premium_hungary/index.m3u8",
       "http://88.212.15.17/live/fb_premium_hungary/index.m3u8",
       "http://88.212.15.19/live/fb_premium_hungary/index.m3u8"
     ]
@@ -376,6 +384,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/filmbox_hungary/index.m3u8",
       "http://88.212.15.17/live/filmbox_hungary/index.m3u8",
       "http://88.212.15.17/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8"
@@ -788,16 +797,6 @@
     "visible": true,
     "urls": [
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMS5keXZ5YXBwLmNvbS9NdXNpYy1Cb3gvdHJhY2tzLXYxYTEvbW9uby50cy5tM3U4P3Rva2VuPWV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqYUdGdWJtVnNYMmxrSWpvMU55d2lZMmhoYm01bGJGOXVZVzFsSWpvaVRYVnphV01nUW05NElpd2lhWEFpT2lJeE56Z3VNVE0yTGpReUxqSXlNQ0lzSW1OdmRXNTBjbmtpT2lKVmEzSmhhVzVsSWl3aWRYTmxjbDlwWkNJNk56UXdOeXdpZFhObGNsOXdhRzl1WlNJNklpc3pPREE1TXpBNU5qYzBNak1pTENKMWMyVnlYM0p2YkdWeklqcGJJbU5zYVdWdWRDSmRMQ0p3Y205bWFXeGxYMmxrSWpvMk5EY3hMQ0p6WlhOemFXOXVYMmxrSWpvaVpEQXdPVFppWmpndE1qTmxOUzAwWldVMkxXSmxNelV0Wmpnd09ETTVaV1k1WkRnMElpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRGd3ZOVE0zTGpNMklDaExTRlJOVEN3Z2JHbHJaU0JIWldOcmJ5a2dRMmh5YjIxbFhDOHhOVEl1TUM0d0xqQWdVMkZtWVhKcFhDODFNemN1TXpZaUxDSmxlSEFpT2pFM09EZ3hPRFV4TmpkOS5nYUo1WGRxTjJ3djY2SnFxYldnX0dGUzY3V3lZVEVOc0JQa3VpcU1sNTVN&master=57"
-    ]
-  },
-  {
-    "id": "ViasatTrueCrime.pl@Ukraine",
-    "name": "Viasat True Crime Ukraine",
-    "country": "PL",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoMjgvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3MDczMDImc3Q9ZzIyOUNTdUZudUd6dm9UbkJNNzJ6dw%3D%3D&master=1091"
     ]
   },
   {
@@ -2659,6 +2658,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.7.14/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8",
       "http://88.212.15.17/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8"
     ]
   },

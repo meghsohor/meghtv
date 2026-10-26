@@ -29,7 +29,7 @@
   },
   {
     "id": "AniplusAsia.sg@SD",
-    "name": "Aniplus Asia (720p)",
+    "name": "Aniplus Asia (720p) [Geo-blocked]",
     "country": "SG",
     "categories": [
       "animation"
@@ -139,42 +139,6 @@
     ]
   },
   {
-    "id": "NickJrAsia.sg@SD",
-    "name": "Nick Jr. Asia (720p)",
-    "country": "SG",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8"
-    ]
-  },
-  {
-    "id": "NickelodeonAsia.sg@SD",
-    "name": "Nickelodeon Asia (1080p)",
-    "country": "SG",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://nmk.ioapk.com:5050/4gtv-live105/index.m3u8"
-    ]
-  },
-  {
-    "id": "ROCKAction.sg@SD",
-    "name": "ROCK Action (1080p)",
-    "country": "SG",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://nmk.ioapk.com:5050/4gtv-live138/index.m3u8"
-    ]
-  },
-  {
     "id": "Suria.sg@SD",
     "name": "Suria [Geo-blocked]",
     "country": "SG",
@@ -227,67 +191,6 @@
     "visible": true,
     "urls": [
       "https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8"
-    ]
-  },
-  {
-    "id": "GlobalTrekker.sg@SD",
-    "name": "Global Trekker (720p)",
-    "country": "SG",
-    "categories": [
-      "travel"
-    ],
-    "visible": true,
-    "urls": [
-      "http://nmk.ioapk.com:5050/4gtv-live112/index.m3u8"
-    ]
-  },
-  {
-    "id": "NickJrAsia.sg@HD",
-    "name": "Nick Jr. Asia HD (720p)",
-    "country": "SG",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10003/bysid/2330"
-    ]
-  },
-  {
-    "id": "ROCKXStream.sg@HD",
-    "name": "ROCK X Stream (720p)",
-    "country": "SG",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10007/bysid/2811"
-    ]
-  },
-  {
-    "id": "AXNAsia.sg@Thailand",
-    "name": "AXN Asia Thailand (720p)",
-    "country": "SG",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10007/bysid/2814"
-    ]
-  },
-  {
-    "id": "ROCKEntertainment.sg@HD",
-    "name": "ROCK Entertainment HD (720p)",
-    "country": "SG",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://58.8.186.128:10006/bysid/2612"
     ]
   },
   {
@@ -447,6 +350,18 @@
     "visible": true,
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=9855"
+    ]
+  },
+  {
+    "id": "AnimaxAsia.sg@Taiwan",
+    "name": "Animax Asia Taiwan",
+    "country": "SG",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "http://125.227.210.55:3056/VideoInput/play.ts"
     ]
   }
 ]

@@ -192,18 +192,6 @@
     ]
   },
   {
-    "id": "DigiSport1.ro@SD",
-    "name": "Digi Sport 1",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://7nyaler.streamhostingcdn.top/stream/79/index.m3u8"
-    ]
-  },
-  {
     "id": "DottoTV.ro@SD",
     "name": "Dotto TV (1080p)",
     "country": "RO",
@@ -224,7 +212,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://astra.emitv.ro/hls/emi/index.m3u8"
+      "https://astra.emitv.ro/hls/emi/index.m3u8",
+      "https://hls01ns.antenaplay.ro/hls/emi-tv-sd/index.m3u8"
     ]
   },
   {
@@ -1484,40 +1473,6 @@
     ]
   },
   {
-    "id": "DigiSport3.ro@SD",
-    "name": "Digi Sport 3 (576i)",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/digisport3/mono.m3u8"
-    ]
-  },
-  {
-    "id": "DigiSport4.ro@SD",
-    "name": "Digi Sport 4 (576i)",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/digisport4/mono.m3u8"
-    ]
-  },
-  {
-    "id": "DigiLife.ro@SD",
-    "name": "Digi Life (576i)",
-    "country": "RO",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/digilife/mono.m3u8"
-    ]
-  },
-  {
     "id": "RomaniaTV.ro@SD",
     "name": "Romania TV (576p)",
     "country": "RO",
@@ -1526,52 +1481,6 @@
     "urls": [
       "https://hls01ns.antenaplay.ro/hls/romania-tv-sd/index.m3u8",
       "https://dokagents.site/live/romaniatv/mono.m3u8"
-    ]
-  },
-  {
-    "id": "DigiWorld.ro@SD",
-    "name": "Digi World (576i)",
-    "country": "RO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/digiworld/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaSport5.ro@SD",
-    "name": "Prima Sport 5 (480p)",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/pr5/mono.m3u8"
-    ]
-  },
-  {
-    "id": "DigiSport1.ro@HD",
-    "name": "Digi Sport 1 HD (576i)",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/digisport1/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PROTV.ro@SD",
-    "name": "PRO TV (576i)",
-    "country": "RO",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/protv/mono.m3u8"
     ]
   },
   {
@@ -1598,42 +1507,6 @@
     "visible": true,
     "urls": [
       "https://stream3.srr.ro/live/Radio-Oltenia/chunklist_w1200239883.m3u8"
-    ]
-  },
-  {
-    "id": "CineMaraton.ro@SD",
-    "name": "CineMaraton (576i)",
-    "country": "RO",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/cinemaraton/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaTV.ro@SD",
-    "name": "Prima TV (576p)",
-    "country": "RO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/primatv/mono.m3u8"
-    ]
-  },
-  {
-    "id": "History.ro@SD",
-    "name": "History",
-    "country": "RO",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/history/mono.m3u8"
     ]
   },
   {
@@ -1786,13 +1659,14 @@
   },
   {
     "id": "VoyoSport1.ro@HD",
-    "name": "Voyo Sport 1 (1080p)",
+    "name": "Voyo Sport 1 (1080i)",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offsetSeconds=0"
     ]
   },
@@ -1830,18 +1704,6 @@
     "visible": true,
     "urls": [
       "https://stream3.srr.ro/RadioResita/live/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaComedy.ro@SD",
-    "name": "Prima Comedy (576p)",
-    "country": "RO",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/primacomedy/mono.m3u8"
     ]
   },
   {
@@ -2043,6 +1905,7 @@
     "visible": true,
     "urls": [
       "https://hls02ns.antenaplay.ro/hls/bollywood-clasic-sd/index.m3u8",
+      "https://hls01ns.antenaplay.ro/hls/cinewow-sd/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-aleph-news/live_hq?offsetSeconds=0"
     ]
   },
@@ -2072,13 +1935,14 @@
   },
   {
     "id": "OrizontTV.ro@SD",
-    "name": "Orizont TV (576p)",
+    "name": "Orizont TV (576i)",
     "country": "RO",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://hls01ns.antenaplay.ro/hls/orizont-tv-sd/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-orizont-tv/live_hq?offsetSeconds=0"
     ]
   },
@@ -2248,6 +2112,16 @@
     "visible": true,
     "urls": [
       "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/714.m3u8"
+    ]
+  },
+  {
+    "id": "TrinitasTV.ro@SD",
+    "name": "Trinitas TV (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://hls01ns.antenaplay.ro/hls/trinitas-tv-sd/index.m3u8"
     ]
   }
 ]

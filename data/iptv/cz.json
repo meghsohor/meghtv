@@ -20,6 +20,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_cnn_pirma_news/playlist.m3u8",
       "http://88.212.15.17/live/test_cnn_pirma_news/playlist.m3u8",
       "http://88.212.15.19/live/test_cnn_pirma_news/playlist.m3u8"
     ]
@@ -33,6 +34,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_ct1_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_ct1_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_ct1_25p/playlist.m3u8"
     ]
@@ -46,6 +48,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_ct2_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_ct2_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_ct2_25p/playlist.m3u8"
     ]
@@ -59,8 +62,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.17/live/test_ct24_hevc/playlist.m3u8",
+      "http://88.212.15.50/live/test_ct24_hevc/playlist.m3u8",
       "https://dash2.antik.sk/live/ct24_avc_25p/playlist.m3u8",
+      "http://88.212.15.17/live/test_ct24_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8"
     ]
   },
@@ -73,6 +77,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_ctsport_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"
     ]
@@ -86,6 +91,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/ct_art_avc_25p/playlist.m3u8",
       "http://88.212.15.17/live/ct_art_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8"
     ]
@@ -113,6 +119,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_disney/playlist.m3u8",
       "http://88.212.15.17/live/test_disney/playlist.m3u8",
       "http://88.212.15.19/live/test_disney/playlist.m3u8"
     ]
@@ -136,6 +143,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_film_plus_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_film_plus_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_film_plus_25p/playlist.m3u8"
     ]
@@ -161,6 +169,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_history/playlist.m3u8",
       "http://88.212.15.17/live/test_history/playlist.m3u8",
       "http://88.212.15.19/live/test_history/playlist.m3u8"
     ]
@@ -172,6 +181,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_h2/playlist.m3u8",
       "http://88.212.15.17/live/test_h2/playlist.m3u8",
       "http://88.212.15.19/live/test_h2/playlist.m3u8"
     ]
@@ -209,6 +219,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_kino_barrandov_sd_hevc50/playlist.m3u8",
       "http://88.212.15.17/live/test_kino_barrandov_sd_hevc50/playlist.m3u8",
       "http://88.212.15.19/live/test_kino_barrandov_sd_hevc50/playlist.m3u8"
     ]
@@ -222,6 +233,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_minimax/playlist.m3u8",
       "http://88.212.15.17/live/test_minimax/playlist.m3u8",
       "http://88.212.15.19/live/test_minimax/playlist.m3u8"
     ]
@@ -245,6 +257,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/mb_classic/index.m3u8",
       "http://88.212.15.17/live/mb_classic/index.m3u8",
       "http://88.212.15.19/live/mb_classic/index.m3u8"
     ]
@@ -258,6 +271,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/mb_dance/index.m3u8",
       "http://88.212.15.17/live/mb_dance/index.m3u8",
       "http://88.212.15.19/live/mb_dance/index.m3u8"
     ]
@@ -271,6 +285,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/mb_hits/index.m3u8",
       "http://88.212.15.17/live/mb_hits/index.m3u8",
       "http://88.212.15.19/live/mb_hits/index.m3u8"
     ]
@@ -284,6 +299,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/mb_sexy/index.m3u8",
       "http://88.212.15.17/live/mb_sexy/index.m3u8",
       "http://88.212.15.19/live/mb_sexy/index.m3u8"
     ]
@@ -297,6 +313,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_nickelodeon_hevc_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_nickelodeon_hevc_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8"
     ]
@@ -310,6 +327,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_nicktoons/playlist.m3u8",
       "http://88.212.15.17/live/test_nicktoons/playlist.m3u8",
       "http://88.212.15.19/live/test_nicktoons/playlist.m3u8"
     ]
@@ -408,6 +426,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/prima_avc_25p/playlist.m3u8",
       "http://88.212.15.17/live/prima_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/prima_avc_25p/playlist.m3u8"
     ]
@@ -419,6 +438,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/prima_cool_cz_avc/index.m3u8",
       "http://88.212.15.17/live/prima_cool_cz_avc/index.m3u8",
       "http://88.212.15.19/live/prima_cool_cz_avc/index.m3u8"
     ]
@@ -430,6 +450,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/prima_love_cz_avc/index.m3u8",
       "http://88.212.15.17/live/prima_love_cz_avc/index.m3u8",
       "http://88.212.15.19/live/prima_love_cz_avc/index.m3u8"
     ]
@@ -441,6 +462,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_prima_show_hevc_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_prima_show_hevc_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_prima_show_hevc_25p/playlist.m3u8"
     ]
@@ -452,6 +474,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_prima_star_hevc_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_prima_star_hevc_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_prima_star_hevc_25p/playlist.m3u8"
     ]
@@ -463,6 +486,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/prima_zoom_avc_25p/playlist.m3u8",
       "http://88.212.15.17/live/prima_zoom_avc_25p/playlist.m3u8",
       "http://88.212.15.19/live/prima_zoom_avc_25p/playlist.m3u8"
     ]
@@ -524,6 +548,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_spektrum/playlist.m3u8",
       "http://88.212.15.17/live/test_spektrum/playlist.m3u8",
       "http://88.212.15.19/live/test_spektrum/playlist.m3u8"
     ]
@@ -537,6 +562,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_home_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_home_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_home_hevc/playlist.m3u8"
     ]
@@ -550,6 +576,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_sport1_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_sport1_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_sport1_25p/playlist.m3u8"
     ]
@@ -563,6 +590,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_sport_2/playlist.m3u8",
       "http://88.212.15.17/live/test_sport_2/playlist.m3u8",
       "http://88.212.15.19/live/test_sport_2/playlist.m3u8"
     ]
@@ -598,6 +626,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_seznam_hevc_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_seznam_hevc_25p/playlist.m3u8",
       "http://88.212.15.19/live/test_seznam_hevc_25p/playlist.m3u8"
     ]
@@ -609,6 +638,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_barrandov/playlist.m3u8",
       "http://88.212.15.17/live/test_barrandov/playlist.m3u8",
       "http://88.212.15.19/live/test_barrandov/playlist.m3u8"
     ]
@@ -676,6 +706,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_viasat_explore_atk_tv/playlist.m3u8",
       "http://88.212.15.17/live/test_viasat_explore_atk_tv/playlist.m3u8",
       "http://88.212.15.29/live/test_viasat_explore_atk_tv/playlist.m3u8"
     ]
@@ -689,6 +720,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_viasat_history_atk_tv/playlist.m3u8",
       "http://88.212.15.17/live/test_viasat_history_atk_tv/playlist.m3u8",
       "http://88.212.15.29/live/test_viasat_history_atk_tv/playlist.m3u8"
     ]
@@ -702,6 +734,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_viasat_nature_atk_tv/playlist.m3u8",
       "http://88.212.15.17/live/test_viasat_nature_atk_tv/playlist.m3u8",
       "http://88.212.15.29/live/test_viasat_nature_atk_tv/playlist.m3u8"
     ]
@@ -726,6 +759,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_parpika_tv_sd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_parpika_tv_sd_hevc/playlist.m3u8",
       "http://88.212.15.19/live/test_parpika_tv_sd_hevc/playlist.m3u8"
     ]
@@ -739,6 +773,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_disney_junior/playlist.m3u8",
       "http://88.212.15.17/live/test_disney_junior/playlist.m3u8",
       "http://88.212.15.19/live/test_disney_junior/playlist.m3u8"
     ]
@@ -752,6 +787,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_ngc/playlist.m3u8",
       "http://88.212.15.17/live/test_ngc/playlist.m3u8",
       "http://88.212.15.19/live/test_ngc/playlist.m3u8"
     ]
@@ -765,6 +801,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_ngw/playlist.m3u8",
       "http://88.212.15.17/live/test_ngw/playlist.m3u8",
       "http://88.212.15.29/live/test_ngw/playlist.m3u8"
     ]
@@ -778,6 +815,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_nick_jr/playlist.m3u8",
       "http://88.212.15.17/live/test_nick_jr/playlist.m3u8",
       "http://88.212.15.19/live/test_nick_jr/playlist.m3u8"
     ]
@@ -819,6 +857,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_prima_max_cz/playlist.m3u8",
       "http://88.212.15.17/live/test_prima_max_cz/playlist.m3u8",
       "http://88.212.15.19/live/test_prima_max_cz/playlist.m3u8"
     ]
@@ -830,6 +869,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_prima_krimi_cz/playlist.m3u8",
       "http://88.212.15.17/live/test_prima_krimi_cz/playlist.m3u8",
       "http://88.212.15.19/live/test_prima_krimi_cz/playlist.m3u8"
     ]
@@ -843,6 +883,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/esp_4k_atk/playlist.m3u8",
       "http://88.212.15.17/live/esp_4k_atk/playlist.m3u8",
       "http://88.212.15.19/live/esp_4k_atk/playlist.m3u8"
     ]
@@ -880,6 +921,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_cinemax_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_cinemax_hd_hevc/playlist.m3u8"
     ]
   },
@@ -892,6 +934,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_cinemax2_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_cinemax2_hd_hevc/playlist.m3u8"
     ]
   },
@@ -902,6 +945,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_animal_planet_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_animal_planet_hd_hevc/playlist.m3u8"
     ]
   },
@@ -912,6 +956,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_discovery_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_discovery_hd_hevc/playlist.m3u8"
     ]
   },
@@ -924,6 +969,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_hbo_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_hbo_hd_hevc/playlist.m3u8"
     ]
   },
@@ -936,6 +982,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_hbo2_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_hbo2_hd_hevc/playlist.m3u8"
     ]
   },
@@ -948,6 +995,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_hbo3_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_hbo3_hd_hevc/playlist.m3u8"
     ]
   },
@@ -958,6 +1006,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_travel_channel_hd_hevc/playlist.m3u8",
       "http://88.212.15.17/live/test_travel_channel_hd_hevc/playlist.m3u8"
     ]
   },
@@ -968,6 +1017,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_food_network_atk_tv/playlist.m3u8",
       "http://88.212.15.17/live/test_food_network_atk_tv/playlist.m3u8"
     ]
   },
@@ -978,6 +1028,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_hgtv_hevc_25p/playlist.m3u8",
       "http://88.212.15.17/live/test_hgtv_hevc_25p/playlist.m3u8"
     ]
   },
@@ -988,6 +1039,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_tlc_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_tlc_1200_atk/playlist.m3u8"
     ]
   },
@@ -998,6 +1050,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/test_id_hevc_atktv/playlist.m3u8",
       "http://88.212.15.17/live/test_id_hevc_atktv/playlist.m3u8"
     ]
   },
@@ -1010,6 +1063,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://88.212.15.50/live/warner_tv/index.m3u8",
       "http://88.212.15.17/live/warner_tv/index.m3u8"
     ]
   },

@@ -1,29 +1,5 @@
 [
   {
-    "id": "BaltiTV.md@SD",
-    "name": "Bălţi TV (1080p) [Geo-blocked]",
-    "country": "MD",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://77.89.199.174:8000/play/1024/index.m3u8"
-    ]
-  },
-  {
-    "id": "BusuiocTV.md@SD",
-    "name": "Busuioc TV",
-    "country": "MD",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8"
-    ]
-  },
-  {
     "id": "ExclusivTV.md@SD",
     "name": "Exclusiv TV",
     "country": "MD",
@@ -82,18 +58,6 @@
     "urls": [
       "https://moldovatv.ro/live-tv/live.m3u8",
       "http://89.38.8.130:39435"
-    ]
-  },
-  {
-    "id": "N4.md@SD",
-    "name": "N4 (360p) [Not 24/7]",
-    "country": "MD",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://web.sats.gstv.tech/cpl11/da8df281-1165-440a-8c86-959f71b695b6/N4web.m3u8"
     ]
   },
   {
