@@ -2721,18 +2721,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.de@DACH",
-    "name": "Pluto TV Paranormal",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5f98487036af340008da1e37.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVPolizeiserien.de@DACH",
     "name": "Pluto TV Polizeiserien",
     "country": "DE",
@@ -2754,45 +2742,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-68ada3edf84960586ad31c7d.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVRomance.de@DACH",
-    "name": "Pluto TV Romance",
-    "country": "DE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5dc287ce3086a20009f5024c.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSciFi.de@DACH",
-    "name": "Pluto TV Sci-Fi",
-    "country": "DE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-60ed498c4248a400077c0b9d.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVScience.de@DACH",
-    "name": "Pluto TV Science",
-    "country": "DE",
-    "categories": [
-      "science",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5d767b4889bca2ce7b73ef2e.m3u8"
     ]
   },
   {
@@ -2818,18 +2767,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-5d767ab2b456c8cf265ce921.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSnooker900.de@DACH",
-    "name": "Pluto TV Snooker 900 (720p)",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-68ac5543a1ac0c90f2c8943e.m3u8"
     ]
   },
   {
@@ -2867,19 +2804,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-69492467ae33e24d916e56cf.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVTrueCrime.de@DACH",
-    "name": "Pluto TV True Crime",
-    "country": "DE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-615333098185f00008715a56.m3u8"
     ]
   },
   {
@@ -3440,18 +3364,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.de@ES",
-    "name": "Pluto TV Paranormal",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-612ce5214bb5790007ad3016.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVPsycho.de@ES",
     "name": "Pluto TV Psycho",
     "country": "DE",
@@ -3464,31 +3376,6 @@
     ]
   },
   {
-    "id": "PlutoTVSciFi.de@ES",
-    "name": "Pluto TV Sci-Fi",
-    "country": "DE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5f6a38eaa5b68b0007a00e7a.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSeries.de@ES",
-    "name": "Pluto TV Series",
-    "country": "DE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5f1ac8f49205650007bc15f1.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVSeriescriminales.de@ES",
     "name": "Pluto TV Series criminales",
     "country": "DE",
@@ -3498,30 +3385,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-65cf6ab58145cb0008129ca8.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSeriesSciFi.de@ES",
-    "name": "Pluto TV Series Sci-Fi",
-    "country": "DE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65ddec1ef7f0af0008be4b65.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSnooker900.de@ES",
-    "name": "Pluto TV Snooker 900 (720p)",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-69148c470155f9b136b5d856.m3u8"
     ]
   },
   {
@@ -3546,31 +3409,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-662a69daa0a74e00087a1c72.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVThrillers.de@ES",
-    "name": "Pluto TV Thrillers",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5f1ac8a87cd38d000745d7cf.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVTrueCrime.de@ES",
-    "name": "Pluto TV True Crime",
-    "country": "DE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-64a3f200f238ce0008d47247.m3u8"
     ]
   },
   {
@@ -3977,30 +3815,6 @@
     ]
   },
   {
-    "id": "PlutoTVKidsClub.de@FR",
-    "name": "Pluto TV Kids Club",
-    "country": "DE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVParanormal.de@FR",
-    "name": "Pluto TV Paranormal",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5f8ed9461b35690007a0bc3a.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVPolar.de@FR",
     "name": "Pluto TV Polar",
     "country": "DE",
@@ -4010,18 +3824,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVReality.de@FR",
-    "name": "Pluto TV Reality",
-    "country": "DE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6092544e7639460007d4835e.m3u8"
     ]
   },
   {
@@ -4047,18 +3849,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSnooker900.de@FR",
-    "name": "Pluto TV Snooker 900 (720p)",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8"
     ]
   },
   {
@@ -4460,18 +4250,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.de@IT",
-    "name": "Pluto TV Paranormal",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVRealLife.de@IT",
     "name": "Pluto TV Real Life",
     "country": "DE",
@@ -4493,19 +4271,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-609404b0a8ec810007d8de9d.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSciFi.de@IT",
-    "name": "Pluto TV Sci-Fi",
-    "country": "DE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8"
     ]
   },
   {
@@ -4557,18 +4322,6 @@
     ]
   },
   {
-    "id": "PlutoTVSnooker900.de@IT",
-    "name": "Pluto TV Snooker 900 (720p)",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVSport.de@IT",
     "name": "Pluto TV Sport",
     "country": "DE",
@@ -4614,19 +4367,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVTrueCrime.de@IT",
-    "name": "Pluto TV True Crime",
-    "country": "DE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8"
     ]
   },
   {
@@ -5078,18 +4818,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.de@GB",
-    "name": "Pluto TV Paranormal",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5d4af2ffa9506ab29cf38c38.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVPetrolHeads.de@GB",
     "name": "Pluto TV PetrolHeads",
     "country": "DE",
@@ -5099,18 +4827,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-65a7b0814a10d800085ff2df.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVReality.de@GB",
-    "name": "Pluto TV Reality",
-    "country": "DE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5bd8186d53ed2c6334ea0855.m3u8"
     ]
   },
   {
@@ -5127,19 +4843,6 @@
     ]
   },
   {
-    "id": "PlutoTVSciFi.de@GB",
-    "name": "Pluto TV Sci-Fi",
-    "country": "DE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5dc02a44a9518600094273ac.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVScifiSeries.de@GB",
     "name": "Pluto TV Sci-fi Series",
     "country": "DE",
@@ -5149,19 +4852,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-619247c34a270700077c8415.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVScience.de@GB",
-    "name": "Pluto TV Science",
-    "country": "DE",
-    "categories": [
-      "science",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5d9492c77ea6f99188738ff1.m3u8"
     ]
   },
   {
@@ -5190,18 +4880,6 @@
     ]
   },
   {
-    "id": "PlutoTVSnooker900.de@GB",
-    "name": "Pluto TV Snooker 900 (720p)",
-    "country": "DE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVSpace.de@GB",
     "name": "Pluto TV Space",
     "country": "DE",
@@ -5211,18 +4889,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-5dbc2f98777f2e0009934ae7.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVThrillers.de@GB",
-    "name": "Pluto TV Thrillers",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-5dbfedccc563080009b60f4a.m3u8"
     ]
   },
   {

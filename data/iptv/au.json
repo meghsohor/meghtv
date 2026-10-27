@@ -414,18 +414,6 @@
     ]
   },
   {
-    "id": "SBSWorldWatch.au@Sydney",
-    "name": "SBS WorldWatch",
-    "country": "AU",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://44.32.200.142:5004/auto/v35"
-    ]
-  },
-  {
     "id": "SkyNewsExtra1.au@SD",
     "name": "Sky News Extra 1 (540p)",
     "country": "AU",

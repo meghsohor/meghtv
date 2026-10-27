@@ -7358,19 +7358,6 @@
     ]
   },
   {
-    "id": "ColorsCineplexBollywood.in@SD",
-    "name": "Colors Cineplex Bollywood (576p) [Geo-blocked]",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=946375&extension=ts&play_token=5n2Zexr7WT",
-      "http://51.75.127.199:3141/colorscineplexbollywood/index.m3u8"
-    ]
-  },
-  {
     "id": "AndxplorHD.in@HD",
     "name": "&xplor HD (1080p) [Geo-blocked]",
     "country": "IN",
@@ -8565,19 +8552,6 @@
       "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8",
       "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
       "http://51.75.127.199:3141/zeeteluguhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZeeCinemalu.in@HD",
-    "name": "Zee Cinemalu HD (720p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8",
-      "http://51.75.127.199:3141/zeecinemaluhd/index.m3u8"
     ]
   },
   {

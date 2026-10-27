@@ -7139,5 +7139,17 @@
     "urls": [
       "https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8"
     ]
+  },
+  {
+    "id": "CartoonClassics.ru@SD",
+    "name": "Cartoon Classics",
+    "country": "RU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.218.242.237:8001/Cartoon_Classics"
+    ]
   }
 ]
