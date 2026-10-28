@@ -126,16 +126,16 @@
   },
   {
     "id": "FirstMusicChannelRussia.by@SD",
-    "name": "First Music Channel Russia (1080p)",
+    "name": "Первый Музыкальный Канал Россия (576p)",
     "country": "BY",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/1muz_HD/video.m3u8",
       "http://rtmp.one.by:2200",
-      "http://rtmp.one.by:2300"
+      "http://rtmp.one.by:2300",
+      "http://hls127.freeott.top:8080/1muz_HD/video.m3u8"
     ]
   },
   {

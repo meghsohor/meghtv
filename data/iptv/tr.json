@@ -1355,15 +1355,15 @@
   },
   {
     "id": "SSport2.tr@SD",
-    "name": "S Sport 2 (720p)",
+    "name": "S Sport 2",
     "country": "TR",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://corestream.siteyaptim.live/s-sport2/index.m3u8",
-      "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8"
+      "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
+      "https://corestream.siteyaptim.live/s-sport2/index.m3u8"
     ]
   },
   {

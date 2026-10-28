@@ -1059,9 +1059,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.4.1.201:8000/play/a13e/index.m3u8",
       "http://195.178.110.110/movistar/index.m3u8",
-      "http://170.244.209.30:8000/play/a1i8/index.m3u8"
+      "http://170.244.209.30:8000/play/a1i8/index.m3u8",
+      "http://45.4.1.201:8000/play/a13e/index.m3u8"
     ]
   },
   {
@@ -2107,7 +2107,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.70.201.81:8000/play/a018/index.m3u8"
+      "http://45.70.201.81:8000/play/a018/index.m3u8",
+      "https://live-evg8.tv360.bitel.com.pe/bitel/minero/playlist.m3u8"
     ]
   },
   {

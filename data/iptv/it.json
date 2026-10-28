@@ -3283,5 +3283,39 @@
     "urls": [
       "https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8"
     ]
+  },
+  {
+    "id": "PescaeCaccia.it@SD",
+    "name": "Pesca e Caccia (720p)",
+    "country": "IT",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "http://102.129.186.182:81/pescacaccia/index.m3u8"
+    ]
+  },
+  {
+    "id": "CacciaePesca.it@SD",
+    "name": "Caccia e Pesca (720p)",
+    "country": "IT",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "http://102.129.186.182:81/cacciapesca/index.m3u8"
+    ]
+  },
+  {
+    "id": "TV8.it@SD",
+    "name": "TV8 (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://102.129.186.182:81/tv8/index.m3u8"
+    ]
   }
 ]

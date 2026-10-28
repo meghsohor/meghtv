@@ -80,6 +80,7 @@
     "urls": [
       "https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8",
       "https://freem3u.xyz/api/live/play.m3u8?vid=20",
+      "https://live.tvon.vn/g2/vtv1/video_hd_compat/playlist.m3u8",
       "https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8"
     ]
   },
@@ -586,7 +587,8 @@
     "visible": true,
     "urls": [
       "https://amagi-live.ondemandkorea.com/amgplt0456.m3u8",
-      "https://vips-livecdn.fptplay.net/live/media/vietnamtoday/live-hls-avc/index.m3u8"
+      "https://vips-livecdn.fptplay.net/live/media/vietnamtoday/live-hls-avc/index.m3u8",
+      "https://live.tvon.vn/s8/hls/vntoday/index.m3u8"
     ]
   },
   {
@@ -625,6 +627,7 @@
     "urls": [
       "https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/index.m3u8",
       "https://dethich.pw/vtv1/index.m3u8",
+      "https://livesct.vtvprime.vn/Live_DASHDRM1/VTV1_HD/manifest.mpd",
       "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8",
       "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8",
       "https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8"
@@ -1094,6 +1097,18 @@
     "visible": true,
     "urls": [
       "https://dethich.pw/htvcgiadinh/index.m3u8"
+    ]
+  },
+  {
+    "id": "ONPhimViet.vn@SD",
+    "name": "ON Phim Viet (1080p)",
+    "country": "VN",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vmttv.dpdns.org/tv360/?id=175"
     ]
   }
 ]

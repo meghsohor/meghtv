@@ -80,18 +80,6 @@
     ]
   },
   {
-    "id": "SevenChannel.mn@SD",
-    "name": "Seven Channel (720p) [Not 24/7]",
-    "country": "MN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://xykt-fix.github.io/liveh42-syhtv-mn/7Channel_HD/03.m3u8"
-    ]
-  },
-  {
     "id": "AsianBox.mn@SD",
     "name": "AsianBox (1080p)",
     "country": "MN",

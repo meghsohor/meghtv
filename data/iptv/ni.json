@@ -229,5 +229,17 @@
       "https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8",
       "https://cloudvideo.servers10.com:8081/8130/index.m3u8"
     ]
+  },
+  {
+    "id": "Canal12.ni@SD",
+    "name": "Canal 12 (576p)",
+    "country": "NI",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.228.234.9:8000/play/a06s/index.m3u8"
+    ]
   }
 ]

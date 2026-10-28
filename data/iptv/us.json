@@ -7769,17 +7769,17 @@
   },
   {
     "id": "beINSPORTSXTRAenEspanol.us@SD",
-    "name": "beIN SPORTS XTRA en Espanol (1080p)",
+    "name": "beIN Sports XTRA en Espanol (1080p)",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://201.190.41.246:9060/play/a03y/index.m3u8",
       "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
       "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8",
-      "https://bein-esp-xumo.amagi.tv/playlist.m3u8"
+      "https://bein-esp-xumo.amagi.tv/playlist.m3u8",
+      "http://201.190.41.246:9060/play/a03y/index.m3u8"
     ]
   },
   {
@@ -9206,18 +9206,6 @@
     "visible": true,
     "urls": [
       "https://fnx.lls.pbs.org/index.m3u8"
-    ]
-  },
-  {
-    "id": "Fox.us@East",
-    "name": "Fox (720p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://stream.cammonitorplus.net/1752/index.m3u8"
     ]
   },
   {
@@ -13923,6 +13911,7 @@
     "visible": true,
     "urls": [
       "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8",
+      "https://a-cdn.klowdtv.com/live3/weathernation_720p/playlist.m3u8",
       "https://stream.weathernationtv.com/WNTVStirr_eokxldieulowixkdimn/ND1/playlistSCTE35.m3u8"
     ]
   },
@@ -15224,6 +15213,7 @@
     "urls": [
       "http://45.167.1.138:8000/play/a01m",
       "http://187.102.208.209:8000/play/a0ac/index.m3u8",
+      "http://45.228.234.9:8000/play/a06v/index.m3u8",
       "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8"
     ]
   },
@@ -21929,6 +21919,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "https://a-cdn.klowdtv.com/live2/rav_720p/playlist.m3u8",
       "https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8",
       "https://stream.weathernationtv.com/RAVStirr_poekxujeisurekugzezyg/O1/playlistSCTE35.m3u8"
     ]
@@ -24664,7 +24655,7 @@
   },
   {
     "id": "CartoonNetwork.us@East",
-    "name": "Cartoon Network (720p)",
+    "name": "Cartoon Network [Not 24/7;Geo-blocked]",
     "country": "US",
     "categories": [
       "animation",
@@ -24672,9 +24663,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
       "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8",
-      "http://212.5.144.156:8080/cartoon/index.m3u8"
+      "http://212.5.144.156:8080/cartoon/index.m3u8",
+      "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
     ]
   },
   {
@@ -25114,6 +25105,195 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/rok-b484db42f3d31b6dc2f604d453c694a0.m3u8"
+    ]
+  },
+  {
+    "id": "HallmarkMystery.us@East",
+    "name": "Hallmark Mystery (720p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://41.205.93.154/HALLMARK/index.m3u8"
+    ]
+  },
+  {
+    "id": "ParamountNetwork.us@East",
+    "name": "Paramount Network (1080p)",
+    "country": "US",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannelLatinAmerica.us@Brazil",
+    "name": "Discovery Channel Latin America Brazil (720p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8"
+    ]
+  },
+  {
+    "id": "TNTLatinAmerica.us@Argentina",
+    "name": "TNT Latin America Argentina (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/TNT/index.m3u8"
+    ]
+  },
+  {
+    "id": "HTV.us@Argentina",
+    "name": "HTV Argentina (720p)",
+    "country": "US",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/HTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryScienceLatinAmerica.us@ColombiaPeru",
+    "name": "Discovery Science Latin America ColombiaPeru (720p)",
+    "country": "US",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/Discovery_Science_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "Tooncast.us@Argentina",
+    "name": "Tooncast Argentina (720p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/Tooncast/index.m3u8"
+    ]
+  },
+  {
+    "id": "MNT.us@WOIO",
+    "name": "MNT WOIO (720p)",
+    "country": "US",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-streaming-mcdn.api.graylive.quickplay.com/woio-xos1-input-1/woio-xos1-input-1.isml/woio-xos1-input-1-audio_eng=96000-video=388000.m3u8"
+    ]
+  },
+  {
+    "id": "TheGrioTV.us@SD",
+    "name": "TheGrio (720p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/thegrio_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CarsTV.us@SD",
+    "name": "Cars.TV (720p)",
+    "country": "US",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/carstv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyTV.us@SD",
+    "name": "Comedy.TV (720p)",
+    "country": "US",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/comedytv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JusticeCentralTV.us@SD",
+    "name": "Justice Central (720p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/justicecentral_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MyDestinationTV.us@SD",
+    "name": "MyDestination.TV (720p)",
+    "country": "US",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/mydestinationtv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PetsTV.us@SD",
+    "name": "Pets.TV (720p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/petstv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RecipeTV.us@SD",
+    "name": "Recipe.TV (720p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/recipetv_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "INSP.us@SD",
+    "name": "INSP (720p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live2/insp_720p/playlist.m3u8"
     ]
   }
 ]

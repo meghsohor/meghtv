@@ -325,7 +325,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live.streamhch.com/live/streams/hch1.m3u8"
+      "https://live.streamhch.com/live/streams/hch1.m3u8",
+      "http://45.228.234.9:8000/play/a06t/index.m3u8"
     ]
   },
   {

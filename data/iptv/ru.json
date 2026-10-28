@@ -507,10 +507,10 @@
     "visible": true,
     "urls": [
       "http://45.11.139.43:8555/8kanal/index.m3u8",
-      "http://hls127.freeott.top:8080/8_KANAL/video.m3u8",
       "http://tshift-1.telecoma.tv/8channel/index.m3u8",
       "http://v4.proofix.ru/okino-tv/index.m3u8",
-      "https://v4.proofix.ru/8tv-russia/index.m3u8"
+      "https://v4.proofix.ru/8tv-russia/index.m3u8",
+      "http://hls127.freeott.top:8080/8_KANAL/video.m3u8"
     ]
   },
   {
@@ -683,8 +683,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Dikiy/video.m3u8",
-      "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8"
+      "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8",
+      "http://hls127.freeott.top:8080/Dikiy/video.m3u8"
     ]
   },
   {
@@ -1002,8 +1002,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/XitHD/video.m3u8",
-      "http://stream.mcquack.net/363/index.m3u8"
+      "http://stream.mcquack.net/363/index.m3u8",
+      "http://hls127.freeott.top:8080/XitHD/video.m3u8"
     ]
   },
   {
@@ -1066,9 +1066,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Istoriya/video.m3u8",
       "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Istoriya/index.m3u8",
+      "http://hls127.freeott.top:8080/Istoriya/video.m3u8",
       "http://str2.iptvhd.ru:8080/Istoriya/index.m3u8"
     ]
   },
@@ -1255,15 +1255,15 @@
   },
   {
     "id": "Kinoseriya.ru@SD",
-    "name": "Kinoseriya (1080p)",
+    "name": "Kinoseriya (576p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8",
       "https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv",
+      "http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8",
       "http://str2.iptvhd.ru:8080/Mnogo_TV/index.m3u8"
     ]
   },
@@ -1583,9 +1583,9 @@
     "visible": true,
     "urls": [
       "http://31.222.235.15/mosfilm/index.m3u8",
-      "http://hls127.freeott.top:8080/Mosfilm/video.m3u8",
       "http://stream.mcquack.net/369/index.m3u8",
-      "https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv",
+      "http://hls127.freeott.top:8080/Mosfilm/video.m3u8"
     ]
   },
   {
@@ -1682,9 +1682,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Mult_Muzika/video.m3u8",
       "http://stream.mcquack.net/82/index.m3u8",
-      "http://31.148.48.15/Multimuzika/index.m3u8"
+      "http://31.148.48.15/Multimuzika/index.m3u8",
+      "http://hls127.freeott.top:8080/Mult_Muzika/video.m3u8"
     ]
   },
   {
@@ -1713,14 +1713,14 @@
     "urls": [
       "http://46.32.176.50/muztv/index.m3u8",
       "http://185.71.81.6:8080/20/index.m3u8",
-      "http://hls127.freeott.top:8080/MUZ_TV/video.m3u8",
       "http://stream.mcquack.net/86/index.m3u8",
       "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8",
       "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv",
       "http://31.148.5.241/kanal_20/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/20.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/618.m3u8",
-      "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8"
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8",
+      "http://hls127.freeott.top:8080/MUZ_TV/video.m3u8"
     ]
   },
   {
@@ -1848,15 +1848,15 @@
   },
   {
     "id": "NationalGeographicWild.ru@SD",
-    "name": "National Geographic Wild (1080p)",
+    "name": "National Geographic Wild (576p)",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Nat_Geo_Wild_SD/video.m3u8",
       "https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv",
+      "http://hls127.freeott.top:8080/Nat_Geo_Wild_SD/video.m3u8",
       "http://str2.iptvhd.ru:8080/Nat_Geo_Wild/index.m3u8"
     ]
   },
@@ -1935,9 +1935,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
       "http://176.118.197.101/Nostalgiya/index.m3u8",
       "http://31.148.48.15/Nostalgiya/index.m3u8",
+      "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
       "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Nostalgiya/index.m3u8"
     ]
@@ -1949,9 +1949,9 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/HCTV/video.m3u8",
       "http://stream.mcquack.net/207/index.m3u8",
       "https://vod.tuva.ru/nst/index.m3u8",
+      "http://hls127.freeott.top:8080/HCTV/video.m3u8",
       "http://str2.iptvhd.ru:8080/NST/index.m3u8"
     ]
   },
@@ -1993,13 +1993,13 @@
   },
   {
     "id": "NTVLaw.ru@SD",
-    "name": "NTV Law (576p)",
+    "name": "НТВ Право (576p)",
     "country": "RU",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8",
       "https://cdn.ntv.ru/th_pravo/playlist.m3u8",
+      "http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8",
       "http://str2.iptvhd.ru:8080/ntvpravo/index.m3u8"
     ]
   },
@@ -2034,15 +2034,15 @@
   },
   {
     "id": "NTVStyle.ru@SD",
-    "name": "NTV Style (576p)",
+    "name": "НТВ Стиль (576p)",
     "country": "RU",
     "categories": [
       "lifestyle"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8",
       "https://cdn.ntv.ru/th_style/playlist.m3u8",
+      "http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8",
       "http://str2.iptvhd.ru:8080/ntvstyle/index.m3u8"
     ]
   },
@@ -7024,13 +7024,14 @@
   },
   {
     "id": "MatchPremier.ru@SD",
-    "name": "Match! Premier (480p) [Geo-blocked]",
+    "name": "Match! Premier (576p)",
     "country": "RU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8",
       "http://192.162.64.99:5000/play/a02b/index.m3u8"
     ]
   },
@@ -7150,6 +7151,16 @@
     "visible": true,
     "urls": [
       "http://88.218.242.237:8001/Cartoon_Classics"
+    ]
+  },
+  {
+    "id": "NTVSvoyaigra.ru@SD",
+    "name": "NTV Svoya igra (1080p)",
+    "country": "RU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8"
     ]
   }
 ]

@@ -3521,5 +3521,65 @@
     "urls": [
       "https://saran-live.ercdn.net/babytv/index.m3u8"
     ]
+  },
+  {
+    "id": "DAZN1.uk@Portugal",
+    "name": "DAZN 1 Portugal",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://50.7.120.34:8080/DAZN1/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZN3.uk@Portugal",
+    "name": "DAZN 3 Portugal (720p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/DAZN_3/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZN4.uk@Portugal",
+    "name": "DAZN 4 (540p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/DAZN_4/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZN5.uk@Portugal",
+    "name": "DAZN 5 (720p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/DAZN_5/index.m3u8"
+    ]
+  },
+  {
+    "id": "GODTVAsia.uk@SD",
+    "name": "GOD TV Asia (576p)",
+    "country": "UK",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8"
+    ]
   }
 ]

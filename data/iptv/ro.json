@@ -476,13 +476,14 @@
   },
   {
     "id": "PROTVNews.ro@SD",
-    "name": "Pro TV News (1080p)",
+    "name": "PROTV News",
     "country": "RO",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-voyo-news/live_fullhd?offsetSeconds=0",
       "https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0"
     ]
   },
@@ -1059,8 +1060,8 @@
     "visible": true,
     "urls": [
       "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8",
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0",
-      "https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8"
+      "https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0"
     ]
   },
   {
@@ -1810,8 +1811,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0",
-      "https://hls01ns.antenaplay.ro/hls/tralala-desene-animate-hd/index.m3u8"
+      "https://hls01ns.antenaplay.ro/hls/tralala-desene-animate-hd/index.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0"
     ]
   },
   {
@@ -1838,15 +1839,15 @@
   },
   {
     "id": "TravelMix.ro@SD",
-    "name": "Travel Mix (576p)",
+    "name": "Travel Mix",
     "country": "RO",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-travel-mix/live_hq?offsetSeconds=0",
-      "https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8"
+      "https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8",
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-travel-mix/live_hq?offsetSeconds=0"
     ]
   },
   {
@@ -1897,15 +1898,15 @@
   },
   {
     "id": "CineWow.ro@SD",
-    "name": "CineWow",
+    "name": "CineWow (576i)",
     "country": "RO",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "https://hls02ns.antenaplay.ro/hls/bollywood-clasic-sd/index.m3u8",
       "https://hls01ns.antenaplay.ro/hls/cinewow-sd/index.m3u8",
+      "https://hls02ns.antenaplay.ro/hls/bollywood-clasic-sd/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-aleph-news/live_hq?offsetSeconds=0"
     ]
   },
@@ -1957,54 +1958,6 @@
     "urls": [
       "https://hls01ns.antenaplay.ro/hls/tv-as-sd/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-tv-as/live_hq?offsetSeconds=0"
-    ]
-  },
-  {
-    "id": "PrimaSport1.ro@SD",
-    "name": "Prima Sport 1",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/pr1/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaSport2.ro@SD",
-    "name": "Prima Sport 2",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/pr2/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaSport3.ro@SD",
-    "name": "Prima Sport 3",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/pr3/mono.m3u8"
-    ]
-  },
-  {
-    "id": "PrimaSport4.ro@SD",
-    "name": "Prima Sport 4",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dokagents.site/live/pr4/mono.m3u8"
     ]
   },
   {
