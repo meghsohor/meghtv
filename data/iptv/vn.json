@@ -1110,5 +1110,29 @@
     "urls": [
       "https://vmttv.dpdns.org/tv360/?id=175"
     ]
+  },
+  {
+    "id": "ONEChannel.vn@HD",
+    "name": "ON E Channel (1080p)",
+    "country": "VN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=182"
+    ]
+  },
+  {
+    "id": "HTV5.vn@HD",
+    "name": "HTV5 (1080p)",
+    "country": "VN",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=151"
+    ]
   }
 ]

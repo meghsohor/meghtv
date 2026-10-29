@@ -618,5 +618,18 @@
     "urls": [
       "https://mdn.dg.church/673ac57a073a4-1/index.m3u8"
     ]
+  },
+  {
+    "id": "DGRadio.au@HD",
+    "name": "DG:Radio (1080p)",
+    "country": "AU",
+    "categories": [
+      "religious",
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mdn.dg.church/683c0cb036885-1/index.m3u8"
+    ]
   }
 ]

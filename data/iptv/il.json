@@ -367,30 +367,6 @@
     ]
   },
   {
-    "id": "Sport3.il@SD",
-    "name": "Sport 3 (1080p)",
-    "country": "IL",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/12251/index.m3u8"
-    ]
-  },
-  {
-    "id": "Sport4.il@SD",
-    "name": "Sport 4 (1080p)",
-    "country": "IL",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/2389/index.m3u8"
-    ]
-  },
-  {
     "id": "5Stars.il@SD",
     "name": "5Stars (1080p)",
     "country": "IL",

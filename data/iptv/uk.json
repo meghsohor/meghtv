@@ -2184,18 +2184,6 @@
     ]
   },
   {
-    "id": "SetantaSports.uk@HD",
-    "name": "Setanta Sports HD",
-    "country": "UK",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8"
-    ]
-  },
-  {
     "id": "BBCNews.uk@SouthAsia",
     "name": "BBC News South Asia (720p)",
     "country": "UK",
@@ -3580,6 +3568,18 @@
     "visible": true,
     "urls": [
       "https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "PBSAmerica.uk@SD",
+    "name": "PBS America (576p)",
+    "country": "UK",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.19.191.2:8090/PBS/index.m3u8"
     ]
   }
 ]

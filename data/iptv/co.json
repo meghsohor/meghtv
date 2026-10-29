@@ -957,7 +957,8 @@
       "http://181.78.8.199:8000/play/a0a7/index.m3u8",
       "http://181.65.191.173:8069/play/a061",
       "https://stream1.bitred.cl/rcn-novelas/index.m3u8",
-      "https://streaming.onnethn.com/RCN_NOVELAS/playlist.m3u8"
+      "https://streaming.onnethn.com/RCN_NOVELAS/playlist.m3u8",
+      "http://45.171.64.30:8800/play/a01z"
     ]
   },
   {
@@ -1415,7 +1416,8 @@
     "urls": [
       "http://138.121.15.230:9002/ZOOM/index.m3u8",
       "http://190.217.66.92:8000/play/a0ej/index.m3u8",
-      "http://200.122.223.13:55000/play/zoom-banda-ku/index.m3u8"
+      "http://200.122.223.13:55000/play/zoom-banda-ku/index.m3u8",
+      "http://181.78.79.131:8000/play/a0sg"
     ]
   },
   {

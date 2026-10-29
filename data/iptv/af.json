@@ -162,5 +162,15 @@
     "urls": [
       "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-tolonews/index.m3u8"
     ]
+  },
+  {
+    "id": "RTAEducation.af@SD",
+    "name": "RTA Education (1080p)",
+    "country": "AF",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8"
+    ]
   }
 ]

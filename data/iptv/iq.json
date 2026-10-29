@@ -681,5 +681,17 @@
       "https://ava002.xyz/upload/images/1080.m3u8",
       "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8"
     ]
+  },
+  {
+    "id": "MahdawiounTV.iq@HD",
+    "name": "MahdawiounTV (1080p) [Geo-blocked]",
+    "country": "IQ",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.mahdawioun.tv/stream/mahdawioun/playlist.m3u8"
+    ]
   }
 ]
