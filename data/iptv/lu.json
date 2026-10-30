@@ -51,18 +51,6 @@
     ]
   },
   {
-    "id": "RTL9.lu@SD",
-    "name": "RTL9 (720p)",
-    "country": "LU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/308/index.m3u8"
-    ]
-  },
-  {
     "id": "RTLGold.lu@SD",
     "name": "RTL Gold (1080p)",
     "country": "LU",

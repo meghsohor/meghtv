@@ -4753,29 +4753,6 @@
     ]
   },
   {
-    "id": "ZvezdaPlus.ru@SD",
-    "name": "Zvezda Plus (576p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test"
-    ]
-  },
-  {
-    "id": "STSkids.ru@HD",
-    "name": "STS kids HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test",
-      "http://str2.iptvhd.ru:8080/sts_kids_hd/index.m3u8"
-    ]
-  },
-  {
     "id": "TravelPlusAdventure.ru@SD",
     "name": "Travel+Adventure (1080p)",
     "country": "RU",
@@ -5660,18 +5637,6 @@
     "visible": true,
     "urls": [
       "http://91.214.48.158:4022/udp/224.2.2.4:10000"
-    ]
-  },
-  {
-    "id": "TNTInternational.ru@Belarus",
-    "name": "TNT International Belarus (1080p)",
-    "country": "RU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8"
     ]
   },
   {
@@ -7106,18 +7071,6 @@
     ]
   },
   {
-    "id": "Quadro.ru@4K",
-    "name": "Quadro (2160p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/316/index.m3u8"
-    ]
-  },
-  {
     "id": "VIVARussia.ru@SD",
     "name": "VIVA Russia",
     "country": "RU",
@@ -7161,6 +7114,18 @@
     "visible": true,
     "urls": [
       "https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8"
+    ]
+  },
+  {
+    "id": "Home4K.ru@SD",
+    "name": "Home 4K",
+    "country": "RU",
+    "categories": [
+      "relax"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8"
     ]
   }
 ]

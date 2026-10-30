@@ -132,22 +132,6 @@
     ]
   },
   {
-    "id": "HangMeasHDTV.kh@SD",
-    "name": "Hang Meas HDTV (720p)",
-    "country": "KH",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:hmhdt12356.smil/playlist.m3u8",
-      "http://clive.malisresidences.com:1935/hmcine/_definst_/smil:hmcine.smil/playlist.m3u8",
-      "http://clive.malisresidences.com:1935/hmgo/_definst_/smil:hmgo.smil/playlist.m3u8",
-      "http://clive.malisresidences.com:1935/hmnow/_definst_/smil:hmnow.smil/playlist.m3u8",
-      "http://clive.malisresidences.com:1935/hmplay/_definst_/smil:hmplay.smil/playlist.m3u8"
-    ]
-  },
-  {
     "id": "iTVHD.kh@SD",
     "name": "iTV HD",
     "country": "KH",
@@ -219,17 +203,6 @@
     "visible": true,
     "urls": [
       "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8"
-    ]
-  },
-  {
-    "id": "RasmeyHangMeasHDTV.kh@SD",
-    "name": "Rasmey Hang Meas HDTV (720p) [Not 24/7]",
-    "country": "KH",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
-      "https://live.happywatch99.com/rhm/0c00b89a106bb365ec031b28fa3ae499.sdp/playlist.m3u8"
     ]
   },
   {

@@ -947,18 +947,6 @@
     ]
   },
   {
-    "id": "CapTerre.es@FR",
-    "name": "Cap Terre (1080p)",
-    "country": "ES",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/359a/index.m3u8"
-    ]
-  },
-  {
     "id": "CetelmonTV.es@SD",
     "name": "Cetelmón TV (404p)",
     "country": "ES",

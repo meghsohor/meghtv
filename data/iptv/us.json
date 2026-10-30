@@ -14165,19 +14165,6 @@
     ]
   },
   {
-    "id": "EstrellaTV.us@WMBCTV",
-    "name": "WMBC-DT1 (720p)",
-    "country": "US",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://d029dcec.kazmazpaz.ru/iptv/GVR4V8HYAGBS5V/1098/manifest.m3u8",
-      "http://61ce5915.amazzin.pw/iptv/FF38ZQWZHTSV8T4XX9RDZYLB/1098/index.m3u8"
-    ]
-  },
-  {
     "id": "Fox.us@WNYW",
     "name": "WNYW-DT1 (1080p)",
     "country": "US",
@@ -14381,18 +14368,6 @@
     "visible": true,
     "urls": [
       "https://tv2.fastcast4u.com:3943/stream/play.m3u8"
-    ]
-  },
-  {
-    "id": "MNT.us@WWORTV",
-    "name": "WWOR-DT1",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://37c18028.akadatel.com/iptv/T6XNCP6L7LLKPD/1088/mpegts"
     ]
   },
   {
@@ -15055,18 +15030,6 @@
     "visible": true,
     "urls": [
       "https://streaming-live-fcdn.api.prd.univisionnow.com/uniwest/uniwest.isml/hls/uniwest.m3u8"
-    ]
-  },
-  {
-    "id": "NickJr.us@EastHD",
-    "name": "Nick Jr. East HD (720p)",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/nickjr/index.m3u8?token=test"
     ]
   },
   {
@@ -24556,7 +24519,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8"
+      "https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8",
+      "https://a-cdn.klowdtv.com/live2/theweatherchannel_720p/playlist.m3u8"
     ]
   },
   {
@@ -25231,7 +25195,7 @@
   },
   {
     "id": "JusticeCentralTV.us@SD",
-    "name": "Justice Central (720p)",
+    "name": "Justice Central.TV (720p)",
     "country": "US",
     "categories": [
       "entertainment"
@@ -25310,6 +25274,30 @@
     "visible": true,
     "urls": [
       "https://televisioncaribe.com/index.m3u8"
+    ]
+  },
+  {
+    "id": "SonyMovies.us@SD",
+    "name": "Sony Movies (720p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HBCUGOSports.us@SD",
+    "name": "HBCU-GO Sports (720p)",
+    "country": "US",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8"
     ]
   }
 ]

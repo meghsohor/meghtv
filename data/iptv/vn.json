@@ -353,18 +353,6 @@
     ]
   },
   {
-    "id": "ONVieDrama.vn@SD",
-    "name": "ON Vie Drama (720p)",
-    "country": "VN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8"
-    ]
-  },
-  {
     "id": "QPVN.vn@HD",
     "name": "QPVN HD (1080p)",
     "country": "VN",

@@ -118,18 +118,6 @@
     ]
   },
   {
-    "id": "RTS3.sn@SD",
-    "name": "RTS 3 (720p)",
-    "country": "SN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/224/index.m3u8"
-    ]
-  },
-  {
     "id": "SenewebTV.sn@SD",
     "name": "Seneweb TV [Geo-blocked]",
     "country": "SN",

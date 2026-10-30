@@ -197,21 +197,6 @@
     ]
   },
   {
-    "id": "TV8.md@SD",
-    "name": "TV8 [Not 24/7]",
-    "country": "MD",
-    "categories": [
-      "news",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8",
-      "http://178.76.68.60:7442/7/mpegts",
-      "http://178.76.68.60:7441/7/mpegts"
-    ]
-  },
-  {
     "id": "TVRMoldova.md@SD",
     "name": "TVR Moldova (720p)",
     "country": "MD",

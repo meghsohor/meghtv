@@ -33,6 +33,7 @@
       "https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8",
       "https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8",
       "https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist.m3u8",
+      "https://a-cdn.klowdtv.com/live3/gbnews_720p/playlist.m3u8",
       "https://amg01076-lightning-amg01076c7-klowdtv-us-2128.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-klowdtvus/playlist.m3u8",
       "https://live-gbnews.simplestreamcdn.com/s3/gbnews/index.m3u8"
     ]
@@ -2332,42 +2333,6 @@
     ]
   },
   {
-    "id": "BBCEarth.uk@Poland",
-    "name": "BBC Earth (1080p)",
-    "country": "UK",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/307/index.m3u8"
-    ]
-  },
-  {
-    "id": "BBCBrit.uk@Poland",
-    "name": "BBC Brit (1080p)",
-    "country": "UK",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/309/index.m3u8"
-    ]
-  },
-  {
-    "id": "BBCLifestyle.uk@Poland",
-    "name": "BBC Lifestyle Poland (1080p)",
-    "country": "UK",
-    "categories": [
-      "lifestyle"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/305/index.m3u8"
-    ]
-  },
-  {
     "id": "BBCTwo.uk@Wales",
     "name": "BBC Two Wales",
     "country": "UK",
@@ -3391,66 +3356,6 @@
     ]
   },
   {
-    "id": "CNBCEurope.uk@SD",
-    "name": "CNBC Europe (1080p)",
-    "country": "UK",
-    "categories": [
-      "business"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/234/index.m3u8"
-    ]
-  },
-  {
-    "id": "DiscoveryScienceEurope.uk@Poland",
-    "name": "Discovery Science Europe Poland (1080p)",
-    "country": "UK",
-    "categories": [
-      "science"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/279/index.m3u8"
-    ]
-  },
-  {
-    "id": "BBCFirst.uk@Poland",
-    "name": "BBC First (1080p)",
-    "country": "UK",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/306/index.m3u8"
-    ]
-  },
-  {
-    "id": "BabyTV.uk@UK",
-    "name": "BabyTV (1080p)",
-    "country": "UK",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/310/index.m3u8"
-    ]
-  },
-  {
-    "id": "AMCEurope.uk@Poland",
-    "name": "AMC Europe Poland (576i)",
-    "country": "UK",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://57.128.231.171:8080/318/index.m3u8"
-    ]
-  },
-  {
     "id": "ViasatEpicDrama.uk@Poland",
     "name": "Viasat Epic Drama Poland (1080p)",
     "country": "UK",
@@ -3460,18 +3365,6 @@
     "visible": true,
     "urls": [
       "http://92.114.85.87:8001/play/a00x/index.m3u8"
-    ]
-  },
-  {
-    "id": "EnglishClubGlobal.uk@SD",
-    "name": "English Club Global",
-    "country": "UK",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/english-club-global.m3u8"
     ]
   },
   {

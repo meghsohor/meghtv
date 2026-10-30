@@ -3177,54 +3177,6 @@
     ]
   },
   {
-    "id": "VSportGolf.se@SD",
-    "name": "V Sport Golf [Not 24/7]",
-    "country": "SE",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8"
-    ]
-  },
-  {
-    "id": "ViasatExplore.se@SD",
-    "name": "Viasat Explore [Not 24/7]",
-    "country": "SE",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12085/index.m3u8"
-    ]
-  },
-  {
-    "id": "ViasatHistory.se@SD",
-    "name": "Viasat History [Not 24/7]",
-    "country": "SE",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12101/index.m3u8"
-    ]
-  },
-  {
-    "id": "ViasatNature.se@SD",
-    "name": "Viasat Nature [Not 24/7]",
-    "country": "SE",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12084/index.m3u8"
-    ]
-  },
-  {
     "id": "7thHeaven.se@SE",
     "name": "7th Heaven",
     "country": "SE",

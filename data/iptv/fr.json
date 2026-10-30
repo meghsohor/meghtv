@@ -151,18 +151,6 @@
     ]
   },
   {
-    "id": "AB1.fr@SD",
-    "name": "AB1 (720p)",
-    "country": "FR",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/332/index.m3u8"
-    ]
-  },
-  {
     "id": "ADNTVPlus.fr@SD",
     "name": "ADN TV+ (720p)",
     "country": "FR",
@@ -411,18 +399,6 @@
     ]
   },
   {
-    "id": "CinePlusEmotion.fr@SD",
-    "name": "Cine+ Emotion (720p)",
-    "country": "FR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/337/index.m3u8"
-    ]
-  },
-  {
     "id": "CinePlusFrisson.fr@SD",
     "name": "Cine+ Frisson (1080p)",
     "country": "FR",
@@ -599,18 +575,6 @@
     "visible": true,
     "urls": [
       "https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1"
-    ]
-  },
-  {
-    "id": "FootPlus.fr@SD",
-    "name": "Foot+",
-    "country": "FR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/556a/index.m3u8"
     ]
   },
   {
@@ -996,18 +960,6 @@
     ]
   },
   {
-    "id": "NollywoodTV.fr@SD",
-    "name": "Nollywood TV (720p)",
-    "country": "FR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/148/index.m3u8"
-    ]
-  },
-  {
     "id": "NRJHits.fr@SD",
     "name": "NRJ Hits",
     "country": "FR",
@@ -1044,16 +996,6 @@
     ]
   },
   {
-    "id": "RFMTV.fr@SD",
-    "name": "RFM TV [Not 24/7]",
-    "country": "FR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8"
-    ]
-  },
-  {
     "id": "RMCLife.fr@SD",
     "name": "RMC Life (1080p)",
     "country": "FR",
@@ -1087,16 +1029,6 @@
     "visible": true,
     "urls": [
       "http://41.205.93.154/SYFY/index.m3u8"
-    ]
-  },
-  {
-    "id": "SerieClub.fr@SD",
-    "name": "Serie Club (720p)",
-    "country": "FR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/355/index.m3u8"
     ]
   },
   {
@@ -1183,16 +1115,6 @@
     "visible": true,
     "urls": [
       "https://videas.agglo-lenslievin.fr/index.m3u8"
-    ]
-  },
-  {
-    "id": "Teva.fr@SD",
-    "name": "Teva (1080p)",
-    "country": "FR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/356/index.m3u8"
     ]
   },
   {
@@ -1443,16 +1365,6 @@
     "visible": true,
     "urls": [
       "http://194.163.157.137:8080/hls/radioalsace.m3u8"
-    ]
-  },
-  {
-    "id": "TVBreizh.fr@SD",
-    "name": "TV Breizh (1080p)",
-    "country": "FR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://145.239.5.177/318/index.m3u8"
     ]
   },
   {

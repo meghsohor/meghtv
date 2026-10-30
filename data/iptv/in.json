@@ -6842,18 +6842,6 @@
     ]
   },
   {
-    "id": "AsianetMovies.in@HD",
-    "name": "Asianet Movies HD (720p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8"
-    ]
-  },
-  {
     "id": "ZeeTamil.in@HD",
     "name": "Zee Tamil HD (720p)",
     "country": "IN",
@@ -7814,20 +7802,6 @@
     ]
   },
   {
-    "id": "SonyMarathi.in@SD",
-    "name": "Sony Marathi (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/sonymarathi/index.m3u8?token=test",
-      "https://cloudplay-sonyliv.pages.dev/marathi.m3u8",
-      "http://51.75.127.199:3141/sonymarathi/index.m3u8"
-    ]
-  },
-  {
     "id": "MeiAlaiTV.in@SD",
     "name": "Mei Alai TV (576p)",
     "country": "IN",
@@ -8145,18 +8119,6 @@
     ]
   },
   {
-    "id": "Zing.in@SD",
-    "name": "Zing! (576p)",
-    "country": "IN",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/zing/index.m3u8?token=test"
-    ]
-  },
-  {
     "id": "ZeeAction.in@SD",
     "name": "Zee Action (576p)",
     "country": "IN",
@@ -8167,31 +8129,6 @@
     "urls": [
       "https://fta.ektv.in/live/270/master.m3u8",
       "http://107.167.16.138/zeeaction/index.m3u8?token=test"
-    ]
-  },
-  {
-    "id": "ZeeClassic.in@SD",
-    "name": "Zee Classic (576p)",
-    "country": "IN",
-    "categories": [
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/zeeclassic/index.m3u8?token=test",
-      "http://51.75.127.199:3141/zeeclassic/index.m3u8"
-    ]
-  },
-  {
-    "id": "SonyMax2.in@SD",
-    "name": "Sony Max 2 (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/sonymax2/index.m3u8?token=test"
     ]
   },
   {
@@ -9350,19 +9287,6 @@
     ]
   },
   {
-    "id": "ZeeTalkies.in@HD",
-    "name": "Zee Talkies HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://107.167.16.138/zeetalkies/index.m3u8?token=test",
-      "http://51.75.127.199:3141/zeetalkieshd/index.m3u8"
-    ]
-  },
-  {
     "id": "Superhitz.in@SD",
     "name": "Superhitz (576p)",
     "country": "IN",
@@ -9738,18 +9662,6 @@
     "visible": true,
     "urls": [
       "http://103.151.60.162:2122/play/a02w/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "BflixMovies.in@SD",
-    "name": "Bflix Movies (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01e/index.m3u8?hls"
     ]
   },
   {

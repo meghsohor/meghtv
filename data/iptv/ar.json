@@ -653,19 +653,6 @@
     ]
   },
   {
-    "id": "CanalE.ar@SD",
-    "name": "Canal E (720p)",
-    "country": "AR",
-    "categories": [
-      "business",
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8"
-    ]
-  },
-  {
     "id": "CanalLuz.ar@SD",
     "name": "Canal Luz",
     "country": "AR",

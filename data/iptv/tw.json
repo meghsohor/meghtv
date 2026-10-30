@@ -350,5 +350,17 @@
     "urls": [
       "http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv"
     ]
+  },
+  {
+    "id": "TTVNews.tw@SD",
+    "name": "TTV News",
+    "country": "TW",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.wcetv.com/hls/master-ttvnews.m3u8"
+    ]
   }
 ]

@@ -115,18 +115,6 @@
     ]
   },
   {
-    "id": "2Plus2Marathon.ua@SD",
-    "name": "2+2 Marathon (1080p)",
-    "country": "UA",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/2Plus2Marafon.m3u8"
-    ]
-  },
-  {
     "id": "6sotok.ua@SD",
     "name": "6 sotok (1080p)",
     "country": "UA",

@@ -866,6 +866,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
       "https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8"
     ]
   },
@@ -1153,18 +1154,6 @@
     ]
   },
   {
-    "id": "PrimaTV.ro@HD",
-    "name": "Prima TV HD",
-    "country": "RO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6995/index.m3u8"
-    ]
-  },
-  {
     "id": "PROTV.ro@HD",
     "name": "PRO TV HD (1080p)",
     "country": "RO",
@@ -1188,17 +1177,6 @@
     ]
   },
   {
-    "id": "ProArena.ro@HD",
-    "name": "Pro Arena HD",
-    "country": "RO",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6990/index.m3u8",
-      "https://dokagents.site/live/proarena/mono.m3u8"
-    ]
-  },
-  {
     "id": "ProCinema.ro@SD",
     "name": "Pro Cinema (1080p)",
     "country": "RO",
@@ -1210,18 +1188,6 @@
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0",
       "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6951/index.m3u8",
       "https://dokagents.site/live/procinema/mono.m3u8"
-    ]
-  },
-  {
-    "id": "Acasa.ro@HD",
-    "name": "Acasa HD",
-    "country": "RO",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6988/index.m3u8"
     ]
   },
   {
