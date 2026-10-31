@@ -1728,7 +1728,8 @@
     "urls": [
       "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
       "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8",
-      "https://cdn.pishow.tv/ott/live/266/master.m3u8"
+      "https://cdn.pishow.tv/ott/live/266/master.m3u8",
+      "https://fta.ektv.in/live/416/master.m3u8"
     ]
   },
   {
@@ -2447,6 +2448,19 @@
     "visible": true,
     "urls": [
       "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetwork.tr@SD",
+    "name": "Cartoon Network",
+    "country": "TR",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://176.65.153.40:6002/play/a013/index.m3u8"
     ]
   }
 ]

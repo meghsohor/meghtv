@@ -896,20 +896,6 @@
     ]
   },
   {
-    "id": "Football.ru@SD",
-    "name": "Football (576p)",
-    "country": "RU",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Football/video.m3u8",
-      "http://31.148.48.15/Futbol_HD/index.m3u8",
-      "http://str2.iptvhd.ru:8080/Futbol/index.m3u8"
-    ]
-  },
-  {
     "id": "Fox.ru@SD",
     "name": "Fox (576p)",
     "country": "RU",
@@ -7126,6 +7112,16 @@
     "visible": true,
     "urls": [
       "http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NTVSledstviyeveli.ru@SD",
+    "name": "NTV Sledstviye veli (1080p) [Geo-blocked]",
+    "country": "RU",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://mhd116.iptv2022.com/x/t4hRFz1R89Q6kjp3CL3WVQ,1792610109/streaming/sledstvie_veli_hd/324/1/index.m3u8"
     ]
   }
 ]

@@ -257,43 +257,6 @@
     ]
   },
   {
-    "id": "HBOAsia.sg@HD",
-    "name": "HBO Asia HD (1080p)",
-    "country": "SG",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://2x2.me/yTKXaE"
-    ]
-  },
-  {
-    "id": "HBOHitsAsia.sg@HD",
-    "name": "HBO Hits Asia HD (1080p)",
-    "country": "SG",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://2x2.me/BbwzPx"
-    ]
-  },
-  {
-    "id": "AXNAsia.sg@Malaysia",
-    "name": "AXN Asia Malaysia (1080p)",
-    "country": "SG",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://2x2.me/5aE8sA"
-    ]
-  },
-  {
     "id": "HBOAsia.sg@Taiwan",
     "name": "HBO Asia Taiwan (1080p)",
     "country": "SG",
@@ -363,6 +326,19 @@
     "visible": true,
     "urls": [
       "http://125.227.210.55:3056/VideoInput/play.ts"
+    ]
+  },
+  {
+    "id": "AXNAsia.sg@Indonesia",
+    "name": "AXN Asia Indonesia",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://202.150.165.66:8088/play/301-AXN/index.m3u8"
     ]
   }
 ]

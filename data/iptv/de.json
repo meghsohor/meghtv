@@ -5094,5 +5094,15 @@
     "urls": [
       "http://109.85.181.77:9981/stream/channelid/652495718?profile=pass"
     ]
+  },
+  {
+    "id": "RiCtoday.de@HD",
+    "name": "RiC.today",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/test_ric_international_avc_25p/playlist.m3u8"
+    ]
   }
 ]

@@ -8914,7 +8914,7 @@
   },
   {
     "id": "DisneyXD.us@East",
-    "name": "Disney XD (1080p)",
+    "name": "Disney XD (720p)",
     "country": "US",
     "categories": [
       "kids"
@@ -9395,8 +9395,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8",
-      "http://stream.mcquack.net/458/index.m3u8"
+      "http://stream.mcquack.net/458/index.m3u8",
+      "http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8"
     ]
   },
   {
@@ -25298,6 +25298,19 @@
     "visible": true,
     "urls": [
       "https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Telecyan.us@HD",
+    "name": "Telecyan (720p)",
+    "country": "US",
+    "categories": [
+      "series",
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live20.bozztv.com/giatvplayout7/giatv-211227/playlist.m3u8"
     ]
   }
 ]

@@ -350,8 +350,8 @@
     "urls": [
       "http://15.204.246.24:8080/Canal13HD/index.m3u8",
       "http://38.250.127.17:9800/play/a067/index.m3u8",
-      "https://redirector.dps.live/hls/13intav/playlist.m3u8",
       "https://pantera1-100gb-cl-movistar.dps.live/t13radio/t13radio.smil/playlist.m3u8",
+      "https://redirector.dps.live/hls/13intav/playlist.m3u8",
       "http://187.102.208.209:8000/play/a099/index.m3u8"
     ]
   },
@@ -397,8 +397,8 @@
     "visible": true,
     "urls": [
       "http://190.61.90.17:40000/play/a0fv/index.m3u8",
-      "http://168.196.127.137:6001/play/a04l/index.m3u8",
-      "https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8"
+      "https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8",
+      "http://168.196.127.137:6001/play/a04l/index.m3u8"
     ]
   },
   {
@@ -2048,15 +2048,15 @@
   },
   {
     "id": "SURTV.cl@SD",
-    "name": "SUR TV (1080p)",
+    "name": "SUR TV (720p)",
     "country": "CL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/surtv/surtv.smil/playlist.m3u8",
-      "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8"
+      "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8",
+      "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/surtv/surtv.smil/playlist.m3u8"
     ]
   },
   {
@@ -2284,16 +2284,16 @@
   },
   {
     "id": "TVChile.cl@SD",
-    "name": "TV Chile (1080p) [Geo-blocked]",
+    "name": "TV Chile (576p)",
     "country": "CL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "http://38.252.238.18:8000/play/a04b/index.m3u8",
       "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
-      "http://168.196.127.137:6001/play/a03n/index.m3u8",
-      "http://38.252.238.18:8000/play/a04b/index.m3u8"
+      "http://168.196.127.137:6001/play/a03n/index.m3u8"
     ]
   },
   {
@@ -2374,8 +2374,8 @@
       "http://138.121.15.230:9002/TVN/index.m3u8",
       "https://iptv.bitred.cl/tvn/index.m3u8",
       "http://38.44.109.41:8003/play/a0gz/index.m3u8",
-      "http://38.44.109.41:8003/play/a0gs/index.m3u8",
-      "http://45.173.231.22:8000/play/a06l/index.m3u8"
+      "http://45.173.231.22:8000/play/a06l/index.m3u8",
+      "http://38.44.109.41:8003/play/a0gs/index.m3u8"
     ]
   },
   {
@@ -2499,7 +2499,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8"
+      "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8",
+      "http://186.148.196.100:8000/play/a02z"
     ]
   },
   {

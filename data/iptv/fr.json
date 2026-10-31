@@ -363,18 +363,6 @@
     ]
   },
   {
-    "id": "CanalPlusSport360.fr@SD",
-    "name": "Canal+ Sport 360",
-    "country": "FR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8"
-    ]
-  },
-  {
     "id": "CannesLerinsTV.fr@SD",
     "name": "Cannes Lérins TV (1080p)",
     "country": "FR",
@@ -1580,19 +1568,6 @@
     ]
   },
   {
-    "id": "CanalPlus.fr@SD",
-    "name": "Canal+ (1080p) [Geo-blocked]",
-    "country": "FR",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://tv.streambox.fr/live/testlivestream/testlivestream/41.m3u8",
-      "http://151.80.18.177:86/Canal+_HD/index.m3u8"
-    ]
-  },
-  {
     "id": "Europe1TV.fr@HD",
     "name": "Europe 1 TV (1080p)",
     "country": "FR",
@@ -2645,6 +2620,18 @@
     "visible": true,
     "urls": [
       "http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "TebeoTV.fr@SD",
+    "name": "Tebeo TV (576i)",
+    "country": "FR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tebeo.streamakaci.tv/tebeo/tebeo-multi/playlist.m3u8"
     ]
   }
 ]
