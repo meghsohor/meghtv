@@ -7600,18 +7600,6 @@
     ]
   },
   {
-    "id": "SonyMax.in@SD",
-    "name": "Sony Max (576p) [Geo-blocked]",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0"
-    ]
-  },
-  {
     "id": "StarJalsha.in@SD",
     "name": "Star Jalsha (1080p) [Geo-blocked]",
     "country": "IN",
@@ -7622,19 +7610,6 @@
     "urls": [
       "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
       "http://103.151.60.162:2122/play/a00w/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "NationalGeographic.in@SD",
-    "name": "National Geographic (576p) [Geo-blocked]",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:28:41&stream=373017&extension=ts&play_token=zCaGy5dtla",
-      "http://51.75.127.199:3141/natgeo/index.m3u8"
     ]
   },
   {
@@ -9232,19 +9207,6 @@
     ]
   },
   {
-    "id": "NationalGeographic.in@HD",
-    "name": "National Geographic HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.185.24.134:3001/NATGEO-HD/index.m3u8",
-      "http://51.75.127.199:3141/natgeohd/index.m3u8"
-    ]
-  },
-  {
     "id": "ZeeTV.in@SD",
     "name": "Zee TV (576p)",
     "country": "IN",
@@ -9318,19 +9280,6 @@
     "urls": [
       "http://103.151.60.162:2122/play/a02s/index.m3u8?hls",
       "http://51.75.127.199:3141/colorscineplexhd/index.m3u8"
-    ]
-  },
-  {
-    "id": "HistoryTV18.in@SD",
-    "name": "History TV18 (576p)",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a00y/index.m3u8?hls",
-      "http://51.75.127.199:3141/historytv18/index.m3u8"
     ]
   },
   {
@@ -9584,19 +9533,6 @@
     "urls": [
       "http://103.185.24.134:3001/Star-Gold/index.m3u8",
       "http://103.151.60.162:2122/play/a01n/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "NationalGeographicWild.in@HD",
-    "name": "National Geographic Wild HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8",
-      "http://103.151.60.162:2122/play/a01f/index.m3u8?hls"
     ]
   },
   {
@@ -10377,18 +10313,6 @@
     "visible": true,
     "urls": [
       "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8"
-    ]
-  },
-  {
-    "id": "SonyMax1.in@SD",
-    "name": "Sony Max 1",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://27.116.22.53:5001/live/3418.m3u8"
     ]
   },
   {

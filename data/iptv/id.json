@@ -1732,19 +1732,6 @@
     ]
   },
   {
-    "id": "iNews.id@HD",
-    "name": "iNews HD (720p)",
-    "country": "ID",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://mncmedia.malingtv.workers.dev/inews.m3u8",
-      "http://202.150.172.59/iNews/index.m3u8"
-    ]
-  },
-  {
     "id": "AjwaTV.id@SD",
     "name": "Ajwa TV (1080p)",
     "country": "ID",

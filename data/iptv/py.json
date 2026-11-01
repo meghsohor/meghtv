@@ -559,7 +559,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d3epa8orr2qy3m.cloudfront.net/ts:abr.m3u8"
+      "https://d3epa8orr2qy3m.cloudfront.net/ts:abr.m3u8",
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/113.m3u8"
     ]
   },
   {
@@ -660,13 +661,14 @@
   },
   {
     "id": "AmericaParaguay.py@SD",
-    "name": "America Paraguay (720p)",
+    "name": "America Paraguay",
     "country": "PY",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/83.m3u8",
       "http://45.170.130.224:8000/play/a02o/index.m3u8?hls"
     ]
   },
@@ -679,7 +681,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.170.130.224:8000/play/a032/index.m3u8?hls"
+      "http://45.170.130.224:8000/play/a032/index.m3u8?hls",
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/120.m3u8"
     ]
   },
   {
@@ -704,7 +707,8 @@
     "visible": false,
     "urls": [
       "http://45.170.130.224:8000/play/a03x/index.m3u8?hls",
-      "http://158.172.217.18:8000/play/a00m/index.m3u8"
+      "http://158.172.217.18:8000/play/a00m/index.m3u8",
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/119.m3u8"
     ]
   },
   {
@@ -716,6 +720,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/82.m3u8",
       "http://45.170.130.224:8000/play/a050/index.m3u8?hls"
     ]
   },
@@ -728,6 +733,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/72.m3u8",
       "http://45.170.130.224:8000/play/a04y/index.m3u8?hls"
     ]
   },
@@ -771,13 +777,14 @@
   },
   {
     "id": "ABCTVParaguay.py@SD",
-    "name": "ABC-TV Paraguay (1080p)",
+    "name": "ABC-TV Paraguay",
     "country": "PY",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8",
       "https://live2.eu-north-1a.cf.dmcdn.net/sec2(vig4KUMvzIpvL_0CGgNPG2QFE6DukpwGhRZzGj8aqOyedNaDjlOwv-qe03N1Bk5-7nB-V7Uv8gBwwy2h-0TCL_WRE6IWeUWiVcnYm587YcdKpnqvQZ3tYg9iGdqpySyX)/cloud/3/x9skr3m/d/live-720.m3u8#cell=lcf2-eu-north-1a"
     ]
   },
@@ -791,6 +798,30 @@
     "visible": true,
     "urls": [
       "http://190.128.214.97:64333/play/a011/index.m3u8"
+    ]
+  },
+  {
+    "id": "5DiasTV.py@SD",
+    "name": "5Dias TV",
+    "country": "PY",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/13.m3u8"
+    ]
+  },
+  {
+    "id": "Tropicalia939FM.py@SD",
+    "name": "Tropicalia 93.9 FM",
+    "country": "PY",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/67.m3u8"
     ]
   }
 ]

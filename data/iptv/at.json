@@ -480,5 +480,17 @@
     "urls": [
       "https://cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ORFSportPlus.at@SD",
+    "name": "ORF Sport+",
+    "country": "AT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://test02.mdn.ors.at/orf/orfs/qxa/manifest.m3u8"
+    ]
   }
 ]

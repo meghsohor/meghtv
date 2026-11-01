@@ -3522,5 +3522,75 @@
     "urls": [
       "http://37.49.224.5:80/stream/4/index.m3u8"
     ]
+  },
+  {
+    "id": "DiscoveryScienceEurope.uk@UK",
+    "name": "Discovery Science Europe UK",
+    "country": "UK",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/9/index.m3u8"
+    ]
+  },
+  {
+    "id": "AnimalPlanet.uk@SD",
+    "name": "Animal Planet",
+    "country": "UK",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/10/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.uk@UK",
+    "name": "Discovery Channel",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/11/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryHistory.uk@SD",
+    "name": "Discovery History",
+    "country": "UK",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/12/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryTurbo.uk@SD",
+    "name": "Discovery Turbo",
+    "country": "UK",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/13/index.m3u8"
+    ]
+  },
+  {
+    "id": "Really.uk@SD",
+    "name": "Really",
+    "country": "UK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/36/index.m3u8"
+    ]
   }
 ]

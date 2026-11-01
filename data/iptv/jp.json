@@ -24,18 +24,6 @@
     ]
   },
   {
-    "id": "NHKGeneralTV.jp@SD",
-    "name": "NHK General TV (720p)",
-    "country": "JP",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nhk4.mov3.co/hls/nhk.m3u8"
-    ]
-  },
-  {
     "id": "NHKWorldJapan.jp@SD",
     "name": "NHK World-Japan (1080p)",
     "country": "JP",
@@ -116,42 +104,6 @@
     "visible": true,
     "urls": [
       "https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8"
-    ]
-  },
-  {
-    "id": "TBSTV.jp@JORXDTV",
-    "name": "TBS TV (540p)",
-    "country": "JP",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tbs5.mov3.co/hls/tbs.m3u8"
-    ]
-  },
-  {
-    "id": "NipponTV.jp@JOAXDTV",
-    "name": "Nippon TV (576p)",
-    "country": "JP",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://ntv5.mov3.co/hls/ntv.m3u8"
-    ]
-  },
-  {
-    "id": "TVTokyo.jp@JOTXDTV",
-    "name": "TV Tokyo (576p)",
-    "country": "JP",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvtokyo.mov3.co/hls/tvtokyo.m3u8"
     ]
   },
   {

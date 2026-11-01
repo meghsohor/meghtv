@@ -2134,5 +2134,17 @@
     "urls": [
       "http://45.228.234.9:8000/play/a06b/index.m3u8"
     ]
+  },
+  {
+    "id": "DiscoveryHomeHealthLatinAmerica.mx@South",
+    "name": "Discovery Home & Health Latin America South",
+    "country": "MX",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8"
+    ]
   }
 ]

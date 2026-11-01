@@ -615,19 +615,6 @@
     ]
   },
   {
-    "id": "France4.fr@HD",
-    "name": "France 4 HD (1080p) [Geo-blocked]",
-    "country": "FR",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://41.205.93.154/OKOO/index.m3u8",
-      "https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8"
-    ]
-  },
-  {
     "id": "France5.fr@SD",
     "name": "France 5",
     "country": "FR",
@@ -1117,18 +1104,6 @@
       "http://149.62.177.107:9999/TF1/index.m3u8",
       "https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8",
       "http://str2.iptvhd.ru:8080/TF1/index.m3u8"
-    ]
-  },
-  {
-    "id": "TF1.fr@HD",
-    "name": "TF1 HD (720p)",
-    "country": "FR",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://151.80.18.177:86/TF1_HD/index.m3u8"
     ]
   },
   {

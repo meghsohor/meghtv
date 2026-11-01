@@ -136,5 +136,101 @@
     "urls": [
       "https://mediapackage-sky-hgtv-source.fullscreen.nz/index.m3u8"
     ]
+  },
+  {
+    "id": "SkySport1.nz@SD",
+    "name": "Sky Sport 1",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/44/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport2.nz@SD",
+    "name": "Sky Sport 2",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/45/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport3.nz@SD",
+    "name": "Sky Sport 3",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/46/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport4.nz@SD",
+    "name": "Sky Sport 4",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/51/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport7.nz@SD",
+    "name": "Sky Sport 7",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/50/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport8.nz@SD",
+    "name": "Sky Sport 8",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/70/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySport9.nz@SD",
+    "name": "Sky Sport 9",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/52/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportSelect.nz@SD",
+    "name": "Sky Sport Select",
+    "country": "NZ",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://37.49.224.5/stream/53/index.m3u8"
+    ]
   }
 ]

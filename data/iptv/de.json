@@ -5104,5 +5104,18 @@
     "urls": [
       "http://88.212.7.14/live/test_ric_international_avc_25p/playlist.m3u8"
     ]
+  },
+  {
+    "id": "NickComedyCentralPlus1.de@SD",
+    "name": "Nick/Comedy Central +1",
+    "country": "DE",
+    "categories": [
+      "comedy",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://90.183.52.46:4000/play/a046/index.m3u8"
+    ]
   }
 ]
