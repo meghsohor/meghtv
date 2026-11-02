@@ -11385,5 +11385,41 @@
     "urls": [
       "https://fta.ektv.in/live/625/master.m3u8"
     ]
+  },
+  {
+    "id": "NewsMalayalam24x7.in@SD",
+    "name": "News Malayalam 24x7 (576p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.pishow.tv/ott/live/1629/master.m3u8"
+    ]
+  },
+  {
+    "id": "WahPunjabi.in@SD",
+    "name": "Wah Punjabi (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://yuppnimrestreammum.akamaized.net/181224/smil:wahpunjabi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+    ]
+  },
+  {
+    "id": "VisionBeats.in@SD",
+    "name": "Vision Beats (720p)",
+    "country": "IN",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://a-edge.bliscdn.com/Visionbeats/index.m3u8"
+    ]
   }
 ]

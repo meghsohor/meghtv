@@ -5117,5 +5117,25 @@
     "urls": [
       "http://90.183.52.46:4000/play/a046/index.m3u8"
     ]
+  },
+  {
+    "id": "RTLSuper.de@HD",
+    "name": "RTL Super HD (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/superX/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTLZwei.de@HD",
+    "name": "RTL Zwei HD (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/rtl2q/index.m3u8"
+    ]
   }
 ]

@@ -1557,30 +1557,6 @@
     ]
   },
   {
-    "id": "HtMusicChannel.ro@SD",
-    "name": "H!t Music Channel",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-mooz-dance/live_hq?offsetSeconds=0"
-    ]
-  },
-  {
-    "id": "MusicChannel.ro@SD",
-    "name": "Music Channel",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-ncn/live_hq?offsetSeconds=0"
-    ]
-  },
-  {
     "id": "RapsodiaTV.ro@SD",
     "name": "Rapsodia TV",
     "country": "RO",
@@ -1702,16 +1678,6 @@
     ]
   },
   {
-    "id": "NationalTV2.ro@SD",
-    "name": "National TV2",
-    "country": "RO",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-telestar1/live_hq?offsetSeconds=0"
-    ]
-  },
-  {
     "id": "IntermediaTV.ro@SD",
     "name": "Intermedia TV (576p)",
     "country": "RO",
@@ -1829,18 +1795,6 @@
     "visible": true,
     "urls": [
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-tele-moldova-plus/live_hq?offsetSeconds=0"
-    ]
-  },
-  {
-    "id": "EMITV.ro@HD",
-    "name": "EMI TV HD (1080i)",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-emi/live_hq?offsetSeconds=0"
     ]
   },
   {
@@ -2107,6 +2061,42 @@
     "visible": true,
     "urls": [
       "https://livestream.a3sv.ro/master.m3u8"
+    ]
+  },
+  {
+    "id": "RomanticFM.ro@SD",
+    "name": "Romantic FM (576i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/zurtv/rfmprem/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "RadioZU.ro@720p",
+    "name": "Radio ZU (720p)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/zurtv/zurtv/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaSport.ro@SD",
+    "name": "AntenaSport",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8"
     ]
   }
 ]

@@ -184,6 +184,7 @@
     "visible": true,
     "urls": [
       "http://88.212.7.14/live/disney_channel_hun/index.m3u8",
+      "http://193.33.39.108:9019/play/a00n",
       "http://88.212.15.17/live/disney_channel_hun/index.m3u8",
       "http://88.212.15.19/live/disney_channel_hun/index.m3u8"
     ]
@@ -1842,6 +1843,54 @@
     "urls": [
       "http://88.212.7.14/live/tlc_hungary/index.m3u8",
       "http://88.212.15.17/live/tlc_hungary/index.m3u8"
+    ]
+  },
+  {
+    "id": "CinemaxCentralEurope.hu@SD",
+    "name": "Cinemax Central Europe",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.33.39.108:9023/play/a01b"
+    ]
+  },
+  {
+    "id": "Cinemax2CentralEurope.hu@SD",
+    "name": "Cinemax 2 Central Europe",
+    "country": "HU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.33.39.108:9009/play/a024"
+    ]
+  },
+  {
+    "id": "ViasatNature.hu@SD",
+    "name": "Viasat Nature",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.33.39.108:9000/play/a05r"
+    ]
+  },
+  {
+    "id": "ViasatHistory.hu@SD",
+    "name": "Viasat History",
+    "country": "HU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.33.39.108:9007/play/a00p"
     ]
   }
 ]

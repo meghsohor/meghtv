@@ -2935,19 +2935,6 @@
     ]
   },
   {
-    "id": "CanalSur.es@SD",
-    "name": "Canal Sur",
-    "country": "ES",
-    "categories": [
-      "general",
-      "public"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd"
-    ]
-  },
-  {
     "id": "Antena3Internacional.es@SD",
     "name": "Antena 3 Internacional (1080p)",
     "country": "ES",

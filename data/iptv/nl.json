@@ -2249,5 +2249,17 @@
     "urls": [
       "http://185.77.12.179:9981/stream/channelid/788918401?profile=pass"
     ]
+  },
+  {
+    "id": "CanalPlusActionEurope.nl@Magyar",
+    "name": "Canal+ Action Europe Magyar",
+    "country": "NL",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://193.33.39.108:9016/play/a02n"
+    ]
   }
 ]
