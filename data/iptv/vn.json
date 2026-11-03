@@ -888,16 +888,6 @@
     ]
   },
   {
-    "id": "SCTV4K.vn@UHD",
-    "name": "SCTV4K (2160p)",
-    "country": "VN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://vietanhtv.id.vn/sctv/sctv-4k/index.m3u8"
-    ]
-  },
-  {
     "id": "GiaLaiTV.vn@SD",
     "name": "Gia Lai TV (720p)",
     "country": "VN",

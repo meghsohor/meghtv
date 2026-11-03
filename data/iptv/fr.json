@@ -2478,6 +2478,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://s7.iptv-24.net/1439/playlist.m3u8",
       "http://stream.mcquack.net/176/index.m3u8"
     ]
   },
@@ -2490,6 +2491,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://s7.iptv-24.net/1452/playlist.m3u8",
       "http://stream.mcquack.net/192/index.m3u8"
     ]
   },
@@ -2609,6 +2611,30 @@
     "visible": true,
     "urls": [
       "http://90.183.52.46:4000/play/a06v/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport1.fr@Czechia",
+    "name": "Eurosport 1 Czechia",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@Czechia",
+    "name": "Eurosport 2 Czechia",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8"
     ]
   }
 ]

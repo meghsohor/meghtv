@@ -2302,20 +2302,20 @@
   },
   {
     "id": "RBKTV.ru@SD",
-    "name": "RBK-TV SD (576p)",
+    "name": "РБК (576p)",
     "country": "RU",
     "categories": [
       "business"
     ],
     "visible": false,
     "urls": [
-      "http://hls127.freeott.top:8080/RBK/video.m3u8",
       "https://uiptv.do.am/1ufc/701293058/playlist.m3u8",
       "http://92.50.128.180/utv/1358/index.m3u8",
       "https://online-video.rbc.ru/spb/rbctv_spb.m3u8",
       "http://online-video.rbc.ru/online2/rbctv.m3u8",
       "http://176.118.197.101/RBK/index.m3u8",
       "http://31.148.48.15/RBK/index.m3u8",
+      "http://hls127.freeott.top:8080/RBK/video.m3u8",
       "http://str2.iptvhd.ru:8080/RBK/index.m3u8"
     ]
   },
@@ -2774,7 +2774,8 @@
     "urls": [
       "http://77.232.131.211/Rossiya24/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8",
-      "https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8"
+      "https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
+      "https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8"
     ]
   },
   {
@@ -2940,12 +2941,12 @@
     "urls": [
       "https://streaming.thestream.cyou/live/7009.m3u8",
       "http://catchup.videoline.ru/shanson/index.m3u8",
-      "http://hls127.freeott.top:8080/Shanson_Tv/video.m3u8",
       "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
       "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv",
       "http://46.53.200.153:7777/play/Shanson_TV/index.m3u8",
       "https://hls-shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8",
+      "http://hls127.freeott.top:8080/Shanson_Tv/video.m3u8",
       "http://str2.iptvhd.ru:8080/ShansonTV/index.m3u8"
     ]
   },
@@ -3280,9 +3281,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/STS_Kids/video.m3u8",
       "http://stream.mcquack.net/197/index.m3u8",
-      "http://31.148.48.15/STS_Kids_HD/index.m3u8"
+      "http://31.148.48.15/STS_Kids_HD/index.m3u8",
+      "http://hls127.freeott.top:8080/STS_Kids/video.m3u8"
     ]
   },
   {
@@ -3355,16 +3356,16 @@
   },
   {
     "id": "Teatr.ru@SD",
-    "name": "Teatr (576p)",
+    "name": "Театр (576p)",
     "country": "RU",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Teatr/video.m3u8",
       "http://31.148.48.15/Sochi_HD/index.m3u8",
-      "http://31.148.48.15/Sochi_HD/video.m3u8"
+      "http://31.148.48.15/Sochi_HD/video.m3u8",
+      "http://hls127.freeott.top:8080/Teatr/video.m3u8"
     ]
   },
   {
@@ -3513,12 +3514,11 @@
   },
   {
     "id": "TVCentr.ru@SD",
-    "name": "TV Centr (576p)",
+    "name": "TV Centr SD (576p)",
     "country": "RU",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://hls127.freeott.top:8080/Tv_Center/video.m3u8",
       "http://185.71.81.6:8080/10/index.m3u8",
       "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8",
       "http://flussonic.linkintel.ru/tvc/index.m3u8",
@@ -3527,6 +3527,7 @@
       "http://31.148.5.241/kanal_10/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/13.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8",
+      "http://hls127.freeott.top:8080/Tv_Center/video.m3u8",
       "http://str2.iptvhd.ru:8080/TVC/index.m3u8"
     ]
   },

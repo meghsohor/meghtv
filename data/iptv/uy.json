@@ -13,15 +13,15 @@
   },
   {
     "id": "UCL.uy@SD",
-    "name": "UCL (720p)",
+    "name": "UCL (1080p)",
     "country": "UY",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
-      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741"
+      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741",
+      "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8"
     ]
   },
   {

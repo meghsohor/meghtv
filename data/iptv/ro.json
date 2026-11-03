@@ -2098,5 +2098,41 @@
     "urls": [
       "https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8"
     ]
+  },
+  {
+    "id": "ASTV.ro@SD",
+    "name": "AS TV (576p)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s2.netstreaming.eu/astv.m3u8"
+    ]
+  },
+  {
+    "id": "SensTV.ro@SD",
+    "name": "Sens TV (576i)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.senstv.ro/live/senstv_1080p/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "SportTotalFM.ro@SD",
+    "name": "Sport Total FM (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://livesptfm.com/SPTFM/Live/playlist.m3u8"
+    ]
   }
 ]
