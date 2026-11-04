@@ -575,8 +575,8 @@
     "visible": true,
     "urls": [
       "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8",
-      "https://amg00966-amg00966c10-amgplt0081.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0081/playlist.m3u8",
-      "https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8"
+      "https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8",
+      "https://amg00966-amg00966c10-amgplt0081.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0081/playlist.m3u8"
     ]
   },
   {

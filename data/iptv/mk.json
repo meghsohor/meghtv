@@ -334,5 +334,17 @@
     "urls": [
       "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqSVr5S9_a_TNo_sg7gE1yvH"
     ]
+  },
+  {
+    "id": "Kanal8.mk@HD",
+    "name": "Kanal 8 (1080p)",
+    "country": "MK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.kanal8.mk/live/kanal8.m3u8"
+    ]
   }
 ]

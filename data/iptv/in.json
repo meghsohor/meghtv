@@ -7587,19 +7587,6 @@
     ]
   },
   {
-    "id": "AndxplorHD.in@HD",
-    "name": "&xplor HD (1080p) [Geo-blocked]",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
-      "http://51.75.127.199:3141/andxplorehd/index.m3u8"
-    ]
-  },
-  {
     "id": "StarJalsha.in@SD",
     "name": "Star Jalsha (1080p) [Geo-blocked]",
     "country": "IN",
@@ -11432,6 +11419,18 @@
     "visible": true,
     "urls": [
       "http://88.212.7.14/live/travel_xp/index.m3u8"
+    ]
+  },
+  {
+    "id": "Travelxp.in@4KCzechia",
+    "name": "Travelxp 4K Czechia",
+    "country": "IN",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/travel_xp_4k/index.m3u8"
     ]
   }
 ]

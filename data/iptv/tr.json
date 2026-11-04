@@ -1342,18 +1342,6 @@
     ]
   },
   {
-    "id": "SSport.tr@SD",
-    "name": "S Sport (720p)",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://corestream.siteyaptim.live/s-sport/index.m3u8"
-    ]
-  },
-  {
     "id": "SSport2.tr@SD",
     "name": "S Sport 2",
     "country": "TR",
@@ -1916,66 +1904,6 @@
     ]
   },
   {
-    "id": "beINMoviesStars.tr@SD",
-    "name": "beIN Movies Stars",
-    "country": "TR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nord.ayakkabiparti.lol/bsaction1/index.m3u8"
-    ]
-  },
-  {
-    "id": "beINMoviesTurk.tr@SD",
-    "name": "beIN Movies Turk",
-    "country": "TR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nord.ayakkabiparti.lol/bsturk/index.m3u8"
-    ]
-  },
-  {
-    "id": "beINBoxOffice1.tr@SD",
-    "name": "beIN Box Office 1",
-    "country": "TR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nord.ayakkabiparti.lol/box1/index.m3u8"
-    ]
-  },
-  {
-    "id": "beINBoxOffice2.tr@SD",
-    "name": "beIN Box Office 2",
-    "country": "TR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nord.ayakkabiparti.lol/box2/index.m3u8"
-    ]
-  },
-  {
-    "id": "beINBoxOffice3.tr@SD",
-    "name": "beIN Box Office 3",
-    "country": "TR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://nord.ayakkabiparti.lol/box3/index.m3u8"
-    ]
-  },
-  {
     "id": "ShowTurk.tr@SD",
     "name": "Show Turk (1080p)",
     "country": "TR",
@@ -2354,78 +2282,6 @@
     "visible": true,
     "urls": [
       "http://176.65.153.26:6004/play/a02s/index.m3u8"
-    ]
-  },
-  {
-    "id": "beINSports1Turk.tr@SD",
-    "name": "beIN Sports 1 Turk",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8"
-    ]
-  },
-  {
-    "id": "beINSports2Turk.tr@SD",
-    "name": "beIN Sports 2 Turk",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8"
-    ]
-  },
-  {
-    "id": "beINSports3Turk.tr@SD",
-    "name": "beIN Sports 3 Turk",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8"
-    ]
-  },
-  {
-    "id": "beINSports4Turk.tr@SD",
-    "name": "beIN Sports 4 Turk",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8"
-    ]
-  },
-  {
-    "id": "beINSports5Turk.tr@SD",
-    "name": "beIN Sports 5 Turk",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8"
-    ]
-  },
-  {
-    "id": "beINSportsHaber.tr@SD",
-    "name": "beIN Sports Haber",
-    "country": "TR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8"
     ]
   },
   {

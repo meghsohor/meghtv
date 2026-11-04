@@ -378,19 +378,6 @@
     ]
   },
   {
-    "id": "Bolt.ru@SD",
-    "name": "Bolt (576p)",
-    "country": "RU",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Bolt/video.m3u8"
-    ]
-  },
-  {
     "id": "BRIDGE.ru@SD",
     "name": "BRIDGE (576p)",
     "country": "RU",
@@ -1202,18 +1189,6 @@
     ]
   },
   {
-    "id": "Kinopokaz.ru@HD",
-    "name": "Kinopokaz HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8"
-    ]
-  },
-  {
     "id": "Kinopremyera.ru@SD",
     "name": "Kinopremyera (1080p)",
     "country": "RU",
@@ -1280,18 +1255,6 @@
       "http://stream.mcquack.net/278/index.m3u8",
       "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/kinoujas_tv/index.m3u8"
-    ]
-  },
-  {
-    "id": "Kluch.ru@SD",
-    "name": "Kluch (576p)",
-    "country": "RU",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Kluch/video.m3u8"
     ]
   },
   {
@@ -1776,18 +1739,6 @@
     "urls": [
       "http://stream.mcquack.net/217/index.m3u8",
       "http://str2.iptvhd.ru:8080/Nashe_HD/index.m3u8"
-    ]
-  },
-  {
-    "id": "NasheLubimoeKino.ru@SD",
-    "name": "Nashe Lubimoe Kino (576p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8"
     ]
   },
   {

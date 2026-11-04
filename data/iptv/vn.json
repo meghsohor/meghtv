@@ -910,18 +910,6 @@
     ]
   },
   {
-    "id": "KonTumTV.vn@SD",
-    "name": "Kon Tum TV (720p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://247.dpdns.org/module/IPTV/?id=QNgTV2&accKenh=vuminhthanh1"
-    ]
-  },
-  {
     "id": "LangSonTV.vn@SD",
     "name": "Lang Son TV (720p) [Geo-blocked]",
     "country": "VN",

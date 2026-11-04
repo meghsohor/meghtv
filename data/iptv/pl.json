@@ -872,6 +872,7 @@
     "visible": true,
     "urls": [
       "https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd",
+      "https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8",
       "http://57.128.210.196:8080/203/index.m3u8"
     ]
   },
@@ -1123,18 +1124,6 @@
     "visible": true,
     "urls": [
       "http://92.114.85.87:8010/play/a00i/index.m3u8"
-    ]
-  },
-  {
-    "id": "NutaTV.pl@SD",
-    "name": "Nuta TV",
-    "country": "PL",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://92.114.85.87:8010/play/a00j/index.m3u8"
     ]
   },
   {
@@ -2292,6 +2281,26 @@
     "visible": true,
     "urls": [
       "https://prx-y5cf8.mediatool.tv/playout/sepl-abr67/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVP2.pl@HD",
+    "name": "TVP2 HD",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srv7.flussonic111.com/PL_TVP2_HD/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "TVP1.pl@HD",
+    "name": "TVP1 HD",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://srv7.flussonic111.com/PL_TVP1_HD/tracks-v1a1/mono.m3u8"
     ]
   }
 ]

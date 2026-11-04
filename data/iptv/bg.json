@@ -124,7 +124,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://213.91.179.28:8000/play/a03w"
+      "http://213.91.179.28:8000/play/a03w",
+      "http://85.11.189.178:8080/bTV/index.m3u8"
     ]
   },
   {
@@ -796,6 +797,18 @@
     "urls": [
       "http://213.91.179.28:8000/play/a053",
       "http://hls127.freeott.top:8080/BG_Vivacom_Arena_HD/video.m3u8"
+    ]
+  },
+  {
+    "id": "CineStarActionBulgaria.bg@SD",
+    "name": "CineStar Action Bulgaria",
+    "country": "BG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a06b"
     ]
   }
 ]

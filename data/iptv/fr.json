@@ -352,18 +352,6 @@
     ]
   },
   {
-    "id": "CanalPlusCinemas.fr@SD",
-    "name": "Canal+ Cinemas (720p)",
-    "country": "FR",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8"
-    ]
-  },
-  {
     "id": "CannesLerinsTV.fr@SD",
     "name": "Cannes Lérins TV (1080p)",
     "country": "FR",
@@ -2635,6 +2623,18 @@
     "visible": true,
     "urls": [
       "http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MCMTop.fr@SD",
+    "name": "MCM Top",
+    "country": "FR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.228.163.146:8000/play/a00g/index.m3u8"
     ]
   }
 ]

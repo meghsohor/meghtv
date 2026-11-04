@@ -9611,19 +9611,6 @@
     ]
   },
   {
-    "id": "HallmarkChannel.us@East",
-    "name": "Hallmark Channel (720p) [Geo-blocked]",
-    "country": "US",
-    "categories": [
-      "family"
-    ],
-    "visible": true,
-    "urls": [
-      "http://41.205.93.154/HALLMARK/index.m3u8",
-      "http://23.237.104.106:8080/USA_HALLMARK/index.m3u8"
-    ]
-  },
-  {
     "id": "HallmarkMoviesMore.us@SD",
     "name": "Hallmark Movies & More (1080p)",
     "country": "US",
@@ -9747,6 +9734,7 @@
     "urls": [
       "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
       "http://190.93.224.42/HISTORY-2/index.m3u8",
+      "http://181.225.190.242:8000/play/a023",
       "http://181.119.66.28:8081/HISTORY-2/index.m3u8"
     ]
   },
@@ -11506,9 +11494,9 @@
       "http://15.204.246.24:8080/NickHD/index.m3u8",
       "http://190.93.224.42/NICK/index.m3u8",
       "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
-      "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8",
       "http://181.78.79.131:8000/play/a0qm",
-      "http://190.234.82.52:8000/play/a0ke/index.m3u8"
+      "http://190.234.82.52:8000/play/a0ke/index.m3u8",
+      "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
     ]
   },
   {
@@ -25406,7 +25394,8 @@
     "visible": true,
     "urls": [
       "https://streaming.onnethn.com/TOONCAST/playlist.m3u8",
-      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8"
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8",
+      "http://181.224.255.210:8001/play/a0ou/index.m3u8?hls"
     ]
   },
   {
