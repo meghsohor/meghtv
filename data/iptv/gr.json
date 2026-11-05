@@ -307,7 +307,7 @@
   },
   {
     "id": "EpilogesTV.gr@SD",
-    "name": "Epiloges TV",
+    "name": "Epiloges TV (480p)",
     "country": "GR",
     "categories": [
       "general"
@@ -525,7 +525,7 @@
   },
   {
     "id": "LepantoTV.gr@SD",
-    "name": "Lepanto TV",
+    "name": "Lepanto TV (1080p)",
     "country": "GR",
     "categories": [
       "general"

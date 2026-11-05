@@ -507,7 +507,7 @@
   },
   {
     "id": "DoyelTV.ca@SD",
-    "name": "Doyel TV",
+    "name": "Doyel TV (1080p)",
     "country": "CA",
     "categories": [
       "culture"
@@ -944,15 +944,15 @@
   },
   {
     "id": "PardesiTV.ca@SD",
-    "name": "Pardesi TV (720p) [Not 24/7]",
+    "name": "Pardesi TV (720p)",
     "country": "CA",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "http://stream.pardesitv.online/pardesi/index.m3u8",
-      "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8"
+      "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
+      "http://stream.pardesitv.online/pardesi/index.m3u8"
     ]
   },
   {
@@ -1013,7 +1013,7 @@
   },
   {
     "id": "RadioTeleEvangileSansLimite.ca@SD",
-    "name": "Radio Tele Evangile Sans Limite",
+    "name": "Radio Tele Evangile Sans Limite (1080p)",
     "country": "CA",
     "categories": [
       "religious"
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "MHZ.ca@SD",
-    "name": "MHZ",
+    "name": "MHZ (720p)",
     "country": "CA",
     "categories": [
       "entertainment"
@@ -2012,6 +2012,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://109.104.153.220/TSN-4/index.m3u8",
       "http://109.104.153.220:80/TSN-4/index.m3u8"
     ]
   },

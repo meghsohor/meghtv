@@ -27,7 +27,7 @@
   },
   {
     "id": "BeritaRTM.my@SD",
-    "name": "Berita RTM [Geo-blocked]",
+    "name": "Berita RTM (1080p) [Geo-blocked]",
     "country": "MY",
     "categories": [
       "news"
@@ -76,7 +76,7 @@
   },
   {
     "id": "Okey.my@SD",
-    "name": "Okey [Geo-blocked]",
+    "name": "Okey (1080p) [Geo-blocked]",
     "country": "MY",
     "categories": [
       "general"
@@ -100,7 +100,7 @@
   },
   {
     "id": "RTMParlimenDewanNegara.my@SD",
-    "name": "RTM Parlimen (Dewan Negara) [Geo-blocked]",
+    "name": "RTM Parlimen (Dewan Negara) (1080p) [Geo-blocked]",
     "country": "MY",
     "categories": [
       "legislative"
@@ -112,7 +112,7 @@
   },
   {
     "id": "RTMParlimenDewanRakyat.my@SD",
-    "name": "RTM Parlimen (Dewan Rakyat) [Geo-blocked]",
+    "name": "RTM Parlimen (Dewan Rakyat) (1080p) [Geo-blocked]",
     "country": "MY",
     "categories": [
       "legislative"
@@ -160,15 +160,15 @@
   },
   {
     "id": "TV1.my@SD",
-    "name": "TV1 (1080p) [Geo-blocked]",
+    "name": "TV1 (1080p)",
     "country": "MY",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd",
       "https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047",
+      "https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd",
       "https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1"
     ]
   },
@@ -186,7 +186,7 @@
   },
   {
     "id": "TV6.my@SD",
-    "name": "TV6 [Geo-blocked]",
+    "name": "TV6 (1080p) [Geo-blocked]",
     "country": "MY",
     "categories": [],
     "visible": true,

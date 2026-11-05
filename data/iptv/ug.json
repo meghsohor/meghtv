@@ -207,15 +207,15 @@
   },
   {
     "id": "SaltTV.ug@SD",
-    "name": "Salt TV (1080p) [Not 24/7]",
+    "name": "Salt TV",
     "country": "UG",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://live.salttelevision.com/app/stream/abr.m3u8",
-      "https://stream.salttelevision.com/hls/stream.m3u8"
+      "https://stream.salttelevision.com/hls/stream.m3u8",
+      "https://live.salttelevision.com/app/stream/abr.m3u8"
     ]
   },
   {

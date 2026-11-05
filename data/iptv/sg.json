@@ -183,15 +183,15 @@
   },
   {
     "id": "CNAInternational.sg@SD",
-    "name": "CNA International (576p)",
+    "name": "CNA International (1080p)",
     "country": "SG",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8",
-      "https://freem3u.xyz/api/live/play.m3u8?vid=112"
+      "https://freem3u.xyz/api/live/play.m3u8?vid=112",
+      "https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8"
     ]
   },
   {

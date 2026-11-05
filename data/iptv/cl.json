@@ -240,15 +240,15 @@
   },
   {
     "id": "BioBioTV.cl@SD",
-    "name": "Bio Bio TV (720p)",
+    "name": "Bio Bio TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
-      "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8"
+      "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+      "https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8"
     ]
   },
   {
@@ -263,7 +263,7 @@
   },
   {
     "id": "CalderaVision.cl@SD",
-    "name": "Caldera Vision",
+    "name": "Caldera Vision (720p)",
     "country": "CL",
     "categories": [
       "general"
@@ -295,7 +295,7 @@
   },
   {
     "id": "Canal1Nuble.cl@SD",
-    "name": "Canal 1 Nuble",
+    "name": "Canal 1 Nuble (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -307,7 +307,7 @@
   },
   {
     "id": "Canal5PuertoMontt.cl@SD",
-    "name": "Canal 5 Puerto Montt",
+    "name": "Canal 5 Puerto Montt (720p)",
     "country": "CL",
     "categories": [
       "general"
@@ -554,7 +554,7 @@
   },
   {
     "id": "ClubTV.cl@SD",
-    "name": "Club TV",
+    "name": "Club TV (720p)",
     "country": "CL",
     "categories": [],
     "visible": true,
@@ -720,7 +720,7 @@
   },
   {
     "id": "El3deConce.cl@SD",
-    "name": "El 3 de Conce",
+    "name": "El 3 de Conce (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -830,7 +830,7 @@
   },
   {
     "id": "EnfoqueDigitalTV.cl@SD",
-    "name": "Enfoque Digital TV",
+    "name": "Enfoque Digital TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1023,7 +1023,7 @@
   },
   {
     "id": "ISATV.cl@SD",
-    "name": "ISA TV",
+    "name": "ISA TV (1080p)",
     "country": "CL",
     "categories": [
       "religious"
@@ -1047,15 +1047,15 @@
   },
   {
     "id": "ITVPatagonia.cl@SD",
-    "name": "ITV Patagonia (720p) [Not 24/7]",
+    "name": "ITV Patagonia (720p)",
     "country": "CL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8",
       "https://redirector.dps.live/hls/itv/playlist.m3u8",
+      "https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8",
       "https://unlimited1-cl.dps.live/itv/itv.smil/playlist.m3u8"
     ]
   },
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "LaPopularTV.cl@SD",
-    "name": "La Popular TV",
+    "name": "La Popular TV (720p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1182,7 +1182,7 @@
   },
   {
     "id": "LilaTVPencahue.cl@SD",
-    "name": "Lila TV Pencahue",
+    "name": "Lila TV Pencahue (720p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "MarayTV.cl@SD",
-    "name": "Maray TV",
+    "name": "Maray TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1260,13 +1260,13 @@
     ],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/Mega2HD/index.m3u8",
-      "http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8"
+      "http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8",
+      "http://15.204.246.24:8080/Mega2HD/index.m3u8"
     ]
   },
   {
     "id": "MiRadioTV.cl@SD",
-    "name": "Mi Radio TV",
+    "name": "Mi Radio TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1363,7 +1363,7 @@
   },
   {
     "id": "NuevoTiempoTV.cl@SD",
-    "name": "Nuevo Tiempo TV",
+    "name": "Nuevo Tiempo TV (720p)",
     "country": "CL",
     "categories": [
       "religious"
@@ -1470,7 +1470,7 @@
   },
   {
     "id": "PolarTV.cl@SD",
-    "name": "Polar TV",
+    "name": "Polar TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "RoccoTV.cl@SD",
-    "name": "Rocco TV",
+    "name": "Rocco TV (720p)",
     "country": "CL",
     "categories": [],
     "visible": true,
@@ -1922,7 +1922,7 @@
   },
   {
     "id": "RTCTelevision.cl@SD",
-    "name": "RTC Television",
+    "name": "RTC Television (1080p)",
     "country": "CL",
     "categories": [],
     "visible": true,
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "RTVNuble.cl@SD",
-    "name": "RTV Nuble",
+    "name": "RTV Nuble (1080p)",
     "country": "CL",
     "categories": [],
     "visible": true,
@@ -1976,7 +1976,7 @@
   },
   {
     "id": "SensacionCosta.cl@SD",
-    "name": "Sensacion Costa",
+    "name": "Sensacion Costa (1080p)",
     "country": "CL",
     "categories": [
       "music"
@@ -2359,10 +2359,10 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/TVNHD/index.m3u8",
-      "http://138.121.15.230:9002/TVN/index.m3u8",
-      "https://iptv.bitred.cl/tvn/index.m3u8",
       "http://38.44.109.41:8003/play/a0gz/index.m3u8",
       "http://45.173.231.22:8000/play/a06l/index.m3u8",
+      "http://138.121.15.230:9002/TVN/index.m3u8",
+      "https://iptv.bitred.cl/tvn/index.m3u8",
       "http://38.44.109.41:8003/play/a0gs/index.m3u8"
     ]
   },
@@ -2435,7 +2435,7 @@
   },
   {
     "id": "UMAGTV.cl@SD",
-    "name": "UMAGTV",
+    "name": "UMAGTV (720p)",
     "country": "CL",
     "categories": [
       "education"
@@ -2447,7 +2447,7 @@
   },
   {
     "id": "UniregionTV.cl@SD",
-    "name": "Uniregion TV",
+    "name": "Uniregion TV (1080p)",
     "country": "CL",
     "categories": [
       "general"
@@ -2480,15 +2480,15 @@
   },
   {
     "id": "VClassicTV.cl@SD",
-    "name": "V Classic TV (720p)",
+    "name": "V Classic TV (1080p)",
     "country": "CL",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8",
-      "http://186.148.196.100:8000/play/a02z"
+      "http://186.148.196.100:8000/play/a02z",
+      "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8"
     ]
   },
   {

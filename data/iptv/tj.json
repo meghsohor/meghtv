@@ -8,8 +8,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live.teleradiocom.tj/11/3m.m3u8",
-      "http://185.121.1.163:8083/Badakhshon/index.m3u8"
+      "http://185.121.1.163:8083/Badakhshon/index.m3u8",
+      "https://live.teleradiocom.tj/11/3m.m3u8"
     ]
   },
   {
@@ -21,8 +21,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live.teleradiocom.tj/7/3m.m3u8",
-      "http://185.121.1.163:8083/DushanbeHD/index.m3u8"
+      "http://185.121.1.163:8083/DushanbeHD/index.m3u8",
+      "https://live.teleradiocom.tj/7/3m.m3u8"
     ]
   },
   {
@@ -34,8 +34,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live.teleradiocom.tj/8/3m.m3u8",
-      "http://185.121.1.163:8083/FootballHD/index.m3u8"
+      "http://185.121.1.163:8083/FootballHD/index.m3u8",
+      "https://live.teleradiocom.tj/8/3m.m3u8"
     ]
   },
   {

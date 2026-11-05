@@ -11,7 +11,7 @@
   },
   {
     "id": "APTV.gh@SD",
-    "name": "AP TV",
+    "name": "AP TV (720p)",
     "country": "GH",
     "categories": [
       "entertainment"
@@ -84,7 +84,7 @@
   },
   {
     "id": "PentTV.gh@SD",
-    "name": "Pent TV",
+    "name": "Pent TV (720p)",
     "country": "GH",
     "categories": [
       "religious"

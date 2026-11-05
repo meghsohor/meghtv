@@ -156,15 +156,15 @@
   },
   {
     "id": "CCTV5Plus.cn@SD",
-    "name": "CCTV-5+",
+    "name": "CCTV-5+ (1080p)",
     "country": "CN",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8",
-      "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p"
+      "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p",
+      "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8"
     ]
   },
   {
@@ -386,8 +386,8 @@
     "urls": [
       "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
       "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
-      "https://0472.org/hls/cgtn.m3u8",
       "https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8",
+      "https://0472.org/hls/cgtn.m3u8",
       "https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8",
       "http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225917/index.m3u8",
       "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
@@ -499,8 +499,8 @@
     "visible": true,
     "urls": [
       "http://1.24.190.98:10080/hls/51/index.m3u8",
-      "http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8",
       "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8",
+      "http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8",
       "http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8"
     ]
   },
@@ -737,29 +737,29 @@
   },
   {
     "id": "NeiMonggolTV.cn@SD",
-    "name": "Nei Monggol TV (1080i) [Not 24/7]",
+    "name": "Nei Monggol TV",
     "country": "CN",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
       "http://1.24.190.98:10080/hls/39/index.m3u8",
       "http://110.19.156.172:9901/tsfile/live/1003_1.m3u8",
+      "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
       "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8",
       "https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8"
     ]
   },
   {
     "id": "NeiMonggolTV2MongolianCultureChannel.cn@SD",
-    "name": "Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]",
+    "name": "Nei Monggol TV 2 Mongolian Culture Channel",
     "country": "CN",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8",
-      "http://1.24.190.98:10080/hls/40/index.m3u8"
+      "http://1.24.190.98:10080/hls/40/index.m3u8",
+      "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8"
     ]
   },
   {
@@ -783,6 +783,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://119.166.53.110:85/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8",
       "http://119.166.53.110:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
@@ -808,6 +809,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://119.166.53.110:85/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8",
       "http://119.166.53.110:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
@@ -821,6 +823,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://119.166.53.110:85/tsfile/live/1004_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8",
       "http://119.166.53.110:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
@@ -847,6 +850,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://119.166.53.110:85/tsfile/live/0002_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8",
       "http://119.166.53.110:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
@@ -859,7 +863,6 @@
     "visible": true,
     "urls": [
       "https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8",
-      "http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv",
       "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8",
       "http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8",
       "http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8",
@@ -869,7 +872,8 @@
       "http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8",
       "http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8",
       "http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8",
-      "http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8"
+      "http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8",
+      "http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv"
     ]
   },
   {
@@ -957,13 +961,13 @@
   },
   {
     "id": "XizangTVTibetan.cn@SD",
-    "name": "Xizang TV Tibetan (720p) [Not 24/7]",
+    "name": "Xizang TV Tibetan",
     "country": "CN",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://php.jdshipin.com:8880/xztv.php?id=zy",
-      "https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8"
+      "https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8",
+      "http://php.jdshipin.com:8880/xztv.php?id=zy"
     ]
   },
   {
@@ -998,12 +1002,12 @@
     "visible": true,
     "urls": [
       "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8",
-      "http://183.207.248.71/cntv/live1/yunnanstv/yunnanstv",
       "http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8",
       "http://183.207.248.71/gitv/live1/G_YUNNAN/G_YUNNAN",
       "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225591/index.m3u8",
       "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225838/index.m3u8",
       "http://223.110.245.173/PLTV/4/224/3221225838/index.m3u8",
+      "http://183.207.248.71/cntv/live1/yunnanstv/yunnanstv",
       "https://h5cul1yar48um3t.wcetv.com/hls/yunnantv.m3u8"
     ]
   },
@@ -1128,19 +1132,19 @@
   },
   {
     "id": "NingxiaSatelliteChannel.cn@SD",
-    "name": "宁夏卫视 (576p) [Not 24/7]",
+    "name": "宁夏卫视 (576p)",
     "country": "CN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA",
       "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8",
       "http://117.169.120.140:8080/live/ningxiastv/.m3u8",
       "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
       "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225842/index.m3u8",
-      "http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8"
+      "http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8",
+      "http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA"
     ]
   },
   {
@@ -1251,13 +1255,13 @@
   },
   {
     "id": "YanbianSatelliteTV.cn@SD",
-    "name": "康巴卫视 (720p) [Not 24/7]",
+    "name": "康巴卫视 (576p)",
     "country": "CN",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8",
       "http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8",
+      "http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8",
       "http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8",
       "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8"
     ]
@@ -1300,12 +1304,11 @@
   },
   {
     "id": "JiangsuSatelliteTV.cn@SD",
-    "name": "江苏卫视 (1080p) [Not 24/7]",
+    "name": "江苏卫视 (1080p)",
     "country": "CN",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv",
       "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8",
       "http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8",
       "http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8",
@@ -1315,7 +1318,8 @@
       "http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8",
       "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227439/index.m3u8",
       "http://223.110.245.170/PLTV/3/224/3221227255/index.m3u8",
-      "http://183.207.248.71/gitv/live1/JSWS-HD/JSWS-HD"
+      "http://183.207.248.71/gitv/live1/JSWS-HD/JSWS-HD",
+      "http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv"
     ]
   },
   {
@@ -1333,28 +1337,28 @@
   },
   {
     "id": "JiangsuMovieChannel.cn@SD",
-    "name": "江苏影视 (576p) [Not 24/7]",
+    "name": "江苏影视 (576p)",
     "country": "CN",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS",
-      "http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8"
+      "http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8",
+      "http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS"
     ]
   },
   {
     "id": "JiangsuEducationalChannel.cn@SD",
-    "name": "江苏教育 (576p) [Not 24/7]",
+    "name": "江苏教育 (576p)",
     "country": "CN",
     "categories": [
       "education"
     ],
     "visible": true,
     "urls": [
-      "http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY",
-      "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8"
+      "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8",
+      "http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY"
     ]
   },
   {
@@ -1682,6 +1686,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://120.39.52.202:5140/福建综合",
       "http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88"
     ]
   },
@@ -1695,6 +1700,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1",
       "http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
@@ -1982,8 +1988,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
-      "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv"
+      "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv",
+      "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8"
     ]
   },
   {

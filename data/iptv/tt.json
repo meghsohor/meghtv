@@ -49,15 +49,15 @@
   },
   {
     "id": "TheIslamicNetwork.tt@SD",
-    "name": "The Islamic Network (480p) [Not 24/7]",
+    "name": "The Islamic Network (720p)",
     "country": "TT",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8",
-      "https://video1.getstreamhosting.com:1936/8322/8322/playlist.m3u8"
+      "https://video1.getstreamhosting.com:1936/8322/8322/playlist.m3u8",
+      "http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8"
     ]
   },
   {

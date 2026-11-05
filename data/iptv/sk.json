@@ -332,13 +332,13 @@
   },
   {
     "id": "TVLux.sk@SD",
-    "name": "TV Lux (720p) [Geo-blocked]",
+    "name": "TV Lux (720p) [Not 24/7]",
     "country": "SK",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://stream.tvlux.sk/luxtv/luxtv-livestream/chunklist_w617812057.m3u8",
-      "https://stream.tvlux.sk/lux/ngrp:lux.stream_all/playlist.m3u8"
+      "https://stream.tvlux.sk/lux/ngrp:lux.stream_all/playlist.m3u8",
+      "https://stream.tvlux.sk/luxtv/luxtv-livestream/chunklist_w617812057.m3u8"
     ]
   },
   {
@@ -380,7 +380,7 @@
   },
   {
     "id": "TVPanorama.sk@SD",
-    "name": "TV Panorama",
+    "name": "TV Panorama (1080p)",
     "country": "SK",
     "categories": [
       "general"

@@ -13,7 +13,7 @@
   },
   {
     "id": "AFNTV.ir@SD",
-    "name": "AFN TV",
+    "name": "AFN TV (720p)",
     "country": "IR",
     "categories": [
       "music"
@@ -148,7 +148,7 @@
   },
   {
     "id": "IranJewishTV.ir@SD",
-    "name": "Iran Jewish TV",
+    "name": "Iran Jewish TV (720p)",
     "country": "IR",
     "categories": [
       "religious"

@@ -62,15 +62,15 @@
   },
   {
     "id": "NorocTV.md@SD",
-    "name": "Noroc TV (576p) [Not 24/7]",
+    "name": "Noroc TV",
     "country": "MD",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://live.noroc.tv/noroc/noroc.m3u8",
-      "https://media.noroc.tv/noroc/bitrate_1080p.m3u8"
+      "https://media.noroc.tv/noroc/bitrate_1080p.m3u8",
+      "https://live.noroc.tv/noroc/noroc.m3u8"
     ]
   },
   {
@@ -87,7 +87,7 @@
   },
   {
     "id": "PROTVChisinau.md@SD",
-    "name": "PRO TV Chisinau (480p)",
+    "name": "PRO TV Chisinau (576p)",
     "country": "MD",
     "categories": [
       "general",
@@ -95,8 +95,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream.protv.md/live/sursa-1/index.m3u8",
       "http://178.76.68.60:7442/15/mpegts",
+      "https://stream.protv.md/live/sursa-1/index.m3u8",
       "http://178.76.68.60:7441/15/mpegts"
     ]
   },
@@ -223,13 +223,13 @@
   },
   {
     "id": "VoceaBasarabieiTV.md@SD",
-    "name": "Vocea Basarabiei TV (720p) [Not 24/7]",
+    "name": "Vocea Basarabiei TV",
     "country": "MD",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://storage.voceabasarabiei.md/vocea/vocea.m3u8",
-      "https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8"
+      "https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8",
+      "https://storage.voceabasarabiei.md/vocea/vocea.m3u8"
     ]
   }
 ]

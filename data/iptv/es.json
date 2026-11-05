@@ -309,7 +309,7 @@
   },
   {
     "id": "101tvAntequera.es@SD",
-    "name": "101tv Antequera [Geo-blocked]",
+    "name": "101tv Antequera (720p) [Geo-blocked]",
     "country": "ES",
     "categories": [
       "general"
@@ -696,7 +696,7 @@
   },
   {
     "id": "Canal33Madrid.es@SD",
-    "name": "Canal 33 Madrid",
+    "name": "Canal 33 Madrid (720p)",
     "country": "ES",
     "categories": [],
     "visible": true,
@@ -972,7 +972,7 @@
   },
   {
     "id": "Clan.es@SD",
-    "name": "Clan (720p) [Geo-blocked]",
+    "name": "Clan (1080p)",
     "country": "ES",
     "categories": [
       "kids",
@@ -980,14 +980,14 @@
     ],
     "visible": true,
     "urls": [
+      "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/5466990.m3u8",
-      "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8"
+      "https://ztnr.rtve.es/ztnr/5466990.m3u8"
     ]
   },
   {
     "id": "ClanInternacional.es@SD",
-    "name": "Clan Internacional Americas (1080p) [Geo-blocked]",
+    "name": "Clan Internacional (1080p)",
     "country": "ES",
     "categories": [
       "kids",
@@ -995,8 +995,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8",
-      "http://168.228.44.241:9999/play/a04j/index.m3u8"
+      "http://168.228.44.241:9999/play/a04j/index.m3u8",
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8"
     ]
   },
   {
@@ -1526,7 +1526,7 @@
   },
   {
     "id": "La1.es@SD",
-    "name": "La 1 (720p) [Geo-blocked]",
+    "name": "La 1 (1086p)",
     "country": "ES",
     "categories": [
       "general",
@@ -1534,16 +1534,16 @@
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/1688877.m3u8",
       "https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd",
+      "https://ztnr.rtve.es/ztnr/1688877.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8",
       "https://7nyaler.streamhostingcdn.top/stream/40/index.m3u8"
     ]
   },
   {
     "id": "La1Canarias.es@SD",
-    "name": "La 1 Canarias (720p) [Geo-blocked]",
+    "name": "La 1 Canarias (720p)",
     "country": "ES",
     "categories": [
       "general",
@@ -1551,13 +1551,13 @@
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/5190066.m3u8"
+      "https://ztnr.rtve.es/ztnr/5190066.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8"
     ]
   },
   {
     "id": "La1Catalunya.es@SD",
-    "name": "La 1 Catalunya (720p) [Geo-blocked]",
+    "name": "La 1 Catalunya (720p)",
     "country": "ES",
     "categories": [
       "general",
@@ -1565,8 +1565,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/3293681.m3u8"
+      "https://ztnr.rtve.es/ztnr/3293681.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8"
     ]
   },
   {
@@ -1584,7 +1584,7 @@
   },
   {
     "id": "La2.es@SD",
-    "name": "La 2",
+    "name": "La 2 (720p)",
     "country": "ES",
     "categories": [
       "general",
@@ -2156,15 +2156,15 @@
   },
   {
     "id": "RealMadridTVEnglish.es@SD",
-    "name": "Real Madrid TV English [Geo-blocked]",
+    "name": "Real Madrid TV English",
     "country": "ES",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
       "http://88.212.15.50/live/real_madrid_tv/index.m3u8",
+      "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
       "http://88.212.15.17/live/real_madrid_tv/index.m3u8",
       "http://88.212.15.19/live/real_madrid_tv/index.m3u8"
     ]
@@ -2390,15 +2390,15 @@
   },
   {
     "id": "Teledeporte.es@SD",
-    "name": "Teledeporte (720p) [Geo-blocked]",
+    "name": "Teledeporte",
     "country": "ES",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8",
-      "https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8"
+      "https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8"
     ]
   },
   {
@@ -2473,13 +2473,13 @@
   },
   {
     "id": "TelevisionCanaria.es@SD",
-    "name": "Television Canaria (576p)",
+    "name": "Television Canaria (1080p)",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8",
-      "https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8"
+      "https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8",
+      "https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8"
     ]
   },
   {
@@ -2636,13 +2636,13 @@
   },
   {
     "id": "TVEInternacionalAmerica.es@SD",
-    "name": "TVE Internacional America (576p) [Geo-blocked]",
+    "name": "TVE Internacional America",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8",
-      "http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a"
+      "http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a",
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8"
     ]
   },
   {
@@ -2657,13 +2657,13 @@
   },
   {
     "id": "TVEInternacionalAsiaOceania.es@SD",
-    "name": "TVE Internacional Asia-Oceania (576p) [Geo-blocked]",
+    "name": "TVE Internacional Asia-Oceania",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8",
-      "http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51"
+      "http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51",
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8"
     ]
   },
   {
@@ -2678,13 +2678,13 @@
   },
   {
     "id": "TVEInternacionalEurope.es@SD",
-    "name": "TVE Internacional Europe (576p) [Geo-blocked]",
+    "name": "TVE Internacional Europe",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8",
-      "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0"
+      "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0",
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8"
     ]
   },
   {
@@ -2718,9 +2718,9 @@
     ],
     "visible": true,
     "urls": [
+      "http://38.252.238.18:8000/play/a01h/index.m3u8",
       "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8",
-      "http://38.252.238.18:8000/play/a01h/index.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8"
     ]
   },
   {
@@ -3094,28 +3094,28 @@
   },
   {
     "id": "CineWestern.es@SD",
-    "name": "Zylo Cine Western (1080p) [Geo-blocked]",
+    "name": "Zylo Cine Western (1080p)",
     "country": "ES",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8",
-      "https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8"
+      "https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8",
+      "https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8"
     ]
   },
   {
     "id": "TodoNovelas.es@SD",
-    "name": "Zylo Todo Novelas (1080p) [Geo-blocked]",
+    "name": "Zylo Todo Novelas (1080p)",
     "country": "ES",
     "categories": [
       "series"
     ],
     "visible": true,
     "urls": [
-      "https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8",
-      "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8"
+      "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8",
+      "https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8"
     ]
   },
   {

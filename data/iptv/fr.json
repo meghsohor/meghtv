@@ -120,14 +120,14 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-60d3583ef310610007fb02b1.m3u8",
-      "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8",
       "https://iptv.bitred.cl/euronews/index.m3u8",
+      "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8",
       "https://jmp2.uk/plu-619d59b7cbef25000728221c.m3u8"
     ]
   },
   {
     "id": "6ter.fr@SD",
-    "name": "6ter",
+    "name": "6ter (1080p)",
     "country": "FR",
     "categories": [
       "entertainment"
@@ -250,15 +250,15 @@
   },
   {
     "id": "arte.fr@SD",
-    "name": "Arte (720p) [Geo-blocked]",
+    "name": "arte (1080p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
       "http://5.180.164.197:8080/ARTEFR/index.m3u8",
+      "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
       "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/3264727f/d0a3cb71.isml/.m3u8",
       "http://145.239.5.177/300/index.m3u8"
     ]
@@ -389,15 +389,15 @@
   },
   {
     "id": "CNews.fr@SD",
-    "name": "CNews (1080p) [Geo-blocked]",
+    "name": "CNews (1080p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8",
-      "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8"
+      "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8",
+      "https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8"
     ]
   },
   {
@@ -568,7 +568,7 @@
   },
   {
     "id": "France3.fr@CotedAzur",
-    "name": "France 3 Cote d'Azur",
+    "name": "France 3 Cote d'Azur (1080p)",
     "country": "FR",
     "categories": [
       "general"
@@ -592,7 +592,7 @@
   },
   {
     "id": "France4.fr@SD",
-    "name": "France 4",
+    "name": "France 4 (1080p)",
     "country": "FR",
     "categories": [
       "kids"
@@ -605,7 +605,7 @@
   },
   {
     "id": "France5.fr@SD",
-    "name": "France 5",
+    "name": "France 5 (1080p)",
     "country": "FR",
     "categories": [
       "general"
@@ -644,17 +644,17 @@
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=96",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
       "http://170.83.16.50/FRANCE_24/index.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+      "https://mumbai-edge.smartplaytv.in/france24/index.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_500.m3u8",
       "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_500.m3u8",
-      "https://mumbai-edge.smartplaytv.in/france24/index.m3u8",
-      "https://freem3u.xyz/api/live/play.m3u8?vid=96",
       "https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8",
       "https://dash3.antik.sk/live/test_france24_eng/playlist.m3u8",
       "https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8",
@@ -679,20 +679,21 @@
       "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_500.m3u8",
       "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_500.m3u8",
-      "https://live-evg8.tv360.bitel.com.pe/bitel/france24SRT/playlist.m3u8",
       "http://138.121.15.230:9002/FRANCE-24/index.m3u8",
+      "https://live-evg8.tv360.bitel.com.pe/bitel/france24SRT/playlist.m3u8",
       "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8"
     ]
   },
   {
     "id": "France24.fr@French",
-    "name": "France 24 French (1080p)",
+    "name": "France 24 (1080p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=10007",
       "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
       "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
       "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_2300.m3u8",
@@ -701,7 +702,6 @@
       "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_900.m3u8",
       "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_500.m3u8",
       "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_500.m3u8",
-      "https://freem3u.xyz/api/live/play.m3u8?vid=10007",
       "https://dash4.antik.sk/live/test_france24_france/playlist.m3u8"
     ]
   },
@@ -741,7 +741,7 @@
   },
   {
     "id": "Gulli.fr@SD",
-    "name": "Gulli",
+    "name": "Gulli (1080p)",
     "country": "FR",
     "categories": [
       "kids"
@@ -1071,7 +1071,7 @@
   },
   {
     "id": "TF1.fr@SD",
-    "name": "TF1",
+    "name": "TF1 (1080p)",
     "country": "FR",
     "categories": [
       "entertainment"
@@ -1085,7 +1085,7 @@
   },
   {
     "id": "TFX.fr@SD",
-    "name": "TFX",
+    "name": "TFX (1080p)",
     "country": "FR",
     "categories": [],
     "visible": true,
@@ -1170,14 +1170,14 @@
     "visible": true,
     "urls": [
       "http://54.37.19.157/TV5MONDE/index.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9852",
       "http://27.131.164.187:8080/TV5_Monde/index.m3u8",
+      "https://mumt03.tangotv.in/Dsly5z3HTV5MONDEASIA/index.m3u8",
       "http://103.172.187.30:12000/stream/allchannel/tv5asie",
       "http://103.190.232.129/stream/tvb/asie/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
       "http://103.190.232.129/stream/tvb/asie?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
-      "https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8",
-      "https://mumt03.tangotv.in/Dsly5z3HTV5MONDEASIA/index.m3u8",
-      "https://freem3u.xyz/api/live/play.m3u8?vid=9852",
       "http://202.150.165.66:8088/play/304-TV5Monde/index.m3u8",
+      "https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8",
       "https://op-group1-swiftservehd-1.dens.tv/h/h121/index.m3u8",
       "https://liveh12.vtvprime.vn/hls/TV5/03.m3u8"
     ]
@@ -1197,17 +1197,17 @@
   },
   {
     "id": "TV5MondeEurope.fr@SD",
-    "name": "TV5Monde Europe (1080p) [Geo-blocked]",
+    "name": "TV5Monde Europe (1080p)",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8",
       "http://5.180.164.197:8080/TV5MONDE/index.m3u8",
       "http://45.14.84.37/tv5monde/index.m3u8",
-      "https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8"
+      "https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8",
+      "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8"
     ]
   },
   {
@@ -1262,16 +1262,16 @@
   },
   {
     "id": "TV5MondeStyle.fr@SD",
-    "name": "TV5Monde Style (1080p) [Geo-blocked]",
+    "name": "TV5Monde Style",
     "country": "FR",
     "categories": [
       "lifestyle"
     ],
     "visible": true,
     "urls": [
-      "https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8",
       "http://103.190.232.129/stream/tvb/style/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
-      "http://103.190.232.129/stream/tvb/style?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg"
+      "http://103.190.232.129/stream/tvb/style?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg",
+      "https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8"
     ]
   },
   {
@@ -1400,16 +1400,16 @@
   },
   {
     "id": "W9.fr@SD",
-    "name": "W9 (1080p)",
+    "name": "W9 (1086p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "http://5.180.164.197:8080/W9/index.m3u8",
       "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8",
       "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
-      "http://5.180.164.197:8080/W9/index.m3u8",
       "http://145.239.5.177/331a/index.m3u8"
     ]
   },
@@ -1429,15 +1429,15 @@
   },
   {
     "id": "Mezzo.fr@SD",
-    "name": "Mezzo",
+    "name": "Mezzo (576p)",
     "country": "FR",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "http://158.101.222.193:88/georgia_play.php?id=mezzo",
       "http://91.228.35.249:8001/1:0:1:422B:2F44:13E:820000:0:0:0:",
+      "http://158.101.222.193:88/georgia_play.php?id=mezzo",
       "http://str2.iptvhd.ru:8080/Mezzo_HD/index.m3u8"
     ]
   },
@@ -1509,15 +1509,15 @@
   },
   {
     "id": "TMC.fr@HD",
-    "name": "TMC HD (1080p) [Geo-blocked]",
+    "name": "TMC HD (1080p)",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8",
-      "http://149.62.177.107:9999/TMC/index.m3u8"
+      "http://149.62.177.107:9999/TMC/index.m3u8",
+      "http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8"
     ]
   },
   {
@@ -2507,7 +2507,7 @@
   },
   {
     "id": "TF1SeriesFilms.fr@SD",
-    "name": "TF1 Series Films",
+    "name": "TF1 Series Films (1080p)",
     "country": "FR",
     "categories": [
       "movies"
@@ -2519,7 +2519,7 @@
   },
   {
     "id": "France2.fr@SD",
-    "name": "France 2",
+    "name": "France 2 (1080p)",
     "country": "FR",
     "categories": [
       "general"
@@ -2531,7 +2531,7 @@
   },
   {
     "id": "NOVO19.fr@HD",
-    "name": "NOVO19",
+    "name": "NOVO19 (1080p)",
     "country": "FR",
     "categories": [
       "general"
@@ -2543,7 +2543,7 @@
   },
   {
     "id": "LCI.fr@SD",
-    "name": "LCI",
+    "name": "LCI (1080p)",
     "country": "FR",
     "categories": [
       "news"

@@ -84,7 +84,7 @@
   },
   {
     "id": "7080TV.it@SD",
-    "name": "70-80 TV (1080P)",
+    "name": "70-80 TV (1080P) (1080p)",
     "country": "IT",
     "categories": [
       "music"
@@ -288,7 +288,7 @@
   },
   {
     "id": "CalabriaTV.it@SD",
-    "name": "Calabria TV",
+    "name": "Calabria TV (1080p)",
     "country": "IT",
     "categories": [
       "general"
@@ -396,15 +396,15 @@
   },
   {
     "id": "ClassCNBC.it@SD",
-    "name": "Class CNBC (1080p) [Geo-blocked]",
+    "name": "Class CNBC (1080p)",
     "country": "IT",
     "categories": [
       "business"
     ],
     "visible": false,
     "urls": [
-      "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8",
-      "https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg"
+      "https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg",
+      "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8"
     ]
   },
   {
@@ -515,15 +515,15 @@
   },
   {
     "id": "EsperiaTV.it@SD",
-    "name": "Esperia TV (480p) [Not 24/7]",
+    "name": "Esperia TV (480p)",
     "country": "IT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8",
-      "http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8"
+      "http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8",
+      "https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8"
     ]
   },
   {
@@ -815,7 +815,7 @@
   },
   {
     "id": "LaltroCorriereTV.it@SD",
-    "name": "L'altro Corriere TV",
+    "name": "L'altro Corriere TV (720p)",
     "country": "IT",
     "categories": [
       "news"
@@ -864,7 +864,7 @@
   },
   {
     "id": "LaNuovaTV.it@SD",
-    "name": "La Nuova TV",
+    "name": "La Nuova TV (720p)",
     "country": "IT",
     "categories": [
       "general"
@@ -926,20 +926,20 @@
   },
   {
     "id": "LiraTV.it@SD",
-    "name": "Lira TV (720p) [Not 24/7]",
+    "name": "Lira TV",
     "country": "IT",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://5d79ae45bc63b.streamlock.net/Liratv/Liratv/playlist.m3u8",
-      "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8"
+      "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8",
+      "https://5d79ae45bc63b.streamlock.net/Liratv/Liratv/playlist.m3u8"
     ]
   },
   {
     "id": "LombardiaTV.it@SD",
-    "name": "Lombardia TV",
+    "name": "Lombardia TV (720p)",
     "country": "IT",
     "categories": [
       "general"
@@ -1084,15 +1084,15 @@
   },
   {
     "id": "Odeon24.it@SD",
-    "name": "Odeon 24 (288p)",
+    "name": "Odeon 24 (576p)",
     "country": "IT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8",
-      "https://5f11919dca3bd.streamlock.net/odeonjump/_definst_/odeonjump/playlist.m3u8"
+      "https://5f11919dca3bd.streamlock.net/odeonjump/_definst_/odeonjump/playlist.m3u8",
+      "https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8"
     ]
   },
   {
@@ -1255,7 +1255,7 @@
   },
   {
     "id": "PrimaFree.it@SD",
-    "name": "PrimaFree",
+    "name": "PrimaFree (720p)",
     "country": "IT",
     "categories": [
       "general"
@@ -1491,13 +1491,13 @@
   },
   {
     "id": "Rai3.it@HD",
-    "name": "Rai 3 (576p) [Geo-blocked]",
+    "name": "Rai 3 (1080p)",
     "country": "IT",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
       "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
       "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
     ]
   },
@@ -1513,13 +1513,13 @@
   },
   {
     "id": "RaiGulp.it@SD",
-    "name": "Rai Gulp (576p)",
+    "name": "Rai Gulp (1080p)",
     "country": "IT",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953",
-      "http://5.180.164.197:8080/RAIGULP/index.m3u8"
+      "http://5.180.164.197:8080/RAIGULP/index.m3u8",
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953"
     ]
   },
   {
@@ -1550,8 +1550,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://d3k8wzt41aflvx.cloudfront.net/RAIUSA/Live.m3u8",
-      "http://138.59.177.78:9999/play/a0gf/index.m3u8"
+      "http://138.59.177.78:9999/play/a0gf/index.m3u8",
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIUSA/Live.m3u8"
     ]
   },
   {
@@ -1642,7 +1642,7 @@
   },
   {
     "id": "Rete8.it@SD",
-    "name": "Rete 8",
+    "name": "Rete 8 (1080p)",
     "country": "IT",
     "categories": [
       "general"
@@ -1654,13 +1654,13 @@
   },
   {
     "id": "Rete55.it@SD",
-    "name": "Rete 55 (720p) [Not 24/7]",
+    "name": "Rete 55",
     "country": "IT",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://stream.internet.one/Rete55_Live/index.m3u8",
-      "https://live1.giocabet.tv/stream/6/index.m3u8"
+      "https://live1.giocabet.tv/stream/6/index.m3u8",
+      "https://stream.internet.one/Rete55_Live/index.m3u8"
     ]
   },
   {
@@ -2074,7 +2074,7 @@
   },
   {
     "id": "TeleOne16.it@SD",
-    "name": "Tele One 16",
+    "name": "Tele One 16 (1080p)",
     "country": "IT",
     "categories": [
       "general"
@@ -2207,7 +2207,7 @@
   },
   {
     "id": "Telegela647.it@SD",
-    "name": "Telegela 647",
+    "name": "Telegela 647 (720p)",
     "country": "IT",
     "categories": [
       "news"
@@ -2518,15 +2518,15 @@
   },
   {
     "id": "TGCom24.it@SD",
-    "name": "TGCom 24 [Geo-blocked]",
+    "name": "TGCom24 (720p)",
     "country": "IT",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8",
-      "https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8"
+      "https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8",
+      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8"
     ]
   },
   {
@@ -2726,7 +2726,7 @@
   },
   {
     "id": "Value24TV.it@SD",
-    "name": "Value 24 TV",
+    "name": "Value 24 TV (1080p)",
     "country": "IT",
     "categories": [
       "general"
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "CGEntertainment.it@SD",
-    "name": "CG Entertainment",
+    "name": "CG Entertainment (720p)",
     "country": "IT",
     "categories": [
       "entertainment"
@@ -3210,7 +3210,7 @@
   },
   {
     "id": "Rai3.it@TrentinoAltoAdigeBolzano",
-    "name": "Rai 3 Trentino-Alto Adige Bolzano",
+    "name": "Rai 3 Trentino-Alto Adige Bolzano (408p)",
     "country": "IT",
     "categories": [],
     "visible": true,
@@ -3220,7 +3220,7 @@
   },
   {
     "id": "Rai3.it@TrentinoAltoAdigeTrento",
-    "name": "Rai 3 Trentino-Alto Adige Trento",
+    "name": "Rai 3 Trentino-Alto Adige Trento (408p)",
     "country": "IT",
     "categories": [],
     "visible": true,
@@ -3230,7 +3230,7 @@
   },
   {
     "id": "Rai3.it@FriuliVeneziaGiulia",
-    "name": "Rai 3 Friuli Venezia Giulia",
+    "name": "Rai 3 Friuli Venezia Giulia (408p)",
     "country": "IT",
     "categories": [],
     "visible": true,
@@ -3240,7 +3240,7 @@
   },
   {
     "id": "Rai3.it@BISFJK",
-    "name": "Rai 3 BIS FJK",
+    "name": "Rai 3 BIS FJK (408p)",
     "country": "IT",
     "categories": [],
     "visible": true,
@@ -3316,6 +3316,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://legaseriea-live-prd.cdn.netrw.it/out/v1/s-prd/ch-01-prd-s-v2/hls-ch-01-prd-s-hd/index.m3u8",
       "https://legaseriea-live-prd.cdn.netrw.it/out/v1/s-prd/ch-01-prd-s-v2/hls-ch-01-prd-s-hd/index%2Em3u8"
     ]
   },

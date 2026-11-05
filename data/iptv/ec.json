@@ -175,8 +175,8 @@
     "visible": true,
     "urls": [
       "http://45.224.97.181:9999/EcuadorTV/index.m3u8",
-      "https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8",
-      "http://38.44.109.41:8003/play/a0e9/index.m3u8"
+      "http://38.44.109.41:8003/play/a0e9/index.m3u8",
+      "https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8"
     ]
   },
   {
@@ -263,8 +263,8 @@
     "visible": true,
     "urls": [
       "http://45.224.97.181:9999/Gamavision/index.m3u8",
-      "https://stream.esradioecuador.com/hls/stream.m3u8",
-      "http://181.78.211.244:8000/play/a0a2/index.m3u8"
+      "http://181.78.211.244:8000/play/a0a2/index.m3u8",
+      "https://stream.esradioecuador.com/hls/stream.m3u8"
     ]
   },
   {
@@ -705,15 +705,15 @@
   },
   {
     "id": "RTU.ec@SD",
-    "name": "RTU (1080p) [Not 24/7]",
+    "name": "RTU (1080p)",
     "country": "EC",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=",
-      "http://45.224.97.181:9999/RTU/index.m3u8"
+      "http://45.224.97.181:9999/RTU/index.m3u8",
+      "https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid="
     ]
   },
   {

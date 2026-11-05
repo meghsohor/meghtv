@@ -13,15 +13,15 @@
   },
   {
     "id": "3sat.de@SD",
-    "name": "3sat (720p) [Geo-blocked]",
+    "name": "3sat",
     "country": "DE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8",
-      "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8"
+      "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8",
+      "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8"
     ]
   },
   {
@@ -123,15 +123,15 @@
   },
   {
     "id": "ARDalpha.de@SD",
-    "name": "ARD-alpha (720p) [Not 24/7]",
+    "name": "ARD-alpha (720p)",
     "country": "DE",
     "categories": [
       "education"
     ],
     "visible": true,
     "urls": [
-      "https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8",
-      "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8"
+      "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+      "https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8"
     ]
   },
   {
@@ -424,14 +424,14 @@
     "urls": [
       "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
       "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=109",
       "http://170.83.16.50/DW/index.m3u8",
       "https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/440/index.m3u8",
       "https://cdn-7.pishow.tv/live/431/master.m3u8",
+      "https://fta.ektv.in/live/116/116_0.m3u8",
       "https://mumt05.tangotv.in/87NeALx2DWTV/index.m3u8",
       "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
-      "https://freem3u.xyz/api/live/play.m3u8?vid=109",
-      "https://fta.ektv.in/live/116/116_0.m3u8",
       "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8"
     ]
   },
@@ -654,28 +654,28 @@
   },
   {
     "id": "KaufBeiTV.de@SD",
-    "name": "KaufBei TV (576p)",
+    "name": "KaufBei TV (720p)",
     "country": "DE",
     "categories": [
       "shop"
     ],
     "visible": false,
     "urls": [
-      "https://api.alpaca.t62a.com/hls/9103/index.m3u8",
-      "https://elephant.t62a.com/hls/8103/index.m3u8"
+      "https://elephant.t62a.com/hls/8103/index.m3u8",
+      "https://api.alpaca.t62a.com/hls/9103/index.m3u8"
     ]
   },
   {
     "id": "KiKA.de@SD",
-    "name": "KiKA (1080p) [Geo-blocked]",
+    "name": "KiKA (1080p) [Not 24/7]",
     "country": "DE",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8",
-      "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8"
+      "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
+      "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8"
     ]
   },
   {
@@ -972,15 +972,15 @@
   },
   {
     "id": "NiederbayernTVLandshut.de@SD",
-    "name": "Niederbayern TV Landshut (1080p) [Not 24/7]",
+    "name": "Niederbayern TV Landshut (1080p)",
     "country": "DE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8",
-      "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8"
+      "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8",
+      "https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8"
     ]
   },
   {
@@ -1196,15 +1196,15 @@
   },
   {
     "id": "OKStendal.de@SD",
-    "name": "OK Stendal (1080p) [Not 24/7]",
+    "name": "OK Stendal (1080p)",
     "country": "DE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8",
-      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8"
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8",
+      "http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8"
     ]
   },
   {
@@ -1308,15 +1308,15 @@
   },
   {
     "id": "Parlamentsfernsehen1.de@SD",
-    "name": "Parlamentsfernsehen 1 (1080p) [Geo-blocked]",
+    "name": "Parlamentsfernsehen 1 (1080p) [Not 24/7]",
     "country": "DE",
     "categories": [
       "legislative"
     ],
     "visible": false,
     "urls": [
-      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk1/_definst_/live/video/hk1_de.smil/playlist.m3u8",
-      "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8"
+      "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8",
+      "https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk1/_definst_/live/video/hk1_de.smil/playlist.m3u8"
     ]
   },
   {
@@ -1807,13 +1807,13 @@
   },
   {
     "id": "TideTV.de@SD",
-    "name": "Tide TV (1080p) [Not 24/7]",
+    "name": "Tide TV (1080p)",
     "country": "DE",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8",
-      "https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8"
+      "https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8",
+      "https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8"
     ]
   },
   {
@@ -2071,7 +2071,7 @@
   },
   {
     "id": "YOLTV.de@SD",
-    "name": "YOL TV",
+    "name": "YOL TV (720p)",
     "country": "DE",
     "categories": [
       "general"
@@ -2083,13 +2083,13 @@
   },
   {
     "id": "ZDF.de@SD",
-    "name": "ZDF (720p) [Geo-blocked]",
+    "name": "ZDF",
     "country": "DE",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
-      "https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8"
+      "https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8",
+      "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8"
     ]
   },
   {
@@ -2104,14 +2104,14 @@
   },
   {
     "id": "ZDFneo.de@SD",
-    "name": "ZDFneo (720p) [Geo-blocked]",
+    "name": "ZDFneo (720p)",
     "country": "DE",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
+      "http://5.180.164.197:8080/ZDFNEO/index.m3u8",
       "http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass",
-      "http://5.180.164.197:8080/ZDFNEO/index.m3u8"
+      "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8"
     ]
   },
   {
@@ -2238,39 +2238,39 @@
   },
   {
     "id": "DisneyChannel.de@SD",
-    "name": "Disney Channel",
+    "name": "Disney Channel (576p)",
     "country": "DE",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/269948147?profile=pass",
-      "https://s6.hopslan.com/disneyX/index.m3u8"
+      "https://s6.hopslan.com/disneyX/index.m3u8",
+      "http://178.27.12.3:9981/stream/channelid/269948147?profile=pass"
     ]
   },
   {
     "id": "ProSiebenMaxx.de@SD",
-    "name": "ProSieben Maxx",
+    "name": "ProSieben Maxx (576p)",
     "country": "DE",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass",
-      "https://s6.hopslan.com/pro7maxxX/index.m3u8"
+      "https://s6.hopslan.com/pro7maxxX/index.m3u8",
+      "http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass"
     ]
   },
   {
     "id": "kabeleinsDoku.de@SD",
-    "name": "kabel eins Doku",
+    "name": "kabel eins Doku (720p)",
     "country": "DE",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass",
-      "https://s6.hopslan.com/dokuX/index.m3u8"
+      "https://s6.hopslan.com/dokuX/index.m3u8",
+      "http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass"
     ]
   },
   {
@@ -5045,6 +5045,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://vmttv.dpdns.org/tv360?id=davinci-hd",
       "https://vmttv.dpdns.org/tv360/?id=davinci-hd",
       "https://freem3u.xyz/api/live/play.m3u8?vid=214"
     ]

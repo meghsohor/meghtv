@@ -14,15 +14,15 @@
   },
   {
     "id": "ORTM1.ml@SD",
-    "name": "ORTM 1 (540p) [Not 24/7]",
+    "name": "ORTM 1",
     "country": "ML",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://69.64.57.208/ortm/playlist.m3u8",
-      "https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8"
+      "https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8",
+      "http://69.64.57.208/ortm/playlist.m3u8"
     ]
   },
   {

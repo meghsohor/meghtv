@@ -1,15 +1,15 @@
 [
   {
     "id": "AnandaTV.bd@SD",
-    "name": "Ananda TV (480p)",
+    "name": "Ananda TV (720p)",
     "country": "BD",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://103.99.249.139/anandatv/index.m3u8",
-      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8"
+      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+      "http://103.99.249.139/anandatv/index.m3u8"
     ]
   },
   {
@@ -63,7 +63,7 @@
   },
   {
     "id": "ChannelS.bd@SD",
-    "name": "Channel S",
+    "name": "Channel S (720p)",
     "country": "BD",
     "categories": [
       "culture"
@@ -161,7 +161,7 @@
   },
   {
     "id": "MyTV.bd@SD",
-    "name": "My TV",
+    "name": "My TV (480p)",
     "country": "BD",
     "categories": [
       "general"
@@ -173,7 +173,7 @@
   },
   {
     "id": "NANTV.bd@SD",
-    "name": "NAN TV",
+    "name": "NAN TV (720p)",
     "country": "BD",
     "categories": [
       "news"
@@ -185,7 +185,7 @@
   },
   {
     "id": "News21BanglaTV.bd@SD",
-    "name": "News 21 Bangla TV",
+    "name": "News 21 Bangla TV (1080p)",
     "country": "BD",
     "categories": [
       "news"
@@ -291,8 +291,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
-      "https://box.bbaria.net/DurontoTV/index.m3u8"
+      "https://box.bbaria.net/DurontoTV/index.m3u8",
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
     ]
   },
   {

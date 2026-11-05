@@ -3592,9 +3592,9 @@
       "https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8",
       "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8",
       "http://23.237.104.106:8080/USA_TENNIS/index.m3u8",
+      "http://138.59.177.78:9999/play/a0gl/index.m3u8",
       "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8",
-      "https://rezofoot.tv/Tennis/index.m3u8",
-      "http://138.59.177.78:9999/play/a0gl/index.m3u8"
+      "https://rezofoot.tv/Tennis/index.m3u8"
     ]
   },
   {
@@ -4099,7 +4099,7 @@
   },
   {
     "id": "ThePetCollective.us@Spain",
-    "name": "The Pet Collective",
+    "name": "The Pet Collective (720p)",
     "country": "US",
     "categories": [
       "family"
@@ -4327,8 +4327,8 @@
     "visible": true,
     "urls": [
       "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8",
-      "https://d5bxknkoxytmb.cloudfront.net/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8",
       "https://amg00453-reuters-amg00453c1-samsung-gb-2113.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8",
+      "https://d5bxknkoxytmb.cloudfront.net/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8",
       "https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8"
     ]
   },
@@ -4508,7 +4508,7 @@
   },
   {
     "id": "ThePetCollective.us@India",
-    "name": "The Pet Collective",
+    "name": "The Pet Collective (720p)",
     "country": "US",
     "categories": [
       "family"
@@ -4722,7 +4722,7 @@
   },
   {
     "id": "FailArmy.us@Italy",
-    "name": "Failarmy",
+    "name": "Failarmy (720p)",
     "country": "US",
     "categories": [
       "comedy"
@@ -4734,7 +4734,7 @@
   },
   {
     "id": "ThePetCollective.us@Italy",
-    "name": "The Pet Collective",
+    "name": "The Pet Collective (720p)",
     "country": "US",
     "categories": [
       "family"
@@ -6080,7 +6080,7 @@
   },
   {
     "id": "MadeInHollywood.us@SD",
-    "name": "Made in Hollywood",
+    "name": "Made in Hollywood (720p)",
     "country": "US",
     "categories": [
       "movies"
@@ -6104,7 +6104,7 @@
   },
   {
     "id": "BabySharkTV.us@Poland",
-    "name": "Baby Shark TV",
+    "name": "Baby Shark TV (720p)",
     "country": "US",
     "categories": [
       "kids"
@@ -6116,7 +6116,7 @@
   },
   {
     "id": "BloombergOriginals.us@Poland",
-    "name": "Bloomberg Originals",
+    "name": "Bloomberg Originals (1080p)",
     "country": "US",
     "categories": [
       "documentary",
@@ -6129,7 +6129,7 @@
   },
   {
     "id": "BloombergTV.us@Plus-Poland",
-    "name": "Bloomberg TV+",
+    "name": "Bloomberg TV+ (1080p)",
     "country": "US",
     "categories": [
       "business"
@@ -6201,7 +6201,7 @@
   },
   {
     "id": "RakutenViki.us@Poland",
-    "name": "Rakuten VIKI",
+    "name": "Rakuten VIKI (720p)",
     "country": "US",
     "categories": [
       "entertainment",
@@ -6282,8 +6282,8 @@
     "visible": true,
     "urls": [
       "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
-      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8",
-      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8"
+      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8",
+      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8"
     ]
   },
   {
@@ -6300,7 +6300,7 @@
   },
   {
     "id": "ThePetCollective.us@Sweden",
-    "name": "The Pet Collective Sweden",
+    "name": "The Pet Collective Sweden (720p)",
     "country": "US",
     "categories": [
       "family"
@@ -6787,8 +6787,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live.enhdtv.com:8081/8150/index.m3u8",
-      "https://edge.enhdtv.com/8150/index.m3u8"
+      "https://edge.enhdtv.com/8150/index.m3u8",
+      "https://live.enhdtv.com:8081/8150/index.m3u8"
     ]
   },
   {
@@ -6825,8 +6825,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://170.83.16.50/AeE/index.m3u8",
-      "http://79.127.238.228:14551"
+      "http://79.127.238.228:14551",
+      "http://170.83.16.50/AeE/index.m3u8"
     ]
   },
   {
@@ -6992,7 +6992,7 @@
   },
   {
     "id": "ACTV.us@SD",
-    "name": "ACTV",
+    "name": "ACTV (720p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -7011,8 +7011,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://168.197.104.22/ADULT_SWIM/index.m3u8",
-      "http://45.162.64.114/ADULT_SWIM/index.m3u8"
+      "http://45.162.64.114/ADULT_SWIM/index.m3u8",
+      "http://168.197.104.22/ADULT_SWIM/index.m3u8"
     ]
   },
   {
@@ -7090,7 +7090,7 @@
   },
   {
     "id": "AKCTVMeettheBreeds.us@SD",
-    "name": "AKC TV Meet The Breeds",
+    "name": "AKC TV Meet The Breeds (1080p)",
     "country": "US",
     "categories": [
       "outdoor"
@@ -7102,7 +7102,7 @@
   },
   {
     "id": "AKCTVPuppies.us@SD",
-    "name": "AKC TV Puppies 24/7",
+    "name": "AKC TV Puppies 24/7 (1080p)",
     "country": "US",
     "categories": [
       "outdoor"
@@ -7175,15 +7175,15 @@
   },
   {
     "id": "AlkarmaTVAustralia.us@SD",
-    "name": "Alkarma TV Australia (1080p) [Not 24/7]",
+    "name": "Alkarma TV Australia (1080p)",
     "country": "US",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
-      "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8"
+      "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
+      "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8"
     ]
   },
   {
@@ -7568,8 +7568,8 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/AXN/index.m3u8",
-      "http://45.167.1.138:8000/play/a04s",
-      "https://streaming.onnethn.com/AXN_HD/playlist.m3u8"
+      "https://streaming.onnethn.com/AXN_HD/playlist.m3u8",
+      "http://45.167.1.138:8000/play/a04s"
     ]
   },
   {
@@ -7653,15 +7653,15 @@
   },
   {
     "id": "AXNWhite.us@Portugal",
-    "name": "AXN White Portugal (480p)",
+    "name": "AXN White Portugal (576p)",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://50.7.120.34:8080/AXN_WHITE/index.m3u8",
-      "http://188.115.15.121:8000/play/a01u"
+      "http://188.115.15.121:8000/play/a01u",
+      "http://50.7.120.34:8080/AXN_WHITE/index.m3u8"
     ]
   },
   {
@@ -7867,7 +7867,7 @@
   },
   {
     "id": "Binge.us@SD",
-    "name": "Binge",
+    "name": "Binge (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -7930,9 +7930,9 @@
     "visible": false,
     "urls": [
       "http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8",
-      "https://bloomberg.com/media-manifest/streams/us.m3u8",
       "https://mumbai-edge.smartplaytv.in/Bloomberg/index.m3u8",
-      "https://tvsen6.aynaott.com/bloombergtv/index.m3u8"
+      "https://tvsen6.aynaott.com/bloombergtv/index.m3u8",
+      "https://bloomberg.com/media-manifest/streams/us.m3u8"
     ]
   },
   {
@@ -8022,7 +8022,7 @@
   },
   {
     "id": "BPXTVRadio.us@SD",
-    "name": "BPX TV Radio",
+    "name": "BPX TV Radio (720p)",
     "country": "US",
     "categories": [
       "music"
@@ -8238,9 +8238,9 @@
     ],
     "visible": true,
     "urls": [
+      "http://179.1.196.222:9000/play/a02y/index.m3u8",
       "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/canalinfantil/playlist.m3u8",
-      "http://177.234.218.66:8084/play/a01x/index.m3u8",
-      "http://179.1.196.222:9000/play/a02y/index.m3u8"
+      "http://177.234.218.66:8084/play/a01x/index.m3u8"
     ]
   },
   {
@@ -8587,8 +8587,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
+      "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
       "http://15.204.246.24:8080/ComedyCentralHD/index.m3u8",
       "http://190.93.224.42/COMEDY-CENTRAL/index.m3u8",
       "http://103.111.40.244:9999/play/a0i5/index.m3u8",
@@ -8604,11 +8604,11 @@
     ],
     "visible": true,
     "urls": [
+      "http://45.70.201.81:8000/play/a014/index.m3u8",
       "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16960",
       "https://amg00082-amg00082c1-zapitv-emea-7424.playouts.now.amagi.tv/playlist.m3u8",
       "https://amg00082-tarima-amg00082c1-tunein-us-7960.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-tuneinus/playlist.m3u8",
-      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/basket_TV.stream/playlist.m3u8",
-      "http://45.70.201.81:8000/play/a014/index.m3u8"
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/basket_TV.stream/playlist.m3u8"
     ]
   },
   {
@@ -8880,9 +8880,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/DHEHD/index.m3u8",
+      "http://38.252.238.18:8000/play/a01f/index.m3u8",
       "http://190.11.225.124:5000/live/dhe_hd/playlist.m3u8",
-      "https://cablered.iptvperu.tv:1936/cablered/dhe_new/playlist.m3u8",
-      "http://38.252.238.18:8000/play/a01f/index.m3u8"
+      "https://cablered.iptvperu.tv:1936/cablered/dhe_new/playlist.m3u8"
     ]
   },
   {
@@ -8899,17 +8899,18 @@
   },
   {
     "id": "DisneyJunior.us@East",
-    "name": "Disney Junior (576p) [Geo-blocked]",
+    "name": "Disney Junior (480p)",
     "country": "US",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://212.5.144.156/disneyjr/index.m3u8",
       "http://tvsen5.aynascope.net/disney/index.m3u8",
       "http://tvsen7.aynascope.net/disney/index.m3u8",
       "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
+      "https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8",
+      "http://212.5.144.156/disneyjr/index.m3u8",
       "https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F212.5.144.156%3A8080%2Fdisneyjr%2Ftracks-v1a1%2Fmono.m3u8"
     ]
   },
@@ -8998,8 +8999,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://cdn12.178.indevs.in/163189/dreamworks",
-      "http://nmk.ioapk.com:5050/4gtv-live017/index.m3u8"
+      "http://nmk.ioapk.com:5050/4gtv-live017/index.m3u8",
+      "https://cdn12.178.indevs.in/163189/dreamworks"
     ]
   },
   {
@@ -9175,7 +9176,7 @@
   },
   {
     "id": "FlowersTVUSA.us@SD",
-    "name": "Flowers TV USA",
+    "name": "Flowers TV USA (396p)",
     "country": "US",
     "categories": [
       "culture"
@@ -9199,15 +9200,15 @@
   },
   {
     "id": "FoxBusinessNetwork.us@SD",
-    "name": "Fox Business Network (480p)",
+    "name": "Fox Business Network (576p)",
     "country": "US",
     "categories": [
       "business"
     ],
     "visible": false,
     "urls": [
-      "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8",
-      "https://tvsen6.aynaott.com/foxbusiness/index.m3u8"
+      "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
+      "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8"
     ]
   },
   {
@@ -9225,16 +9226,16 @@
   },
   {
     "id": "FoxNewsChannel.us@SD",
-    "name": "Fox News Channel (720p)",
+    "name": "Fox News Channel (1080p)",
     "country": "US",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://tvsen6.aynaott.com/foxnews/index.m3u8",
       "http://138.121.15.230:9002/FOX-NEWS/index.m3u8",
       "http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8",
-      "https://tvsen6.aynaott.com/foxnews/index.m3u8",
       "https://p14.usnlive.com/stream/foxnews.m3u8"
     ]
   },
@@ -9340,8 +9341,8 @@
     "visible": true,
     "urls": [
       "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978",
-      "http://104.143.4.5:2080/funroads.m3u8",
       "https://www.funroads-hls1.com/funroads.m3u8",
+      "http://104.143.4.5:2080/funroads.m3u8",
       "https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8"
     ]
   },
@@ -9367,9 +9368,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/FXHD/index.m3u8",
-      "http://190.93.224.42/FX/index.m3u8",
       "http://38.252.238.18:8000/play/a01c/index.m3u8",
       "http://168.196.127.137:6001/play/a05u/index.m3u8",
+      "http://190.93.224.42/FX/index.m3u8",
       "https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8",
       "http://181.119.66.28:8081/FX-HD/index.m3u8"
     ]
@@ -9457,8 +9458,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://tvsen6.aynaott.com/ytv/index.m3u8",
-      "https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8"
+      "https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8",
+      "https://tvsen6.aynaott.com/ytv/index.m3u8"
     ]
   },
   {
@@ -9555,9 +9556,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/GolfChannelHD/index.m3u8",
+      "http://38.252.238.18:8000/play/a01i/index.m3u8",
       "http://72.1.184.5:8089/play/a0cw/index.m3u8",
-      "http://143.14.178.35/TCM-HD/index.m3u8",
-      "http://38.252.238.18:8000/play/a01i/index.m3u8"
+      "http://143.14.178.35/TCM-HD/index.m3u8"
     ]
   },
   {
@@ -9733,8 +9734,8 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
-      "http://190.93.224.42/HISTORY-2/index.m3u8",
       "http://181.225.190.242:8000/play/a023",
+      "http://190.93.224.42/HISTORY-2/index.m3u8",
       "http://181.119.66.28:8081/HISTORY-2/index.m3u8"
     ]
   },
@@ -9806,7 +9807,7 @@
   },
   {
     "id": "HopeChannelInterAmerica.us@SD",
-    "name": "Hope Channel Inter-America",
+    "name": "Hope Channel Inter-America (1080p)",
     "country": "US",
     "categories": [
       "religious"
@@ -10126,7 +10127,7 @@
   },
   {
     "id": "UniMas.us@KFTRDT",
-    "name": "KFTR-DT1 [Geo-blocked]",
+    "name": "KFTR-DT1 (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -10148,7 +10149,7 @@
   },
   {
     "id": "Univision.us@KMEXDT",
-    "name": "KMEX-DT1 [Geo-blocked]",
+    "name": "KMEX-DT1 (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -10183,7 +10184,7 @@
   },
   {
     "id": "ACECountryRadio.us@KPVMLD",
-    "name": "ACE Country Radio KPVM-LD",
+    "name": "ACE Country Radio KPVM-LD (480p)",
     "country": "US",
     "categories": [
       "music"
@@ -10195,7 +10196,7 @@
   },
   {
     "id": "AWEPlus.us@KPVMLD",
-    "name": "KPVM AWE Plus",
+    "name": "KPVM AWE Plus (484p)",
     "country": "US",
     "categories": [
       "general"
@@ -10207,7 +10208,7 @@
   },
   {
     "id": "Movies.us@KPVMLD",
-    "name": "Movies! KPVM-LD",
+    "name": "Movies! KPVM-LD (480p)",
     "country": "US",
     "categories": [
       "movies"
@@ -10219,7 +10220,7 @@
   },
   {
     "id": "Newsmax2.us@KPVMLD",
-    "name": "KPVM Newsmax 2",
+    "name": "KPVM Newsmax 2 (484p)",
     "country": "US",
     "categories": [
       "news"
@@ -10243,7 +10244,7 @@
   },
   {
     "id": "KPVMLD251.us@HD",
-    "name": "KPVM Prime TV25",
+    "name": "KPVM Prime TV25 (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -10255,7 +10256,7 @@
   },
   {
     "id": "RealAmericasVoice.us@KPVMLD",
-    "name": "Real America's Voice KPVM-LD",
+    "name": "Real America's Voice KPVM-LD (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -10265,7 +10266,7 @@
   },
   {
     "id": "StoryTelevision.us@KPVMLD",
-    "name": "Story Television KPVM-LD",
+    "name": "Story Television KPVM-LD (480p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -10287,7 +10288,7 @@
   },
   {
     "id": "KRGVTV52.us@HD",
-    "name": "KRGV-DT2 [Geo-blocked]",
+    "name": "KRGV-DT2 (720p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "entertainment"
@@ -10350,7 +10351,7 @@
   },
   {
     "id": "UniMas.us@KUVNDT",
-    "name": "KUVN-DT1",
+    "name": "KUVN-DT1 (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -10629,16 +10630,16 @@
   },
   {
     "id": "LiveNOWfromFOX.us@SD",
-    "name": "LiveNOW from FOX (720p) [Geo-blocked]",
+    "name": "LiveNOW from FOX (720p)",
     "country": "US",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8",
       "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8",
       "https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1",
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8",
       "https://jmp2.uk/plu-63d025db4e83e700086eaa96.m3u8",
       "https://pb-k5p02dtnr2162.akamaized.net/LiveNOW_from_FOX.m3u8"
     ]
@@ -10976,15 +10977,15 @@
   },
   {
     "id": "MTV.us@East",
-    "name": "MTV (720p)",
+    "name": "MTV (1080p)",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://198.58.104.90:8989/mtv/index.m3u8",
-      "http://23.237.104.106:8080/USA_MTV/index.m3u8"
+      "http://23.237.104.106:8080/USA_MTV/index.m3u8",
+      "http://198.58.104.90:8989/mtv/index.m3u8"
     ]
   },
   {
@@ -11131,8 +11132,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
-      "http://190.93.224.42/NAT-GEO/index.m3u8",
       "http://45.173.231.22:8000/play/a05z/index.m3u8",
+      "http://190.93.224.42/NAT-GEO/index.m3u8",
       "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8",
       "http://181.78.79.131:8000/play/a0pt",
       "http://181.119.66.28:8081/NATGEO-HD/index.m3u8"
@@ -11160,8 +11161,8 @@
     "visible": true,
     "urls": [
       "http://23.237.104.106:8080/USA_NBA/index.m3u8",
-      "http://rezofoot.tv/NBATV/index.m3u8",
       "http://198.58.104.90:8989/nba/index.m3u8",
+      "http://rezofoot.tv/NBATV/index.m3u8",
       "https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8",
       "https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8"
     ]
@@ -11300,8 +11301,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8",
-      "https://mdc4.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8"
+      "https://mdc4.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8",
+      "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8"
     ]
   },
   {
@@ -11330,7 +11331,7 @@
   },
   {
     "id": "News12Bronx.us@SD",
-    "name": "News12 Bronx [Geo-blocked]",
+    "name": "News12 Bronx (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -11342,7 +11343,7 @@
   },
   {
     "id": "News12Brooklyn.us@SD",
-    "name": "News12 Brooklyn [Geo-blocked]",
+    "name": "News12 Brooklyn (720p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -11366,7 +11367,7 @@
   },
   {
     "id": "News12HudsonValley.us@SD",
-    "name": "News12 Hudson Valley [Geo-blocked]",
+    "name": "News12 Hudson Valley (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -11390,7 +11391,7 @@
   },
   {
     "id": "News12NewJersey.us@SD",
-    "name": "News12 New Jersey [Geo-blocked]",
+    "name": "News12 New Jersey (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -11402,7 +11403,7 @@
   },
   {
     "id": "News12Westchester.us@SD",
-    "name": "News12 Westchester [Geo-blocked]",
+    "name": "News12 Westchester (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -11424,8 +11425,8 @@
       "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
       "https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8",
       "https://nmxdistro.akamaized.net/hls/live/529965/Live_1/index.m3u8",
-      "https://newsmax-klowdtv.amagi.tv/playlist.m3u8",
       "https://a-cdn.klowdtv.com/live3/newsmax2_720p/playlist.m3u8",
+      "https://newsmax-klowdtv.amagi.tv/playlist.m3u8",
       "https://jmp2.uk/plu-55b179af994403942f3061d6.m3u8",
       "https://amg00217-newsmax-newsmax-rokuus-dur76.amagi.tv/playlist.m3u8",
       "https://newsmax-samsungus.amagi.tv/playlist.m3u8",
@@ -11492,10 +11493,10 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/NickHD/index.m3u8",
-      "http://190.93.224.42/NICK/index.m3u8",
-      "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
       "http://181.78.79.131:8000/play/a0qm",
+      "http://190.93.224.42/NICK/index.m3u8",
       "http://190.234.82.52:8000/play/a0ke/index.m3u8",
+      "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
       "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
     ]
   },
@@ -11687,15 +11688,15 @@
   },
   {
     "id": "NTDTV.us@West",
-    "name": "NTD TV West",
+    "name": "NTD TV West (720p)",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://live.ntdtv.com/uwlive990/playlist.m3u8",
-      "https://ntd02.akamaized.net/HD-LA/index.m3u8"
+      "https://ntd02.akamaized.net/HD-LA/index.m3u8",
+      "https://live.ntdtv.com/uwlive990/playlist.m3u8"
     ]
   },
   {
@@ -11788,9 +11789,9 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/PasionesHD/index.m3u8",
+      "http://45.173.231.22:8000/play/a06n/index.m3u8",
       "http://45.224.97.181:9999/Pasiones/index.m3u8",
       "http://190.93.224.42/PASIONES/index.m3u8",
-      "http://45.173.231.22:8000/play/a06n/index.m3u8",
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/pasiones/chunks.m3u8",
       "http://190.60.55.141:9083/play/a0ni/index.m3u8"
     ]
@@ -11833,15 +11834,15 @@
   },
   {
     "id": "PayvandTV.us@SD",
-    "name": "Payvand TV (720p) [Not 24/7]",
+    "name": "Payvand TV (720p)",
     "country": "US",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://bozztv.com/cus01/ucur1/Payvand/index.m3u8",
-      "https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8"
+      "https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8",
+      "https://bozztv.com/cus01/ucur1/Payvand/index.m3u8"
     ]
   },
   {
@@ -11909,7 +11910,7 @@
   },
   {
     "id": "PixLTV.us@SD",
-    "name": "PixL TV",
+    "name": "PixL TV (720p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -12057,7 +12058,7 @@
   },
   {
     "id": "RadioTeleSentinel.us@SD",
-    "name": "Radio Tele Sentinel",
+    "name": "Radio Tele Sentinel (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -12327,7 +12328,7 @@
   },
   {
     "id": "ScientologyNetwork.us@KSCNTV",
-    "name": "Scientology Network KSCN-TV",
+    "name": "Scientology Network KSCN-TV (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -12337,7 +12338,7 @@
   },
   {
     "id": "ScientologyNetwork.us@WFTTTV",
-    "name": "Scientology Network WFTT-TV",
+    "name": "Scientology Network WFTT-TV (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -12359,15 +12360,15 @@
   },
   {
     "id": "SemillitasTV.us@SD",
-    "name": "Semillitas TV (576p)",
+    "name": "Semillitas TV (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://45.5.117.99:8000/play/a0g3/index.m3u8",
-      "http://168.196.127.137:6001/play/a04y/index.m3u8",
       "http://38.252.238.18:8000/play/a00g/index.m3u8",
-      "http://132.255.210.69:8000/play/a011/index.m3u8"
+      "http://132.255.210.69:8000/play/a011/index.m3u8",
+      "http://168.196.127.137:6001/play/a04y/index.m3u8",
+      "http://45.5.117.99:8000/play/a0g3/index.m3u8"
     ]
   },
   {
@@ -12544,16 +12545,16 @@
   },
   {
     "id": "SonyMoviesLatinAmerica.us@SD",
-    "name": "Sony Movies Latin America (720p)",
+    "name": "Sony Movies Latin America (1080p)",
     "country": "US",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "http://38.252.238.18:8000/play/a01e/index.m3u8",
       "http://15.204.246.24:8080/SonyMoviesHD/index.m3u8",
-      "https://cdn-5.nxplay.com.br/SONY_MOVIES/index.m3u8",
-      "http://38.252.238.18:8000/play/a01e/index.m3u8"
+      "https://cdn-5.nxplay.com.br/SONY_MOVIES/index.m3u8"
     ]
   },
   {
@@ -12813,15 +12814,15 @@
   },
   {
     "id": "TelemundoAlDia.us@HD",
-    "name": "Telemundo Al Dia",
+    "name": "Telemundo Al Dia (720p)",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8",
-      "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573"
+      "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573",
+      "https://d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8"
     ]
   },
   {
@@ -12833,11 +12834,11 @@
     ],
     "visible": true,
     "urls": [
-      "http://138.121.15.230:9002/TELEMUNDO/index.m3u8",
-      "http://190.93.224.42/TELEMUNDO/index.m3u8",
-      "http://168.196.127.137:6001/play/a05t/index.m3u8",
       "http://45.173.231.22:8000/play/a01h/index.m3u8",
       "http://45.173.231.22:8000/play/a097/index.m3u8",
+      "http://138.121.15.230:9002/TELEMUNDO/index.m3u8",
+      "http://168.196.127.137:6001/play/a05t/index.m3u8",
+      "http://190.93.224.42/TELEMUNDO/index.m3u8",
       "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/54.m3u8"
     ]
   },
@@ -12855,15 +12856,15 @@
   },
   {
     "id": "Telemundo.us@West",
-    "name": "Telemundo West (720p)",
+    "name": "Telemundo West (2160p)",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://181.119.108.43:9001/play/a044/index.m3u8",
-      "http://168.228.44.241:9997/play/a07g/index.m3u8"
+      "http://168.228.44.241:9997/play/a07g/index.m3u8",
+      "http://181.119.108.43:9001/play/a044/index.m3u8"
     ]
   },
   {
@@ -12980,15 +12981,15 @@
   },
   {
     "id": "TinTV.us@SD",
-    "name": "Tin TV (720p) [Not 24/7]",
+    "name": "Tin TV (720p)",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8",
-      "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8"
+      "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8",
+      "https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8"
     ]
   },
   {
@@ -13036,8 +13037,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://190.93.224.42/TNT-NOVELAS/index.m3u8",
       "http://158.172.155.130:8000/play/a0at/index.m3u8",
+      "http://190.93.224.42/TNT-NOVELAS/index.m3u8",
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tntnovelas.stream/chunks.m3u8"
     ]
   },
@@ -13090,13 +13091,13 @@
   },
   {
     "id": "TUDN.us@SD",
-    "name": "TUDN (1080p) [Geo-blocked]",
+    "name": "TUDN (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8",
-      "http://45.190.13.8/TUDNHD/index.m3u8"
+      "http://45.190.13.8/TUDNHD/index.m3u8",
+      "https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8"
     ]
   },
   {
@@ -13624,9 +13625,9 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://38.252.238.18:8000/play/a03e/index.m3u8",
       "http://190.197.41.183/Univision/index.m3u8",
-      "https://streaming-live-fcdn.api.prd.univisionnow.com/unieast/unieast.isml/hls/unieast.m3u8",
-      "http://38.252.238.18:8000/play/a03e/index.m3u8"
+      "https://streaming-live-fcdn.api.prd.univisionnow.com/unieast/unieast.isml/hls/unieast.m3u8"
     ]
   },
   {
@@ -13762,7 +13763,7 @@
   },
   {
     "id": "W14DKD141.us@HD",
-    "name": "W14DK-D 14.1 TV Delmarva",
+    "name": "W14DK-D 14.1 TV Delmarva (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -13774,7 +13775,7 @@
   },
   {
     "id": "W14DKD142.us@SD",
-    "name": "W14DK-D 14.2 NEWSNET",
+    "name": "W14DK-D 14.2 NEWSNET (720p)",
     "country": "US",
     "categories": [
       "news"
@@ -14038,7 +14039,7 @@
   },
   {
     "id": "iHolyfieldTV.us@WHPSCD",
-    "name": "WHPS Detroit",
+    "name": "WHPS Detroit (614p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -14146,7 +14147,7 @@
   },
   {
     "id": "Univision.us@WLTVDT",
-    "name": "WLTV-DT1 [Geo-blocked]",
+    "name": "WLTV-DT1 (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -14363,7 +14364,7 @@
   },
   {
     "id": "UniMas.us@WXTVDT",
-    "name": "WXTV-DT1",
+    "name": "WXTV-DT1 (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -14499,16 +14500,16 @@
   },
   {
     "id": "BabyFirst.us@Spanish",
-    "name": "BabyFirst Spanish (720p)",
+    "name": "BabyFirst Spanish (1080p)",
     "country": "US",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://168.196.127.137:6001/play/a06j/index.m3u8",
       "http://168.228.44.241:9997/play/a07u/index.m3u8",
-      "http://181.78.106.127:5000/play/a0sa/index.m3u8",
-      "http://168.196.127.137:6001/play/a06j/index.m3u8"
+      "http://181.78.106.127:5000/play/a0sa/index.m3u8"
     ]
   },
   {
@@ -14606,7 +14607,7 @@
   },
   {
     "id": "BATVPublicChannel.us@SD",
-    "name": "BATV Public Channel",
+    "name": "BATV Public Channel (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -14618,7 +14619,7 @@
   },
   {
     "id": "BATVEducationalChannel.us@SD",
-    "name": "BATV Educational Channel",
+    "name": "BATV Educational Channel (1080p)",
     "country": "US",
     "categories": [
       "education"
@@ -14630,7 +14631,7 @@
   },
   {
     "id": "BATVGovernmentChannel.us@SD",
-    "name": "BATV Government Channel",
+    "name": "BATV Government Channel (1080p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -14642,7 +14643,7 @@
   },
   {
     "id": "BestofBATVChannel.us@SD",
-    "name": "Best of BATV Channel",
+    "name": "Best of BATV Channel (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -14746,7 +14747,7 @@
   },
   {
     "id": "VideoMixTV.us@SD",
-    "name": "Video Mix TV",
+    "name": "Video Mix TV (1080p)",
     "country": "US",
     "categories": [
       "music"
@@ -14795,15 +14796,15 @@
   },
   {
     "id": "DSports.us@Panregional",
-    "name": "DSports (720p)",
+    "name": "DSports (1080p)",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://15.204.146.163:8002/play/a00g/index.m3u8",
       "http://38.187.7.252:8000/play/a03d/index.m3u8",
+      "http://15.204.146.163:8002/play/a00g/index.m3u8",
       "http://45.186.254.75:8000/play/a0en/index.m3u8",
       "http://138.121.113.175:8000/play/a0cj/index.m3u8"
     ]
@@ -15086,18 +15087,6 @@
     ]
   },
   {
-    "id": "SCorbyTV.us@HD",
-    "name": "S Corby TV (480p)",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a9f89be0630445532152563/master.m3u8"
-    ]
-  },
-  {
     "id": "SMetroTV.us@HD",
     "name": "S Metro TV (360p)",
     "country": "US",
@@ -15122,18 +15111,6 @@
     ]
   },
   {
-    "id": "SPlayEvent.us@HD",
-    "name": "S Play Event (1080p)",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8"
-    ]
-  },
-  {
     "id": "UniversalCinema.us@SD",
     "name": "Universal Cinema (1080p)",
     "country": "US",
@@ -15148,15 +15125,15 @@
   },
   {
     "id": "EWTN.us@SpainLatinAmerica",
-    "name": "EWTN Spain & Latin America (480p)",
+    "name": "EWTN Spain & Latin America (576p)",
     "country": "US",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "http://45.167.1.138:8000/play/a01m",
       "http://187.102.208.209:8000/play/a0ac/index.m3u8",
+      "http://45.167.1.138:8000/play/a01m",
       "http://45.228.234.9:8000/play/a06v/index.m3u8",
       "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8"
     ]
@@ -15182,8 +15159,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://181.78.12.119:16123/play/ch54/index.m3u8",
-      "http://168.228.44.241:9999/play/a054/index.m3u8"
+      "http://168.228.44.241:9999/play/a054/index.m3u8",
+      "http://181.78.12.119:16123/play/ch54/index.m3u8"
     ]
   },
   {
@@ -15200,16 +15177,16 @@
   },
   {
     "id": "ESNETV.us@SD",
-    "name": "ESNE TV (720p)",
+    "name": "ESNE TV (1080p)",
     "country": "US",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "http://168.196.127.137:6001/play/a071/index.m3u8",
+      "http://132.255.210.69:8000/play/a02v/index.m3u8",
       "http://190.217.66.92:8000/play/a0fp/index.m3u8",
-      "http://132.255.210.69:8000/play/a02v/index.m3u8"
+      "http://168.196.127.137:6001/play/a071/index.m3u8"
     ]
   },
   {
@@ -15305,6 +15282,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://141.94.193.53/axn_black/index.m3u8",
       "http://141.94.193.53:80/axn_black/index.m3u8"
     ]
   },
@@ -15581,7 +15559,7 @@
   },
   {
     "id": "DareToDreamNetwork.us@SD",
-    "name": "3ABN Dare To Dream Network",
+    "name": "3ABN Dare To Dream Network (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -15593,7 +15571,7 @@
   },
   {
     "id": "3ABNEnglish.us@SD",
-    "name": "3ABN English",
+    "name": "3ABN English (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -15605,7 +15583,7 @@
   },
   {
     "id": "3ABNFrench.us@SD",
-    "name": "3ABN French",
+    "name": "3ABN French (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -15629,7 +15607,7 @@
   },
   {
     "id": "3ABNKids.us@SD",
-    "name": "3ABN Kids Network",
+    "name": "3ABN Kids Network (720p)",
     "country": "US",
     "categories": [
       "kids",
@@ -15643,7 +15621,7 @@
   },
   {
     "id": "3ABNPraiseHimMusicNetwork.us@SD",
-    "name": "3ABN Praise Him Music Network",
+    "name": "3ABN Praise Him Music Network (720p)",
     "country": "US",
     "categories": [
       "music",
@@ -15656,7 +15634,7 @@
   },
   {
     "id": "3ABNProclaimNetwork.us@SD",
-    "name": "3ABN Proclaim! Network",
+    "name": "3ABN Proclaim! Network (720p)",
     "country": "US",
     "categories": [
       "religious"
@@ -16393,8 +16371,8 @@
     "visible": true,
     "urls": [
       "https://linear-205.frequency.stream/dist/glewedtv/205/hls/master/playlist.m3u8",
-      "https://pursuitup-klowdtv.amagi.tv/playlist.m3u8",
       "https://a-cdn.klowdtv.com/live2/pursuitup/playlist.m3u8",
+      "https://pursuitup-klowdtv.amagi.tv/playlist.m3u8",
       "https://d1p1siomv3cm7b.cloudfront.net/playlist.m3u8",
       "https://linear-205.frequency.stream/dist/stirr/205/hls/master/playlist.m3u8",
       "https://linear-205.frequency.stream/dist/xumo/205/hls/master/playlist.m3u8"
@@ -16638,7 +16616,7 @@
   },
   {
     "id": "ABC.us@KRGVTV",
-    "name": "ABC 5",
+    "name": "ABC 5 (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -16674,7 +16652,7 @@
   },
   {
     "id": "ABC.us@WWAY",
-    "name": "ABC WWAY 3",
+    "name": "ABC WWAY 3 (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -17046,7 +17024,7 @@
   },
   {
     "id": "CruzTV.us@SD",
-    "name": "Cruz TV",
+    "name": "Cruz TV (1080p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -17538,7 +17516,7 @@
   },
   {
     "id": "KTOO360TV.us@KTOOTV",
-    "name": "KTOO 360TV 3 (FNX)",
+    "name": "KTOO 360TV 3 (FNX) (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
@@ -17858,7 +17836,7 @@
   },
   {
     "id": "MCPSSTV.us@SD",
-    "name": "Mobile County Public Schools TV Network (MCPSS)",
+    "name": "Mobile County Public Schools TV Network (MCPSS) (720p)",
     "country": "US",
     "categories": [
       "education"
@@ -18181,7 +18159,7 @@
   },
   {
     "id": "SCCurrents.us@SD",
-    "name": "SC Currents",
+    "name": "SC Currents (1080p)",
     "country": "US",
     "categories": [
       "news"
@@ -18554,7 +18532,7 @@
   },
   {
     "id": "YouDotGov.us@SD",
-    "name": "YouDotGov",
+    "name": "YouDotGov (1080p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -18759,7 +18737,7 @@
   },
   {
     "id": "Create.us@WMPT",
-    "name": "WMPT-DT2 (PBS Create)",
+    "name": "WMPT-DT2 (PBS Create) (720p)",
     "country": "US",
     "categories": [
       "education"
@@ -18795,7 +18773,7 @@
   },
   {
     "id": "AbsoluteRealitybyWETV.us@SD",
-    "name": "AMC Absolute Reality",
+    "name": "AMC Absolute Reality (1080p)",
     "country": "US",
     "categories": [
       "entertainment"
@@ -23200,7 +23178,7 @@
   },
   {
     "id": "KernCountyTV.us@SD",
-    "name": "Kern County Television",
+    "name": "Kern County Television (720p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -23224,7 +23202,7 @@
   },
   {
     "id": "LakeHavasuCity4.us@SD",
-    "name": "LHCAZTV",
+    "name": "LHCAZTV (360p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -23320,7 +23298,7 @@
   },
   {
     "id": "PHXTV.us@SD",
-    "name": "PHXTV",
+    "name": "PHXTV (720p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -23543,7 +23521,7 @@
   },
   {
     "id": "StoriesbyAMC.us@SD",
-    "name": "Stories by AMC",
+    "name": "Stories by AMC (1080p)",
     "country": "US",
     "categories": [
       "entertainment"
@@ -23744,8 +23722,8 @@
     "visible": true,
     "urls": [
       "http://38.252.238.18:8000/play/a053/index.m3u8",
-      "http://170.244.209.30:8000/play/a027/index.m3u8",
-      "http://45.173.12.70:8000/play/a0fj"
+      "http://45.173.12.70:8000/play/a0fj",
+      "http://170.244.209.30:8000/play/a027/index.m3u8"
     ]
   },
   {
@@ -23819,14 +23797,14 @@
   },
   {
     "id": "HBOLatinAmerica.us@SD",
-    "name": "HBO Latin America (720p) [Geo-blocked]",
+    "name": "HBO Latin America (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/HBOHD/index.m3u8",
       "https://streaming.onnethn.com/HBO/playlist.m3u8",
-      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO/chunks.m3u8"
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO/chunks.m3u8",
+      "http://15.204.246.24:8080/HBOHD/index.m3u8"
     ]
   },
   {
@@ -23865,7 +23843,7 @@
   },
   {
     "id": "CartoonNetworkLatinAmerica.us@Brazil",
-    "name": "Cartoon Network Latin America Brazil (720p) [Geo-blocked]",
+    "name": "Cartoon Network Latin America Brazil (720p)",
     "country": "US",
     "categories": [
       "animation",
@@ -23873,8 +23851,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8",
-      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8"
+      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8",
+      "http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8"
     ]
   },
   {
@@ -23910,8 +23888,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://23.239.31.26:8989/animalplanet/index.m3u8",
-      "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8"
+      "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
+      "http://23.239.31.26:8989/animalplanet/index.m3u8"
     ]
   },
   {
@@ -24118,6 +24096,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd",
       "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?"
     ]
   },
@@ -24155,8 +24134,8 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:6060/play/a00k/index.m3u8",
-      "http://15.204.246.24:8080/HBOFamilyHD/index.m3u8",
-      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Family/chunks.m3u8"
+      "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Family/chunks.m3u8",
+      "http://15.204.246.24:8080/HBOFamilyHD/index.m3u8"
     ]
   },
   {
@@ -24170,8 +24149,8 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:6060/play/a00i/index.m3u8",
-      "http://15.204.246.24:8080/HBO2HD/index.m3u8",
-      "https://bantel-cdn1.iptvperu.tv:1936/Bantel_new/hbo2/chunks.m3u8"
+      "https://bantel-cdn1.iptvperu.tv:1936/Bantel_new/hbo2/chunks.m3u8",
+      "http://15.204.246.24:8080/HBO2HD/index.m3u8"
     ]
   },
   {
@@ -24231,8 +24210,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8",
-      "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8"
+      "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8",
+      "https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8"
     ]
   },
   {
@@ -24261,16 +24240,16 @@
   },
   {
     "id": "CNNInternational.us@Europe",
-    "name": "CNN International",
+    "name": "CNN International (1080p)",
     "country": "US",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
       "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
       "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1",
+      "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8"
     ]
   },
@@ -24496,13 +24475,13 @@
   },
   {
     "id": "HBOPlusLatinAmerica.us@SD",
-    "name": "HBO+ Latin America (720p) [Geo-blocked]",
+    "name": "HBO+ Latin America (1080p)",
     "country": "US",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://15.204.246.24:8080/HBOPlusHD/index.m3u8",
-      "http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8"
+      "http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8",
+      "http://15.204.246.24:8080/HBOPlusHD/index.m3u8"
     ]
   },
   {
@@ -24605,7 +24584,7 @@
   },
   {
     "id": "CartoonNetwork.us@East",
-    "name": "Cartoon Network [Not 24/7;Geo-blocked]",
+    "name": "Cartoon Network (720p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "animation",
@@ -24613,8 +24592,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8",
       "http://212.5.144.156:8080/cartoon/index.m3u8",
+      "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8",
       "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
     ]
   },
@@ -24717,8 +24696,8 @@
     "visible": true,
     "urls": [
       "http://190.61.42.218:9000/play/a06i/index.m3u8",
-      "http://45.173.231.22:8000/play/a01i/index.m3u8",
       "http://190.234.82.52:8000/play/a0mo/index.m3u8",
+      "http://45.173.231.22:8000/play/a01i/index.m3u8",
       "http://200.62.239.170:830/play/a07n/index.m3u8"
     ]
   },
@@ -24971,9 +24950,11 @@
     ],
     "visible": true,
     "urls": [
+      "https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior",
+      "https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.afid=405342864&ads.asnw=169843&ads.channelId=99993042&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99993042&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior",
+      "https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8",
       "https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads.xumo_channelId=99951318&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99951318",
-      "https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042",
-      "https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8"
+      "https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042"
     ]
   },
   {
@@ -25385,7 +25366,7 @@
   },
   {
     "id": "Tooncast.us@Panregional",
-    "name": "Tooncast (720p)",
+    "name": "Tooncast (1080p)",
     "country": "US",
     "categories": [
       "animation",
@@ -25393,8 +25374,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://streaming.onnethn.com/TOONCAST/playlist.m3u8",
       "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8",
+      "https://streaming.onnethn.com/TOONCAST/playlist.m3u8",
       "http://181.224.255.210:8001/play/a0ou/index.m3u8?hls"
     ]
   },
@@ -25420,6 +25401,30 @@
     "visible": true,
     "urls": [
       "http://181.78.79.131:8000/play/a0na"
+    ]
+  },
+  {
+    "id": "beINSportsUSA.us@SD",
+    "name": "beIN Sports USA (576p)",
+    "country": "US",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvsen6.aynaott.com/beinsports/index.m3u8"
+    ]
+  },
+  {
+    "id": "InTouchPlus.us@HD",
+    "name": "In Touch+ (1080p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg01540-amg01540c1-amgplt0095.playout.now3.amagi.tv/playlist.m3u8"
     ]
   }
 ]

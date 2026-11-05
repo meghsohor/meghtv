@@ -50,16 +50,16 @@
   },
   {
     "id": "TVM.mz@SD",
-    "name": "TVM (480p) [Not 24/7]",
+    "name": "TVM (480p)",
     "country": "MZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://online.tvm.co.mz:1935/live/smil:Channel1.smil/playlist.m3u8",
       "http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8",
-      "https://stream.tvm.co.mz/hls/tvm/playlist.m3u8"
+      "https://stream.tvm.co.mz/hls/tvm/playlist.m3u8",
+      "http://online.tvm.co.mz:1935/live/smil:Channel1.smil/playlist.m3u8"
     ]
   },
   {

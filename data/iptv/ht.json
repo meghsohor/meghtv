@@ -50,7 +50,7 @@
   },
   {
     "id": "RadioTeleFullGospel.ht@SD",
-    "name": "Radio Tele Full Gospel",
+    "name": "Radio Tele Full Gospel (360p)",
     "country": "HT",
     "categories": [
       "religious"
@@ -62,7 +62,7 @@
   },
   {
     "id": "RadioTeleGinen.ht@SD",
-    "name": "Radio Tele Ginen",
+    "name": "Radio Tele Ginen (1080p)",
     "country": "HT",
     "categories": [
       "general"

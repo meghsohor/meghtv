@@ -37,16 +37,16 @@
   },
   {
     "id": "ATV.hu@SD",
-    "name": "ATV (360p) [Not 24/7]",
+    "name": "ATV (160p)",
     "country": "HU",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream.atv.hu/atvlive/atvstream_2_aac/playlist.m3u8",
       "https://streamservers.atv.hu/atvlive/atvstream_1_aac/playlist.m3u8",
       "http://88.212.7.14/live/test_atv_hungary_1200_atk/playlist.m3u8",
+      "https://stream.atv.hu/atvlive/atvstream_2_aac/playlist.m3u8",
       "http://88.212.15.17/live/test_atv_hungary_1200_atk/playlist.m3u8",
       "http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8"
     ]
@@ -686,15 +686,15 @@
   },
   {
     "id": "M4Sport.hu@SD",
-    "name": "M4 Sport",
+    "name": "M4 Sport (1080p)",
     "country": "HU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://88.212.7.14/live/m4_hun/index.m3u8",
       "http://88.212.7.14/live/uatlmvixrr/index.m3u8",
+      "http://88.212.7.14/live/m4_hun/index.m3u8",
       "http://88.212.15.17/live/m4_hun/index.m3u8",
       "http://88.212.15.17/live/uatlmvixrr/index.m3u8",
       "http://88.212.15.19/live/m4_hun/index.m3u8",
@@ -1731,6 +1731,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://141.94.193.53/MAX4_HD/index.m3u8",
       "http://141.94.193.53:80/MAX4_HD/index.m3u8"
     ]
   },
@@ -1743,6 +1744,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://141.94.193.53/Match4_HD/index.m3u8",
       "http://141.94.193.53:80/Match4_HD/index.m3u8"
     ]
   },

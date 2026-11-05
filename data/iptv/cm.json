@@ -49,7 +49,7 @@
   },
   {
     "id": "CRTV.cm@SD",
-    "name": "CRTV",
+    "name": "CRTV (1080p)",
     "country": "CM",
     "categories": [
       "general"
@@ -62,7 +62,7 @@
   },
   {
     "id": "CRTVNews.cm@SD",
-    "name": "CRTV News",
+    "name": "CRTV News (1080p)",
     "country": "CM",
     "categories": [
       "news"

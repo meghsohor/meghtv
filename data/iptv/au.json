@@ -451,15 +451,15 @@
   },
   {
     "id": "SkyRacing1.au@SD",
-    "name": "Sky Racing 1 (720p) [Geo-blocked]",
+    "name": "Sky Racing 1 (720p)",
     "country": "AU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://skylivetab-new.akamaized.net/hls/live/2038780/sky1/index.m3u8",
-      "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8"
+      "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8",
+      "https://skylivetab-new.akamaized.net/hls/live/2038780/sky1/index.m3u8"
     ]
   },
   {

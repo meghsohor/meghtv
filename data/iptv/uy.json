@@ -33,13 +33,13 @@
     ],
     "visible": true,
     "urls": [
-      "https://canalmasuruguay.com/hls/master-abr.m3u8",
-      "https://canalmasuruguay.com/hls/720p/index.m3u8"
+      "https://canalmasuruguay.com/hls/720p/index.m3u8",
+      "https://canalmasuruguay.com/hls/master-abr.m3u8"
     ]
   },
   {
     "id": "CanalOncePlus.uy@SD",
-    "name": "Canal Once Plus",
+    "name": "Canal Once Plus (720p)",
     "country": "UY",
     "categories": [
       "general"
@@ -87,7 +87,7 @@
   },
   {
     "id": "MisionVidaTV.uy@SD",
-    "name": "Mision Vida TV",
+    "name": "Mision Vida TV (1080p)",
     "country": "UY",
     "categories": [
       "religious"

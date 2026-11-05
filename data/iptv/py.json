@@ -195,15 +195,15 @@
   },
   {
     "id": "FarraPlay.py@SD",
-    "name": "Farra Play (720p) [Not 24/7]",
+    "name": "Farra Play (576p)",
     "country": "PY",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "http://159.203.148.226/live/farra.m3u8",
-      "https://stream.farra.com.py/live/farra_low.m3u8"
+      "https://stream.farra.com.py/live/farra_low.m3u8",
+      "http://159.203.148.226/live/farra.m3u8"
     ]
   },
   {
@@ -250,8 +250,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
-      "http://190.128.214.97:64333/play/a03i/index.m3u8"
+      "http://190.128.214.97:64333/play/a03i/index.m3u8",
+      "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion"
     ]
   },
   {
@@ -280,15 +280,15 @@
   },
   {
     "id": "MiTV.py@SD",
-    "name": "MiTV (720p)",
+    "name": "MiTV (1080p)",
     "country": "PY",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8",
-      "http://190.128.214.97:64333/play/a02w/index.m3u8"
+      "http://190.128.214.97:64333/play/a02w/index.m3u8",
+      "https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8"
     ]
   },
   {
@@ -300,8 +300,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_alta/playlist.m3u8?admin=tvaccion",
-      "http://190.128.214.97:64333/play/a046/index.m3u8"
+      "http://190.128.214.97:64333/play/a046/index.m3u8",
+      "https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_alta/playlist.m3u8?admin=tvaccion"
     ]
   },
   {
@@ -318,7 +318,7 @@
   },
   {
     "id": "NandejaraNeeTV.py@SD",
-    "name": "Nandejara Ne'e TV",
+    "name": "Nandejara Ne'e TV (1080p)",
     "country": "PY",
     "categories": [
       "religious"
@@ -337,9 +337,9 @@
     ],
     "visible": true,
     "urls": [
+      "http://190.128.214.97:64333/play/a02d/index.m3u8",
       "https://nanduti.b-cdn.net/Source.m3u8",
-      "https://nanduti.b-cdn.net/720p.m3u8",
-      "http://190.128.214.97:64333/play/a02d/index.m3u8"
+      "https://nanduti.b-cdn.net/720p.m3u8"
     ]
   },
   {
@@ -418,15 +418,15 @@
   },
   {
     "id": "ProductivaTV.py@SD",
-    "name": "Productiva TV",
+    "name": "Productiva TV (1080p)",
     "country": "PY",
     "categories": [
       "outdoor"
     ],
     "visible": true,
     "urls": [
-      "https://copacoradios.desdeparaguay.net/productivatv/productivatv_baja/playlist.m3u8?admin=nacion",
-      "http://190.128.214.97:64333/play/a04i/index.m3u8"
+      "http://190.128.214.97:64333/play/a04i/index.m3u8",
+      "https://copacoradios.desdeparaguay.net/productivatv/productivatv_baja/playlist.m3u8?admin=nacion"
     ]
   },
   {
@@ -534,8 +534,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8",
-      "http://190.128.214.97:64333/play/a05o/index.m3u8"
+      "http://190.128.214.97:64333/play/a05o/index.m3u8",
+      "https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8"
     ]
   },
   {
@@ -584,21 +584,21 @@
     ],
     "visible": true,
     "urls": [
-      "https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_alta/playlist.m3u8",
-      "http://158.172.217.18:8000/play/a0ns/index.m3u8"
+      "http://158.172.217.18:8000/play/a0ns/index.m3u8",
+      "https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_alta/playlist.m3u8"
     ]
   },
   {
     "id": "TVAire.py@SD",
-    "name": "TV Aire",
+    "name": "TV Aire (1080p)",
     "country": "PY",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://video.hostingcaaguazu.com:19360/tvairepy/tvairepy.m3u8",
-      "http://190.128.214.97:64333/play/a05y/index.m3u8"
+      "http://190.128.214.97:64333/play/a05y/index.m3u8",
+      "https://video.hostingcaaguazu.com:19360/tvairepy/tvairepy.m3u8"
     ]
   },
   {
@@ -615,7 +615,7 @@
   },
   {
     "id": "UnionTV.py@SD",
-    "name": "UnionTV",
+    "name": "UnionTV (1080p)",
     "country": "PY",
     "categories": [
       "general"
@@ -739,15 +739,15 @@
   },
   {
     "id": "TigoSportsPlus.py@SD",
-    "name": "Tigo Sports+ (1080p) [Not 24/7]",
+    "name": "Tigo Sports+ (1280p)",
     "country": "PY",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8",
-      "https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8"
+      "https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8",
+      "https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8"
     ]
   },
   {

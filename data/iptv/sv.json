@@ -101,15 +101,15 @@
   },
   {
     "id": "Canal12.sv@SD",
-    "name": "Canal 12 (480i)",
+    "name": "Canal 12 (576p)",
     "country": "SV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://d2b5h5wyivfnfl.cloudfront.net/live/53108ffe-0b7e-46ab-bc14-3a9c30010939/ts:abr.m3u8",
-      "http://186.33.26.18:8000/play/a0nw/index.m3u8"
+      "http://186.33.26.18:8000/play/a0nw/index.m3u8",
+      "https://d2b5h5wyivfnfl.cloudfront.net/live/53108ffe-0b7e-46ab-bc14-3a9c30010939/ts:abr.m3u8"
     ]
   },
   {
@@ -162,16 +162,16 @@
   },
   {
     "id": "ElimTV.sv@SD",
-    "name": "Elim TV (480p) [Not 24/7]",
+    "name": "Elim TV (720p)",
     "country": "SV",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8",
+      "https://stream.soporteccrtv.xyz/live/elimtv/main_stream.m3u8",
       "http://38.252.238.18:8000/play/a01k/index.m3u8",
-      "https://stream.soporteccrtv.xyz/live/elimtv/main_stream.m3u8"
+      "https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8"
     ]
   },
   {
@@ -225,15 +225,15 @@
   },
   {
     "id": "MegavisionCanal19.sv@SD",
-    "name": "Megavisión Canal 19 (720p)",
+    "name": "Megavision Canal 19 (720p)",
     "country": "SV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8",
-      "http://45.167.1.138:8000/play/a02b"
+      "http://45.167.1.138:8000/play/a02b",
+      "https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8"
     ]
   },
   {
@@ -385,15 +385,15 @@
   },
   {
     "id": "TVOCanal23.sv@SD",
-    "name": "TVO Canal 23",
+    "name": "TVO Canal 23 (720p)",
     "country": "SV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://45.167.2.101:8000/play/a0qo/index.m3u8",
-      "https://tvo.flynetwifi.com/5crjmr1645tqt71ovagufgc1x3d/playlist.m3u8"
+      "https://tvo.flynetwifi.com/5crjmr1645tqt71ovagufgc1x3d/playlist.m3u8",
+      "http://45.167.2.101:8000/play/a0qo/index.m3u8"
     ]
   },
   {

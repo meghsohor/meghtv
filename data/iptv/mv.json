@@ -1,15 +1,15 @@
 [
   {
     "id": "Channel13.mv@SD",
-    "name": "Channel 13 (720p) [Not 24/7]",
+    "name": "Channel 13",
     "country": "MV",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream.theyraonline.com/live/channel13@live/index.m3u8",
-      "https://sunplay-cdn.bitratelabs.com/live/local-channel-fhd/ch13-28754fda0a7f338e8fccfe7206ab9be8_1080p/index.m3u8"
+      "https://sunplay-cdn.bitratelabs.com/live/local-channel-fhd/ch13-28754fda0a7f338e8fccfe7206ab9be8_1080p/index.m3u8",
+      "https://stream.theyraonline.com/live/channel13@live/index.m3u8"
     ]
   },
   {
@@ -87,15 +87,15 @@
   },
   {
     "id": "VTV.mv@SD",
-    "name": "VTV (1080p) [Not 24/7]",
+    "name": "VTV",
     "country": "MV",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://vtvstream.vnews.mv/vtvlive/vmedia/playlist.m3u8",
-      "https://sunplay-cdn.bitratelabs.com/live/local-channel/vtv-7a0f24809c234ea78d972b1f336ac1b9/index.m3u8"
+      "https://sunplay-cdn.bitratelabs.com/live/local-channel/vtv-7a0f24809c234ea78d972b1f336ac1b9/index.m3u8",
+      "https://vtvstream.vnews.mv/vtvlive/vmedia/playlist.m3u8"
     ]
   },
   {

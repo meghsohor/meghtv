@@ -823,7 +823,7 @@
   },
   {
     "id": "EnterateRD.do@HD",
-    "name": "Enterate RD [Not 24/7]",
+    "name": "Enterate RD (1080p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -963,6 +963,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://vtm1.msinteractiva.com/globaltv/globaltv/playlist.m3u8",
       "https://vtm1.msinteractiva.com./globaltv/globaltv/playlist.m3u8",
       "https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8"
     ]
@@ -1149,7 +1150,7 @@
   },
   {
     "id": "LaReinaTV.do@HD",
-    "name": "La Reina TV [Geo-blocked]",
+    "name": "La Reina TV (360p) [Geo-blocked]",
     "country": "DO",
     "categories": [
       "general"
@@ -1259,7 +1260,7 @@
   },
   {
     "id": "LenaTV.do@SD",
-    "name": "Lena TV [Not 24/7]",
+    "name": "Lena TV (614p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -1344,7 +1345,7 @@
   },
   {
     "id": "ManaclarTelevision.do@SD",
-    "name": "Manaclar Television [Not 24/7]",
+    "name": "Manaclar Television (1080p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -1525,15 +1526,15 @@
   },
   {
     "id": "NexxoTV.do@SD",
-    "name": "Nexxo TV (720p) [Not 24/7]",
+    "name": "Nexxo TV (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8",
-      "https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8"
+      "https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8",
+      "https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8"
     ]
   },
   {
@@ -1562,7 +1563,7 @@
   },
   {
     "id": "NotisurTV.do@HD",
-    "name": "Notisur TV [Not 24/7]",
+    "name": "Notisur TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -1610,15 +1611,15 @@
   },
   {
     "id": "ORBITTV.do@SD",
-    "name": "ORBIT TV (1080p) [Not 24/7]",
+    "name": "ORBIT TV (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
-      "https://edge.essastream.com/orbittv/index.m3u8"
+      "https://edge.essastream.com/orbittv/index.m3u8",
+      "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8"
     ]
   },
   {
@@ -1719,7 +1720,7 @@
   },
   {
     "id": "PuntoTVDigital40.do@SD",
-    "name": "Punto TV Digital 40 [Geo-blocked]",
+    "name": "Punto TV Digital 40 (360p) [Geo-blocked]",
     "country": "DO",
     "categories": [
       "general"
@@ -2004,16 +2005,16 @@
   },
   {
     "id": "TeleAntillas.do@SD",
-    "name": "Tele Antillas (1080p) [Not 24/7]",
+    "name": "Tele Antillas (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://190.122.104.210:5080/LiveApp/streams/C6ngUWmvwMhliYPN3668193473821155.m3u8",
       "http://45.171.108.253:8888/TELEANTILLAS/index.m3u8",
-      "http://168.196.127.137:6001/play/a04o/index.m3u8"
+      "http://168.196.127.137:6001/play/a04o/index.m3u8",
+      "http://190.122.104.210:5080/LiveApp/streams/C6ngUWmvwMhliYPN3668193473821155.m3u8"
     ]
   },
   {
@@ -2054,7 +2055,7 @@
   },
   {
     "id": "TeleProyectoTV.do@HD",
-    "name": "Tele Proyecto TV [Not 24/7]",
+    "name": "Tele Proyecto TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -2114,15 +2115,15 @@
   },
   {
     "id": "Telecentro.do@SD",
-    "name": "Telecentro (1080p) [Not 24/7]",
+    "name": "Telecentro (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://live4.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8",
-      "https://live2.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8"
+      "https://live2.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8",
+      "https://live4.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8"
     ]
   },
   {
@@ -2683,7 +2684,7 @@
   },
   {
     "id": "Vision3000.do@SD",
-    "name": "Vision 3000 [Geo-blocked]",
+    "name": "Vision 3000 (720p) [Geo-blocked]",
     "country": "DO",
     "categories": [
       "general"
@@ -2707,15 +2708,15 @@
   },
   {
     "id": "VTVCanal32.do@SD",
-    "name": "VTV Canal 32 (1080p) [Geo-blocked]",
+    "name": "VTV Canal 32 (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://dbt-gcore-video-cdn.b-cdn.net/mpegts/986244_4049034/master_mpegts.m3u8",
-      "https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8"
+      "https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8",
+      "https://dbt-gcore-video-cdn.b-cdn.net/mpegts/986244_4049034/master_mpegts.m3u8"
     ]
   },
   {
@@ -2780,7 +2781,7 @@
   },
   {
     "id": "ZonavisionTV.do@SD",
-    "name": "Zonavision TV [Not 24/7]",
+    "name": "Zonavision TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"

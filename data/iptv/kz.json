@@ -9,8 +9,8 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/388/index.m3u8",
-      "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8",
-      "https://fs.uplink.kz/31kanal/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/31kanal/mono.m3u8?token=onlinetv",
+      "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8"
     ]
   },
   {
@@ -284,15 +284,15 @@
   },
   {
     "id": "Qazaqstan.kz@HD",
-    "name": "Qazaqstan HD (1080p) [Not 24/7]",
+    "name": "Qazaqstan HD (1080p)",
     "country": "KZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8",
-      "http://stream.mcquack.net/71/index.m3u8"
+      "http://stream.mcquack.net/71/index.m3u8",
+      "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8"
     ]
   },
   {
@@ -428,16 +428,17 @@
   },
   {
     "id": "Novoetelevidenie.kz@SD",
-    "name": "Новое телевидение (576p) [Not 24/7]",
+    "name": "Novoe televidenie (576p)",
     "country": "KZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
-      "https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8",
       "https://fs.uplink.kz/novoe_tv/mono.m3u8?token=onlinetv",
+      "http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?authid=0&key=txiptv&playlive=0",
+      "https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8",
+      "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
       "http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0"
     ]
   },
@@ -513,14 +514,16 @@
   },
   {
     "id": "Qazaqstan.kz@SD",
-    "name": "Qazaqstan (576p)",
+    "name": "Qazaqstan (1080p)",
     "country": "KZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8",
       "https://fs.uplink.kz/qazaqstan/mono.m3u8?token=onlinetv",
+      "http://120.70.60.179:9901/tsfile/live/1011_1.m3u8?authid=0&key=txiptv&playlive=0",
       "http://120.70.60.179:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=0&authid=0"
     ]
   },

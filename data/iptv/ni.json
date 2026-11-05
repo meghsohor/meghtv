@@ -25,15 +25,15 @@
   },
   {
     "id": "Canal10.ni@SD",
-    "name": "Canal 10 (360p) [Geo-blocked]",
+    "name": "Canal 10 (480p)",
     "country": "NI",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://www.canal10.com.ni/envivo",
-      "https://ddycmnicl95kp.cloudfront.net/live/ja5k3h31wv9r/master.m3u8"
+      "https://ddycmnicl95kp.cloudfront.net/live/ja5k3h31wv9r/master.m3u8",
+      "https://www.canal10.com.ni/envivo"
     ]
   },
   {

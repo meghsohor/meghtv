@@ -117,8 +117,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8",
-      "https://hlspackager.akamaized.net/live/DB/i24_ARABIC/HLS/i24_ARABIC.m3u8"
+      "https://hlspackager.akamaized.net/live/DB/i24_ARABIC/HLS/i24_ARABIC.m3u8",
+      "https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8"
     ]
   },
   {
@@ -130,8 +130,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8",
-      "https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8"
+      "https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8",
+      "https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8"
     ]
   },
   {

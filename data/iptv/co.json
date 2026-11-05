@@ -110,20 +110,20 @@
   },
   {
     "id": "Canal1.co@SD",
-    "name": "Canal 1 (1080p) [Geo-blocked]",
+    "name": "Canal 1 (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8",
-      "http://138.121.15.230:9002/CANAL-UNO/index.m3u8",
-      "http://38.134.250.110:8000/play/a014/index.m3u8",
-      "http://190.61.47.54:8000/play/a00u/index.m3u8",
       "http://190.109.2.92:8000/play/a010/index.m3u8",
       "http://200.122.223.13:55000/play/canal-1-tdt/index.m3u8",
-      "https://barinaslive1.boldmss.com/CANAL1/CANAL1.isml/CANAL1.m3u8"
+      "http://38.134.250.110:8000/play/a014/index.m3u8",
+      "http://190.61.47.54:8000/play/a00u/index.m3u8",
+      "https://barinaslive1.boldmss.com/CANAL1/CANAL1.isml/CANAL1.m3u8",
+      "http://138.121.15.230:9002/CANAL-UNO/index.m3u8",
+      "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
     ]
   },
   {
@@ -189,17 +189,17 @@
   },
   {
     "id": "CanalCapital.co@SD",
-    "name": "Canal Capital (1080p) [Geo-blocked]",
+    "name": "Canal Capital (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mdstrm.com/live-stream-playlist/6952dc88cb62083467eb6ab4.m3u8",
       "http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8",
+      "http://200.122.223.13:55000/play/canal-capital-banda-ku/index.m3u8",
       "http://190.61.47.54:8000/play/a00x/index.m3u8",
-      "http://200.122.223.13:55000/play/canal-capital-banda-ku/index.m3u8"
+      "https://mdstrm.com/live-stream-playlist/6952dc88cb62083467eb6ab4.m3u8"
     ]
   },
   {
@@ -254,18 +254,18 @@
   },
   {
     "id": "CanalInstitucional.co@SD",
-    "name": "Canal Institucional (720p)",
+    "name": "Canal Institucional (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8",
-      "http://138.121.15.230:9002/CANAL-INSTITUCIONAL/index.m3u8",
       "http://190.61.47.54:8000/play/a00v/index.m3u8",
       "http://190.109.2.92:8000/play/a00z/index.m3u8",
-      "http://200.122.223.13:55000/play/canal-institucional-tdt/index.m3u8"
+      "http://200.122.223.13:55000/play/canal-institucional-tdt/index.m3u8",
+      "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8",
+      "http://138.121.15.230:9002/CANAL-INSTITUCIONAL/index.m3u8"
     ]
   },
   {
@@ -340,16 +340,16 @@
     ],
     "visible": true,
     "urls": [
+      "http://38.134.250.110:8000/play/a00i/index.m3u8",
+      "http://45.173.231.22:8000/play/a00a/index.m3u8",
       "http://138.121.15.230:9002/RCN/index.m3u8",
       "http://181.78.17.228:8081/RCN-HD/index.m3u8",
-      "http://190.61.47.54:8000/play/a01f/index.m3u8",
-      "http://181.205.130.194:4000/play/a0dl",
-      "http://38.134.250.110:8000/play/a00i/index.m3u8",
-      "http://190.60.46.228:8888/play/a04d/index.m3u8",
-      "http://45.173.231.22:8000/play/a00a/index.m3u8",
-      "http://200.59.191.177:8000/play/a004/index.m3u8",
       "http://181.78.79.131:8000/play/a0sc",
+      "http://181.205.130.194:4000/play/a0dl",
+      "http://190.60.46.228:8888/play/a04d/index.m3u8",
+      "http://190.61.47.54:8000/play/a01f/index.m3u8",
       "http://190.109.2.92:8000/play/a00w/index.m3u8",
+      "http://200.59.191.177:8000/play/a004/index.m3u8",
       "http://200.122.223.13:55000/play/rcn-hd-tdt/index.m3u8",
       "https://barinaslive1.boldmss.com/RCN/RCN.isml/RCN.m3u8",
       "http://209.14.115.253:8081/RCN/index.m3u8",
@@ -377,11 +377,11 @@
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8",
-      "http://190.61.47.54:8000/play/a013/index.m3u8",
-      "http://181.78.211.244:8005/play/a08c/index.m3u8",
+      "http://138.94.3.106:8000/play/a07i/index.m3u8",
       "http://181.78.82.130:8000/play/a0o1/index.m3u8",
-      "http://138.94.3.106:8000/play/a07i/index.m3u8"
+      "http://181.78.211.244:8005/play/a08c/index.m3u8",
+      "http://190.61.47.54:8000/play/a013/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8"
     ]
   },
   {
@@ -454,47 +454,47 @@
     ],
     "visible": true,
     "urls": [
-      "http://138.121.15.230:9002/CARACOL/index.m3u8",
-      "http://181.78.17.228:8081/CARACOL-HD/index.m3u8",
-      "http://181.79.86.130:8000/play/a077/index.m3u8",
-      "http://181.79.86.130:8000/play/a04w/index.m3u8",
-      "http://190.61.47.54:8000/play/a01e/index.m3u8",
-      "http://181.205.130.194:4000/play/a0dz",
-      "http://190.60.46.228:8888/play/a04c/index.m3u8",
-      "http://168.228.44.241:9997/play/a03t/index.m3u8",
-      "http://181.205.130.194:4000/play/a0ck",
-      "http://200.115.96.61:9090/play/a0jk/index.m3u8",
-      "http://45.173.231.22:8000/play/a009/index.m3u8",
-      "http://200.59.191.177:8000/play/a001/index.m3u8",
-      "http://190.110.96.238:8000/play/a0mu/index.m3u8",
-      "http://138.94.3.106:8000/play/a06z",
-      "http://190.109.2.92:8000/play/a00q/index.m3u8",
-      "http://167.249.23.102:8000/play/a0i1/index.m3u8",
-      "http://201.216.147.90:8729/play/a01v",
-      "http://181.78.79.131:8000/play/a0sb",
       "http://38.190.100.202:8000/play/a09v/index.m3u8",
-      "http://190.61.42.218:9000/play/a09n/index.m3u8",
-      "http://200.122.223.13:55000/play/caracol-tv-hd-tdt/index.m3u8",
-      "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8",
       "http://45.173.12.70:8000/play/a0f9",
-      "http://200.122.223.13:55000/play/canal-caracol-banda-ku/index.m3u8",
-      "http://181.78.21.38:8000/play/a0b5/index.m3u8",
-      "http://181.78.21.38:8000/play/a0cv/index.m3u8",
-      "http://200.115.120.1:8000/play/ca070/index.m3u8",
-      "http://181.78.8.199:8000/play/a0jz/index.m3u8",
-      "http://181.78.64.206:10000/play/a0w4/index.m3u8",
-      "http://190.121.140.222:8081/CARACOL/index.m3u8",
-      "http://179.60.224.196:8000/play/a0hw/index.m3u8",
-      "http://181.79.87.131:8000/play/a0f0/index.m3u8",
-      "http://200.122.232.149:8000/play/a020/index.m3u8",
-      "http://181.78.12.119:16123/play/ch58/index.m3u8",
-      "http://181.78.8.199:8000/play/a0b0/index.m3u8",
+      "http://45.173.231.22:8000/play/a009/index.m3u8",
+      "http://45.188.229.33:8000/play/a0vh/index.m3u8",
       "http://45.188.229.33:8000/play/a1iq/index.m3u8",
       "http://45.226.205.96:48000/play/a0ad/index.m3u8",
-      "http://45.188.229.33:8000/play/a0vh/index.m3u8",
-      "http://181.78.12.119:16123/play/ch58b/index.m3u8",
+      "http://138.94.3.106:8000/play/a06z",
+      "http://138.121.15.230:9002/CARACOL/index.m3u8",
+      "http://167.249.23.102:8000/play/a0i1/index.m3u8",
+      "http://168.228.44.241:9997/play/a03t/index.m3u8",
+      "http://179.60.224.196:8000/play/a0hw/index.m3u8",
+      "http://181.78.8.199:8000/play/a0b0/index.m3u8",
+      "http://181.78.8.199:8000/play/a0jz/index.m3u8",
+      "http://181.78.12.119:16123/play/ch58/index.m3u8",
       "http://181.78.12.119:16123/play/ch58a/index.m3u8",
-      "http://181.225.190.242:8000/play/a00q"
+      "http://181.78.12.119:16123/play/ch58b/index.m3u8",
+      "http://181.78.17.228:8081/CARACOL-HD/index.m3u8",
+      "http://181.78.21.38:8000/play/a0b5/index.m3u8",
+      "http://181.78.21.38:8000/play/a0cv/index.m3u8",
+      "http://181.78.64.206:10000/play/a0w4/index.m3u8",
+      "http://181.78.79.131:8000/play/a0sb",
+      "http://181.79.87.131:8000/play/a0f0/index.m3u8",
+      "http://181.205.130.194:4000/play/a0ck",
+      "http://181.205.130.194:4000/play/a0dz",
+      "http://181.225.190.242:8000/play/a00q",
+      "http://190.60.46.228:8888/play/a04c/index.m3u8",
+      "http://190.61.42.218:9000/play/a09n/index.m3u8",
+      "http://190.61.47.54:8000/play/a01e/index.m3u8",
+      "http://190.109.2.92:8000/play/a00q/index.m3u8",
+      "http://190.110.96.238:8000/play/a0mu/index.m3u8",
+      "http://190.121.140.222:8081/CARACOL/index.m3u8",
+      "http://200.59.191.177:8000/play/a001/index.m3u8",
+      "http://200.115.96.61:9090/play/a0jk/index.m3u8",
+      "http://200.115.120.1:8000/play/ca070/index.m3u8",
+      "http://200.122.223.13:55000/play/canal-caracol-banda-ku/index.m3u8",
+      "http://200.122.223.13:55000/play/caracol-tv-hd-tdt/index.m3u8",
+      "http://200.122.232.149:8000/play/a020/index.m3u8",
+      "http://201.216.147.90:8729/play/a01v",
+      "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8",
+      "http://181.79.86.130:8000/play/a04w/index.m3u8",
+      "http://181.79.86.130:8000/play/a077/index.m3u8"
     ]
   },
   {
@@ -609,8 +609,8 @@
     "visible": true,
     "urls": [
       "https://5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8",
-      "http://186.148.196.82:8001/play/a0c3",
-      "http://200.122.223.13:55000/play/cristovision-ses-6/index.m3u8"
+      "http://200.122.223.13:55000/play/cristovision-ses-6/index.m3u8",
+      "http://186.148.196.82:8001/play/a0c3"
     ]
   },
   {
@@ -723,15 +723,15 @@
   },
   {
     "id": "LaKalle.co@SD",
-    "name": "La Kalle (720p)",
+    "name": "La Kalle (1080p)",
     "country": "CO",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8",
-      "http://200.122.223.13:55000/play/la-kalle-tdt/index.m3u8"
+      "http://200.122.223.13:55000/play/la-kalle-tdt/index.m3u8",
+      "https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8"
     ]
   },
   {
@@ -860,32 +860,32 @@
   },
   {
     "id": "NTN24.co@SD",
-    "name": "NTN24 (576p)",
+    "name": "NTN24 (1080p)",
     "country": "CO",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "http://181.78.8.199:8000/play/a0a6/index.m3u8",
+      "https://stream1.bitred.cl/ntn24/index.m3u8",
       "http://181.78.12.119:16123/play/ch80/index.m3u8",
       "http://181.224.200.5:2277/play/a026/index.m3u8",
-      "https://stream1.bitred.cl/ntn24/index.m3u8"
+      "http://181.78.8.199:8000/play/a0a6/index.m3u8"
     ]
   },
   {
     "id": "NuestraTeleInternacional.co@SD",
-    "name": "Nuestra Tele Internacional (720p)",
+    "name": "Nuestra Tele Internacional (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://170.238.200.199/nuestra-tele/index.m3u8",
-      "http://181.78.8.199:8000/play/a0a8/index.m3u8",
       "http://45.173.231.22:8000/play/a0cr/index.m3u8",
       "https://stream1.bitred.cl/nuestra-tele/index.m3u8",
+      "http://170.238.200.199/nuestra-tele/index.m3u8",
+      "http://181.78.8.199:8000/play/a0a8/index.m3u8",
       "http://190.60.55.141:9083/play/a0hg/index.m3u8"
     ]
   },
@@ -960,12 +960,12 @@
     "visible": true,
     "urls": [
       "https://cdnlive.klicgo.net/rcnnovelas/live/playlist.m3u8",
-      "http://170.238.200.199/rcn-novelas/index.m3u8",
-      "http://181.78.8.199:8000/play/a0a7/index.m3u8",
-      "http://181.65.191.173:8069/play/a061",
       "https://stream1.bitred.cl/rcn-novelas/index.m3u8",
       "https://streaming.onnethn.com/RCN_NOVELAS/playlist.m3u8",
-      "http://45.171.64.30:8800/play/a01z"
+      "http://170.238.200.199/rcn-novelas/index.m3u8",
+      "http://181.78.8.199:8000/play/a0a7/index.m3u8",
+      "http://45.171.64.30:8800/play/a01z",
+      "http://181.65.191.173:8069/play/a061"
     ]
   },
   {
@@ -1003,10 +1003,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://186.148.196.100:8000/play/a02h",
-      "http://190.61.47.54:8000/play/a01l/index.m3u8",
+      "http://38.134.250.110:8000/play/a01p/index.m3u8",
       "http://138.94.3.106:8000/play/a04r/index.m3u8",
-      "http://38.134.250.110:8000/play/a01p/index.m3u8"
+      "http://186.148.196.100:8000/play/a02h",
+      "http://190.61.47.54:8000/play/a01l/index.m3u8"
     ]
   },
   {
@@ -1042,11 +1042,11 @@
     ],
     "visible": true,
     "urls": [
-      "http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8",
-      "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8",
       "http://138.121.15.230:9002/SENAL-COLOMBIA/index.m3u8",
+      "http://200.122.223.13:55000/play/senal-colombia-tdt/index.m3u8",
+      "http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8",
       "http://190.61.47.54:8000/play/a00w/index.m3u8",
-      "http://200.122.223.13:55000/play/senal-colombia-tdt/index.m3u8"
+      "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
     ]
   },
   {
@@ -1087,15 +1087,15 @@
   },
   {
     "id": "TeleAmiga.co@SD",
-    "name": "Tele Amiga (480p) [Not 24/7]",
+    "name": "Tele Amiga (720p)",
     "country": "CO",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/teleamigatvlive/smil:dvrlive.smil/playlist.m3u8",
-      "http://200.122.223.13:55000/play/tele-amiga-ses-6/index.m3u8"
+      "http://200.122.223.13:55000/play/tele-amiga-ses-6/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/teleamigatvlive/smil:dvrlive.smil/playlist.m3u8"
     ]
   },
   {
@@ -1119,8 +1119,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/televidtvlive/smil:rtmp01.smil/playlist.m3u8",
-      "http://200.122.223.13:55000/play/a01n/index.m3u8"
+      "http://200.122.223.13:55000/play/a01n/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/televidtvlive/smil:rtmp01.smil/playlist.m3u8"
     ]
   },
   {
@@ -1132,28 +1132,28 @@
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta318.cdnmedia.tv/telecafelive/smil:rtmp01.smil/playlist.m3u8",
       "http://138.121.15.230:9002/TELECAFE/index.m3u8",
-      "http://181.78.211.244:8005/play/a083/index.m3u8",
+      "http://181.78.16.156:18000/play/a0dt",
       "http://181.78.82.130:8000/play/a0rv/index.m3u8",
+      "http://181.78.211.244:8005/play/a083/index.m3u8",
       "http://190.60.46.228:8888/play/a02z/index.m3u8",
-      "http://181.78.16.156:18000/play/a0dt"
+      "https://liveingesta318.cdnmedia.tv/telecafelive/smil:rtmp01.smil/playlist.m3u8"
     ]
   },
   {
     "id": "Telecaribe.co@SD",
-    "name": "Telecaribe (720p)",
+    "name": "Telecaribe (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8",
       "http://138.121.15.230:9002/TELECARIBE/index.m3u8",
-      "http://38.134.250.110:8000/play/a013/index.m3u8",
+      "http://181.78.82.130:8000/play/a0rt/index.m3u8",
       "http://190.61.47.54:8000/play/a010/index.m3u8",
-      "http://181.78.82.130:8000/play/a0rt/index.m3u8"
+      "http://38.134.250.110:8000/play/a013/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8"
     ]
   },
   {
@@ -1170,43 +1170,43 @@
   },
   {
     "id": "Teleislas.co@SD",
-    "name": "Teleislas (486p) [Not 24/7]",
+    "name": "Teleislas (720p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8",
       "http://190.61.47.54:8000/play/a015/index.m3u8",
-      "http://181.78.211.244:8005/play/a08d/index.m3u8"
+      "http://181.78.211.244:8005/play/a08d/index.m3u8",
+      "https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8"
     ]
   },
   {
     "id": "Telemedellin.co@SD",
-    "name": "Telemedellin (720p)",
+    "name": "Telemedellin (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8",
-      "http://181.78.82.130:8000/play/a0ru/index.m3u8"
+      "http://181.78.82.130:8000/play/a0ru/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8"
     ]
   },
   {
     "id": "Telepacifico.co@SD",
-    "name": "Telepacífico (1080p) [Geo-blocked]",
+    "name": "Telepacifico (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8",
       "http://138.121.15.230:9002/TELEPACIFICO/index.m3u8",
-      "http://190.61.47.54:8000/play/a011/index.m3u8"
+      "http://190.61.47.54:8000/play/a011/index.m3u8",
+      "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8"
     ]
   },
   {
@@ -1247,15 +1247,15 @@
   },
   {
     "id": "Trece.co@SD",
-    "name": "Trece (720p)",
+    "name": "Trece (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/trecetvlive/smil:rtmp01.smil/playlist.m3u8",
-      "http://190.60.46.228:8888/play/a030/index.m3u8"
+      "http://190.60.46.228:8888/play/a030/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/trecetvlive/smil:rtmp01.smil/playlist.m3u8"
     ]
   },
   {
@@ -1365,10 +1365,10 @@
     "visible": true,
     "urls": [
       "http://138.121.15.230:9002/WIN-SPORT/index.m3u8",
-      "http://15.204.146.163:8002/play/a00h/index.m3u8",
       "http://181.78.12.119:16123/play/ch18/index.m3u8",
-      "http://168.228.44.241:9999/play/a050/index.m3u8",
-      "http://190.217.66.92:8000/play/a0fh/index.m3u8"
+      "http://190.217.66.92:8000/play/a0fh/index.m3u8",
+      "http://15.204.146.163:8002/play/a00h/index.m3u8",
+      "http://168.228.44.241:9999/play/a050/index.m3u8"
     ]
   },
   {
@@ -1381,26 +1381,27 @@
     ],
     "visible": true,
     "urls": [
+      "https://sistemastr.tropicalmoonmedia.com/live/9E495C5FDA503D7F71037F2D2C5D3FA3/16.m3u8",
       "https://sistemastr.tropicalmoonmedia.com:443/live/9E495C5FDA503D7F71037F2D2C5D3FA3/16.m3u8"
     ]
   },
   {
     "id": "Teleantioquia.co@SD",
-    "name": "Teleantioquia (720p)",
+    "name": "Teleantioquia (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8",
       "http://138.121.15.230:9002/TELEANTIOQUIA/index.m3u8",
-      "http://38.134.250.110:8000/play/a012/index.m3u8",
-      "http://190.61.47.54:8000/play/a00z/index.m3u8",
-      "http://181.78.211.244:8005/play/a07y/index.m3u8",
       "http://181.78.82.130:8000/play/a0rs/index.m3u8",
+      "http://181.78.211.244:8005/play/a07y/index.m3u8",
       "http://190.60.46.228:8888/play/a02r/index.m3u8",
-      "http://200.115.120.1:8000/play/ca246/index.m3u8"
+      "http://190.61.47.54:8000/play/a00z/index.m3u8",
+      "http://200.115.120.1:8000/play/ca246/index.m3u8",
+      "http://38.134.250.110:8000/play/a012/index.m3u8",
+      "https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8"
     ]
   },
   {
@@ -1432,23 +1433,23 @@
   },
   {
     "id": "CaracolInternacional.co@SD",
-    "name": "Caracol Internacional (576p)",
+    "name": "Caracol Internacional (1080p)",
     "country": "CO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://138.59.177.78:9999/play/a0a8/index.m3u8",
+      "http://45.5.117.57:8200/play/a0e9/index.m3u8",
+      "http://45.238.141.222:8000/play/a0oo/index.m3u8",
+      "http://132.255.210.69:8000/play/a049/index.m3u8",
       "http://167.249.23.102:8000/play/a0ax/index.m3u8",
       "http://168.196.127.137:6001/play/a09m/index.m3u8",
       "http://168.228.44.241:9999/play/a03z/index.m3u8",
-      "http://200.115.120.1:8000/play/ca067/index.m3u8",
       "http://190.123.76.22:8002/play/a06j/index.m3u8",
-      "http://132.255.210.69:8000/play/a049/index.m3u8",
       "https://streaming.onnethn.com/CARACOL_INTERNACIONAL/playlist.m3u8",
-      "http://45.238.141.222:8000/play/a0oo/index.m3u8",
-      "http://45.5.117.57:8200/play/a0e9/index.m3u8"
+      "http://200.115.120.1:8000/play/ca067/index.m3u8",
+      "http://138.59.177.78:9999/play/a0a8/index.m3u8"
     ]
   },
   {
@@ -1472,10 +1473,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.226.205.96:48000/play/a0af/index.m3u8",
-      "https://rcntv-rcnmas-1-us.roku.wurl.tv/3000.m3u8",
-      "http://190.128.214.97:64333/play/a04v/index.m3u8",
       "http://45.224.96.220:18000/play/a098/index.m3u8",
+      "http://45.226.205.96:48000/play/a0af/index.m3u8",
+      "http://190.128.214.97:64333/play/a04v/index.m3u8",
+      "https://rcntv-rcnmas-1-us.roku.wurl.tv/3000.m3u8",
       "https://jmp2.uk/plu-69de4ad924a6d521f8b0a348.m3u8",
       "https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8",
       "https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8"
@@ -1496,15 +1497,15 @@
   },
   {
     "id": "TVAgro.co@SD",
-    "name": "TVAgro (720p)",
+    "name": "TVAgro (1080p)",
     "country": "CO",
     "categories": [
       "outdoor"
     ],
     "visible": true,
     "urls": [
-      "http://168.228.44.241:9999/play/a04n/index.m3u8",
-      "http://190.61.47.54:8000/play/a01k/index.m3u8"
+      "http://190.61.47.54:8000/play/a01k/index.m3u8",
+      "http://168.228.44.241:9999/play/a04n/index.m3u8"
     ]
   },
   {

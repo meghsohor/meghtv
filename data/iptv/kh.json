@@ -32,8 +32,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8",
-      "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8"
+      "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8",
+      "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8"
     ]
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "id": "FreshNews.kh@SD",
-    "name": "Fresh News",
+    "name": "Fresh News (720p)",
     "country": "KH",
     "categories": [
       "news"

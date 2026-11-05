@@ -214,15 +214,15 @@
   },
   {
     "id": "ATR.ua@SD",
-    "name": "ATR (720p)",
+    "name": "ATR (1080p)",
     "country": "UA",
     "categories": [
       "culture"
     ],
     "visible": true,
     "urls": [
-      "https://atr-live.cdn-01.cosmonova.net.ua/hls/atr_ua_hi/index.m3u8",
-      "http://stream.mcquack.net/244/index.m3u8"
+      "http://stream.mcquack.net/244/index.m3u8",
+      "https://atr-live.cdn-01.cosmonova.net.ua/hls/atr_ua_hi/index.m3u8"
     ]
   },
   {
@@ -345,15 +345,15 @@
   },
   {
     "id": "DIM.ua@SD",
-    "name": "DIM",
+    "name": "DIM (576p)",
     "country": "UA",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://dash2.antik.sk/live/telekanal_dim/playlist.m3u8",
-      "http://stream.mcquack.net/383/index.m3u8"
+      "http://stream.mcquack.net/383/index.m3u8",
+      "https://dash2.antik.sk/live/telekanal_dim/playlist.m3u8"
     ]
   },
   {
@@ -626,15 +626,15 @@
   },
   {
     "id": "K2.ua@SD",
-    "name": "K2 (720p)",
+    "name": "K2 (1080p)",
     "country": "UA",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://cdn15.live-tv.cloud/ua_infinitas_tv/k2-abr/playlist.m3u8",
-      "http://stream.mcquack.net/324/index.m3u8"
+      "http://stream.mcquack.net/324/index.m3u8",
+      "https://cdn15.live-tv.cloud/ua_infinitas_tv/k2-abr/playlist.m3u8"
     ]
   },
   {
@@ -738,9 +738,9 @@
     ],
     "visible": true,
     "urls": [
+      "http://dtv.vol.net.ua/M1-HD/index.m3u8",
       "http://stream.mcquack.net/218/index.m3u8",
-      "http://158.101.222.193:88/georgia_play.php?id=m1",
-      "http://dtv.vol.net.ua/M1-HD/index.m3u8"
+      "http://158.101.222.193:88/georgia_play.php?id=m1"
     ]
   },
   {
@@ -794,14 +794,14 @@
   },
   {
     "id": "Mega.ua@SD",
-    "name": "Mega (720p)",
+    "name": "Mega (1080p)",
     "country": "UA",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8",
+      "http://dtv.vol.net.ua/MEGA_HD/index.m3u8",
       "http://stream.mcquack.net/325/index.m3u8",
-      "http://dtv.vol.net.ua/MEGA_HD/index.m3u8"
+      "https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8"
     ]
   },
   {
@@ -878,13 +878,14 @@
   },
   {
     "id": "NationalGeographicWild.ua@SD",
-    "name": "National Geographic Wild (720p)",
+    "name": "National Geographic Wild (1080p)",
     "country": "UA",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
+      "http://dtv.vol.net.ua/Nat-Geo-Wild_HD/index.m3u8",
       "http://46.32.176.50/natgeowild/index.m3u8",
       "http://dtv.vol.net.ua:80/Nat-Geo-Wild_HD/index.m3u8"
     ]
@@ -915,15 +916,15 @@
   },
   {
     "id": "NTN.ua@SD",
-    "name": "NTN (1080i)",
+    "name": "NTN (1080p)",
     "country": "UA",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8",
       "http://stream.mcquack.net/326/index.m3u8",
+      "https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/NTN/index.m3u8"
     ]
   },
@@ -936,8 +937,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/448/index.m3u8",
-      "http://dtv.vol.net.ua/OnePlanet/index.m3u8"
+      "http://dtv.vol.net.ua/OnePlanet/index.m3u8",
+      "http://stream.mcquack.net/448/index.m3u8"
     ]
   },
   {
@@ -954,7 +955,7 @@
   },
   {
     "id": "OTV.ua@SD",
-    "name": "OTV",
+    "name": "OTV (576p)",
     "country": "UA",
     "categories": [],
     "visible": true,
@@ -1012,15 +1013,15 @@
   },
   {
     "id": "PixelTV.ua@SD",
-    "name": "Pixel TV (720p)",
+    "name": "Pixel TV (1080p)",
     "country": "UA",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8",
-      "http://stream.mcquack.net/323/index.m3u8"
+      "http://stream.mcquack.net/323/index.m3u8",
+      "https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8"
     ]
   },
   {
@@ -1509,15 +1510,15 @@
   },
   {
     "id": "HopeChannelUkraine.ua@SD",
-    "name": "Надия/Новый канал (576p) [Not 24/7]",
+    "name": "Hope Channel Ukraine",
     "country": "UA",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "http://nadiya.home-net.com.ua/mob/mystream.m3u8",
-      "https://ext.cdn.nashnet.tv/228.0.0.172/index.m3u8"
+      "https://ext.cdn.nashnet.tv/228.0.0.172/index.m3u8",
+      "http://nadiya.home-net.com.ua/mob/mystream.m3u8"
     ]
   },
   {
@@ -1558,15 +1559,15 @@
   },
   {
     "id": "PervyygorodskoyOdessa.ua@SD",
-    "name": "Первый городской (Одесса) (1080p) [Not 24/7]",
+    "name": "Первый Городской (Одесса) (576p)",
     "country": "UA",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://91.194.79.46:8081/stream1/channel1/playlist.m3u8",
-      "http://91.194.79.46:8081/stream2/channel2/playlist.m3u8"
+      "http://91.194.79.46:8081/stream2/channel2/playlist.m3u8",
+      "http://91.194.79.46:8081/stream1/channel1/playlist.m3u8"
     ]
   },
   {
@@ -1581,7 +1582,7 @@
   },
   {
     "id": "SferaTV.ua@SD",
-    "name": "Сфера ТВ",
+    "name": "Сфера ТВ (720p)",
     "country": "UA",
     "categories": [
       "general"
@@ -1734,15 +1735,15 @@
   },
   {
     "id": "NikiJunior.ua@SD",
-    "name": "Niki Junior",
+    "name": "Niki Junior (1080p)",
     "country": "UA",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://158.101.222.193:88/georgia_play.php?id=nikijunior",
-      "http://stream.mcquack.net/262/index.m3u8"
+      "http://stream.mcquack.net/262/index.m3u8",
+      "http://158.101.222.193:88/georgia_play.php?id=nikijunior"
     ]
   },
   {
@@ -1766,33 +1767,36 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/stream.m3u8?channel=431&m=aHR0cHM6Ly9obHMtY2RuMS5keXZ5YXBwLmNvbS9sdXgtdHYvdmlkZW8ubTN1OD90b2tlbj1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKamFHRnVibVZzWDJsa0lqbzBNekVzSW1Ob1lXNXVaV3hmYm1GdFpTSTZJa3hWV0NCVVZpSXNJbWx3SWpvaU1UYzRMakV6Tmk0ME1pNHlNakFpTENKamIzVnVkSEo1SWpvaVZXdHlZV2x1WlNJc0luVnpaWEpmYVdRaU9tNTFiR3dzSW5WelpYSmZjR2h2Ym1VaU9tNTFiR3dzSW5WelpYSmZjbTlzWlhNaU9sdGRMQ0p3Y205bWFXeGxYMmxrSWpwdWRXeHNMQ0p6WlhOemFXOXVYMmxrSWpvaU56ZGpabVUzTkdJdE1USmtaQzAwTTJSbExXSmtNVGt0WVRKaFptUmtabUUwT0RWaElpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRGd3ZOVE0zTGpNMklDaExTRlJOVEN3Z2JHbHJaU0JIWldOcmJ5a2dRMmh5YjIxbFhDOHhOVEl1TUM0d0xqQWdVMkZtWVhKcFhDODFNemN1TXpZaUxDSmxlSEFpT2pFM09EZ3hOekk0TnpOOS5GV2NmZDBhOV93dEVONmozWS1GaFNFYzFjbV9uamh1VVZmWjhiZzVLcG84",
       "http://777905.live.tvstitch.com/stream.m3u8?m=aHR0cHM6Ly9obHMtY2RuMS5keXZ5YXBwLmNvbS9sdXgtdHYvdmlkZW8ubTN1OD90b2tlbj1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKamFHRnVibVZzWDJsa0lqbzBNekVzSW1Ob1lXNXVaV3hmYm1GdFpTSTZJa3hWV0NCVVZpSXNJbWx3SWpvaU1UYzRMakV6Tmk0ME1pNHlNakFpTENKamIzVnVkSEo1SWpvaVZXdHlZV2x1WlNJc0luVnpaWEpmYVdRaU9tNTFiR3dzSW5WelpYSmZjR2h2Ym1VaU9tNTFiR3dzSW5WelpYSmZjbTlzWlhNaU9sdGRMQ0p3Y205bWFXeGxYMmxrSWpwdWRXeHNMQ0p6WlhOemFXOXVYMmxrSWpvaU56ZGpabVUzTkdJdE1USmtaQzAwTTJSbExXSmtNVGt0WVRKaFptUmtabUUwT0RWaElpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRGd3ZOVE0zTGpNMklDaExTRlJOVEN3Z2JHbHJaU0JIWldOcmJ5a2dRMmh5YjIxbFhDOHhOVEl1TUM0d0xqQWdVMkZtWVhKcFhDODFNemN1TXpZaUxDSmxlSEFpT2pFM09EZ3hOekk0TnpOOS5GV2NmZDBhOV93dEVONmozWS1GaFNFYzFjbV9uamh1VVZmWjhiZzVLcG84&channel=431"
     ]
   },
   {
     "id": "ViasatKino.ua@SD",
-    "name": "Viasat Kino",
+    "name": "Viasat Kino (576p)",
     "country": "UA",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104",
-      "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8"
+      "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8",
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=104&source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg/bGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR",
+      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104"
     ]
   },
   {
     "id": "ViasatKinoAction.ua@SD",
-    "name": "Viasat Kino Action",
+    "name": "Viasat Kino Action (576p)",
     "country": "UA",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105",
-      "http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8"
+      "http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8",
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=105&source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg/bGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn",
+      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105"
     ]
   },
   {
@@ -1805,6 +1809,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=249&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249"
     ]
   },
@@ -1817,6 +1822,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=102&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102"
     ]
   },
@@ -1830,6 +1836,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=599&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599"
     ]
   },
@@ -1960,6 +1967,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=180&source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g2NS90cmFja3MtdjJhMS9tb25vLm0zdTg/bGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDcxMDcwMCZzdD1MXzZYc2M4elNra3RCaWYyVzU1dWF3",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g2NS90cmFja3MtdjJhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDcxMDcwMCZzdD1MXzZYc2M4elNra3RCaWYyVzU1dWF3&master=180",
       "http://str2.iptvhd.ru:8080/UA_kvartal/index.m3u8"
     ]
@@ -1973,6 +1981,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=567&source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2gzMy90cmFja3MtdjJhMS9tb25vLm0zdTg/bGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1MjM2MiZzdD12bmp2elZKY2JtUndKMkFzY1l0UWpR",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2gzMy90cmFja3MtdjJhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1MjM2MiZzdD12bmp2elZKY2JtUndKMkFzY1l0UWpR&master=567"
     ]
   },
@@ -1985,6 +1994,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=568&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoMzQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI2Mzgmc3Q9RHdRc3AyN2l6V3J1dllqUEZ5aS1yUQ==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoMzQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI2Mzgmc3Q9RHdRc3AyN2l6V3J1dllqUEZ5aS1yUQ%3D%3D&master=568"
     ]
   },
@@ -1997,20 +2007,22 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=539&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDAvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI3NDUmc3Q9cVZaQ3Vpd2l3UzEwLW1tMzEwMktDZw==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDAvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI3NDUmc3Q9cVZaQ3Vpd2l3UzEwLW1tMzEwMktDZw%3D%3D&master=539"
     ]
   },
   {
     "id": "CinePlusKids.ua@SD",
-    "name": "Cine+ Kids",
+    "name": "Cine+ Kids (576p)",
     "country": "UA",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540",
-      "http://dtv.vol.net.ua/Cine_plus_Kids_HD/index.m3u8"
+      "http://dtv.vol.net.ua/Cine_plus_Kids_HD/index.m3u8",
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=540&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ==",
+      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540"
     ]
   },
   {
@@ -2020,18 +2032,20 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=77&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77"
     ]
   },
   {
     "id": "ViasatExplore.ua@SD",
-    "name": "Viasat Explore",
+    "name": "Viasat Explore (576p)",
     "country": "UA",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMyOTgmc3Q9eWVMNVRuX0tiUlAwVWd0UjctYTBMZw%3D%3D&master=79",
-      "http://dtv.vol.net.ua/Viasat-Explore/index.m3u8"
+      "http://dtv.vol.net.ua/Viasat-Explore/index.m3u8",
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=79&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMyOTgmc3Q9eWVMNVRuX0tiUlAwVWd0UjctYTBMZw==",
+      "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMyOTgmc3Q9eWVMNVRuX0tiUlAwVWd0UjctYTBMZw%3D%3D&master=79"
     ]
   },
   {
@@ -2043,6 +2057,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=78&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ==",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78",
       "http://hls127.freeott.top:8080/VIASAT_EXPLORE_HD_CEE/video.m3u8"
     ]
@@ -2056,6 +2071,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://777905.live.tvstitch.com/playlist.m3u8?master=1103&source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg/bGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn",
       "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103"
     ]
   },
@@ -2068,6 +2084,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://775065.live.tvstitch.com/playlist.m3u8?master=311&source=aHR0cHM6Ly9obHMtY2RuMi5keXZ5YXBwLmNvbS9rb25rdXJlbnQtdWtyYWluYS90cmFja3MtdjFhMS9tb25vLnRzLm0zdTg/dG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmphR0Z1Ym1Wc1gybGtJam96TVRFc0ltTm9ZVzV1Wld4ZmJtRnRaU0k2SWx4MU1EUXhZVngxTURRelpWeDFNRFF6WkZ4MU1EUXpZVngxTURRME0xeDFNRFEwTUZ4MU1EUXpOVngxTURRelpGeDFNRFEwTWlCY2RUQTBNak5jZFRBME0yRmNkVEEwTkRCY2RUQTBNekJjZFRBME5UZGNkVEEwTTJSY2RUQTBNekFpTENKcGNDSTZJakUzT0M0eE16WXVOREl1TWpJd0lpd2lZMjkxYm5SeWVTSTZJbFZyY21GcGJtVWlMQ0oxYzJWeVgybGtJam8zTkRBM0xDSjFjMlZ5WDNCb2IyNWxJam9pS3pNNE1Ea3pNRGsyTnpReU15SXNJblZ6WlhKZmNtOXNaWE1pT2xzaVkyeHBaVzUwSWwwc0luQnliMlpwYkdWZmFXUWlPalkwTnpFc0luTmxjM05wYjI1ZmFXUWlPaUprTURBNU5tSm1PQzB5TTJVMUxUUmxaVFl0WW1Vek5TMW1PREE0TXpsbFpqbGtPRFFpTENKbGJuWnBjbTl1YldWdWRDSTZJbkJ5YjJSMVkzUnBiMjRpTENKd2JHRjBabTl5YlNJNklrUmxjMnQwYjNBaUxDSjFjMlZ5WDJGblpXNTBJam9pVFc5NmFXeHNZVnd2TlM0d0lDaFhhVzVrYjNkeklFNVVJREV3TGpBN0lGZHBialkwT3lCNE5qUXBJRUZ3Y0d4bFYyVmlTMmwwWEM4MU16Y3VNellnS0V0SVZFMU1MQ0JzYVd0bElFZGxZMnR2S1NCRGFISnZiV1ZjTHpFMU1pNHdMakF1TUNCVFlXWmhjbWxjTHpVek55NHpOaUlzSW1WNGNDSTZNVGM0T0RNek5qTXdOSDAuOGgzdDlhSkFPUjh0djhvX0NZWjlDbHVuaTVvZ2NiRVFVcC1SbThlcUMwNA==",
       "http://775065.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMi5keXZ5YXBwLmNvbS9rb25rdXJlbnQtdWtyYWluYS90cmFja3MtdjFhMS9tb25vLnRzLm0zdTg/dG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmphR0Z1Ym1Wc1gybGtJam96TVRFc0ltTm9ZVzV1Wld4ZmJtRnRaU0k2SWx4MU1EUXhZVngxTURRelpWeDFNRFF6WkZ4MU1EUXpZVngxTURRME0xeDFNRFEwTUZ4MU1EUXpOVngxTURRelpGeDFNRFEwTWlCY2RUQTBNak5jZFRBME0yRmNkVEEwTkRCY2RUQTBNekJjZFRBME5UZGNkVEEwTTJSY2RUQTBNekFpTENKcGNDSTZJakUzT0M0eE16WXVOREl1TWpJd0lpd2lZMjkxYm5SeWVTSTZJbFZyY21GcGJtVWlMQ0oxYzJWeVgybGtJam8zTkRBM0xDSjFjMlZ5WDNCb2IyNWxJam9pS3pNNE1Ea3pNRGsyTnpReU15SXNJblZ6WlhKZmNtOXNaWE1pT2xzaVkyeHBaVzUwSWwwc0luQnliMlpwYkdWZmFXUWlPalkwTnpFc0luTmxjM05wYjI1ZmFXUWlPaUprTURBNU5tSm1PQzB5TTJVMUxUUmxaVFl0WW1Vek5TMW1PREE0TXpsbFpqbGtPRFFpTENKbGJuWnBjbTl1YldWdWRDSTZJbkJ5YjJSMVkzUnBiMjRpTENKd2JHRjBabTl5YlNJNklrUmxjMnQwYjNBaUxDSjFjMlZ5WDJGblpXNTBJam9pVFc5NmFXeHNZVnd2TlM0d0lDaFhhVzVrYjNkeklFNVVJREV3TGpBN0lGZHBialkwT3lCNE5qUXBJRUZ3Y0d4bFYyVmlTMmwwWEM4MU16Y3VNellnS0V0SVZFMU1MQ0JzYVd0bElFZGxZMnR2S1NCRGFISnZiV1ZjTHpFMU1pNHdMakF1TUNCVFlXWmhjbWxjTHpVek55NHpOaUlzSW1WNGNDSTZNVGM0T0RNek5qTXdOSDAuOGgzdDlhSkFPUjh0djhvX0NZWjlDbHVuaTVvZ2NiRVFVcC1SbThlcUMwNA==&master=311"
     ]
   },
@@ -2180,7 +2197,7 @@
   },
   {
     "id": "Svarozhychy.ua@SD",
-    "name": "Svarozhychy",
+    "name": "Svarozhychy (1080p)",
     "country": "UA",
     "categories": [
       "entertainment"

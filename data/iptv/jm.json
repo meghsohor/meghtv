@@ -13,15 +13,15 @@
   },
   {
     "id": "Fame95FM.jm@SD",
-    "name": "Fame95 FM (480p)",
+    "name": "Fame95 FM (614p)",
     "country": "JM",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://rjr-fame.akamaized.net/hls/live/2033820/RJR_FAME/master.m3u8",
-      "https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8"
+      "https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+      "https://rjr-fame.akamaized.net/hls/live/2033820/RJR_FAME/master.m3u8"
     ]
   },
   {

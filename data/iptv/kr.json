@@ -51,7 +51,7 @@
   },
   {
     "id": "ArirangTV.kr@HD",
-    "name": "Arirang TV HD (720p)",
+    "name": "Arirang TV HD (1080p)",
     "country": "KR",
     "categories": [
       "news",
@@ -59,8 +59,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.162.64.114/ARIRANG/index.m3u8",
       "https://freem3u.xyz/api/live/play.m3u8?vid=111",
+      "http://45.162.64.114/ARIRANG/index.m3u8",
       "https://dash3.antik.sk/live/test_arirang/playlist.m3u8"
     ]
   },

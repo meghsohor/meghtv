@@ -32,8 +32,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d3jocgwjuhw91y.cloudfront.net/ts:abr.m3u8",
-      "http://181.119.177.253:8000/play/a03o/index.m3u8"
+      "http://181.119.177.253:8000/play/a03o/index.m3u8",
+      "https://d3jocgwjuhw91y.cloudfront.net/ts:abr.m3u8"
     ]
   },
   {
@@ -57,8 +57,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d1zq2gydd8y59v.cloudfront.net/ts:abr.m3u8",
       "http://181.119.177.253:8000/play/a03n/index.m3u8",
+      "https://d1zq2gydd8y59v.cloudfront.net/ts:abr.m3u8",
       "http://200.115.120.1:8000/play/ca112/index.m3u8"
     ]
   },
@@ -231,17 +231,17 @@
   },
   {
     "id": "Guatevision.gt@SD",
-    "name": "Guatevision (720p)",
+    "name": "Guatevision (1080p)",
     "country": "GT",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://mdstrm.com/live-stream-playlist/69f8df22a762c9b1ab3eabca.m3u8",
-      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Guatevision.stream/playlist.m3u8",
+      "http://200.115.120.1:8000/play/ca066/index.m3u8",
       "http://168.196.127.137:6001/play/a04m/index.m3u8",
-      "http://200.115.120.1:8000/play/ca066/index.m3u8"
+      "https://mdstrm.com/live-stream-playlist/69f8df22a762c9b1ab3eabca.m3u8",
+      "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Guatevision.stream/playlist.m3u8"
     ]
   },
   {
@@ -440,16 +440,16 @@
   },
   {
     "id": "RhemaTV.gt@SD",
-    "name": "Rhema TV (720p)",
+    "name": "Rhema TV (1080p)",
     "country": "GT",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
+      "http://45.171.64.30:6060/play/a04k/index.m3u8",
       "https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8",
-      "http://190.61.90.17:40000/play/a0iw/index.m3u8",
-      "http://45.171.64.30:6060/play/a04k/index.m3u8"
+      "http://190.61.90.17:40000/play/a0iw/index.m3u8"
     ]
   },
   {
@@ -549,15 +549,15 @@
   },
   {
     "id": "Canal11.gt@SD",
-    "name": "Canal 11 (720p)",
+    "name": "Canal 11 (1080p)",
     "country": "GT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://179.60.224.196:8000/play/a0dv/index.m3u8",
-      "http://168.228.44.241:9999/play/a01m/index.m3u8"
+      "http://168.228.44.241:9999/play/a01m/index.m3u8",
+      "http://179.60.224.196:8000/play/a0dv/index.m3u8"
     ]
   },
   {
@@ -569,8 +569,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://190.61.101.11:7050/play/a07f/index.m3u8",
-      "http://168.196.127.137:6001/play/a064/index.m3u8"
+      "http://168.196.127.137:6001/play/a064/index.m3u8",
+      "http://190.61.101.11:7050/play/a07f/index.m3u8"
     ]
   },
   {

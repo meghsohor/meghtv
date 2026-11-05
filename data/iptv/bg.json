@@ -117,15 +117,15 @@
   },
   {
     "id": "bTV.bg@SD",
-    "name": "bTV",
+    "name": "bTV (576p)",
     "country": "BG",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://213.91.179.28:8000/play/a03w",
-      "http://85.11.189.178:8080/bTV/index.m3u8"
+      "http://85.11.189.178:8080/bTV/index.m3u8",
+      "http://213.91.179.28:8000/play/a03w"
     ]
   },
   {
@@ -274,15 +274,15 @@
   },
   {
     "id": "DisneyChannel.bg@SD",
-    "name": "Disney Channel",
+    "name": "Disney Channel (576i)",
     "country": "BG",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://213.91.179.28:8000/play/a059",
-      "http://87.120.179.187:8000/play/a010"
+      "http://87.120.179.187:8000/play/a010",
+      "http://213.91.179.28:8000/play/a059"
     ]
   },
   {
@@ -529,8 +529,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://213.91.179.28:8000/play/a056",
       "http://87.120.179.187:8000/play/a00x",
+      "http://213.91.179.28:8000/play/a056",
       "http://hls127.freeott.top:8080/BG_Nickelodeon/video.m3u8"
     ]
   },

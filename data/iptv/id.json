@@ -85,15 +85,15 @@
   },
   {
     "id": "AshiilTV.id@SD",
-    "name": "Ashiil TV (480p) [Not 24/7]",
+    "name": "Ashiil TV (480p)",
     "country": "ID",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8",
-      "https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8"
+      "https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8",
+      "https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8"
     ]
   },
   {
@@ -244,16 +244,16 @@
   },
   {
     "id": "BNChannel.id@SD",
-    "name": "BN Channel (720p)",
+    "name": "BN Channel (1080p)",
     "country": "ID",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "http://ikitv.sqn.at:8000/play/a01l/index.m3u8",
       "https://flv.intechmedia.net/live/ch112.m3u8",
-      "http://175.158.57.130:8888/stream/channelid/1402218159",
-      "http://ikitv.sqn.at:8000/play/a01l/index.m3u8"
+      "http://175.158.57.130:8888/stream/channelid/1402218159"
     ]
   },
   {
@@ -591,7 +591,7 @@
   },
   {
     "id": "JTV.id@Madiun",
-    "name": "JTV Madiun",
+    "name": "JTV Madiun (720p)",
     "country": "ID",
     "categories": [
       "general"
@@ -615,7 +615,7 @@
   },
   {
     "id": "JTV.id@Malang",
-    "name": "JTV Malang",
+    "name": "JTV Malang (480p)",
     "country": "ID",
     "categories": [
       "general"
@@ -713,15 +713,15 @@
   },
   {
     "id": "MagnaChannel.id@SD",
-    "name": "Magna Channel (1080p) [Not 24/7]",
+    "name": "Magna Channel (1080p)",
     "country": "ID",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
       "http://202.150.172.59/MagnaChannel/index.m3u8",
+      "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
       "https://op-group1-swiftservehd-1.dens.tv/h/h24/index.m3u8"
     ]
   },
@@ -755,8 +755,8 @@
     "visible": true,
     "urls": [
       "https://wahyu1ptv.pages.dev/MDTV-HD.m3u8",
-      "https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8",
-      "http://ikitv.sqn.at:8000/play/a044/index.m3u8"
+      "http://ikitv.sqn.at:8000/play/a044/index.m3u8",
+      "https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8"
     ]
   },
   {
@@ -1057,13 +1057,13 @@
   },
   {
     "id": "SMTV.id@SD",
-    "name": "SMTV (720p) [Not 24/7]",
+    "name": "SMTV (720p)",
     "country": "ID",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8",
-      "https://e.siar.us/live/smtv.m3u8"
+      "https://e.siar.us/live/smtv.m3u8",
+      "http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8"
     ]
   },
   {
@@ -1181,13 +1181,13 @@
   },
   {
     "id": "SurauTV.id@SD",
-    "name": "Surau TV",
+    "name": "Surau TV (720p)",
     "country": "ID",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8",
       "http://ikitv.sqn.at:8000/play/a00l/index.m3u8",
+      "https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8",
       "https://surau-tv-rtmp-surautv.ltjafv.easypanel.host/hls/surautv.m3u8"
     ]
   },
@@ -1280,15 +1280,15 @@
   },
   {
     "id": "TVRI.id@HD",
-    "name": "TVRI (1080i)",
+    "name": "TVRI (1080p)",
     "country": "ID",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
-      "http://202.150.172.59/TVRI/index.m3u8"
+      "http://202.150.172.59/TVRI/index.m3u8",
+      "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
     ]
   },
   {
@@ -1707,28 +1707,28 @@
   },
   {
     "id": "RCTI.id@HD",
-    "name": "RCTI HD (720p)",
+    "name": "RCTI HD (1080p)",
     "country": "ID",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mncmedia.malingtv.workers.dev/rcti.m3u8",
-      "http://202.150.172.59/RCTIHD/index.m3u8"
+      "http://202.150.172.59/RCTIHD/index.m3u8",
+      "https://mncmedia.malingtv.workers.dev/rcti.m3u8"
     ]
   },
   {
     "id": "GTV.id@HD",
-    "name": "GTV HD",
+    "name": "GTV HD (1080p)",
     "country": "ID",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://mncmedia.malingtv.workers.dev/gtv.m3u8",
-      "http://202.150.172.59/GTVHD/index.m3u8"
+      "http://202.150.172.59/GTVHD/index.m3u8",
+      "https://mncmedia.malingtv.workers.dev/gtv.m3u8"
     ]
   },
   {
@@ -1784,8 +1784,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://ikitv.sqn.at:8000/play/a023/index.m3u8",
-      "http://202.150.172.59/VTVHD/index.m3u8"
+      "http://202.150.172.59/VTVHD/index.m3u8",
+      "http://ikitv.sqn.at:8000/play/a023/index.m3u8"
     ]
   },
   {

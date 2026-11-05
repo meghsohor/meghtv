@@ -93,7 +93,7 @@
   },
   {
     "id": "LRTPlius.lt@SD",
-    "name": "LRT Plius (1080p) [Geo-blocked]",
+    "name": "LRT Plius (1080p)",
     "country": "LT",
     "categories": [
       "culture",
@@ -101,8 +101,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream-live.lrt.lt/plius/master.m3u8",
-      "http://stream.mcquack.net/353/index.m3u8"
+      "http://stream.mcquack.net/353/index.m3u8",
+      "https://stream-live.lrt.lt/plius/master.m3u8"
     ]
   },
   {
@@ -119,15 +119,15 @@
   },
   {
     "id": "LRTTV.lt@SD",
-    "name": "LRT TV (1080p) [Geo-blocked]",
+    "name": "LRT TV (1080p)",
     "country": "LT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream-syncwords.lrt.lt/out/v1/channel-group-lrt-portal-prod-01/channel-lrt-portal-prod-01/endpoint-lrt-portal-prod-01/index.m3u8",
-      "http://stream.mcquack.net/31/index.m3u8"
+      "http://stream.mcquack.net/31/index.m3u8",
+      "https://stream-syncwords.lrt.lt/out/v1/channel-group-lrt-portal-prod-01/channel-lrt-portal-prod-01/endpoint-lrt-portal-prod-01/index.m3u8"
     ]
   },
   {

@@ -13,15 +13,15 @@
   },
   {
     "id": "MerejaTV.et@SD",
-    "name": "Mereja TV (1080p) [Not 24/7]",
+    "name": "Mereja TV",
     "country": "ET",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://rumble.com/live-hls-dvr/4c14o3/playlist.m3u8",
-      "https://g4wlkqp8l23a-hls-live.5centscdn.com/MerejaTV/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
+      "https://g4wlkqp8l23a-hls-live.5centscdn.com/MerejaTV/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
+      "https://rumble.com/live-hls-dvr/4c14o3/playlist.m3u8"
     ]
   },
   {
