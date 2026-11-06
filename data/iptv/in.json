@@ -11174,30 +11174,6 @@
     ]
   },
   {
-    "id": "AnmolCinema2.in@SD",
-    "name": "Anmol Cinema 2 (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fta.ektv.in/live/257/master.m3u8"
-    ]
-  },
-  {
-    "id": "AnmolCinema.in@SD",
-    "name": "Anmol Cinema (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://fta.ektv.in/live/271/master.m3u8"
-    ]
-  },
-  {
     "id": "IndiaNewsUttarPradesh.in@SD",
     "name": "India News Uttar Pradesh (576p)",
     "country": "IN",

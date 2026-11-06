@@ -10819,18 +10819,6 @@
     ]
   },
   {
-    "id": "MeTV.us@SD",
-    "name": "MeTV (720p)",
-    "country": "US",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8"
-    ]
-  },
-  {
     "id": "MinisterioLaVozDeUnRemanenteTV.us@SD",
     "name": "Ministerio La Voz De Un Remanente TV",
     "country": "US",
@@ -15084,18 +15072,6 @@
     "visible": true,
     "urls": [
       "http://hls127.freeott.top:8080/BG_24_Kitchen/video.m3u8"
-    ]
-  },
-  {
-    "id": "SMetroTV.us@HD",
-    "name": "S Metro TV (360p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8"
     ]
   },
   {
