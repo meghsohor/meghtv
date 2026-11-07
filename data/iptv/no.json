@@ -42,7 +42,8 @@
       "https://nrk-live-no.akamaized.net/nrk1_dk2/muxed.m3u8",
       "https://nrk-live-no.akamaized.net/nrk1_dk7/muxed.m3u8",
       "https://nrk-live-no.akamaized.net/nrk1_dk9/muxed.m3u8",
-      "https://nrk-live-no.akamaized.net/nrk1_dk6/muxed.m3u8"
+      "https://nrk-live-no.akamaized.net/nrk1_dk6/muxed.m3u8",
+      "http://185.19.191.171:8090/NRK1/index.m3u8"
     ]
   },
   {

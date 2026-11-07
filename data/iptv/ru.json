@@ -1579,17 +1579,17 @@
   },
   {
     "id": "MoyaPlaneta.ru@SD",
-    "name": "Moya Planeta (1080p)",
+    "name": "Moya Planeta (576p)",
     "country": "RU",
     "categories": [
       "outdoor"
     ],
     "visible": true,
     "urls": [
-      "http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/124/index.m3u8",
       "https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Moya_Planeta_HD/index.m3u8",
+      "http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/IQ_HD/index.m3u8"
     ]
   },
@@ -7074,6 +7074,55 @@
     "visible": true,
     "urls": [
       "https://mhd116.iptv2022.com/x/t4hRFz1R89Q6kjp3CL3WVQ,1792610109/streaming/sledstvie_veli_hd/324/1/index.m3u8"
+    ]
+  },
+  {
+    "id": "TheExplorers.ru@SD",
+    "name": "The Explorers (1080p)",
+    "country": "RU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8"
+    ]
+  },
+  {
+    "id": "Muzhskoy.ru@HD",
+    "name": "Muzhskoy HD (1080p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NashaTema.ru@SD",
+    "name": "Nasha Tema (1080p)",
+    "country": "RU",
+    "categories": [
+      "travel",
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Volleyball.ru@SD",
+    "name": "Volleyball (1080p)",
+    "country": "RU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8"
     ]
   }
 ]

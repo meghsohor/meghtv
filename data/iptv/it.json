@@ -3010,6 +3010,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://185.227.34.104/stream/117/index.m3u8",
       "https://hostemea1236.s.gy/italia/nikc/23/32/93/locos.m3u8",
       "https://zg9mhld.s.gy/HD-NICK-IT.ts"
     ]
@@ -3330,6 +3331,41 @@
     "visible": true,
     "urls": [
       "https://www.dailymotion.com/cdn/live/video/x98rt88.m3u8?sec=3FZxZQeceI08NWbQwAxAKdpdnH8gYPtFSg2hr2m8v11-0gQsz2FldP--C6DTACA-"
+    ]
+  },
+  {
+    "id": "Rai2.it@HD",
+    "name": "Rai 2 HD (720p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://team-tv.co:81/rai2/index.m3u8"
+    ]
+  },
+  {
+    "id": "DeAKids.it@SD",
+    "name": "DeA Kids",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.227.34.104/stream/113/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetwork.it@SD",
+    "name": "Cartoon Network",
+    "country": "IT",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.227.34.104/stream/122/index.m3u8"
     ]
   }
 ]

@@ -283,6 +283,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://emisja3.btb.j00r.us/iptv/session/3/live.m3u8",
       "https://emisja3.btb.j00r.us/iptv/session/3/hls.m3u8"
     ]
   },
@@ -841,15 +842,15 @@
   },
   {
     "id": "Polsat.pl@SD",
-    "name": "Polsat",
+    "name": "Polsat (1080p) [Geo-blocked]",
     "country": "PL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8",
       "https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd",
+      "https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8",
       "http://57.128.210.196:8080/203/index.m3u8"
     ]
   },
@@ -1551,13 +1552,13 @@
   },
   {
     "id": "TVP1.pl@SD",
-    "name": "TVP1 (1080p)",
+    "name": "TVP1",
     "country": "PL",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://57.128.210.196:8080/144/index.m3u8",
-      "http://92.114.85.87:8009/play/a009/index.m3u8"
+      "http://92.114.85.87:8009/play/a009/index.m3u8",
+      "http://57.128.210.196:8080/144/index.m3u8"
     ]
   },
   {

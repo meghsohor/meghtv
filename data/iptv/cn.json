@@ -2081,5 +2081,29 @@
     "urls": [
       "rtmp://splay-qukan.cztv.com/live/1792059771757250?auth_key=1886667772-951bbd2034684d73940470ed3eebc32a-0-adc4291abba5c186e3ead67a1683e790"
     ]
+  },
+  {
+    "id": "YichangSanxiaTravelLifeChannel.cn@SD",
+    "name": "Yichang Sanxia Travel & Life Channel",
+    "country": "CN",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveplay.ycrmt.cn/sxgd/lysh.m3u8"
+    ]
+  },
+  {
+    "id": "YichangSanxiaGeneralChannel.cn@SD",
+    "name": "Yichang Sanxia General Channel",
+    "country": "CN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8"
+    ]
   }
 ]

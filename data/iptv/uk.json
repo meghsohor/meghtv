@@ -867,8 +867,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://193.46.58.239:8080/BBCOneHD/index.m3u8",
-      "http://193.239.186.231/BBC1/index.m3u8"
+      "http://193.239.186.231/BBC1/index.m3u8",
+      "http://193.46.58.239:8080/BBCOneHD/index.m3u8"
     ]
   },
   {
@@ -887,20 +887,20 @@
   },
   {
     "id": "BBCTwo.uk@HD",
-    "name": "BBC Two HD (720p)",
+    "name": "BBC Two HD (720p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://193.46.58.239:8080/BBCTwoHD/index.m3u8",
-      "https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd",
       "https://vs-cmaf-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_two_hd/pc_hd_abr_v2.mpd",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/mobile_wifi_main_hd_abr_v2.m3u8",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/mobile_wifi_main_sd_abr_v2.m3u8",
-      "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/hevc_iptv_mse_v0.mpd"
+      "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/hevc_iptv_mse_v0.mpd",
+      "http://193.46.58.239:8080/BBCTwoHD/index.m3u8",
+      "https://cdn.stmify.com/bbc/stream/BBC_TWO/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
@@ -2197,18 +2197,6 @@
     ]
   },
   {
-    "id": "BBCEarth.uk@RomaniaHD",
-    "name": "BBC Earth Romania HD (576p)",
-    "country": "UK",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/BG_The_World/video.m3u8"
-    ]
-  },
-  {
     "id": "ViasatEpicDrama.uk@Ukraine",
     "name": "Viasat Epic Drama Ukraine (576p)",
     "country": "UK",
@@ -2276,48 +2264,48 @@
   },
   {
     "id": "BBCOne.uk@London",
-    "name": "BBC One",
+    "name": "BBC One London (720p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_ONE_LONDON/hevc_iptv_mse_v0.mpd",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/mobile_wifi_main_hd_abr_v2.m3u8",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/mobile_wifi_main_sd_abr_v2.m3u8",
-      "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/hevc_iptv_mse_v0.mpd"
+      "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/hevc_iptv_mse_v0.mpd",
+      "https://cdn.stmify.com/bbc/stream/BBC_ONE_LONDON/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
     "id": "BBCParliament.uk@SD",
-    "name": "BBC Parliament",
+    "name": "BBC Parliament (720p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "legislative"
     ],
     "visible": false,
     "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_PARLIAMENT/hevc_iptv_mse_v0.mpd",
       "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd",
-      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/hevc_iptv_mse_v0.mpd"
+      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/hevc_iptv_mse_v0.mpd",
+      "https://cdn.stmify.com/bbc/stream/BBC_PARLIAMENT/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
     "id": "BBCScotland.uk@SD",
-    "name": "BBC Scotland",
+    "name": "BBC Scotland (540p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_SCOTLAND/hevc_iptv_mse_v0.mpd",
       "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/pc_hd_abr_v2.m3u8",
       "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/iptv_hd_abr_v1.mpd",
-      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/hevc_iptv_mse_v0.mpd"
+      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/hevc_iptv_mse_v0.mpd",
+      "https://cdn.stmify.com/bbc/stream/BBC_SCOTLAND/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
@@ -2334,16 +2322,16 @@
   },
   {
     "id": "BBCTwo.uk@Wales",
-    "name": "BBC Two Wales",
+    "name": "BBC Two Wales (720p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_TWO_WALES/hevc_iptv_mse_v0.mpd",
       "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/iptv_hd_abr_v1.mpd",
-      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/hevc_iptv_mse_v0.mpd"
+      "https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/hevc_iptv_mse_v0.mpd",
+      "https://cdn.stmify.com/bbc/stream/BBC_TWO_WALES/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
@@ -2373,15 +2361,15 @@
   },
   {
     "id": "BBCTwo.uk@NorthernIreland",
-    "name": "BBC Two Northern Ireland",
+    "name": "BBC Two Northern Ireland (540p) [Geo-blocked]",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_TWO_NORTHERN_IRELAND/hevc_iptv_mse_v0.mpd",
-      "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/pc_hd_abr_v2.m3u8"
+      "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/pc_hd_abr_v2.m3u8",
+      "https://cdn.stmify.com/bbc/stream/BBC_TWO_NORTHERN_IRELAND/hevc_iptv_mse_v0.mpd"
     ]
   },
   {
@@ -3620,6 +3608,43 @@
     "visible": true,
     "urls": [
       "http://193.33.39.108:9007/play/a00l"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@Bulgary",
+    "name": "Cartoon Network CEE Bulgary",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a08g"
+    ]
+  },
+  {
+    "id": "CartoonitoCEE.uk@Bulgary",
+    "name": "Cartoonito CEE Bulgary",
+    "country": "UK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a0c7"
+    ]
+  },
+  {
+    "id": "SkySportsNews.uk@SD",
+    "name": "Sky Sports News (576p)",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8"
     ]
   }
 ]

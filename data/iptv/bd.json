@@ -119,7 +119,8 @@
     "visible": true,
     "urls": [
       "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
-      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8"
+      "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+      "http://103.135.253.32:8080/Gazi-TV/index.m3u8"
     ]
   },
   {
@@ -292,7 +293,8 @@
     "visible": true,
     "urls": [
       "https://box.bbaria.net/DurontoTV/index.m3u8",
-      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "https://livetv.shamon-cable.net:8443/Duronto/index.m3u8"
     ]
   },
   {
@@ -315,6 +317,16 @@
     "visible": true,
     "urls": [
       "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
+    ]
+  },
+  {
+    "id": "StarNews.bd@SD",
+    "name": "Star News (1080p)",
+    "country": "BD",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://103.135.253.32:8080/Star-News/index.m3u8"
     ]
   }
 ]

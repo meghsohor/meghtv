@@ -140,5 +140,17 @@
     "urls": [
       "https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8"
     ]
+  },
+  {
+    "id": "TAPSports.ph@SD",
+    "name": "TAP Sports (1080p) [Geo-blocked]",
+    "country": "PH",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://amg19223-amg19223c2-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c2-amgplt0351/playlist.m3u8"
+    ]
   }
 ]

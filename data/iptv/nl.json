@@ -2087,8 +2087,8 @@
     "visible": true,
     "urls": [
       "http://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L2/c0620faf/27ea2088.isml/.mpd",
-      "https://tv.ft.md.npox.nl/2D3RhEOhAQWhBE5ucG8tcHJvZC1jYXQtMVhtpQFubnBvLXBsYXllci1hcGkEGmrU6TAHUMoWYxpMO-JwSGbPSI_FUeUZATYBGQE4owChAGVodHRwcwGhAHB0di5mdC5tZC5ucG94Lm5sBaEBeBovTDIvYzA2MjBmYWYvMjdlYTIwODguaXNtbFggydhaqdtF_IHCX4a0VwNuBEfPoPT2H6JQxyZeZQoJUxk/L2/c0620faf/27ea2088.isml/dash.mpd",
-      "https://lb.iptvnetwork.net/ls28/10025/playlist.m3u8"
+      "https://lb.iptvnetwork.net/ls28/10025/playlist.m3u8",
+      "https://tv.ft.md.npox.nl/2D3RhEOhAQWhBE5ucG8tcHJvZC1jYXQtMVhtpQFubnBvLXBsYXllci1hcGkEGmrU6TAHUMoWYxpMO-JwSGbPSI_FUeUZATYBGQE4owChAGVodHRwcwGhAHB0di5mdC5tZC5ucG94Lm5sBaEBeBovTDIvYzA2MjBmYWYvMjdlYTIwODguaXNtbFggydhaqdtF_IHCX4a0VwNuBEfPoPT2H6JQxyZeZQoJUxk/L2/c0620faf/27ea2088.isml/dash.mpd"
     ]
   },
   {
@@ -2229,13 +2229,14 @@
   },
   {
     "id": "BTLTV.nl@SD",
-    "name": "BTL TV (720p)",
+    "name": "BTL TV (1080p)",
     "country": "NL",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
+      "https://cdn.liveplustv.com/v1/live/btl-tv/master.m3u8",
       "https://livecdn.live247stream.com/btl/tv/playlist.m3u8"
     ]
   },

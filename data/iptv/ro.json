@@ -1251,13 +1251,14 @@
   },
   {
     "id": "AntenaInternational.ro@SD",
-    "name": "Antena International",
+    "name": "Antena International (576p)",
     "country": "RO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_sdi06/live2_sdi06.m3u8",
       "https://live4dai.antenaplay.ro/live2_sdi06/live2_sdi06_600k.m3u8"
     ]
   },
@@ -1389,18 +1390,20 @@
     ],
     "visible": true,
     "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_sdi05/live2_sdi05.m3u8",
       "https://live4dai.antenaplay.ro/live2_sdi05/live2_sdi05_600k.m3u8"
     ]
   },
   {
     "id": "AsiaExpressNonStop.ro@SD",
-    "name": "Asia Express NonStop (576i)",
+    "name": "Asia Express NonStop (576p)",
     "country": "RO",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_sport05/live2_sport05.m3u8",
       "https://live4dai.antenaplay.ro/live2_sport05/live2_sport05_600k.m3u8"
     ]
   },
@@ -1910,13 +1913,18 @@
   },
   {
     "id": "AntenaPlayEvents.ro@SD",
-    "name": "AntenaPlay Events (576p) [Not 24/7]",
+    "name": "AntenaPlay Events (576i) [Not 24/7]",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07_3500k.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_srt9/live2_srt9_3000k.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09_2600k.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_sdi03/live2_sdi03_3000k.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_srt/live2_srt_3000k.m3u8",
       "https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8"
     ]
   },
@@ -2038,6 +2046,64 @@
     "visible": true,
     "urls": [
       "https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8"
+    ]
+  },
+  {
+    "id": "Antena3CNN.ro@HD",
+    "name": "Antena 3 CNN HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_5000k.m3u8"
+    ]
+  },
+  {
+    "id": "AntenaStars.ro@HD",
+    "name": "Antena Stars HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_aws4_sdi10/live2_aws4_sdi10_5000k.m3u8"
+    ]
+  },
+  {
+    "id": "HappyChannel.ro@HD",
+    "name": "Happy Channel HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_5000k.m3u8"
+    ]
+  },
+  {
+    "id": "Chefiro.ro@HD",
+    "name": "Chefi.ro HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_aws4_sdi13/live2_aws4_sdi13_5000k.m3u8"
+    ]
+  },
+  {
+    "id": "Digi4K.ro@UHD",
+    "name": "Digi 4K (2160p) [Geo-blocked]",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5928.m3u8"
     ]
   }
 ]
