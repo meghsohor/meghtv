@@ -44,7 +44,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8"
+      "https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8",
+      "http://181.79.86.130:8000/play/a05d/index.m3u8"
     ]
   },
   {

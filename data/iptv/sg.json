@@ -403,5 +403,54 @@
     "urls": [
       "http://125.227.210.55:1001/VideoInput/play.ts"
     ]
+  },
+  {
+    "id": "AXNAsia.sg@Thailand",
+    "name": "AXN Asia Thailand",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/89/index.m3u8"
+    ]
+  },
+  {
+    "id": "TLCSoutheastAsia.sg@SD",
+    "name": "TLC Southeast Asia",
+    "country": "SG",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/108/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJrAsia.sg@SD",
+    "name": "Nick Jr. Asia",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/116/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonAsia.sg@SD",
+    "name": "Nickelodeon Asia",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/117/index.m3u8"
+    ]
   }
 ]

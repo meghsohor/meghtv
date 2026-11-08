@@ -58,7 +58,8 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8",
-      "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
+      "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
+      "http://90.163.85.113:8093/stream/26/index.m3u8"
     ]
   },
   {
@@ -3505,6 +3506,18 @@
     "visible": true,
     "urls": [
       "http://digisat.ddns.net:4022/udp/239.0.5.177:8208"
+    ]
+  },
+  {
+    "id": "DMAX.es@SD",
+    "name": "DMAX",
+    "country": "ES",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://90.163.85.113:8093/stream/51/index.m3u8"
     ]
   }
 ]

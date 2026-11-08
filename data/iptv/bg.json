@@ -835,5 +835,15 @@
     "urls": [
       "http://213.91.179.28:8000/play/a044"
     ]
+  },
+  {
+    "id": "AnimalPlanet.bg@SD",
+    "name": "Animal Planet",
+    "country": "BG",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a05r"
+    ]
   }
 ]

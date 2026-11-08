@@ -1559,13 +1559,13 @@
     "visible": true,
     "urls": [
       "https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8",
-      "http://103.151.60.162:2122/play/a0fa/index.m3u8?hls",
       "http://103.165.93.31:8095/enter10Bangla/index.m3u8",
       "http://103.185.24.134:3001/ENTER10-BANGLA/index.m3u8",
       "https://fta.ektv.in/live/658/master.m3u8",
       "https://mumt07.tangotv.in/zHjX9OFlENTERR10BANGLA/index.m3u8",
       "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
-      "https://livetv.shamon-cable.net:8443/Enterr10bangla/index.m3u8"
+      "https://livetv.shamon-cable.net:8443/Enterr10bangla/index.m3u8",
+      "http://103.151.60.162:2122/play/a0fa/index.m3u8?hls"
     ]
   },
   {
@@ -4017,12 +4017,12 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02n/index.m3u8?hls",
       "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8",
       "https://fta.ektv.in/live/664/master.m3u8",
       "https://mumt05.tangotv.in/87NeALx2RUPASIBANGLA/index.m3u8",
       "https://tvsen6.aynaott.com/a4L7Tcqv/index.m3u8",
-      "https://cdn.pishow.tv/ott/live/1039/master.m3u8"
+      "https://cdn.pishow.tv/ott/live/1039/master.m3u8",
+      "http://103.151.60.162:2122/play/a02n/index.m3u8?hls"
     ]
   },
   {
@@ -4983,15 +4983,15 @@
   },
   {
     "id": "Travelxp.in@HD",
-    "name": "Travelxp HD (1080p)",
+    "name": "Travelxp HD (1080p) [Geo-blocked]",
     "country": "IN",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a01s/index.m3u8?hls",
-      "https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8"
+      "https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8",
+      "http://103.151.60.162:2122/play/a01s/index.m3u8?hls"
     ]
   },
   {
@@ -6888,6 +6888,7 @@
       "https://mumt03.tangotv.in/Dsly5z3HRPLUSGOLD/index.m3u8",
       "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8",
       "https://stream.ottlive.co.in/rplusgold/index.m3u8",
+      "https://vglivessai.akamaized.net/ptnr-lg/title-Rplus_Gold/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/33172241-82f7-4c91-8ae8-4754309b66a0/index.m3u8",
       "https://cdn.pishow.tv/ott/live/1231/master.m3u8",
       "http://51.75.127.199:3141/rplusgold/index.m3u8"
     ]
@@ -7476,8 +7477,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
-      "http://103.185.24.134:3001/SONIC/index.m3u8"
+      "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "http://103.151.60.162:2122/play/a02v/index.m3u8?hls"
     ]
   },
   {
@@ -7489,10 +7490,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a00s/index.m3u8?hls",
       "http://103.185.24.134:3001/NICK-JR/index.m3u8",
       "http://202.70.146.135:8000/play/a02n/index.m3u8",
-      "http://103.135.253.32:8080/NICK-Jr/index.m3u8"
+      "http://103.135.253.32:8080/NICK-Jr/index.m3u8",
+      "http://103.151.60.162:2122/play/a00s/index.m3u8?hls"
     ]
   },
   {
@@ -7504,10 +7505,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02o/index.m3u8?hls",
       "http://103.165.93.31:8095/colorsBangla/index.m3u8",
       "http://103.135.253.32:8080/COLORS-BANGLA-HD/index.m3u8",
-      "https://livetv.shamon-cable.net:8443/Colors-bangla/index.m3u8"
+      "https://livetv.shamon-cable.net:8443/Colors-bangla/index.m3u8",
+      "http://103.151.60.162:2122/play/a02o/index.m3u8?hls"
     ]
   },
   {
@@ -7526,20 +7527,6 @@
     ]
   },
   {
-    "id": "SuperHungama.in@SD",
-    "name": "Super Hungama (576p)",
-    "country": "IN",
-    "categories": [
-      "animation",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8",
-      "http://51.75.127.199:3141/superhungama/index.m3u8"
-    ]
-  },
-  {
     "id": "SonyAath.in@SD",
     "name": "Sony Aath (576p)",
     "country": "IN",
@@ -7548,10 +7535,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a023/index.m3u8?hls",
       "http://103.165.93.31:8095/sonyAath/index.m3u8",
       "http://103.135.253.32:8080/SONY_AATH/index.m3u8",
       "https://livetv.shamon-cable.net:8443/Sony-8/index.m3u8",
+      "http://103.151.60.162:2122/play/a023/index.m3u8?hls",
       "https://cloudplay-sonyliv.pages.dev/aath.m3u8"
     ]
   },
@@ -7606,8 +7593,8 @@
     "visible": true,
     "urls": [
       "http://103.135.253.32:8080/Color-HD/index.m3u8",
-      "http://103.151.60.162:2122/play/a02q/index.m3u8?hls",
       "https://livetv.shamon-cable.net:8443/Colors-HD/index.m3u8",
+      "http://103.151.60.162:2122/play/a02q/index.m3u8?hls",
       "http://66.102.126.10:8000/play/a00a/index.m3u8"
     ]
   },
@@ -7637,15 +7624,15 @@
   },
   {
     "id": "StarJalsha.in@SD",
-    "name": "Star Jalsha (576p)",
+    "name": "Star Jalsha (1080p) [Geo-blocked]",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
       "http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805",
+      "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
       "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV"
     ]
   },
@@ -8317,6 +8304,7 @@
     "visible": true,
     "urls": [
       "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8",
+      "https://listas-m3u8.github.io/iptv/128.19.173.10:8888/ASIANETHD.m3u8",
       "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b696000.m3u8"
     ]
   },
@@ -9301,9 +9289,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02m/index.m3u8?hls",
       "http://103.135.253.32:8080/COLORS-BANGLA-CINEMA/index.m3u8",
       "https://livetv.shamon-cable.net:8443/Colors-bangla-cinema/index.m3u8",
+      "http://103.151.60.162:2122/play/a02m/index.m3u8?hls",
       "http://51.75.127.199:3141/colorsbanglacinema/index.m3u8"
     ]
   },
@@ -9327,8 +9315,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02s/index.m3u8?hls",
       "http://103.135.253.32:8080/COLOR-CINEPLEX/index.m3u8",
+      "http://103.151.60.162:2122/play/a02s/index.m3u8?hls",
       "http://51.75.127.199:3141/colorscineplexhd/index.m3u8"
     ]
   },
@@ -9584,10 +9572,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a01n/index.m3u8?hls",
       "http://103.185.24.134:3001/Star-Gold/index.m3u8",
       "http://103.135.253.32:8080/STAR-GOLD-HD/index.m3u8",
-      "https://livetv.shamon-cable.net:8443/StarGold/index.m3u8"
+      "https://livetv.shamon-cable.net:8443/StarGold/index.m3u8",
+      "http://103.151.60.162:2122/play/a01n/index.m3u8?hls"
     ]
   },
   {
@@ -9599,8 +9587,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
       "http://103.135.253.32:8080/Sony-Max-HD/index.m3u8",
+      "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
       "http://103.185.24.134:3001/SonyMAX/index.m3u8"
     ]
   },
@@ -9664,8 +9652,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a02w/index.m3u8?hls",
-      "http://103.135.253.32:8080/MOVIES-NOW/index.m3u8"
+      "http://103.135.253.32:8080/MOVIES-NOW/index.m3u8",
+      "http://103.151.60.162:2122/play/a02w/index.m3u8?hls"
     ]
   },
   {
@@ -9716,10 +9704,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a012/index.m3u8?hls",
-      "http://103.151.60.162:2122/play/a024/index.m3u8?hls",
       "http://103.135.253.32:8080/ZEE-CINEMA/index.m3u8",
-      "https://livetv.shamon-cable.net:8443/Z-Cinema/index.m3u8"
+      "https://livetv.shamon-cable.net:8443/Z-Cinema/index.m3u8",
+      "http://103.151.60.162:2122/play/a012/index.m3u8?hls",
+      "http://103.151.60.162:2122/play/a024/index.m3u8?hls"
     ]
   },
   {
@@ -10470,8 +10458,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a01e/index.m3u8?hls",
-      "http://103.135.253.32:8080/POGO/index.m3u8"
+      "http://103.135.253.32:8080/POGO/index.m3u8",
+      "https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8",
+      "http://103.151.60.162:2122/play/a01e/index.m3u8?hls"
     ]
   },
   {

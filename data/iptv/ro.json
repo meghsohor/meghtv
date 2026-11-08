@@ -2105,5 +2105,65 @@
     "urls": [
       "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5928.m3u8"
     ]
+  },
+  {
+    "id": "Chefilacutite.ro@SD",
+    "name": "Chefi la cutite (576i)",
+    "country": "RO",
+    "categories": [
+      "cooking"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8"
+    ]
+  },
+  {
+    "id": "MISATV.ro@English",
+    "name": "MISA TV English (576i)",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vidh.youniverse.name:5050/MSTV/english/chunklist_w1133422319.m3u8"
+    ]
+  },
+  {
+    "id": "MISATV.ro@Czech",
+    "name": "MISA TV Czech (576i) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vidl.youniverse.name:5050/MSTV/czech_360p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MISATV.ro@Hungarian",
+    "name": "MISA TV Hungarian (576i)",
+    "country": "RO",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vidl.youniverse.name:5050/MSTV/hungarian_360p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VoyoEvents.ro@SD",
+    "name": "Voyo Events (576i) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0"
+    ]
   }
 ]

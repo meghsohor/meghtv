@@ -1888,7 +1888,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://83.228.75.166:8000/play/a0aq"
+      "http://83.228.75.166:8000/play/a0aq",
+      "http://91.235.255.32:8001/1:0:1:6AC:3138:13E:820000:0:0:0"
     ]
   },
   {
@@ -5138,6 +5139,146 @@
     "visible": true,
     "urls": [
       "https://s6.hopslan.com/rtl2q/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportNews.de@SD",
+    "name": "Sky Sport News",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/47/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportTopEvent.de@SD",
+    "name": "Sky Sport Top Event",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/48/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportF1.de@SD",
+    "name": "Sky Sport F1",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/49/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportMix.de@SD",
+    "name": "Sky Sport Mix",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/51/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportTennis.de@SD",
+    "name": "Sky Sport Tennis",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/53/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkySportGolf.de@SD",
+    "name": "Sky Sport Golf",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/54/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNBlack.de@SD",
+    "name": "AXN Black",
+    "country": "DE",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://46.244.99.71:8181/stream/35/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNWhite.de@HD",
+    "name": "AXN White",
+    "country": "DE",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://46.244.99.71:8181/stream/50/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.de@SD",
+    "name": "Nick Jr.",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://94.130.48.67:8042/stream/111/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nicktoons.de@SD",
+    "name": "Nicktoons",
+    "country": "DE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://94.130.48.67:8042/stream/112/index.m3u8"
+    ]
+  },
+  {
+    "id": "Voxup.de@SD",
+    "name": "Voxup (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/voxupz/index.m3u8"
+    ]
+  },
+  {
+    "id": "RTLup.de@SD",
+    "name": "RTLup (576p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/rtltupz/index.m3u8"
     ]
   }
 ]

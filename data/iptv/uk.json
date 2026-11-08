@@ -2181,7 +2181,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8"
+      "https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8",
+      "http://103.253.74.210:7070/stream/136/index.m3u8"
     ]
   },
   {
@@ -2193,7 +2194,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8"
+      "https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8",
+      "http://103.253.74.210:7070/stream/114/index.m3u8"
     ]
   },
   {
@@ -2343,8 +2345,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.151.60.162:2122/play/a0fo/index.m3u8?hls",
-      "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8"
+      "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8",
+      "http://103.151.60.162:2122/play/a0fo/index.m3u8?hls"
     ]
   },
   {
@@ -3645,6 +3647,55 @@
     "visible": true,
     "urls": [
       "https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurochannel.uk@SD",
+    "name": "Eurochannel",
+    "country": "UK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.186.240.164:9000/stream/54/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZN1.uk@Germany",
+    "name": "DAZN 1 Germany",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/25/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZN2.uk@Germany",
+    "name": "DAZN 2 Germany",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.142.104.86/stream/15/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@Germany",
+    "name": "Cartoon Network CEE Germany",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://94.130.48.67:8042/stream/109/index.m3u8"
     ]
   }
 ]

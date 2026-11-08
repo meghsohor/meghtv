@@ -2663,5 +2663,149 @@
     "urls": [
       "http://185.228.163.146:8000/play/a048/index.m3u8"
     ]
+  },
+  {
+    "id": "Eurosport4K.fr@Romania",
+    "name": "Eurosport 4K Romania (2160p) [Geo-blocked]",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport1.fr@Bulgaria",
+    "name": "Eurosport 1 Bulgaria",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a05y"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@Bulgaria",
+    "name": "Eurosport 2 Bulgaria",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://213.91.179.28:8000/play/a04b"
+    ]
+  },
+  {
+    "id": "Eurosport1.fr@Romania",
+    "name": "Eurosport 1 Romania",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.44.231.73:7000/eurosport"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@Romania",
+    "name": "Eurosport 2 Romania",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://89.44.231.73:7000/eurosport2"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.fr@SD",
+    "name": "Discovery Channel",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://192.99.186.30/stream/68/index.m3u8"
+    ]
+  },
+  {
+    "id": "InvestigationDiscovery.fr@SD",
+    "name": "Investigation Discovery",
+    "country": "FR",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://192.99.186.30/stream/81/index.m3u8"
+    ]
+  },
+  {
+    "id": "SciFi.fr@HD",
+    "name": "SciFi",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://192.99.186.30/stream/250/index.m3u8"
+    ]
+  },
+  {
+    "id": "13emeRue.fr@SD",
+    "name": "13eme Rue",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://192.99.186.30/stream/251/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@Germany",
+    "name": "Eurosport 2 Germany",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://46.244.99.71:8181/stream/74/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport.fr@Asia",
+    "name": "Eurosport",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/122/index.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport1.fr@Serbia",
+    "name": "Eurosport 1 Serbia",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://87.238.211.217:2209/stream/99/index.m3u8"
+    ]
   }
 ]

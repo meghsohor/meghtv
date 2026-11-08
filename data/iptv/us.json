@@ -7489,7 +7489,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://5.57.74.130:8000/play/a0at/index.m3u8"
+      "http://5.57.74.130:8000/play/a0at/index.m3u8",
+      "http://87.238.211.217:2209/stream/104/index.m3u8"
     ]
   },
   {
@@ -9196,7 +9197,8 @@
     "visible": false,
     "urls": [
       "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
-      "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8"
+      "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8",
+      "http://103.253.74.210:7070/stream/125/index.m3u8"
     ]
   },
   {
@@ -15274,7 +15276,8 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:6060/play/a005/index.m3u8",
-      "https://streaming.onnethn.com/AMC/playlist.m3u8"
+      "https://streaming.onnethn.com/AMC/playlist.m3u8",
+      "http://45.5.118.231:5001/stream/41/index.m3u8"
     ]
   },
   {
@@ -25488,6 +25491,54 @@
     "visible": true,
     "urls": [
       "https://barinaslive1.boldmss.com/DREAMWORKS/DREAMWORKS.isml/index.m3u8"
+    ]
+  },
+  {
+    "id": "Lifetime.us@East",
+    "name": "Lifetime",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvsen7.aynascope.net/lifetime/index.m3u8"
+    ]
+  },
+  {
+    "id": "CNNInternational.us@SouthAsia",
+    "name": "CNN International South Asia",
+    "country": "US",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/115/index.m3u8"
+    ]
+  },
+  {
+    "id": "FoxNewsInternational.us@SD",
+    "name": "Fox News International",
+    "country": "US",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/124/index.m3u8"
+    ]
+  },
+  {
+    "id": "FMHKids.us@SD",
+    "name": "FMH Kids (720p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://38.87.224.19:2220/play/a03u/index.m3u8"
     ]
   }
 ]

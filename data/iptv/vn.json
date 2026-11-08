@@ -1115,5 +1115,21 @@
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=178"
     ]
+  },
+  {
+    "id": "VinhLongTV5.vn@SD",
+    "name": "Vinh Long TV 5 (1080p)",
+    "country": "VN",
+    "categories": [
+      "culture",
+      "entertainment",
+      "music",
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=91",
+      "https://dethich.pw/thvl5/index.m3u8"
+    ]
   }
 ]
