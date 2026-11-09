@@ -2330,5 +2330,17 @@
     "urls": [
       "http://62.60.207.173:8080/hls/thaqalayn/index.m3u8"
     ]
+  },
+  {
+    "id": "CNNTurk.tr@SD",
+    "name": "CNN Turk (1080p)",
+    "country": "TR",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.117.61.84/cnnturk/index.m3u8"
+    ]
   }
 ]

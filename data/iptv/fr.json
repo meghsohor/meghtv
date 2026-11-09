@@ -1512,15 +1512,15 @@
   },
   {
     "id": "TMC.fr@HD",
-    "name": "TMC HD (1080p)",
+    "name": "TMC HD (1080p) [Geo-blocked]",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://149.62.177.107:9999/TMC/index.m3u8",
-      "http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8"
+      "http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8",
+      "http://149.62.177.107:9999/TMC/index.m3u8"
     ]
   },
   {

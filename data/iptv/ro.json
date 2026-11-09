@@ -1285,19 +1285,6 @@
     ]
   },
   {
-    "id": "BollywoodFilm.ro@SD",
-    "name": "Bollywood Film",
-    "country": "RO",
-    "categories": [
-      "movies",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvextra-hls.b-cdn.net/bollywoodfilm/bollywoodfilm.m3u8"
-    ]
-  },
-  {
     "id": "Antena1.ro@SD",
     "name": "Antena 1",
     "country": "RO",
@@ -1307,42 +1294,6 @@
     "visible": true,
     "urls": [
       "https://live4dai.antenaplay.ro/live2_sdi14/live2_sdi14_600k.m3u8"
-    ]
-  },
-  {
-    "id": "MoozDance.ro@SD",
-    "name": "Mooz Dance",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvextra-hls.b-cdn.net/moozdance/moozdance.m3u8"
-    ]
-  },
-  {
-    "id": "MoozHits.ro@SD",
-    "name": "Mooz Hits",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvextra-hls.b-cdn.net/moozhits/moozhits.m3u8"
-    ]
-  },
-  {
-    "id": "MoozRo.ro@SD",
-    "name": "Mooz Ro!",
-    "country": "RO",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvextra-hls.b-cdn.net/moozro/moozro.m3u8"
     ]
   },
   {
@@ -1795,18 +1746,6 @@
     ]
   },
   {
-    "id": "SportExtra.ro@SD",
-    "name": "Sport Extra",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvextra-hls.b-cdn.net/sportextra/sportextra.m3u8"
-    ]
-  },
-  {
     "id": "QuantumTV.ro@SD",
     "name": "Quantum TV (576p)",
     "country": "RO",
@@ -2164,6 +2103,18 @@
     "visible": true,
     "urls": [
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0"
+    ]
+  },
+  {
+    "id": "ShopOnTV.ro@SD",
+    "name": "Shop On TV (576i) [Geo-blocked]",
+    "country": "RO",
+    "categories": [
+      "shop"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vs2131.vcdn.biz/07f4d8c8729f786dd1bb07d0512b71eb_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183161731/rsid/f5e3c4b1-6357-466d-bf95-eb6bc5453333/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.160*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8"
     ]
   }
 ]

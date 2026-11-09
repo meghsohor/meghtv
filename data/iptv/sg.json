@@ -452,5 +452,18 @@
     "urls": [
       "http://103.253.74.210:7070/stream/117/index.m3u8"
     ]
+  },
+  {
+    "id": "CartoonNetworkAsia.sg@Thailand",
+    "name": "Cartoon Network Asia Thailand",
+    "country": "SG",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.253.74.210:7070/stream/118/index.m3u8"
+    ]
   }
 ]

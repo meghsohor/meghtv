@@ -921,7 +921,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8"
+      "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8",
+      "http://45.226.205.96:48000/play/a0dn/index.m3u8"
     ]
   },
   {

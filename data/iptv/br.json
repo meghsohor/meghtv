@@ -426,16 +426,6 @@
     ]
   },
   {
-    "id": "CanalOff.br@SD",
-    "name": "Canal Off (1080p)",
-    "country": "BR",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://170.82.202.31/OFF/index.m3u8"
-    ]
-  },
-  {
     "id": "CanalRicos.br@SD",
     "name": "Canal Ricos (480p)",
     "country": "BR",

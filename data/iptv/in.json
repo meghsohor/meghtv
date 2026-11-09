@@ -9572,8 +9572,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.185.24.134:3001/Star-Gold/index.m3u8",
       "http://103.135.253.32:8080/STAR-GOLD-HD/index.m3u8",
+      "http://103.185.24.134:3001/Star-Gold/index.m3u8",
       "https://livetv.shamon-cable.net:8443/StarGold/index.m3u8",
       "http://103.151.60.162:2122/play/a01n/index.m3u8?hls"
     ]

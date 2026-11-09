@@ -695,5 +695,17 @@
     "urls": [
       "http://88.212.7.14/live/test_kechnec_avc_25p/playlist.m3u8"
     ]
+  },
+  {
+    "id": "MarkizaPlus1.sk@SD",
+    "name": "Markiza +1",
+    "country": "SK",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://88.212.7.14/live/test_mpjedna_hevc/playlist.m3u8"
+    ]
   }
 ]
