@@ -2362,5 +2362,49 @@
     "urls": [
       "http://181.78.79.131:8000/play/a0mo"
     ]
+  },
+  {
+    "id": "Canal3Arroyito.ar@SD",
+    "name": "Canal 3 Arroyito (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8"
+    ]
+  },
+  {
+    "id": "Canal9RioCuarto.ar@SD",
+    "name": "Canal 9 Rio Cuarto (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tv.streamcasthd.com:3249/live/canal9riocuartolive.m3u8"
+    ]
+  },
+  {
+    "id": "Canal10Goya.ar@SD",
+    "name": "Canal 10 Goya (1080p)",
+    "country": "AR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8"
+    ]
+  },
+  {
+    "id": "Canal20VillaMaria.ar@SD",
+    "name": "Canal 20 Villa Maria (1080p)",
+    "country": "AR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8"
+    ]
   }
 ]

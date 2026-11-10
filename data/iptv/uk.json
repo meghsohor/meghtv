@@ -1941,18 +1941,6 @@
     ]
   },
   {
-    "id": "V2BEATTV.uk@SD",
-    "name": "V2BEAT (720p) [Not 24/7]",
-    "country": "UK",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://abr.de1se01.v2beat.live/playlist.m3u8"
-    ]
-  },
-  {
     "id": "ViasatEpicDrama.uk@Czechia",
     "name": "Viasat Epic Drama Czechia",
     "country": "UK",
@@ -3264,7 +3252,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8"
+      "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8",
+      "http://82.47.42.44/stream/402/index.m3u8"
     ]
   },
   {
@@ -3697,6 +3686,40 @@
     "visible": true,
     "urls": [
       "http://94.130.48.67:8042/stream/109/index.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.uk@SD",
+    "name": "National Geographic",
+    "country": "UK",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://82.47.42.44/stream/405/index.m3u8"
+    ]
+  },
+  {
+    "id": "Quest.uk@SD",
+    "name": "Quest",
+    "country": "UK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://82.47.42.44/stream/385/index.m3u8"
+    ]
+  },
+  {
+    "id": "DAZNF1.uk@Spain",
+    "name": "DAZN F1",
+    "country": "UK",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvorb.net/ZTV/6918-live.m3u8"
     ]
   }
 ]

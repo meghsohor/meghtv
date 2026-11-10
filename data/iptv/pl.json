@@ -819,16 +819,6 @@
     ]
   },
   {
-    "id": "TimelessDiziChannel.pl@SD",
-    "name": "Timeless Dizi Channel (1080p)",
-    "country": "PL",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/BG_Dizi_HD/video.m3u8"
-    ]
-  },
-  {
     "id": "Mango.pl@SD",
     "name": "Mango (1080p) [Geo-blocked]",
     "country": "PL",

@@ -413,7 +413,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8"
+      "https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8",
+      "https://live77cdn2.antenaplay.ro/live2_mireasaunu/live2_mireasaunu.m3u8"
     ]
   },
   {
@@ -2115,6 +2116,42 @@
     "visible": true,
     "urls": [
       "https://vs2131.vcdn.biz/07f4d8c8729f786dd1bb07d0512b71eb_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183161731/rsid/f5e3c4b1-6357-466d-bf95-eb6bc5453333/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.160*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MireasaPlus.ro@SD",
+    "name": "Mireasa+ (480p)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_mireasadoi/live2_mireasadoi.m3u8"
+    ]
+  },
+  {
+    "id": "SportExtra.ro@HD",
+    "name": "Sport Extra HD",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.180.26.103:80/stream/93/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannel.ro@SD",
+    "name": "Discovery Channel",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.180.26.103:80/stream/28/index.m3u8"
     ]
   }
 ]

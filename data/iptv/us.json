@@ -10706,6 +10706,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8",
       "https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8"
     ]
   },
@@ -12191,6 +12192,7 @@
     "visible": true,
     "urls": [
       "https://rvtv-on-freecast.b-cdn.net/RVTV-on-Freecast/index.m3u8",
+      "https://rvtv-orka.b-cdn.net/RVTV-ORKA/index.m3u8",
       "https://rvtv-stirr.b-cdn.net/rvtv-on-stirr/playlist.m3u8"
     ]
   },
@@ -12956,6 +12958,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://timelesstv1.b-cdn.net/hls/TimelessTV.m3u8",
       "https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8"
     ]
   },
@@ -14072,6 +14075,7 @@
     "visible": true,
     "urls": [
       "https://www-on-freecast.b-cdn.net/WWW-on-Freecast/index.m3u8",
+      "https://w3-orka.b-cdn.net/W3-ORKA/index.m3u8",
       "https://www-on-stirr.b-cdn.net/Wine-Watches-and-Whiskey/playlist.m3u8"
     ]
   },
@@ -22270,13 +22274,14 @@
   },
   {
     "id": "OnTV4U.us@SD",
-    "name": "OnTV4U (1080p) [Geo-blocked]",
+    "name": "OnTV4U (1080p)",
     "country": "US",
     "categories": [
       "shop"
     ],
     "visible": false,
     "urls": [
+      "https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8",
       "https://stirr.b-cdn.net/stirr/playlist.m3u8"
     ]
   },
@@ -25577,6 +25582,30 @@
     "visible": true,
     "urls": [
       "http://45.171.64.30:2000/play/a04o/index.m3u8"
+    ]
+  },
+  {
+    "id": "WOXTV.us@SD",
+    "name": "WOX TV (1080p)",
+    "country": "US",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8"
+    ]
+  },
+  {
+    "id": "VH1.us@East",
+    "name": "VH1 (1080p)",
+    "country": "US",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://23.237.104.106:8080/USA_VH1/index.m3u8"
     ]
   }
 ]

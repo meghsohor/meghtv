@@ -862,18 +862,6 @@
     ]
   },
   {
-    "id": "NashKinomir.de@SD",
-    "name": "Nash Kinomir (576p)",
-    "country": "DE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8"
-    ]
-  },
-  {
     "id": "NDRFernsehenInternational.de@SD",
     "name": "NDR Fernsehen International (720p)",
     "country": "DE",
@@ -1279,19 +1267,6 @@
     "visible": true,
     "urls": [
       "https://oneapp.b-cdn.net/1080p/index.m3u8"
-    ]
-  },
-  {
-    "id": "OstWest.de@SD",
-    "name": "Ost West (576p)",
-    "country": "DE",
-    "categories": [
-      "news",
-      "culture"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/OstWest/video.m3u8"
     ]
   },
   {

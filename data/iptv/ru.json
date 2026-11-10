@@ -2009,16 +2009,6 @@
     ]
   },
   {
-    "id": "OceanTV.ru@SD",
-    "name": "Ocean-TV (576p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Ocean_TV/video.m3u8"
-    ]
-  },
-  {
     "id": "Ohotnikirybolov.ru@SD",
     "name": "Ohotnik i rybolov (576i)",
     "country": "RU",
@@ -2940,18 +2930,6 @@
     ]
   },
   {
-    "id": "ShotTV.ru@SD",
-    "name": "Shot TV (576p)",
-    "country": "RU",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/SHOT_TV/video.m3u8"
-    ]
-  },
-  {
     "id": "Skorayapomoshch.ru@SD",
     "name": "Skoraya pomoshch (1080p)",
     "country": "RU",
@@ -3411,19 +3389,6 @@
     "visible": true,
     "urls": [
       "http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "TopSecret.ru@SD",
-    "name": "Top Secret (576p)",
-    "country": "RU",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8",
-      "http://str2.iptvhd.ru:8080/Sovershenno_sekretno/index.m3u8"
     ]
   },
   {
