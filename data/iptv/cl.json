@@ -357,13 +357,13 @@
   },
   {
     "id": "CanalClaro.cl@SD",
-    "name": "Canal Claro",
+    "name": "Canal Claro (720p)",
     "country": "CL",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://190.61.90.17:40000/play/a0fv/index.m3u8",
       "https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8",
+      "http://190.61.90.17:40000/play/a0fv/index.m3u8",
       "http://168.196.127.137:6001/play/a04l/index.m3u8"
     ]
   },

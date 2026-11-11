@@ -1711,18 +1711,6 @@
     ]
   },
   {
-    "id": "NHLAntenaPlay.ro@SD",
-    "name": "NHL AntenaPlay",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8"
-    ]
-  },
-  {
     "id": "TequilaMusicTV.ro@SD",
     "name": "Tequila Music TV",
     "country": "RO",
@@ -1756,18 +1744,6 @@
     "visible": true,
     "urls": [
       "https://vs2140.vcdn.biz/0ca68e9e27bff1ff8d23519b5d9acbfe_megogo/live/hls/b/700_2490_4000/u_sid/0/o/190218421/rsid/0ad6062a-da94-4998-9598-08eece834674/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/86.120.126.66*asn/u_srvc/109126/u_did/web_00eb8979dc50e08f4572830b5a96f2db28ddd9581263144fcb95c26c90424491/type.live/chunklist-sid9102974610344929476-b2490000.m3u8"
-    ]
-  },
-  {
-    "id": "HalloweenNonStop.ro@SD",
-    "name": "Halloween Non Stop (720p)",
-    "country": "RO",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live4dai.antenaplay.ro/live2_srt/live2_srt.m3u8"
     ]
   },
   {
@@ -2152,6 +2128,18 @@
     "visible": true,
     "urls": [
       "http://92.180.26.103:80/stream/28/index.m3u8"
+    ]
+  },
+  {
+    "id": "M9TVRomania.ro@SD",
+    "name": "M9TV Romania (576i)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://netstreaming.eu/m9tv.m3u8"
     ]
   }
 ]

@@ -5255,5 +5255,17 @@
     "urls": [
       "https://s6.hopslan.com/rtltupz/index.m3u8"
     ]
+  },
+  {
+    "id": "DMAX.de@HD",
+    "name": "DMAX HD (576p)",
+    "country": "DE",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://s6.hopslan.com/dmaxX/index.m3u8"
+    ]
   }
 ]

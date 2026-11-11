@@ -8,7 +8,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
+      "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
+      "http://45.166.93.156:9999/play/a0j2/index.m3u8"
     ]
   },
   {
@@ -105,6 +106,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8",
       "https://live20.bozztv.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8"
     ]
   },
@@ -449,6 +451,7 @@
     "urls": [
       "http://45.171.64.30:6060/play/a04k/index.m3u8",
       "https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8",
+      "http://45.166.93.156:9999/play/a0ff/index.m3u8",
       "http://190.61.90.17:40000/play/a0iw/index.m3u8"
     ]
   },
@@ -461,6 +464,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8",
       "https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8"
     ]
   },
@@ -544,6 +548,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatv/giatv-worldtvgt/worldtvgt/playlist.m3u8",
       "https://183.bozztv.com/giatv/giatv-worldtvgt/worldtvgt/playlist.m3u8"
     ]
   },

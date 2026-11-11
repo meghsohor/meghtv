@@ -8593,18 +8593,6 @@
     ]
   },
   {
-    "id": "NHBollyGold.in@HD",
-    "name": "NH BollyGold (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8"
-    ]
-  },
-  {
     "id": "NSC9News.in@SD",
     "name": "NSC9 News (1080p)",
     "country": "IN",
@@ -10402,15 +10390,15 @@
   },
   {
     "id": "DiscoveryChannel.in@HD",
-    "name": "Discovery Channel HD (720p)",
+    "name": "Discovery Channel HD (1080p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8",
-      "http://103.135.253.32:8080/DISCOVERY/index.m3u8"
+      "http://103.135.253.32:8080/DISCOVERY/index.m3u8",
+      "https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8"
     ]
   },
   {
@@ -10698,15 +10686,15 @@
   },
   {
     "id": "AnmolTV.in@SD",
-    "name": "Anmol TV (720p)",
+    "name": "Anmol TV (576p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8",
-      "https://fta.ektv.in/live/256/master.m3u8"
+      "https://fta.ektv.in/live/256/master.m3u8",
+      "https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8"
     ]
   },
   {

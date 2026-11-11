@@ -612,10 +612,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://170.244.209.30:8000/play/a1ic/index.m3u8",
       "http://190.93.224.42/EXITOSA/index.m3u8",
       "http://187.102.210.46/EXITOSA/index.m3u8",
-      "https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8"
+      "https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8",
+      "http://170.244.209.30:8000/play/a1ic/index.m3u8"
     ]
   },
   {
@@ -1059,8 +1059,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://170.244.209.30:8000/play/a1i8/index.m3u8",
       "http://195.178.110.110/movistar/index.m3u8",
+      "http://170.244.209.30:8000/play/a1i8/index.m3u8",
       "http://45.4.1.201:8000/play/a13e/index.m3u8"
     ]
   },
@@ -2033,9 +2033,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://170.244.209.30:8000/play/a1id/index.m3u8",
       "http://190.93.224.42/WILLAX/index.m3u8",
-      "http://187.102.210.46/WILLAX/index.m3u8"
+      "http://187.102.210.46/WILLAX/index.m3u8",
+      "http://170.244.209.30:8000/play/a1id/index.m3u8"
     ]
   },
   {
@@ -2133,9 +2133,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://170.244.209.30:8000/play/a1ib/index.m3u8",
       "http://187.102.208.209:8000/play/a0az/index.m3u8",
-      "http://190.108.91.206:9050/play/a0bd/index.m3u8"
+      "http://190.108.91.206:9050/play/a0bd/index.m3u8",
+      "http://170.244.209.30:8000/play/a1ib/index.m3u8"
     ]
   },
   {
@@ -2172,6 +2172,18 @@
     "visible": true,
     "urls": [
       "https://iptv.latremenda.pe/LaTremendaTv/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaInternacional.pe@SD",
+    "name": "America Internacional (720p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0"
     ]
   }
 ]

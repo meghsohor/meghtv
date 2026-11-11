@@ -643,5 +643,17 @@
     "urls": [
       "https://i.mjh.nz/.r/10-nicktoons-90s.m3u8"
     ]
+  },
+  {
+    "id": "Nickelodeon.au@SD",
+    "name": "Nickelodeon [Geo-blocked]",
+    "country": "AU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://i.mjh.nz/.r/10shake-nsw.m3u8"
+    ]
   }
 ]

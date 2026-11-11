@@ -2013,7 +2013,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8"
+      "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+      "http://57.128.225.206/stream/7/index.m3u8"
     ]
   },
   {
@@ -2836,7 +2837,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
+      "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+      "http://185.227.34.62/stream/17/index.m3u8"
     ]
   },
   {
@@ -3206,6 +3208,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://95.141.36.9:8080/stream/170/index.m3u8",
       "http://team-tv.co:81/raipremium/index.m3u8"
     ]
   },
@@ -3400,6 +3403,134 @@
     "visible": true,
     "urls": [
       "http://102.129.186.182:81/realtime/index.m3u8"
+    ]
+  },
+  {
+    "id": "Italia1.it@HD",
+    "name": "Italia 1 HD",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.227.34.62/stream/21/index.m3u8"
+    ]
+  },
+  {
+    "id": "Rete4.it@HD",
+    "name": "Rete 4 HD",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://185.227.34.62/stream/14/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaUno.it@SD",
+    "name": "Sky Cinema Uno",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/2/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaDue.it@SD",
+    "name": "Sky Cinema Due",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/10/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaCollection.it@SD",
+    "name": "Sky Cinema Collection",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/18/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaFamily.it@SD",
+    "name": "Sky Cinema Family",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/22/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaAction.it@SD",
+    "name": "Sky Cinema Action",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/26/index.m3u8"
+    ]
+  },
+  {
+    "id": "SkyCinemaSuspense.it@SD",
+    "name": "Sky Cinema Suspense",
+    "country": "IT",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://109.169.87.42:8080/stream/30/index.m3u8"
+    ]
+  },
+  {
+    "id": "RaiYoyo.it@SD",
+    "name": "Rai Yoyo",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://95.141.36.9:8080/stream/156/index.m3u8"
+    ]
+  },
+  {
+    "id": "BoingPlus.it@SD",
+    "name": "Boing Plus",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://95.141.36.9:8080/stream/181/index.m3u8"
+    ]
+  },
+  {
+    "id": "RadioMonteCarloTV.it@SD",
+    "name": "Radio Monte Carlo TV",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://95.141.36.9:8080/stream/180/index.m3u8"
     ]
   }
 ]

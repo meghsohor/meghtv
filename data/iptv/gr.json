@@ -830,5 +830,17 @@
     "urls": [
       "https://zouglacam-mdc-secure.akamaized.net/zouglalive/backup/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ANT1Satellite.gr@SD",
+    "name": "ANT1 Satellite",
+    "country": "GR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://194.156.236.36/stream/13/index.m3u8"
+    ]
   }
 ]
