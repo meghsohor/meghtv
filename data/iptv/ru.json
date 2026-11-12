@@ -110,6 +110,7 @@
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
+      "http://s1.merlive.am/telekafe/index.m3u8",
       "http://31.148.48.15/Telekafe/index.m3u8",
       "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
       "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
@@ -212,6 +213,7 @@
     "visible": true,
     "urls": [
       "http://stream.mcquack.net/263/index.m3u8",
+      "http://s1.merlive.am/black/index.m3u8",
       "http://str2.iptvhd.ru:8080/Sony_Turbo/index.m3u8"
     ]
   },
@@ -1254,6 +1256,7 @@
     "urls": [
       "http://stream.mcquack.net/278/index.m3u8",
       "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv",
+      "http://s1.merlive.am/Kinoujas/index.m3u8",
       "http://str2.iptvhd.ru:8080/kinoujas_tv/index.m3u8"
     ]
   },
@@ -3126,7 +3129,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8"
+      "https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8",
+      "http://s1.merlive.am/starsinema/index.m3u8"
     ]
   },
   {
@@ -3320,6 +3324,7 @@
       "http://stream.mcquack.net/111/index.m3u8",
       "https://live-3.otcnet.ru/Tiji/index.m3u8",
       "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
+      "http://s1.merlive.am/TiJi/index.m3u8",
       "http://str2.iptvhd.ru:8080/TiJi/index.m3u8"
     ]
   },
@@ -3827,7 +3832,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/225/index.m3u8"
+      "http://stream.mcquack.net/225/index.m3u8",
+      "http://s1.merlive.am/Jivaiapriroda/index.m3u8"
     ]
   },
   {
@@ -5164,7 +5170,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv",
+      "http://s1.merlive.am/matchplaneta/index.m3u8"
     ]
   },
   {
@@ -5453,13 +5460,14 @@
   },
   {
     "id": "TERRA.ru@SD",
-    "name": "Terra (576p)",
+    "name": "TERRA (1080p)",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
+      "http://s1.merlive.am/TerraHD/index.m3u8",
       "http://31.148.48.15/Terra/index.m3u8",
       "http://31.148.48.15/Terra_HD/index.m3u8",
       "http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8"
@@ -7088,6 +7096,19 @@
     "visible": true,
     "urls": [
       "https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "FONTV.ru@HD",
+    "name": "FON TV (1080p)",
+    "country": "RU",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8",
+      "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8"
     ]
   }
 ]

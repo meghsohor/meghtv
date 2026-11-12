@@ -2141,5 +2141,41 @@
     "urls": [
       "https://netstreaming.eu/m9tv.m3u8"
     ]
+  },
+  {
+    "id": "Prima4K.ro@UHD",
+    "name": "Prima 4K (2160p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://92.180.26.103/stream/80/index.m3u8"
+    ]
+  },
+  {
+    "id": "InfoHD.ro@SD",
+    "name": "Info HD (576i)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://netstreaming.eu/InfoHd.m3u8"
+    ]
+  },
+  {
+    "id": "TV1.ro@SD",
+    "name": "TV1 (576i)",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://netstreaming.eu/tv1.m3u8"
+    ]
   }
 ]

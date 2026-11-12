@@ -2394,5 +2394,17 @@
     "urls": [
       "https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8"
     ]
+  },
+  {
+    "id": "ESPNPremium.ar@SD",
+    "name": "ESPN Premium",
+    "country": "AR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8"
+    ]
   }
 ]

@@ -9265,6 +9265,7 @@
     "visible": true,
     "urls": [
       "https://247wlive.foxweather.com/stream/index.m3u8",
+      "https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8",
       "https://jmp2.uk/plu-640a68880e884c0009979cc2.m3u8",
       "https://pb-hum8cczphcrpf.akamaized.net/FOX_Weather.m3u8",
       "https://aegis-cloudfront-1.tubi.video/d4d03a5e-dd3e-4b9a-8b11-b86c88d717fe/index.m3u8"
@@ -10631,6 +10632,7 @@
       "https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1",
       "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8",
       "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8",
+      "https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8",
       "https://jmp2.uk/plu-63d025db4e83e700086eaa96.m3u8",
       "https://pb-k5p02dtnr2162.akamaized.net/LiveNOW_from_FOX.m3u8",
       "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/cb563d1e7f6c629098ce3c78d8f662ffa65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5cab6852db80148b6f4adafb8c2360625f5c98435ee3b24aa2f6e70c43d864f4ac481a922f58e68314c8c915ed808546cd45d574a3459ac1f789d414e03ba059816f639f943a581facb33bfefc53bfce9f6d79af6529521b4694dbf99c601df68ac7c19a85a6916aed07c6c9048c6525b2039935ea5879eb506bd58664a1aeb0cc4d4f7bd0aca3c6dbc297c2bed54f5a8963f5acecce60799cbc7312229a358b727e6ad895a16532f599d96d94a49410292c8466dacfab12c370d4c725bd28cfd5fd9b3c0d6d6b0d01875aada0a0ba43d255a7d41a2d504c0bf8d40584ceee573e664091931efa275be88bc5d3844e0cc36e4d0eb320c10d51258c157c6ce928ce9f3e47803245d0666ab50b63c00ad79018d88b97a50a32bedb8765fa6ce4ba4392d50abb62315c4de2a77a1115022d9ebe263e317fc257ed9c9fb2204753ba85b894aa6431093d18451fcbb3b702fca0f4694c468f035c231e7630990bd165da7a392326db11dea94939c5312823e2a8284e180bb2cda28a93d9da4ed727842f9c98999aee054f0c23d8a2a287e0fc99445f9f0ee59c/87/1280x720_2886400/index.m3u8"
@@ -13876,6 +13878,7 @@
     "visible": true,
     "urls": [
       "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8",
+      "https://aka-live1050.delivery.roku.com/90ba101a-eef0-4c48-b464-b5ef935b5dcb/t2-origin/out/v1/live.m3u8",
       "https://a-cdn.klowdtv.com/live3/weathernation_720p/playlist.m3u8",
       "https://stream.weathernationtv.com/WNTVStirr_eokxldieulowixkdimn/ND1/playlistSCTE35.m3u8"
     ]
@@ -20691,13 +20694,14 @@
   },
   {
     "id": "ScrippsNews.us@SD",
-    "name": "Scripps News (720p)",
+    "name": "Scripps News (1080p)",
     "country": "US",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://aka-live1050.delivery.roku.com/a48b72c9-5755-4ede-9dac-9e51e4ca5cc8/t2-origin/out/v1/live.m3u8",
       "https://jmp2.uk/plu-5459795fc9f133a519bc0bef.m3u8",
       "https://pb-syzbb4sicfx4g.akamaized.net/ScrippsNews_US.m3u8",
       "https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8",
@@ -22175,18 +22179,6 @@
     "visible": true,
     "urls": [
       "https://linear-688.frequency.stream/dist/stirr/688/hls/master/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "InTouchPlus.us",
-    "name": "In Touch+ (1080p) [Geo-blocked]",
-    "country": "US",
-    "categories": [
-      "religious"
-    ],
-    "visible": true,
-    "urls": [
-      "https://amg01540-amg01540c1-amgplt0095.playout.now3.amagi.tv/playlist.m3u8"
     ]
   },
   {
@@ -24522,7 +24514,7 @@
   },
   {
     "id": "CartoonNetwork.us@East",
-    "name": "Cartoon Network (720p) [Geo-blocked]",
+    "name": "Cartoon Network [Not 24/7;Geo-blocked]",
     "country": "US",
     "categories": [
       "animation",
@@ -24530,8 +24522,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://212.5.144.156:8080/cartoon/index.m3u8",
       "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8",
+      "http://212.5.144.156:8080/cartoon/index.m3u8",
       "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
     ]
   },
@@ -25230,6 +25222,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-211227/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-211227/playlist.m3u8"
     ]
   },
@@ -25592,6 +25585,60 @@
     "visible": true,
     "urls": [
       "https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetwork.us@West",
+    "name": "Cartoon Network West (1080p) [Geo-blocked]",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://212.5.144.156:8080/cartoon/index.m3u8"
+    ]
+  },
+  {
+    "id": "ScaresbyShudder.us@SD",
+    "name": "Scares by Shudder (1080p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://wurlrainbowmedia.global.transmit.live/hls/68c49e4709574e8405506cb3/v1/amc_scaresbyshudder_1/lg_us/latest/main/hls/playlist.m3u8",
+      "https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951349/hls/playlist.m3u8?ads.xumo_channelId=99951349",
+      "https://e9ee87fcc9f2409f998e7aa106f64672.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Vizio_ScaresbyShudder/playlist.m3u8",
+      "https://aka-live1050.delivery.roku.com/bf4fff9b-e81f-4dcb-baaf-71b75e091599/t2-origin/out/v1/live.m3u8"
+    ]
+  },
+  {
+    "id": "OnPatrolLive.us",
+    "name": "On Patrol: Live (720p)",
+    "country": "US",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live3/onpatrol_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ReelzFamousInfamous.us",
+    "name": "Reelz Famous & Infamous (720p)",
+    "country": "US",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://a-cdn.klowdtv.com/live3/famousandinfamous_720p/playlist.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/dfd312a3-99b3-45fe-89b2-d20579fee2e9/playlist.m3u8",
+      "https://linear-190.frequency.stream/dist/xumo/190/hls/master/playlist.m3u8"
     ]
   }
 ]
