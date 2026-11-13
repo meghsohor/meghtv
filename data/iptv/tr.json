@@ -2342,5 +2342,17 @@
     "urls": [
       "http://85.117.61.84/cnnturk/index.m3u8"
     ]
+  },
+  {
+    "id": "SozcuTV.tr@SD",
+    "name": "Sozcu TV (1080p)",
+    "country": "TR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8"
+    ]
   }
 ]

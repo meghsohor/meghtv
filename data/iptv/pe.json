@@ -2197,5 +2197,29 @@
     "urls": [
       "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium2_abr/playlist.m3u8"
     ]
+  },
+  {
+    "id": "BicolorPlus.pe@SD",
+    "name": "Bicolor+ (720p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorfree_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BicolorPlusPremium3.pe@SD",
+    "name": "Bicolor+ Premium 3 (720p)",
+    "country": "PE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium3_abr/playlist.m3u8"
+    ]
   }
 ]

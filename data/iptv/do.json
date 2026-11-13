@@ -1,13 +1,14 @@
 [
   {
     "id": "A7TV.do@HD",
-    "name": "A7 TV (1080p)",
+    "name": "A7 TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/a7tvjarabacoa/playlist.m3u8",
       "https://183.bozztv.com/ssh101/ssh101/a7tvjarabacoa/playlist.m3u8"
     ]
   },
@@ -25,13 +26,14 @@
   },
   {
     "id": "AdoramTV.do@SD",
-    "name": "Adoram TV (720p)",
+    "name": "Adoram TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatv/giatv-adoram/adoram/playlist.m3u8",
       "https://live20.bozztv.com/giatv/giatv-adoram/adoram/chunks.m3u8"
     ]
   },
@@ -359,6 +361,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/canalmulti24/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/canalmulti24/playlist.m3u8"
     ]
   },
@@ -594,13 +597,14 @@
   },
   {
     "id": "ConstanzaTV.do@SD",
-    "name": "ConstanzaTV (1080p) [Not 24/7]",
+    "name": "ConstanzaTV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/ctv8hd/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/ctv8hd/playlist.m3u8"
     ]
   },
@@ -1186,13 +1190,14 @@
   },
   {
     "id": "LaVozdeJesusHD.do@HD",
-    "name": "La Voz de Jesus HD (720p)",
+    "name": "La Voz de Jesus HD (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208429/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8"
     ]
   },
@@ -1466,13 +1471,14 @@
   },
   {
     "id": "MontonesTV.do@HD",
-    "name": "Montones TV (1080p)",
+    "name": "Montones TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/montonestv1/playlist.m3u8",
       "https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8"
     ]
   },
@@ -2171,6 +2177,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://hls.tvabierta.net/hls/023.m3u8",
       "http://190.122.104.210:5080/LiveApp/streams/tfuturo.m3u8"
     ]
   },
@@ -2395,13 +2402,14 @@
   },
   {
     "id": "TomAndJerry.do@HD",
-    "name": "Tom And Jerry (720p)",
+    "name": "Tom And Jerry (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8"
     ]
   },
@@ -2443,13 +2451,14 @@
   },
   {
     "id": "TurismoHD.do@HD",
-    "name": "Turismo HD (720p)",
+    "name": "Turismo HD (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8"
     ]
   },
@@ -2487,6 +2496,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/tvcotui/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/tvcotui/playlist.m3u8"
     ]
   },
@@ -2812,6 +2822,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_a193cbb0a9f711f199075bad3dcd9dda/index.fmp4.m3u8",
       "https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_62c23ce08a8b11f1a955e58b585fd65f/index.fmp4.m3u8"
     ]
   },

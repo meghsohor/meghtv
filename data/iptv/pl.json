@@ -1585,13 +1585,14 @@
   },
   {
     "id": "TVPSport.pl@SD",
-    "name": "TVP Sport (1080p)",
+    "name": "TVP Sport (1080p) [Not 24/7]",
     "country": "PL",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "rtsp://213.189.46.75/wmt-14963-1.sdp",
       "http://57.128.210.196:8080/134/index.m3u8"
     ]
   },

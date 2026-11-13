@@ -1234,5 +1234,15 @@
     "urls": [
       "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8"
     ]
+  },
+  {
+    "id": "PaighamTelevision.pk@SD",
+    "name": "Paigham Television (576p)",
+    "country": "PK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://samitaorigin.tangotv.in/PAIGAMTV/SAMITAORIGIN/index.m3u8"
+    ]
   }
 ]

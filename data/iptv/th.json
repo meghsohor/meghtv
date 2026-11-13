@@ -809,5 +809,17 @@
     "urls": [
       "https://lb1-live-mv.v2h-cdn.com/hls/ffcd/thaibaan/thaibaan.m3u8"
     ]
+  },
+  {
+    "id": "Boomerang.th@SD",
+    "name": "Boomerang",
+    "country": "TH",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live-us1.thaimomo.com/live-as/chboomerang-2/chunklist_w135479847.m3u8"
+    ]
   }
 ]

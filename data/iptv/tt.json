@@ -71,5 +71,17 @@
     "urls": [
       "https://5d00db0e0fcd5.streamlock.net/7410/7410/playlist.m3u8"
     ]
+  },
+  {
+    "id": "AtlanticTV.tt@SD",
+    "name": "Atlantic TV [Not 24/7]",
+    "country": "TT",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://trinicricket.com/hls/0/stream.m3u8"
+    ]
   }
 ]

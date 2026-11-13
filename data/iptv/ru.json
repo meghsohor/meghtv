@@ -7110,5 +7110,17 @@
       "https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8",
       "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8"
     ]
+  },
+  {
+    "id": "Rybalkaiokhota.ru@SD",
+    "name": "Rybalka i okhota (576p)",
+    "country": "RU",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fs.uplink.kz/ohota_i_ribalka/index.m3u8?token=onlinetv2"
+    ]
   }
 ]
