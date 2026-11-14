@@ -11455,18 +11455,6 @@
     ]
   },
   {
-    "id": "Nickelodeon.us@East",
-    "name": "Nickelodeon (720p)",
-    "country": "US",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://198.58.104.90:8989/nickelodeon/index.m3u8"
-    ]
-  },
-  {
     "id": "NickelodeonLatinAmerica.us@Panregional",
     "name": "Nickelodeon Latin America (1080p)",
     "country": "US",

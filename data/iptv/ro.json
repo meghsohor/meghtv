@@ -896,18 +896,6 @@
     ]
   },
   {
-    "id": "ComedyCentral.ro@SD",
-    "name": "Comedy Central",
-    "country": "RO",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://saruman1.tharen1.cfd/comedi/usergenrx7zo1kr.m3u8"
-    ]
-  },
-  {
     "id": "TimelessDiziChannel.ro@SD",
     "name": "Timeless Dizi Channel",
     "country": "RO",
@@ -1094,19 +1082,6 @@
     ]
   },
   {
-    "id": "HelloTaste.ro@SD",
-    "name": "Hello Taste",
-    "country": "RO",
-    "categories": [
-      "cooking"
-    ],
-    "visible": true,
-    "urls": [
-      "https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/30ddffe9-87f0-4dc7-b0fe-8f0e12044f3e:GRQ/variant/c209b0d3694ace6f439e2179fdad8e66/bandwidth/2628000.m3u8",
-      "https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8"
-    ]
-  },
-  {
     "id": "Minimax.ro@SD",
     "name": "Minimax",
     "country": "RO",
@@ -1228,18 +1203,6 @@
     ]
   },
   {
-    "id": "HappyChannel.ro@SD",
-    "name": "Happy Channel",
-    "country": "RO",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live4dai.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_600k.m3u8"
-    ]
-  },
-  {
     "id": "TraLaLaTV.ro@SD",
     "name": "TraLaLa TV",
     "country": "RO",
@@ -1284,18 +1247,6 @@
     "visible": true,
     "urls": [
       "https://hls02ns.antenaplay.ro/hls/inedit-tv-hd/index.m3u8"
-    ]
-  },
-  {
-    "id": "Antena1.ro@SD",
-    "name": "Antena 1",
-    "country": "RO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://live4dai.antenaplay.ro/live2_sdi14/live2_sdi14_600k.m3u8"
     ]
   },
   {
@@ -2199,6 +2150,18 @@
     "visible": true,
     "urls": [
       "https://stream1.antenaplay.ro/promo/formula-1-las-vegas-20-2211/chunklist.m3u8"
+    ]
+  },
+  {
+    "id": "NHLAntenaPlay.ro@SD",
+    "name": "NHL AntenaPlay (576i) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream1.antenaplay.ro/promo/nhl-12-1411/chunklist.m3u8"
     ]
   }
 ]

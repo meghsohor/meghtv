@@ -1593,7 +1593,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la2.m3u8"
     ]
   },
   {
@@ -2962,13 +2963,14 @@
   },
   {
     "id": "Antena3.es@National",
-    "name": "Antena 3",
+    "name": "Antena 3 (480p)",
     "country": "ES",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd",
       "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd"
     ]
   },
@@ -3518,6 +3520,66 @@
     "visible": true,
     "urls": [
       "http://90.163.85.113:8093/stream/51/index.m3u8"
+    ]
+  },
+  {
+    "id": "Atreseries.es@SD",
+    "name": "Atreseries (480p)",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3s.mpd"
+    ]
+  },
+  {
+    "id": "LaSexta.es@SD",
+    "name": "La Sexta (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la6.mpd"
+    ]
+  },
+  {
+    "id": "Nova.es@SD",
+    "name": "Nova (1080p)",
+    "country": "ES",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/nova.mpd"
+    ]
+  },
+  {
+    "id": "Mega.es@SD",
+    "name": "Mega (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/mega.mpd"
+    ]
+  },
+  {
+    "id": "Neox.es@SD",
+    "name": "Neox (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/neox.mpd"
     ]
   }
 ]

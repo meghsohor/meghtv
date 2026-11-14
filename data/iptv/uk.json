@@ -872,20 +872,6 @@
     ]
   },
   {
-    "id": "BBCThreeCBBC.uk@HD",
-    "name": "BBC Three/CBBC (720p)",
-    "country": "UK",
-    "categories": [
-      "family",
-      "kids",
-      "animation"
-    ],
-    "visible": true,
-    "urls": [
-      "http://193.46.58.239:8080/CBBCHD/index.m3u8"
-    ]
-  },
-  {
     "id": "BBCTwo.uk@HD",
     "name": "BBC Two HD (720p) [Geo-blocked]",
     "country": "UK",
@@ -2300,18 +2286,6 @@
     ]
   },
   {
-    "id": "BBCThree.uk@HD",
-    "name": "BBC Three HD",
-    "country": "UK",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cdn.stmify.com/bbc/stream/BBC_THREE/hevc_iptv_mse_v0.mpd"
-    ]
-  },
-  {
     "id": "BBCTwo.uk@Wales",
     "name": "BBC Two Wales (720p) [Geo-blocked]",
     "country": "UK",
@@ -2361,18 +2335,6 @@
     "urls": [
       "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/pc_hd_abr_v2.m3u8",
       "https://cdn.stmify.com/bbc/stream/BBC_TWO_NORTHERN_IRELAND/hevc_iptv_mse_v0.mpd"
-    ]
-  },
-  {
-    "id": "NickelodeonGlobal.uk@SD",
-    "name": "Nickelodeon Global (576p)",
-    "country": "UK",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a017/index.m3u8?hls"
     ]
   },
   {

@@ -171,13 +171,14 @@
   },
   {
     "id": "Nickelodeon.hr@SD",
-    "name": "Nickelodeon (1080p)",
+    "name": "Nickelodeon (720p)",
     "country": "HR",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://5.175.174.49:1234/stream/maxtvhr/nickelodeonhr/master.m3u8",
       "http://176.61.157.250/Nickelodeon/index.m3u8"
     ]
   },
@@ -308,7 +309,20 @@
     ],
     "visible": true,
     "urls": [
-      "http://176.61.157.250/NickJr/index.m3u8"
+      "http://176.61.157.250/NickJr/index.m3u8",
+      "http://5.175.174.49:1234/stream/maxtvhr/nickjrhr/master.m3u8"
+    ]
+  },
+  {
+    "id": "NicktoonsAdria.hr@SD",
+    "name": "Nicktoons Adria (528p)",
+    "country": "HR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://5.175.174.49:1234/stream/maxtvhr/nicktoonshr-1/master.m3u8"
     ]
   }
 ]
