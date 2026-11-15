@@ -668,16 +668,16 @@
   },
   {
     "id": "Teletica7.cr@SD",
-    "name": "Teletica 7 (1080p)",
+    "name": "Teletica 7 (720p) [Not 24/7]",
     "country": "CR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://190.61.101.11:7050/play/a07t/index.m3u8",
       "http://181.119.177.253:8000/play/a0da",
-      "https://cdn01.teletica.com/TeleticaLiveStream/Stream/playlist_dvr.m3u8"
+      "https://cdn01.teletica.com/TeleticaLiveStream/Stream/playlist_dvr.m3u8",
+      "http://190.61.101.11:7050/play/a07t/index.m3u8"
     ]
   },
   {

@@ -496,5 +496,27 @@
     "urls": [
       "http://149.100.11.252:8000/play/a056/index.m3u8"
     ]
+  },
+  {
+    "id": "StarWorldMiddleEast.ae@SD",
+    "name": "Star World Middle East (720p)",
+    "country": "AE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.159:3342/ar-s/STAR-World-HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonArabia.ae@SD",
+    "name": "Nickelodeon Arabia (1080i)",
+    "country": "AE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8"
+    ]
   }
 ]

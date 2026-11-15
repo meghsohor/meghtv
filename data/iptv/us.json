@@ -6283,7 +6283,8 @@
     "urls": [
       "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
       "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8",
-      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8"
+      "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8",
+      "http://38.107.110.140:61400/play/a07a/index.m3u8"
     ]
   },
   {
@@ -7533,19 +7534,6 @@
     ]
   },
   {
-    "id": "AXNBlack.us@Romania",
-    "name": "AXN Black Romania",
-    "country": "US",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8",
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6952/index.m3u8"
-    ]
-  },
-  {
     "id": "AXNLatinAmerica.us@Panregional",
     "name": "AXN Latin America (1080p)",
     "country": "US",
@@ -7598,19 +7586,6 @@
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/axn.stream/chunks.m3u8",
       "http://45.228.235.116:8000/play/a0iy/index.m3u8",
       "http://181.78.12.119:16123/play/ch46/index.m3u8"
-    ]
-  },
-  {
-    "id": "AXNWhite.us@SD",
-    "name": "AXN White",
-    "country": "US",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8",
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8"
     ]
   },
   {
@@ -8912,6 +8887,7 @@
       "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
       "https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8",
       "http://212.5.144.156/disneyjr/index.m3u8",
+      "https://tvnow.hostless.app/disney-junior.m3u8",
       "https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F212.5.144.156%3A8080%2Fdisneyjr%2Ftracks-v1a1%2Fmono.m3u8"
     ]
   },
@@ -8925,6 +8901,7 @@
     "visible": true,
     "urls": [
       "http://89.187.179.148:826/1368/gXwiagaXda/1672",
+      "https://tvnow.hostless.app/disney-xd.m3u8",
       "http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8"
     ]
   },
@@ -11119,6 +11096,7 @@
       "http://190.93.224.42/NAT-GEO/index.m3u8",
       "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8",
       "http://181.78.79.131:8000/play/a0pt",
+      "http://181.78.12.119:16123/play/ch30",
       "http://181.119.66.28:8081/NATGEO-HD/index.m3u8"
     ]
   },
@@ -11451,7 +11429,8 @@
     "visible": true,
     "urls": [
       "http://212.5.144.156:8080/nickjr/index.m3u8",
-      "http://tvsen7.aynascope.net/nickjr/index.m3u8"
+      "http://tvsen7.aynascope.net/nickjr/index.m3u8",
+      "https://tvnow.hostless.app/nick-jr.m3u8"
     ]
   },
   {
@@ -11467,6 +11446,7 @@
       "http://190.93.224.42/NICK/index.m3u8",
       "http://190.234.82.52:8000/play/a0ke/index.m3u8",
       "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
+      "http://181.224.255.210:8001/play/a0fm",
       "http://15.204.246.24:8080/NickHD/index.m3u8",
       "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
     ]
@@ -11481,7 +11461,8 @@
     "visible": true,
     "urls": [
       "http://41.205.93.154/NICKTOONS/index.m3u8",
-      "https://tvsen7.aynascope.net/nicktoons/index.m3u8"
+      "https://tvsen7.aynascope.net/nicktoons/index.m3u8",
+      "https://tvnow.hostless.app/nicktoons.m3u8"
     ]
   },
   {
@@ -14928,6 +14909,7 @@
     "visible": true,
     "urls": [
       "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8",
+      "https://amc-amcespanol-1-us.plex.wurl.tv/playlist.m3u8",
       "https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8"
     ]
   },
@@ -15216,18 +15198,6 @@
     ]
   },
   {
-    "id": "WWENetwork.us@SD",
-    "name": "WWE Network (1080p)",
-    "country": "US",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a00p/index.m3u8?hls"
-    ]
-  },
-  {
     "id": "AXNBlack.us@Hungary",
     "name": "AXN Black Hungary (576p)",
     "country": "US",
@@ -15289,6 +15259,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208138/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8"
     ]
   },
@@ -15301,6 +15272,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208730/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8"
     ]
   },
@@ -15313,6 +15285,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-208817/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8"
     ]
   },
@@ -15325,6 +15298,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-209909/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8"
     ]
   },
@@ -15337,6 +15311,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-209163/playlist.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8"
     ]
   },
@@ -24473,7 +24448,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://190.61.47.54:8000/play/a004/index.m3u8"
+      "http://190.61.47.54:8000/play/a004/index.m3u8",
+      "http://181.78.211.244:8005/play/a08q/index.m3u8"
     ]
   },
   {
@@ -24512,6 +24488,7 @@
     "visible": true,
     "urls": [
       "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8",
+      "https://tvnow.hostless.app/cartoon-network.m3u8",
       "http://212.5.144.156:8080/cartoon/index.m3u8",
       "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
     ]
@@ -25309,7 +25286,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://4.30.180.36:8420/disneychannel/index.m3u8?token=test"
+      "http://4.30.180.36:8420/disneychannel/index.m3u8?token=test",
+      "https://tvnow.hostless.app/disney-channel.m3u8"
     ]
   },
   {
@@ -25628,6 +25606,66 @@
       "https://a-cdn.klowdtv.com/live3/famousandinfamous_720p/playlist.m3u8",
       "https://aegis-cloudfront-1.tubi.video/dfd312a3-99b3-45fe-89b2-d20579fee2e9/playlist.m3u8",
       "https://linear-190.frequency.stream/dist/xumo/190/hls/master/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "StarAction.us@SD",
+    "name": "Star Action (720p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.159:3342/ar-s/STAR-Action-HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "DiscoveryChannelMiddleEastAfrica.us@SD",
+    "name": "Discovery Channel Middle East & Africa (720p)",
+    "country": "US",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.237.89.159:3342/ar-s/Discovery-HD/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.us@East",
+    "name": "Nickelodeon (1080p)",
+    "country": "US",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvnow.hostless.app/nickelodeon.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.us@East",
+    "name": "Comedy Central (1080p)",
+    "country": "US",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvnow.hostless.app/comedy-central.m3u8"
+    ]
+  },
+  {
+    "id": "TheGrioTV.us@FAST",
+    "name": "TheGrio TV FAST (720p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://blacknewschannel-vizio.amagi.tv/playlist.m3u8",
+      "https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8",
+      "https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8"
     ]
   }
 ]

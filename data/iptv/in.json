@@ -814,10 +814,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://tvsen7.aynascope.net/AssamTalks/index.m3u8",
       "https://cdn.pishow.tv/ott/live/258/master.m3u8",
       "https://fta.ektv.in/live/675/master.m3u8",
-      "https://mumt05.tangotv.in/87NeALx2ASSAMTALKS/index.m3u8"
+      "https://mumt05.tangotv.in/87NeALx2ASSAMTALKS/index.m3u8",
+      "http://tvsen7.aynascope.net/AssamTalks/index.m3u8"
     ]
   },
   {
@@ -5175,19 +5175,6 @@
     ]
   },
   {
-    "id": "Unite8Sports2.in@SD",
-    "name": "Unite8 Sports 2 (576p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01m/index.m3u8?hls",
-      "http://59.103.38.46:8000/play/a126/index.m3u8"
-    ]
-  },
-  {
     "id": "UTVPalakkad.in@SD",
     "name": "UTV Palakkad (1080p)",
     "country": "IN",
@@ -7348,9 +7335,9 @@
     "visible": true,
     "urls": [
       "https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8",
-      "https://d2gvyg6lvauoko.cloudfront.net/230226/brknews/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
       "https://mumt03.tangotv.in/Dsly5z3HBRKNEWS/index.m3u8",
       "https://cdn.pishow.tv/ott/live/1037/master.m3u8",
+      "https://d2gvyg6lvauoko.cloudfront.net/230226/brknews/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
       "http://51.75.127.199:3141/brknews/index.m3u8"
     ]
   },
@@ -7784,32 +7771,6 @@
     "visible": true,
     "urls": [
       "https://stmv6.voxtvhd.com.br/cinehindi/cinehindi/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "SonySportsTen3Hindi.in@SD",
-    "name": "Sony Sports Ten 3 Hindi (576p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01t/index.m3u8?hls",
-      "https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
-    ]
-  },
-  {
-    "id": "SonyPix.in@HD",
-    "name": "Sony Pix HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01d/index.m3u8?hls",
-      "https://cloudplay-sonyliv.pages.dev/pixhd.m3u8"
     ]
   },
   {
@@ -9217,46 +9178,6 @@
     ]
   },
   {
-    "id": "StarSports2.in@SD",
-    "name": "Star Sports 2 (576p)",
-    "country": "IN",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a019/index.m3u8?hls",
-      "http://103.151.60.162:2122/play/a00v/index.m3u8?hls",
-      "http://51.75.127.199:3141/starsports2/index.m3u8"
-    ]
-  },
-  {
-    "id": "DisneyJunior.in@SD",
-    "name": "Disney Junior (576p)",
-    "country": "IN",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a016/index.m3u8?hls",
-      "http://51.75.127.199:3141/disneyjunior/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZeeTV.in@SD",
-    "name": "Zee TV (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01u/index.m3u8?hls",
-      "http://51.75.127.199:3141/zeetv/index.m3u8"
-    ]
-  },
-  {
     "id": "AsianetMovies.in@SD",
     "name": "Asianet Movies (396p)",
     "country": "IN",
@@ -9295,17 +9216,6 @@
       "https://livetv.shamon-cable.net:8443/Colors-bangla-cinema/index.m3u8",
       "http://103.151.60.162:2122/play/a02m/index.m3u8?hls",
       "http://51.75.127.199:3141/colorsbanglacinema/index.m3u8"
-    ]
-  },
-  {
-    "id": "Superhitz.in@SD",
-    "name": "Superhitz (576p)",
-    "country": "IN",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a02f/index.m3u8?hls",
-      "http://51.75.127.199:3141/sunbangla/index.m3u8"
     ]
   },
   {
@@ -9374,19 +9284,6 @@
     "urls": [
       "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8",
       "http://51.75.127.199:3141/colorssd/index.m3u8"
-    ]
-  },
-  {
-    "id": "ColorsInfinity.in@HD",
-    "name": "Colors Infinity HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a02r/index.m3u8?hls",
-      "http://51.75.127.199:3141/colorsinfinityhd/index.m3u8"
     ]
   },
   {
@@ -9624,18 +9521,6 @@
     ]
   },
   {
-    "id": "DisneyInternationalHD.in@SD",
-    "name": "Disney International HD (576p)",
-    "country": "IN",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a018/index.m3u8?hls"
-    ]
-  },
-  {
     "id": "MoviesNow.in@HD",
     "name": "Movies Now HD (576p)",
     "country": "IN",
@@ -9647,19 +9532,6 @@
       "http://27.124.71.27/Movies_Now/index.m3u8",
       "http://103.135.253.32:8080/MOVIES-NOW/index.m3u8",
       "http://103.151.60.162:2122/play/a02w/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "SonyEntertainmentTelevision.in@SD",
-    "name": "Sony Entertainment Television (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01o/index.m3u8?hls",
-      "http://103.151.60.162:2122/play/a015/index.m3u8?hls"
     ]
   },
   {
@@ -9701,54 +9573,6 @@
       "https://livetv.shamon-cable.net:8443/Z-Cinema/index.m3u8",
       "http://103.151.60.162:2122/play/a012/index.m3u8?hls",
       "http://103.151.60.162:2122/play/a024/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "StarGold2.in@HD",
-    "name": "Star Gold 2 HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01v/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "EpicParivar.in@SD",
-    "name": "Epic Parivar (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01p/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "ZeeBangla.in@SD",
-    "name": "Zee Bangla (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a011/index.m3u8?hls"
-    ]
-  },
-  {
-    "id": "StarKiran.in@SD",
-    "name": "Star Kiran (576p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a032/index.m3u8?hls"
     ]
   },
   {

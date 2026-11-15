@@ -834,19 +834,6 @@
     ]
   },
   {
-    "id": "BBCNews.uk@AsiaPacific",
-    "name": "BBC News Asia Pacific (576p)",
-    "country": "UK",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a0fl/index.m3u8?hls",
-      "https://thinkkast.dpdns.org/thinkkast/bbcworld_news_sd/versiglia/index.m3u8"
-    ]
-  },
-  {
     "id": "BBCNews.uk@UKHD",
     "name": "BBC News UK HD (1080p)",
     "country": "UK",
@@ -2049,54 +2036,6 @@
     "visible": true,
     "urls": [
       "https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8"
-    ]
-  },
-  {
-    "id": "BBCEarth.uk@Romania",
-    "name": "BBC Earth Romania",
-    "country": "UK",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8"
-    ]
-  },
-  {
-    "id": "AMCEurope.uk@Romania",
-    "name": "AMC Europe Romania",
-    "country": "UK",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://iron1.jarvisx1.cfd/amece/usergenrx3oq1kr.m3u8"
-    ]
-  },
-  {
-    "id": "BBCFirst.uk@Romania",
-    "name": "BBC First Romania",
-    "country": "UK",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8"
-    ]
-  },
-  {
-    "id": "ViasatEpicDrama.uk@Romania",
-    "name": "Viasat Epic Drama Romania",
-    "country": "UK",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://atlantida1.aquax1.cfd/epi/usergendxt1v8klq6rnd.m3u8"
     ]
   },
   {

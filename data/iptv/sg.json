@@ -195,18 +195,6 @@
     ]
   },
   {
-    "id": "HITSMovies.sg@SD",
-    "name": "HITS Movies (576p)",
-    "country": "SG",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.151.60.162:2122/play/a01h/index.m3u8?hls"
-    ]
-  },
-  {
     "id": "Channel5.sg@SD",
     "name": "Channel 5 (720p)",
     "country": "SG",

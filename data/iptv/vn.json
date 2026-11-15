@@ -541,22 +541,6 @@
     ]
   },
   {
-    "id": "TraVinhTV.vn@SD",
-    "name": "Tra Vinh TV (1080p)",
-    "country": "VN",
-    "categories": [
-      "culture",
-      "entertainment",
-      "music",
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://freem3u.xyz/api/live/play.m3u8?vid=91",
-      "https://dethich.pw/thvl5/index.m3u8"
-    ]
-  },
-  {
     "id": "TVBVietnam.vn@SD",
     "name": "TVB Vietnam (1080p)",
     "country": "VN",
@@ -1155,6 +1139,19 @@
     "visible": true,
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=186"
+    ]
+  },
+  {
+    "id": "ONVFamily.vn@SD",
+    "name": "ON V Family (480p)",
+    "country": "VN",
+    "categories": [
+      "entertainment",
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vmttv.dpdns.org/tv360?id=187"
     ]
   }
 ]

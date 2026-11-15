@@ -180,5 +180,41 @@
     "urls": [
       "http://31.47.0.130:8082"
     ]
+  },
+  {
+    "id": "AdriaticSport1.ba@SD",
+    "name": "Adriatic Sport 1",
+    "country": "BA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=3645291205"
+    ]
+  },
+  {
+    "id": "AdriaticSport2.ba@SD",
+    "name": "Adriatic Sport 2",
+    "country": "BA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=2665922581"
+    ]
+  },
+  {
+    "id": "AdriaticSport3.ba@SD",
+    "name": "Adriatic Sport 3",
+    "country": "BA",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=2743527845"
+    ]
   }
 ]

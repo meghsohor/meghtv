@@ -122,18 +122,20 @@
       "https://jmp2.uk/plu-60d3583ef310610007fb02b1.m3u8",
       "https://iptv.bitred.cl/euronews/index.m3u8",
       "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8",
+      "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
       "https://jmp2.uk/plu-619d59b7cbef25000728221c.m3u8"
     ]
   },
   {
     "id": "6ter.fr@SD",
-    "name": "6ter (1080p)",
+    "name": "6ter (720p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/6ter_fr/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/6ter/index.m3u8",
       "http://145.239.5.177/314/index.m3u8"
     ]
@@ -259,6 +261,7 @@
     "urls": [
       "http://5.180.164.197:8080/ARTEFR/index.m3u8",
       "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/arte_fr/live.livx/playlist.m3u8",
       "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/3264727f/d0a3cb71.isml/.m3u8",
       "http://145.239.5.177/300/index.m3u8"
     ]
@@ -563,7 +566,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://85.14.32.26:8800/udp/239.100.10.144:5000"
+      "http://85.14.32.26:8800/udp/239.100.10.144:5000",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -599,6 +603,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/France_4/index.m3u8",
       "http://176.65.146.100:8047/play/a074/index.m3u8"
     ]
@@ -612,6 +617,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_5/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/France_5/index.m3u8",
       "http://145.239.5.177/305/index.m3u8"
     ]
@@ -888,13 +894,14 @@
   },
   {
     "id": "MTV.fr@SD",
-    "name": "MTV",
+    "name": "MTV (720p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mtv/live.livx/playlist.m3u8",
       "http://99.27.51.147:8080/MTV/index.m3u8"
     ]
   },
@@ -1078,6 +1085,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tfx/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/TFX/index.m3u8",
       "http://145.239.5.177/315/index.m3u8"
     ]
@@ -1539,13 +1547,14 @@
   },
   {
     "id": "Franceinfo.fr@SD",
-    "name": "Franceinfo (1080p)",
+    "name": "Franceinfo (720p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/franceinfo:/index.m3u8",
       "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8"
     ]
@@ -2495,6 +2504,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1_series_films/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/TF1_Series_Films/index.m3u8"
     ]
   },
@@ -2507,18 +2517,20 @@
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/France_2/index.m3u8"
     ]
   },
   {
     "id": "NOVO19.fr@HD",
-    "name": "NOVO19 (1080p)",
+    "name": "NOVO19 (720p)",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/novo_19/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/NOVO19/index.m3u8"
     ]
   },
@@ -2531,6 +2543,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/lci/live.livx/playlist.m3u8",
       "http://149.62.177.107:9999/LCI/index.m3u8"
     ]
   },
@@ -2820,6 +2833,102 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport1.fr@Italy",
+    "name": "Eurosport 1 Italy",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@Italy",
+    "name": "Eurosport 2 Italy (540p)",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Eurosport2.fr@UK",
+    "name": "Eurosport 2 UK",
+    "country": "FR",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.fr@SD",
+    "name": "Comedy Central (720p)",
+    "country": "FR",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/comedy_central/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Boomerang.fr@HD",
+    "name": "Boomerang HD (720p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://41.205.93.154/BOOMERANG/index.m3u8"
+    ]
+  },
+  {
+    "id": "Nicktoons.fr@SD",
+    "name": "Nicktoons (720p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nicktoons/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.fr@SD",
+    "name": "Nickelodeon (720p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonJunior.fr@SD",
+    "name": "Nickelodeon Junior (720p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8"
     ]
   }
 ]

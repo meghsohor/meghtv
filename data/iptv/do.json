@@ -257,13 +257,14 @@
   },
   {
     "id": "CamuTV.do@SD",
-    "name": "Camu TV (480p) [Not 24/7]",
+    "name": "Camu TV (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/camutv/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/camutv/playlist.m3u8"
     ]
   },
@@ -2550,13 +2551,14 @@
   },
   {
     "id": "TVMontanaCanal10.do@SD",
-    "name": "TV Montana Canal 10 (1080p) [Not 24/7]",
+    "name": "TV Montana Canal 10 (720p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/tvmontana10tv/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/tvmontanahd/playlist.m3u8"
     ]
   },
@@ -3052,6 +3054,16 @@
     "visible": true,
     "urls": [
       "https://cdn4.wind.do/streams/telemicro/telemicro_1080.m3u8"
+    ]
+  },
+  {
+    "id": "TNICanal51.do@SD",
+    "name": "TNI Canal51 (1080p) [Not 24/7]",
+    "country": "DO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://ss2.tvrdomi.com:1936/nuevaisabelatv/nuevaisabelatv/playlist.m3u8"
     ]
   }
 ]

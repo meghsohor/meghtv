@@ -2367,5 +2367,17 @@
     "urls": [
       "http://57.129.0.61:1990/stream/117/index.m3u8"
     ]
+  },
+  {
+    "id": "KRT.tr@SD",
+    "name": "KRT (1080p)",
+    "country": "TR",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8"
+    ]
   }
 ]

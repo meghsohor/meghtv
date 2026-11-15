@@ -495,7 +495,9 @@
       "https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8",
       "http://181.79.86.130:8000/play/a04w/index.m3u8",
       "http://181.79.86.130:8000/play/a077/index.m3u8",
-      "http://45.166.93.156:9999/play/a0f5/index.m3u8"
+      "http://45.166.93.156:9999/play/a0f5/index.m3u8",
+      "http://179.1.199.50:9000/play/a0a1/index.m3u8",
+      "http://167.250.223.26:9998/play/a05e/index.m3u8"
     ]
   },
   {
@@ -1510,7 +1512,8 @@
     "visible": true,
     "urls": [
       "http://190.61.47.54:8000/play/a01k/index.m3u8",
-      "http://168.228.44.241:9999/play/a04n/index.m3u8"
+      "http://168.228.44.241:9999/play/a04n/index.m3u8",
+      "http://181.78.211.244:8005/play/a06z/index.m3u8"
     ]
   },
   {
@@ -1523,7 +1526,8 @@
     "visible": true,
     "urls": [
       "http://38.134.250.110:8000/play/a01q/index.m3u8",
-      "http://190.124.20.69/TeleNostalgia/index.m3u8"
+      "http://190.124.20.69/TeleNostalgia/index.m3u8",
+      "http://181.78.211.244:8005/play/a06y/index.m3u8"
     ]
   },
   {
@@ -1670,7 +1674,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://190.61.47.54:8000/play/a01n/index.m3u8"
+      "http://190.61.47.54:8000/play/a01n/index.m3u8",
+      "http://181.78.211.244:8005/play/a06w/index.m3u8"
     ]
   },
   {

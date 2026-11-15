@@ -1476,6 +1476,7 @@
     "urls": [
       "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803",
       "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803",
+      "http://team-tv.co:81/rai1/index.m3u8",
       "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8"
     ]
   },
@@ -1499,6 +1500,7 @@
     "urls": [
       "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
       "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
+      "http://team-tv.co:81/rai3/index.m3u8",
       "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
     ]
   },
@@ -1598,7 +1600,8 @@
     "visible": true,
     "urls": [
       "https://d3k8wzt41aflvx.cloudfront.net/RAIStoria/Live.m3u8",
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990"
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990",
+      "http://team-tv.co:81/raistoria/index.m3u8"
     ]
   },
   {
@@ -3532,6 +3535,30 @@
     "visible": true,
     "urls": [
       "http://95.141.36.9:8080/stream/180/index.m3u8"
+    ]
+  },
+  {
+    "id": "Boomerang.it@SD",
+    "name": "Boomerang",
+    "country": "IT",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=2705627802"
+    ]
+  },
+  {
+    "id": "RaiSport.it@SD",
+    "name": "Rai Sport",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=843891896"
     ]
   }
 ]

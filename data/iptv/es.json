@@ -293,7 +293,8 @@
     "visible": true,
     "urls": [
       "http://185.47.212.25:8080/24h_HD/index.m3u8",
-      "https://ztnr.rtve.es/ztnr/5473142.m3u8"
+      "https://ztnr.rtve.es/ztnr/5473142.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8"
     ]
   },
   {
@@ -669,7 +670,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://ztnr.rtve.es/ztnr/1694255.m3u8"
+      "https://ztnr.rtve.es/ztnr/1694255.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8"
     ]
   },
   {
@@ -682,7 +684,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://ztnr.rtve.es/ztnr/4952053.m3u8"
+      "https://ztnr.rtve.es/ztnr/4952053.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8"
     ]
   },
   {
@@ -983,7 +986,8 @@
     "urls": [
       "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/5466990.m3u8"
+      "https://ztnr.rtve.es/ztnr/5466990.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8"
     ]
   },
   {
@@ -1553,7 +1557,8 @@
     "visible": true,
     "urls": [
       "https://ztnr.rtve.es/ztnr/5190066.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main_dvr.m3u8"
     ]
   },
   {
@@ -1567,7 +1572,8 @@
     "visible": true,
     "urls": [
       "https://ztnr.rtve.es/ztnr/3293681.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main_dvr.m3u8"
     ]
   },
   {
@@ -1594,6 +1600,7 @@
     "visible": true,
     "urls": [
       "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
+      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
       "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la2.m3u8"
     ]
   },
@@ -2687,7 +2694,8 @@
     "visible": true,
     "urls": [
       "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2958,6 +2966,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=2493319111",
       "https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd"
     ]
   },
@@ -2971,6 +2980,7 @@
     "visible": true,
     "urls": [
       "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd",
+      "https://ignac16.github.io/voxel-tv-streams/a3.mpd",
       "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd"
     ]
   },
@@ -3580,6 +3590,90 @@
     "visible": true,
     "urls": [
       "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/neox.mpd"
+    ]
+  },
+  {
+    "id": "LaSexta.es@HD",
+    "name": "La Sexta HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ignac16.github.io/voxel-tv-streams/la6.mpd"
+    ]
+  },
+  {
+    "id": "Nova.es@HD",
+    "name": "Nova HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ignac16.github.io/voxel-tv-streams/nova.mpd"
+    ]
+  },
+  {
+    "id": "Neox.es@HD",
+    "name": "Neox HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ignac16.github.io/voxel-tv-streams/neox.mpd"
+    ]
+  },
+  {
+    "id": "Mega.es@HD",
+    "name": "Mega HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ignac16.github.io/voxel-tv-streams/mega.mpd"
+    ]
+  },
+  {
+    "id": "Atreseries.es@HD",
+    "name": "Atreseries HD (1080p)",
+    "country": "ES",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://ignac16.github.io/voxel-tv-streams/a3s.mpd"
+    ]
+  },
+  {
+    "id": "Kidz.es@SD",
+    "name": "Kidz (1080p) [Geo-blocked]",
+    "country": "ES",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://c82fe9a663ed758d6c517fb44c28ba73.4gfbw5.channel-assembly.mediatailor.eu-west-1.amazonaws.com/v1/channel/648c271d2bfab0e4177a0d61/648c271d2bfab0e4177a0d61/3.m3u8"
+    ]
+  },
+  {
+    "id": "AXN.es@SD",
+    "name": "AXN",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=4238619703"
     ]
   }
 ]

@@ -474,16 +474,16 @@
   },
   {
     "id": "Channel5International.ru@SD",
-    "name": "Channel 5 International (576p)",
+    "name": "Channel 5 International (576i)",
     "country": "RU",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://178.134.1.158:8081/5channel/index.m3u8",
       "https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8",
-      "https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv"
+      "https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv",
+      "http://178.134.1.158:8081/5channel/index.m3u8"
     ]
   },
   {
@@ -4791,10 +4791,10 @@
     ],
     "visible": true,
     "urls": [
-      "http://176.118.197.101/Che/index.m3u8",
       "http://flussonic.linkintel.ru/che/index.m3u8",
       "http://31.148.48.15/Che/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8",
+      "http://176.118.197.101/Che/index.m3u8",
       "http://str2.iptvhd.ru:8080/Che/index.m3u8"
     ]
   },

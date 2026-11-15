@@ -1630,6 +1630,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=512159637",
       "http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0"
     ]
   },
@@ -2190,6 +2191,41 @@
     "visible": true,
     "urls": [
       "http://111.88.7.92:8000/play/a00o/index.m3u8"
+    ]
+  },
+  {
+    "id": "PolsatX.pl@SD",
+    "name": "Polsat X",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bingbang.kotmiuaczek.workers.dev/?id=1594464"
+    ]
+  },
+  {
+    "id": "Eurosport4Polska.pl@SD",
+    "name": "Eurosport 4 Polska",
+    "country": "PL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=2896573317"
+    ]
+  },
+  {
+    "id": "ParamountNetwork.pl@SD",
+    "name": "Paramount Network",
+    "country": "PL",
+    "categories": [
+      "series",
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://sultanios.alwaysdata.net/vavo.php?ID=3390498693"
     ]
   }
 ]
