@@ -5547,18 +5547,6 @@
     ]
   },
   {
-    "id": "ZeeCinema.in@SD",
-    "name": "Zee Cinema (576p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8"
-    ]
-  },
-  {
     "id": "ZeeCinema.in@APAC",
     "name": "Zee Cinema APAC (720p)",
     "country": "IN",
@@ -9495,18 +9483,6 @@
     ]
   },
   {
-    "id": "SonyBBCEarth.in@HD",
-    "name": "Sony BBC Earth HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.185.24.134:3001/SONY-BBC/index.m3u8"
-    ]
-  },
-  {
     "id": "JalshaMovies.in@HD",
     "name": "Jalsha Movies HD (1080p)",
     "country": "IN",
@@ -11345,30 +11321,6 @@
     "urls": [
       "https://livetv.shamon-cable.net:8443/Jalsha-Movies/index.m3u8",
       "https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8"
-    ]
-  },
-  {
-    "id": "StarMoviesSelect.in@HD",
-    "name": "Star Movies Select HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://livetv.shamon-cable.net:8443/Star-movies-select/index.m3u8"
-    ]
-  },
-  {
-    "id": "StarGoldSelect.in@SD",
-    "name": "Star Gold Select (1080p)",
-    "country": "IN",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://livetv.shamon-cable.net:8443/StarGoldSelect/index.m3u8"
     ]
   },
   {

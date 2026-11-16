@@ -14470,17 +14470,6 @@
     ]
   },
   {
-    "id": "Univision.us@EastHD",
-    "name": "Univision East HD (1080p)",
-    "country": "US",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://45.190.13.8/UnivisionHD/index.m3u8",
-      "http://misterich.megatv.fun/iptv/CVHTUN2FGZ4TTVYBXGA5MRPN/1099/index.m3u8"
-    ]
-  },
-  {
     "id": "FuboSportsNetwork.us@SD",
     "name": "Fubo Sports Network (720p)",
     "country": "US",
@@ -14861,18 +14850,6 @@
     "visible": true,
     "urls": [
       "http://45.70.201.81:8000/play/a00x/index.m3u8"
-    ]
-  },
-  {
-    "id": "ZTV.us@SD",
-    "name": "ZTV (1080p)",
-    "country": "US",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://45.70.201.81:8000/play/a00u/index.m3u8"
     ]
   },
   {

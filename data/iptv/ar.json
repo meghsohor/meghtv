@@ -1518,18 +1518,6 @@
     ]
   },
   {
-    "id": "TelefeInterior.ar@SD",
-    "name": "Telefe Interior (720p)",
-    "country": "AR",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://200.91.32.158:8080/telefehdvalle/index.m3u8"
-    ]
-  },
-  {
     "id": "TelefeInternacional.ar@SD",
     "name": "Telefe Internacional (1080p)",
     "country": "AR",
