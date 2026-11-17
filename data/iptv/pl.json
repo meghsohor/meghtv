@@ -1464,11 +1464,12 @@
   },
   {
     "id": "TVPPolonia.pl@SD",
-    "name": "TVP Polonia",
+    "name": "TVP Polonia (576p)",
     "country": "PL",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/tvp_polonia/live.livx/playlist.m3u8",
       "https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8"
     ]
   },
@@ -2226,6 +2227,28 @@
     "visible": true,
     "urls": [
       "http://sultanios.alwaysdata.net/vavo.php?ID=3390498693"
+    ]
+  },
+  {
+    "id": "Polsat1.pl@SD",
+    "name": "Polsat 1 [Not 24/7]",
+    "country": "PL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://kotmruk.github.io/polish-potato/polsat1.m3u8"
+    ]
+  },
+  {
+    "id": "TVN.pl@SD",
+    "name": "TVN [Not 24/7]",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://bingbang.kotmiuaczek.workers.dev/?id=3342"
     ]
   }
 ]

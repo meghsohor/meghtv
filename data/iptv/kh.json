@@ -282,5 +282,17 @@
     "urls": [
       "https://stream.pdtvhd.com/LiveApp/streams/Townfullhd.m3u8"
     ]
+  },
+  {
+    "id": "EBCLifelongLearning.kh@SD",
+    "name": "EBC Lifelong Learning (720p)",
+    "country": "KH",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.ebc.edu.kh/iptv/channel/2.m3u8"
+    ]
   }
 ]

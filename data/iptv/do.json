@@ -192,7 +192,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://edge.essastream.com/bebetotelevision/index.m3u8"
+      "https://edge.essastream.com/bebetotelevision/index.m3u8",
+      "https://cloud5.livescast.com:19360/bebetotv/bebetotv.m3u8"
     ]
   },
   {
@@ -982,6 +983,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/guaymatetv/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/guaymatetv/playlist.m3u8"
     ]
   },
@@ -1042,6 +1044,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream1.28tv.online/HTVLiveCanal52/index.m3u8",
       "https://fox.hostlagarto.com:8081/canalhtv/tracks-v1a1/mono.m3u8"
     ]
   },
@@ -2239,7 +2242,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8"
+      "https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8",
+      "https://stream1.28tv.online/TeleNewsCanal40/index.m3u8"
     ]
   },
   {
@@ -2691,7 +2695,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream.inliveserver.com:19360/8004/8004.m3u8"
+      "https://stream.inliveserver.com:19360/8004/8004.m3u8",
+      "https://cdn.streamrd.cloud/watch/villa-altagracia-tv.m3u8"
     ]
   },
   {
@@ -2959,7 +2964,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8"
+      "https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8",
+      "https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8"
     ]
   },
   {

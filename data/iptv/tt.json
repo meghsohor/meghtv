@@ -83,5 +83,18 @@
     "urls": [
       "https://trinicricket.com/hls/0/stream.m3u8"
     ]
+  },
+  {
+    "id": "SmashRadioTT.tt@HD",
+    "name": "Smash Radio TT (720p)",
+    "country": "TT",
+    "categories": [
+      "music",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nginx.smashradiott.com/hls/program/master.m3u8"
+    ]
   }
 ]

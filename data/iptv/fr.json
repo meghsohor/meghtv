@@ -341,6 +341,7 @@
     "visible": true,
     "urls": [
       "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cstar/live.livx/playlist.m3u8",
       "http://145.239.5.177/361/index.m3u8"
     ]
   },
@@ -572,13 +573,14 @@
   },
   {
     "id": "France3.fr@CotedAzur",
-    "name": "France 3 Cote d'Azur (1080p)",
+    "name": "France 3 Cote d'Azur (720p)",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3_nice/live.livx/playlist.m3u8",
       "http://89.187.185.76:8080/France3/index.m3u8"
     ]
   },
@@ -852,6 +854,7 @@
     "visible": true,
     "urls": [
       "https://test.946985.filegear-sg.me/proxy/803c517b325bfafc",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/m6_music_hits/live.livx/playlist.m3u8",
       "http://145.239.5.177/320/index.m3u8"
     ]
   },
@@ -907,15 +910,16 @@
   },
   {
     "id": "MyZenTV.fr@SD",
-    "name": "MyZen TV (1080p)",
+    "name": "MyZen TV (720p)",
     "country": "FR",
     "categories": [
       "relax"
     ],
     "visible": true,
     "urls": [
-      "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
-      "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8"
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8",
+      "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8",
+      "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8"
     ]
   },
   {
@@ -1191,6 +1195,7 @@
     "visible": true,
     "urls": [
       "https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/tv5_monde_fbs/live.livx/playlist.m3u8",
       "http://5.78.65.164/TV5Monde/index.m3u8"
     ]
   },
@@ -1205,7 +1210,8 @@
     "urls": [
       "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8",
       "https://tvf-tvfm.otteravision.com/tvf/tvfm/tvfm_720.m3u8",
-      "http://91.235.255.32:8001/1:0:1:2CA:14B4:13E:820000:0:0:0"
+      "http://91.235.255.32:8001/1:0:1:2CA:14B4:13E:820000:0:0:0",
+      "http://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L4/b21193ce/2ee2c40a.isml/.m3u8"
     ]
   },
   {
@@ -1373,16 +1379,17 @@
   },
   {
     "id": "W9.fr@SD",
-    "name": "W9 (1086p)",
+    "name": "W9 (720p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/w9_fr/live.livx/playlist.m3u8",
       "http://5.180.164.197:8080/W9/index.m3u8",
       "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8",
-      "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
       "http://145.239.5.177/331a/index.m3u8"
     ]
   },
@@ -2466,7 +2473,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8"
+      "https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/l_equipe/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2903,6 +2911,224 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.fr@HD",
+    "name": "Comedy Central HD (720p)",
+    "country": "FR",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/comedy_central_en/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TF1.fr@SD",
+    "name": "TF1",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ParisPremiere.fr@SD",
+    "name": "Paris Premiere (720p)",
+    "country": "FR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/paris_premiere/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AB1.fr@SD",
+    "name": "AB1 (720p)",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/ab1/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TMC.fr@SD",
+    "name": "TMC (1080p)",
+    "country": "FR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tmc_fr/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Action.fr@SD",
+    "name": "Action (540p)",
+    "country": "FR",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/action/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Teva.fr@SD",
+    "name": "Teva (720p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/teva/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SerieClub.fr@SD",
+    "name": "Serie Club (720p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/serie_club/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Animaux.fr@SD",
+    "name": "Animaux (720p)",
+    "country": "FR",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/animaux/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Mangas.fr@SD",
+    "name": "Mangas (720p)",
+    "country": "FR",
+    "categories": [
+      "animation"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mangas/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Melody.fr@SD",
+    "name": "Melody (720p)",
+    "country": "FR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/melody/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ChassePeche.fr@SD",
+    "name": "Chasse & Peche (540p)",
+    "country": "FR",
+    "categories": [
+      "outdoor"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "UshuaiaTV.fr@SD",
+    "name": "Ushuaia TV (720p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/ushuaia/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVBreizh.fr@SD",
+    "name": "TV Breizh (720p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tv_breizh/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CrimeDistrict.fr@SD",
+    "name": "Crime District (540p)",
+    "country": "FR",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/crime_district/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ScienceVieTV.fr@SD",
+    "name": "Science & Vie TV (720p)",
+    "country": "FR",
+    "categories": [
+      "science"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/science_et_vie/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "HistoireTV.fr@SD",
+    "name": "Histoire TV (720p)",
+    "country": "FR",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/histoire/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ToutelHistoire.fr@SD",
+    "name": "Toute l'Histoire (720p)",
+    "country": "FR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/toute_lhistoire/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Automotolachaine.fr@SD",
+    "name": "Automoto la chaine (720p)",
+    "country": "FR",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/automoto/live.livx/playlist.m3u8"
     ]
   }
 ]

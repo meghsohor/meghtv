@@ -995,7 +995,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8"
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mediaset_extra/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -1501,6 +1502,7 @@
       "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
       "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
       "http://team-tv.co:81/rai3/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rai_tre/live.livx/playlist.m3u8",
       "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
     ]
   },
@@ -2531,7 +2533,8 @@
     "visible": true,
     "urls": [
       "https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8",
-      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8"
+      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/tgcom24/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2805,7 +2808,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8"
+      "https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/rai_news_24/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2842,7 +2846,8 @@
     "visible": true,
     "urls": [
       "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
-      "http://185.227.34.62/stream/17/index.m3u8"
+      "http://185.227.34.62/stream/17/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/canale_5/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2983,26 +2988,28 @@
   },
   {
     "id": "HorseTV.it@SD",
-    "name": "Horse TV (720p)",
+    "name": "Horse TV (576p)",
     "country": "IT",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://cdn78-at.azotosolutions.com/cdnedge39/Canale4/master.m3u8",
       "https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8",
       "https://streams2.sofast.tv/vglive-sk-469239/index.m3u8"
     ]
   },
   {
     "id": "NauticalChannel.it@SD",
-    "name": "Nautical Channel (720p)",
+    "name": "Nautical Channel (576p)",
     "country": "IT",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://cdn78-at.azotosolutions.com/cdnedge39/Canale2/master.m3u8",
       "https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8",
       "https://streams2.sofast.tv/vglive-sk-231198/index.m3u8"
     ]
@@ -3030,7 +3037,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8"
+      "https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/la_7/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3347,7 +3355,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://team-tv.co:81/rai2/index.m3u8"
+      "http://team-tv.co:81/rai2/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/rai_due/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3418,7 +3427,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://185.227.34.62/stream/21/index.m3u8"
+      "http://185.227.34.62/stream/21/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/italia_1/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3428,7 +3438,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://185.227.34.62/stream/14/index.m3u8"
+      "http://185.227.34.62/stream/14/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/rete_4/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3559,6 +3570,38 @@
     "visible": true,
     "urls": [
       "http://sultanios.alwaysdata.net/vavo.php?ID=843891896"
+    ]
+  },
+  {
+    "id": "Rai1.it@HD",
+    "name": "Rai 1 HD (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rai_uno/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "AntennaSicilia.it@SD",
+    "name": "Antenna Sicilia (720p)",
+    "country": "IT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/antennasicilia/master.m3u8"
+    ]
+  },
+  {
+    "id": "BikeChannel.it@HD",
+    "name": "Bike Channel HD (1080p)",
+    "country": "IT",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://018e1901ad234f04ae16388eda6778e5.msvdn.net/live/S94763187/reFXDHQfBndw/playlist.m3u8"
     ]
   }
 ]

@@ -60,7 +60,8 @@
     "visible": true,
     "urls": [
       "https://op-group1-swiftservehd-1.dens.tv/s/s38/index.m3u8",
-      "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8"
+      "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rtp_internacional/live.livx/playlist.m3u8"
     ]
   },
   {

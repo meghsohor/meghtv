@@ -15,6 +15,7 @@
       "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8",
       "https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8",
       "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_arabic/live.livx/playlist.m3u8",
       "https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8"
     ]
   },
@@ -89,6 +90,7 @@
       "https://streams.tangotv.in/ALJAZEERAHD/ORIGIN/index.m3u8",
       "https://cdn-7.pishow.tv/live/429/master.m3u8",
       "https://live-hls-web-aje-gcp.thehlive.com/AJE/04.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/al_jazeera_english/live.livx/playlist.m3u8",
       "https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8",
       "https://amg00222-amg00222c4-amgplt0002.playout.now3.amagi.tv/aljazeera-noscte/playlist.m3u8",
       "http://103.151.60.162:2122/play/a0ff/index.m3u8?hls"

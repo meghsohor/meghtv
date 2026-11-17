@@ -350,5 +350,25 @@
       "https://bin.webhookrelay.com/v1/webhooks/0351cd0b-b0d7-4836-8cc9-4d2280c7961c",
       "https://zg9mhld.s.gy/CH-NICK-SCHWEIZ-HD.ts"
     ]
+  },
+  {
+    "id": "RTS1.ch@SD",
+    "name": "RTS 1 (720p)",
+    "country": "CH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rts_un/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SRFinfo.ch@SD",
+    "name": "SRF info (720p)",
+    "country": "CH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/srf_info/live.livx/playlist.m3u8"
+    ]
   }
 ]

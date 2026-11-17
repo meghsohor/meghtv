@@ -671,7 +671,8 @@
     "visible": true,
     "urls": [
       "https://ztnr.rtve.es/ztnr/1694255.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/24h/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3517,7 +3518,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://digisat.ddns.net:4022/udp/239.0.5.177:8208"
+      "http://digisat.ddns.net:4022/udp/239.0.5.177:8208",
+      "http://90.170.214.40:9700/stream/avatel/boing/master.m3u8"
     ]
   },
   {
@@ -3674,6 +3676,67 @@
     "visible": true,
     "urls": [
       "http://sultanios.alwaysdata.net/vavo.php?ID=4238619703"
+    ]
+  },
+  {
+    "id": "Squirrel.es@SD",
+    "name": "Squirrel (576p)",
+    "country": "ES",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8"
+    ]
+  },
+  {
+    "id": "BomCine.es@SD",
+    "name": "Bom Cine (576p)",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8"
+    ]
+  },
+  {
+    "id": "AXN.es@HD",
+    "name": "AXN HD",
+    "country": "ES",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://90.170.214.40:9700/stream/avatel/axn/master.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.es@SD",
+    "name": "Comedy Central (1080p)",
+    "country": "ES",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "http://90.170.214.40:9700/stream/avatel/comedycentral/master.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.es@HD",
+    "name": "Nickelodeon HD",
+    "country": "ES",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://90.170.214.40:9700/stream/avatel/nickelodeonhd/master.m3u8"
     ]
   }
 ]

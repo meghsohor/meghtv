@@ -140,19 +140,19 @@
   },
   {
     "id": "AajTak.in@SD",
-    "name": "Aaj Tak (1080p)",
+    "name": "Aaj Tak (720p)",
     "country": "IN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "http://103.213.31.109:90/AajtakHD/playlist.m3u8",
       "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8",
       "https://feeds.intoday.in/aajtak/api/master.m3u8",
-      "https://fta.ektv.in/live/87/87_0.m3u8",
       "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
-      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7b044d82f0bc462b8be3e2dec0bf2bd2/index.m3u8"
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7b044d82f0bc462b8be3e2dec0bf2bd2/index.m3u8",
+      "http://103.213.31.109:90/AajtakHD/playlist.m3u8",
+      "https://fta.ektv.in/live/87/87_0.m3u8"
     ]
   },
   {
@@ -177,9 +177,9 @@
     ],
     "visible": true,
     "urls": [
-      "http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8",
       "https://cdn.pishow.tv/ott/live/969/master.m3u8",
-      "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8"
+      "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8",
+      "http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8"
     ]
   },
   {
@@ -1000,11 +1000,11 @@
     ],
     "visible": true,
     "urls": [
-      "https://fta.ektv.in/live/97/97_0.m3u8",
       "https://mumt03.tangotv.in/Dsly5z3HBHARATSAMACHAR/index.m3u8",
       "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
       "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
       "https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8",
+      "https://fta.ektv.in/live/97/97_0.m3u8",
       "http://51.75.127.199:3141/bharatsamachar/index.m3u8"
     ]
   },
@@ -1369,9 +1369,9 @@
     "urls": [
       "https://fta.ektv.in/live/15/master.m3u8",
       "https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8",
-      "https://mumt01.tangotv.in/O5aw8Zn3DDNATIONALHD/index.m3u8",
       "https://streams.tangotv.in/DDNATIONALHD/ORIGIN/index.m3u8",
-      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8"
+      "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3DDNATIONALHD/index.m3u8"
     ]
   },
   {
@@ -1449,114 +1449,6 @@
     "urls": [
       "https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8",
       "https://cdn.pishow.tv/ott/live/1624/master.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya4.in@SD",
-    "name": "E-Vidya 4 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/406.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya5.in@SD",
-    "name": "E-Vidya 5 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/407.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya6.in@SD",
-    "name": "E-Vidya 6 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/408.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya7.in@SD",
-    "name": "E-Vidya 7 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/404.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya8.in@SD",
-    "name": "E-Vidya 8 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/409.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya9.in@SD",
-    "name": "E-Vidya 9 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/410.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya10.in@SD",
-    "name": "E-Vidya 10 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/411.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya11.in@SD",
-    "name": "E-Vidya 11 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/1410.m3u8"
-    ]
-  },
-  {
-    "id": "EVidya12.in@SD",
-    "name": "E-Vidya 12 (576p)",
-    "country": "IN",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "http://103.72.101.252:8080/live/1532.m3u8"
     ]
   },
   {
@@ -4638,9 +4530,9 @@
     "urls": [
       "http://66.102.126.10:8000/play/a008/index.m3u8",
       "http://103.185.24.134:3001/Star-Plus/index.m3u8",
-      "http://41.205.93.154/STAR-PLUS/index.m3u8",
       "http://103.135.253.32:8080/STAR-PLUS/index.m3u8",
       "https://livetv.shamon-cable.net:8443/Star-Plus-HD/index.m3u8",
+      "http://41.205.93.154/STAR-PLUS/index.m3u8",
       "http://202.70.146.135:8000/play/a009/index.m3u8",
       "http://51.75.127.199:3141/starplushd/index.m3u8"
     ]
@@ -7682,16 +7574,16 @@
   },
   {
     "id": "KNewsIndia.in@SD",
-    "name": "K News India (720p)",
+    "name": "K News India (576p)",
     "country": "IN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://legitpro.co.in/knews/index.m3u8",
       "https://fta.ektv.in/live/100/100_0.m3u8",
-      "https://mumt07.tangotv.in/zHjX9OFlKNEWSINDIA/index.m3u8"
+      "https://mumt07.tangotv.in/zHjX9OFlKNEWSINDIA/index.m3u8",
+      "https://legitpro.co.in/knews/index.m3u8"
     ]
   },
   {
@@ -10714,15 +10606,15 @@
   },
   {
     "id": "PunjabiBeatsHD.in@HD",
-    "name": "Punjabi Beats HD (720p)",
+    "name": "Punjabi Beats HD (576p)",
     "country": "IN",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://mumt01.tangotv.in/O5aw8Zn3PUNJABIBEATSHD/index.m3u8",
-      "https://mumt01.tangotv.in/O5aw8Zn3STVHARYANANEWS/index.m3u8"
+      "https://mumt01.tangotv.in/O5aw8Zn3STVHARYANANEWS/index.m3u8",
+      "https://mumt01.tangotv.in/O5aw8Zn3PUNJABIBEATSHD/index.m3u8"
     ]
   },
   {

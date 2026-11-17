@@ -6794,13 +6794,14 @@
   },
   {
     "id": "AE.us@East",
-    "name": "A&E (720p)",
+    "name": "A&E (1080p)",
     "country": "US",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8",
       "http://23.239.31.26:8989/aande/index.m3u8"
     ]
   },
@@ -8563,10 +8564,10 @@
     ],
     "visible": true,
     "urls": [
+      "http://190.93.224.42/COMEDY-CENTRAL/index.m3u8",
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
       "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
       "http://15.204.246.24:8080/ComedyCentralHD/index.m3u8",
-      "http://190.93.224.42/COMEDY-CENTRAL/index.m3u8",
       "http://103.111.40.244:9999/play/a0i5/index.m3u8",
       "http://181.78.79.131:8000/play/a0mu"
     ]
@@ -25528,7 +25529,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8"
+      "https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8",
+      "https://ia600505.us.archive.org/34/items/live_tstv/tomsingstv.m3u8"
     ]
   },
   {
@@ -25611,13 +25613,14 @@
   },
   {
     "id": "Nickelodeon.us@East",
-    "name": "Nickelodeon (1080p)",
+    "name": "Nickelodeon",
     "country": "US",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8",
       "https://tvnow.hostless.app/nickelodeon.m3u8"
     ]
   },
@@ -25643,6 +25646,18 @@
       "https://blacknewschannel-vizio.amagi.tv/playlist.m3u8",
       "https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8",
       "https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ABC.us@East",
+    "name": "ABC (1080p)",
+    "country": "US",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cache0.wonvt.st/live/01qdodh1lghijw0ls22qa/master.m3u8"
     ]
   }
 ]

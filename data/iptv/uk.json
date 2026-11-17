@@ -842,7 +842,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://45.153.96.44:8001"
+      "http://45.153.96.44:8001",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_news/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -860,13 +861,14 @@
   },
   {
     "id": "BBCTwo.uk@HD",
-    "name": "BBC Two HD (720p) [Geo-blocked]",
+    "name": "BBC Two HD (720p)",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_two/live.livx/playlist.m3u8",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd",
       "https://vs-cmaf-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_two_hd/pc_hd_abr_v2.mpd",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/mobile_wifi_main_hd_abr_v2.m3u8",
@@ -2172,6 +2174,7 @@
     "visible": true,
     "urls": [
       "https://cdn.stmify.com/bbc/stream/BBC_FOUR/hevc_iptv_mse_v0.mpd",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_four/live.livx/playlist.m3u8",
       "https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd",
       "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/mobile_wifi_main_hd_abr_v2.m3u8",
       "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/pc_hd_abr_v2.m3u8",
@@ -2180,13 +2183,14 @@
   },
   {
     "id": "BBCOne.uk@London",
-    "name": "BBC One London (720p) [Geo-blocked]",
+    "name": "BBC One (720p)",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd",
       "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd",
       "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/mobile_wifi_main_hd_abr_v2.m3u8",
@@ -3081,7 +3085,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8"
+      "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -3633,6 +3638,18 @@
     "visible": true,
     "urls": [
       "https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CNBCEurope.uk@SD",
+    "name": "CNBC Europe (720p)",
+    "country": "UK",
+    "categories": [
+      "business"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cnbc_europe/live.livx/playlist.m3u8"
     ]
   }
 ]

@@ -153,5 +153,90 @@
     "urls": [
       "https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8"
     ]
+  },
+  {
+    "id": "TVAsahi.jp@JOEXDTV",
+    "name": "TV Asahi [Not 24/7]",
+    "country": "JP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvasahi.mov3.co/hls/tvasahi.m3u8"
+    ]
+  },
+  {
+    "id": "FujiTV.jp@JOCXDTV",
+    "name": "Fuji TV [Not 24/7]",
+    "country": "JP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://fujitv4.mov3.co/hls/fujitv.m3u8"
+    ]
+  },
+  {
+    "id": "YTSYamagataTV.jp@JOYIDTV",
+    "name": "YTS Yamagata TV (1080i)",
+    "country": "JP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv-stream-test.daydreamer-json.cc/stream/407fd00ebd2a059c9cd1ea3fa7156097/master.m3u8"
+    ]
+  },
+  {
+    "id": "SakuranboTV.jp@JOCYDTV",
+    "name": "Sakuranbo TV (1080i)",
+    "country": "JP",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8"
+    ]
+  },
+  {
+    "id": "MTV.jp@SD",
+    "name": "MTV",
+    "country": "JP",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.255.250.188:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying"
+    ]
+  },
+  {
+    "id": "CartoonNetwork.jp@HD",
+    "name": "Cartoon Network HD",
+    "country": "JP",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.255.250.188:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying"
+    ]
+  },
+  {
+    "id": "DisneyChannel.jp@SD",
+    "name": "Disney Channel",
+    "country": "JP",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.255.250.188:5002/bs24.m3u8?token=guoziyun&gid=bs24&channel=zhongying"
+    ]
   }
 ]

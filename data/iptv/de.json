@@ -2076,7 +2076,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8"
+      "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfinfo/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2088,7 +2089,8 @@
     "urls": [
       "http://5.180.164.197:8080/ZDFNEO/index.m3u8",
       "http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass",
-      "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8"
+      "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfneo/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -5272,6 +5274,40 @@
     "visible": true,
     "urls": [
       "https://s6.hopslan.com/dmaxX/index.m3u8"
+    ]
+  },
+  {
+    "id": "Sport1.de@SD",
+    "name": "Sport1 (540p)",
+    "country": "DE",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/sport1/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ZDF.de@HD",
+    "name": "ZDF HD (540p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MotorvisionPlus.de@SD",
+    "name": "Motorvision+ (720p)",
+    "country": "DE",
+    "categories": [
+      "auto"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8"
     ]
   }
 ]

@@ -133,5 +133,17 @@
     "urls": [
       "https://stream.globalradio.lu/lgr/index.m3u8"
     ]
+  },
+  {
+    "id": "RTL9.lu@SD",
+    "name": "RTL9 (720p)",
+    "country": "LU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rtl_9/live.livx/playlist.m3u8"
+    ]
   }
 ]

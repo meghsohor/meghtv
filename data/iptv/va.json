@@ -1,0 +1,12 @@
+[
+  {
+    "id": "VaticanMedia.va@SD",
+    "name": "Vatican Media (720p)",
+    "country": "VA",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/vatican_media_europa/live.livx/playlist.m3u8"
+    ]
+  }
+]

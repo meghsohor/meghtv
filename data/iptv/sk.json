@@ -731,5 +731,17 @@
     "urls": [
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-sport2-sk/live_fullhd"
     ]
+  },
+  {
+    "id": "MarkizaTNLive.sk@SD",
+    "name": "Markiza TN Live",
+    "country": "SK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-adhoc12/live_fullhd?offsetSeconds=0"
+    ]
   }
 ]
