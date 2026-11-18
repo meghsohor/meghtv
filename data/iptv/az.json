@@ -25,7 +25,7 @@
   },
   {
     "id": "APATv.az@SD",
-    "name": "APA Tv (1080p)",
+    "name": "APA TV HD",
     "country": "AZ",
     "categories": [
       "news"
@@ -37,33 +37,36 @@
   },
   {
     "id": "AyazTV.az@SD",
-    "name": "Ayaz TV (720p)",
+    "name": "Ayaz TV",
     "country": "AZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8",
       "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8"
     ]
   },
   {
     "id": "AzTV.az@SD",
-    "name": "Az TV (1080p)",
+    "name": "Az TV",
     "country": "AZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://operativmm.az/tvs/az/stream9/index.m3u8",
+      "https://az.tvstream.az/hls/stream9/index.m3u8",
+      "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8",
       "https://str.yodacdn.net/azertv/index.m3u8",
-      "http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA",
-      "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8"
+      "http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA"
     ]
   },
   {
     "id": "BakuTV.az@SD",
-    "name": "Baku.TV (1080p)",
+    "name": "Baku.TV",
     "country": "AZ",
     "categories": [
       "news"
@@ -82,6 +85,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://cbcsports-live.lg.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8",
       "https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8"
     ]
   },
@@ -196,13 +200,14 @@
   },
   {
     "id": "XezerTV.az@SD",
-    "name": "Xezer TV (720p)",
+    "name": "Xezer TV",
     "country": "AZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://xezer.tvstream.az/hls/stream/main_stream.m3u8",
       "https://www.xezerxeber.az/stream/index.m3u8"
     ]
   },
@@ -216,6 +221,30 @@
     "visible": true,
     "urls": [
       "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
+    ]
+  },
+  {
+    "id": "AyazTV.az@HD",
+    "name": "Ayaz TV HD",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8"
+    ]
+  },
+  {
+    "id": "AzTV.az@HD",
+    "name": "Az TV HD",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.32.44.154:80/aztv/index.m3u8"
     ]
   }
 ]

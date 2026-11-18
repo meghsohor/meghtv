@@ -94,7 +94,7 @@
   },
   {
     "id": "ArarunaTV.br@SD",
-    "name": "Araruna TV",
+    "name": "Araruna TV (614p)",
     "country": "BR",
     "categories": [
       "general"
@@ -468,7 +468,7 @@
   },
   {
     "id": "CanalSete.br@SD",
-    "name": "Canal Sete",
+    "name": "Canal Sete (1080p)",
     "country": "BR",
     "categories": [
       "general"
@@ -536,18 +536,6 @@
     "visible": true,
     "urls": [
       "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "ChefTV.br@SD",
-    "name": "Chef TV (720p)",
-    "country": "BR",
-    "categories": [
-      "cooking"
-    ],
-    "visible": true,
-    "urls": [
-      "http://168.197.104.22/CHEF_TV/index.m3u8"
     ]
   },
   {
@@ -1221,7 +1209,7 @@
   },
   {
     "id": "PetloversTV.br@SD",
-    "name": "Petlovers TV",
+    "name": "Petlovers TV (720p)",
     "country": "BR",
     "categories": [
       "entertainment"
@@ -1258,7 +1246,7 @@
   },
   {
     "id": "PlenitudeTV.br@SD",
-    "name": "Plenitude TV",
+    "name": "Plenitude TV (1080p)",
     "country": "BR",
     "categories": [
       "religious"
@@ -1654,7 +1642,7 @@
   },
   {
     "id": "RedeTVParana.br@SD",
-    "name": "RedeTV! Parana",
+    "name": "RedeTV! Parana (1080p)",
     "country": "BR",
     "categories": [],
     "visible": true,
@@ -1858,7 +1846,7 @@
   },
   {
     "id": "SOUTV.br@SD",
-    "name": "SOU TV",
+    "name": "SOU TV (720p)",
     "country": "BR",
     "categories": [
       "general"

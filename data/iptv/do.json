@@ -185,15 +185,15 @@
   },
   {
     "id": "BebetoTV.do@SD",
-    "name": "Bebeto TV (1080p) [Not 24/7]",
+    "name": "Bebeto TV (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://edge.essastream.com/bebetotelevision/index.m3u8",
-      "https://cloud5.livescast.com:19360/bebetotv/bebetotv.m3u8"
+      "https://cloud5.livescast.com:19360/bebetotv/bebetotv.m3u8",
+      "https://edge.essastream.com/bebetotelevision/index.m3u8"
     ]
   },
   {
@@ -587,7 +587,7 @@
   },
   {
     "id": "ColomeTV.do@HD",
-    "name": "Colome TV [Not 24/7]",
+    "name": "Colome TV (614p) [Not 24/7]",
     "country": "DO",
     "categories": [
       "general"
@@ -2023,6 +2023,7 @@
     "visible": true,
     "urls": [
       "http://45.171.108.253:8888/TELEANTILLAS/index.m3u8",
+      "https://hls.tvabierta.net/hls/010.m3u8",
       "http://168.196.127.137:6001/play/a04o/index.m3u8",
       "http://190.122.104.210:5080/LiveApp/streams/C6ngUWmvwMhliYPN3668193473821155.m3u8"
     ]
@@ -2235,15 +2236,15 @@
   },
   {
     "id": "TelenewsTV.do@SD",
-    "name": "Telenews TV",
+    "name": "Telenews TV (1080p)",
     "country": "DO",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8",
-      "https://stream1.28tv.online/TeleNewsCanal40/index.m3u8"
+      "https://stream1.28tv.online/TeleNewsCanal40/index.m3u8",
+      "https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8"
     ]
   },
   {
@@ -2688,15 +2689,15 @@
   },
   {
     "id": "VillaAltagraciaTV.do@SD",
-    "name": "Villa Altagracia TV (1080p) [Not 24/7]",
+    "name": "Villa Altagracia TV (1080p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://stream.inliveserver.com:19360/8004/8004.m3u8",
-      "https://cdn.streamrd.cloud/watch/villa-altagracia-tv.m3u8"
+      "https://cdn.streamrd.cloud/watch/villa-altagracia-tv.m3u8",
+      "https://stream.inliveserver.com:19360/8004/8004.m3u8"
     ]
   },
   {

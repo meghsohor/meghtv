@@ -378,7 +378,7 @@
   },
   {
     "id": "TDIRadioTV.rs@SD",
-    "name": "TDI Radio TV",
+    "name": "TDI Radio TV (720p)",
     "country": "RS",
     "categories": [
       "music"
@@ -488,7 +488,7 @@
   },
   {
     "id": "SciFi.rs@SD",
-    "name": "Sci Fi",
+    "name": "Sci Fi (720p)",
     "country": "RS",
     "categories": [],
     "visible": true,

@@ -58,8 +58,8 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8",
-      "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-      "http://90.163.85.113:8093/stream/26/index.m3u8"
+      "http://90.163.85.113:8093/stream/26/index.m3u8",
+      "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
     ]
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "id": "12tv.es@SD",
-    "name": "12tv",
+    "name": "12tv (1080p)",
     "country": "ES",
     "categories": [
       "general"
@@ -293,8 +293,8 @@
     "visible": true,
     "urls": [
       "http://185.47.212.25:8080/24h_HD/index.m3u8",
-      "https://ztnr.rtve.es/ztnr/5473142.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8",
+      "https://ztnr.rtve.es/ztnr/5473142.m3u8"
     ]
   },
   {
@@ -662,7 +662,7 @@
   },
   {
     "id": "24Horas.es@SD",
-    "name": "Canal 24 Horas (720p)",
+    "name": "24 Horas (576p)",
     "country": "ES",
     "categories": [
       "news",
@@ -670,9 +670,9 @@
     ],
     "visible": true,
     "urls": [
-      "https://ztnr.rtve.es/ztnr/1694255.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/24h/live.livx/playlist.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
-      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/24h/live.livx/playlist.m3u8"
+      "https://ztnr.rtve.es/ztnr/1694255.m3u8"
     ]
   },
   {
@@ -685,8 +685,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://ztnr.rtve.es/ztnr/4952053.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8",
+      "https://ztnr.rtve.es/ztnr/4952053.m3u8"
     ]
   },
   {
@@ -786,7 +786,7 @@
   },
   {
     "id": "CanalLuzTelevision.es@SD",
-    "name": "Canal Luz Television",
+    "name": "Canal Luz Television (720p)",
     "country": "ES",
     "categories": [
       "general"
@@ -987,8 +987,8 @@
     "urls": [
       "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8",
-      "https://ztnr.rtve.es/ztnr/5466990.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8",
+      "https://ztnr.rtve.es/ztnr/5466990.m3u8"
     ]
   },
   {
@@ -1592,7 +1592,7 @@
   },
   {
     "id": "La2.es@SD",
-    "name": "La 2 (720p)",
+    "name": "La 2 (1080p)",
     "country": "ES",
     "categories": [
       "general",
@@ -1600,9 +1600,9 @@
     ],
     "visible": true,
     "urls": [
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la2.m3u8",
       "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
-      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la2.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8"
     ]
   },
   {
@@ -2646,14 +2646,14 @@
   },
   {
     "id": "TVEInternacionalAmerica.es@SD",
-    "name": "TVE Internacional America",
+    "name": "TVE Internacional America (720p)",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://barinaslive1.boldmss.com/TVE/TVE.isml/index.m3u8",
       "http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8",
-      "https://barinaslive1.boldmss.com/TVE/TVE.isml/index.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8"
     ]
   },
   {
@@ -2689,14 +2689,14 @@
   },
   {
     "id": "TVEInternacionalEurope.es@SD",
-    "name": "TVE Internacional Europe",
+    "name": "TVE Internacional Europe (576p)",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8",
       "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8",
-      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8"
     ]
   },
   {
@@ -2947,18 +2947,6 @@
     ]
   },
   {
-    "id": "Antena3Internacional.es@SD",
-    "name": "Antena 3 Internacional (1080p)",
-    "country": "ES",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://38.252.238.18:8000/play/a04a/index.m3u8"
-    ]
-  },
-  {
     "id": "AXNMovies.es@SD",
     "name": "AXN Movies",
     "country": "ES",
@@ -2973,15 +2961,15 @@
   },
   {
     "id": "Antena3.es@National",
-    "name": "Antena 3 (480p)",
+    "name": "Antena 3 (1080p)",
     "country": "ES",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd",
       "https://ignac16.github.io/voxel-tv-streams/a3.mpd",
+      "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd",
       "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd"
     ]
   },
@@ -3511,15 +3499,15 @@
   },
   {
     "id": "Boing.es@SD",
-    "name": "Boing",
+    "name": "Boing (1080p)",
     "country": "ES",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "http://digisat.ddns.net:4022/udp/239.0.5.177:8208",
-      "http://90.170.214.40:9700/stream/avatel/boing/master.m3u8"
+      "http://90.170.214.40:9700/stream/avatel/boing/master.m3u8",
+      "http://digisat.ddns.net:4022/udp/239.0.5.177:8208"
     ]
   },
   {
@@ -3705,7 +3693,7 @@
   },
   {
     "id": "AXN.es@HD",
-    "name": "AXN HD",
+    "name": "AXN HD (1080p)",
     "country": "ES",
     "categories": [
       "movies"
@@ -3729,7 +3717,7 @@
   },
   {
     "id": "Nickelodeon.es@HD",
-    "name": "Nickelodeon HD",
+    "name": "Nickelodeon HD (1080p)",
     "country": "ES",
     "categories": [
       "kids"

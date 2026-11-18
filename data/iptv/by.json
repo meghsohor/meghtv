@@ -218,7 +218,7 @@
   },
   {
     "id": "Belarus4.by@Gomel",
-    "name": "Belarus-4 Gomel",
+    "name": "Belarus-4 Gomel (1080p)",
     "country": "BY",
     "categories": [
       "general"
@@ -230,13 +230,13 @@
   },
   {
     "id": "Vitebsk.by@SD",
-    "name": "Vitebsk (576p)",
+    "name": "Vitebsk (720p)",
     "country": "BY",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://46.53.200.153:7777/play/a00h/index.m3u8",
-      "https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8"
+      "https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8",
+      "http://46.53.200.153:7777/play/a00h/index.m3u8"
     ]
   },
   {

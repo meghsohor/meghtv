@@ -1,15 +1,15 @@
 [
   {
     "id": "AmigosTVChiquimula.gt@SD",
-    "name": "Amigos TV Chiquimula (480p)",
+    "name": "Amigos TV Chiquimula (1080p)",
     "country": "GT",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8",
-      "http://45.166.93.156:9999/play/a0j2/index.m3u8"
+      "http://45.166.93.156:9999/play/a0j2/index.m3u8",
+      "https://antmedia.cablevisionrobles.com:5443/LiveApp/streams/CqwAgRagMvBNYN8c1731608980342.m3u8"
     ]
   },
   {
@@ -356,7 +356,7 @@
   },
   {
     "id": "NuestraImagenTV.gt@SD",
-    "name": "Nuestra Imagen TV",
+    "name": "Nuestra Imagen TV (720p)",
     "country": "GT",
     "categories": [
       "general"
@@ -449,9 +449,9 @@
     ],
     "visible": true,
     "urls": [
+      "http://45.166.93.156:9999/play/a0ff/index.m3u8",
       "http://45.171.64.30:6060/play/a04k/index.m3u8",
       "https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8",
-      "http://45.166.93.156:9999/play/a0ff/index.m3u8",
       "http://190.61.90.17:40000/play/a0iw/index.m3u8"
     ]
   },

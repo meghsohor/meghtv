@@ -51,7 +51,7 @@
   },
   {
     "id": "AzStarTV.ca@SD",
-    "name": "Azstar TV HD (1080p)",
+    "name": "Azstar TV HD",
     "country": "CA",
     "categories": [
       "general"
@@ -256,15 +256,15 @@
   },
   {
     "id": "CBCNewsNetwork.ca@SD",
-    "name": "CBC News Network (720p) [Geo-blocked]",
+    "name": "CBC News Network (1080p)",
     "country": "CA",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://cbcrclinear-tor.akamaized.net/hls/live/2042769/geo_allow_ca/CBCRCLINEAR_TOR_15/master5.m3u8",
       "https://aka-live1050.delivery.roku.com/0c24a9ef-e9c3-485c-bf68-3f1ae5ef3e85/t2-origin/out/v1/live.m3u8",
+      "https://cbcrclinear-tor.akamaized.net/hls/live/2042769/geo_allow_ca/CBCRCLINEAR_TOR_15/master5.m3u8",
       "https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8",
       "https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8",
       "https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8"
@@ -1248,31 +1248,6 @@
     "visible": true,
     "urls": [
       "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594"
-    ]
-  },
-  {
-    "id": "NewChannelPop.ca@SD",
-    "name": "New Channel Pop! (480p)",
-    "country": "CA",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8"
-    ]
-  },
-  {
-    "id": "NewChannel.ca@SD",
-    "name": "New Channel (480p)",
-    "country": "CA",
-    "categories": [
-      "music",
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8"
     ]
   },
   {

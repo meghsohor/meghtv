@@ -363,7 +363,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://89.33.29.115:8080/sportplus/index.m3u8"
+      "http://89.33.29.115:8080/sportplus/index.m3u8",
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_plus/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -375,7 +376,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://89.33.29.115:8080/IL_5Stars/index.m3u8"
+      "http://89.33.29.115:8080/IL_5Stars/index.m3u8",
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_starz/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -406,6 +408,54 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/the_israeli_network/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5Gold.il@SD",
+    "name": "5Gold",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_gold/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5Live.il@SD",
+    "name": "5Live",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_live/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5Sport.il@SD",
+    "name": "5Sport",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5Sport4K.il@SD",
+    "name": "5Sport 4K",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_4k_avc/live.livx/playlist.m3u8"
     ]
   }
 ]

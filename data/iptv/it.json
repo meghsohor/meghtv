@@ -59,7 +59,7 @@
   },
   {
     "id": "50Canale.it@SD",
-    "name": "50 Canale",
+    "name": "50 Canale (720p)",
     "country": "IT",
     "categories": [
       "general"
@@ -988,15 +988,15 @@
   },
   {
     "id": "MediasetExtra.it@SD",
-    "name": "Mediaset Extra [Geo-blocked]",
+    "name": "Mediaset Extra (540p)",
     "country": "IT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8",
-      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mediaset_extra/live.livx/playlist.m3u8"
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mediaset_extra/live.livx/playlist.m3u8",
+      "https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8"
     ]
   },
   {
@@ -1470,14 +1470,14 @@
   },
   {
     "id": "Rai1.it@SD",
-    "name": "Rai 1 (576p) [Geo-blocked]",
+    "name": "Rai 1 (1080p)",
     "country": "IT",
     "categories": [],
     "visible": true,
     "urls": [
+      "http://team-tv.co:81/rai1/index.m3u8",
       "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803",
       "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803",
-      "http://team-tv.co:81/rai1/index.m3u8",
       "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8"
     ]
   },
@@ -1499,10 +1499,10 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
       "http://team-tv.co:81/rai3/index.m3u8",
+      "https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8",
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rai_tre/live.livx/playlist.m3u8",
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
       "https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8"
     ]
   },
@@ -1601,14 +1601,14 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://team-tv.co:81/raistoria/index.m3u8",
       "https://d3k8wzt41aflvx.cloudfront.net/RAIStoria/Live.m3u8",
-      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990",
-      "http://team-tv.co:81/raistoria/index.m3u8"
+      "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990"
     ]
   },
   {
     "id": "RaiSudtirol.it@SD",
-    "name": "Rai Sudtirol",
+    "name": "Rai Sudtirol (1080p)",
     "country": "IT",
     "categories": [],
     "visible": true,
@@ -1988,7 +1988,7 @@
   },
   {
     "id": "Super.it@SD",
-    "name": "Super!",
+    "name": "Super! (720p)",
     "country": "IT",
     "categories": [
       "kids"
@@ -2533,8 +2533,8 @@
     "visible": true,
     "urls": [
       "https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8",
-      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8",
-      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/tgcom24/live.livx/playlist.m3u8"
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/tgcom24/live.livx/playlist.m3u8",
+      "https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8"
     ]
   },
   {
@@ -2838,16 +2838,16 @@
   },
   {
     "id": "Canale5.it@HD",
-    "name": "Canale 5 HD",
+    "name": "Canale 5 HD (1080p)",
     "country": "IT",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/canale_5/live.livx/playlist.m3u8",
       "http://185.227.34.62/stream/17/index.m3u8",
-      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/canale_5/live.livx/playlist.m3u8"
+      "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
     ]
   },
   {
@@ -3420,26 +3420,26 @@
   },
   {
     "id": "Italia1.it@HD",
-    "name": "Italia 1 HD",
+    "name": "Italia 1 HD (720p)",
     "country": "IT",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://185.227.34.62/stream/21/index.m3u8",
-      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/italia_1/live.livx/playlist.m3u8"
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/italia_1/live.livx/playlist.m3u8",
+      "http://185.227.34.62/stream/21/index.m3u8"
     ]
   },
   {
     "id": "Rete4.it@HD",
-    "name": "Rete 4 HD",
+    "name": "Rete 4 HD (720p)",
     "country": "IT",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://185.227.34.62/stream/14/index.m3u8",
-      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/rete_4/live.livx/playlist.m3u8"
+      "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/rete_4/live.livx/playlist.m3u8",
+      "http://185.227.34.62/stream/14/index.m3u8"
     ]
   },
   {

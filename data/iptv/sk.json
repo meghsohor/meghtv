@@ -743,5 +743,15 @@
     "urls": [
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-adhoc12/live_fullhd?offsetSeconds=0"
     ]
+  },
+  {
+    "id": "TA3.sk@SD",
+    "name": "TA3",
+    "country": "SK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-ta3/live_fullhd?offsetSeconds=0"
+    ]
   }
 ]

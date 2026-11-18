@@ -280,15 +280,15 @@
   },
   {
     "id": "HTVSports.vn@SD",
-    "name": "HTV Sports (1080i)",
+    "name": "HTV Sports (1080p)",
     "country": "VN",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://vmttv.dpdns.org/tv360?id=htv-the-thao",
       "https://dethich.pw/htvthethao/index.m3u8",
+      "https://vmttv.dpdns.org/tv360?id=htv-the-thao",
       "https://vmttv.dpdns.org/tv360/?id=htv-the-thao",
       "https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8"
     ]
@@ -599,8 +599,8 @@
     "visible": true,
     "urls": [
       "https://dethich.pw/vtv1/index.m3u8",
-      "https://livesct.vtvprime.vn/Live_DASHDRM1/VTV1_HD/manifest.mpd",
       "https://luuchieu.truyenhinhso.vn/media/live/C90B082632CD4A75F4B3EDB3/index.m3u8",
+      "https://livesct.vtvprime.vn/Live_DASHDRM1/VTV1_HD/manifest.mpd",
       "https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/index.m3u8",
       "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8",
       "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8",

@@ -211,6 +211,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun",
       "http://103.255.250.188:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying"
     ]
   },
@@ -224,6 +225,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://103.255.250.188:5002/cs25.m3u8?channel=zhongying&gid=cs25&token=guoziyun",
       "http://103.255.250.188:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying"
     ]
   },
@@ -236,6 +238,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun",
       "http://103.255.250.188:5002/bs24.m3u8?token=guoziyun&gid=bs24&channel=zhongying"
     ]
   }

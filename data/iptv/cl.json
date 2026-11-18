@@ -1004,15 +1004,15 @@
   },
   {
     "id": "LaRed.cl@SD",
-    "name": "La Red (720p) [Not 24/7]",
+    "name": "La Red (720p)",
     "country": "CL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8",
       "https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8",
+      "https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8",
       "https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8"
     ]
   },
@@ -1926,20 +1926,6 @@
     ]
   },
   {
-    "id": "TVChile.cl@SD",
-    "name": "TV Chile (576p)",
-    "country": "CL",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://38.252.238.18:8000/play/a04b/index.m3u8",
-      "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
-      "http://168.196.127.137:6001/play/a03n/index.m3u8"
-    ]
-  },
-  {
     "id": "Canal2Quellon.cl@SD",
     "name": "TV Quellón (1080p) [Not 24/7]",
     "country": "CL",
@@ -2007,8 +1993,8 @@
       "http://38.44.109.41:8003/play/a0gz/index.m3u8",
       "http://45.173.231.22:8000/play/a06l/index.m3u8",
       "http://138.121.15.230:9002/TVN/index.m3u8",
-      "https://iptv.bitred.cl/tvn/index.m3u8",
       "http://181.78.88.113:9800/play/a09f/index.m3u8",
+      "https://iptv.bitred.cl/tvn/index.m3u8",
       "http://38.44.109.41:8003/play/a0gs/index.m3u8"
     ]
   },
@@ -2330,8 +2316,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://209.45.101.130:8040/play/a03s/index.m3u8",
-      "http://205.235.6.29:8000/play/a0xa/index.m3u8"
+      "http://205.235.6.29:8000/play/a0xa/index.m3u8",
+      "http://209.45.101.130:8040/play/a03s/index.m3u8"
     ]
   },
   {

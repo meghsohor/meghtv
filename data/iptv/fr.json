@@ -120,9 +120,9 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-60d3583ef310610007fb02b1.m3u8",
+      "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
       "https://iptv.bitred.cl/euronews/index.m3u8",
       "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8",
-      "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
       "https://jmp2.uk/plu-619d59b7cbef25000728221c.m3u8"
     ]
   },
@@ -260,8 +260,8 @@
     "visible": true,
     "urls": [
       "http://5.180.164.197:8080/ARTEFR/index.m3u8",
-      "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/arte_fr/live.livx/playlist.m3u8",
+      "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
       "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/3264727f/d0a3cb71.isml/.m3u8",
       "http://145.239.5.177/300/index.m3u8"
     ]
@@ -308,13 +308,14 @@
   },
   {
     "id": "BFMTV.fr@SD",
-    "name": "BFM TV (576p)",
+    "name": "BFM TV (1080p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/bfm_tv/live.livx/playlist.m3u8",
       "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8",
       "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE"
     ]
@@ -333,15 +334,15 @@
   },
   {
     "id": "CStar.fr@SD",
-    "name": "C Star (477p)",
+    "name": "C Star (720p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8",
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cstar/live.livx/playlist.m3u8",
+      "https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8",
       "http://145.239.5.177/361/index.m3u8"
     ]
   },
@@ -401,6 +402,7 @@
     "visible": true,
     "urls": [
       "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/cnews/live.livx/playlist.m3u8",
       "https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8"
     ]
   },
@@ -560,15 +562,15 @@
   },
   {
     "id": "France3.fr@National",
-    "name": "France 3",
+    "name": "France 3 (1080p)",
     "country": "FR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://85.14.32.26:8800/udp/239.100.10.144:5000",
-      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8"
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8",
+      "http://85.14.32.26:8800/udp/239.100.10.144:5000"
     ]
   },
   {
@@ -756,7 +758,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://99.27.51.147:8080/Gulli/index.m3u8"
+      "http://99.27.51.147:8080/Gulli/index.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/gulli/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -846,15 +849,15 @@
   },
   {
     "id": "M6Music.fr@SD",
-    "name": "M6 Music",
+    "name": "M6 Music (1080p)",
     "country": "FR",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
-      "https://test.946985.filegear-sg.me/proxy/803c517b325bfafc",
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/m6_music_hits/live.livx/playlist.m3u8",
+      "https://test.946985.filegear-sg.me/proxy/803c517b325bfafc",
       "http://145.239.5.177/320/index.m3u8"
     ]
   },
@@ -969,6 +972,7 @@
     "visible": true,
     "urls": [
       "https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/cherie_25/live.livx/playlist.m3u8",
       "http://145.239.5.177/333/index.m3u8"
     ]
   },
@@ -979,7 +983,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8"
+      "https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rmc_story/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -1053,7 +1058,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8"
+      "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/t18/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -1181,8 +1187,8 @@
       "http://5.180.164.197:8080/TV5MONDE/index.m3u8",
       "http://45.14.84.37/tv5monde/index.m3u8",
       "https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8",
-      "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8",
-      "https://hls01ns.antenaplay.ro/hls/tv5-monde-europe-sd/index.m3u8"
+      "https://hls01ns.antenaplay.ro/hls/tv5-monde-europe-sd/index.m3u8",
+      "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8"
     ]
   },
   {
@@ -1201,17 +1207,17 @@
   },
   {
     "id": "TV5MondeInfo.fr@SD",
-    "name": "TV5Monde Info (1080p) [Geo-blocked]",
+    "name": "TV5Monde Info (1080p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8",
-      "https://tvf-tvfm.otteravision.com/tvf/tvfm/tvfm_720.m3u8",
       "http://91.235.255.32:8001/1:0:1:2CA:14B4:13E:820000:0:0:0",
-      "http://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L4/b21193ce/2ee2c40a.isml/.m3u8"
+      "http://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L4/b21193ce/2ee2c40a.isml/.m3u8",
+      "https://tvf-tvfm.otteravision.com/tvf/tvfm/tvfm_720.m3u8",
+      "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8"
     ]
   },
   {
@@ -1379,15 +1385,15 @@
   },
   {
     "id": "W9.fr@SD",
-    "name": "W9 (720p)",
+    "name": "W9 (1080p)",
     "country": "FR",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/w9_fr/live.livx/playlist.m3u8",
+      "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
       "http://5.180.164.197:8080/W9/index.m3u8",
       "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8",
       "http://145.239.5.177/331a/index.m3u8"
@@ -1516,13 +1522,14 @@
   },
   {
     "id": "LCP.fr@SD",
-    "name": "LCP (477p)",
+    "name": "LCP (720p)",
     "country": "FR",
     "categories": [
       "legislative"
     ],
     "visible": false,
     "urls": [
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/lcp/live.livx/playlist.m3u8",
       "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8"
     ]
   },
@@ -2461,7 +2468,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8"
+      "https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8",
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rmc_decouverte/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2783,13 +2791,14 @@
   },
   {
     "id": "Eurosport1.fr@UK",
-    "name": "Eurosport 1 UK (1080p)",
+    "name": "Eurosport 1 UK (720p)",
     "country": "FR",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_en/live.livx/playlist.m3u8",
       "http://85.117.37.43/eurosport1/index.m3u8"
     ]
   },
@@ -2927,7 +2936,7 @@
   },
   {
     "id": "TF1.fr@SD",
-    "name": "TF1",
+    "name": "TF1 (1080p)",
     "country": "FR",
     "categories": [
       "entertainment"
@@ -3129,6 +3138,18 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/automoto/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "M6.fr@SD",
+    "name": "M6 SD (1080p)",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3u8"
     ]
   }
 ]

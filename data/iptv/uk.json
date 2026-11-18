@@ -3078,15 +3078,15 @@
   },
   {
     "id": "Channel4.uk@UK",
-    "name": "Channel 4 (360p)",
+    "name": "Channel 4 (576p)",
     "country": "UK",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8",
-      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8"
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8",
+      "https://lb.iptvnetwork.net/ls28/10104/playlist.m3u8"
     ]
   },
   {
@@ -3151,15 +3151,15 @@
   },
   {
     "id": "More4.uk@SD",
-    "name": "More4 (360p)",
+    "name": "More4 (576p)",
     "country": "UK",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8",
-      "http://82.47.42.44/stream/402/index.m3u8"
+      "http://82.47.42.44/stream/402/index.m3u8",
+      "https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8"
     ]
   },
   {

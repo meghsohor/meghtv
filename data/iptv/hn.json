@@ -637,6 +637,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://restreamer.multicable.hn/memfs/8a0f3d8a-0475-4169-89f2-f8facf11b723.m3u8",
       "https://tv.webmedialive.com/sulatv/live/playlist.m3u8"
     ]
   },
@@ -873,15 +874,15 @@
   },
   {
     "id": "UNETV.hn@SD",
-    "name": "UNE TV (720p)",
+    "name": "UNE TV (1080p)",
     "country": "HN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "https://amixtv.com:8081/unetvhn/tracks-v1a1/mono.m3u8",
-      "http://45.166.93.156:9999/play/a0jo/index.m3u8"
+      "http://45.166.93.156:9999/play/a0jo/index.m3u8",
+      "https://amixtv.com:8081/unetvhn/tracks-v1a1/mono.m3u8"
     ]
   },
   {

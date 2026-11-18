@@ -1,7 +1,7 @@
 [
   {
     "id": "5tv.ar@SD",
-    "name": "5tv",
+    "name": "5tv (608p)",
     "country": "AR",
     "categories": [
       "general"
@@ -199,7 +199,7 @@
   },
   {
     "id": "Canal2Gualeguay.ar@SD",
-    "name": "Canal 2 Gualeguay",
+    "name": "Canal 2 Gualeguay (1080p)",
     "country": "AR",
     "categories": [
       "general"
@@ -406,7 +406,7 @@
   },
   {
     "id": "Canal7Jujuy.ar@SD",
-    "name": "Canal 7 Jujuy",
+    "name": "Canal 7 Jujuy (720p)",
     "country": "AR",
     "categories": [],
     "visible": true,
@@ -450,7 +450,7 @@
   },
   {
     "id": "Canal9Link.ar@SD",
-    "name": "Canal 9 Link",
+    "name": "Canal 9 Link (720p)",
     "country": "AR",
     "categories": [
       "entertainment"
@@ -822,7 +822,7 @@
   },
   {
     "id": "CorreaRadiovision.ar@SD",
-    "name": "Correa Radiovision",
+    "name": "Correa Radiovision (720p)",
     "country": "AR",
     "categories": [
       "general"
@@ -834,7 +834,7 @@
   },
   {
     "id": "CorrientesTV.ar@SD",
-    "name": "Corrientes TV",
+    "name": "Corrientes TV (352p)",
     "country": "AR",
     "categories": [
       "general"
@@ -1012,7 +1012,7 @@
   },
   {
     "id": "EcoTV.ar@SD",
-    "name": "Eco TV",
+    "name": "Eco TV (1080p)",
     "country": "AR",
     "categories": [
       "general"
@@ -1223,17 +1223,17 @@
   },
   {
     "id": "NETTV.ar@SD",
-    "name": "NET TV (720p)",
+    "name": "NET TV (1080p)",
     "country": "AR",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "http://45.226.205.96:48000/play/a09p/index.m3u8",
       "http://45.134.141.161:2200/ARG/Net_TV/index.m3u8",
       "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-      "https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8",
-      "http://45.226.205.96:48000/play/a09p/index.m3u8"
+      "https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8"
     ]
   },
   {

@@ -148,5 +148,10 @@
     "id": "xxx",
     "name": "XXX",
     "visible": false
+  },
+  {
+    "id": "woman",
+    "name": "Woman",
+    "visible": true
   }
 ]

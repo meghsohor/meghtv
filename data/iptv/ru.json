@@ -106,11 +106,11 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8",
+      "http://s1.merlive.am/telekafe/index.m3u8",
       "http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
-      "http://s1.merlive.am/telekafe/index.m3u8",
       "http://31.148.48.15/Telekafe/index.m3u8",
       "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
       "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
@@ -212,8 +212,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/263/index.m3u8",
       "http://s1.merlive.am/black/index.m3u8",
+      "http://stream.mcquack.net/263/index.m3u8",
       "http://str2.iptvhd.ru:8080/Sony_Turbo/index.m3u8"
     ]
   },
@@ -1247,16 +1247,16 @@
   },
   {
     "id": "Kinouzhas.ru@SD",
-    "name": "Kinouzhas (576p)",
+    "name": "Kinouzhas (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "http://s1.merlive.am/Kinoujas/index.m3u8",
       "http://stream.mcquack.net/278/index.m3u8",
       "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv",
-      "http://s1.merlive.am/Kinoujas/index.m3u8",
       "http://str2.iptvhd.ru:8080/kinoujas_tv/index.m3u8"
     ]
   },
@@ -1669,8 +1669,8 @@
       "http://stream.mcquack.net/86/index.m3u8",
       "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8",
-      "https://streaming.televizor-24-tochka.ru/live/20.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/618.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/20.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8",
       "http://hls127.freeott.top:8080/MUZ_TV/video.m3u8"
     ]
@@ -3122,15 +3122,15 @@
   },
   {
     "id": "StarCinema.ru@SD",
-    "name": "Star Cinema",
+    "name": "Star Cinema (576p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8",
-      "http://s1.merlive.am/starsinema/index.m3u8"
+      "http://s1.merlive.am/starsinema/index.m3u8",
+      "https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8"
     ]
   },
   {
@@ -3321,10 +3321,10 @@
     "visible": true,
     "urls": [
       "http://flussonic.linkintel.ru/tiji/index.m3u8",
+      "http://s1.merlive.am/TiJi/index.m3u8",
       "http://stream.mcquack.net/111/index.m3u8",
       "https://live-3.otcnet.ru/Tiji/index.m3u8",
       "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
-      "http://s1.merlive.am/TiJi/index.m3u8",
       "http://str2.iptvhd.ru:8080/TiJi/index.m3u8"
     ]
   },
@@ -3832,8 +3832,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/225/index.m3u8",
-      "http://s1.merlive.am/Jivaiapriroda/index.m3u8"
+      "http://s1.merlive.am/Jivaiapriroda/index.m3u8",
+      "http://stream.mcquack.net/225/index.m3u8"
     ]
   },
   {
@@ -5170,8 +5170,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv",
-      "http://s1.merlive.am/matchplaneta/index.m3u8"
+      "http://s1.merlive.am/matchplaneta/index.m3u8",
+      "https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -6547,7 +6547,7 @@
   },
   {
     "id": "OTVPrim.ru@SD",
-    "name": "ОТВ Приморье",
+    "name": "ОТВ Приморье (720p)",
     "country": "RU",
     "categories": [
       "entertainment"
@@ -6675,7 +6675,7 @@
   },
   {
     "id": "PervyyRespublikanskiy.ru@SD",
-    "name": "Первый Республиканский",
+    "name": "Первый Республиканский (576p)",
     "country": "RU",
     "categories": [
       "news"
@@ -7097,8 +7097,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8",
-      "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8"
+      "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8",
+      "https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8"
     ]
   },
   {
