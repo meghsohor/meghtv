@@ -2250,5 +2250,29 @@
     "urls": [
       "https://bingbang.kotmiuaczek.workers.dev/?id=3342"
     ]
+  },
+  {
+    "id": "dlaCiebietv.pl@SD",
+    "name": "dlaCiebie.tv (1080p)",
+    "country": "PL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://6034e09794f07.streamlock.net/tv/dlaCiebieTv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "RADIOCLUBDJTV.pl@HD",
+    "name": "RADIO CLUB DJ TV",
+    "country": "PL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://radioclubdj.pro/stream/tv.m3u8"
+    ]
   }
 ]

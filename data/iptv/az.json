@@ -104,7 +104,7 @@
   },
   {
     "id": "IctimaiTV.az@SD",
-    "name": "Ictimai TV",
+    "name": "İctimai TV [Geo-blocked]",
     "country": "AZ",
     "categories": [
       "general"
@@ -140,7 +140,7 @@
   },
   {
     "id": "KapazTV.az@SD",
-    "name": "Kapaz TV",
+    "name": "Kapaz TV [Geo-blocked]",
     "country": "AZ",
     "categories": [
       "news"
@@ -237,7 +237,7 @@
   },
   {
     "id": "AzTV.az@HD",
-    "name": "Az TV HD",
+    "name": "Az TV HD [Geo-blocked]",
     "country": "AZ",
     "categories": [
       "general"
@@ -245,6 +245,18 @@
     "visible": true,
     "urls": [
       "http://185.32.44.154:80/aztv/index.m3u8"
+    ]
+  },
+  {
+    "id": "AzadTV.az@HD",
+    "name": "Azad TV HD",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
     ]
   }
 ]

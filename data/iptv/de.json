@@ -5309,5 +5309,15 @@
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8"
     ]
+  },
+  {
+    "id": "RTLZwei.de@Schweiz",
+    "name": "RTL Zwei Schweiz (540p)",
+    "country": "DE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rtlzwei_ch/live.livx/playlist.m3u8"
+    ]
   }
 ]

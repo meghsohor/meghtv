@@ -1960,13 +1960,13 @@
   },
   {
     "id": "TelefeSalta.ar@SD",
-    "name": "Telefe Salta",
+    "name": "Telefe Salta (720p)",
     "country": "AR",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://canal11saltatv.unpocodeawita.workers.dev",
-      "https://canal11saltatv.unpocodeawita.workers.dev/"
+      "https://canal11saltatv.unpocodeawita.workers.dev/",
+      "https://canal11saltatv.unpocodeawita.workers.dev"
     ]
   },
   {

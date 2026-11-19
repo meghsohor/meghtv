@@ -356,28 +356,28 @@
   },
   {
     "id": "5Plus.il@SD",
-    "name": "5Plus (1080p)",
+    "name": "5Plus",
     "country": "IL",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://89.33.29.115:8080/sportplus/index.m3u8",
-      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_plus/live.livx/playlist.m3u8"
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_plus/live.livx/playlist.m3u8",
+      "http://89.33.29.115:8080/sportplus/index.m3u8"
     ]
   },
   {
     "id": "5Stars.il@SD",
-    "name": "5Stars (1080p)",
+    "name": "5Stars",
     "country": "IL",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://89.33.29.115:8080/IL_5Stars/index.m3u8",
-      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_starz/live.livx/playlist.m3u8"
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_starz/live.livx/playlist.m3u8",
+      "http://89.33.29.115:8080/IL_5Stars/index.m3u8"
     ]
   },
   {
@@ -397,7 +397,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8"
+      "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8",
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/channel16/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -456,6 +457,130 @@
     "visible": true,
     "urls": [
       "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_4k_avc/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "5Max.il@SD",
+    "name": "5Max",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_max/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "ArutzHaYeladim.il@SD",
+    "name": "Arutz HaYeladim",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/kids_channel/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "EconomyChannel.il@SD",
+    "name": "Economy Channel",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Foody.il@SD",
+    "name": "Foody",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/foody/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Junior.il@SD",
+    "name": "Junior",
+    "country": "IL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/junior/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MusicIL.il@SD",
+    "name": "Music IL",
+    "country": "IL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/music_il/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "One2.il@SD",
+    "name": "One 2",
+    "country": "IL",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_2/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OneDoco.il@SD",
+    "name": "One Doco",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_doco/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "OneEdge.il@SD",
+    "name": "One Edge",
+    "country": "IL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_edge/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VivaIstanbul.il@SD",
+    "name": "Viva Istanbul",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/viva_plus/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "VivaTelenovelas.il@SD",
+    "name": "Viva Telenovelas",
+    "country": "IL",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/viva/live.livx/playlist.m3u8"
     ]
   }
 ]

@@ -6983,13 +6983,14 @@
   },
   {
     "id": "VIVARussia.ru@SD",
-    "name": "VIVA Russia",
+    "name": "VIVA Russia (1080p)",
     "country": "RU",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
     ]
   },

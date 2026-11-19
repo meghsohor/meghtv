@@ -2965,8 +2965,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8",
-      "https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8"
+      "https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8",
+      "https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8"
     ]
   },
   {
@@ -3071,6 +3071,18 @@
     "visible": true,
     "urls": [
       "https://ss2.tvrdomi.com:1936/nuevaisabelatv/nuevaisabelatv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CDN.do@HD",
+    "name": "CDN HD (1080p) [Geo-blocked]",
+    "country": "DO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.wind.do/streams/cdn37/cdn37_master.m3u8"
     ]
   }
 ]

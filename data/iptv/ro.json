@@ -1379,15 +1379,15 @@
   },
   {
     "id": "VoyoSport1.ro@HD",
-    "name": "Voyo Sport 1 (1080p)",
+    "name": "Voyo Sport 1 (1080i)",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://34.92.70.128/VOYO-SPORT-1/index.m3u8",
       "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8",
+      "http://34.92.70.128/VOYO-SPORT-1/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offsetSeconds=0"
     ]
   },
@@ -2212,6 +2212,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream1.antenaplay.ro/promo/f1-academy-las-vegas-20-2211/chunklist.m3u8",
       "https://stream1.antenaplay.ro/promo/f1-academy-las-vegas-general-2026/chunklist.m3u8"
     ]
   },
@@ -2225,6 +2226,66 @@
     "visible": true,
     "urls": [
       "https://stream1.antenaplay.ro/promo/nba-meci/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "JimJam.ro@SD",
+    "name": "JimJam (576p)",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm"
+    ]
+  },
+  {
+    "id": "PrimaSportPPV1.ro@SD",
+    "name": "Prima Sport PPV 1",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki1%2Fusergendx6kal0r2bsm-got.htm"
+    ]
+  },
+  {
+    "id": "PrimaSportPPV2.ro@SD",
+    "name": "Prima Sport PPV 2",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki2%2Fusergendxpk2s6utg0l-got.htm"
+    ]
+  },
+  {
+    "id": "SkyShowtime1.ro@HD",
+    "name": "SkyShowtime 1",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi1%2Fusergendxn430rnd-got.htm"
+    ]
+  },
+  {
+    "id": "SkyShowtime2.ro@HD",
+    "name": "SkyShowtime 2",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi2%2Fusergendxj85trnd-got.htm"
     ]
   }
 ]

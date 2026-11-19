@@ -1016,13 +1016,14 @@
   },
   {
     "id": "SalsaGordaTelevision.co@SD",
-    "name": "Salsa Gorda Television (1080p) [Not 24/7]",
+    "name": "Salsa Gorda Television (1080p)",
     "country": "CO",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://stmv1.voxtvhd.com.br/salsagorda/salsagorda/playlist.m3u8",
       "https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8"
     ]
   },
@@ -1688,6 +1689,18 @@
     "visible": true,
     "urls": [
       "https://tdcdigital-streams.github.io/iptv/CaliTV.m3u8"
+    ]
+  },
+  {
+    "id": "OrigenChannel.co@SD",
+    "name": "Origen Channel (1080p) [Geo-blocked]",
+    "country": "CO",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC022/022/playlist.m3u8"
     ]
   }
 ]

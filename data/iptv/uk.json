@@ -51,7 +51,8 @@
       "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
       "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
       "https://timeline-samsung-uk.amagi.tv/playlist.m3u8",
-      "https://lds-timeline-plex.amagi.tv/playlist.m3u8"
+      "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
+      "https://lds-timeline-vizio.amagi.tv/playlist.m3u8"
     ]
   },
   {
@@ -160,7 +161,8 @@
       "https://lds-realwild-samsungau.amagi.tv/playlist.m3u8",
       "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8",
       "https://lds-realwild-rakuten.amagi.tv/playlist.m3u8",
-      "https://lds-realwild-samsunguk.amagi.tv/playlist.m3u8"
+      "https://lds-realwild-samsunguk.amagi.tv/playlist.m3u8",
+      "https://lds-realwild-vizio.amagi.tv/playlist.m3u8"
     ]
   },
   {
@@ -234,7 +236,8 @@
       "https://jmp2.uk/plu-660bfcd07bcd860008796ae8.m3u8",
       "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
       "https://jmp2.uk/plu-63d91d2560bc8f0008a225e4.m3u8",
-      "https://ba3e2e93.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8"
+      "https://ba3e2e93.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8",
+      "https://95cedebd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fRklGQVBsdXNFbmdsaXNoX0hMUw/playlist.m3u8"
     ]
   },
   {
@@ -290,7 +293,8 @@
       "https://jmp2.uk/plu-620239894757070008d4812d.m3u8",
       "https://jmp2.uk/plu-636adc255bcf470007d6e0e2.m3u8",
       "https://d1daq1khzqxpku.cloudfront.net/playlist.m3u8",
-      "https://aegis-cloudfront-1.tubi.video/33ccaca5-a666-4b28-8578-55a9ab9f06d5/playlist.m3u8"
+      "https://aegis-cloudfront-1.tubi.video/33ccaca5-a666-4b28-8578-55a9ab9f06d5/playlist.m3u8",
+      "https://amg00793-amg00793c5-vizio-us-2666.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbctopgear8minother-vizious/playlist.m3u8"
     ]
   },
   {
@@ -2000,7 +2004,8 @@
     "urls": [
       "https://tvsen1.aynaott.com/shn6jGTk/index.m3u8",
       "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
-      "https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8"
+      "https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8",
+      "https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fQkJDTmV3c19ITFM/playlist.m3u8"
     ]
   },
   {
@@ -3039,6 +3044,7 @@
       "https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8",
       "https://pb-zjy36qhp8e8cz.akamaized.net/BBC_Earth_US.m3u8",
       "https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8",
+      "https://amg00793-amg00793c6-vizio-us-2670.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthaall-vizious/playlist.m3u8",
       "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8"
     ]
   },
@@ -3650,6 +3656,18 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cnbc_europe/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BBCDrama.uk@US",
+    "name": "BBC Drama Classics (1080p)",
+    "country": "UK",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://linear-938.frequency.stream/mt/vizio/938/hls/master/playlist.m3u8"
     ]
   }
 ]

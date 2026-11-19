@@ -195,13 +195,14 @@
   },
   {
     "id": "Globovision.ve@SD",
-    "name": "Globovision (576p)",
+    "name": "Globovision (720p)",
     "country": "VE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8",
       "http://181.78.8.199:8000/play/a09k/index.m3u8"
     ]
   },

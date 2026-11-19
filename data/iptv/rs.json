@@ -20,8 +20,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://shift03.isp.bg/DMSat/index.m3u8",
-      "http://85.14.32.26:8800/udp/239.100.10.40:5000"
+      "http://85.14.32.26:8800/udp/239.100.10.40:5000",
+      "https://shift03.isp.bg/DMSat/index.m3u8"
     ]
   },
   {
@@ -38,9 +38,11 @@
   },
   {
     "id": "IDJTV.rs@SD",
-    "name": "IDJTV",
+    "name": "IDJTV (576p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "music"
+    ],
     "visible": true,
     "urls": [
       "https://best-str.umn.cdn.united.cloud/stream?channel=idjhd&p=In$trum300na765ta&player=m3u8&sp=idjtv&stream=hp1400&u=idjtv"
@@ -48,7 +50,7 @@
   },
   {
     "id": "KitchenTV.rs@SD",
-    "name": "Kitchen TV",
+    "name": "Kitchen TV (576p)",
     "country": "RS",
     "categories": [
       "cooking"
@@ -208,24 +210,28 @@
   },
   {
     "id": "RTS1.rs@SD",
-    "name": "RTS 1",
+    "name": "RTS 1 (720p) [Not 24/7]",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
-      "https://de1.dstv.cx/RTS1HD/index.m3u8",
-      "https://webtvstream.bhtelecom.ba/rts1.m3u8"
+      "https://webtvstream.bhtelecom.ba/rts1.m3u8",
+      "https://de1.dstv.cx/RTS1HD/index.m3u8"
     ]
   },
   {
     "id": "RTS2.rs@SD",
-    "name": "RTS 2 (1080p)",
+    "name": "RTS 2 (720p) [Not 24/7]",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "culture"
+    ],
     "visible": true,
     "urls": [
-      "https://de1.dstv.cx/RTS2HD/index.m3u8",
-      "https://webtvstream.bhtelecom.ba/rts2.m3u8"
+      "https://webtvstream.bhtelecom.ba/rts2.m3u8",
+      "https://de1.dstv.cx/RTS2HD/index.m3u8"
     ]
   },
   {
@@ -284,11 +290,14 @@
   },
   {
     "id": "RTSSvet.rs@SD",
-    "name": "RTS Svet (1080p)",
+    "name": "RTS Svet (720p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
+      "https://webtvstream.bhtelecom.ba/rts_svet.m3u8",
       "https://de1.dstv.cx/RTSSvet/index.m3u8"
     ]
   },
@@ -314,31 +323,39 @@
   },
   {
     "id": "RTV1.rs@SD",
-    "name": "RTV 1 (576p) [Not 24/7]",
+    "name": "RTV 1 (1080p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
+      "http://212.200.230.50:1935/RTV/rtv1/playlist.m3u8",
       "mmsh://212.200.255.151/rtv1",
       "rtsp://212.200.255.151/rtv1"
     ]
   },
   {
     "id": "RTV2.rs@SD",
-    "name": "RTV 2 (576p) [Not 24/7]",
+    "name": "RTV 2 (1080p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
+      "http://212.200.230.50:1935/RTV/rtv2/playlist.m3u8",
       "mmsh://212.200.255.151/rtv2",
       "rtsp://212.200.255.151/rtv2"
     ]
   },
   {
     "id": "RTVBap.rs@SD",
-    "name": "RTV Bap (480p)",
+    "name": "RTV Bap (768p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8"
@@ -346,9 +363,11 @@
   },
   {
     "id": "RTVNoviPazar.rs@SD",
-    "name": "RTV Novi Pazar",
+    "name": "RTV Novi Pazar (1080p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://tv.rtvnp.rs/stream.m3u8"
@@ -358,7 +377,9 @@
     "id": "SandzakTV.rs@SD",
     "name": "Sandzak TV (576p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://streaming.iptv.nextfiber.rs/nxt004/master.m3u8"
@@ -414,13 +435,14 @@
   },
   {
     "id": "TVDugaPlus.rs@SD",
-    "name": "TV Duga Plus (480p) [Not 24/7]",
+    "name": "TV Duga Plus (720p) [Not 24/7]",
     "country": "RS",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "http://135.125.238.20:8080/memfs/6c06b323-a7db-443a-a75f-b745da6ca308.m3u8",
       "http://109.92.29.10:1935/tvduga/tvduga/playlist.m3u8"
     ]
   },
@@ -428,7 +450,9 @@
     "id": "TVHram.rs@SD",
     "name": "TV Hram (576p) [Not 24/7]",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "religious"
+    ],
     "visible": true,
     "urls": [
       "https://vod1.laki.eu/live/hram/index.m3u8"
@@ -446,9 +470,11 @@
   },
   {
     "id": "TVPanon.rs@SD",
-    "name": "TV Panon",
+    "name": "TV Panon (648p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://stream2.nmih.hu:4102/live.m3u8"
@@ -458,7 +484,9 @@
     "id": "TVPiKanal.rs@SD",
     "name": "TV Pi Kanal (576p) [Not 24/7]",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://stream.pikanal.rs/pikanal/pgm.m3u8"
@@ -466,11 +494,14 @@
   },
   {
     "id": "TVPirot.rs@SD",
-    "name": "TV Pirot (240p) [Not 24/7]",
+    "name": "TV Pirot (576p) [Not 24/7]",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
+      "https://edge-rs-01.maksnet.tv/tvpirot/uzivo/playlist.m3u8",
       "https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8"
     ]
   },
@@ -490,7 +521,9 @@
     "id": "SciFi.rs@SD",
     "name": "Sci Fi (720p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "series"
+    ],
     "visible": true,
     "urls": [
       "https://webtvstream.bhtelecom.ba/sci-fi.m3u8"
@@ -512,7 +545,9 @@
     "id": "TVKragujevac.rs@SD",
     "name": "TV Kragujevac (576p)",
     "country": "RS",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://edge-rs-03.maksnet.tv/rtvkg/uzivo/playlist.m3u8"
@@ -550,6 +585,54 @@
     "visible": true,
     "urls": [
       "https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KurirTV.rs@SD",
+    "name": "Kurir TV (720p)",
+    "country": "RS",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8"
+    ]
+  },
+  {
+    "id": "SuperTVSmederevo.rs@SD",
+    "name": "Super TV Smederevo (360p)",
+    "country": "RS",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://183.giatvcdn.com/ssh101/ssh101/televizijasuper/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TVAS.rs@SD",
+    "name": "TV AS (576p)",
+    "country": "RS",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.toobimedia.org/public/assabac.m3u8"
+    ]
+  },
+  {
+    "id": "TVJefimija.rs@SD",
+    "name": "TV Jefimija (576p)",
+    "country": "RS",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.jefimija.eu/hls/stream.m3u8"
     ]
   }
 ]
