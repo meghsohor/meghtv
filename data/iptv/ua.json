@@ -53,18 +53,6 @@
     ]
   },
   {
-    "id": "1Plus1International.ua@SD",
-    "name": "1+1 International",
-    "country": "UA",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://158.101.222.193:88/georgia_play.php?id=1plus1international"
-    ]
-  },
-  {
     "id": "1Plus1International.ua@HD",
     "name": "1+1 International HD (720p)",
     "country": "UA",
@@ -693,18 +681,6 @@
     "visible": true,
     "urls": [
       "https://dash2.antik.sk/live/test_kuskus_tv_atktv/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "KvartalTV.ua@SD",
-    "name": "Kvartal TV",
-    "country": "UA",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "http://158.101.222.193:88/georgia_play.php?id=kvartal95"
     ]
   },
   {

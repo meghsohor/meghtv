@@ -272,5 +272,17 @@
     "urls": [
       "http://media1.skifnet.by/voentv/index.m3u8"
     ]
+  },
+  {
+    "id": "STV.by@SD",
+    "name": "STV (720p)",
+    "country": "BY",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://86.57.147.236/HLS/ctvby/playlist.m3u8"
+    ]
   }
 ]

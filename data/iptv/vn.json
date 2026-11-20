@@ -36,42 +36,6 @@
     ]
   },
   {
-    "id": "AnGiangTV1.vn@SD",
-    "name": "An Giang TV1 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tv.angiangtv.vn/live/kgtv/kgtv.m3u8"
-    ]
-  },
-  {
-    "id": "AnGiangTV2.vn@SD",
-    "name": "An Giang TV2 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8"
-    ]
-  },
-  {
-    "id": "AnGiangTV3.vn@SD",
-    "name": "An Giang TV3 (1080p) [Geo-blocked]",
-    "country": "VN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8"
-    ]
-  },
-  {
     "id": "AnNinhTV.vn@HD",
     "name": "An Ninh TV HD (1080p)",
     "country": "VN",

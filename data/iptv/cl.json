@@ -458,7 +458,8 @@
     "visible": true,
     "urls": [
       "http://15.204.246.24:8080/CHVHD/index.m3u8",
-      "http://181.78.88.113:9800/play/a05h/index.m3u8"
+      "http://181.78.88.113:9800/play/a05h/index.m3u8",
+      "https://redirector.dps.live/hls/chv/playlist.m3u8"
     ]
   },
   {

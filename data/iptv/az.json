@@ -66,7 +66,7 @@
   },
   {
     "id": "BakuTV.az@SD",
-    "name": "Baku.TV",
+    "name": "Baku TV",
     "country": "AZ",
     "categories": [
       "news"
@@ -91,7 +91,7 @@
   },
   {
     "id": "ELTV.az@SD",
-    "name": "EL TV",
+    "name": "EL TV [Not 24/7]",
     "country": "AZ",
     "categories": [
       "general"
@@ -257,6 +257,79 @@
     "visible": true,
     "urls": [
       "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
+    ]
+  },
+  {
+    "id": "BakuTV.az@HD",
+    "name": "Baku TV HD",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.baku.tv/hls/bakutv_1080p.m3u8"
+    ]
+  },
+  {
+    "id": "RealTV.az@HD",
+    "name": "Real TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.118.50.218:80/realtv/video.m3u8"
+    ]
+  },
+  {
+    "id": "ShowPlusTV.az@HD",
+    "name": "Show Plus TV",
+    "country": "AZ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.showplus.tv/hls/myshow.m3u8"
+    ]
+  },
+  {
+    "id": "ARB24.az@SD",
+    "name": "ARB 24",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://operativmm.az/tvs/arb24/stream/index.m3u8",
+      "https://az.tvstream.az/hls/stream5/stream.m3u8"
+    ]
+  },
+  {
+    "id": "ARB24.az@HD",
+    "name": "ARB 24 HD",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.32.44.154:80/arb24/index.m3u8"
+    ]
+  },
+  {
+    "id": "CBC.az@HD",
+    "name": "CBC",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.118.50.218:80/cbc/video.m3u8"
     ]
   }
 ]

@@ -24072,6 +24072,7 @@
     "visible": true,
     "urls": [
       "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
+      "http://116.90.120.149:8000/play/a01b/index.m3u8",
       "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1",
       "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
       "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8"
@@ -24658,6 +24659,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://181.78.61.202:8000/play/a02a",
       "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8",
       "http://15.204.246.24:8080/HBOXTREMEHD/index.m3u8"
     ]
@@ -26391,6 +26393,19 @@
     "visible": true,
     "urls": [
       "https://linear-1683.frequency.stream/mt/vizio/1683/hls/master/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Tooncast.us@Brazil",
+    "name": "Tooncast Brazil (720p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://170.83.16.50:80/TOONCAST/index.m3u8"
     ]
   }
 ]

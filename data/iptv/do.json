@@ -307,18 +307,6 @@
     ]
   },
   {
-    "id": "Canal70.do@HD",
-    "name": "Canal 70 (720p)",
-    "country": "DO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://183.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/playlist.m3u8"
-    ]
-  },
-  {
     "id": "CanalCatorce.do@SD",
     "name": "Canal Catorce (1080p) [Not 24/7]",
     "country": "DO",
@@ -2074,18 +2062,6 @@
     "visible": true,
     "urls": [
       "https://5790d294af2dc.streamlock.net/Teleproyecto/Teleproyecto/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "Telealtura.do@SD",
-    "name": "Telealtura (1080p) [Not 24/7]",
-    "country": "DO",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://lbgo.bozztv.com/ssh101/ssh101/telealtura/playlist.m3u8"
     ]
   },
   {

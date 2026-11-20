@@ -230,18 +230,6 @@
     ]
   },
   {
-    "id": "GMSTV.ge@SD",
-    "name": "GMS TV",
-    "country": "GE",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://158.101.222.193:88/georgia_play.php?id=gms"
-    ]
-  },
-  {
     "id": "SetantaSportsPlusGeorgia.ge@SD",
     "name": "Setanta Sports+ Georgia (1080p)",
     "country": "GE",
