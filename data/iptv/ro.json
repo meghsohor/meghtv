@@ -2026,18 +2026,6 @@
     ]
   },
   {
-    "id": "Prima4K.ro@UHD",
-    "name": "Prima 4K (2160p)",
-    "country": "RO",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://92.180.26.103/stream/80/index.m3u8"
-    ]
-  },
-  {
     "id": "InfoHD.ro@SD",
     "name": "Info HD (576i)",
     "country": "RO",
@@ -2164,6 +2152,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk2%2Fusergenrnd0clv03fyt-got.htm",
       "http://sultanios.alwaysdata.net/vavo.php?ID=3381201599"
     ]
   },
@@ -2286,6 +2275,18 @@
     "visible": true,
     "urls": [
       "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi2%2Fusergendxj85trnd-got.htm"
+    ]
+  },
+  {
+    "id": "PrimaSport1.ro@HD",
+    "name": "Prima Sport 1 HD",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk1%2Fusergenrx0cir27aq-got.htm"
     ]
   }
 ]

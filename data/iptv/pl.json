@@ -901,7 +901,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10209.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ="
+      "http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10209.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=",
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F426276697"
     ]
   },
   {
@@ -1624,13 +1625,14 @@
   },
   {
     "id": "Eurosport3Polska.pl@SD",
-    "name": "Eurosport 3 Polska",
+    "name": "Eurosport 3 Polska (1080p)",
     "country": "PL",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5121596371c5191ed9b35",
       "http://sultanios.alwaysdata.net/vavo.php?ID=512159637",
       "http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0"
     ]
@@ -2207,19 +2209,20 @@
   },
   {
     "id": "Eurosport4Polska.pl@SD",
-    "name": "Eurosport 4 Polska",
+    "name": "Eurosport 4 Polska (1080p)",
     "country": "PL",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2896573317d9d69e0e2d72",
       "http://sultanios.alwaysdata.net/vavo.php?ID=2896573317"
     ]
   },
   {
     "id": "ParamountNetwork.pl@SD",
-    "name": "Paramount Network",
+    "name": "Paramount Network (1080p)",
     "country": "PL",
     "categories": [
       "series",
@@ -2227,6 +2230,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://guard.sekobes.workers.dev/?url=https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F3390498693",
       "http://sultanios.alwaysdata.net/vavo.php?ID=3390498693"
     ]
   },
@@ -2239,7 +2243,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://kotmruk.github.io/polish-potato/polsat1.m3u8"
+      "https://kotmruk.github.io/polish-potato/polsat1.m3u8",
+      "https://raw.githubusercontent.com/yaskar661-lgtm/poland-iptv/refs/heads/main/test/polsat1.m3u8"
     ]
   },
   {
@@ -2310,6 +2315,52 @@
     "visible": true,
     "urls": [
       "http://116.90.120.149:8000/play/a0l1/index.m3u8"
+    ]
+  },
+  {
+    "id": "ATMRozrywkaREWORK.pl@HD",
+    "name": "ATM Rozrywka REWORK (1080p)",
+    "country": "PL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-211353/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "TBNPolska.pl@SD",
+    "name": "TBN Polska (1080p)",
+    "country": "PL",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://prx-y5cf8.mediatool.tv/playout/tbn-abr67/index.m3u8"
+    ]
+  },
+  {
+    "id": "TelewizjaImperium.pl@SD",
+    "name": "Telewizja Imperium (1080p)",
+    "country": "PL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://str10.imperiummedia.pl/TVIMPERIUM/index.m3u8"
+    ]
+  },
+  {
+    "id": "TVKSMNT.pl@HD",
+    "name": "TVK SMNT (1080p)",
+    "country": "PL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://tvk.smnt.pl/memfs/cf3a66ef-133a-4579-86da-5995ab23ae2a.m3u8"
     ]
   }
 ]

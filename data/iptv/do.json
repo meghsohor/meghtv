@@ -2003,15 +2003,15 @@
   },
   {
     "id": "TeleAntillas.do@SD",
-    "name": "Tele Antillas (1080p)",
+    "name": "Tele Antillas (480p)",
     "country": "DO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://45.171.108.253:8888/TELEANTILLAS/index.m3u8",
       "https://hls.tvabierta.net/hls/010.m3u8",
+      "http://45.171.108.253:8888/TELEANTILLAS/index.m3u8",
       "http://168.196.127.137:6001/play/a04o/index.m3u8",
       "http://190.122.104.210:5080/LiveApp/streams/C6ngUWmvwMhliYPN3668193473821155.m3u8"
     ]

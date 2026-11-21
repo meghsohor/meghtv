@@ -1545,11 +1545,12 @@
   },
   {
     "id": "TRT3.tr@SD",
-    "name": "TRT 3 (720p)",
+    "name": "TRT 3 (1080p)",
     "country": "TR",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243",
       "https://tv-trt3.live.trt.com.tr/master.m3u8"
     ]
   },
@@ -2358,13 +2359,14 @@
   },
   {
     "id": "beINSports1Turk.tr@SD",
-    "name": "beIN Sports 1 Turk",
+    "name": "beIN Sports 1 Turk (1080p)",
     "country": "TR",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad",
       "http://57.129.0.61:1990/stream/117/index.m3u8"
     ]
   },

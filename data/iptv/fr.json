@@ -370,13 +370,14 @@
   },
   {
     "id": "CinePlusClassic.fr@SD",
-    "name": "Cine+ Classic",
+    "name": "Cine+ Classic (1080p)",
     "country": "FR",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F1398934027",
       "http://99.27.51.147/CineClassic/index.m3u8"
     ]
   },
@@ -2375,13 +2376,14 @@
   },
   {
     "id": "TraceBrazuca.fr@SD",
-    "name": "TRACE Brazuca (1080p)",
+    "name": "Trace Brazuca (1090p)",
     "country": "FR",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://channels.trace.plus/Traceprod/BRAZIL_sd/index.m3u8",
       "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8"
     ]
   },
@@ -3150,6 +3152,30 @@
     "visible": true,
     "urls": [
       "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CanalJ.fr@SD",
+    "name": "Canal J (1080p)",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3860888136d301b247640b"
+    ]
+  },
+  {
+    "id": "DisneyChannel.fr@SD",
+    "name": "Disney Channel",
+    "country": "FR",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F11741266772bc970bcdea5"
     ]
   }
 ]

@@ -3656,13 +3656,14 @@
   },
   {
     "id": "AXN.es@SD",
-    "name": "AXN",
+    "name": "AXN (1080p)",
     "country": "ES",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F4238619703",
       "http://sultanios.alwaysdata.net/vavo.php?ID=4238619703"
     ]
   },

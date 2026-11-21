@@ -3603,5 +3603,17 @@
     "urls": [
       "https://018e1901ad234f04ae16388eda6778e5.msvdn.net/live/S94763187/reFXDHQfBndw/playlist.m3u8"
     ]
+  },
+  {
+    "id": "SkySportF1.it@SD",
+    "name": "Sky Sport F1",
+    "country": "IT",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F22890389722acc4573933d"
+    ]
   }
 ]

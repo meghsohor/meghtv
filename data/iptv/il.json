@@ -582,5 +582,17 @@
     "urls": [
       "https://r.il.cdn-redge.media/livehls/oil/freetv/live/viva/live.livx/playlist.m3u8"
     ]
+  },
+  {
+    "id": "One.il@SD",
+    "name": "One",
+    "country": "IL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_1/live.livx/playlist.m3u8"
+    ]
   }
 ]

@@ -310,7 +310,7 @@
   },
   {
     "id": "ARB24.az@HD",
-    "name": "ARB 24 HD",
+    "name": "ARB 24 HD [Geo-blocked]",
     "country": "AZ",
     "categories": [
       "news"
@@ -322,7 +322,7 @@
   },
   {
     "id": "CBC.az@HD",
-    "name": "CBC",
+    "name": "CBC [Geo-blocked]",
     "country": "AZ",
     "categories": [
       "news"
@@ -330,6 +330,18 @@
     "visible": true,
     "urls": [
       "http://185.118.50.218:80/cbc/video.m3u8"
+    ]
+  },
+  {
+    "id": "ARBGunes.az@HD",
+    "name": "ARB Gunesh [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.118.50.218:80/arbgunesh/video.m3u8"
     ]
   }
 ]

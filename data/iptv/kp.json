@@ -49,5 +49,17 @@
     "urls": [
       "https://live.koryocdn.org/sports/index.m3u8"
     ]
+  },
+  {
+    "id": "MansudaeTelevision.kp@HD",
+    "name": "Mansudae Television (1080p) [Not 24/7]",
+    "country": "KP",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.koryocdn.org/mansudae/index.m3u8"
+    ]
   }
 ]
