@@ -512,16 +512,16 @@
   },
   {
     "id": "EuronewsRussian.fr@SD",
-    "name": "Euronews Russian (720p)",
+    "name": "Euronews Russian (1080p)",
     "country": "FR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8",
       "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8",
       "http://tmptv.sunduk.tv/CH31/index.m3u8",
-      "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Euronews/index.m3u8"
     ]
   },
@@ -2806,7 +2806,7 @@
   },
   {
     "id": "Eurosport1.fr@France",
-    "name": "Eurosport 1",
+    "name": "Eurosport 1 (1080p)",
     "country": "FR",
     "categories": [
       "sports"
@@ -2830,7 +2830,7 @@
   },
   {
     "id": "Eurosport1.fr@Italy",
-    "name": "Eurosport 1 Italy",
+    "name": "Eurosport 1 Italy (720p)",
     "country": "FR",
     "categories": [
       "sports"
@@ -2854,7 +2854,7 @@
   },
   {
     "id": "Eurosport2.fr@UK",
-    "name": "Eurosport 2 UK",
+    "name": "Eurosport 2 UK (540p)",
     "country": "FR",
     "categories": [
       "sports"

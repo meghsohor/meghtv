@@ -53,15 +53,15 @@
   },
   {
     "id": "JayaTV.lk@SD",
-    "name": "Jaya TV (480p)",
+    "name": "Jaya TV (1080p)",
     "country": "LK",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "https://edge3-moblive.yuppcdn.net/drm/smil:jayamagatvdrm.smil/index.m3u8",
-      "https://live.jayatv.lk/hls/stream.m3u8"
+      "https://live.jayatv.lk/hls/stream.m3u8",
+      "https://edge3-moblive.yuppcdn.net/drm/smil:jayamagatvdrm.smil/index.m3u8"
     ]
   },
   {

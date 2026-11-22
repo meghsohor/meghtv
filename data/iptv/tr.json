@@ -349,7 +349,7 @@
   },
   {
     "id": "CNBCe.tr@SD",
-    "name": "CNBC-e",
+    "name": "CNBC-e (1080p)",
     "country": "TR",
     "categories": [
       "business",
@@ -551,7 +551,7 @@
   },
   {
     "id": "FlashHaberTV.tr@SD",
-    "name": "Flash Haber TV",
+    "name": "Flash Haber TV (1080p)",
     "country": "TR",
     "categories": [
       "news"
@@ -1164,7 +1164,7 @@
   },
   {
     "id": "NTV.tr@SD",
-    "name": "NTV",
+    "name": "NTV (1080p)",
     "country": "TR",
     "categories": [
       "general"
@@ -1673,7 +1673,7 @@
   },
   {
     "id": "TRTMuzik.tr@SD",
-    "name": "TRT Muzik",
+    "name": "TRT Muzik (1080p)",
     "country": "TR",
     "categories": [
       "music"
@@ -1850,7 +1850,7 @@
   },
   {
     "id": "Van65TV.tr@SD",
-    "name": "Van 65 TV",
+    "name": "Van 65 TV (720p)",
     "country": "TR",
     "categories": [
       "general"
@@ -2322,7 +2322,7 @@
   },
   {
     "id": "ThaqalaynTV.tr@SD",
-    "name": "Althaqalayn TV",
+    "name": "Althaqalayn TV (480p)",
     "country": "TR",
     "categories": [
       "religious"

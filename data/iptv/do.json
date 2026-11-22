@@ -1665,6 +1665,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://edge.essastream.com/portaldigital/index.m3u8",
       "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/5ccadd2a-00ad-4a5b-8322-4b5f69464a68/source/index.m3u8"
     ]
   },
@@ -1934,15 +1935,15 @@
   },
   {
     "id": "Super7FM.do@SD",
-    "name": "Super7FM (720p)",
+    "name": "Super7FM",
     "country": "DO",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8",
-      "https://stream.haislin.com/super7fm/index.m3u8"
+      "https://stream.haislin.com/super7fm/index.m3u8",
+      "https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8"
     ]
   },
   {

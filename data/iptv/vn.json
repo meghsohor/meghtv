@@ -776,13 +776,14 @@
   },
   {
     "id": "HTV1.vn@SD",
-    "name": "HTV1 (720p)",
+    "name": "HTV1 (1080p)",
     "country": "VN",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=190",
       "https://dethich.pw/htv1/index.m3u8"
     ]
   },
@@ -801,7 +802,7 @@
   },
   {
     "id": "HTV3.vn@SD",
-    "name": "HTV3 (720p)",
+    "name": "HTV3 (1080p)",
     "country": "VN",
     "categories": [
       "series",
@@ -810,6 +811,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=192",
       "https://dethich.pw/htv3/index.m3u8"
     ]
   },
@@ -828,7 +830,7 @@
   },
   {
     "id": "HTV9.vn@SD",
-    "name": "HTV9 (720p)",
+    "name": "HTV9 (1080p)",
     "country": "VN",
     "categories": [
       "news",
@@ -836,6 +838,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=194",
       "https://dethich.pw/htv9/index.m3u8"
     ]
   },
@@ -1117,6 +1120,18 @@
     "visible": true,
     "urls": [
       "https://vmttv.dpdns.org/tv360?id=187"
+    ]
+  },
+  {
+    "id": "HTV7.vn@HD",
+    "name": "HTV7 (1080p)",
+    "country": "VN",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=193"
     ]
   }
 ]

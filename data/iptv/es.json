@@ -2400,15 +2400,15 @@
   },
   {
     "id": "Teledeporte.es@SD",
-    "name": "Teledeporte",
+    "name": "Teledeporte (720p) [Geo-blocked]",
     "country": "ES",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8",
-      "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8"
+      "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8",
+      "https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8"
     ]
   },
   {
@@ -2668,13 +2668,13 @@
   },
   {
     "id": "TVEInternacionalAsiaOceania.es@SD",
-    "name": "TVE Internacional Asia-Oceania",
+    "name": "TVE Internacional Asia-Oceania (576p) [Geo-blocked]",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8",
+      "http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51"
     ]
   },
   {
@@ -2695,8 +2695,8 @@
     "visible": true,
     "urls": [
       "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8",
-      "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0",
-      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8"
+      "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8",
+      "http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0"
     ]
   },
   {
@@ -3738,6 +3738,16 @@
     "visible": true,
     "urls": [
       "http://90.170.214.40:9700/stream/avatel/nickelodeon/master.m3u8"
+    ]
+  },
+  {
+    "id": "LaSeptima.es@HD",
+    "name": "La Septima (1080p)",
+    "country": "ES",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cache2.zapitv.com/live/eds_c2/la_septima/dash_live_ez/la_septima.mpd"
     ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "Aqlvoy.uz@SD",
-    "name": "Aqlvoy",
+    "name": "Aqlvoy (1080p)",
     "country": "UZ",
     "categories": [
       "kids"
@@ -100,7 +100,7 @@
   },
   {
     "id": "FargonaMTRK.uz@SD",
-    "name": "Farg'ona MTRK",
+    "name": "Farg'ona MTRK (1080p)",
     "country": "UZ",
     "categories": [
       "general"
@@ -195,7 +195,7 @@
   },
   {
     "id": "MuzTVUzbekistan.uz@SD",
-    "name": "Muz TV Uzbekistan",
+    "name": "Muz TV Uzbekistan (1080p)",
     "country": "UZ",
     "categories": [
       "music"
@@ -243,7 +243,7 @@
   },
   {
     "id": "NurafshonTV.uz@SD",
-    "name": "Nurafshon TV",
+    "name": "Nurafshon TV (1080p)",
     "country": "UZ",
     "categories": [
       "general"
@@ -327,7 +327,7 @@
   },
   {
     "id": "Sport.uz@SD",
-    "name": "Sport",
+    "name": "Sport (1080p)",
     "country": "UZ",
     "categories": [
       "sports"
@@ -339,7 +339,7 @@
   },
   {
     "id": "TaraqqiyotTV.uz@SD",
-    "name": "Taraqqiyot TV",
+    "name": "Taraqqiyot TV (1080p)",
     "country": "UZ",
     "categories": [
       "general"

@@ -94,6 +94,7 @@
     "visible": true,
     "urls": [
       "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8",
+      "https://nodelive.thaitv5hd.com/hls/tv5hdlive-for-thaitv5hdcom/master.m3u8",
       "https://live-us1.thaimomo.com/live-as/ch5hd-2/playlist.m3u8",
       "https://lb1-live-mv.v2h-cdn.com/hls/fffb/muushk/muushk.m3u8"
     ]
@@ -129,7 +130,7 @@
   },
   {
     "id": "CharoenCable37TV.th@SD",
-    "name": "Charoen Cable 37 TV",
+    "name": "Charoen Cable 37 TV (1080p)",
     "country": "TH",
     "categories": [
       "general"
@@ -452,15 +453,15 @@
   },
   {
     "id": "MONO29.th@SD",
-    "name": "MONO 29",
+    "name": "MONO 29 (576p)",
     "country": "TH",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://lb1-live-mv.v2h-cdn.com/hls/ffbc/ffolvgdhk/ffolvgdhk.m3u8",
       "https://live-us1.thaimomo.com/live-as/chmono29-2/playlist.m3u8",
+      "https://lb1-live-mv.v2h-cdn.com/hls/ffbc/ffolvgdhk/ffolvgdhk.m3u8",
       "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd"
     ]
   },
@@ -549,7 +550,7 @@
   },
   {
     "id": "SBBTV.th@SD",
-    "name": "SBB TV",
+    "name": "SBB TV (1080p)",
     "country": "TH",
     "categories": [],
     "visible": true,
@@ -645,7 +646,7 @@
   },
   {
     "id": "TNN16.th@SD",
-    "name": "TNN16",
+    "name": "TNN16 (576p)",
     "country": "TH",
     "categories": [],
     "visible": true,

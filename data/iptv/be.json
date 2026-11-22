@@ -118,7 +118,7 @@
   },
   {
     "id": "FunVision.be@SD",
-    "name": "Fun Vision",
+    "name": "Fun Vision (1080p)",
     "country": "BE",
     "categories": [
       "music"
@@ -438,7 +438,7 @@
   },
   {
     "id": "WTV.be@SD",
-    "name": "WTV",
+    "name": "WTV (1080p)",
     "country": "BE",
     "categories": [],
     "visible": true,

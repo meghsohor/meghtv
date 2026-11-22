@@ -73,11 +73,11 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/MIR/HLSv3-FTA/MIR.m3u8",
+      "https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8",
       "http://31.148.5.241/kanal_18/index.m3u8",
       "http://45.153.24.78/MIR/index.m3u8",
       "https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv",
       "https://tvcdn01.oktv.kz/tv/mir/index.m3u8",
-      "https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/22.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8"
     ]
@@ -107,10 +107,10 @@
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8",
       "http://s1.merlive.am/telekafe/index.m3u8",
+      "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://31.148.48.15/Telekafe/index.m3u8",
       "http://88.212.15.17/live/test_telecafe_tv/playlist.m3u8",
       "http://88.212.15.19/live/test_telecafe_tv/playlist.m3u8",
@@ -176,7 +176,7 @@
   },
   {
     "id": "360News.ru@SD",
-    "name": "360° Новости",
+    "name": "360° Новости (1080p)",
     "country": "RU",
     "categories": [
       "news"
@@ -305,7 +305,7 @@
   },
   {
     "id": "AutoPlus.ru@SD",
-    "name": "Auto Plus",
+    "name": "Auto Plus (1080p)",
     "country": "RU",
     "categories": [
       "auto"
@@ -506,18 +506,6 @@
     ]
   },
   {
-    "id": "Channel8Krasnoyarsk.ru@HD",
-    "name": "Channel 8 Krasnoyarsk HD (1080p)",
-    "country": "RU",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8"
-    ]
-  },
-  {
     "id": "Channel8Novosibirsk.ru@SD",
     "name": "Channel 8 Novosibirsk (480i)",
     "country": "RU",
@@ -590,16 +578,16 @@
   },
   {
     "id": "Cinema.ru@SD",
-    "name": "Cinema (576p)",
+    "name": "Cinema (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8",
       "http://flussonic.linkintel.ru/cinema/index.m3u8",
       "http://catchup.videoline.ru/cinema/playlist.m3u8",
-      "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/cinema/index.m3u8"
     ]
   },
@@ -618,17 +606,17 @@
   },
   {
     "id": "DaVinci.ru@SD",
-    "name": "Da Vinci (576p)",
+    "name": "Da Vinci (1080p)",
     "country": "RU",
     "categories": [
       "education"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
       "http://116.90.120.149:8000/play/a0s6/index.m3u8",
       "http://stream.mcquack.net/238/index.m3u8",
       "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
       "http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8"
     ]
   },
@@ -700,16 +688,16 @@
   },
   {
     "id": "Domkino.ru@SD",
-    "name": "Dom kino (576p)",
+    "name": "Dom kino (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
       "http://88.212.15.50/live/test_dom_kino/playlist.m3u8",
       "http://stream.mcquack.net/236/index.m3u8",
-      "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
       "https://streaming.thestream.cyou/live/44.m3u8",
       "http://88.212.15.17/live/test_dom_kino/playlist.m3u8",
       "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
@@ -748,15 +736,15 @@
   },
   {
     "id": "Dorama.ru@SD",
-    "name": "Dorama (576p)",
+    "name": "Dorama (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8"
+      "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8",
+      "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -947,7 +935,7 @@
   },
   {
     "id": "Groznyj.ru@SD",
-    "name": "Groznyj",
+    "name": "Groznyj (720p)",
     "country": "RU",
     "categories": [
       "general"
@@ -1000,17 +988,17 @@
   },
   {
     "id": "IndiyskoyeKino.ru@SD",
-    "name": "Indiyskoye Kino (576p)",
+    "name": "Indiyskoye Kino (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8",
       "http://188.113.190.12/329/index.m3u8",
       "http://stream.mcquack.net/104/index.m3u8",
       "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Indiya_TV/index.m3u8"
     ]
   },
@@ -1138,16 +1126,16 @@
   },
   {
     "id": "KinoHit.ru@SD",
-    "name": "KinoHit (576p)",
+    "name": "KinoHit (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8",
       "http://stream.mcquack.net/126/index.m3u8",
       "https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Kinohit/index.m3u8"
     ]
   },
@@ -1182,15 +1170,15 @@
   },
   {
     "id": "Kinopokaz.ru@SD",
-    "name": "Kinopokaz (576p)",
+    "name": "Kinopokaz (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/64/index.m3u8",
       "https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8",
+      "http://stream.mcquack.net/64/index.m3u8",
       "http://31.148.48.15/Kinopokaz/index.m3u8",
       "http://str2.iptvhd.ru:8080/Kinopokaz/index.m3u8"
     ]
@@ -1237,17 +1225,17 @@
   },
   {
     "id": "Kinosvidanie.ru@SD",
-    "name": "Kinosvidanie (576p)",
+    "name": "Kinosvidanie (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8",
       "http://5.188.159.128:8070/kinosvidanie/index.m3u8",
       "http://stream.mcquack.net/171/index.m3u8",
-      "https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8"
+      "https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -1477,15 +1465,15 @@
   },
   {
     "id": "Mir24.ru@SD",
-    "name": "Mir 24 (576p)",
+    "name": "Mir 24 (1080p)",
     "country": "RU",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "http://5.188.159.128:8070/mir_24/index.m3u8",
       "https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8",
+      "http://5.188.159.128:8070/mir_24/index.m3u8",
       "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
       "http://31.148.48.15/Mir_24/index.m3u8",
       "http://str2.iptvhd.ru:8080/mir_24/index.m3u8"
@@ -1517,15 +1505,15 @@
   },
   {
     "id": "MMATVcom.ru@SD",
-    "name": "MMA-TV.com (576p)",
+    "name": "MMA-TV.com (1080p)",
     "country": "RU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8",
+      "https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv",
       "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
       "http://45.145.32.13:20440/mmatv/index.m3u8?token=test"
     ]
@@ -1646,36 +1634,36 @@
   },
   {
     "id": "Multilandia.ru@SD",
-    "name": "Multilandia (576p)",
+    "name": "Multilandia (1080p)",
     "country": "RU",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8",
+      "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Multilandiya/index.m3u8",
       "http://str2.iptvhd.ru:8080/Multimaniya/index.m3u8"
     ]
   },
   {
     "id": "MuzTV.ru@SD",
-    "name": "Muz-TV (576p)",
+    "name": "Muz-TV (1080p)",
     "country": "RU",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8",
       "http://31.148.5.241/kanal_20/index.m3u8",
       "http://46.32.176.50/muztv/index.m3u8",
       "http://185.71.81.6:8080/20/index.m3u8",
       "http://stream.mcquack.net/86/index.m3u8",
       "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8",
-      "https://streaming.televizor-24-tochka.ru/live/618.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/20.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/618.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8",
       "http://hls127.freeott.top:8080/MUZ_TV/video.m3u8"
     ]
@@ -1709,16 +1697,16 @@
   },
   {
     "id": "MuzykaPervogo.ru@SD",
-    "name": "Muzyka Pervogo (576p)",
+    "name": "Muzyka Pervogo (1080p)",
     "country": "RU",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8",
       "http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8",
       "http://stream.mcquack.net/153/index.m3u8",
-      "https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8",
       "http://88.212.15.17/live/test_muzyka_pervogo/playlist.m3u8",
       "http://88.212.15.19/live/test_muzyka_pervogo/playlist.m3u8"
     ]
@@ -1763,7 +1751,7 @@
   },
   {
     "id": "NasheNovoeKino.ru@SD",
-    "name": "Nashe Novoe Kino",
+    "name": "Nashe Novoe Kino (1080p)",
     "country": "RU",
     "categories": [
       "movies"
@@ -1902,16 +1890,16 @@
   },
   {
     "id": "NTV.ru@SD",
-    "name": "NTV (576p)",
+    "name": "NTV (1080p)",
     "country": "RU",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8",
       "http://31.148.5.241/kanal_4/index.m3u8",
       "http://176.118.197.101/NTV/index.m3u8",
-      "https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8",
       "http://45.153.24.78/NTV/index.m3u8",
       "https://cdn.ntv.ru/ntv-spb/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/7.m3u8",
@@ -2043,15 +2031,15 @@
   },
   {
     "id": "Okhotairybalka.ru@SD",
-    "name": "Okhota i rybalka (576p)",
+    "name": "Okhota i rybalka (1080p)",
     "country": "RU",
     "categories": [
       "outdoor"
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/155/index.m3u8",
-      "https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8"
+      "https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8",
+      "http://stream.mcquack.net/155/index.m3u8"
     ]
   },
   {
@@ -2288,30 +2276,30 @@
   },
   {
     "id": "Retro.ru@SD",
-    "name": "Retro (576p)",
+    "name": "Retro (1080p)",
     "country": "RU",
     "categories": [
       "classic"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8",
       "http://176.118.197.101/Retro/index.m3u8",
       "http://stream.mcquack.net/191/index.m3u8",
-      "https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Retro/index.m3u8"
     ]
   },
   {
     "id": "RodnoeKino.ru@SD",
-    "name": "Rodnoe Kino (576p)",
+    "name": "Rodnoe Kino (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/242/index.m3u8",
       "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8",
+      "http://stream.mcquack.net/242/index.m3u8",
       "http://31.148.48.15/Rodnoe_kino/index.m3u8",
       "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Nashe_kino/index.m3u8"
@@ -2444,15 +2432,15 @@
   },
   {
     "id": "Russia1.ru@SD",
-    "name": "Russia-1 (576p)",
+    "name": "Russia-1 (1080p)",
     "country": "RU",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "http://31.148.5.241/kanal_2/index.m3u8",
       "https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8",
+      "http://31.148.5.241/kanal_2/index.m3u8",
       "http://109.207.243.18/2/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/abakan/russia1-sd/index.m3u8",
       "http://vgtrkregion-reg.cdnvideo.ru/vgtrk/maykop/russia1-hd/index.m3u8",
@@ -2615,13 +2603,13 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8",
       "https://stream.smotrim.ru/hls2/givc11_hd/playlist_4.m3u8",
       "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8",
       "http://31.148.5.241/kanal_7/index.m3u8",
       "http://176.118.197.101/Rossiya24/index.m3u8",
       "https://stream.smotrim.ru/hls2/russia24_int/playlist_3.m3u8",
       "http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8",
-      "https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8",
       "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/abakan/russia24-sd/index.m3u8",
@@ -3209,16 +3197,6 @@
     ]
   },
   {
-    "id": "STSInternational.ru@SD",
-    "name": "STS International (576p)",
-    "country": "RU",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://178.134.1.158:8081/CTC/index.m3u8"
-    ]
-  },
-  {
     "id": "STSkids.ru@SD",
     "name": "STS kids (576p)",
     "country": "RU",
@@ -3288,15 +3266,15 @@
   },
   {
     "id": "T24.ru@SD",
-    "name": "T24 (576p)",
+    "name": "T24 (1080p)",
     "country": "RU",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8",
       "http://178.134.1.158:8081/t24/index.m3u8",
       "http://stream.mcquack.net/209/index.m3u8",
       "https://fs.uplink.kz/tehno_24/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Tehno_24/index.m3u8"
     ]
   },
@@ -3376,13 +3354,13 @@
   },
   {
     "id": "TNVPlanet.ru@SD",
-    "name": "TNV-Planet (576p)",
+    "name": "TNV-Planet (1080p)",
     "country": "RU",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8",
+      "https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv",
       "https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8"
     ]
   },
@@ -3628,17 +3606,17 @@
   },
   {
     "id": "vijuNature.ru@SD",
-    "name": "viju Nature (576p)",
+    "name": "viju Nature (1080p)",
     "country": "RU",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8",
       "http://46.53.200.153:7777/play/a01k/index.m3u8",
       "http://116.90.120.149:8000/play/a0at/index.m3u8",
-      "https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8"
+      "https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -3659,34 +3637,34 @@
   },
   {
     "id": "vijuTV1000action.ru@SD",
-    "name": "viju TV1000 action (576p)",
+    "name": "viju TV1000 action (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8",
       "http://46.53.200.153:7777/play/a01h/index.m3u8",
       "http://116.90.120.149:8000/play/a0aq/index.m3u8",
       "http://stream.mcquack.net/100/index.m3u8",
       "https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/TV1000_Action/index.m3u8"
     ]
   },
   {
     "id": "vijuTV1000russkoe.ru@SD",
-    "name": "viju TV1000 russkoe (576p)",
+    "name": "viju TV1000 russkoe (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://46.53.200.153:7777/play/a01g/index.m3u8",
-      "https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8",
       "https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8",
+      "http://46.53.200.153:7777/play/a01g/index.m3u8",
+      "https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8",
       "http://str2.iptvhd.ru:8080/TV1000russkoekino/index.m3u8"
     ]
@@ -3761,19 +3739,19 @@
   },
   {
     "id": "vijuPlusSport.ru@SD",
-    "name": "viju+ Sport (576p)",
+    "name": "viju+ Sport (1080p)",
     "country": "RU",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8",
       "http://31.148.5.241/Viasat_Sport/index.m3u8",
       "http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8",
       "http://116.90.120.149:8000/play/a0au/index.m3u8",
       "http://stream.mcquack.net/333/index.m3u8",
-      "https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8"
+      "https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -3825,13 +3803,13 @@
   },
   {
     "id": "ZagorodnayaZhizn.ru@SD",
-    "name": "Zagorodnaya Zhizn (576p)",
+    "name": "Zagorodnaya Zhizn (1080p)",
     "country": "RU",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://185.57.68.33/40/index.m3u8",
-      "https://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8"
+      "https://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8",
+      "http://185.57.68.33/40/index.m3u8"
     ]
   },
   {
@@ -3876,10 +3854,10 @@
     "visible": true,
     "urls": [
       "http://51.158.144.33:2021/zvezda/index.m3u8",
+      "https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8",
       "http://31.148.5.241/kanal_17/index.m3u8",
       "http://flussonic.linkintel.ru/zvezda/index.m3u8",
       "https://fs.uplink.kz/zvezda/mono.m3u8?token=onlinetv",
-      "https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/21.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/748.m3u8",
       "http://31.148.48.15/Zvezda/index.m3u8",
@@ -3984,7 +3962,7 @@
   },
   {
     "id": "BST.ru@SD",
-    "name": "БСТ 24 (Братск)",
+    "name": "БСТ 24 (Братск) (1080p)",
     "country": "RU",
     "categories": [],
     "visible": true,
@@ -4309,7 +4287,7 @@
   },
   {
     "id": "OSN.ru@SD",
-    "name": "ОСН",
+    "name": "ОСН (1080p)",
     "country": "RU",
     "categories": [
       "general"
@@ -4411,7 +4389,7 @@
   },
   {
     "id": "Sever.ru@SD",
-    "name": "Север (Нарьян-Мар)",
+    "name": "Север (Нарьян-Мар) (1080p)",
     "country": "RU",
     "categories": [],
     "visible": true,
@@ -4679,19 +4657,6 @@
     "visible": true,
     "urls": [
       "http://178.134.1.158:8081/BRIDGEROCK/index.m3u8"
-    ]
-  },
-  {
-    "id": "RENTVInternational.ru@SD",
-    "name": "REN TV International (576p)",
-    "country": "RU",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://178.134.1.158:8081/RENTV/index.m3u8",
-      "https://fs.uplink.kz/ren/mono.m3u8?token=onlinetv"
     ]
   },
   {
@@ -6655,7 +6620,7 @@
   },
   {
     "id": "ZaTV.ru@SD",
-    "name": "За!ТВ",
+    "name": "За!ТВ (576p)",
     "country": "RU",
     "categories": [
       "general"
@@ -6691,7 +6656,7 @@
   },
   {
     "id": "Tavriya.ru@SD",
-    "name": "Таврия",
+    "name": "Таврия (576p)",
     "country": "RU",
     "categories": [
       "general"

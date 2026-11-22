@@ -456,18 +456,6 @@
     ]
   },
   {
-    "id": "AmarUjala.in@SD",
-    "name": "AmarUjala (1080p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://amarujala.ottlive.co.in/amarujala/index.m3u8"
-    ]
-  },
-  {
     "id": "AmritaTV.in@SD",
     "name": "Amrita TV (720p)",
     "country": "IN",
@@ -5675,7 +5663,7 @@
   },
   {
     "id": "ZillarBartaNews.in@HD",
-    "name": "ZillarBarta News",
+    "name": "ZillarBarta News (720p)",
     "country": "IN",
     "categories": [
       "news",
@@ -7899,18 +7887,6 @@
     "visible": true,
     "urls": [
       "https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8"
-    ]
-  },
-  {
-    "id": "AsomLive24.in@SD",
-    "name": "Asom Live 24 (576p)",
-    "country": "IN",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8"
     ]
   },
   {

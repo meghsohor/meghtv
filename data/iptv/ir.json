@@ -185,7 +185,7 @@
   },
   {
     "id": "MihanTV.ir@SD",
-    "name": "Mihan TV",
+    "name": "Mihan TV (1080p)",
     "country": "IR",
     "categories": [
       "news"
@@ -319,7 +319,7 @@
   },
   {
     "id": "AbadanTV.ir@SD",
-    "name": "Abadan",
+    "name": "Abadan (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -331,7 +331,7 @@
   },
   {
     "id": "AflakTV.ir@SD",
-    "name": "Aflak",
+    "name": "Aflak (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -343,7 +343,7 @@
   },
   {
     "id": "AftabTV.ir@SD",
-    "name": "Aftab",
+    "name": "Aftab (1080p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -353,7 +353,7 @@
   },
   {
     "id": "AlborzTV.ir@SD",
-    "name": "Alborz",
+    "name": "Alborz (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -365,7 +365,7 @@
   },
   {
     "id": "AmouzeshTV.ir@SD",
-    "name": "Amouzesh",
+    "name": "Amouzesh (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -377,7 +377,7 @@
   },
   {
     "id": "AraTV.ir@SD",
-    "name": "Ara",
+    "name": "Ara (720p)",
     "country": "IR",
     "categories": [
       "general"
@@ -389,7 +389,7 @@
   },
   {
     "id": "AtrakTV.ir@SD",
-    "name": "Atrak",
+    "name": "Atrak (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -401,7 +401,7 @@
   },
   {
     "id": "WestAzerbaijanTV.ir@SD",
-    "name": "Azerbaijan Gharbi",
+    "name": "Azerbaijan Gharbi (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -413,7 +413,7 @@
   },
   {
     "id": "BaranTV.ir@SD",
-    "name": "Baran",
+    "name": "Baran (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -425,7 +425,7 @@
   },
   {
     "id": "BoushehrTV.ir@SD",
-    "name": "Bushehr",
+    "name": "Bushehr (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -435,7 +435,7 @@
   },
   {
     "id": "DenaTV.ir@SD",
-    "name": "Dena",
+    "name": "Dena (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -447,7 +447,7 @@
   },
   {
     "id": "Energy.ir@SD",
-    "name": "Energy",
+    "name": "Energy (1080p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -457,7 +457,7 @@
   },
   {
     "id": "EshraghNetwork.ir@SD",
-    "name": "Eshragh",
+    "name": "Eshragh (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -469,7 +469,7 @@
   },
   {
     "id": "FarsTV.ir@SD",
-    "name": "Fars",
+    "name": "Fars (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -481,7 +481,7 @@
   },
   {
     "id": "GolkhaneTv.ir@SD",
-    "name": "Golkhane TV",
+    "name": "Golkhane TV (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -491,7 +491,7 @@
   },
   {
     "id": "HabibTV.ir@SD",
-    "name": "Habib TV",
+    "name": "Habib TV (720p)",
     "country": "IR",
     "categories": [
       "religious"
@@ -503,7 +503,7 @@
   },
   {
     "id": "HamedanTV.ir@SD",
-    "name": "Hamedan",
+    "name": "Hamedan (1080p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -513,7 +513,7 @@
   },
   {
     "id": "HamoonTV.ir@SD",
-    "name": "Hamoon",
+    "name": "Hamoon (1080p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -523,7 +523,7 @@
   },
   {
     "id": "IlamTV.ir@SD",
-    "name": "Ilam",
+    "name": "Ilam (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -535,7 +535,7 @@
   },
   {
     "id": "IRIB1.ir@SD",
-    "name": "IRIB1",
+    "name": "IRIB1 (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -547,7 +547,7 @@
   },
   {
     "id": "IRIB2.ir@SD",
-    "name": "IRIB2",
+    "name": "IRIB2 (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -559,7 +559,7 @@
   },
   {
     "id": "IRIB3.ir@SD",
-    "name": "IRIB3",
+    "name": "IRIB3 (1082p)",
     "country": "IR",
     "categories": [
       "sports"
@@ -571,7 +571,7 @@
   },
   {
     "id": "IRIB4.ir@SD",
-    "name": "IRIB4",
+    "name": "IRIB4 (576p)",
     "country": "IR",
     "categories": [
       "culture"
@@ -595,7 +595,7 @@
   },
   {
     "id": "IRINN2.ir@SD",
-    "name": "IRINN2 Live Farsi News",
+    "name": "IRINN2 Live Farsi News (1080p)",
     "country": "IR",
     "categories": [
       "news"
@@ -607,7 +607,7 @@
   },
   {
     "id": "IsfahanTV.ir@SD",
-    "name": "Isfahan",
+    "name": "Isfahan (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -619,7 +619,7 @@
   },
   {
     "id": "JahanbinTV.ir@SD",
-    "name": "Jahanbin",
+    "name": "Jahanbin (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -631,7 +631,7 @@
   },
   {
     "id": "KermanTV.ir@SD",
-    "name": "Kerman",
+    "name": "Kerman (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -643,7 +643,7 @@
   },
   {
     "id": "KhalijeFarsTV.ir@SD",
-    "name": "Khalij-e Fars",
+    "name": "Khalij-e Fars (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -655,7 +655,7 @@
   },
   {
     "id": "KhavaranTV.ir@SD",
-    "name": "Khavaran",
+    "name": "Khavaran (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -667,7 +667,7 @@
   },
   {
     "id": "KhorasanRazaviTV.ir@SD",
-    "name": "Khorasan Razavi",
+    "name": "Khorasan Razavi (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -679,7 +679,7 @@
   },
   {
     "id": "KhozestanTV.ir@SD",
-    "name": "Khozestan",
+    "name": "Khozestan (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -691,7 +691,7 @@
   },
   {
     "id": "KishTV.ir@SD",
-    "name": "Kish",
+    "name": "Kish (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -703,7 +703,7 @@
   },
   {
     "id": "KordestanTV.ir@SD",
-    "name": "Kordestan",
+    "name": "Kordestan (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -715,7 +715,7 @@
   },
   {
     "id": "LabbaykTV.ir@SD",
-    "name": "Labbayk TV",
+    "name": "Labbayk TV (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -725,7 +725,7 @@
   },
   {
     "id": "MahabadTV.ir@SD",
-    "name": "Mahabad",
+    "name": "Mahabad (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -737,7 +737,7 @@
   },
   {
     "id": "IRIBMostanad.ir@SD",
-    "name": "Mostanad",
+    "name": "Mostanad (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -749,7 +749,7 @@
   },
   {
     "id": "NamayeshTV.ir@SD",
-    "name": "Namayesh",
+    "name": "Namayesh (1080p)",
     "country": "IR",
     "categories": [
       "entertainment"
@@ -761,7 +761,7 @@
   },
   {
     "id": "Nasim.ir@SD",
-    "name": "Nasim",
+    "name": "Nasim (1080p)",
     "country": "IR",
     "categories": [
       "entertainment"
@@ -773,7 +773,7 @@
   },
   {
     "id": "NoorTV.ir@SD",
-    "name": "Noor",
+    "name": "Noor (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -783,7 +783,7 @@
   },
   {
     "id": "OfoghTV.ir@SD",
-    "name": "Ofogh",
+    "name": "Ofogh (1080p)",
     "country": "IR",
     "categories": [
       "culture"
@@ -795,7 +795,7 @@
   },
   {
     "id": "IRIBOmid.ir@SD",
-    "name": "Omid",
+    "name": "Omid (1080p)",
     "country": "IR",
     "categories": [
       "kids"
@@ -807,7 +807,7 @@
   },
   {
     "id": "Palestinetv.ir@SD",
-    "name": "Palestine",
+    "name": "Palestine (720p)",
     "country": "IR",
     "categories": [
       "general"
@@ -832,7 +832,7 @@
   },
   {
     "id": "PooyaTVPlus.ir@SD",
-    "name": "Pooya TV Plus",
+    "name": "Pooya TV Plus (576p)",
     "country": "IR",
     "categories": [
       "kids"
@@ -844,7 +844,7 @@
   },
   {
     "id": "QazvinTV.ir@SD",
-    "name": "Qazvin",
+    "name": "Qazvin (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -854,7 +854,7 @@
   },
   {
     "id": "QuranTV.ir@SD",
-    "name": "Quran",
+    "name": "Quran (1080p)",
     "country": "IR",
     "categories": [
       "religious"
@@ -866,7 +866,7 @@
   },
   {
     "id": "RazaviTV.ir@SD",
-    "name": "Razavi TV",
+    "name": "Razavi TV (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -886,7 +886,7 @@
   },
   {
     "id": "SabalanTV.ir@SD",
-    "name": "Sabalan",
+    "name": "Sabalan (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -896,7 +896,7 @@
   },
   {
     "id": "SabzTV.ir@SD",
-    "name": "Sabz",
+    "name": "Sabz (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -908,7 +908,7 @@
   },
   {
     "id": "SahandTV.ir@SD",
-    "name": "Sahand",
+    "name": "Sahand (1080p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -918,7 +918,7 @@
   },
   {
     "id": "SalamatTV.ir@SD",
-    "name": "Salamat",
+    "name": "Salamat (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -928,7 +928,7 @@
   },
   {
     "id": "SarbedaranTV.ir@SD",
-    "name": "Sarbedaran",
+    "name": "Sarbedaran (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -948,7 +948,7 @@
   },
   {
     "id": "SepehrTV.ir@SD",
-    "name": "Sepehr",
+    "name": "Sepehr (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -958,7 +958,7 @@
   },
   {
     "id": "TabarestanTV.ir@SD",
-    "name": "Tabarestan",
+    "name": "Tabarestan (576p)",
     "country": "IR",
     "categories": [
       "general"
@@ -970,7 +970,7 @@
   },
   {
     "id": "Tamasha.ir@SD",
-    "name": "Tamasha",
+    "name": "Tamasha (1080p)",
     "country": "IR",
     "categories": [
       "movies"
@@ -982,7 +982,7 @@
   },
   {
     "id": "TehranTV.ir@SD",
-    "name": "Tehran",
+    "name": "Tehran (1080p)",
     "country": "IR",
     "categories": [
       "general"
@@ -1004,7 +1004,7 @@
   },
   {
     "id": "TVANava.ir@SD",
-    "name": "TVA Nava",
+    "name": "TVA Nava (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -1014,7 +1014,7 @@
   },
   {
     "id": "VarzeshTV.ir@SD",
-    "name": "Varzesh TV",
+    "name": "Varzesh TV (1082p)",
     "country": "IR",
     "categories": [
       "sports"
@@ -1026,7 +1026,7 @@
   },
   {
     "id": "VelayatTV.ir@SD",
-    "name": "Velayat TV",
+    "name": "Velayat TV (720p)",
     "country": "IR",
     "categories": [],
     "visible": true,
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "YazdTV.ir@SD",
-    "name": "Yazd",
+    "name": "Yazd (576p)",
     "country": "IR",
     "categories": [],
     "visible": true,

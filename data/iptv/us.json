@@ -6940,7 +6940,7 @@
   },
   {
     "id": "Access4PAC.us@SD",
-    "name": "Access 4 PAC",
+    "name": "Access 4 PAC (480p)",
     "country": "US",
     "categories": [
       "general"
@@ -6952,7 +6952,7 @@
   },
   {
     "id": "Access19.us@SD",
-    "name": "Access 19",
+    "name": "Access 19 (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -7809,7 +7809,7 @@
   },
   {
     "id": "BIGCivicChannel.us@SD",
-    "name": "BIG Civic Channel",
+    "name": "BIG Civic Channel (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -7821,7 +7821,7 @@
   },
   {
     "id": "BIGCommunityChannel.us@SD",
-    "name": "BIG Community Channel",
+    "name": "BIG Community Channel (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -8306,7 +8306,7 @@
   },
   {
     "id": "Channel18GAC.us@SD",
-    "name": "Channel 18 GAC",
+    "name": "Channel 18 GAC (480p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -8459,7 +8459,7 @@
   },
   {
     "id": "CityofMonroeGovernmentChannel.us@SD",
-    "name": "City of Monroe Government Channel",
+    "name": "City of Monroe Government Channel (1280p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -8628,7 +8628,7 @@
   },
   {
     "id": "COStv.us@SD",
-    "name": "COStv",
+    "name": "COStv (1080p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -8804,7 +8804,7 @@
   },
   {
     "id": "DetroitChannel10.us@SD",
-    "name": "Detroit Channel 10",
+    "name": "Detroit Channel 10 (720p)",
     "country": "US",
     "categories": [
       "legislative"
@@ -8816,7 +8816,7 @@
   },
   {
     "id": "DetroitChannel21.us@SD",
-    "name": "Detroit Channel 21",
+    "name": "Detroit Channel 21 (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -8828,7 +8828,7 @@
   },
   {
     "id": "DetroitChannel22.us@SD",
-    "name": "Detroit Channel 22",
+    "name": "Detroit Channel 22 (720p)",
     "country": "US",
     "categories": [
       "education"
@@ -8840,7 +8840,7 @@
   },
   {
     "id": "DetroitChannel68.us@SD",
-    "name": "Detroit Channel 68",
+    "name": "Detroit Channel 68 (720p)",
     "country": "US",
     "categories": [
       "general"
@@ -10845,7 +10845,7 @@
   },
   {
     "id": "MonroeCommunityMediaEducationChannel.us@SD",
-    "name": "Monroe Community Media Education Channel",
+    "name": "Monroe Community Media Education Channel (1920p)",
     "country": "US",
     "categories": [
       "education"
@@ -10857,7 +10857,7 @@
   },
   {
     "id": "MonroeCommunityMediaPublicAccessChannel.us@SD",
-    "name": "Monroe Community Media Public Access Channel",
+    "name": "Monroe Community Media Public Access Channel (1920p)",
     "country": "US",
     "categories": [
       "general"
@@ -10869,7 +10869,7 @@
   },
   {
     "id": "MontgomeryChannel.us@SD",
-    "name": "Montgomery Channel",
+    "name": "Montgomery Channel (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -11320,7 +11320,7 @@
   },
   {
     "id": "News12Conneticut.us@SD",
-    "name": "News12 Conneticut [Geo-blocked]",
+    "name": "News12 Conneticut (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "news"
@@ -16742,7 +16742,7 @@
   },
   {
     "id": "CapitalCityConnectionMontgomery.us@SD",
-    "name": "City TV Capital City Connection [Not 24/7]",
+    "name": "City TV Capital City Connection (1080p) [Not 24/7]",
     "country": "US",
     "categories": [
       "legislative"
@@ -22745,20 +22745,6 @@
     ]
   },
   {
-    "id": "BlackNewsChannel.us@SD",
-    "name": "Black News Channel (720p)",
-    "country": "US",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://blacknewschannel-vizio.amagi.tv/playlist.m3u8",
-      "https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8",
-      "https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8"
-    ]
-  },
-  {
     "id": "GuangdongTVAmerica.us@SD",
     "name": "Guangdong TV America",
     "country": "US",
@@ -24569,7 +24555,7 @@
   },
   {
     "id": "WillametteFallsMediaCenter.us@SD",
-    "name": "Willamette Falls Media Center",
+    "name": "Willamette Falls Media Center (1080p)",
     "country": "US",
     "categories": [
       "general"
@@ -26406,6 +26392,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://170.83.16.50/TOONCAST/index.m3u8",
       "http://170.83.16.50:80/TOONCAST/index.m3u8"
     ]
   }

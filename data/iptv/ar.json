@@ -295,7 +295,7 @@
   },
   {
     "id": "Canal4Jujuy.ar@SD",
-    "name": "Canal 4 Jujuy",
+    "name": "Canal 4 Jujuy (1080p)",
     "country": "AR",
     "categories": [],
     "visible": true,
@@ -1966,8 +1966,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "https://canal11saltatv.unpocodeawita.workers.dev/",
-      "https://canal11saltatv.unpocodeawita.workers.dev"
+      "https://canal11saltatv.unpocodeawita.workers.dev",
+      "https://canal11saltatv.unpocodeawita.workers.dev/"
     ]
   },
   {

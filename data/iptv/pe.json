@@ -331,7 +331,7 @@
   },
   {
     "id": "CadenaTV.pe@SD",
-    "name": "Cadena TV SD",
+    "name": "Cadena TV SD (720p)",
     "country": "PE",
     "categories": [],
     "visible": true,
@@ -1156,13 +1156,14 @@
   },
   {
     "id": "OndaTV.pe@SD",
-    "name": "Onda TV (720p)",
+    "name": "Onda TV (1080p)",
     "country": "PE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://v4.tustreaming.cl:2020/hls/ondatv/ondatv.m3u8",
       "https://live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8"
     ]
   },
@@ -1566,13 +1567,14 @@
   },
   {
     "id": "Telelima.pe@SD",
-    "name": "Telelima (720p)",
+    "name": "Telelima (1080p)",
     "country": "PE",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://live.telelima.net/web/index.m3u8",
       "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/telelima.stream/playlist.m3u8",
       "https://live-evg11.tv360.bitel.com.pe/bitel/telelimaSRT/playlist.m3u8"
     ]
@@ -2222,6 +2224,52 @@
     "visible": true,
     "urls": [
       "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium3_abr/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "SanjuaneraTV.pe@SD",
+    "name": "SanjuaneraTV (1080p)",
+    "country": "PE",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.obslivestream.com/sanjuanera/index.m3u8"
+    ]
+  },
+  {
+    "id": "SelvaTV.pe@SD",
+    "name": "SelvaTV (1080p)",
+    "country": "PE",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://videoserver.tmcreativos.com:2020/hls/selvatv/selvatv.m3u8"
+    ]
+  },
+  {
+    "id": "SullanaTV.pe@SD",
+    "name": "Sullana TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://mundial.cpustream.com:8081/sullanatv/video.m3u8"
+    ]
+  },
+  {
+    "id": "USILTV.pe@SD",
+    "name": "USIL TV (1080p)",
+    "country": "PE",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eu1.servers10.com:8081/8162/index.m3u8"
     ]
   }
 ]

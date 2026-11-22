@@ -356,7 +356,7 @@
   },
   {
     "id": "5Plus.il@SD",
-    "name": "5Plus",
+    "name": "5Plus (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -369,7 +369,7 @@
   },
   {
     "id": "5Stars.il@SD",
-    "name": "5Stars",
+    "name": "5Stars (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -392,13 +392,13 @@
   },
   {
     "id": "Channel16.il@SD",
-    "name": "Channel 16",
+    "name": "Channel 16 (1080p)",
     "country": "IL",
     "categories": [],
     "visible": true,
     "urls": [
-      "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8",
-      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/channel16/live.livx/playlist.m3u8"
+      "https://r.il.cdn-redge.media/livehls/oil/freetv/live/channel16/live.livx/playlist.m3u8",
+      "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8"
     ]
   },
   {
@@ -413,7 +413,7 @@
   },
   {
     "id": "5Gold.il@SD",
-    "name": "5Gold",
+    "name": "5Gold (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -425,7 +425,7 @@
   },
   {
     "id": "5Live.il@SD",
-    "name": "5Live",
+    "name": "5Live (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -449,7 +449,7 @@
   },
   {
     "id": "5Sport4K.il@SD",
-    "name": "5Sport 4K",
+    "name": "5Sport 4K (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -461,7 +461,7 @@
   },
   {
     "id": "5Max.il@SD",
-    "name": "5Max",
+    "name": "5Max (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -473,7 +473,7 @@
   },
   {
     "id": "ArutzHaYeladim.il@SD",
-    "name": "Arutz HaYeladim",
+    "name": "Arutz HaYeladim (720p)",
     "country": "IL",
     "categories": [
       "kids"
@@ -485,7 +485,7 @@
   },
   {
     "id": "EconomyChannel.il@SD",
-    "name": "Economy Channel",
+    "name": "Economy Channel (1080p)",
     "country": "IL",
     "categories": [],
     "visible": true,
@@ -495,7 +495,7 @@
   },
   {
     "id": "Foody.il@SD",
-    "name": "Foody",
+    "name": "Foody (1080p)",
     "country": "IL",
     "categories": [],
     "visible": true,
@@ -505,7 +505,7 @@
   },
   {
     "id": "Junior.il@SD",
-    "name": "Junior",
+    "name": "Junior (720p)",
     "country": "IL",
     "categories": [
       "kids"
@@ -517,7 +517,7 @@
   },
   {
     "id": "MusicIL.il@SD",
-    "name": "Music IL",
+    "name": "Music IL (720p)",
     "country": "IL",
     "categories": [
       "music"
@@ -529,7 +529,7 @@
   },
   {
     "id": "One2.il@SD",
-    "name": "One 2",
+    "name": "One 2 (1080p)",
     "country": "IL",
     "categories": [
       "sports"
@@ -541,7 +541,7 @@
   },
   {
     "id": "OneDoco.il@SD",
-    "name": "One Doco",
+    "name": "One Doco (1080p)",
     "country": "IL",
     "categories": [],
     "visible": true,
@@ -551,7 +551,7 @@
   },
   {
     "id": "OneEdge.il@SD",
-    "name": "One Edge",
+    "name": "One Edge (1080p)",
     "country": "IL",
     "categories": [],
     "visible": true,
@@ -561,7 +561,7 @@
   },
   {
     "id": "VivaIstanbul.il@SD",
-    "name": "Viva Istanbul",
+    "name": "Viva Istanbul (1080p)",
     "country": "IL",
     "categories": [
       "general"
@@ -573,7 +573,7 @@
   },
   {
     "id": "VivaTelenovelas.il@SD",
-    "name": "Viva Telenovelas",
+    "name": "Viva Telenovelas (1080p)",
     "country": "IL",
     "categories": [
       "series"
@@ -585,7 +585,7 @@
   },
   {
     "id": "One.il@SD",
-    "name": "One",
+    "name": "One (1080p)",
     "country": "IL",
     "categories": [
       "general"

@@ -50,7 +50,7 @@
   },
   {
     "id": "BMGTV.ge@SD",
-    "name": "BMG TV",
+    "name": "BMG TV (1080p)",
     "country": "GE",
     "categories": [
       "business"
@@ -178,6 +178,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "https://video.rionitv.com/hls/live/rioni.m3u8",
       "http://video.rionitv.com:9090/hls/live/rioni.m3u8"
     ]
   },
@@ -188,8 +189,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://31.146.5.178:8087/play/a008/index.m3u8",
-      "http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts"
+      "http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts",
+      "http://31.146.5.178:8087/play/a008/index.m3u8"
     ]
   },
   {

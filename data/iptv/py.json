@@ -13,7 +13,7 @@
   },
   {
     "id": "AGRFMTV.py@SD",
-    "name": "AGR FM TV",
+    "name": "AGR FM TV (720p)",
     "country": "PY",
     "categories": [
       "general"
@@ -559,9 +559,10 @@
     ],
     "visible": true,
     "urls": [
-      "https://tv.mitvparaguay.com/hls?id=snt&device_id=dev-461bff6d-cacc-48ea-94b8-02271afb3525",
+      "https://tv.mitvparaguay.com/hls?device_id=dev-461bff6d-cacc-48ea-94b8-02271afb3525&id=snt",
       "https://d3epa8orr2qy3m.cloudfront.net/ts:abr.m3u8",
-      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/113.m3u8"
+      "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/113.m3u8",
+      "https://tv.mitvparaguay.com/hls?id=snt&device_id=dev-461bff6d-cacc-48ea-94b8-02271afb3525"
     ]
   },
   {

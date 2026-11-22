@@ -117,5 +117,15 @@
     "urls": [
       "http://sdream.info:8080/hls/livestream/index.m3u8"
     ]
+  },
+  {
+    "id": "TV2Fyn.dk@SD",
+    "name": "TV 2 Fyn (1080p)",
+    "country": "DK",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://cdn.jwplayer.com/live/broadcast/igp9r9oc.mpd"
+    ]
   }
 ]

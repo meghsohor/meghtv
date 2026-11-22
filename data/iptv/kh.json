@@ -25,15 +25,15 @@
   },
   {
     "id": "BayonTV.kh@SD",
-    "name": "Bayon TV",
+    "name": "Bayon TV (720p)",
     "country": "KH",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8",
-      "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8"
+      "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8",
+      "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8"
     ]
   },
   {

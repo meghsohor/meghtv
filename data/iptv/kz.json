@@ -285,7 +285,7 @@
   },
   {
     "id": "QazaqstanInternational.kz@SD",
-    "name": "Qazaqstan International",
+    "name": "Qazaqstan International (1080p)",
     "country": "KZ",
     "categories": [
       "general"
@@ -416,23 +416,23 @@
   },
   {
     "id": "Novoetelevidenie.kz@SD",
-    "name": "Novoe televidenie (576p)",
+    "name": "Novoe televidenie (720p)",
     "country": "KZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8",
       "https://fs.uplink.kz/novoe_tv/mono.m3u8?token=onlinetv",
       "http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?authid=0&key=txiptv&playlive=0",
-      "https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8",
       "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
       "http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0"
     ]
   },
   {
     "id": "Ulytau.kz@SD",
-    "name": "Ulytau",
+    "name": "Ulytau (720p)",
     "country": "KZ",
     "categories": [
       "general"
@@ -444,7 +444,7 @@
   },
   {
     "id": "TDK42.kz@SD",
-    "name": "TDK 42",
+    "name": "TDK 42 (720p)",
     "country": "KZ",
     "categories": [],
     "visible": true,
