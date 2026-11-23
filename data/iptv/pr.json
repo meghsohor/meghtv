@@ -169,13 +169,14 @@
   },
   {
     "id": "RadioIslaTV.pr@SD",
-    "name": "Radio Isla TV (720p)",
+    "name": "Radio Isla TV (1080p)",
     "country": "PR",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://panel2.videocontentstreaming.com/live/4fd37e086394ac7e11a87acbc55e8f91.m3u8",
       "https://59a564764e2b6.streamlock.net/palestra/palestra/playlist.m3u8"
     ]
   },
@@ -332,6 +333,54 @@
     "visible": true,
     "urls": [
       "https://wapa.hostless.app/WAPA-TV-4-2.m3u8"
+    ]
+  },
+  {
+    "id": "MasterVideo.pr@SD",
+    "name": "Master Video (1080p)",
+    "country": "PR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://eco.streams.ovh:8081/mastervideotv/index.m3u8"
+    ]
+  },
+  {
+    "id": "TheRetroChannel.pr@HD",
+    "name": "The Retro Channel (1080p) [Not 24/7]",
+    "country": "PR",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://583ed2f226ac2.streamlock.net/theretrochannel/stream/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WCLO501.pr@SD",
+    "name": "WCLO 50.1 (720p)",
+    "country": "PR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8"
+    ]
+  },
+  {
+    "id": "BoricuaTV.pr@SD",
+    "name": "Boricua TV (1080p)",
+    "country": "PR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8"
     ]
   }
 ]

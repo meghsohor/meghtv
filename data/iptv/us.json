@@ -24380,6 +24380,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://38.211.118.56:50002/play/a0fa/index.m3u8",
       "http://190.61.47.54:8000/play/a005/index.m3u8"
     ]
   },
@@ -26394,6 +26395,31 @@
     "urls": [
       "http://170.83.16.50/TOONCAST/index.m3u8",
       "http://170.83.16.50:80/TOONCAST/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonCartoons.us@SD",
+    "name": "Cartoon Cartoons (720p)",
+    "country": "US",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cartooncartoons.thatsoretro.com/hls/stream.m3u8"
+    ]
+  },
+  {
+    "id": "FMHMovies.us@SD",
+    "name": "FMH Movies (1080p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://45.186.254.75:8000/play/a07j/index.m3u8"
     ]
   }
 ]

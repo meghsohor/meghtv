@@ -2360,5 +2360,65 @@
       "https://live-evg8.tv360.bitel.com.pe/bitel/girovisualSRT-TRA/playlist.m3u8",
       "https://panel.tvstream.cl:1936/puekxmssxt/puekxmssxt/playlist.m3u8"
     ]
+  },
+  {
+    "id": "LaGranjaTV.cl@SD",
+    "name": "La Granja TV (1080p)",
+    "country": "CL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://oracle.streaminghd.cl/8126/8126/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MasRadioTV.cl@SD",
+    "name": "Mas Radio TV (1080p)",
+    "country": "CL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://iptv.intersurtv.cl/intersur_mauletv/index.m3u8"
+    ]
+  },
+  {
+    "id": "OsornoTV.cl@SD",
+    "name": "Osorno TV (1080p)",
+    "country": "CL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://envivo.osornotv.cl/memfs/cb5800be-330b-40c9-8519-af788c7e29eb.m3u8"
+    ]
+  },
+  {
+    "id": "PalMundoFM.cl@SD",
+    "name": "PalMundo FM (1080p)",
+    "country": "CL",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://streampanelcp.palmundofm.cl/hls/palmundofm/visual/hd.m3u8"
+    ]
+  },
+  {
+    "id": "RadioBohemiaTV.cl@SD",
+    "name": "Radio Bohemia TV (1080p)",
+    "country": "CL",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://portalstream.cl:8080/bohemia1.m3u8"
+    ]
   }
 ]

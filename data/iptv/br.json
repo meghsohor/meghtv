@@ -3471,5 +3471,17 @@
     "urls": [
       "https://bob.x1colegal.com/hls/stream.m3u8"
     ]
+  },
+  {
+    "id": "TVMaanaim.br@SD",
+    "name": "TV Maanaim (720p) [Not 24/7]",
+    "country": "BR",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8"
+    ]
   }
 ]

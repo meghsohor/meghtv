@@ -9,6 +9,7 @@
     "visible": true,
     "urls": [
       "https://183.bozztv.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8",
+      "https://streamtv.intervenhosting.net:3677/live/abejalestvlive.m3u8",
       "https://streamtv.intervenhosting.net:3119/live/abejalestvlive.m3u8",
       "https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8"
     ]

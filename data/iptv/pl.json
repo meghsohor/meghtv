@@ -2326,5 +2326,29 @@
     "urls": [
       "https://tvk.smnt.pl/memfs/cf3a66ef-133a-4579-86da-5995ab23ae2a.m3u8"
     ]
+  },
+  {
+    "id": "ATMRozrywkaREWORK.pl",
+    "name": "ATM Rozrywka REWORK (1080p)",
+    "country": "PL",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://183.giatvcdn.com/giatvplayout7/giatv-211353/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "Nickelodeon.pl@SD",
+    "name": "Nickelodeon",
+    "country": "PL",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5189779876700e71d303b"
+    ]
   }
 ]

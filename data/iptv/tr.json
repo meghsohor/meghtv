@@ -2381,5 +2381,15 @@
     "urls": [
       "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8"
     ]
+  },
+  {
+    "id": "TRT1.tr@HD",
+    "name": "TRT 1 (1440p)",
+    "country": "TR",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+    ]
   }
 ]

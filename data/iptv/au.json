@@ -655,5 +655,17 @@
     "urls": [
       "https://i.mjh.nz/.r/10shake-nsw.m3u8"
     ]
+  },
+  {
+    "id": "ABCAustralia.au@SD",
+    "name": "ABC Australia (480p)",
+    "country": "AU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://proxy-v.rctiplus.id/live/web/abcaus/index.m3u8"
+    ]
   }
 ]

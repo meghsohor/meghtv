@@ -44,13 +44,14 @@
     ],
     "visible": true,
     "urls": [
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8",
       "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8",
-      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8"
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8"
     ]
   },
   {
     "id": "AzTV.az@SD",
-    "name": "Az TV (720p)",
+    "name": "Az TV",
     "country": "AZ",
     "categories": [
       "general"
@@ -298,7 +299,7 @@
   },
   {
     "id": "ARB24.az@SD",
-    "name": "ARB 24 (720p)",
+    "name": "ARB 24",
     "country": "AZ",
     "categories": [
       "news"
@@ -346,6 +347,177 @@
     "urls": [
       "http://185.118.50.218/arbgunesh/video.m3u8",
       "http://185.118.50.218:80/arbgunesh/video.m3u8"
+    ]
+  },
+  {
+    "id": "AnewZTV.az",
+    "name": "AnewZ TV",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://svln.li/anewz.m3u8",
+      "https://edge-rs-01.maksnet.tv/cubesanewz-secure/smil:cubesanewz-secure.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "BakuTV.az",
+    "name": "Baku TV",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.baku.tv/hls/bakutv.m3u8",
+      "https://rtmp.baku.tv/hls/bakutv_1080p.m3u8"
+    ]
+  },
+  {
+    "id": "DunyaTV.az",
+    "name": "Dunya TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.118.50.218/dunyatv/video.m3u8"
+    ]
+  },
+  {
+    "id": "ELTV.az",
+    "name": "EL TV [Not 24/7]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.eltv.az/live/eltv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "IctimaiTV.az",
+    "name": "Ictimai TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.itv.az/itv.m3u8"
+    ]
+  },
+  {
+    "id": "KapazTV.az",
+    "name": "Kapaz TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "http://85.132.78.122:8050/hls/stream/index.m3u8"
+    ]
+  },
+  {
+    "id": "KNMusicTV.az",
+    "name": "KN Music TV",
+    "country": "AZ",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn4.yayin.com.tr/kntv/video.m3u8"
+    ]
+  },
+  {
+    "id": "MedeniyyetTV.az",
+    "name": "Medeniyyet TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.32.44.154/medeniyyet/index.m3u8"
+    ]
+  },
+  {
+    "id": "RealTV.az",
+    "name": "Real TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://185.118.50.218/realtv/video.m3u8"
+    ]
+  },
+  {
+    "id": "SesTV.az",
+    "name": "Ses TV [Geo-blocked]",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://145.239.37.125:20458/maksimtv/maksimtv/chunklist_w1215296059.m3u8"
+    ]
+  },
+  {
+    "id": "ShowPlusTV.az",
+    "name": "Show Plus TV",
+    "country": "AZ",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rtmp.showplus.tv/hls/myshow.m3u8"
+    ]
+  },
+  {
+    "id": "SpaceTV.az",
+    "name": "Space TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://operativmm.az/tvs/space/stream8/index.m3u8",
+      "https://az.tvstream.az/hls/stream8/stream.m3u8"
+    ]
+  },
+  {
+    "id": "VilayetTV.az",
+    "name": "Vilayet TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nl.livekadeh.com/hls2/vilayet.m3u8"
+    ]
+  },
+  {
+    "id": "XezerTV.az",
+    "name": "Xezer TV",
+    "country": "AZ",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://xezer.tvstream.az/hls/stream/main_stream.m3u8"
     ]
   }
 ]

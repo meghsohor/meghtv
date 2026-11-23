@@ -253,5 +253,29 @@
     "urls": [
       "https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8"
     ]
+  },
+  {
+    "id": "GloriousTimesTV.ug@SD",
+    "name": "Glorious Times TV (1080p)",
+    "country": "UG",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://gttv-cdn.cybercdn.live/GTTV/Live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KTV.ug@SD",
+    "name": "KTV (1080p)",
+    "country": "UG",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.kingdommediaug.com/ktv/video.m3u8"
+    ]
   }
 ]

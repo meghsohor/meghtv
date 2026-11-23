@@ -1992,16 +1992,16 @@
   },
   {
     "id": "HistoryTV18.in@HD",
-    "name": "History TV18 HD (1080p)",
+    "name": "History TV18 HD (1080p) [Geo-blocked]",
     "country": "IN",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "http://116.90.120.149:8000/play/a12z/index.m3u8",
       "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
       "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8",
+      "http://116.90.120.149:8000/play/a12z/index.m3u8",
       "https://techtraveleat.in/stream.m3u8?id=historytv18eng"
     ]
   },
@@ -2755,28 +2755,28 @@
   },
   {
     "id": "MTV.in@SD",
-    "name": "MTV (576p)",
+    "name": "MTV (396p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8",
-      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8"
+      "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8",
+      "https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8"
     ]
   },
   {
     "id": "MTV.in@HD",
-    "name": "MTV HD (1080p)",
+    "name": "MTV HD (396p)",
     "country": "IN",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
-      "http://116.90.120.149:8000/play/a136/index.m3u8",
       "https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8",
+      "http://116.90.120.149:8000/play/a136/index.m3u8",
       "http://51.75.127.199:3141/mtvhd/index.m3u8"
     ]
   },
@@ -9172,11 +9172,12 @@
   },
   {
     "id": "CalvaryTV.in@SD",
-    "name": "Calvary TV (576p)",
+    "name": "Calvary TV (1080p)",
     "country": "IN",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://5dd3981940faa.streamlock.net/calvarytv/calvarytv/playlist.m3u8",
       "https://cdn.pishow.tv/ott/live/963/master.m3u8",
       "https://d1msejlow1t3l4.cloudfront.net/211125/calvarytv/playlist.m3u8",
       "http://51.75.127.199:3141/calvarytv/index.m3u8"
@@ -9310,15 +9311,15 @@
   },
   {
     "id": "MoviesNow.in@HD",
-    "name": "Movies Now HD (1080p)",
+    "name": "Movies Now HD (576p)",
     "country": "IN",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
-      "http://116.90.120.149:8000/play/a11f/index.m3u8",
       "http://27.124.71.27/Movies_Now/index.m3u8",
+      "http://116.90.120.149:8000/play/a11f/index.m3u8",
       "http://103.135.253.32:8080/MOVIES-NOW/index.m3u8",
       "http://103.151.60.162:2122/play/a02w/index.m3u8?hls"
     ]
@@ -10166,6 +10167,7 @@
     "visible": true,
     "urls": [
       "https://samitaorigin.tangotv.in/BSTV/SAMITAORIGIN/index.m3u8",
+      "https://zkpywwqbybeg-hls-live.5centscdn.com/bstv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
       "https://mumt07.tangotv.in/zHjX9OFlBSTV/index.m3u8"
     ]
   },
@@ -11989,6 +11991,42 @@
     "visible": true,
     "urls": [
       "http://116.90.120.149:8000/play/a11q/index.m3u8"
+    ]
+  },
+  {
+    "id": "KannurVision.in@SD",
+    "name": "Kannur Vision (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.logichost.in/kannurvision/live/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "MTV.in@International",
+    "name": "MTV International (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8"
+    ]
+  },
+  {
+    "id": "NijamTV.in@SD",
+    "name": "Nijam TV (1080p)",
+    "country": "IN",
+    "categories": [
+      "religious"
+    ],
+    "visible": true,
+    "urls": [
+      "https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8"
     ]
   }
 ]

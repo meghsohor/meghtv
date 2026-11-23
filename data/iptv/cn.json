@@ -416,13 +416,14 @@
   },
   {
     "id": "CGTNFrench.cn@SD",
-    "name": "CGTN Français (576p) [Not 24/7]",
+    "name": "CGTN French (1080p)",
     "country": "CN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://francais-liveali.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8",
       "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8",
       "https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8",
       "https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8",
@@ -433,13 +434,14 @@
   },
   {
     "id": "CGTNSpanish.cn@SD",
-    "name": "CGTN Spanish (720p)",
+    "name": "CGTN Spanish (1080p)",
     "country": "CN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
       "http://45.165.82.19/test/index.m3u8",
       "http://45.186.106.147:8880/play/a06f/index.m3u8",
       "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8",
@@ -1919,13 +1921,14 @@
   },
   {
     "id": "CGTNArabic.cn@SD",
-    "name": "CGTN Arabic (576p) [Not 24/7]",
+    "name": "CGTN Arabic (1080p)",
     "country": "CN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
       "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8",
       "https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8",
       "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8"
@@ -1933,13 +1936,14 @@
   },
   {
     "id": "CGTNRussian.cn@SD",
-    "name": "CGTN Русский (576p)",
+    "name": "CGTN Russian (1080p)",
     "country": "CN",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
       "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8",
       "https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8",
       "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8"

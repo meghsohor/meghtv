@@ -3683,5 +3683,29 @@
       "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c",
       "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2672740913728a31b548ec"
     ]
+  },
+  {
+    "id": "BBCEarth.uk@Asia",
+    "name": "BBC Earth Asia (720p)",
+    "country": "UK",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://proxy-v.rctiplus.id/live/web/bbcearth/index.m3u8"
+    ]
+  },
+  {
+    "id": "BBCNews.uk@AsiaPacific",
+    "name": "BBC News Asia Pacific (480p)",
+    "country": "UK",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://proxy-v.rctiplus.id/live/web/bbcworld/index.m3u8"
+    ]
   }
 ]

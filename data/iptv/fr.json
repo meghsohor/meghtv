@@ -2415,13 +2415,14 @@
   },
   {
     "id": "Eurosport1.fr@Turkiye",
-    "name": "Eurosport 1 Turkiye",
+    "name": "Eurosport 1 Turkiye (1080p)",
     "country": "FR",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85",
       "https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8"
     ]
   },
@@ -3176,6 +3177,30 @@
     "visible": true,
     "urls": [
       "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F11741266772bc970bcdea5"
+    ]
+  },
+  {
+    "id": "CanalPlus.fr@SD",
+    "name": "Canal+",
+    "country": "FR",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F4177424223ffc540a587de"
+    ]
+  },
+  {
+    "id": "ComediePlus.fr@SD",
+    "name": "Comedie+ (1080p)",
+    "country": "FR",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1928514641c723cfdf588b"
     ]
   }
 ]

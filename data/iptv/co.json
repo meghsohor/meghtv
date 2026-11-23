@@ -1716,5 +1716,17 @@
     "urls": [
       "http://181.78.8.199:8000/play/a0e4/index.m3u8"
     ]
+  },
+  {
+    "id": "HuilaTV.co@SD",
+    "name": "Huila TV (1080p)",
+    "country": "CO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://server.asilivehd.com:3333/live/huilatvlive.m3u8"
+    ]
   }
 ]
