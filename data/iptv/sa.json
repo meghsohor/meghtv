@@ -34,6 +34,7 @@
     "visible": true,
     "urls": [
       "http://185.9.2.18/chid_327/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/lbc_sat/live.livx/playlist.m3u8",
       "https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8"
     ]
   },
@@ -516,35 +517,38 @@
   },
   {
     "id": "RotanaCinemaKSA.sa@SD",
-    "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
+    "name": "Rotana Cinema KSA (540p)",
     "country": "SA",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rotana_cinema/live.livx/playlist.m3u8",
       "https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8"
     ]
   },
   {
     "id": "RotanaClassic.sa@SD",
-    "name": "Rotana Classic (1080p) [Geo-blocked]",
+    "name": "Rotana Classic (540p)",
     "country": "SA",
     "categories": [
       "classic"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rotana_classic/live.livx/playlist.m3u8",
       "https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8"
     ]
   },
   {
     "id": "RotanaClip.sa@SD",
-    "name": "Rotana Clip (1080p) [Geo-blocked]",
+    "name": "Rotana Clip (540p)",
     "country": "SA",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rotana_clip/live.livx/playlist.m3u8",
       "https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8"
     ]
   },
@@ -598,13 +602,14 @@
   },
   {
     "id": "RotanaMusic.sa@SD",
-    "name": "Rotana Music (1080p) [Geo-blocked]",
+    "name": "Rotana Music",
     "country": "SA",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rotana_music/live.livx/playlist.m3u8",
       "https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8"
     ]
   },

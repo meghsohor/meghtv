@@ -382,5 +382,17 @@
     "urls": [
       "https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8"
     ]
+  },
+  {
+    "id": "WIMNTV.pr@SD",
+    "name": "WIMN-TV (1080p) [Not 24/7]",
+    "country": "PR",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "https://video2.getstreamhosting.com:1936/8040/8040/playlist.m3u8"
+    ]
   }
 ]

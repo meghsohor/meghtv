@@ -51,11 +51,12 @@
   },
   {
     "id": "CTN.kh@SD",
-    "name": "CTN [Not 24/7]",
+    "name": "CTN (576p)",
     "country": "KH",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://ip.pdtvhd.com/Khmer/streams/CTNHD.m3u8",
       "https://live.happywatch99.com/ctnhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8"
     ]
   },
@@ -166,6 +167,7 @@
     "visible": true,
     "urls": [
       "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
+      "https://live.msjtv.com/live/streams/playlist.m3u8",
       "http://124.248.165.18:1935/live/myStream.smil/playlist.m3u8",
       "http://119.15.85.85:5080/LiveApp/streams/MSJTV_hd_playlist.m3u8"
     ]

@@ -23,7 +23,8 @@
       "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
       "http://185.9.2.18/chid_146/index.m3u8",
       "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8",
-      "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8"
+      "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/al_arabiya/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -264,8 +265,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://103.135.253.32:8080/Pace-TV-Bangla/index.m3u8",
-      "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
+      "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+      "http://103.135.253.32:8080/Pace-TV-Bangla/index.m3u8"
     ]
   },
   {

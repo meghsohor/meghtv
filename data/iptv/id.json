@@ -1665,7 +1665,8 @@
     "visible": true,
     "urls": [
       "http://202.150.172.59/RCTIHD/index.m3u8",
-      "https://mncmedia.malingtv.workers.dev/rcti.m3u8"
+      "https://mncmedia.malingtv.workers.dev/rcti.m3u8",
+      "https://rplus.inisemar.my.id/rcti.m3u8"
     ]
   },
   {
@@ -1678,6 +1679,7 @@
     "visible": true,
     "urls": [
       "http://202.150.172.59/GTVHD/index.m3u8",
+      "https://linier-gtv.rctiplus.id/gtv-sdi-avc1_1000000=7-mp4a_96000=1.m3u8",
       "https://mncmedia.malingtv.workers.dev/gtv.m3u8"
     ]
   },
@@ -2061,6 +2063,16 @@
     "visible": true,
     "urls": [
       "https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "tvOne.id@HD",
+    "name": "tvOne HD (720p)",
+    "country": "ID",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8"
     ]
   }
 ]

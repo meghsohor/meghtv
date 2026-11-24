@@ -69,7 +69,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://185.9.2.18/chid_347/index.m3u8"
+      "http://185.9.2.18/chid_347/index.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/canal_algerie/live.livx/playlist.m3u8"
     ]
   },
   {

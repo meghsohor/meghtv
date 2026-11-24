@@ -7505,19 +7505,6 @@
     ]
   },
   {
-    "id": "AXNAdria.us@SD",
-    "name": "AXN Adria",
-    "country": "US",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "http://5.57.74.130:8000/play/a0at/index.m3u8",
-      "http://87.238.211.217:2209/stream/104/index.m3u8"
-    ]
-  },
-  {
     "id": "AXNBlack.us@Bulgary",
     "name": "AXN Black",
     "country": "US",
@@ -8890,6 +8877,7 @@
       "http://tvsen7.aynascope.net/disney/index.m3u8",
       "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
       "https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8",
+      "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2NTIiLCJjaGFpbiI6InIyIiwidHMiOjE3OTQ4Njc4ODI0MDR9",
       "http://212.5.144.156/disneyjr/index.m3u8",
       "https://tvnow.hostless.app/disney-junior.m3u8",
       "https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F212.5.144.156%3A8080%2Fdisneyjr%2Ftracks-v1a1%2Fmono.m3u8"
@@ -9172,15 +9160,15 @@
   },
   {
     "id": "FoxDeportes.us@SD",
-    "name": "Fox Deportes (720p)",
+    "name": "Fox Sports en Espanol (720p)",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
-      "https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8"
+      "https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8",
+      "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8"
     ]
   },
   {
@@ -11126,10 +11114,10 @@
     "visible": true,
     "urls": [
       "http://23.237.104.106:8080/USA_NBA/index.m3u8",
-      "http://198.58.104.90:8989/nba/index.m3u8",
       "http://rezofoot.tv/NBATV/index.m3u8",
       "https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8",
-      "https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8"
+      "https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8",
+      "http://198.58.104.90:8989/nba/index.m3u8"
     ]
   },
   {
@@ -11449,8 +11437,8 @@
       "http://181.78.79.131:8000/play/a0qm",
       "http://181.224.255.210:8001/play/a0fm",
       "http://190.93.224.42/NICK/index.m3u8",
-      "http://190.234.82.52:8000/play/a0ke/index.m3u8",
       "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
+      "http://190.234.82.52:8000/play/a0ke/index.m3u8",
       "http://15.204.246.24:8080/NickHD/index.m3u8",
       "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
     ]
@@ -14176,8 +14164,8 @@
     "urls": [
       "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8",
       "https://d1q60ra9vxbqm1.cloudfront.net/playlist.m3u8",
-      "https://aegis-cloudfront-1.tubi.video/d864a20b-85bb-41bc-8fbe-6c9d8a88a32d/playlist.m3u8",
-      "https://amg00327-coxmediagroup-wsocbreakingnews-vizious-ni1pz.amagi.tv/playlist/amg00327-coxmediagroup-wsocbreakingnews-vizious/playlist.m3u8"
+      "https://amg00327-coxmediagroup-wsocbreakingnews-vizious-ni1pz.amagi.tv/playlist/amg00327-coxmediagroup-wsocbreakingnews-vizious/playlist.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/d864a20b-85bb-41bc-8fbe-6c9d8a88a32d/playlist.m3u8"
     ]
   },
   {
@@ -14731,15 +14719,15 @@
   },
   {
     "id": "DSports2.us@Panregional",
-    "name": "DSports 2 (1080p)",
+    "name": "DSports 2",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://187.102.208.209:8000/play/a0bq/index.m3u8",
       "http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8",
+      "http://187.102.208.209:8000/play/a0bq/index.m3u8",
       "http://138.121.113.175:8000/play/a0ca/index.m3u8"
     ]
   },
@@ -15000,17 +14988,17 @@
   },
   {
     "id": "EWTN.us@SpainLatinAmerica",
-    "name": "EWTN Spain & Latin America (576p)",
+    "name": "EWTN Spain & Latin America (480p)",
     "country": "US",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
-      "http://187.102.208.209:8000/play/a0ac/index.m3u8",
       "http://45.167.1.138:8000/play/a01m",
       "http://45.228.234.9:8000/play/a06v/index.m3u8",
-      "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8"
+      "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8",
+      "http://187.102.208.209:8000/play/a0ac/index.m3u8"
     ]
   },
   {
@@ -16453,15 +16441,15 @@
   },
   {
     "id": "ABC.us@WFTV",
-    "name": "ABC 9 Orlando FL (WFTV) (720p)",
+    "name": "ABC 9 Orlando FL (WFTV) (1080p) [Geo-blocked]",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8",
-      "https://amg00327-coxmediagroup-wftvbreakingnews-vizious-bfgi2.amagi.tv/ts-eu-w1-n2/playlist/amg00327-coxmediagroup-wftvbreakingnews-vizious/playlist.m3u8"
+      "https://amg00327-coxmediagroup-wftvbreakingnews-vizious-bfgi2.amagi.tv/ts-eu-w1-n2/playlist/amg00327-coxmediagroup-wftvbreakingnews-vizious/playlist.m3u8",
+      "https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8"
     ]
   },
   {
@@ -22180,15 +22168,15 @@
   },
   {
     "id": "ABC.us@WMARTV",
-    "name": "ABC 2 Baltimore MD (WMAR) (720p)",
+    "name": "ABC 2 Baltimore MD (WMAR) (1080p)",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8",
-      "https://amg01438-amg01438c22-vizio-us-10908.playouts.now.amagi.tv/playlist.m3u8"
+      "https://amg01438-amg01438c22-vizio-us-10908.playouts.now.amagi.tv/playlist.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8"
     ]
   },
   {
@@ -22242,15 +22230,15 @@
   },
   {
     "id": "ABC.us@KGTV",
-    "name": "ABC 10 San Diego CA (KGTV) (720p)",
+    "name": "ABC 10 San Diego CA (KGTV) (1080p)",
     "country": "US",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8",
-      "https://amg01438-amg01438c6-vizio-us-10897.playouts.now.amagi.tv/playlist.m3u8"
+      "https://amg01438-amg01438c6-vizio-us-10897.playouts.now.amagi.tv/playlist.m3u8",
+      "https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8"
     ]
   },
   {
@@ -23444,13 +23432,13 @@
   },
   {
     "id": "truTV.us@East",
-    "name": "truTV (720p)",
+    "name": "truTV (720p) [Geo-blocked]",
     "country": "US",
     "categories": [],
     "visible": true,
     "urls": [
-      "http://23.237.104.106:8080/USA_TRUTV/index.m3u8",
-      "https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8"
+      "https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8",
+      "http://23.237.104.106:8080/USA_TRUTV/index.m3u8"
     ]
   },
   {
@@ -24059,9 +24047,9 @@
     "visible": true,
     "urls": [
       "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
-      "http://116.90.120.149:8000/play/a01b/index.m3u8",
       "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1",
       "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
+      "http://116.90.120.149:8000/play/a01b/index.m3u8",
       "http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8"
     ]
   },
@@ -24311,15 +24299,15 @@
   },
   {
     "id": "NFLNetwork.us@SD",
-    "name": "NFL Network (720p)",
+    "name": "NFL Network (576p)",
     "country": "US",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
-      "http://198.58.104.90:8989/nfl/index.m3u8",
-      "https://tvsen6.aynaott.com/nfl/index.m3u8"
+      "https://tvsen6.aynaott.com/nfl/index.m3u8",
+      "http://198.58.104.90:8989/nfl/index.m3u8"
     ]
   },
   {
@@ -24512,8 +24500,8 @@
     "visible": true,
     "urls": [
       "http://190.61.42.218:9000/play/a06i/index.m3u8",
-      "http://190.234.82.52:8000/play/a0mo/index.m3u8",
       "http://45.173.231.22:8000/play/a01i/index.m3u8",
+      "http://190.234.82.52:8000/play/a0mo/index.m3u8",
       "http://200.62.239.170:830/play/a07n/index.m3u8"
     ]
   },
@@ -24844,7 +24832,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://168.228.44.241:9997/play/a06p/index.m3u8"
+      "http://168.228.44.241:9997/play/a06p/index.m3u8",
+      "https://lilac19.pontiscloud.com/live/gt/ESPN/index.m3u8"
     ]
   },
   {
@@ -25555,18 +25544,6 @@
     "urls": [
       "https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8",
       "https://tvnow.hostless.app/nickelodeon.m3u8"
-    ]
-  },
-  {
-    "id": "ComedyCentral.us@East",
-    "name": "Comedy Central (1080p)",
-    "country": "US",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://tvnow.hostless.app/comedy-central.m3u8"
     ]
   },
   {
@@ -26420,6 +26397,40 @@
     "visible": true,
     "urls": [
       "http://45.186.254.75:8000/play/a07j/index.m3u8"
+    ]
+  },
+  {
+    "id": "AmericaTeVe.us@SD",
+    "name": "América TeVé (1080p)",
+    "country": "US",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://live.gideo.video/americateve2/master.m3u8"
+    ]
+  },
+  {
+    "id": "Freeform.us@East",
+    "name": "Freeform (720p)",
+    "country": "US",
+    "categories": [
+      "family"
+    ],
+    "visible": true,
+    "urls": [
+      "https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiIzMDEiLCJjaGFpbiI6InIyIiwidHMiOjE3OTUzODk4NjYzODB9"
+    ]
+  },
+  {
+    "id": "WarnerChannel.us@Panregional",
+    "name": "Warner Channel (720p)",
+    "country": "US",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://181.78.197.59:8000/play/a07s/index.m3u8"
     ]
   }
 ]

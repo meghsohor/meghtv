@@ -2129,15 +2129,15 @@
   },
   {
     "id": "CanalN.pe@SD",
-    "name": "Canal N (1080p)",
+    "name": "Canal N (576p)",
     "country": "PE",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
-      "http://187.102.208.209:8000/play/a0az/index.m3u8",
       "http://190.108.91.206:9050/play/a0bd/index.m3u8",
+      "http://187.102.208.209:8000/play/a0az/index.m3u8",
       "http://170.244.209.30:8000/play/a1ib/index.m3u8"
     ]
   },

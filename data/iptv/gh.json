@@ -114,5 +114,17 @@
       "https://g2qd3exjy7an-hls-live.5centscdn.com/webtv3/ghanatv.stream/playlist.m3u8",
       "https://adesa.tv/live/tv3_AdesaAdb.m3u8"
     ]
+  },
+  {
+    "id": "LixdofTV.gh@SD",
+    "name": "Lixdof TV (720p)",
+    "country": "GH",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://2nbyjq47d53k-hls-live.5centscdn.com/Lixdofmultimedia/f55247a8bae691deb0ae56982af2d6bf.sdp/playlist.m3u8"
+    ]
   }
 ]

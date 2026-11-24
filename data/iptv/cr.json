@@ -276,9 +276,9 @@
       "http://200.115.96.61:9090/play/a01r/index.m3u8",
       "http://200.115.120.1:8000/play/ca114/index.m3u8",
       "http://201.207.54.159:8000/play/a0ea/index.m3u8",
-      "http://187.102.208.209:8000/play/a0ae/index.m3u8",
       "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
-      "http://177.234.247.66:9975/Enlace/index.m3u8"
+      "http://177.234.247.66:9975/Enlace/index.m3u8",
+      "http://187.102.208.209:8000/play/a0ae/index.m3u8"
     ]
   },
   {

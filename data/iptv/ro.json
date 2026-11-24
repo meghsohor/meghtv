@@ -808,7 +808,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8"
+      "https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8",
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tvr_international/live.livx/playlist.m3u8"
     ]
   },
   {
@@ -2061,13 +2062,14 @@
   },
   {
     "id": "Formula1AntenaPlay.ro@SD",
-    "name": "Formula 1 AntenaPlay (576i) [Not 24/7]",
+    "name": "Formula 1 AntenaPlay (576p) [Not 24/7]",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://stream1.antenaplay.ro/promo/formula-1-qatar-27-2911/chunklist.m3u8",
       "https://stream1.antenaplay.ro/promo/formula-1-las-vegas-20-2211/chunklist.m3u8"
     ]
   },

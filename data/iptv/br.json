@@ -3377,18 +3377,6 @@
     ]
   },
   {
-    "id": "CazeTV.br@SD",
-    "name": "CazeTV (1080p)",
-    "country": "BR",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://138.204.86.4:8080/CAZE_TV/playlist.m3u8"
-    ]
-  },
-  {
     "id": "TVGloboBrasilia.br@SD",
     "name": "TV Globo Brasilia (1080p)",
     "country": "BR",
@@ -3482,6 +3470,22 @@
     "visible": true,
     "urls": [
       "https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8"
+    ]
+  },
+  {
+    "id": "TVCAJUIWEB.br@HD",
+    "name": "TV CAJUI WEB (720p)",
+    "country": "BR",
+    "categories": [
+      "general",
+      "news",
+      "music",
+      "religious",
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8"
     ]
   }
 ]

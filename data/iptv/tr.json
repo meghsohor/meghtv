@@ -2391,5 +2391,17 @@
     "urls": [
       "https://tv-trt1.medya.trt.com.tr/master.m3u8"
     ]
+  },
+  {
+    "id": "Cine1.tr@SD",
+    "name": "Cine 1 (1080p)",
+    "country": "TR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
+    ]
   }
 ]

@@ -245,13 +245,14 @@
   },
   {
     "id": "FieriTv.al@HD",
-    "name": "Fieri Tv (720p)",
+    "name": "Fieri Tv (1080p)",
     "country": "AL",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://live.fieritv.com/hls/fieritv/index.m3u8",
       "http://valashop.online:8090/fieritv.m3u8"
     ]
   },

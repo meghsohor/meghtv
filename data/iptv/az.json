@@ -44,9 +44,9 @@
     ],
     "visible": true,
     "urls": [
-      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8",
       "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8",
-      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8"
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/1080p/1080p.m3u8",
+      "https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8"
     ]
   },
   {
@@ -153,7 +153,7 @@
   },
   {
     "id": "KNMusicTV.az@SD",
-    "name": "KN Music TV",
+    "name": "KN Music TV (1080p)",
     "country": "AZ",
     "categories": [
       "music"
@@ -306,8 +306,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://operativmm.az/tvs/arb24/stream/index.m3u8",
-      "https://az.tvstream.az/hls/stream5/stream.m3u8"
+      "https://az.tvstream.az/hls/stream5/stream.m3u8",
+      "https://operativmm.az/tvs/arb24/stream/index.m3u8"
     ]
   },
   {
@@ -492,8 +492,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://operativmm.az/tvs/space/stream8/index.m3u8",
-      "https://az.tvstream.az/hls/stream8/stream.m3u8"
+      "https://az.tvstream.az/hls/stream8/stream.m3u8",
+      "https://operativmm.az/tvs/space/stream8/index.m3u8"
     ]
   },
   {

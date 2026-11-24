@@ -606,11 +606,12 @@
   },
   {
     "id": "SamarraTV.iq@SD",
-    "name": "Samarra TV",
+    "name": "Samarra TV (720p)",
     "country": "IQ",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://live.samarra.tv/samarra/ngrp:live_abr/playlist.m3u8",
       "https://live.bradosti.net/live/samaraweb_playlist.m3u8",
       "https://samarra.tv/proxy.php/hls/main3/playlist.m3u8"
     ]
@@ -692,6 +693,16 @@
     "visible": true,
     "urls": [
       "https://live.mahdawioun.tv/stream/mahdawioun/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NRTSport.iq@HD",
+    "name": "NRT Sport",
+    "country": "IQ",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://andam.uk/ytlive/nrtsport/index.m3u8"
     ]
   }
 ]

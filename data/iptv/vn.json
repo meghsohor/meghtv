@@ -1133,5 +1133,32 @@
     "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=193"
     ]
+  },
+  {
+    "id": "HTV2.vn@HD",
+    "name": "HTV2 (720p)",
+    "country": "VN",
+    "categories": [
+      "entertainment",
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://dethich.pw/htv2/index.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=191"
+    ]
+  },
+  {
+    "id": "HTV4.vn@HD",
+    "name": "HTV4 (1080p)",
+    "country": "VN",
+    "categories": [
+      "education"
+    ],
+    "visible": true,
+    "urls": [
+      "https://freem3u.xyz/api/live/play.m3u8?vid=9",
+      "https://dethich.pw/htv4/index.m3u8"
+    ]
   }
 ]

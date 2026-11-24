@@ -356,18 +356,6 @@
     ]
   },
   {
-    "id": "CanalClaro.cl@SD",
-    "name": "Canal Claro (720p)",
-    "country": "CL",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8",
-      "http://190.61.90.17:40000/play/a0fv/index.m3u8",
-      "http://168.196.127.137:6001/play/a04l/index.m3u8"
-    ]
-  },
-  {
     "id": "CanalISB.cl@SD",
     "name": "Canal ISB (Iglesia San Bernardo) (720p)",
     "country": "CL",
@@ -807,18 +795,6 @@
     "visible": true,
     "urls": [
       "https://v2.tustreaming.cl/frecuencia7/index.m3u8"
-    ]
-  },
-  {
-    "id": "FunBox.cl@SD",
-    "name": "FunBox",
-    "country": "CL",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://186.148.196.100:8000/play/a00d"
     ]
   },
   {
