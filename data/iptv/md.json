@@ -231,5 +231,17 @@
       "https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8",
       "https://storage.voceabasarabiei.md/vocea/vocea.m3u8"
     ]
+  },
+  {
+    "id": "UNUTV.md@SD",
+    "name": "UNU TV (1080p)",
+    "country": "MD",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.unutv.md/hls/unutv/index.m3u8"
+    ]
   }
 ]

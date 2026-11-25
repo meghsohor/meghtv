@@ -1,16 +1,16 @@
 [
   {
     "id": "KoreanCentralTelevision.kp@HD",
-    "name": "Korean Central Television (1080p) [Not 24/7]",
+    "name": "Korean Central Television (KCTV) (1080p) [Not 24/7]",
     "country": "KP",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
-      "https://live.koryocdn.org/kctv/index.m3u8",
       "https://stream.intchoson.com/kctv/index.m3u8",
-      "https://stream.intchoson.com/kctv/main_stream.m3u8"
+      "https://stream.intchoson.com/kctv/main_stream.m3u8",
+      "https://live.koryocdn.org/kctv/index.m3u8"
     ]
   },
   {

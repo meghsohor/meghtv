@@ -822,5 +822,15 @@
     "urls": [
       "https://live-us1.thaimomo.com/live-as/chboomerang-2/chunklist_w135479847.m3u8"
     ]
+  },
+  {
+    "id": "NewTM.th@SD",
+    "name": "New TM (1080p)",
+    "country": "TH",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://vdo.plathong.net/flash7253/flash7253/playlist.m3u8"
+    ]
   }
 ]

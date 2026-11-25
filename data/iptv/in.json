@@ -9290,19 +9290,6 @@
     ]
   },
   {
-    "id": "SunTV.in@HD",
-    "name": "Sun TV HD (1080p)",
-    "country": "IN",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://d2px1d6ssc60fw.cloudfront.net/SunTV/SunTV-HDR10-IN-index.m3u8",
-      "http://103.151.60.162:2122/play/a02a/index.m3u8?hls"
-    ]
-  },
-  {
     "id": "DDAssam.in@SD",
     "name": "DD Assam (576p)",
     "country": "IN",
@@ -12040,6 +12027,222 @@
     "visible": true,
     "urls": [
       "https://online.wayanadvision.in/hls/wayanadvision.m3u8"
+    ]
+  },
+  {
+    "id": "CCTVKunnamkulam.in@SD",
+    "name": "CCTV Kunnamkulam (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://96vd9q4kyxq7-hls-live.5centscdn.com/livestream/f25aeb3e9210967d546a077de6e105e4.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "CityChannelHD.in@SD",
+    "name": "City Channel HD (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/citytv2924/index.m3u8"
+    ]
+  },
+  {
+    "id": "CityVisionKannur.in@SD",
+    "name": "City Vision Kannur (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/citykannurcity/index.m3u8"
+    ]
+  },
+  {
+    "id": "DrishyaTV.in@SD",
+    "name": "Drishya TV (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/drishya5060/index.m3u8"
+    ]
+  },
+  {
+    "id": "DrisyaTV.in@SD",
+    "name": "Drisya TV (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/drishyakarunagapally/index.m3u8"
+    ]
+  },
+  {
+    "id": "KasargodVision.in@SD",
+    "name": "Kasargod Vision (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/kasaragodvsn/index.m3u8"
+    ]
+  },
+  {
+    "id": "KCNKasargod.in@SD",
+    "name": "KCN Kasargod (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/kcnksrgod/index.m3u8"
+    ]
+  },
+  {
+    "id": "KeralaTodayTV.in@SD",
+    "name": "Kerala Today TV (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/krlatoday/index.m3u8"
+    ]
+  },
+  {
+    "id": "MalabarPlus.in@SD",
+    "name": "Malabar Plus (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cloud.logichost.in:1935/live/mplus/index.m3u8"
+    ]
+  },
+  {
+    "id": "MalappuramCableVision.in@SD",
+    "name": "Malappuram Cable Vision (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://cloud.logichost.in:1935/live/mcvlive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "NewVisionHD.in@SD",
+    "name": "New Vision HD (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/newvision2924/index.m3u8"
+    ]
+  },
+  {
+    "id": "NMMediaChannelHD.in@SD",
+    "name": "NM Media Channel HD (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/newmedia2924/index.m3u8"
+    ]
+  },
+  {
+    "id": "PeriyarVision.in@SD",
+    "name": "Periyar Vision (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.onecloudlive.in/periyarvision/periyarvision/index.m3u8"
+    ]
+  },
+  {
+    "id": "SouthVision.in@SD",
+    "name": "South Vision (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/southvsnklm/index.m3u8"
+    ]
+  },
+  {
+    "id": "Thanima.in@SD",
+    "name": "Thanima (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/thanimatvtvm/index.m3u8"
+    ]
+  },
+  {
+    "id": "UTVHD24x7.in@SD",
+    "name": "UTV HD 24x7 (1080i)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "WayanadVisionMovies.in@SD",
+    "name": "Wayanad Vision Movies (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.wayanadvision.in/hls/wvmovies.m3u8"
+    ]
+  },
+  {
+    "id": "WayanadVisionPlus.in@SD",
+    "name": "Wayanad Vision Plus (720p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://online.wayanadvision.in/hls/streaming1.m3u8"
     ]
   }
 ]

@@ -323,37 +323,40 @@
   },
   {
     "id": "101tvCadiz.es@SD",
-    "name": "101tv Cádiz (1080p)",
+    "name": "101tv Cádiz (720p) [Geo-blocked]",
     "country": "ES",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://liveingesta318.cdnmedia.tv/101weblive/smil:CADIZ.smil/playlist.m3u8",
       "https://streaming101tv.es:19360/cadiz/cadiz.m3u8"
     ]
   },
   {
     "id": "101tvMalaga.es@SD",
-    "name": "101tv Malaga",
+    "name": "101tv Malaga (720p) [Geo-blocked]",
     "country": "ES",
     "categories": [
       "news"
     ],
     "visible": true,
     "urls": [
+      "https://liveingesta318.cdnmedia.tv/101televisionlive/smil:malagaott.smil/playlist.m3u8",
       "https://liveingesta318.cdnmedia.tv/101weblive/smil:malaga.smil/playlist.m3u8"
     ]
   },
   {
     "id": "101tvSevilla.es@SD",
-    "name": "101tv Sevilla",
+    "name": "101tv Sevilla (720p) [Geo-blocked]",
     "country": "ES",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://liveingesta318.cdnmedia.tv/101televisionlive/smil:sevillaott.smil/playlist.m3u8",
       "https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8"
     ]
   },
@@ -1875,11 +1878,12 @@
   },
   {
     "id": "Nortevision.es@SD",
-    "name": "NORTEvisión (1080p)",
+    "name": "Nortevision (1080p)",
     "country": "ES",
     "categories": [],
     "visible": true,
     "urls": [
+      "http://amaru.dyndns.org:8870/1.m3u8",
       "http://amaru.dyndns.org:8870/0.m3u8"
     ]
   },

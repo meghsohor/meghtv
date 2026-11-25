@@ -1,29 +1,5 @@
 [
   {
-    "id": "AlvinChannelTV.az@SD",
-    "name": "Alvin Channel TV (360p) [Not 24/7]",
-    "country": "AZ",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "AnewZTV.az@SD",
-    "name": "AnewZ",
-    "country": "AZ",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8"
-    ]
-  },
-  {
     "id": "APATv.az@SD",
     "name": "APA TV HD",
     "country": "AZ",
@@ -116,18 +92,6 @@
     ]
   },
   {
-    "id": "Kanal35.az@SD",
-    "name": "Kanal 35 (720p)",
-    "country": "AZ",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://str2.yodacdn.net/kanal35/index.m3u8"
-    ]
-  },
-  {
     "id": "KanalS.az@SD",
     "name": "Kanal S",
     "country": "AZ",
@@ -164,30 +128,6 @@
     ]
   },
   {
-    "id": "MedeniyyetTV.az@SD",
-    "name": "Medeniyyet TV (1080p)",
-    "country": "AZ",
-    "categories": [
-      "culture"
-    ],
-    "visible": true,
-    "urls": [
-      "https://str.yodacdn.net/medeniyyettele/index.m3u8"
-    ]
-  },
-  {
-    "id": "NaxcivanTV.az@SD",
-    "name": "Naxcivan TV (720p)",
-    "country": "AZ",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://str2.yodacdn.net/ntv/video.m3u8"
-    ]
-  },
-  {
     "id": "VilayetTV.az@SD",
     "name": "Vilayet TV",
     "country": "AZ",
@@ -201,13 +141,14 @@
   },
   {
     "id": "XezerTV.az@SD",
-    "name": "Xezer TV",
+    "name": "Xezer TV (1080p)",
     "country": "AZ",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://xezer.tvstream.az/hls/stream/index.m3u8",
       "https://xezer.tvstream.az/hls/stream/main_stream.m3u8",
       "https://www.xezerxeber.az/stream/index.m3u8"
     ]

@@ -921,13 +921,14 @@
   },
   {
     "id": "Nickelodeon.ro@SD",
-    "name": "Nickelodeon",
+    "name": "Nickelodeon (576i)",
     "country": "RO",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://91.235.165.117:8001/play/a05z/index.m3u8",
       "http://178.76.68.60:7442/64/mpegts",
       "http://sultanios.alwaysdata.net/vavo.php?ID=181751695",
       "https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8"
@@ -935,13 +936,14 @@
   },
   {
     "id": "Nicktoons.ro@SD",
-    "name": "Nicktoons",
+    "name": "Nicktoons (576p)",
     "country": "RO",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://91.235.165.117:8001/play/a061/index.m3u8",
       "http://178.76.68.60:7442/80/mpegts",
       "https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8"
     ]
@@ -1380,13 +1382,14 @@
   },
   {
     "id": "VoyoSport1.ro@HD",
-    "name": "Voyo Sport 1 (1080i)",
+    "name": "Voyo Sport 1 (1080p)",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "http://89.45.22.101:8011/play/1/index.m3u8",
       "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8",
       "http://34.92.70.128/VOYO-SPORT-1/index.m3u8",
       "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offsetSeconds=0"
@@ -2075,13 +2078,14 @@
   },
   {
     "id": "NHLAntenaPlay.ro@SD",
-    "name": "NHL AntenaPlay (576i) [Not 24/7]",
+    "name": "NHL AntenaPlay (576p) [Not 24/7]",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://stream1.antenaplay.ro/promo/nhl-2911/chunklist.m3u8",
       "https://stream1.antenaplay.ro/promo/nhl-12-1411/chunklist.m3u8"
     ]
   },
@@ -2123,13 +2127,14 @@
   },
   {
     "id": "DigiSport4.ro@SD",
-    "name": "Digi Sport 4",
+    "name": "Digi Sport 4 (576i)",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fkuk4%2Fusergendk9g3ks42t3n-got.htm",
       "http://sultanios.alwaysdata.net/vavo.php?ID=4124538275"
     ]
   },
@@ -2303,6 +2308,160 @@
     "visible": true,
     "urls": [
       "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuk5%2Fusergen0grnd8l2y6gw-got.htm"
+    ]
+  },
+  {
+    "id": "BeautyON.ro@SD",
+    "name": "Beauty ON (576i)",
+    "country": "RO",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8002/play/bautyon_hd/index.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport2.ro@SD",
+    "name": "Digi Sport 2 (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fkuruk1.xn--okq6e.shop%2Fkuk2%2Fusergendx0ul1ltsDx9lgcdwqrnd-got.htm"
+    ]
+  },
+  {
+    "id": "DigiSport3.ro@SD",
+    "name": "Digi Sport 3 (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fkuk3%2Fusergendxt1v7slq2rnd-got.htm"
+    ]
+  },
+  {
+    "id": "FavoritTV2.ro@SD",
+    "name": "Favorit TV2 (1080i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8002/play/a00o/index.m3u8"
+    ]
+  },
+  {
+    "id": "HtMusicChannel.ro@SD",
+    "name": "H!t Music Channel (576i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a01e/index.m3u8"
+    ]
+  },
+  {
+    "id": "MusicChannel.ro@SD",
+    "name": "Music Channel SD (576i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a01u/index.m3u8"
+    ]
+  },
+  {
+    "id": "NationalTV2.ro@SD",
+    "name": "National TV2 (1080i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8002/play/a098/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport1.ro@SD",
+    "name": "Prima Sport 1 (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a07x/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport2.ro@SD",
+    "name": "Prima Sport 2 (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a07y/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport3.ro@SD",
+    "name": "Prima Sport 3 (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a07z/index.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaSport4.ro@SD",
+    "name": "Prima Sport 4 (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a080/index.m3u8"
+    ]
+  },
+  {
+    "id": "SportExtra.ro@SD",
+    "name": "Sport Extra (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a087/index.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatKino.ro@SD",
+    "name": "Viasat Kino (576i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a055/index.m3u8"
     ]
   }
 ]

@@ -519,5 +519,17 @@
     "urls": [
       "http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8"
     ]
+  },
+  {
+    "id": "NTVUAEHD.ae@SD",
+    "name": "NTV UAE HD (720p)",
+    "country": "AE",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.logichost.in/NTV/live/chunklist_w833817414.m3u8"
+    ]
   }
 ]

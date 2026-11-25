@@ -1138,15 +1138,15 @@
   },
   {
     "id": "NationalGeographicWild.tr@SD",
-    "name": "National Geographic Wild",
+    "name": "National Geographic Wild (1080p) [Geo-blocked]",
     "country": "TR",
     "categories": [
       "documentary"
     ],
     "visible": true,
     "urls": [
-      "https://nord.ayakkabiparti.lol/natgeowild/index.m3u8",
-      "https://saran-live.ercdn.net/natgeowild/index.m3u8"
+      "https://saran-live.ercdn.net/natgeowild/index.m3u8",
+      "https://nord.ayakkabiparti.lol/natgeowild/index.m3u8"
     ]
   },
   {
@@ -1698,11 +1698,12 @@
   },
   {
     "id": "TRTTurk.tr@SD",
-    "name": "TRT Türk (720p)",
+    "name": "TRT Turk (540p)",
     "country": "TR",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/trt_turk/live.livx/playlist.m3u8",
       "https://tv-trtturk.medya.trt.com.tr/master.m3u8"
     ]
   },
@@ -2402,6 +2403,30 @@
     "visible": true,
     "urls": [
       "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
+    ]
+  },
+  {
+    "id": "BiKanal.tr@SD",
+    "name": "Bi Kanal (1080p)",
+    "country": "TR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8"
+    ]
+  },
+  {
+    "id": "PatiTV.tr@SD",
+    "name": "Pati TV (1080p)",
+    "country": "TR",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8"
     ]
   }
 ]
