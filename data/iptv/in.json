@@ -892,7 +892,6 @@
     ],
     "visible": true,
     "urls": [
-      "https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/playlist.m3u8",
       "https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8",
       "http://66.102.126.10:8000/play/a01e/index.m3u8",
       "http://163.61.226.31:9981/stream/channelid/494430938?profile=pass",
@@ -902,6 +901,7 @@
       "https://mumt04.tangotv.in/m18aqlK4B4UMUSIC/index.m3u8",
       "https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8",
       "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
+      "https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/playlist.m3u8",
       "https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/720p/index.m3u8"
     ]
   },
@@ -8503,6 +8503,7 @@
     "urls": [
       "https://mumbai-edge.smartplaytv.in/HMTV/index.m3u8",
       "https://mumt04.tangotv.in/m18aqlK4HMTV/index.m3u8",
+      "https://stream.ottlive.co.in/hmtv/index.m3u8",
       "https://yuppnimresmum.akamaized.net/28072023/smil:hmtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
       "https://cdn.pishow.tv/ott/live/280/master.m3u8"
     ]
@@ -10960,7 +10961,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://server.thelegitpro.in/sadvidya/sadvidya/index.m3u8"
+      "https://server.thelegitpro.in/sadvidya/sadvidya/index.m3u8",
+      "https://stream.ottlive.co.in/sadvidya/index.m3u8"
     ]
   },
   {
@@ -11229,6 +11231,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://stream.ottlive.co.in/newsbeatkarnataka/index.m3u8",
       "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d0f1a078-3293-4f87-80ac-34cff3279b0d/index.m3u8"
     ]
   },
@@ -11630,6 +11633,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://rangdhonulive.samiulislamabhi.workers.dev/sonyMAXhd/tracks-v1a1/mono.ts.m3u8",
       "http://116.90.120.149:8000/play/a123/index.m3u8"
     ]
   },
@@ -12243,6 +12247,148 @@
     "visible": true,
     "urls": [
       "https://online.wayanadvision.in/hls/streaming1.m3u8"
+    ]
+  },
+  {
+    "id": "ABCNews.in@SD",
+    "name": "ABC News (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/abcnews/index.m3u8"
+    ]
+  },
+  {
+    "id": "CCNET.in@SD",
+    "name": "CC NET (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/ccnet7082/index.m3u8"
+    ]
+  },
+  {
+    "id": "DrisyaNewsPala.in@SD",
+    "name": "Drisya News Pala (576p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/DrisyaPala2924/index.m3u8"
+    ]
+  },
+  {
+    "id": "IN24News.in@SD",
+    "name": "IN 24 News (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/in24news/index.m3u8"
+    ]
+  },
+  {
+    "id": "K7KeralamChannel.in@SD",
+    "name": "K7 Keralam Channel (1080p)",
+    "country": "IN",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://live.skystream.in/live/keralam2742/index.m3u8"
+    ]
+  },
+  {
+    "id": "LokmatBharat.in@SD",
+    "name": "Lokmat Bharat (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/lokmatbharat/index.m3u8"
+    ]
+  },
+  {
+    "id": "NEBharat24.in@SD",
+    "name": "NE Bharat24 (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/nebharat24/index.m3u8"
+    ]
+  },
+  {
+    "id": "News21.in@SD",
+    "name": "News 21 (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/news21/index.m3u8"
+    ]
+  },
+  {
+    "id": "Pulse24.in@SD",
+    "name": "Pulse 24 (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/pulse24news/index.m3u8"
+    ]
+  },
+  {
+    "id": "SristiTV.in@SD",
+    "name": "Sristi TV (1080p)",
+    "country": "IN",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/sristitv/index.m3u8"
+    ]
+  },
+  {
+    "id": "TaraTV.in@SD",
+    "name": "Tara TV (720p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/taratv/index.m3u8"
+    ]
+  },
+  {
+    "id": "VandeBharatNews.in@SD",
+    "name": "Vande Bharat News (1080p)",
+    "country": "IN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "https://stream.ottlive.co.in/vandebharatnews/index.m3u8"
     ]
   }
 ]

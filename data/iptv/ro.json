@@ -223,7 +223,8 @@
     "categories": [],
     "visible": true,
     "urls": [
-      "http://89.38.8.130:39419"
+      "http://89.38.8.130:39419",
+      "http://91.235.165.117:8001/play/a00p/index.m3u8"
     ]
   },
   {
@@ -2462,6 +2463,102 @@
     "visible": true,
     "urls": [
       "http://91.235.165.117:8001/play/a055/index.m3u8"
+    ]
+  },
+  {
+    "id": "DigiSport1.ro@SD",
+    "name": "Digi Sport 1 (576i)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https%3A%2F%2Fkuruk1.xn--okq6e.shop%2Fkuk1%2Fusergendx419snx12kdgwqrnd.m3u8"
+    ]
+  },
+  {
+    "id": "History.ro@SD",
+    "name": "History (576i)",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a08t/index.m3u8"
+    ]
+  },
+  {
+    "id": "HoraTV.ro@SD",
+    "name": "Hora TV (576i)",
+    "country": "RO",
+    "categories": [
+      "culture"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a02f/index.m3u8"
+    ]
+  },
+  {
+    "id": "mditv.ro@SD",
+    "name": "mditv (576i) [Not 24/7]",
+    "country": "RO",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a01p/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickJr.ro@SD",
+    "name": "Nick Jr. (576i)",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a038/index.m3u8"
+    ]
+  },
+  {
+    "id": "TLC.ro@SD",
+    "name": "TLC (576i)",
+    "country": "RO",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a08f/index.m3u8"
+    ]
+  },
+  {
+    "id": "TravelMix4K.ro@SD",
+    "name": "Travel Mix 4K (576i)",
+    "country": "RO",
+    "categories": [
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a08c/index.m3u8"
+    ]
+  },
+  {
+    "id": "WarnerTV.ro@SD",
+    "name": "Warner TV (576i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://91.235.165.117:8001/play/a08h/index.m3u8"
     ]
   }
 ]

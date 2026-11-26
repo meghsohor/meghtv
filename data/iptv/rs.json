@@ -25,18 +25,6 @@
     ]
   },
   {
-    "id": "EDUTV.rs@SD",
-    "name": "EDU TV (576p) [Not 24/7]",
-    "country": "RS",
-    "categories": [
-      "education"
-    ],
-    "visible": true,
-    "urls": [
-      "https://5aa64ca8b95b8.streamlock.net:4443/edutv/edutelevizija/playlist.m3u8"
-    ]
-  },
-  {
     "id": "IDJTV.rs@SD",
     "name": "IDJTV (576p)",
     "country": "RS",
@@ -61,26 +49,6 @@
     ]
   },
   {
-    "id": "TVMarsh.rs@SD",
-    "name": "Marsh TV (720p) [Not 24/7]",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "NarodnaTV.rs@SD",
-    "name": "Narodna TV (720p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://edge8.pink.rs/narodnatv/index.m3u8"
-    ]
-  },
-  {
     "id": "Nova.rs@SD",
     "name": "Nova (1080p)",
     "country": "RS",
@@ -90,86 +58,6 @@
     "visible": true,
     "urls": [
       "https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas"
-    ]
-  },
-  {
-    "id": "Pink.rs@SD",
-    "name": "Pink (720p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://edge8.pink.rs/pinktv/index.m3u8"
-    ]
-  },
-  {
-    "id": "Prva.rs@SD",
-    "name": "Prva (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaTVHD/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaFiles.rs@SD",
-    "name": "Prva Files",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaFiles/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaKick.rs@SD",
-    "name": "Prva Kick (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaKick/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaLife.rs@SD",
-    "name": "Prva Life (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaLife/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaMax.rs@SD",
-    "name": "Prva Max (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaMax/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaPlus.rs@SD",
-    "name": "Prva Plus (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaPlus/index.m3u8"
-    ]
-  },
-  {
-    "id": "PrvaWorld.rs@SD",
-    "name": "Prva World (1080p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/PrvaWorld/index.m3u8"
     ]
   },
   {
@@ -235,60 +123,6 @@
     ]
   },
   {
-    "id": "RTS3.rs@SD",
-    "name": "RTS 3 (720p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://185.81.240.65:15000/udp/233.233.233.36:12000"
-    ]
-  },
-  {
-    "id": "RTSDrama.rs@SD",
-    "name": "RTS Drama (576p)",
-    "country": "RS",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSDrama/index.m3u8"
-    ]
-  },
-  {
-    "id": "RTSKolo.rs@SD",
-    "name": "RTS Kolo (576p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSKolo/index.m3u8"
-    ]
-  },
-  {
-    "id": "RTSMuzika.rs@SD",
-    "name": "RTS Muzika (576p)",
-    "country": "RS",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSMuzika/index.m3u8"
-    ]
-  },
-  {
-    "id": "RTSPoletarac.rs@SD",
-    "name": "RTS Poletarac (576p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSPoletarac/index.m3u8"
-    ]
-  },
-  {
     "id": "RTSSvet.rs@SD",
     "name": "RTS Svet (720p)",
     "country": "RS",
@@ -299,26 +133,6 @@
     "urls": [
       "https://webtvstream.bhtelecom.ba/rts_svet.m3u8",
       "https://de1.dstv.cx/RTSSvet/index.m3u8"
-    ]
-  },
-  {
-    "id": "RTSTrezor.rs@SD",
-    "name": "RTS Trezor (576p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSTrezor/index.m3u8"
-    ]
-  },
-  {
-    "id": "RTSZivot.rs@SD",
-    "name": "RTS Zivot (576p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://de1.dstv.cx/RTSZivot/index.m3u8"
     ]
   },
   {
@@ -410,30 +224,6 @@
     ]
   },
   {
-    "id": "TopTV.rs@SD",
-    "name": "Top TV (1080p)",
-    "country": "RS",
-    "categories": [
-      "music"
-    ],
-    "visible": true,
-    "urls": [
-      "http://82.165.71.58:8081/TopTV/live/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "BelleAmie.rs@SD",
-    "name": "TV Belle Amie (540p)",
-    "country": "RS",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "http://92.60.238.10:1935/live/belleamie/playlist.m3u8"
-    ]
-  },
-  {
     "id": "TVDugaPlus.rs@SD",
     "name": "TV Duga Plus (720p) [Not 24/7]",
     "country": "RS",
@@ -456,16 +246,6 @@
     "visible": true,
     "urls": [
       "https://vod1.laki.eu/live/hram/index.m3u8"
-    ]
-  },
-  {
-    "id": "TVKanalM.rs@SD",
-    "name": "TV Kanal M (576p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "http://176.67.210.1/hls/kanalm.m3u8"
     ]
   },
   {
@@ -530,18 +310,6 @@
     ]
   },
   {
-    "id": "ArenaSport1Premium.rs@SD",
-    "name": "Arena Sport 1 Premium (360p)",
-    "country": "RS",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vmRdlEHaaMaQAQw3LRAakpnghBMtR57sXXgLEXZF8gVD"
-    ]
-  },
-  {
     "id": "TVKragujevac.rs@SD",
     "name": "TV Kragujevac (576p)",
     "country": "RS",
@@ -551,16 +319,6 @@
     "visible": true,
     "urls": [
       "https://edge-rs-03.maksnet.tv/rtvkg/uzivo/playlist.m3u8"
-    ]
-  },
-  {
-    "id": "TVSmederevo.rs@SD",
-    "name": "TV Smederevo (360p)",
-    "country": "RS",
-    "categories": [],
-    "visible": true,
-    "urls": [
-      "https://183.giatvcdn.com/ssh101/ssh101/televizijasuper/playlist.m3u8"
     ]
   },
   {

@@ -797,5 +797,17 @@
     "urls": [
       "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8"
     ]
+  },
+  {
+    "id": "Canal13Chiquimula.gt@HD",
+    "name": "Canal 13 Chiquimula (1080p)",
+    "country": "GT",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "https://www.tl.com.gt/live.php?file=0.m3u8"
+    ]
   }
 ]

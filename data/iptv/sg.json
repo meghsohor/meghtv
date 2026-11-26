@@ -451,6 +451,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://103.148.210.190:8000/play/a14r",
       "http://103.253.74.210:7070/stream/118/index.m3u8"
     ]
   },
@@ -488,6 +489,18 @@
     "visible": true,
     "urls": [
       "https://proxy-v.rctiplus.id/live/web/rockent/index.m3u8"
+    ]
+  },
+  {
+    "id": "NickelodeonAsia.sg@Indonesia",
+    "name": "Nickelodeon Asia Indonesia (720p)",
+    "country": "SG",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://103.165.207.108:8000/play/a00v/index.m3u8"
     ]
   }
 ]

@@ -1644,7 +1644,9 @@
     "id": "RedeTVParana.br@SD",
     "name": "RedeTV! Parana (1080p)",
     "country": "BR",
-    "categories": [],
+    "categories": [
+      "general"
+    ],
     "visible": true,
     "urls": [
       "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8"

@@ -257,19 +257,6 @@
     ]
   },
   {
-    "id": "TeenNick.il@SD",
-    "name": "TeenNick (406p)",
-    "country": "IL",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "http://89.33.29.115:8080/TeenNick/index.m3u8",
-      "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2334/index.m3u8"
-    ]
-  },
-  {
     "id": "YamTichoni.il@SD",
     "name": "Yam Tichoni (1080p)",
     "country": "IL",
@@ -340,18 +327,6 @@
     "visible": true,
     "urls": [
       "https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index_2.m3u8"
-    ]
-  },
-  {
-    "id": "HealthChannel.il@SD",
-    "name": "Health Channel (1080p)",
-    "country": "IL",
-    "categories": [
-      "lifestyle"
-    ],
-    "visible": true,
-    "urls": [
-      "http://89.33.29.115:8080/Health/index.m3u8"
     ]
   },
   {

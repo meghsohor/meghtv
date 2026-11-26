@@ -154,18 +154,6 @@
     ]
   },
   {
-    "id": "AzadTV.az@SD",
-    "name": "Azad TV (1080p)",
-    "country": "AZ",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
-    ]
-  },
-  {
     "id": "AyazTV.az@HD",
     "name": "Ayaz TV HD",
     "country": "AZ",

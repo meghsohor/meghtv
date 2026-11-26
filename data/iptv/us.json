@@ -22954,13 +22954,15 @@
   },
   {
     "id": "EWTN.us@AfricaAsia",
-    "name": "EWTN Africa-Asia (720p)",
+    "name": "EWTN Africa-Asia (576p)",
     "country": "US",
     "categories": [
       "religious"
     ],
     "visible": true,
     "urls": [
+      "https://mumt05.tangotv.in/87NeALx2EWTN/index.m3u8",
+      "https://samitaorigin.tangotv.in/EWTN/SAMITAORIGIN/index.m3u8",
       "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8"
     ]
   },

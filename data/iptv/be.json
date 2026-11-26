@@ -475,5 +475,17 @@
     "urls": [
       "https://lb.iptvnetwork.net/ls28/10038/playlist.m3u8"
     ]
+  },
+  {
+    "id": "NickelodeonFlanders.be@SD",
+    "name": "Nickelodeon Flanders",
+    "country": "BE",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://93.92.17.139:9981/stream/channelid/788918401?profile=pass"
+    ]
   }
 ]
