@@ -521,6 +521,7 @@
     "urls": [
       "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8",
       "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8",
+      "http://s7.merlive.am/EURONEWS/index.m3u8",
       "http://tmptv.sunduk.tv/CH31/index.m3u8",
       "http://str2.iptvhd.ru:8080/Euronews/index.m3u8"
     ]
@@ -1416,13 +1417,14 @@
   },
   {
     "id": "Mezzo.fr@SD",
-    "name": "Mezzo",
+    "name": "Mezzo (576p)",
     "country": "FR",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Mezzo/index.m3u8",
       "http://92.180.26.103/stream/62/index.m3u8",
       "http://91.228.35.249:8001/1:0:1:422B:2F44:13E:820000:0:0:0:",
       "http://158.101.222.193:88/georgia_play.php?id=mezzo",

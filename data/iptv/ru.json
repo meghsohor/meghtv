@@ -38,6 +38,7 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8",
+      "http://s7.merlive.am/stslove/index.m3u8",
       "http://stream.mcquack.net/183/index.m3u8",
       "http://31.148.48.15/STS_Love/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
@@ -90,6 +91,7 @@
     "visible": true,
     "urls": [
       "https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8",
+      "http://s7.merlive.am/pobeda/index.m3u8",
       "https://streaming.thestream.cyou/live/43.m3u8",
       "http://94.155.93.182/POBEDA_HD/index.m3u8",
       "https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv",
@@ -109,6 +111,7 @@
       "http://s1.merlive.am/telekafe/index.m3u8",
       "https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8",
       "http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8",
+      "http://s7.merlive.am/telekafe/index.m3u8",
       "http://stream.mcquack.net/314/index.m3u8",
       "https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Telekafe/index.m3u8",
@@ -141,6 +144,7 @@
       "http://176.118.197.101/2x2/index.m3u8",
       "http://185.23.80.23:8080/2x2/index.m3u8",
       "http://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8",
+      "http://s7.merlive.am/2x2/index.m3u8",
       "https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https",
       "http://stream.mcquack.net/187/index.m3u8",
       "http://31.148.48.15/2x2/index.m3u8",
@@ -241,6 +245,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Sci-Fi/index.m3u8",
       "http://stream.mcquack.net/180/index.m3u8",
       "http://31.148.48.15/SONY_SCI_FI/index.m3u8",
       "http://116.90.120.149:8000/play/a0ao/index.m3u8"
@@ -285,6 +290,7 @@
     "urls": [
       "http://46.32.176.50/anitv/index.m3u8",
       "http://flussonic.linkintel.ru/Ani/index.m3u8",
+      "http://s7.merlive.am/Ani/index.m3u8",
       "http://stream.mcquack.net/306/index.m3u8",
       "http://31.148.48.15/Ani/index.m3u8",
       "http://str2.iptvhd.ru:8080/ani/index.m3u8"
@@ -326,6 +332,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/avto24/index.m3u8",
       "http://stream.mcquack.net/78/index.m3u8",
       "https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Avto_24/index.m3u8"
@@ -377,6 +384,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/BoxTV/index.m3u8",
       "http://stream.mcquack.net/154/index.m3u8",
       "http://31.148.48.15/Boks_TV/index.m3u8",
       "http://str2.iptvhd.ru:8080/Boks_TV/index.m3u8"
@@ -436,6 +444,7 @@
     "visible": true,
     "urls": [
       "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
+      "http://s7.merlive.am/BRIDGETV/index.m3u8",
       "http://stream.mcquack.net/320/index.m3u8",
       "http://31.148.48.15/Bridge_TV_Dance/index.m3u8"
     ]
@@ -454,13 +463,14 @@
   },
   {
     "id": "Carousel.ru@SD",
-    "name": "Carousel (576p)",
+    "name": "Carousel (1080p)",
     "country": "RU",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Karusel/index.m3u8",
       "http://31.148.5.241/kanal_8/index.m3u8",
       "http://88.212.15.50/live/test_karusel/playlist.m3u8",
       "http://flussonic.linkintel.ru/Karusel/index.m3u8",
@@ -555,6 +565,7 @@
       "http://31.148.5.241/kanal_1/index.m3u8",
       "http://45.153.24.78/1TV/index.m3u8",
       "http://178.217.49.7/1/index.m3u8",
+      "http://s7.merlive.am/pervyj/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/4.m3u8",
       "http://31.148.48.15/Pervii_kanal_HD/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8",
@@ -587,6 +598,7 @@
     "urls": [
       "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8",
       "http://flussonic.linkintel.ru/cinema/index.m3u8",
+      "http://s7.merlive.am/sinema/index.m3u8",
       "http://catchup.videoline.ru/cinema/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/cinema/index.m3u8"
     ]
@@ -614,6 +626,7 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/DaVinci/index.m3u8",
       "http://stream.mcquack.net/238/index.m3u8",
       "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
       "http://116.90.120.149:8000/play/a0s6/index.m3u8",
@@ -697,6 +710,7 @@
     "urls": [
       "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8",
       "http://88.212.15.50/live/test_dom_kino/playlist.m3u8",
+      "http://s7.merlive.am/Domkino/index.m3u8",
       "http://stream.mcquack.net/236/index.m3u8",
       "https://streaming.thestream.cyou/live/44.m3u8",
       "http://88.212.15.17/live/test_dom_kino/playlist.m3u8",
@@ -912,6 +926,7 @@
     "urls": [
       "http://31.148.5.241/kanal_16/index.m3u8",
       "http://flussonic.linkintel.ru/Pyatnica/index.m3u8",
+      "http://s7.merlive.am/Pyatnica/index.m3u8",
       "http://stream.mcquack.net/181/index.m3u8",
       "https://vod.tuva.ru/friday/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/19.m3u8",
@@ -922,13 +937,14 @@
   },
   {
     "id": "GlazamiTurista.ru@SD",
-    "name": "Glazami Turista (576i)",
+    "name": "Glazami Turista (1080p)",
     "country": "RU",
     "categories": [
       "travel"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/glazamituristahd/index.m3u8",
       "https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/Glazami_turista_HD/index.m3u8"
     ]
@@ -1034,6 +1050,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/History2/index.m3u8",
       "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Istoriya/index.m3u8",
       "http://hls127.freeott.top:8080/Istoriya/video.m3u8",
@@ -1134,6 +1151,7 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/Kinoxit/index.m3u8",
       "http://stream.mcquack.net/126/index.m3u8",
       "https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Kinohit/index.m3u8"
@@ -1148,6 +1166,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Kinokomedia/index.m3u8",
       "http://stream.mcquack.net/265/index.m3u8",
       "https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/Komediya_TV/index.m3u8"
@@ -1205,6 +1224,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Kinosemya/index.m3u8",
       "http://stream.mcquack.net/170/index.m3u8",
       "https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv"
     ]
@@ -1218,6 +1238,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Kinoseria/index.m3u8",
       "https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv",
       "http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8",
       "http://str2.iptvhd.ru:8080/Mnogo_TV/index.m3u8"
@@ -1234,6 +1255,7 @@
     "urls": [
       "https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8",
       "http://5.188.159.128:8070/kinosvidanie/index.m3u8",
+      "http://s7.merlive.am/Kinosvidanie/index.m3u8",
       "http://stream.mcquack.net/171/index.m3u8",
       "https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv"
     ]
@@ -1328,6 +1350,7 @@
     "visible": true,
     "urls": [
       "http://178.124.179.122:8080/KVN-TV/index.m3u8",
+      "http://s7.merlive.am/kvntv/index.m3u8",
       "https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/KVN_TV/index.m3u8",
       "http://str2.iptvhd.ru:8080/KVN_TV/index.m3u8"
@@ -1368,6 +1391,7 @@
     "visible": true,
     "urls": [
       "http://flussonic.linkintel.ru/mama/index.m3u8",
+      "http://s7.merlive.am/mama/index.m3u8",
       "http://stream.mcquack.net/79/index.m3u8",
       "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8",
       "http://31.148.48.15/Mama/index.m3u8",
@@ -1426,6 +1450,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/matchstrana/index.m3u8",
       "http://stream.mcquack.net/143/index.m3u8",
       "http://ukr.ukrainske.tv/134/keytvainua/video.m3u8",
       "http://31.148.48.15/Match_Strana/index.m3u8",
@@ -1460,6 +1485,7 @@
     "visible": true,
     "urls": [
       "http://46.32.176.50/mcmtop/index.m3u8",
+      "http://s7.merlive.am/vipserial/index.m3u8",
       "http://str2.iptvhd.ru:8080/MCM/index.m3u8"
     ]
   },
@@ -1474,6 +1500,7 @@
     "urls": [
       "https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8",
       "http://5.188.159.128:8070/mir_24/index.m3u8",
+      "http://s7.merlive.am/Mir24/index.m3u8",
       "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
       "http://31.148.48.15/Mir_24/index.m3u8",
       "http://str2.iptvhd.ru:8080/mir_24/index.m3u8"
@@ -1528,6 +1555,7 @@
     "visible": true,
     "urls": [
       "http://31.222.235.15/mosfilm/index.m3u8",
+      "http://s7.merlive.am/mosfilm/index.m3u8",
       "http://stream.mcquack.net/369/index.m3u8",
       "https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv",
       "http://hls127.freeott.top:8080/Mosfilm/video.m3u8"
@@ -1642,6 +1670,7 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/Multilandia/index.m3u8",
       "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
       "http://31.148.48.15/Multilandiya/index.m3u8",
       "http://str2.iptvhd.ru:8080/Multimaniya/index.m3u8"
@@ -1660,6 +1689,7 @@
       "http://31.148.5.241/kanal_20/index.m3u8",
       "http://46.32.176.50/muztv/index.m3u8",
       "http://185.71.81.6:8080/20/index.m3u8",
+      "http://s7.merlive.am/muztv/index.m3u8",
       "http://stream.mcquack.net/86/index.m3u8",
       "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv",
       "https://streaming.televizor-24-tochka.ru/live/20.m3u8",
@@ -1774,6 +1804,7 @@
     "visible": true,
     "urls": [
       "http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8",
+      "http://s7.merlive.am/NationalGeographic/index.m3u8",
       "http://stream.mcquack.net/116/index.m3u8",
       "https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/National_Geographic/index.m3u8"
@@ -1843,6 +1874,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Nickelodeon/index.m3u8",
       "http://stream.mcquack.net/443/index.m3u8",
       "http://str2.iptvhd.ru:8080/Nickelodeon/index.m3u8"
     ]
@@ -1869,6 +1901,7 @@
     "visible": true,
     "urls": [
       "http://176.118.197.101/Nostalgiya/index.m3u8",
+      "http://s7.merlive.am/Nostalgia/index.m3u8",
       "http://31.148.48.15/Nostalgiya/index.m3u8",
       "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
       "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv",
@@ -2039,6 +2072,7 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/oxotairibalka/index.m3u8",
       "http://stream.mcquack.net/155/index.m3u8"
     ]
   },
@@ -2233,6 +2267,7 @@
     "visible": true,
     "urls": [
       "http://31.148.48.15/Radost_moya/index.m3u8",
+      "http://s7.merlive.am/Radostmoya/index.m3u8",
       "https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8",
       "https://radm.mediacdn.ru/cdn/radost/playlist.m3u8"
     ]
@@ -2247,6 +2282,7 @@
     "visible": false,
     "urls": [
       "http://176.118.197.101/RBK/index.m3u8",
+      "http://s7.merlive.am/RBK/index.m3u8",
       "https://uiptv.do.am/1ufc/701293058/playlist.m3u8",
       "http://92.50.128.180/utv/1358/index.m3u8",
       "https://online-video.rbc.ru/spb/rbctv_spb.m3u8",
@@ -2299,6 +2335,7 @@
     "visible": true,
     "urls": [
       "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/rodnoekino/index.m3u8",
       "http://stream.mcquack.net/242/index.m3u8",
       "http://31.148.48.15/Rodnoe_kino/index.m3u8",
       "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
@@ -2384,6 +2421,7 @@
     "visible": true,
     "urls": [
       "http://46.53.200.153:7777/play/a00u/index.m3u8",
+      "http://s7.merlive.am/rtgtv/index.m3u8",
       "http://stream.mcquack.net/164/index.m3u8",
       "http://str2.iptvhd.ru:8080/RTG_TV/index.m3u8"
     ]
@@ -2413,6 +2451,7 @@
     "urls": [
       "https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https",
       "https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8",
+      "http://s7.merlive.am/RUTV/index.m3u8",
       "http://stream.mcquack.net/109/index.m3u8",
       "http://31.148.48.15/RU_TV/index.m3u8",
       "https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv"
@@ -2608,6 +2647,7 @@
       "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8",
       "http://31.148.5.241/kanal_7/index.m3u8",
       "http://176.118.197.101/Rossiya24/index.m3u8",
+      "http://s7.merlive.am/Rossia24/index.m3u8",
       "https://stream.smotrim.ru/hls2/russia24_int/playlist_3.m3u8",
       "http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8",
       "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
@@ -2714,6 +2754,7 @@
       "http://77.232.131.211/Rossiya24/index.m3u8",
       "https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8",
       "https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
+      "https://stream.smotrim.ru/hls2/russia24_hd/playlist_5.m3u8",
       "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8"
     ]
   },
@@ -2863,6 +2904,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Sarafan/index.m3u8",
       "http://stream.mcquack.net/81/index.m3u8",
       "http://31.148.48.15/Sarafan/index.m3u8",
       "https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv",
@@ -3206,6 +3248,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/STSkids/index.m3u8",
       "http://stream.mcquack.net/197/index.m3u8",
       "http://31.148.48.15/STS_Kids_HD/index.m3u8",
       "http://hls127.freeott.top:8080/STS_Kids/video.m3u8"
@@ -3314,6 +3357,7 @@
     "urls": [
       "http://flussonic.linkintel.ru/tiji/index.m3u8",
       "http://s1.merlive.am/TiJi/index.m3u8",
+      "http://s7.merlive.am/TiJi/index.m3u8",
       "http://stream.mcquack.net/111/index.m3u8",
       "https://live-3.otcnet.ru/Tiji/index.m3u8",
       "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
@@ -3841,6 +3885,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/zoopark/index.m3u8",
       "https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8"
     ]
@@ -4589,13 +4634,14 @@
   },
   {
     "id": "Yuvelirochka.ru@SD",
-    "name": "Ювелирочка ТВ (576p)",
+    "name": "Yuvelirochka (576p)",
     "country": "RU",
     "categories": [
       "shop"
     ],
     "visible": false,
     "urls": [
+      "http://s7.merlive.am/uvelirochka/index.m3u8",
       "https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8"
     ]
   },
@@ -4670,6 +4716,7 @@
     "visible": true,
     "urls": [
       "http://178.134.1.158:8081/ntvhit/index.m3u8",
+      "http://s7.merlive.am/ntvxit/index.m3u8",
       "https://cdn.ntv.ru/th_hit/playlist.m3u8",
       "http://str2.iptvhd.ru:8080/ntv_hit/index.m3u8"
     ]
@@ -4712,6 +4759,7 @@
     "visible": true,
     "urls": [
       "http://178.134.1.158:8081/TVXXI/index.m3u8",
+      "http://s7.merlive.am/21TV/index.m3u8",
       "https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/TV-XXI/index.m3u8"
     ]
@@ -4739,6 +4787,7 @@
       "http://31.148.5.241/kanal_15/index.m3u8",
       "http://176.118.197.101/TB3/index.m3u8",
       "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+      "http://s7.merlive.am/TV3International/index.m3u8",
       "https://streaming.televizor-24-tochka.ru/live/18.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8"
     ]
@@ -4753,6 +4802,7 @@
     "visible": true,
     "urls": [
       "http://flussonic.linkintel.ru/che/index.m3u8",
+      "http://s7.merlive.am/Che/index.m3u8",
       "http://31.148.48.15/Che/index.m3u8",
       "https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8",
       "http://176.118.197.101/Che/index.m3u8",
@@ -4827,6 +4877,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/TNTMusic/index.m3u8",
       "https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8",
       "http://str2.iptvhd.ru:8080/TNT_Music/index.m3u8"
     ]
@@ -4862,6 +4913,7 @@
     "categories": [],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/tochkaotriva/index.m3u8",
       "https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv",
       "https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8"
     ]
@@ -5010,13 +5062,14 @@
   },
   {
     "id": "Kinopremyera.ru@HD",
-    "name": "Kinopremyera HD (1080p)",
+    "name": "Kinopremyera (1080p)",
     "country": "RU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Kinopremera/index.m3u8",
       "https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv",
       "http://str2.iptvhd.ru:8080/HD_Kino/index.m3u8"
     ]
@@ -5369,13 +5422,14 @@
   },
   {
     "id": "Ktoestkto.ru@SD",
-    "name": "Кто есть Кто (576p)",
+    "name": "Kto est kto (576p)",
     "country": "RU",
     "categories": [
       "education"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/ktoestkto/index.m3u8",
       "http://31.148.48.15/Kto_est_kto/index.m3u8",
       "http://str2.iptvhd.ru:8080/kto_est_kto/index.m3u8"
     ]
@@ -5449,13 +5503,14 @@
   },
   {
     "id": "A2.ru@SD",
-    "name": "Amedia 2 (576p)",
+    "name": "A2 (576p)",
     "country": "RU",
     "categories": [
       "series"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Amedia2/index.m3u8",
       "http://31.148.48.15/A2/index.m3u8",
       "http://str2.iptvhd.ru:8080/Amedia_2/index.m3u8"
     ]
@@ -6679,13 +6734,14 @@
   },
   {
     "id": "A1.ru@SD",
-    "name": "Amedia 1 (576p)",
+    "name": "A1 (576p)",
     "country": "RU",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/Amedia1/index.m3u8",
       "http://31.148.48.15/A1/index.m3u8"
     ]
   },
@@ -6788,13 +6844,14 @@
   },
   {
     "id": "o2tv.ru@SD",
-    "name": "о2тв (720p)",
+    "name": "o2tv (576p)",
     "country": "RU",
     "categories": [
       "music"
     ],
     "visible": true,
     "urls": [
+      "http://s7.merlive.am/o2tv/index.m3u8",
       "http://31.148.48.15/O2_HD/index.m3u8"
     ]
   },
@@ -6878,6 +6935,7 @@
     "visible": true,
     "urls": [
       "http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8",
+      "http://s7.merlive.am/matchpremier/index.m3u8",
       "http://192.162.64.99:5000/play/a02b/index.m3u8"
     ]
   },
@@ -6914,7 +6972,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/168/index.m3u8"
+      "http://stream.mcquack.net/168/index.m3u8",
+      "http://s7.merlive.am/tlc/index.m3u8"
     ]
   },
   {
@@ -6926,7 +6985,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/114/index.m3u8"
+      "http://stream.mcquack.net/114/index.m3u8",
+      "http://s7.merlive.am/animalplanet/index.m3u8"
     ]
   },
   {
@@ -6938,7 +6998,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://stream.mcquack.net/298/index.m3u8"
+      "http://stream.mcquack.net/298/index.m3u8",
+      "http://s7.merlive.am/FoodNetwork/index.m3u8"
     ]
   },
   {
@@ -7117,7 +7178,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://stream.smotrim.ru/hls2/russia1_plus2/playlist_5.m3u8"
+      "https://stream.smotrim.ru/hls2/russia1_plus2/playlist_5.m3u8",
+      "http://s7.merlive.am/Rossia1/index.m3u8"
     ]
   },
   {
@@ -7288,6 +7350,163 @@
     "visible": true,
     "urls": [
       "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d0f81d78600017e02c1/720p.m3u8"
+    ]
+  },
+  {
+    "id": "Detskimir.ru@SD",
+    "name": "Detski mir (576p)",
+    "country": "RU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/DetskiMir/index.m3u8"
+    ]
+  },
+  {
+    "id": "Kineko.ru@HD",
+    "name": "Kineko HD (1080p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/kineko/index.m3u8"
+    ]
+  },
+  {
+    "id": "Kinomix.ru@HD",
+    "name": "Kinomix HD (1080p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/Kinomix/index.m3u8"
+    ]
+  },
+  {
+    "id": "KlukvaTV.ru@SD",
+    "name": "Klukva TV (1080p)",
+    "country": "RU",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://klukva.mediacdn.ru/cdn/klukva/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "KTOKUDA.ru@SD",
+    "name": "KTOKUDA (576p)",
+    "country": "RU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/ktokuda/index.m3u8"
+    ]
+  },
+  {
+    "id": "Mult.ru@HD",
+    "name": "Mult HD (576p)",
+    "country": "RU",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/Mult/index.m3u8"
+    ]
+  },
+  {
+    "id": "NasheLubimoeKino.ru@SD",
+    "name": "Nashe Lubimoe Kino (576p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/lubimoekino/index.m3u8"
+    ]
+  },
+  {
+    "id": "NTVStilzhizn.ru@SD",
+    "name": "NTV Stil zhizn (576p)",
+    "country": "RU",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/ntvstil/index.m3u8"
+    ]
+  },
+  {
+    "id": "ShotTV.ru@SD",
+    "name": "Shot TV (576p)",
+    "country": "RU",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/SHOTTV/index.m3u8"
+    ]
+  },
+  {
+    "id": "TaynyGalaktiki.ru@SD",
+    "name": "Tayny Galaktiki (576p)",
+    "country": "RU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/tainigalaktiki/index.m3u8"
+    ]
+  },
+  {
+    "id": "Tochkarf.ru@HD",
+    "name": "Tochka.rf (1080p)",
+    "country": "RU",
+    "categories": [
+      "documentary",
+      "travel"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/HDLife/index.m3u8"
+    ]
+  },
+  {
+    "id": "TopSecret.ru@SD",
+    "name": "Top Secret (576p)",
+    "country": "RU",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/sovershennosekretno/index.m3u8"
+    ]
+  },
+  {
+    "id": "Zvezda.ru@Plus4",
+    "name": "Zvezda +4 (576p)",
+    "country": "RU",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/Zvezda/index.m3u8"
     ]
   }
 ]

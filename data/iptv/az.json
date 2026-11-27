@@ -1,17 +1,5 @@
 [
   {
-    "id": "APATv.az@SD",
-    "name": "APA TV HD",
-    "country": "AZ",
-    "categories": [
-      "news"
-    ],
-    "visible": true,
-    "urls": [
-      "http://stream.apa.tv/apastream/index.m3u8"
-    ]
-  },
-  {
     "id": "AyazTV.az@SD",
     "name": "Ayaz TV",
     "country": "AZ",

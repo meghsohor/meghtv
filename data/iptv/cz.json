@@ -1091,5 +1091,29 @@
     "urls": [
       "http://88.212.7.14/live/sport2_cz_avc_25p/playlist.m3u8"
     ]
+  },
+  {
+    "id": "Cinemax2.cz@Romania",
+    "name": "Cinemax 2 Romania (576i)",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/xmas2/usergendxt1v8klq6rnd.m3u8"
+    ]
+  },
+  {
+    "id": "Cinemax.cz@Romania",
+    "name": "Cinemax Romania (576i)",
+    "country": "CZ",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/xmas1/usergendx27y41s0rnd.m3u8"
+    ]
   }
 ]

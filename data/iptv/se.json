@@ -111,18 +111,6 @@
     ]
   },
   {
-    "id": "BestofTheDrewBarrymoreShow.se@DK",
-    "name": "Best of The Drew Barrymore Show",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62beb692cda2b10007d5fd76.m3u8"
-    ]
-  },
-  {
     "id": "BET.se@DK",
     "name": "BET",
     "country": "SE",
@@ -145,18 +133,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63c6a27a4faf1c0007b48f7b.m3u8"
-    ]
-  },
-  {
-    "id": "BondiRescue.se@DK",
-    "name": "Bondi Rescue (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-660d66be7bcd8600087cfee5.m3u8"
     ]
   },
   {
@@ -220,18 +196,6 @@
     ]
   },
   {
-    "id": "CarChase.se@DK",
-    "name": "Car Chase (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65a93b0607e03a000895abda.m3u8"
-    ]
-  },
-  {
     "id": "CarolineintheCity.se@DK",
     "name": "Caroline in the City",
     "country": "SE",
@@ -289,18 +253,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-693ae5660eedebc8d5db6579.m3u8"
-    ]
-  },
-  {
-    "id": "CSI.se@DK",
-    "name": "CSI",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6525419dc52b3600083db9c3.m3u8"
     ]
   },
   {
@@ -364,19 +316,6 @@
     ]
   },
   {
-    "id": "DiagnosisMurder.se@DK",
-    "name": "Diagnosis Murder",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-668bf7dd74f5ec000817e6d1.m3u8"
-    ]
-  },
-  {
     "id": "EverybodyHatesChris.se@DK",
     "name": "Everybody Hates Chris",
     "country": "SE",
@@ -410,18 +349,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c19c8c9863900007acaa57.m3u8"
-    ]
-  },
-  {
-    "id": "FamilyTies.se@DK",
-    "name": "Family Ties",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a4a3ef91d250008ac089b.m3u8"
     ]
   },
   {
@@ -473,18 +400,6 @@
     ]
   },
   {
-    "id": "Frasier.se@DK",
-    "name": "Frasier",
-    "country": "SE",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6400c095498393000878a634.m3u8"
-    ]
-  },
-  {
     "id": "GeordieShore.se@DK",
     "name": "Geordie Shore",
     "country": "SE",
@@ -509,19 +424,6 @@
     ]
   },
   {
-    "id": "HappyDays.se@DK",
-    "name": "Happy Days",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a4e29ab05240008a18625.m3u8"
-    ]
-  },
-  {
     "id": "HouseofLies.se@DK",
     "name": "House of Lies",
     "country": "SE",
@@ -531,43 +433,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-693ae62a43fe00a023e76e0d.m3u8"
-    ]
-  },
-  {
-    "id": "iCarly.se@DK",
-    "name": "iCarly",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0b9aab7facb0007913908.m3u8"
-    ]
-  },
-  {
-    "id": "JAG.se@DK",
-    "name": "JAG",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a4ab92c1d330008657ae5.m3u8"
-    ]
-  },
-  {
-    "id": "JerseyShore.se@DK",
-    "name": "Jersey Shore",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6442508e5a0cd500083edd3c.m3u8"
     ]
   },
   {
@@ -644,19 +509,6 @@
     ]
   },
   {
-    "id": "MacGyver.se@DK",
-    "name": "MacGyver",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a59742c1d33000865a797.m3u8"
-    ]
-  },
-  {
     "id": "ManwithaPlan.se@DK",
     "name": "Man with a Plan",
     "country": "SE",
@@ -679,19 +531,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c19edbf535220007075c4e.m3u8"
-    ]
-  },
-  {
-    "id": "Matlock.se@DK",
-    "name": "Matlock",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66290a779e68c20008a18cf3.m3u8"
     ]
   },
   {
@@ -732,19 +571,6 @@
     ]
   },
   {
-    "id": "MissionImpossible.se@DK",
-    "name": "Mission Impossible",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6478a9e4f77b61000817034b.m3u8"
-    ]
-  },
-  {
     "id": "Mitplastikmareridt.se@DK",
     "name": "Mit plastikmareridt",
     "country": "SE",
@@ -754,78 +580,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-643814ef479f6400086ff043.m3u8"
-    ]
-  },
-  {
-    "id": "MTVCatfish.se@DK",
-    "name": "MTV Catfish (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6177fe76691b2e000702c7fc.m3u8"
-    ]
-  },
-  {
-    "id": "MTVDating.se@DK",
-    "name": "MTV Dating (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6851407c21f49d1b9d177493.m3u8"
-    ]
-  },
-  {
-    "id": "MTVReality.se@DK",
-    "name": "MTV Reality (720p)",
-    "country": "SE",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-685137f4a1e091e16f2dd471.m3u8"
-    ]
-  },
-  {
-    "id": "MTVRidiculousness.se@DK",
-    "name": "MTV Ridiculousness (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62cd9641393d8400076f34db.m3u8"
-    ]
-  },
-  {
-    "id": "MTVTeenMom.se@DK",
-    "name": "MTV Teen Mom (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c092157e1b8b0007372a35.m3u8"
-    ]
-  },
-  {
-    "id": "NCIS.se@DK",
-    "name": "NCIS",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6319ec31c62c3f00075c90b1.m3u8"
     ]
   },
   {
@@ -853,18 +607,6 @@
     ]
   },
   {
-    "id": "NCISLosAngeles.se@DK",
-    "name": "NCIS: Los Angeles",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66fbf4d3d7de140008d41f5b.m3u8"
-    ]
-  },
-  {
     "id": "NonStopKungFu.se@DK",
     "name": "NonStop Kung Fu",
     "country": "SE",
@@ -874,18 +616,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6728d2be529ac9000830dc15.m3u8"
-    ]
-  },
-  {
-    "id": "Numbers.se@DK",
-    "name": "Numbers",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62bebb3a67307900077a7f9d.m3u8"
     ]
   },
   {
@@ -922,31 +652,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-662b71658dd8160008fc3abf.m3u8"
-    ]
-  },
-  {
-    "id": "PimpMyRide.se@DK",
-    "name": "Pimp My Ride",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c091343bf4940007803e03.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVAction.se@DK",
-    "name": "Pluto TV Action",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c095861782bd000780e0ba.m3u8"
     ]
   },
   {
@@ -1060,32 +765,6 @@
     ]
   },
   {
-    "id": "PlutoTVHorror.se@DK",
-    "name": "Pluto TV Horror",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63a1c9790cc44a0007dc8857.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVHumor.se@DK",
-    "name": "Pluto TV Humor",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0974945b45d0007aaa5ac.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVJohnWayne.se@DK",
     "name": "Pluto TV John Wayne",
     "country": "SE",
@@ -1146,18 +825,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.se@DK",
-    "name": "Pluto TV Paranormal",
-    "country": "SE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62b30beb81f89900071fc7b9.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVRomantik.se@DK",
     "name": "Pluto TV Romantik",
     "country": "SE",
@@ -1167,19 +834,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63a1c954d3897300079fcb12.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSciFi.se@DK",
-    "name": "Pluto TV Sci-Fi",
-    "country": "SE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61f9598588f86000078ee7d6.m3u8"
     ]
   },
   {
@@ -1244,19 +898,6 @@
     ]
   },
   {
-    "id": "PlutoTVTrueCrime.se@DK",
-    "name": "Pluto TV True Crime",
-    "country": "SE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c097ec8bb1830008e3f962.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVUngdomsserier.se@DK",
     "name": "Pluto TV Ungdomsserier (720p)",
     "country": "SE",
@@ -1315,19 +956,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-698ddf5a8c21a5f2d64c14a8.m3u8"
-    ]
-  },
-  {
-    "id": "Rawhide.se@DK",
-    "name": "Rawhide",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964ba787e92438c2754e924.m3u8"
     ]
   },
   {
@@ -1404,31 +1032,6 @@
     ]
   },
   {
-    "id": "SmithsonianChannelSelects.se@DK",
-    "name": "Smithsonian Channel Selects",
-    "country": "SE",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61fb988e032c0100077d5252.m3u8"
-    ]
-  },
-  {
-    "id": "SouthPark.se@DK",
-    "name": "South Park",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c098df897b9d00070375c8.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkArmageddon.se@DK",
     "name": "South Park Armageddon",
     "country": "SE",
@@ -1468,19 +1071,6 @@
     ]
   },
   {
-    "id": "SouthParkCartmanCollection.se@DK",
-    "name": "South Park: Cartman Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d87a058145cb0008265c2e.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkIntotheStars.se@DK",
     "name": "South Park: Into the Stars",
     "country": "SE",
@@ -1491,45 +1081,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-664f0eaa8ce31100088036bd.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKennyCollection.se@DK",
-    "name": "South Park: Kenny Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d879bd0d4561000805d190.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKyleCollection.se@DK",
-    "name": "South Park: Kyle Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d87a908145cb0008265c6d.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkStanCollection.se@DK",
-    "name": "South Park: Stan Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d879e266eec8000887e91b.m3u8"
     ]
   },
   {
@@ -1618,18 +1169,6 @@
     ]
   },
   {
-    "id": "TheNewDetectives.se@DK",
-    "name": "The New Detectives",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-618147d2a814250007b42916.m3u8"
-    ]
-  },
-  {
     "id": "TheTwilightZone.se@DK",
     "name": "The Twilight Zone",
     "country": "SE",
@@ -1640,19 +1179,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6512ec9f3a0d700008db4f0c.m3u8"
-    ]
-  },
-  {
-    "id": "TheWildWildWest.se@DK",
-    "name": "The Wild Wild West",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964bc3806d76f50db3e315e.m3u8"
     ]
   },
   {
@@ -1678,30 +1204,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c1a05ef30f5d0007e562f3.m3u8"
-    ]
-  },
-  {
-    "id": "Tosh0.se@DK",
-    "name": "Tosh.0",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65e977042873090008b48be9.m3u8"
-    ]
-  },
-  {
-    "id": "TotallyTurtles.se@DK",
-    "name": "Totally Turtles (720p)",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0bbd95df1da0007bed5a0.m3u8"
     ]
   },
   {
@@ -1827,18 +1329,6 @@
     ]
   },
   {
-    "id": "BestofTheDrewBarrymoreShow.se@NO",
-    "name": "Best of The Drew Barrymore Show",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-630478cfdb5a4a0007ec255e.m3u8"
-    ]
-  },
-  {
     "id": "BET.se@NO",
     "name": "BET",
     "country": "SE",
@@ -1873,18 +1363,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63c6a1c46d126a000760b91c.m3u8"
-    ]
-  },
-  {
-    "id": "BondiRescue.se@NO",
-    "name": "Bondi Rescue (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-660d67c419ca71000849a4e9.m3u8"
     ]
   },
   {
@@ -1936,18 +1414,6 @@
     ]
   },
   {
-    "id": "CarChase.se@NO",
-    "name": "Car Chase (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65a93b870c7ff50008d1ca47.m3u8"
-    ]
-  },
-  {
     "id": "CarolineintheCity.se@NO",
     "name": "Caroline in the City",
     "country": "SE",
@@ -1981,18 +1447,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c1dda0fe470d00080f85b8.m3u8"
-    ]
-  },
-  {
-    "id": "Cheers.se@NO",
-    "name": "Cheers",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63e389dcc111bc0008ee5b8c.m3u8"
     ]
   },
   {
@@ -2032,19 +1486,6 @@
     ]
   },
   {
-    "id": "DiagnosisMurder.se@NO",
-    "name": "Diagnosis Murder",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-668bf91208d5490008065ffd.m3u8"
-    ]
-  },
-  {
     "id": "EventyrligOppussing.se@NO",
     "name": "Eventyrlig Oppussing",
     "country": "SE",
@@ -2081,18 +1522,6 @@
     ]
   },
   {
-    "id": "FamilyTies.se@NO",
-    "name": "Family Ties",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a4f7bf9cc8200086877d5.m3u8"
-    ]
-  },
-  {
     "id": "GeordieShore.se@NO",
     "name": "Geordie Shore",
     "country": "SE",
@@ -2105,19 +1534,6 @@
     ]
   },
   {
-    "id": "HappyDays.se@NO",
-    "name": "Happy Days",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a508d986ad20008a456a5.m3u8"
-    ]
-  },
-  {
     "id": "HouseofLies.se@NO",
     "name": "House of Lies",
     "country": "SE",
@@ -2127,43 +1543,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-693ae65fab5959c036fa6c1e.m3u8"
-    ]
-  },
-  {
-    "id": "iCarly.se@NO",
-    "name": "iCarly",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1d9b31a9c310008f8ee57.m3u8"
-    ]
-  },
-  {
-    "id": "JAG.se@NO",
-    "name": "JAG",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a4fc753fc9700083ae79f.m3u8"
-    ]
-  },
-  {
-    "id": "JerseyShore.se@NO",
-    "name": "Jersey Shore",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-64424b21e1979c0008379681.m3u8"
     ]
   },
   {
@@ -2227,19 +1606,6 @@
     ]
   },
   {
-    "id": "MacGyver.se@NO",
-    "name": "MacGyver",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a59d483595c0008187514.m3u8"
-    ]
-  },
-  {
     "id": "ManwithaPlan.se@NO",
     "name": "Man with a Plan",
     "country": "SE",
@@ -2249,19 +1615,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6825eeeeb19ce6d4a34ebb2a.m3u8"
-    ]
-  },
-  {
-    "id": "Matlock.se@NO",
-    "name": "Matlock",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66290b7523e24f000832cc17.m3u8"
     ]
   },
   {
@@ -2289,79 +1642,6 @@
     ]
   },
   {
-    "id": "MissionImpossible.se@NO",
-    "name": "Mission Impossible",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-639b4eb4da3fda0008036f6e.m3u8"
-    ]
-  },
-  {
-    "id": "MTVCatfish.se@NO",
-    "name": "MTV Catfish",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61781a52a3638a00078fa57e.m3u8"
-    ]
-  },
-  {
-    "id": "MTVDating.se@NO",
-    "name": "MTV Dating (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-685140bd21f49d1b9d177e21.m3u8"
-    ]
-  },
-  {
-    "id": "MTVReality.se@NO",
-    "name": "MTV Reality",
-    "country": "SE",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-68513950f212bedacf8ec48f.m3u8"
-    ]
-  },
-  {
-    "id": "MTVRidiculousness.se@NO",
-    "name": "MTV Ridiculousness (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62cd9e0d10bb020007005628.m3u8"
-    ]
-  },
-  {
-    "id": "MTVTeenMom.se@NO",
-    "name": "MTV Teen Mom (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1df62b7672a0007b6c9ba.m3u8"
-    ]
-  },
-  {
     "id": "NonStopKungFu.se@NO",
     "name": "NonStop Kung Fu",
     "country": "SE",
@@ -2386,18 +1666,6 @@
     ]
   },
   {
-    "id": "Numb3rs.se@NO",
-    "name": "Numb3rs",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63dbe78051f5d000083e9249.m3u8"
-    ]
-  },
-  {
     "id": "ParadiseHotel.se@NO",
     "name": "Paradise Hotel",
     "country": "SE",
@@ -2407,31 +1675,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c1db901346480007b7c345.m3u8"
-    ]
-  },
-  {
-    "id": "PimpMyRide.se@NO",
-    "name": "Pimp My Ride",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1d6e1f5acaf0007f8381d.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVAction.se@NO",
-    "name": "Pluto TV Action",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1e270489a9c000874d209.m3u8"
     ]
   },
   {
@@ -2468,19 +1711,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-68c01b9a6bdcf3b9a64febcc.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVHorror.se@NO",
-    "name": "Pluto TV Horror",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63a19cb7847a090007f230d7.m3u8"
     ]
   },
   {
@@ -2581,19 +1811,6 @@
     ]
   },
   {
-    "id": "PlutoTVSciFi.se@NO",
-    "name": "Pluto TV Sci-Fi",
-    "country": "SE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61f957e051cca800076f2358.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVSnooker900.se@NO",
     "name": "Pluto TV Snooker 900 (720p)",
     "country": "SE",
@@ -2627,19 +1844,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c1e914bf8c520007a93ff1.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVTrueCrime.se@NO",
-    "name": "Pluto TV True Crime",
-    "country": "SE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1e51354d923000731bf78.m3u8"
     ]
   },
   {
@@ -2677,19 +1881,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-68c01785b3900870ec7480e4.m3u8"
-    ]
-  },
-  {
-    "id": "Rawhide.se@NO",
-    "name": "Rawhide",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964baa63dfd98e10945ac51.m3u8"
     ]
   },
   {
@@ -2753,19 +1944,6 @@
     ]
   },
   {
-    "id": "SouthPark.se@NO",
-    "name": "South Park",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1e88cd168ea0007068133.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkArmageddon.se@NO",
     "name": "South Park Armageddon",
     "country": "SE",
@@ -2805,19 +1983,6 @@
     ]
   },
   {
-    "id": "SouthParkCartmanCollection.se@NO",
-    "name": "South Park: Cartman Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d87fa0f7f0af0008b2358b.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkIntotheStars.se@NO",
     "name": "South Park: Into the Stars",
     "country": "SE",
@@ -2828,45 +1993,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-664f0ecc41af640008e37b43.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKennyCollection.se@NO",
-    "name": "South Park: Kenny Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d87f53ec9fda0008a5b810.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKyleCollection.se@NO",
-    "name": "South Park: Kyle Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d88004ec9fda0008a5b8b3.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkStanCollection.se@NO",
-    "name": "South Park: Stan Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d87f7a28730900088e7fbf.m3u8"
     ]
   },
   {
@@ -2967,18 +2093,6 @@
     ]
   },
   {
-    "id": "TheNewDetectives.se@NO",
-    "name": "The New Detectives",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6181511c1e13690007b143c2.m3u8"
-    ]
-  },
-  {
     "id": "TheTwilightZone.se@NO",
     "name": "The Twilight Zone",
     "country": "SE",
@@ -2989,43 +2103,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6512d3a0bdcb19000799cc82.m3u8"
-    ]
-  },
-  {
-    "id": "TheWildWildWest.se@NO",
-    "name": "The Wild Wild West",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964bca2a6c400fd418854a2.m3u8"
-    ]
-  },
-  {
-    "id": "Tosh0.se@NO",
-    "name": "Tosh.0",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65e977c48b24c8000805b9ef.m3u8"
-    ]
-  },
-  {
-    "id": "TotallyTurtles.se@NO",
-    "name": "Totally Turtles (720p)",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c1da718a80a4000704013e.m3u8"
     ]
   },
   {
@@ -3298,18 +2375,6 @@
     ]
   },
   {
-    "id": "BestofTheDrewBarrymoreShow.se@SE",
-    "name": "Best of The Drew Barrymore Show",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-630483153a21200007f1920f.m3u8"
-    ]
-  },
-  {
     "id": "BET.se@SE",
     "name": "BET",
     "country": "SE",
@@ -3319,18 +2384,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c187ef1efe1b0007571711.m3u8"
-    ]
-  },
-  {
-    "id": "BondiRescue.se@SE",
-    "name": "Bondi Rescue (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-660d67eec8311c0008b8c3f7.m3u8"
     ]
   },
   {
@@ -3392,18 +2445,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6400bf66dff38e00083f4ee8.m3u8"
-    ]
-  },
-  {
-    "id": "CarChase.se@SE",
-    "name": "Car Chase (720p)",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65a93be02fac9c00083cbac4.m3u8"
     ]
   },
   {
@@ -3479,31 +2520,6 @@
     ]
   },
   {
-    "id": "DiagnosisMurder.se@SE",
-    "name": "Diagnosis Murder",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-668bf9be0642e5000815102d.m3u8"
-    ]
-  },
-  {
-    "id": "DocMartin.se@SE",
-    "name": "Doc Martin",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62b1e5e77d15410007f798c6.m3u8"
-    ]
-  },
-  {
     "id": "EverybodyHatesChris.se@SE",
     "name": "Everybody Hates Chris",
     "country": "SE",
@@ -3525,18 +2541,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c09072a09bbe00078f5692.m3u8"
-    ]
-  },
-  {
-    "id": "FamilyTies.se@SE",
-    "name": "Family Ties",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a510d986ad20008a45874.m3u8"
     ]
   },
   {
@@ -3564,19 +2568,6 @@
     ]
   },
   {
-    "id": "HappyDays.se@SE",
-    "name": "Happy Days",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a52254d6d8f00084eacfc.m3u8"
-    ]
-  },
-  {
     "id": "Hogspanning.se@SE",
     "name": "Högspänning",
     "country": "SE",
@@ -3598,43 +2589,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-693ae6bf0ddf7d2a40b7fd35.m3u8"
-    ]
-  },
-  {
-    "id": "iCarly.se@SE",
-    "name": "iCarly",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c185049e0bde0007820039.m3u8"
-    ]
-  },
-  {
-    "id": "JAG.se@SE",
-    "name": "JAG",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-654a515f986ad20008a4593b.m3u8"
-    ]
-  },
-  {
-    "id": "JerseyShore.se@SE",
-    "name": "Jersey Shore",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-64424c1be94c380008d0a98c.m3u8"
     ]
   },
   {
@@ -3722,19 +2676,6 @@
     ]
   },
   {
-    "id": "MacGyver.se@SE",
-    "name": "MacGyver",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63a19eceb3d0eb0007439c34.m3u8"
-    ]
-  },
-  {
     "id": "ManwithaPlan.se@SE",
     "name": "Man with a Plan",
     "country": "SE",
@@ -3744,19 +2685,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6825efbb9eed174f7ffbe5b0.m3u8"
-    ]
-  },
-  {
-    "id": "Matlock.se@SE",
-    "name": "Matlock",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-66290c12801af8000850c1a9.m3u8"
     ]
   },
   {
@@ -3784,79 +2712,6 @@
     ]
   },
   {
-    "id": "MissionImpossible.se@SE",
-    "name": "Mission Impossible",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-639b4f14be012600070fe1be.m3u8"
-    ]
-  },
-  {
-    "id": "MTVCatfish.se@SE",
-    "name": "MTV Catfish (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61780d4267bf4d00077ddd73.m3u8"
-    ]
-  },
-  {
-    "id": "MTVDating.se@SE",
-    "name": "MTV Dating (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-685140f121f49d1b9d178249.m3u8"
-    ]
-  },
-  {
-    "id": "MTVReality.se@SE",
-    "name": "MTV Reality (720p)",
-    "country": "SE",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-685139b0f7d8b74b62f41c96.m3u8"
-    ]
-  },
-  {
-    "id": "MTVRidiculousness.se@SE",
-    "name": "MTV Ridiculousness (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62cda0dfddc1040008fccacc.m3u8"
-    ]
-  },
-  {
-    "id": "MTVTeenMom.se@SE",
-    "name": "MTV Teen Mom (720p)",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c09342b3a6230007a45119.m3u8"
-    ]
-  },
-  {
     "id": "NonStopKungFu.se@SE",
     "name": "NonStop Kung Fu",
     "country": "SE",
@@ -3866,18 +2721,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6728d33f030a2c0008edf4be.m3u8"
-    ]
-  },
-  {
-    "id": "Numb3rs.se@SE",
-    "name": "Numb3rs",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63dbe8a1c111bc0008dec8b8.m3u8"
     ]
   },
   {
@@ -3902,31 +2745,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-61c18e1e0cd4cc00076bc4b3.m3u8"
-    ]
-  },
-  {
-    "id": "PimpMyRide.se@SE",
-    "name": "Pimp My Ride",
-    "country": "SE",
-    "categories": [
-      "entertainment"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c09a3894aa450007814aea.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVAction.se@SE",
-    "name": "Pluto TV Action",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0b0688a80a4000703fbcb.m3u8"
     ]
   },
   {
@@ -4014,19 +2832,6 @@
     ]
   },
   {
-    "id": "PlutoTVHorror.se@SE",
-    "name": "Pluto TV Horror",
-    "country": "SE",
-    "categories": [
-      "movies",
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-63a19e1b9ab2df0007bef7a7.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVJohnWayne.se@SE",
     "name": "Pluto TV John Wayne",
     "country": "SE",
@@ -4088,18 +2893,6 @@
     ]
   },
   {
-    "id": "PlutoTVParanormal.se@SE",
-    "name": "Pluto TV Paranormal",
-    "country": "SE",
-    "categories": [
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-62b1e4189f5db20007ff03be.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVRomantik.se@SE",
     "name": "Pluto TV Romantik",
     "country": "SE",
@@ -4109,19 +2902,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-63a19da6847a090007f230da.m3u8"
-    ]
-  },
-  {
-    "id": "PlutoTVSciFi.se@SE",
-    "name": "Pluto TV Sci-Fi",
-    "country": "SE",
-    "categories": [
-      "series",
-      "movies"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61f9597e78607000074f6c2a.m3u8"
     ]
   },
   {
@@ -4173,19 +2953,6 @@
     ]
   },
   {
-    "id": "PlutoTVTrueCrime.se@SE",
-    "name": "Pluto TV True Crime",
-    "country": "SE",
-    "categories": [
-      "series",
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0b438244e50000758083b.m3u8"
-    ]
-  },
-  {
     "id": "PlutoTVUngdomsserier.se@SE",
     "name": "Pluto TV Ungdomsserier (720p)",
     "country": "SE",
@@ -4220,19 +2987,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-68c017bf337652ee75db201f.m3u8"
-    ]
-  },
-  {
-    "id": "Rawhide.se@SE",
-    "name": "Rawhide",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964bb3640c8de392514a0c6.m3u8"
     ]
   },
   {
@@ -4296,31 +3050,6 @@
     ]
   },
   {
-    "id": "SmithsonianChannelSelects.se@SE",
-    "name": "Smithsonian Channel Selects",
-    "country": "SE",
-    "categories": [
-      "documentary"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61fb9907b1b78d000717ed9f.m3u8"
-    ]
-  },
-  {
-    "id": "SouthPark.se@SE",
-    "name": "South Park",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c0b627e3ed94000793c18a.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkArmageddon.se@SE",
     "name": "South Park Armageddon",
     "country": "SE",
@@ -4360,19 +3089,6 @@
     ]
   },
   {
-    "id": "SouthParkCartmanCollection.se@SE",
-    "name": "South Park: Cartman Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d881b1332fec000833a122.m3u8"
-    ]
-  },
-  {
     "id": "SouthParkIntotheStars.se@SE",
     "name": "South Park: Into the Stars",
     "country": "SE",
@@ -4383,45 +3099,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-664f0eea0120f40008bf97d6.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKennyCollection.se@SE",
-    "name": "South Park: Kenny Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d880cea25d5e0008315b0a.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkKyleCollection.se@SE",
-    "name": "South Park: Kyle Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d882394e01740008a36768.m3u8"
-    ]
-  },
-  {
-    "id": "SouthParkStanCollection.se@SE",
-    "name": "South Park: Stan Collection",
-    "country": "SE",
-    "categories": [
-      "animation",
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65d881914e01740008a36603.m3u8"
     ]
   },
   {
@@ -4547,18 +3224,6 @@
     ]
   },
   {
-    "id": "TheNewDetectives.se@SE",
-    "name": "The New Detectives",
-    "country": "SE",
-    "categories": [
-      "series"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61814dd68a368d0007d78c53.m3u8"
-    ]
-  },
-  {
     "id": "TheTwilightZone.se@SE",
     "name": "The Twilight Zone",
     "country": "SE",
@@ -4569,43 +3234,6 @@
     "visible": true,
     "urls": [
       "https://jmp2.uk/plu-6512d6c92ce8e40008bd5c81.m3u8"
-    ]
-  },
-  {
-    "id": "TheWildWildWest.se@SE",
-    "name": "The Wild Wild West",
-    "country": "SE",
-    "categories": [
-      "series",
-      "classic"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-6964bcf9ae33e24d911d7e1c.m3u8"
-    ]
-  },
-  {
-    "id": "Tosh0.se@SE",
-    "name": "Tosh.0",
-    "country": "SE",
-    "categories": [
-      "comedy"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-65e97856ec9fda0008cb453c.m3u8"
-    ]
-  },
-  {
-    "id": "TotallyTurtles.se@SE",
-    "name": "Totally Turtles (720p)",
-    "country": "SE",
-    "categories": [
-      "kids"
-    ],
-    "visible": true,
-    "urls": [
-      "https://jmp2.uk/plu-61c185e36faf920007f04b6e.m3u8"
     ]
   },
   {

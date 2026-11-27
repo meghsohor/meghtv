@@ -3636,7 +3636,7 @@
   },
   {
     "id": "CartoonNetworkWesternEurope.uk@Portugal",
-    "name": "Cartoon Network Western Europe Portugal (576p)",
+    "name": "Cartoon Network Western Europe Portugal (1080p)",
     "country": "UK",
     "categories": [
       "animation",
@@ -3644,6 +3644,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://vavoorender-vuzs.onrender.com/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/2672740913728a31b548ec",
       "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c",
       "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2672740913728a31b548ec"
     ]
@@ -3670,6 +3671,104 @@
     "visible": true,
     "urls": [
       "https://proxy-v.rctiplus.id/live/web/bbcworld/index.m3u8"
+    ]
+  },
+  {
+    "id": "AMCEurope.uk@Romania",
+    "name": "AMC Europe Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/amece/usergenrx3oq1kr.m3u8"
+    ]
+  },
+  {
+    "id": "BBCEarth.uk@Romania",
+    "name": "BBC Earth Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/ert/usergenrx8ofzq1kr.m3u8"
+    ]
+  },
+  {
+    "id": "BBCFirst.uk@Romania",
+    "name": "BBC First Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/bibi1/usergendxn09l2s6cek.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@Romania",
+    "name": "Cartoon Network CEE Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/cartun/usergenrx2xfzol0q.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonNetworkCEE.uk@Russia",
+    "name": "Cartoon Network CEE Russia (576p)",
+    "country": "UK",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://s7.merlive.am/CartoonNetwork/index.m3u8"
+    ]
+  },
+  {
+    "id": "CartoonitoCEE.uk@Romania",
+    "name": "Cartoonito CEE Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/bomer/usergenrx2c86jey.m3u8"
+    ]
+  },
+  {
+    "id": "CBeebiesAsia.uk@Vietnam",
+    "name": "CBeebies Asia Vietnam (720p)",
+    "country": "UK",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.3.200:11122"
+    ]
+  },
+  {
+    "id": "ViasatEpicDrama.uk@Romania",
+    "name": "Viasat Epic Drama Romania (576i)",
+    "country": "UK",
+    "categories": [
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/epi/usergendxt1v8klq6rnd.m3u8"
     ]
   }
 ]

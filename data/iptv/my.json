@@ -97,5 +97,17 @@
       "https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2",
       "https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d"
     ]
+  },
+  {
+    "id": "CinemaWorld.my@Vietnam",
+    "name": "CinemaWorld Vietnam (720p)",
+    "country": "MY",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.44:8244"
+    ]
   }
 ]

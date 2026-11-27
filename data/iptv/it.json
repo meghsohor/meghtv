@@ -3562,18 +3562,6 @@
     ]
   },
   {
-    "id": "RaiSport.it@SD",
-    "name": "Rai Sport",
-    "country": "IT",
-    "categories": [
-      "sports"
-    ],
-    "visible": true,
-    "urls": [
-      "http://sultanios.alwaysdata.net/vavo.php?ID=843891896"
-    ]
-  },
-  {
     "id": "Rai1.it@HD",
     "name": "Rai 1 HD (1080p)",
     "country": "IT",

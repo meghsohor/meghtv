@@ -2100,5 +2100,17 @@
     "urls": [
       "https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8"
     ]
+  },
+  {
+    "id": "ShuozhouNewsComprehensiveChannel.cn@SD",
+    "name": "Shuozhou News Comprehensive Channel",
+    "country": "CN",
+    "categories": [
+      "news"
+    ],
+    "visible": true,
+    "urls": [
+      "rtmp://124.167.237.85:9935/live/xwzh2_sb"
+    ]
   }
 ]

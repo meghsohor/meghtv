@@ -910,13 +910,14 @@
   },
   {
     "id": "DisneyChannel.ro@SD",
-    "name": "Disney Channel",
+    "name": "Disney Channel (576i)",
     "country": "RO",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://galandriel1.thobias001.cfd/dysnee/usergendx0k2rnd.m3u8",
       "https://galandriel1.thobias11.cfd/dysnee/usergendx0k2rnd.m3u8"
     ]
   },
@@ -951,7 +952,7 @@
   },
   {
     "id": "TVPaprika.ro@SD",
-    "name": "TV Paprika",
+    "name": "TV Paprika (576i)",
     "country": "RO",
     "categories": [
       "lifestyle",
@@ -959,6 +960,7 @@
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://galandriel1.thobias001.cfd/papi/usergendxs3jk0s9nd.m3u8",
       "https://galandriel1.thobias11.cfd/papi/usergendxs3jk0s9nd.m3u8"
     ]
   },
@@ -989,13 +991,14 @@
   },
   {
     "id": "DisneyJunior.ro@SD",
-    "name": "Disney Junior",
+    "name": "Disney Junior (576i)",
     "country": "RO",
     "categories": [
       "kids"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/disjr/usergendxvoq4rnd.m3u8",
       "https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8"
     ]
   },
@@ -1910,13 +1913,14 @@
   },
   {
     "id": "Chefilacutite.ro@SD",
-    "name": "Chefi la cutite (576i)",
+    "name": "Chefi la cutite (576p)",
     "country": "RO",
     "categories": [
       "cooking"
     ],
     "visible": true,
     "urls": [
+      "https://live77cdn2.antenaplay.ro/live2_sport05/live2_sport05.m3u8",
       "https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8"
     ]
   },
@@ -2007,13 +2011,14 @@
   },
   {
     "id": "DiscoveryChannel.ro@SD",
-    "name": "Discovery Channel",
+    "name": "Discovery Channel (576i)",
     "country": "RO",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/disco/usergenrxljmx9su.m3u8",
       "http://92.180.26.103/stream/28/index.m3u8",
       "http://92.180.26.103:80/stream/28/index.m3u8"
     ]
@@ -2192,13 +2197,14 @@
   },
   {
     "id": "Formula2AntenaPlay.ro@SD",
-    "name": "Formula 2 AntenaPlay (576i) [Not 24/7]",
+    "name": "Formula 2 AntenaPlay (576p) [Not 24/7]",
     "country": "RO",
     "categories": [
       "sports"
     ],
     "visible": true,
     "urls": [
+      "https://stream1.antenaplay.ro/promo/formula-2-qatar-27-2911/chunklist.m3u8",
       "https://stream1.antenaplay.ro/promo/formula-2-qatar/chunklist.m3u8"
     ]
   },
@@ -2462,7 +2468,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://91.235.165.117:8001/play/a055/index.m3u8"
+      "http://91.235.165.117:8001/play/a055/index.m3u8",
+      "https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/tivi10/usergenrxs4f7zc.m3u8"
     ]
   },
   {
@@ -2559,6 +2566,209 @@
     "visible": true,
     "urls": [
       "http://91.235.165.117:8001/play/a08h/index.m3u8"
+    ]
+  },
+  {
+    "id": "BalcanMusicTV.ro@HD",
+    "name": "Balcan Music TV (1080i)",
+    "country": "RO",
+    "categories": [
+      "music"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/balkmus/usergenko4x0g.m3u8"
+    ]
+  },
+  {
+    "id": "ComedyCentral.ro@SD",
+    "name": "Comedy Central (576i)",
+    "country": "RO",
+    "categories": [
+      "comedy"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/comedi/usergenrx7zo1kr.m3u8"
+    ]
+  },
+  {
+    "id": "Diva.ro@SD",
+    "name": "Diva SD (576i)",
+    "country": "RO",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/diva/usergenm48Qhxrnd.m3u8"
+    ]
+  },
+  {
+    "id": "DuckTV.ro@SD",
+    "name": "Duck TV (576i)",
+    "country": "RO",
+    "categories": [
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/duk/usergenz9ak7fxt.m3u8"
+    ]
+  },
+  {
+    "id": "FilmNow.ro@SD",
+    "name": "Film Now (576i)",
+    "country": "RO",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/df/usergendlg1ks0t2n.m3u8"
+    ]
+  },
+  {
+    "id": "HBO.ro@SD",
+    "name": "HBO (576i)",
+    "country": "RO",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/h1/usergendx172s9rnd.m3u8"
+    ]
+  },
+  {
+    "id": "HBO2.ro@SD",
+    "name": "HBO 2 (576i)",
+    "country": "RO",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/h2/usergendxn430rnd.m3u8"
+    ]
+  },
+  {
+    "id": "HBO3.ro@SD",
+    "name": "HBO 3 (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://galandriel1.thobias001.cfd/h3/usergendx3kdg4rnd.m3u8"
+    ]
+  },
+  {
+    "id": "HGTV.ro@SD",
+    "name": "HGTV (576i)",
+    "country": "RO",
+    "categories": [
+      "lifestyle"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://thor1.syndula001.cfd/hgtivi/usergenx3kly4rnd.m3u8"
+    ]
+  },
+  {
+    "id": "Minimax.ro@SD",
+    "name": "Minimax (576i)",
+    "country": "RO",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/minimaxy/usergendxny9zrnd.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographic.ro@SD",
+    "name": "National Geographic (576i)",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://onyx1.mofta001.cfd/ngeo/usergenrnd84oeigt.m3u8"
+    ]
+  },
+  {
+    "id": "NationalGeographicWild.ro@HD",
+    "name": "National Geographic Wild HD (1080i)",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://flash1.bogulus1.cfd/wild/usergenr9qsi5gt.m3u8"
+    ]
+  },
+  {
+    "id": "PrimaPPV3.ro@SD",
+    "name": "Prima PPV 3 (576p)",
+    "country": "RO",
+    "categories": [
+      "sports"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://pulse1.sanseny001.shop/puki2/usergendxpk2s6utg0l.m3u8"
+    ]
+  },
+  {
+    "id": "UTV.ro@SD",
+    "name": "UTV (576i)",
+    "country": "RO",
+    "categories": [],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/utivi/usergenck9astrnd.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatExplore.ro@SD",
+    "name": "Viasat Explore",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vexplr/usergenrnd7ke5lgt.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatHistory.ro@SD",
+    "name": "Viasat History (576i)",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vhis/usergenrnd4v6g8eigt.m3u8"
+    ]
+  },
+  {
+    "id": "ViasatNature.ro@SD",
+    "name": "Viasat Nature (576i)",
+    "country": "RO",
+    "categories": [
+      "documentary"
+    ],
+    "visible": true,
+    "urls": [
+      "https://rundle.tv/proxy5.php?src=https://arwen1.panaka001.cfd/vnature/usergenrnd2g9eqk.m3u8"
     ]
   }
 ]

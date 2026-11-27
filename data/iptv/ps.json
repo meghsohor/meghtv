@@ -245,7 +245,8 @@
     ],
     "visible": true,
     "urls": [
-      "https://e.siar.us/live/ozfest.m3u8"
+      "https://e.siar.us/live/ozfest.m3u8",
+      "https://video11.logicahost.com.br/ozfest/ozfest/playlist.m3u8"
     ]
   }
 ]

@@ -1676,25 +1676,27 @@
   },
   {
     "id": "AXNSpin.hu@SD",
-    "name": "AXN Spin",
+    "name": "AXN Spin (576i)",
     "country": "HU",
     "categories": [
       "entertainment"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8",
       "https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8"
     ]
   },
   {
     "id": "FilmCafe.hu@Romania",
-    "name": "Film Cafe Romania",
+    "name": "Film Cafe Romania (576i)",
     "country": "HU",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "https://rundle.tv/proxy5.php?src=https://atlantida1.aquax001.shop/cofyfilm/usergendxn8lzrnd.m3u8",
       "https://atlantida1.aquax1.cfd/cofyfilm/usergendxn8lzrnd.m3u8"
     ]
   },

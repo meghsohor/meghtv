@@ -273,13 +273,14 @@
   },
   {
     "id": "HBOAsia.sg@SD",
-    "name": "HBO Asia SD (720p) [Geo-blocked]",
+    "name": "HBO Asia SD (576p)",
     "country": "SG",
     "categories": [
       "movies"
     ],
     "visible": true,
     "urls": [
+      "http://103.148.210.190:8000/play/a0s8/index.m3u8",
       "https://tinyurl.com/yn3d3rmd"
     ]
   },
@@ -321,7 +322,7 @@
   },
   {
     "id": "AXNAsia.sg@Indonesia",
-    "name": "AXN Asia Indonesia",
+    "name": "AXN Asia Indonesia (720p)",
     "country": "SG",
     "categories": [
       "movies",
@@ -329,6 +330,7 @@
     ],
     "visible": true,
     "urls": [
+      "http://103.165.207.108:8000/play/a00n/index.m3u8",
       "http://202.150.165.66:8088/play/301-AXN/index.m3u8"
     ]
   },
@@ -501,6 +503,68 @@
     "visible": true,
     "urls": [
       "http://103.165.207.108:8000/play/a00v/index.m3u8"
+    ]
+  },
+  {
+    "id": "AXNAsia.sg@Vietnam",
+    "name": "AXN Asia Vietnam (720p)",
+    "country": "SG",
+    "categories": [
+      "movies",
+      "series"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.14:8058"
+    ]
+  },
+  {
+    "id": "CartoonNetworkAsia.sg@Vietnam",
+    "name": "Cartoon Network Asia Vietnam (720p)",
+    "country": "SG",
+    "categories": [
+      "animation",
+      "kids"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.16:8070"
+    ]
+  },
+  {
+    "id": "CinemaxAsia.sg@Vietnam",
+    "name": "Cinemax Asia Vietnam (720p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.20:8094"
+    ]
+  },
+  {
+    "id": "DiscoveryChannelSoutheastAsia.sg@SD",
+    "name": "Discovery Channel Southeast Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "entertainment"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.47:8262"
+    ]
+  },
+  {
+    "id": "HBOAsia.sg@Vietnam",
+    "name": "HBO Asia (720p)",
+    "country": "SG",
+    "categories": [
+      "movies"
+    ],
+    "visible": true,
+    "urls": [
+      "http://antm.dynu.net:14285/rtp/232.84.1.19:8088"
     ]
   }
 ]

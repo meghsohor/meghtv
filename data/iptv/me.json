@@ -1,17 +1,5 @@
 [
   {
-    "id": "RadiotelevizijaRozaje.me@SD",
-    "name": "Radio televizija Rožaje (614p) [Not 24/7]",
-    "country": "ME",
-    "categories": [
-      "general"
-    ],
-    "visible": true,
-    "urls": [
-      "https://glb.bozztv.com/glb/ssh101/tvrozaje/index.m3u8"
-    ]
-  },
-  {
     "id": "TVCG3.me@SD",
     "name": "TVCG 3 (1080p) [Geo-blocked]",
     "country": "ME",

@@ -741,11 +741,12 @@
   },
   {
     "id": "VosTV.bo@SD",
-    "name": "Vos TV (720p)",
+    "name": "Vos TV (1080p)",
     "country": "BO",
     "categories": [],
     "visible": true,
     "urls": [
+      "https://edge.enhdtv.com/vostv/index.m3u8",
       "http://15.204.246.24:8080/VOSTVHD/index.m3u8",
       "http://190.181.61.93:8000/play/a00a/index.m3u8",
       "https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8"
@@ -881,7 +882,8 @@
     ],
     "visible": true,
     "urls": [
-      "http://190.181.61.93:8000/play/a00g/index.m3u8"
+      "http://190.181.61.93:8000/play/a00g/index.m3u8",
+      "https://edge.enhdtv.com/asiestv/index.m3u8"
     ]
   },
   {
@@ -1028,13 +1030,14 @@
   },
   {
     "id": "SigloXXITV.bo@SD",
-    "name": "Siglo XXI TV (576p)",
+    "name": "Siglo XXI TV (720p)",
     "country": "BO",
     "categories": [
       "general"
     ],
     "visible": true,
     "urls": [
+      "https://edge.enhdtv.com/sigloxxi/index.m3u8",
       "http://190.181.61.93:8000/play/a00b/index.m3u8"
     ]
   },
